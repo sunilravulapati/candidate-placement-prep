@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Interview Helper</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <!-- Navbar -->
+    <nav class="bg-blue-600 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-code text-2xl"></i>
+                <span class="text-xl font-bold">TechInterviewHelper</span>
+            </div>
+            <div class="flex space-x-4">
+                <a href="#" class="hover:bg-blue-500 px-3 py-2 rounded-md">Dashboard</a>
+                <a href="#" class="hover:bg-blue-500 px-3 py-2 rounded-md">Questions</a>
+                <a href="#" class="hover:bg-blue-500 px-3 py-2 rounded-md">Progress</a>
+            </div>
+            <div>
+                <button class="bg-blue-500 hover:bg-blue-400 px-4 py-2 rounded-md">Sign In</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-4 py-8">
+        <!-- Dashboard Header -->
+        <div class="mb-8">
+            <h1 class="text-3xl font-bold text-gray-800">Interview Preparation Dashboard</h1>
+            <p class="text-gray-600">Practice technical questions and track your progress</p>
+        </div>
+
+        <!-- Stats Section -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+            <div class="bg-white rounded-lg shadow p-6">
+                <div class="flex justify-between items-center">
+                    <div>
+                        <p class="text-gray-600">Total Questions</p>
+                        <h2 class="text-3xl font-bold text-gray-800">127</h2>
+                    </div>
+                    <div class="bg-blue-100 p-3 rounded-full">
+                        <i class="fas fa-question-circle text-blue-600 text-xl"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow p-6">
+                <div class="flex justify-between items-center">
+                    <div>
+                        <p class="text-gray-600">Completed</p>
+                        <h2 class="text-3xl font-bold text-gray-800">42</h2>
+                    </div>
+                    <div class="bg-green-100 p-3 rounded-full">
+                        <i class="fas fa-check-circle text-green-600 text-xl"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow p-6">
+                <div class="flex justify-between items-center">
+                    <div>
+                        <p class="text-gray-600">To Review</p>
+                        <h2 class="text-3xl font-bold text-gray-800">18</h2>
+                    </div>
+                    <div class="bg-yellow-100 p-3 rounded-full">
+                        <i class="fas fa-exclamation-circle text-yellow-600 text-xl"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow p-6">
+                <div class="flex justify-between items-center">
+                    <div>
+                        <p class="text-gray-600">Mastery Score</p>
+                        <h2 class="text-3xl font-bold text-gray-800">67%</h2>
+                    </div>
+                    <div class="bg-purple-100 p-3 rounded-full">
+                        <i class="fas fa-chart-line text-purple-600 text-xl"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex flex-col lg:flex-row gap-8">
+            <!-- Left Column -->
+            <div class="w-full lg:w-2/3">
+                <!-- Filter Bar -->
+                <div class="bg-white rounded-lg shadow p-6 mb-6">
+                    <h2 class="text-xl font-bold text-gray-800 mb-4">Filter Questions</h2>
+                    <div class="flex flex-wrap gap-4">
+                        <select class="bg-gray-100 border-0 rounded-md px-4 py-2">
+                            <option>All Categories</option>
+                            <option>JavaScript</option>
+                            <option>React</option>
+                            <option>Node.js</option>
+                            <option>CSS</option>
+                            <option>Algorithms</option>
+                        </select>
+                        <select class="bg-gray-100 border-0 rounded-md px-4 py-2">
+                            <option>All Difficulty</option>
+                            <option>Easy</option>
+                            <option>Medium</option>
+                            <option>Hard</option>
+                        </select>
+                        <select class="bg-gray-100 border-0 rounded-md px-4 py-2">
+                            <option>All Status</option>
+                            <option>Not Started</option>
+                            <option>In Progress</option>
+                            <option>Completed</option>
+                        </select>
+                        <button class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-500">
+                            Apply Filters
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Questions List -->
+                <div>
+                    <h2 class="text-xl font-bold text-gray-800 mb-4">Practice Questions</h2>
+                    
+                    <!-- Question Card -->
+                    <div class="bg-white rounded-lg shadow mb-6">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <span class="inline-block px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full mb-2">Easy</span>
+                                    <h3 class="text-lg font-bold text-gray-800">Reverse a String</h3>
+                                    <p class="text-gray-600">Write a function that reverses a string without using the built-in reverse() method.</p>
+                                </div>
+                                <div class="flex space-x-2">
+                                    <button class="text-blue-600 hover:text-blue-800">
+                                        <i class="fas fa-play-circle text-xl"></i>
+                                    </button>
+                                    <button class="text-gray-500 hover:text-gray-800">
+                                        <i class="fas fa-bookmark text-xl"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 px-6 py-4 rounded-b-lg flex justify-between items-center">
+                            <div class="flex space-x-4">
+                                <span class="text-sm text-gray-600"><i class="far fa-clock mr-1"></i> 15 min</span>
+                                <span class="text-sm text-gray-600"><i class="far fa-question-circle mr-1"></i> JavaScript</span>
+                            </div>
+                            <button class="bg-blue-600 text-white px-4 py-2 rounded-md text-sm hover:bg-blue-500">
+                                Start Practice
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Question Card -->
+                    <div class="bg-white rounded-lg shadow mb-6">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <span class="inline-block px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full mb-2">Medium</span>
+                                    <h3 class="text-lg font-bold text-gray-800">React Component Lifecycle</h3>
+                                    <p class="text-gray-600">Explain the React component lifecycle methods and their use cases.</p>
+                                </div>
+                                <div class="flex space-x-2">
+                                    <button class="text-blue-600 hover:text-blue-800">
+                                        <i class="fas fa-play-circle text-xl"></i>
+                                    </button>
+                                    <button class="text-blue-600 hover:text-blue-800">
+                                        <i class="fas fa-bookmark text-xl"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 px-6 py-4 rounded-b-lg flex justify-between items-center">
+                            <div class="flex space-x-4">
+                                <span class="text-sm text-gray-600"><i class="far fa-clock mr-1"></i> 20 min</span>
+                                <span class="text-sm text-gray-600"><i class="far fa-question-circle mr-1"></i> React</span>
+                            </div>
+                            <button class="bg-blue-600 text-white px-4 py-2 rounded-md text-sm hover:bg-blue-500">
+                                Start Practice
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Question Card -->
+                    <div class="bg-white rounded-lg shadow mb-6">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <span class="inline-block px-3 py-1 bg-red-100 text-red-800 text-sm rounded-full mb-2">Hard</span>
+                                    <h3 class="text-lg font-bold text-gray-800">Binary Tree Traversal</h3>
+                                    <p class="text-gray-600">Implement in-order, pre-order, and post-order traversal of a binary tree.</p>
+                                </div>
+                                <div class="flex space-x-2">
+                                    <button class="text-blue-600 hover:text-blue-800">
+                                        <i class="fas fa-play-circle text-xl"></i>
+                                    </button>
+                                    <button class="text-gray-500 hover:text-gray-800">
+                                        <i class="fas fa-bookmark text-xl"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 px-6 py-4 rounded-b-lg flex justify-between items-center">
+                            <div class="flex space-x-4">
+                                <span class="text-sm text-gray-600"><i class="far fa-clock mr-1"></i> 30 min</span>
+                                <span class="text-sm text-gray-600"><i class="far fa-question-circle mr-1"></i> Algorithms</span>
+                            </div>
+                            <button class="bg-blue-600 text-white px-4 py-2 rounded-md text-sm hover:bg-blue-500">
+                                Start Practice
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Column -->
+            <div class="w-full lg:w-1/3">
+                <!-- Progress Chart -->
+                <div class="bg-white rounded-lg shadow p-6 mb-6">
+                    <h2 class="text-xl font-bold text-gray-800 mb-4">Your Progress</h2>
+                    <div class="h-64">
+                        <canvas id="progressChart"></canvas>
+                    </div>
+                </div>
+                
+                <!-- Upcoming Interviews -->
+                <div class="bg-white rounded-lg shadow p-6">
+                    <h2 class="text-xl font-bold text-gray-800 mb-4">Upcoming Interviews</h2>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-calendar-alt text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-gray-800">Frontend Developer</h3>
+                                <p class="text-sm text-gray-600">TechCorp Inc. - June 15, 2023</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-green-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-calendar-alt text-green-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-gray-800">React Developer</h3>
+                                <p class="text-sm text-gray-600">StartUpXYZ - June 22, 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="mt-4 w-full bg-gray-100 text-gray-800 px-4 py-2 rounded-md hover:bg-gray-200">
+                        View All Interviews
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize chart
+        document.addEventListener('DOMContentLoaded', function() {
+            const ctx = document.getElementById('progressChart').getContext('2d');
+            const progressChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Completed', 'In Progress', 'Not Started'],
+                    datasets: [{
+                        data: [42, 25, 60],
+                        backgroundColor: [
+                            '#10B981',
+                            '#F59E0B',
+                            '#E5E7EB'
+                        ],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    cutout: '70%',
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+            
+            // Add interactivity to question cards
+            document.querySelectorAll('.bg-white.rounded-lg.shadow').forEach(card => {
+                card.addEventListener('mouseenter', () => {
+                    card.classList.add('shadow-md');
+                    card.classList.remove('shadow');
+                });
+                
+                card.addEventListener('mouseleave', () => {
+                    card.classList.remove('shadow-md');
+                    card.classList.add('shadow');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

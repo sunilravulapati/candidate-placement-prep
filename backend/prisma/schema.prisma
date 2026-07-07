@@ -1,0 +1,211 @@
+// prisma/schema.prisma
+
+datasource db {
+  provider = "postgresql"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id               String                 @id // Clerk User ID (e.g. user_...)
+  email            String                 @unique
+  name             String?
+  role             String                 @default("candidate") // "candidate" | "admin"
+  createdAt        DateTime               @default(now())
+  updatedAt        DateTime               @updatedAt
+  progress         UserQuestionProgress[]
+  documents        Document[]
+  resumeGroups     ResumeGroup[]
+  resumes          Resume[]
+  jobDescriptions  JobDescription[]
+  interviews       MockInterview[]
+}
+
+model Question {
+  id           Int                    @id @default(autoincrement())
+  title        String
+  description  String
+  category     String                 // e.g. "JavaScript", "React", "Node.js", "CSS", "Algorithms"
+  difficulty   String                 // "easy" | "medium" | "hard"
+  timeEstimate Int                    // in minutes
+  topic        String?                // e.g. "Arrays", "Strings", "Trees", "State Management"
+  companies    String[]               // e.g. ["Google", "Meta", "Amazon"]
+  solutionStub String?                // code stub for initial editor code
+  createdAt    DateTime               @default(now())
+  progress     UserQuestionProgress[]
+}
+
+model UserQuestionProgress {
+  id         String   @id @default(uuid())
+  userId     String
+  questionId Int
+  status     String   @default("not_started") // "not_started" | "in_progress" | "completed"
+  code       String?  // user's coding workspace code
+  notes      String?  // personal workspace notes
+  isRevision Boolean  @default(false)
+  updatedAt  DateTime @updatedAt
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, questionId])
+}
+
+model Document {
+  id           String   @id @default(uuid())
+  ownerId      String
+  provider     String   // e.g. "CLOUDINARY"
+  publicId     String
+  secureUrl    String
+  resourceType String
+  mimeType     String
+  fileSize     Int
+  fileHash     String?
+  status       String   @default("ACTIVE") // "ACTIVE" | "ARCHIVED" | "DELETED"
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  owner        User     @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  resumes      Resume[]
+  jobDescriptions JobDescription[]
+}
+
+model ResumeGroup {
+  id        String   @id @default(uuid())
+  userId    String
+  name      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  resumes   Resume[]
+}
+
+model Resume {
+  id                String   @id @default(uuid())
+  userId            String
+  groupId           String
+  documentId        String?
+  version           Int      @default(1)
+  atsScore          Int?
+  feedback          String?
+  jdText            String?  // Job description matching criteria (optional)
+  canonicalJson     Json?    // The structured Resume JSON representation
+  generationMetadata Json?   // Tailoring Session ID, Model, Timestamp for version tracking
+  status            String   @default("ACTIVE") // "ACTIVE" | "ARCHIVED" | "DELETED"
+  createdAt         DateTime @default(now())
+  
+  user       User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  group      ResumeGroup @relation(fields: [groupId], references: [id], onDelete: Cascade)
+  document   Document?   @relation(fields: [documentId], references: [id], onDelete: SetNull)
+  analyses   ResumeAnalysis[]
+  runs       AnalysisRun[]
+  tailoringSessions TailoringSession[]
+}
+
+model JobDescription {
+  id             String   @id @default(uuid())
+  userId         String
+  documentId     String?
+  originalText   String?
+  status         String   @default("ACTIVE") // "ACTIVE" | "ARCHIVED" | "DELETED"
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  document       Document? @relation(fields: [documentId], references: [id], onDelete: SetNull)
+  analysis       JobDescriptionAnalysis?
+  tailoringSessions TailoringSession[]
+}
+
+model ResumeAnalysis {
+  id                 String          @id @default(uuid())
+  resumeId           String
+  overallScore       Int
+  atsScore           Int
+  semanticScore      Int
+  analysis           Json            // Complete raw AI response (strengths, improvements, summary, scores)
+  processingTime     Int             // milliseconds
+  promptVersion      String
+  modelUsed          String
+  warnings           String[]
+  preservationScore  Int
+  createdAt          DateTime        @default(now())
+  resume             Resume          @relation(fields: [resumeId], references: [id], onDelete: Cascade)
+  runs               AnalysisRun[]
+}
+
+model AnalysisRun {
+  id               String          @id @default(uuid())
+  analysisId       String?
+  resumeId         String
+  status           String          // "SUCCESS" | "FAILED"
+  latency          Int             // milliseconds
+  error            String?
+  retryCount       Int             @default(0)
+  tokensUsed       Int?
+  modelUsed        String
+  createdAt        DateTime        @default(now())
+  analysis         ResumeAnalysis? @relation(fields: [analysisId], references: [id], onDelete: SetNull)
+  resume           Resume          @relation(fields: [resumeId], references: [id], onDelete: Cascade)
+}
+
+model MockInterview {
+  id         String   @id @default(uuid())
+  userId     String
+  type       String   // "HR" | "Technical" | "DSA" | "Resume"
+  status     String   @default("COMPLETED") // "IN_PROGRESS" | "COMPLETED"
+  score      Int?
+  transcript Json?    // JSON array of questions, responses, and metrics
+  feedback   String?
+  createdAt  DateTime @default(now())
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model PlacementDrive {
+  id               String   @id @default(uuid())
+  companyName      String
+  driveDate        DateTime
+  role             String
+  eligibility      String?
+  status           String   @default("UPCOMING") // "UPCOMING" | "ONGOING" | "COMPLETED"
+  registrationLink String?
+  createdAt        DateTime @default(now())
+}
+
+model JobDescriptionAnalysis {
+  id               String         @id @default(uuid())
+  jobDescriptionId String         @unique
+  role             String?
+  company          String?
+  responsibilities String[]
+  requiredSkills   String[]
+  preferredSkills  String[]
+  experience       String?
+  education        String?
+  technologies     String[]
+  softSkills       String[]
+  keywords         String[]
+  createdAt        DateTime       @default(now())
+
+  jobDescription   JobDescription @relation(fields: [jobDescriptionId], references: [id], onDelete: Cascade)
+}
+
+model TailoringSession {
+  id                 String         @id @default(uuid())
+  resumeId           String
+  jobDescriptionId   String
+  generatedResumeId  String?        // Placeholder for future generated resume
+  matchScore         Int
+  atsScore           Int
+  keywordCoverage    Int
+  matchDetails       Json?          // Stores all granular sub-scores
+  missingSkills      Json           // Array of strings or objects
+  matchingSkills     Json           // Array of strings or objects
+  recommendations    Json           // Array of suggestion objects
+  createdAt          DateTime       @default(now())
+
+  resume             Resume         @relation(fields: [resumeId], references: [id], onDelete: Cascade)
+  jobDescription     JobDescription @relation(fields: [jobDescriptionId], references: [id], onDelete: Cascade)
+}
