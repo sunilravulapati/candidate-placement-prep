@@ -106,8 +106,14 @@ export async function generateTailoredResumeAction(
     }
   });
 
+  await prisma.tailoringSession.update({
+    where: { id: tailoringSessionId },
+    data: { generatedResumeId: newResume.id },
+  });
+
   revalidatePath('/resume-editor');
-  return { success: true, newResumeId: newResume.id };
+  revalidatePath('/resume-tailoring');
+  return { success: true, newResumeId: newResume.id, json: newJson, originalJson, version: nextVersion };
 }
 
 export async function updateResumeJsonAction(resumeId: string, newJson: any) {

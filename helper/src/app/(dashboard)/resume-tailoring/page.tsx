@@ -1,7 +1,7 @@
 'use client';
 
-import React, { useState } from 'react';
-import { Sparkles, FileText, Upload, RefreshCw, LayoutDashboard } from 'lucide-react';
+import React, { useMemo, useState } from 'react';
+import { RefreshCw, LayoutDashboard, Wand2, Loader2 } from 'lucide-react';
 import { ResumeSelector } from '../../../components/tailoring/ResumeSelector';
 import { JdSelector } from '../../../components/tailoring/JdSelector';
 import { MatchVisualization } from '../../../components/tailoring/MatchVisualization';
@@ -9,12 +9,54 @@ import { RecommendationList } from '../../../components/tailoring/Recommendation
 import { SideBySideComparison } from '../../../components/tailoring/SideBySideComparison';
 import { TailoringHistory } from '../../../components/tailoring/TailoringHistory';
 import { LoadingOverlay, LoadingPhase } from '../../../components/tailoring/LoadingOverlay';
+import { GeneratedResumePreview } from '../../../components/tailoring/GeneratedResumePreview';
 import { createTailoringSessionAction, getTailoringSessionByIdAction } from '@backend/features/resume/actions';
+import { generateTailoredResumeAction, getResumeJsonAction } from '@backend/features/resume/generatorActions';
+import { SectionHeader, Button, ErrorCard } from '@/components/ui';
+
+type RecommendationStatus = 'pending' | 'accepted' | 'rejected' | 'completed';
+
+function resumeJsonToText(resumeJson: any) {
+  if (!resumeJson) return '';
+
+  const lines: string[] = [];
+  const push = (value?: string) => {
+    if (value && String(value).trim()) lines.push(String(value).trim());
+  };
+
+  push(resumeJson.personalInfo?.fullName);
+  push(resumeJson.summary);
+
+  if (resumeJson.skills) {
+    Object.entries(resumeJson.skills).forEach(([group, values]) => {
+      if (Array.isArray(values) && values.length > 0) lines.push(`${group}: ${values.join(', ')}`);
+    });
+  }
+
+  resumeJson.experience?.forEach((item: any) => {
+    push(`${item.title || ''} ${item.company ? `at ${item.company}` : ''}`);
+    item.bullets?.forEach(push);
+  });
+
+  resumeJson.projects?.forEach((project: any) => {
+    push(project.name);
+    push(project.description);
+    if (project.technologies?.length) lines.push(project.technologies.join(', '));
+    project.bullets?.forEach(push);
+  });
+
+  resumeJson.education?.forEach((item: any) => push(`${item.institution || ''} ${item.degree || ''} ${item.fieldOfStudy || ''}`));
+  resumeJson.certifications?.forEach((item: any) => push(`${item.name || ''} ${item.issuer || ''}`));
+
+  return lines.join('\n');
+}
 
 export default function ResumeTailoringDashboard() {
   const [activeResume, setActiveResume] = useState<any>(null);
-  const [activeJdId, setActiveJdId] = useState<string | null>(null);
   const [sessionData, setSessionData] = useState<any>(null);
+  const [recommendationStatuses, setRecommendationStatuses] = useState<Record<number, RecommendationStatus>>({});
+  const [generatedResume, setGeneratedResume] = useState<{ id: string; json: any; version?: number } | null>(null);
+  const [isGeneratingResume, setIsGeneratingResume] = useState(false);
   
   const [phase, setPhase] = useState<LoadingPhase>('idle');
   const [error, setError] = useState<string | null>(null);
@@ -22,10 +64,11 @@ export default function ResumeTailoringDashboard() {
 
   const handleResumeSelect = (resume: any) => {
     setActiveResume(resume);
+    setGeneratedResume(null);
+    setRecommendationStatuses({});
   };
 
-  const handleJdAnalyzed = async (jdId: string, jdData: any) => {
-    setActiveJdId(jdId);
+  const handleJdAnalyzed = async (jdId: string) => {
     if (activeResume) {
       await runOrchestration(activeResume.id, jdId);
     }
@@ -54,12 +97,11 @@ export default function ResumeTailoringDashboard() {
       clearInterval(interval);
       setPhase('saving');
       
-      if (!res.success) throw new Error('Tailoring session failed');
+      if (!res.success || !res.session) throw new Error('Tailoring session failed');
       
-      // Load the full session data from db to ensure consistency
-      const fullSession = await getTailoringSessionByIdAction(res.sessionId);
-      
-      setSessionData(fullSession);
+      setSessionData(res.session);
+      setGeneratedResume(null);
+      setRecommendationStatuses({});
       setPhase('done');
       setView('dashboard');
     } catch (err: any) {
@@ -73,8 +115,18 @@ export default function ResumeTailoringDashboard() {
       setPhase('extracting_resume'); // Just to show loader
       const session = await getTailoringSessionByIdAction(sessionId);
       setActiveResume(session.resume);
-      setActiveJdId(session.jobDescriptionId);
       setSessionData(session);
+      if (session.generatedResumeId) {
+        const generated = await getResumeJsonAction(session.generatedResumeId);
+        setGeneratedResume({
+          id: session.generatedResumeId,
+          json: generated.json,
+          version: generated.version,
+        });
+      } else {
+        setGeneratedResume(null);
+      }
+      setRecommendationStatuses({});
       setPhase('done');
       setView('dashboard');
     } catch (err: any) {
@@ -83,48 +135,90 @@ export default function ResumeTailoringDashboard() {
     }
   };
 
+  const handleRecommendationStatus = (index: number, status: RecommendationStatus) => {
+    setRecommendationStatuses((current) => ({ ...current, [index]: status }));
+  };
+
+  const acceptedRecommendations = useMemo(() => {
+    const recommendations = sessionData?.recommendations || [];
+    const accepted = recommendations.filter((_: any, index: number) => {
+      const status = recommendationStatuses[index];
+      return status === 'accepted' || status === 'completed';
+    });
+
+    return accepted.length > 0
+      ? accepted
+      : recommendations.filter((_: any, index: number) => recommendationStatuses[index] !== 'rejected');
+  }, [recommendationStatuses, sessionData?.recommendations]);
+
+  const handleGenerateResume = async () => {
+    if (!sessionData?.id || !sessionData?.resumeId) return;
+
+    try {
+      setError(null);
+      setIsGeneratingResume(true);
+      setPhase('generating_resume');
+      const result = await generateTailoredResumeAction(sessionData.resumeId, sessionData.id, acceptedRecommendations);
+      setGeneratedResume({ id: result.newResumeId, json: result.json, version: result.version });
+      setSessionData((current: any) => current ? {
+        ...current,
+        generatedResumeId: result.newResumeId,
+        resume: { ...current.resume, canonicalJson: result.originalJson },
+      } : current);
+      setPhase('done');
+    } catch (err: any) {
+      setError(err.message || 'Failed to generate tailored resume.');
+      setPhase('done');
+    } finally {
+      setIsGeneratingResume(false);
+    }
+  };
+
+  const originalResumeText = useMemo(() => {
+    const jsonText = resumeJsonToText(sessionData?.resume?.canonicalJson);
+    return jsonText || sessionData?.resume?.jdText || 'Original resume text is not available yet. Generate once to parse the source resume JSON.';
+  }, [sessionData?.resume?.canonicalJson, sessionData?.resume?.jdText]);
+
+  const generatedResumeText = useMemo(() => resumeJsonToText(generatedResume?.json), [generatedResume?.json]);
+
   return (
-    <div className="p-8 max-w-[90rem] mx-auto space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700 relative min-h-screen">
+    <div className="page-container relative min-h-[60vh] animate-fade-in">
       <LoadingOverlay phase={phase} />
 
-      {/* Header Section */}
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-4 relative z-10 border-b border-slate-800 pb-6">
-        <div>
-          <div className="inline-flex items-center space-x-2 bg-indigo-500/10 text-indigo-400 px-3 py-1 rounded-full text-sm font-semibold mb-3 border border-indigo-500/20">
-            <Sparkles className="w-4 h-4" />
-            <span>AI Resume Intelligence</span>
-          </div>
-          <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-slate-400 tracking-tight">
-            Tailoring Dashboard
-          </h1>
-          <p className="text-slate-400 mt-2 text-sm max-w-2xl">
-            Compare your resume against job descriptions, identify critical gaps, and generate highly targeted recommendations to beat the ATS.
-          </p>
-        </div>
-        
-        <div className="flex space-x-3">
-          <button 
-            onClick={() => setView('history')}
-            className={`flex items-center space-x-2 px-4 py-2 border rounded-xl transition-colors shadow-lg ${view === 'history' ? 'bg-indigo-600 border-indigo-500 text-white' : 'bg-slate-900 border-slate-700 text-slate-300 hover:bg-slate-800'}`}
-          >
-            <RefreshCw className="w-4 h-4" />
-            <span className="text-sm font-medium">History</span>
-          </button>
-          <button 
-            onClick={() => { setView('selector'); setActiveResume(null); setActiveJdId(null); setSessionData(null); }}
-            className={`flex items-center space-x-2 px-4 py-2 border rounded-xl transition-all shadow-lg ${view === 'selector' ? 'bg-indigo-600 border-indigo-500 text-white shadow-indigo-500/25' : 'bg-slate-900 border-slate-700 text-slate-300 hover:bg-slate-800'}`}
-          >
-            <LayoutDashboard className="w-4 h-4" />
-            <span className="text-sm font-medium">New Session</span>
-          </button>
-        </div>
-      </div>
+      <SectionHeader
+        badge="AI Resume Intelligence"
+        badgeVariant="info"
+        title="Tailoring Dashboard"
+        description="Compare your resume against job descriptions, identify critical gaps, and generate highly targeted recommendations to beat the ATS."
+        actions={
+          <>
+            <Button
+              variant={view === 'history' ? 'primary' : 'secondary'}
+              size="md"
+              onClick={() => setView('history')}
+            >
+              <RefreshCw className="h-4 w-4" />
+              History
+            </Button>
+            <Button
+              variant={view === 'selector' ? 'primary' : 'secondary'}
+              size="md"
+              onClick={() => {
+                setView('selector');
+                setActiveResume(null);
+                setSessionData(null);
+                setGeneratedResume(null);
+                setRecommendationStatuses({});
+              }}
+            >
+              <LayoutDashboard className="h-4 w-4" />
+              New Session
+            </Button>
+          </>
+        }
+      />
 
-      {error && (
-        <div className="p-4 bg-rose-500/10 border border-rose-500/20 rounded-xl text-rose-400 text-sm">
-          {error}
-        </div>
-      )}
+      {error && <ErrorCard type="ai-timeout" message={error} onRetry={() => setError(null)} />}
 
       {/* View Router */}
       {view === 'history' && (
@@ -168,15 +262,40 @@ export default function ResumeTailoringDashboard() {
             </div>
             
             <div className="lg:col-span-2">
-              <RecommendationList recommendations={sessionData.recommendations} />
+              <RecommendationList
+                recommendations={sessionData.recommendations}
+                statuses={recommendationStatuses}
+                onStatusChange={handleRecommendationStatus}
+              />
+              <div className="mt-5 flex flex-col gap-3 rounded-2xl border border-slate-800 bg-slate-900/40 p-4 sm:flex-row sm:items-center sm:justify-between">
+                <div>
+                  <p className="text-sm font-semibold text-slate-200">Generate tailored resume JSON</p>
+                  <p className="mt-1 text-xs text-slate-500">Uses accepted recommendations; if none are accepted, every non-rejected recommendation is applied.</p>
+                </div>
+                <Button
+                  onClick={handleGenerateResume}
+                  disabled={isGeneratingResume || acceptedRecommendations.length === 0}
+                  variant="success"
+                >
+                  {isGeneratingResume ? <Loader2 className="h-4 w-4 animate-spin" /> : <Wand2 className="h-4 w-4" />}
+                  {isGeneratingResume ? 'Generating...' : 'Generate Resume'}
+                </Button>
+              </div>
             </div>
           </div>
+
+          <GeneratedResumePreview
+            resumeJson={generatedResume?.json}
+            version={generatedResume?.version}
+            resumeId={generatedResume?.id || sessionData.generatedResumeId}
+          />
           
           <SideBySideComparison 
-            resumeText={sessionData.resume?.jdText || 'Resume content loaded from PDF...'} 
+            originalText={originalResumeText}
+            generatedText={generatedResumeText}
             jdText={sessionData.jobDescription?.originalText || 'Job description content...'}
-            matchingSkills={sessionData.matchingSkills}
-            missingSkills={sessionData.missingSkills}
+            matchingSkills={sessionData.matchingSkills || []}
+            missingSkills={sessionData.missingSkills || []}
           />
         </div>
       )}

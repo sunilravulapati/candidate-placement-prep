@@ -35,6 +35,20 @@ export class ResumeRepository {
     });
   }
 
+  static async findByIdWithLatestAnalysis(id: string) {
+    return prisma.resume.findUnique({
+      where: { id },
+      include: {
+        document: true,
+        group: true,
+        analyses: {
+          orderBy: { createdAt: 'desc' },
+          take: 1,
+        },
+      },
+    });
+  }
+
   static async findByHash(userId: string, fileHash: string) {
     // Find active resume by the document hash
     return prisma.resume.findFirst({

@@ -23,7 +23,7 @@ import Link from 'next/link';
 
 export default function Dashboard() {
   return (
-    <div className="max-w-7xl mx-auto space-y-8 pb-12">
+    <div className="page-container">
       {/* Welcome Banner */}
       <div className="relative overflow-hidden bg-gradient-to-r from-violet-900/40 via-indigo-900/30 to-slate-900/20 border border-indigo-500/10 p-6 md:p-8 rounded-3xl backdrop-blur-md">
         <div className="absolute -top-12 -right-12 w-48 h-48 bg-indigo-500/10 rounded-full blur-3xl"></div>

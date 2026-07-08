@@ -86,8 +86,7 @@ export default function ResumeAIPage() {
       const data = await listResumesAction();
       setResumes(data);
       return data;
-    } catch (err) {
-      console.error(err);
+    } catch {
       setMessage({ text: 'Failed to load resumes from the server.', type: 'error' });
       return [];
     } finally {
@@ -169,7 +168,6 @@ export default function ResumeAIPage() {
         await triggerAnalysis(res.resumeId!, false);
       }
     } catch (err) {
-      console.error(err);
       setMessage({ text: (err as Error).message || 'Processing failed.', type: 'error' });
       setIsProcessing(false);
       setCurrentStep(null);
@@ -234,7 +232,6 @@ export default function ResumeAIPage() {
         setActiveTab('analysis');
       }
     } catch (err) {
-      console.error(err);
       setMessage({ text: (err as Error).message || 'Analysis run failed.', type: 'error' });
     } finally {
       setIsProcessing(false);
@@ -273,7 +270,6 @@ export default function ResumeAIPage() {
         await loadData();
       }
     } catch (err) {
-      console.error(err);
       setMessage({ text: (err as Error).message || 'Failed to rename resume.', type: 'error' });
     } finally {
       setIsRenaming(false);
@@ -297,7 +293,6 @@ export default function ResumeAIPage() {
         await loadData();
       }
     } catch (err) {
-      console.error(err);
       setMessage({ text: (err as Error).message || 'Failed to delete resume.', type: 'error' });
     } finally {
       setIsDeleting(false);

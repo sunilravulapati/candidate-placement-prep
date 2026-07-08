@@ -6,7 +6,8 @@ import FilterBar from '@/components/FilterBar';
 import QuestionCard from '@/components/QuestionCard';
 import { Question } from '@/lib/questions';
 import { getQuestionsAction } from '@backend/features/dsa/actions';
-import { Brain, Code2, Sparkles } from 'lucide-react';
+import { Brain, Code2 } from 'lucide-react';
+import { SkeletonList } from '@/components/ui';
 
 export default function QuestionsPage() {
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -35,8 +36,8 @@ export default function QuestionsPage() {
         }));
         setQuestions(mapped);
         setFilteredQuestions(mapped);
-      } catch (err) {
-        console.error('Failed to load questions:', err);
+      } catch {
+        // silently fail — empty state shown below
       } finally {
         setIsLoading(false);
       }
@@ -93,10 +94,7 @@ export default function QuestionsPage() {
         </div>
 
         {isLoading ? (
-          <div className="flex flex-col items-center justify-center p-12 glass-card rounded-2xl">
-            <div className="w-8 h-8 border-4 border-violet-500 border-t-transparent rounded-full animate-spin"></div>
-            <p className="text-slate-400 text-sm mt-4 font-medium">Loading questions from sandbox database...</p>
-          </div>
+          <SkeletonList count={6} />
         ) : filteredQuestions.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {filteredQuestions.map((q) => (

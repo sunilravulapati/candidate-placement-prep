@@ -224,7 +224,7 @@ export async function analyzeResumeAction(
     resumeId,
   });
 
-  const resume = await ResumeRepository.findById(resumeId);
+  const resume = await ResumeRepository.findByIdWithLatestAnalysis(resumeId);
   if (!resume) {
     throw new Error('Resume record not found.');
   }
@@ -279,34 +279,53 @@ export async function analyzeResumeAction(
   };
 }
 
-export async function createTailoringSessionAction(resumeId: string, jdId: string) {
+export async function createTailoringSessionAction(
+  resumeId: string,
+  jdId: string,
+  forceRecreate = false
+) {
   const user = await getSessionUser();
   if (!user) {
     throw new Error('User session not found');
   }
 
-  // 1. Fetch Resume and JD
   const resume = await ResumeRepository.findById(resumeId);
   const jd = await JobDescriptionRepository.findById(jdId);
 
   if (!resume || resume.userId !== user.id) throw new Error('Resume not found');
   if (!jd || jd.userId !== user.id) throw new Error('JD not found');
 
-  // 2. Extract texts
+  if (!forceRecreate) {
+    const existing = await TailoringRepository.findByResumeAndJd(resumeId, jdId);
+    if (existing) {
+      logger.info(`Reusing cached tailoring session: ${existing.id}`, {
+        category: 'database',
+        resumeId,
+        jdId,
+      });
+      revalidatePath('/resume-tailoring');
+      return {
+        success: true,
+        reused: true,
+        sessionId: existing.id,
+        session: existing,
+      };
+    }
+  }
+
+  // Extract texts — prefer cached canonical JSON over PDF re-extraction
   let resumeText = '';
   try {
-    if (!resume.document) {
-      if (resume.canonicalJson) {
-        resumeText = JSON.stringify(resume.canonicalJson);
-      } else {
-        throw new Error('Resume has no pdf and no JSON content');
-      }
-    } else {
+    if (resume.canonicalJson) {
+      resumeText = JSON.stringify(resume.canonicalJson);
+    } else if (resume.document) {
       const res = await fetch(resume.document.secureUrl);
       if (!res.ok) throw new Error('Failed to fetch resume pdf');
       const buf = await res.arrayBuffer();
       const extractor = new PdfExtractor();
       resumeText = await extractor.extractText(Buffer.from(buf));
+    } else {
+      throw new Error('Resume has no pdf and no JSON content');
     }
   } catch (err) {
     throw new Error(`Failed to extract text from Resume: ${(err as Error).message}`);
@@ -327,16 +346,13 @@ export async function createTailoringSessionAction(resumeId: string, jdId: strin
 
   if (!resumeText || !jdText) throw new Error('Missing text content for comparison');
 
-  // 3. AI Matches
   const matchResult = await runAIMatchEngine(resumeText, jdText);
   const matchData = matchResult.analysis;
 
-  // 4. AI Recommendations
   const gapsString = matchData.missingSkills.join(', ') || 'None found';
   const recResult = await runAITailoringRecommendation(resumeText, jdText, gapsString);
   const recData = recResult.analysis;
 
-  // 5. Store Session
   const session = await TailoringRepository.createSession({
     resumeId,
     jobDescriptionId: jdId,
@@ -349,14 +365,18 @@ export async function createTailoringSessionAction(resumeId: string, jdId: strin
     recommendations: recData.recommendations,
   });
 
+  const fullSession = await TailoringRepository.findById(session.id);
+
   revalidatePath('/resume-tailoring');
   return {
     success: true,
+    reused: false,
     sessionId: session.id,
+    session: fullSession,
     data: {
       match: matchData,
-      recommendations: recData.recommendations
-    }
+      recommendations: recData.recommendations,
+    },
   };
 }
 
@@ -365,8 +385,13 @@ export async function getTailoringHistoryAction(resumeId: string) {
   if (!user) {
     throw new Error('User session not found');
   }
-  const sessions = await TailoringRepository.findByResumeId(resumeId);
-  return sessions;
+
+  const resume = await ResumeRepository.findById(resumeId);
+  if (!resume || resume.userId !== user.id) {
+    throw new Error('Resume not found or unauthorized');
+  }
+
+  return TailoringRepository.findByResumeId(resumeId);
 }
 
 export async function getTailoringSessionByIdAction(sessionId: string) {

@@ -2,29 +2,37 @@ import React from 'react';
 import { getResumeJsonAction } from '@backend/features/resume/generatorActions';
 import { ResumeEditorWorkspace } from '../../../../components/resume-editor/ResumeEditorWorkspace';
 import { redirect } from 'next/navigation';
+import { ArrowLeft } from 'lucide-react';
+import Link from 'next/link';
 
-export default async function ResumeEditorPage({ params }: { params: { id: string } }) {
+export default async function ResumeEditorPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   let resumeData;
   try {
-    resumeData = await getResumeJsonAction(params.id);
-  } catch (err) {
+    resumeData = await getResumeJsonAction(id);
+  } catch {
     redirect('/resume-tailoring');
   }
 
   if (!resumeData.json) {
-    // If somehow it doesn't have JSON, go back to tailoring.
     redirect('/resume-tailoring');
   }
 
   return (
-    <div className="w-full h-full min-h-screen bg-gray-50 flex flex-col">
-      <div className="border-b border-gray-200 bg-white px-6 py-4 flex justify-between items-center">
-        <div>
-          <h1 className="text-2xl font-bold text-gray-900">Resume Editor Workspace</h1>
-          <p className="text-gray-500 text-sm">Version {resumeData.version} • Canonical JSON</p>
+    <div className="flex min-h-[calc(100vh-4rem)] w-full min-w-0 flex-col -m-4 md:-m-8">
+      <div className="flex items-center justify-between border-b border-slate-800 bg-slate-950/60 px-4 py-3 backdrop-blur-md md:px-6">
+        <div className="min-w-0">
+          <Link
+            href="/resume-tailoring"
+            className="mb-1 inline-flex items-center gap-1.5 text-xs text-slate-500 transition-colors hover:text-violet-400"
+          >
+            <ArrowLeft className="h-3.5 w-3.5" />
+            Back to Tailoring
+          </Link>
+          <h1 className="truncate text-lg font-bold text-slate-100 md:text-xl">Resume Editor</h1>
         </div>
       </div>
-      <ResumeEditorWorkspace resumeId={params.id} initialJson={resumeData.json} />
+      <ResumeEditorWorkspace resumeId={id} initialJson={resumeData.json} version={resumeData.version} />
     </div>
   );
 }

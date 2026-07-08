@@ -18,12 +18,23 @@ export class TailoringRepository {
     });
   }
 
+  static async findByResumeAndJd(resumeId: string, jobDescriptionId: string) {
+    return prisma.tailoringSession.findFirst({
+      where: { resumeId, jobDescriptionId },
+      orderBy: { createdAt: 'desc' },
+      include: {
+        resume: { include: { group: true } },
+        jobDescription: { include: { analysis: true } },
+      },
+    });
+  }
+
   static async findByResumeId(resumeId: string) {
     return prisma.tailoringSession.findMany({
       where: { resumeId },
       orderBy: { createdAt: 'desc' },
       include: {
-        jobDescription: true,
+        jobDescription: { include: { analysis: true } },
       },
     });
   }
@@ -35,7 +46,7 @@ export class TailoringRepository {
         resume: {
           include: { group: true }
         },
-        jobDescription: true,
+        jobDescription: { include: { analysis: true } },
       },
     });
   }

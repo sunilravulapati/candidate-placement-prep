@@ -6,6 +6,7 @@ import { getQuestionByIdAction, updateQuestionProgressAction } from '@backend/fe
 import { ChevronLeft, Play, Save, CheckCircle2, FileEdit, HelpCircle, Code2, Layers } from 'lucide-react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
+import { Skeleton } from '@/components/ui';
 
 export default function QuestionWorkspace({ params }: { params: Promise<{ id: string }> }) {
   const router = useRouter();
@@ -33,8 +34,8 @@ export default function QuestionWorkspace({ params }: { params: Promise<{ id: st
         const progress = q.progress && q.progress[0];
         setCode(progress?.code || q.solutionStub || '// Start typing your solution...');
         setNotes(progress?.notes || '');
-      } catch (err) {
-        console.error('Failed to load question details:', err);
+      } catch {
+        router.push('/questions');
       } finally {
         setIsLoading(false);
       }
@@ -55,9 +56,8 @@ export default function QuestionWorkspace({ params }: { params: Promise<{ id: st
       // Refresh details to update header progress states
       const updatedQ = await getQuestionByIdAction(questionId) as any;
       if (updatedQ) setQuestion(updatedQ);
-    } catch (err) {
+    } catch {
       setSubmitMessage('Error saving progress. Please try again.');
-      console.error('Submit error:', err);
     } finally {
       setIsSubmitting(false);
     }
@@ -65,9 +65,9 @@ export default function QuestionWorkspace({ params }: { params: Promise<{ id: st
 
   if (isLoading) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-[60vh]">
-        <div className="w-8 h-8 border-4 border-violet-500 border-t-transparent rounded-full animate-spin"></div>
-        <p className="text-slate-400 text-sm mt-4 font-medium">Loading sandbox environment...</p>
+      <div className="mx-auto max-w-6xl space-y-6 p-4">
+        <Skeleton className="h-8 w-48" />
+        <Skeleton className="h-[60vh] w-full" />
       </div>
     );
   }

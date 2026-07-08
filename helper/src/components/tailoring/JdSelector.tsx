@@ -1,28 +1,32 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { Upload, FileText, Loader2, Check, History } from 'lucide-react';
-import { analyzeJobDescriptionAction, pasteJobDescriptionAction, uploadJobDescriptionAction, listJobDescriptionsAction } from '@backend/features/jobDescription/actions';
+import { useState, useEffect, useCallback, memo } from 'react';
+import { Upload, History } from 'lucide-react';
+import { pasteJobDescriptionAction, uploadJobDescriptionAction, listJobDescriptionsAction } from '@backend/features/jobDescription/actions';
+import { Tabs, Button, Textarea, ErrorCard, SkeletonList } from '@/components/ui';
 
 interface JdSelectorProps {
-  onAnalyzed: (jdId: string, jdData: any) => void;
+  onAnalyzed: (jdId: string) => void;
 }
 
-export function JdSelector({ onAnalyzed }: JdSelectorProps) {
+export const JdSelector = memo(function JdSelector({ onAnalyzed }: JdSelectorProps) {
   const [mode, setMode] = useState<'paste' | 'upload' | 'history'>('paste');
   const [text, setText] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  
   const [historyJds, setHistoryJds] = useState<any[]>([]);
+  const [historyLoading, setHistoryLoading] = useState(false);
 
   useEffect(() => {
-    if (mode === 'history') {
-      listJobDescriptionsAction().then(jds => setHistoryJds(jds)).catch(console.error);
-    }
+    if (mode !== 'history') return;
+    setHistoryLoading(true);
+    listJobDescriptionsAction()
+      .then(setHistoryJds)
+      .catch(() => setError('Failed to load job description history.'))
+      .finally(() => setHistoryLoading(false));
   }, [mode]);
 
-  const handleAnalyzePaste = async () => {
+  const handlePaste = useCallback(async () => {
     if (!text.trim()) {
       setError('Please enter a job description.');
       return;
@@ -32,17 +36,15 @@ export function JdSelector({ onAnalyzed }: JdSelectorProps) {
     try {
       const res = await pasteJobDescriptionAction(text);
       if (!res.success || !res.jdId) throw new Error('Failed to save JD');
-      
-      const analysisRes = await analyzeJobDescriptionAction(res.jdId);
-      onAnalyzed(res.jdId, analysisRes.analysis);
-    } catch (err: any) {
-      setError(err.message || 'Analysis failed.');
+      onAnalyzed(res.jdId);
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : 'Failed to save job description.');
     } finally {
       setLoading(false);
     }
-  };
+  }, [text, onAnalyzed]);
 
-  const handleAnalyzeUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleUpload = useCallback(async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file) return;
 
@@ -53,123 +55,99 @@ export function JdSelector({ onAnalyzed }: JdSelectorProps) {
       formData.append('file', file);
       const res = await uploadJobDescriptionAction(formData);
       if (!res.success || !res.jdId) throw new Error('Failed to upload JD');
-
-      const analysisRes = await analyzeJobDescriptionAction(res.jdId);
-      onAnalyzed(res.jdId, analysisRes.analysis);
-    } catch (err: any) {
-      setError(err.message || 'Analysis failed.');
+      onAnalyzed(res.jdId);
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : 'Upload failed.');
     } finally {
       setLoading(false);
     }
-  };
+  }, [onAnalyzed]);
 
-  const handleSelectHistory = async (id: string) => {
-    setLoading(true);
+  const handleSelectHistory = useCallback((id: string) => {
     setError(null);
-    try {
-      const analysisRes = await analyzeJobDescriptionAction(id);
-      onAnalyzed(id, analysisRes.analysis);
-    } catch (err: any) {
-      setError(err.message || 'Analysis failed.');
-    } finally {
-      setLoading(false);
-    }
-  };
+    onAnalyzed(id);
+  }, [onAnalyzed]);
 
   if (loading) {
     return (
-      <div className="flex flex-col items-center justify-center p-12 bg-slate-900/50 rounded-xl border border-slate-800">
-        <Loader2 className="w-8 h-8 text-indigo-500 animate-spin mb-4" />
-        <p className="text-slate-300 font-medium">Analyzing Job Description...</p>
-        <p className="text-slate-500 text-sm mt-1">Extracting skills, technologies, and requirements.</p>
+      <div className="flex flex-col items-center justify-center rounded-xl border border-slate-800 bg-slate-900/50 p-12">
+        <div className="mb-4 h-8 w-8 animate-spin rounded-full border-2 border-indigo-500 border-t-transparent" />
+        <p className="font-medium text-slate-300">Preparing job description...</p>
+        <p className="mt-1 text-sm text-slate-500">Saving for tailoring comparison.</p>
       </div>
     );
   }
 
   return (
-    <div className="bg-slate-900/40 border border-slate-800 rounded-xl overflow-hidden">
-      <div className="flex border-b border-slate-800">
-        <button 
-          onClick={() => setMode('paste')} 
-          className={`flex-1 py-3 text-sm font-medium border-b-2 transition-colors ${mode === 'paste' ? 'border-indigo-500 text-indigo-400 bg-indigo-500/5' : 'border-transparent text-slate-400 hover:text-slate-300 hover:bg-slate-800/30'}`}
-        >
-          Paste Text
-        </button>
-        <button 
-          onClick={() => setMode('upload')} 
-          className={`flex-1 py-3 text-sm font-medium border-b-2 transition-colors ${mode === 'upload' ? 'border-indigo-500 text-indigo-400 bg-indigo-500/5' : 'border-transparent text-slate-400 hover:text-slate-300 hover:bg-slate-800/30'}`}
-        >
-          Upload PDF
-        </button>
-        <button 
-          onClick={() => setMode('history')} 
-          className={`flex-1 flex items-center justify-center py-3 text-sm font-medium border-b-2 transition-colors ${mode === 'history' ? 'border-indigo-500 text-indigo-400 bg-indigo-500/5' : 'border-transparent text-slate-400 hover:text-slate-300 hover:bg-slate-800/30'}`}
-        >
-          <History className="w-4 h-4 mr-2" />
-          History
-        </button>
-      </div>
+    <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900/40">
+      <Tabs
+        items={[
+          { id: 'paste', label: 'Paste Text' },
+          { id: 'upload', label: 'Upload PDF' },
+          { id: 'history', label: 'History', icon: History },
+        ]}
+        activeId={mode}
+        onChange={(id) => setMode(id as typeof mode)}
+      />
 
       <div className="p-6">
-        {error && (
-          <div className="mb-4 p-3 bg-rose-500/10 border border-rose-500/20 rounded-lg text-rose-400 text-sm">
-            {error}
-          </div>
-        )}
+        {error && <ErrorCard type="validation" message={error} className="mb-4" onRetry={() => setError(null)} />}
 
         {mode === 'paste' && (
           <div className="space-y-4">
-            <textarea 
+            <Textarea
               placeholder="Paste the complete job description here..."
-              className="w-full h-48 bg-slate-950 border border-slate-800 rounded-xl p-4 text-sm text-slate-300 placeholder:text-slate-600 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none resize-none transition-all"
+              className="h-48"
               value={text}
               onChange={(e) => setText(e.target.value)}
+              aria-label="Job description text"
             />
             <div className="flex justify-end">
-              <button 
-                onClick={handleAnalyzePaste}
-                disabled={!text.trim()}
-                className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white font-medium rounded-lg transition-colors"
-              >
-                Analyze JD
-              </button>
+              <Button onClick={handlePaste} disabled={!text.trim()}>
+                Continue to Tailoring
+              </Button>
             </div>
           </div>
         )}
 
         {mode === 'upload' && (
-          <div className="border-2 border-dashed border-slate-700 rounded-xl p-10 flex flex-col items-center justify-center text-center hover:border-indigo-500/50 hover:bg-indigo-500/5 transition-colors cursor-pointer relative">
-            <input 
-              type="file" 
+          <div className="relative flex cursor-pointer flex-col items-center justify-center rounded-xl border-2 border-dashed border-slate-700 p-10 text-center transition-colors hover:border-indigo-500/50 hover:bg-indigo-500/5">
+            <input
+              type="file"
               accept=".pdf"
-              onChange={handleAnalyzeUpload}
-              className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
+              onChange={handleUpload}
+              className="absolute inset-0 h-full w-full cursor-pointer opacity-0"
+              aria-label="Upload job description PDF"
             />
-            <div className="bg-slate-800 p-4 rounded-full mb-4 text-indigo-400">
-              <Upload className="w-6 h-6" />
+            <div className="mb-4 rounded-full bg-slate-800 p-4 text-indigo-400">
+              <Upload className="h-6 w-6" />
             </div>
-            <h3 className="text-slate-200 font-medium mb-1">Click or drag PDF to upload</h3>
-            <p className="text-slate-500 text-sm">Max size 5MB. PDF format only.</p>
+            <h3 className="mb-1 font-medium text-slate-200">Click or drag PDF to upload</h3>
+            <p className="text-sm text-slate-500">Max size 5MB. PDF format only.</p>
           </div>
         )}
 
         {mode === 'history' && (
-          <div className="space-y-3 max-h-64 overflow-y-auto pr-2">
-            {historyJds.length === 0 ? (
-              <p className="text-slate-500 text-sm text-center py-4">No previously saved job descriptions.</p>
+          <div className="max-h-64 space-y-3 overflow-y-auto pr-2">
+            {historyLoading ? (
+              <SkeletonList count={3} />
+            ) : historyJds.length === 0 ? (
+              <p className="py-4 text-center text-sm text-slate-500">No previously saved job descriptions.</p>
             ) : (
-              historyJds.map(jd => (
-                <div key={jd.id} className="p-4 bg-slate-950 border border-slate-800 rounded-xl hover:border-slate-600 transition-colors flex items-center justify-between group">
-                  <div className="flex-1 min-w-0 pr-4">
-                    <p className="text-sm text-slate-300 truncate">{jd.originalText?.substring(0, 50) || 'Uploaded PDF Document'}...</p>
-                    <p className="text-xs text-slate-500 mt-1">{new Date(jd.createdAt).toLocaleDateString()}</p>
+              historyJds.map((jd) => (
+                <div
+                  key={jd.id}
+                  className="group flex items-center justify-between rounded-xl border border-slate-800 bg-slate-950 p-4 transition-colors hover:border-slate-600"
+                >
+                  <div className="min-w-0 flex-1 pr-4">
+                    <p className="truncate text-sm text-slate-300">
+                      {jd.originalText?.substring(0, 50) || 'Uploaded PDF Document'}...
+                    </p>
+                    <p className="mt-1 text-xs text-slate-500">{new Date(jd.createdAt).toLocaleDateString()}</p>
                   </div>
-                  <button 
-                    onClick={() => handleSelectHistory(jd.id)}
-                    className="px-3 py-1.5 bg-slate-800 text-indigo-400 hover:bg-slate-700 hover:text-indigo-300 text-xs font-medium rounded-lg transition-colors opacity-0 group-hover:opacity-100"
-                  >
+                  <Button variant="secondary" size="sm" onClick={() => handleSelectHistory(jd.id)}>
                     Select
-                  </button>
+                  </Button>
                 </div>
               ))
             )}
@@ -178,4 +156,4 @@ export function JdSelector({ onAnalyzed }: JdSelectorProps) {
       </div>
     </div>
   );
-}
+});

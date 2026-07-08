@@ -12,6 +12,9 @@ export default function Navbar() {
     if (pathname === '/dashboard' || pathname === '/') return 'Dashboard';
     if (pathname.startsWith('/questions')) return 'DSA Practice';
     if (pathname.startsWith('/resume-ai')) return 'Resume AI';
+    if (pathname.startsWith('/resume-tailoring')) return 'Resume Tailoring';
+    if (pathname.startsWith('/resume-editor')) return 'Resume Editor';
+    if (pathname.startsWith('/aptitude')) return 'Aptitude';
     if (pathname.startsWith('/mock-interviews')) return 'Mock Interviews';
     if (pathname.startsWith('/knowledge-hub')) return 'Knowledge Hub';
     if (pathname.startsWith('/analytics')) return 'Analytics';
@@ -41,7 +44,10 @@ export default function Navbar() {
         </div>
 
         {/* Notifications Mock */}
-        <button className="bg-slate-900/60 hover:bg-slate-900 border border-slate-800 text-slate-400 hover:text-slate-200 p-2 rounded-xl transition-colors">
+        <button
+          className="rounded-xl border border-slate-800 bg-slate-900/60 p-2 text-slate-400 transition-colors hover:bg-slate-900 hover:text-slate-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500/50"
+          aria-label="Notifications"
+        >
           <Bell className="w-4 h-4" />
         </button>
 

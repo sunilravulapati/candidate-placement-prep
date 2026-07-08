@@ -1,36 +1,80 @@
-import React from 'react';
+import React, { memo, useMemo } from 'react';
 
-export function DiffEngine({ originalJson, currentJson }: { originalJson: any, currentJson: any }) {
-  // A simple visual diff placeholder since we cannot rely on external diff libraries
-  // In a real production scenario, we would use a diffing library like 'diff' or 'jsdiff'
-  return (
-    <div className="p-8 h-full flex flex-col">
-      <h2 className="text-xl font-bold mb-4">Diff Engine</h2>
-      <p className="text-gray-500 mb-6 text-sm">Comparing Original Canonical JSON with the Generated Tailored JSON.</p>
-      
-      <div className="flex-1 grid grid-cols-2 gap-6">
-        <div className="flex flex-col border border-gray-200 rounded-lg overflow-hidden">
-          <div className="bg-red-50 border-b border-red-100 p-3 font-medium text-red-800 text-sm">
-            Original (Version N-1)
-          </div>
-          <div className="flex-1 bg-gray-50 p-4 overflow-y-auto">
-            <pre className="text-xs text-gray-700 whitespace-pre-wrap font-mono">
-              {JSON.stringify(originalJson, null, 2)}
-            </pre>
-          </div>
-        </div>
-        
-        <div className="flex flex-col border border-emerald-200 rounded-lg overflow-hidden">
-          <div className="bg-emerald-50 border-b border-emerald-100 p-3 font-medium text-emerald-800 text-sm">
-            Generated (Current Version)
-          </div>
-          <div className="flex-1 bg-white p-4 overflow-y-auto">
-            <pre className="text-xs text-gray-700 whitespace-pre-wrap font-mono">
-              {JSON.stringify(currentJson, null, 2)}
-            </pre>
-          </div>
-        </div>
-      </div>
-    </div>
+function flattenResume(value: unknown, prefix = 'resume'): Record<string, string> {
+  if (value === null || value === undefined) return {};
+  if (typeof value !== 'object') return { [prefix]: String(value) };
+
+  if (Array.isArray(value)) {
+    return value.reduce<Record<string, string>>(
+      (acc, item, index) => ({
+        ...acc,
+        ...flattenResume(item, `${prefix}.${index + 1}`),
+      }),
+      {}
+    );
+  }
+
+  return Object.entries(value as Record<string, unknown>).reduce<Record<string, string>>(
+    (acc, [key, child]) => ({
+      ...acc,
+      ...flattenResume(child, `${prefix}.${key}`),
+    }),
+    {}
   );
 }
+
+export const DiffEngine = memo(function DiffEngine({
+  originalJson,
+  currentJson,
+}: {
+  originalJson: Record<string, unknown>;
+  currentJson: Record<string, unknown>;
+}) {
+  const changes = useMemo(() => {
+    const original = flattenResume(originalJson);
+    const current = flattenResume(currentJson);
+    const keys = Array.from(new Set([...Object.keys(original), ...Object.keys(current)])).sort();
+    return keys
+      .map((key) => ({ key, before: original[key], after: current[key] }))
+      .filter((entry) => entry.before !== entry.after);
+  }, [originalJson, currentJson]);
+
+  return (
+    <div className="flex h-full flex-col p-6 md:p-8">
+      <h2 className="mb-1 text-xl font-bold text-slate-100">Version Changes</h2>
+      <p className="mb-6 text-sm text-slate-400">
+        Section-level comparison between the original canonical JSON and your current edits.
+      </p>
+
+      {changes.length === 0 ? (
+        <div className="rounded-xl border border-slate-800 bg-slate-950/50 p-6 text-sm text-slate-500">
+          No differences found between these versions.
+        </div>
+      ) : (
+        <div className="space-y-4 overflow-y-auto pr-2">
+          {changes.map((change) => (
+            <div key={change.key} className="overflow-hidden rounded-xl border border-slate-800 bg-slate-950/30">
+              <div className="border-b border-slate-800 bg-slate-900/50 px-4 py-2 font-mono text-xs font-semibold text-slate-400">
+                {change.key.replace(/^resume\./, '')}
+              </div>
+              <div className="grid grid-cols-1 divide-y divide-slate-800 md:grid-cols-2 md:divide-x md:divide-y-0">
+                <div className="bg-rose-500/5 p-4">
+                  <p className="mb-2 text-xs font-bold uppercase tracking-wide text-rose-400">Original</p>
+                  <p className="whitespace-pre-wrap text-sm leading-relaxed text-slate-300">
+                    {change.before || 'Removed'}
+                  </p>
+                </div>
+                <div className="bg-emerald-500/5 p-4">
+                  <p className="mb-2 text-xs font-bold uppercase tracking-wide text-emerald-400">Current</p>
+                  <p className="whitespace-pre-wrap text-sm leading-relaxed text-slate-200">
+                    {change.after || 'Added'}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+});

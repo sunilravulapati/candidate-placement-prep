@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Loader2, CheckCircle2, Circle } from 'lucide-react';
 
 export type LoadingPhase = 
@@ -11,6 +11,7 @@ export type LoadingPhase =
   | 'analyzing_jd'
   | 'comparing'
   | 'generating_recommendations'
+  | 'generating_resume'
   | 'saving'
   | 'done';
 
@@ -25,6 +26,7 @@ const PHASES = [
   { id: 'analyzing_jd', label: 'Analyzing Job Description' },
   { id: 'comparing', label: 'Running AI Match Engine' },
   { id: 'generating_recommendations', label: 'Generating Tailoring Recommendations' },
+  { id: 'generating_resume', label: 'Generating Tailored Resume JSON' },
   { id: 'saving', label: 'Saving Tailoring Session' }
 ];
 
@@ -48,8 +50,6 @@ export function LoadingOverlay({ phase }: LoadingOverlayProps) {
           {PHASES.map((p, i) => {
             const isCompleted = currentIdx > i;
             const isCurrent = currentIdx === i;
-            const isPending = currentIdx < i;
-
             return (
               <div key={p.id} className="flex items-center space-x-3">
                 {isCompleted ? (
