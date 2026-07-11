@@ -5,7 +5,7 @@
 
 import { callStructuredAI } from './structuredOutput';
 import { RESUME_PROMPTS } from '../prompts/resume/prompts';
-import { AI_MODELS } from '../models';
+import { AI_MODELS } from '../core/models';
 import { logger } from '../../core/logger';
 
 export interface AIAnalysisResult {

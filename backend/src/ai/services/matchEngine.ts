@@ -1,7 +1,7 @@
 // backend/src/ai/services/matchEngine.ts
 import { callStructuredAI } from './structuredOutput';
 import { TAILORING_PROMPTS } from '../prompts/tailoring/prompts';
-import { AI_MODELS } from '../models';
+import { AI_MODELS } from '../core/models';
 import { logger } from '../../core/logger';
 
 export interface AIMatchResult {

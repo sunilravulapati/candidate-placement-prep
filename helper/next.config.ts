@@ -7,7 +7,7 @@ import { config as loadEnv } from "dotenv";
 loadEnv({ path: path.resolve(__dirname, '../backend/.env'), override: false, quiet: true });
 
 const nextConfig: NextConfig = {
-  transpilePackages: ["backend"],
+  transpilePackages: ["backend", "react-resizable-panels"],
   webpack: (config) => {
     config.resolve = {
       ...config.resolve,
@@ -21,6 +21,35 @@ const nextConfig: NextConfig = {
       },
     };
     return config;
+  },
+  async redirects() {
+    return [
+      {
+        source: '/resume-ai',
+        destination: '/resume-studio',
+        permanent: true,
+      },
+      {
+        source: '/resume-tailoring',
+        destination: '/resume-studio',
+        permanent: true,
+      },
+      {
+        source: '/questions',
+        destination: '/dsa/library',
+        permanent: true,
+      },
+      {
+        source: '/live-coding',
+        destination: '/dsa',
+        permanent: true,
+      },
+      {
+        source: '/live-coding/:path*',
+        destination: '/dsa/:path*',
+        permanent: true,
+      },
+    ];
   },
 };
 

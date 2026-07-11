@@ -1,6 +1,6 @@
 import { callStructuredAI } from './structuredOutput';
 import { GENERATOR_SYSTEM_PROMPT } from '../prompts/resume/generatorPrompt';
-import { AI_MODELS } from '../models';
+import { AI_MODELS } from '../core/models';
 import { logger } from '../../core/logger';
 import { canonicalResumeSchema, CanonicalResume } from '../../features/resume/schema';
 

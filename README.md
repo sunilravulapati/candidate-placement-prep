@@ -4,7 +4,7 @@ PrepGenie is a premium AI-powered Placement Operating System designed to help ca
 
 ## Features
 
-- **Resume Intelligence**: Get your resume analyzed by an AI-powered technical recruiter. Features a 10-point deep breakdown, ATS compatibility scanning, and actionable semantic improvements.
+- **Resume Studio**: The unified workspace for your entire resume lifecycle. Upload, manage versions, analyze for ATS compatibility, generate highly-targeted tailored variants, and edit your resume using our intelligent Canvas editor. JSON-first architecture powered by Groq.
 - **DSA Practice**: Curated problem sets matching current company drives. Track progress and velocity over time.
 - **Mock Interviews**: Voice-activated AI mock interviewer to simulate high-pressure tech rounds. (Coming Soon)
 - **Knowledge Hub**: Your centralized repository of system design and computer science fundamentals. (Coming Soon)

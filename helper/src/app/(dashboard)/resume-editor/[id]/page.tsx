@@ -18,6 +18,9 @@ export default async function ResumeEditorPage({ params }: { params: Promise<{ i
     redirect('/resume-tailoring');
   }
 
+  // Prisma returns JsonValue — we cast to Record since canonicalJson is always an object
+  const resumeJson = resumeData.json as Record<string, unknown>;
+
   return (
     <div className="flex min-h-[calc(100vh-4rem)] w-full min-w-0 flex-col -m-4 md:-m-8">
       <div className="flex items-center justify-between border-b border-slate-800 bg-slate-950/60 px-4 py-3 backdrop-blur-md md:px-6">
@@ -32,7 +35,7 @@ export default async function ResumeEditorPage({ params }: { params: Promise<{ i
           <h1 className="truncate text-lg font-bold text-slate-100 md:text-xl">Resume Editor</h1>
         </div>
       </div>
-      <ResumeEditorWorkspace resumeId={id} initialJson={resumeData.json} version={resumeData.version} />
+      <ResumeEditorWorkspace resumeId={id} initialJson={resumeJson} version={resumeData.version} />
     </div>
   );
 }

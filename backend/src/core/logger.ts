@@ -16,6 +16,7 @@ export type LogCategory =
   | 'storage'
   | 'lifecycle'
   | 'error'
+  | 'interview'
   | 'general';
 
 export interface LogContext {

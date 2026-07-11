@@ -8,7 +8,7 @@ import { ResumeService } from './service';
 import { ResumeRepository } from './repository';
 import { TailoringRepository } from './tailoringRepository';
 import { JobDescriptionRepository } from '../jobDescription/repository';
-import { orchestrateResumeAnalysis } from './analyzeResume';
+import { orchestrateResumeAnalysis, orchestrateResumeAnalysisFromText } from './analyzeResume';
 import { renameResumeSchema, deleteResumeSchema, uploadFileSchema } from './schema';
 import { logger } from '../../core/logger';
 import { storageProvider } from '../../utils/storage';
@@ -16,6 +16,7 @@ import type { UploadCheckResult } from './types';
 import { runAIMatchEngine } from '../../ai/services/matchEngine';
 import { runAITailoringRecommendation } from '../../ai/services/tailoringRecommendation';
 import { PdfExtractor } from './pdfExtractor';
+import { resumeJsonToText } from './resumeSerializer';
 
 export async function listResumesAction() {
   const user = await getSessionUser();
@@ -23,7 +24,6 @@ export async function listResumesAction() {
     throw new Error('User not logged in');
   }
   const resumes = await ResumeService.listResumes(user.id);
-  // Map back to expected format for the UI if needed
   return resumes.map(r => ({
     id: r.id,
     groupId: r.groupId,
@@ -35,7 +35,12 @@ export async function listResumesAction() {
     feedback: r.feedback,
     jdText: r.jdText,
     createdAt: r.createdAt,
-    latestAnalysis: r.analyses?.[0] || null
+    latestAnalysis: r.analyses?.[0] || null,
+    // Source metadata — critical for JSON-first pipeline
+    isGenerated: !r.documentId && !!r.canonicalJson,
+    hasPdf: !!r.document?.secureUrl,
+    hasCanonicalJson: !!r.canonicalJson,
+    generationMetadata: r.generationMetadata,
   }));
 }
 
@@ -256,19 +261,43 @@ export async function analyzeResumeAction(
     };
   }
 
-  // Fetch file from secure URL
-  let fileBuffer: Buffer;
-  try {
-    if (!resume.document) throw new Error("Resume has no associated PDF document");
-    const res = await fetch(resume.document.secureUrl);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const buf = await res.arrayBuffer();
-    fileBuffer = Buffer.from(buf);
-  } catch (err) {
-    throw new Error(`Failed to load uploaded resume file from storage URL: ${(err as Error).message}`);
+  // JSON-first pipeline: prefer canonicalJson over PDF re-download
+  // This is the fix for generated resumes that have no PDF document.
+  let result;
+  if (resume.canonicalJson) {
+    logger.info(`Resume ${resumeId} has canonicalJson — building text from JSON (no PDF needed)`, {
+      category: 'upload',
+      userId: user.id,
+      resumeId,
+    });
+    const resumeText = resumeJsonToText(resume.canonicalJson as any);
+    if (!resumeText.trim()) {
+      throw new Error('Generated resume JSON produced empty text. The resume may be malformed.');
+    }
+    result = await orchestrateResumeAnalysisFromText(user.id, resumeId, resumeText, resume.group.name);
+  } else if (resume.document) {
+    // Original uploaded PDF path
+    logger.info(`Resume ${resumeId} has PDF document — fetching from storage`, {
+      category: 'upload',
+      userId: user.id,
+      resumeId,
+    });
+    let fileBuffer: Buffer;
+    try {
+      const res = await fetch(resume.document.secureUrl);
+      if (!res.ok) throw new Error(`HTTP ${res.status} from storage`);
+      const buf = await res.arrayBuffer();
+      fileBuffer = Buffer.from(buf);
+    } catch (err) {
+      throw new Error(`Failed to load resume PDF from storage: ${(err as Error).message}`);
+    }
+    result = await orchestrateResumeAnalysis(user.id, resumeId, fileBuffer, resume.group.name);
+  } else {
+    throw new Error(
+      'This resume has neither a PDF document nor a Canonical JSON. ' +
+      'Please upload a new PDF or generate a version first.'
+    );
   }
-
-  const result = await orchestrateResumeAnalysis(user.id, resumeId, fileBuffer, resume.group.name);
 
   revalidatePath('/resume-ai');
 
@@ -313,22 +342,23 @@ export async function createTailoringSessionAction(
     }
   }
 
-  // Extract texts — prefer cached canonical JSON over PDF re-extraction
+  // JSON-first: prefer canonicalJson → human-readable text over PDF re-extraction
   let resumeText = '';
   try {
     if (resume.canonicalJson) {
-      resumeText = JSON.stringify(resume.canonicalJson);
+      // Use the shared serializer — produces identical quality to PDF-extracted text
+      resumeText = resumeJsonToText(resume.canonicalJson as any);
     } else if (resume.document) {
       const res = await fetch(resume.document.secureUrl);
-      if (!res.ok) throw new Error('Failed to fetch resume pdf');
+      if (!res.ok) throw new Error('Failed to fetch resume PDF from storage');
       const buf = await res.arrayBuffer();
       const extractor = new PdfExtractor();
       resumeText = await extractor.extractText(Buffer.from(buf));
     } else {
-      throw new Error('Resume has no pdf and no JSON content');
+      throw new Error('Resume has no PDF document and no Canonical JSON');
     }
   } catch (err) {
-    throw new Error(`Failed to extract text from Resume: ${(err as Error).message}`);
+    throw new Error(`Failed to extract resume text: ${(err as Error).message}`);
   }
 
   let jdText = jd.originalText || '';

@@ -1,7 +1,7 @@
 // backend/src/ai/services/jobDescriptionAnalysis.ts
 import { callStructuredAI } from './structuredOutput';
 import { JD_PROMPTS } from '../prompts/jobDescription/prompts';
-import { AI_MODELS } from '../models';
+import { AI_MODELS } from '../core/models';
 import { logger } from '../../core/logger';
 
 export interface AIJDAnalysisResult {

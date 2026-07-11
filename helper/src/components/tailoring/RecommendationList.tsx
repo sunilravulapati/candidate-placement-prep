@@ -16,9 +16,11 @@ interface Recommendation {
   difficulty: 'Easy' | 'Medium' | 'Hard';
 }
 
+export type RecommendationStatus = 'pending' | 'accepted' | 'rejected' | 'completed';
+
 interface RecommendationCardProps {
   rec: Recommendation;
-  status: 'pending' | 'accepted' | 'rejected' | 'completed';
+  status: RecommendationStatus;
   onToggleComplete: () => void;
   onAccept: () => void;
   onReject: () => void;

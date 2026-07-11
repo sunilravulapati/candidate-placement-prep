@@ -6,10 +6,10 @@
 //
 // Keeps feature modules fully isolated from Groq or provider level calls.
 
-import { ChatMessage, AICompletionOptions, getAICompletion } from '../provider';
-import { parseJSONRobust, repairAIJson } from '../jsonParser';
+import { ChatMessage, AICompletionOptions, getAICompletion } from '../core/provider';
+import { parseJSONRobust, repairAIJson } from '../core/jsonParser';
 import { logger } from '../../core/logger';
-import { AI_MODELS } from '../models';
+import { AI_MODELS } from '../core/models';
 
 export interface StructuredAICallResult<T> {
   data: T;

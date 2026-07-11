@@ -9,18 +9,23 @@ generator client {
 }
 
 model User {
-  id               String                 @id // Clerk User ID (e.g. user_...)
-  email            String                 @unique
-  name             String?
-  role             String                 @default("candidate") // "candidate" | "admin"
-  createdAt        DateTime               @default(now())
-  updatedAt        DateTime               @updatedAt
-  progress         UserQuestionProgress[]
-  documents        Document[]
-  resumeGroups     ResumeGroup[]
-  resumes          Resume[]
-  jobDescriptions  JobDescription[]
-  interviews       MockInterview[]
+  id                String                 @id // Clerk User ID (e.g. user_...)
+  email             String                 @unique
+  name              String?
+  role              String                 @default("candidate") // "candidate" | "admin"
+  createdAt         DateTime               @default(now())
+  updatedAt         DateTime               @updatedAt
+  progress          UserQuestionProgress[]
+  documents         Document[]
+  resumeGroups      ResumeGroup[]
+  resumes           Resume[]
+  jobDescriptions   JobDescription[]
+  interviews        MockInterview[]
+  interviewSessions InterviewSession[]
+  codingSessions    CodingSession[]
+  codingProgress    CodingProgress?
+  codingBookmarks   CodingBookmark[]
+  codingNotes       CodingNote[]
 }
 
 model Question {
@@ -66,8 +71,8 @@ model Document {
   createdAt    DateTime @default(now())
   updatedAt    DateTime @updatedAt
 
-  owner        User     @relation(fields: [ownerId], references: [id], onDelete: Cascade)
-  resumes      Resume[]
+  owner           User             @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  resumes         Resume[]
   jobDescriptions JobDescription[]
 }
 
@@ -78,89 +83,91 @@ model ResumeGroup {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-  resumes   Resume[]
+  user    User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  resumes Resume[]
 }
 
 model Resume {
-  id                String   @id @default(uuid())
-  userId            String
-  groupId           String
-  documentId        String?
-  version           Int      @default(1)
-  atsScore          Int?
-  feedback          String?
-  jdText            String?  // Job description matching criteria (optional)
-  canonicalJson     Json?    // The structured Resume JSON representation
-  generationMetadata Json?   // Tailoring Session ID, Model, Timestamp for version tracking
-  status            String   @default("ACTIVE") // "ACTIVE" | "ARCHIVED" | "DELETED"
-  createdAt         DateTime @default(now())
-  
-  user       User        @relation(fields: [userId], references: [id], onDelete: Cascade)
-  group      ResumeGroup @relation(fields: [groupId], references: [id], onDelete: Cascade)
-  document   Document?   @relation(fields: [documentId], references: [id], onDelete: SetNull)
-  analyses   ResumeAnalysis[]
-  runs       AnalysisRun[]
+  id                 String   @id @default(uuid())
+  userId             String
+  groupId            String
+  documentId         String?
+  version            Int      @default(1)
+  atsScore           Int?
+  feedback           String?
+  jdText             String?  // Job description matching criteria (optional)
+  canonicalJson      Json?    // The structured Resume JSON representation
+  generationMetadata Json?    // Tailoring Session ID, Model, Timestamp for version tracking
+  status             String   @default("ACTIVE") // "ACTIVE" | "ARCHIVED" | "DELETED"
+  createdAt          DateTime @default(now())
+
+  user              User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  group             ResumeGroup        @relation(fields: [groupId], references: [id], onDelete: Cascade)
+  document          Document?          @relation(fields: [documentId], references: [id], onDelete: SetNull)
+  analyses          ResumeAnalysis[]
+  runs              AnalysisRun[]
   tailoringSessions TailoringSession[]
+  interviewSessions InterviewSession[]
 }
 
 model JobDescription {
-  id             String   @id @default(uuid())
-  userId         String
-  documentId     String?
-  originalText   String?
-  status         String   @default("ACTIVE") // "ACTIVE" | "ARCHIVED" | "DELETED"
-  createdAt      DateTime @default(now())
-  updatedAt      DateTime @updatedAt
+  id           String   @id @default(uuid())
+  userId       String
+  documentId   String?
+  originalText String?
+  status       String   @default("ACTIVE") // "ACTIVE" | "ARCHIVED" | "DELETED"
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
 
-  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-  document       Document? @relation(fields: [documentId], references: [id], onDelete: SetNull)
-  analysis       JobDescriptionAnalysis?
+  user              User                    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  document          Document?               @relation(fields: [documentId], references: [id], onDelete: SetNull)
+  analysis          JobDescriptionAnalysis?
   tailoringSessions TailoringSession[]
+  interviewSessions InterviewSession[]
 }
 
 model ResumeAnalysis {
-  id                 String          @id @default(uuid())
-  resumeId           String
-  overallScore       Int
-  atsScore           Int
-  semanticScore      Int
-  analysis           Json            // Complete raw AI response (strengths, improvements, summary, scores)
-  processingTime     Int             // milliseconds
-  promptVersion      String
-  modelUsed          String
-  warnings           String[]
-  preservationScore  Int
-  createdAt          DateTime        @default(now())
-  resume             Resume          @relation(fields: [resumeId], references: [id], onDelete: Cascade)
-  runs               AnalysisRun[]
+  id                String          @id @default(uuid())
+  resumeId          String
+  overallScore      Int
+  atsScore          Int
+  semanticScore     Int
+  analysis          Json            // Complete raw AI response (strengths, improvements, summary, scores)
+  processingTime    Int             // milliseconds
+  promptVersion     String
+  modelUsed         String
+  warnings          String[]
+  preservationScore Int
+  createdAt         DateTime        @default(now())
+  resume            Resume          @relation(fields: [resumeId], references: [id], onDelete: Cascade)
+  runs              AnalysisRun[]
 }
 
 model AnalysisRun {
-  id               String          @id @default(uuid())
-  analysisId       String?
-  resumeId         String
-  status           String          // "SUCCESS" | "FAILED"
-  latency          Int             // milliseconds
-  error            String?
-  retryCount       Int             @default(0)
-  tokensUsed       Int?
-  modelUsed        String
-  createdAt        DateTime        @default(now())
-  analysis         ResumeAnalysis? @relation(fields: [analysisId], references: [id], onDelete: SetNull)
-  resume           Resume          @relation(fields: [resumeId], references: [id], onDelete: Cascade)
+  id         String          @id @default(uuid())
+  analysisId String?
+  resumeId   String
+  status     String          // "SUCCESS" | "FAILED"
+  latency    Int             // milliseconds
+  error      String?
+  retryCount Int             @default(0)
+  tokensUsed Int?
+  modelUsed  String
+  createdAt  DateTime        @default(now())
+  analysis   ResumeAnalysis? @relation(fields: [analysisId], references: [id], onDelete: SetNull)
+  resume     Resume          @relation(fields: [resumeId], references: [id], onDelete: Cascade)
 }
 
 model MockInterview {
-  id         String   @id @default(uuid())
-  userId     String
-  type       String   // "HR" | "Technical" | "DSA" | "Resume"
-  status     String   @default("COMPLETED") // "IN_PROGRESS" | "COMPLETED"
-  score      Int?
-  transcript Json?    // JSON array of questions, responses, and metrics
-  feedback   String?
-  createdAt  DateTime @default(now())
-  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  id        String   @id @default(uuid())
+  userId    String
+  type      String   // "HR" | "Technical" | "DSA" | "Resume"
+  status    String   @default("COMPLETED") // "IN_PROGRESS" | "COMPLETED"
+  score     Int?
+  transcript Json?   // JSON array of questions, responses, and metrics
+  feedback  String?
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
 model PlacementDrive {
@@ -189,23 +196,361 @@ model JobDescriptionAnalysis {
   keywords         String[]
   createdAt        DateTime       @default(now())
 
-  jobDescription   JobDescription @relation(fields: [jobDescriptionId], references: [id], onDelete: Cascade)
+  jobDescription JobDescription @relation(fields: [jobDescriptionId], references: [id], onDelete: Cascade)
 }
 
 model TailoringSession {
-  id                 String         @id @default(uuid())
-  resumeId           String
-  jobDescriptionId   String
-  generatedResumeId  String?        // Placeholder for future generated resume
-  matchScore         Int
-  atsScore           Int
-  keywordCoverage    Int
-  matchDetails       Json?          // Stores all granular sub-scores
-  missingSkills      Json           // Array of strings or objects
-  matchingSkills     Json           // Array of strings or objects
-  recommendations    Json           // Array of suggestion objects
-  createdAt          DateTime       @default(now())
+  id                String         @id @default(uuid())
+  resumeId          String
+  jobDescriptionId  String
+  generatedResumeId String?        // Placeholder for future generated resume
+  matchScore        Int
+  atsScore          Int
+  keywordCoverage   Int
+  matchDetails      Json?          // Stores all granular sub-scores
+  missingSkills     Json           // Array of strings or objects
+  matchingSkills    Json           // Array of strings or objects
+  recommendations   Json           // Array of suggestion objects
+  createdAt         DateTime       @default(now())
 
-  resume             Resume         @relation(fields: [resumeId], references: [id], onDelete: Cascade)
-  jobDescription     JobDescription @relation(fields: [jobDescriptionId], references: [id], onDelete: Cascade)
+  resume         Resume         @relation(fields: [resumeId], references: [id], onDelete: Cascade)
+  jobDescription JobDescription @relation(fields: [jobDescriptionId], references: [id], onDelete: Cascade)
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// MOCK INTERVIEW STUDIO — Dedicated Models (v1 Foundation)
+// ─────────────────────────────────────────────────────────────────────────────
+
+/// Reusable interviewer persona. Designed to also power future voice/avatar interviews.
+model InterviewPersona {
+  id                String   @id @default(uuid())
+  name              String   // e.g. "Amazon SDE Interviewer"
+  company           String?  // e.g. "Amazon"
+  role              String?  // e.g. "Software Engineer"
+  avatarUrl         String?  // reserved for future avatar feature
+  questioningStyle  String   // "structured" | "conversational" | "socratic" | "stress"
+  strictness        Int      @default(5) // 1–10
+  followUpDepth     Int      @default(2) // max follow-up levels
+  communicationTone String   // "formal" | "friendly" | "neutral" | "challenging"
+  evaluationStyle   String   // "lenient" | "standard" | "rigorous"
+  systemPromptHint  String?  // AI system prompt fragment injected into the session
+  isPublic          Boolean  @default(true)
+  createdAt         DateTime @default(now())
+
+  templates InterviewTemplate[]
+  sessions  InterviewSession[]
+}
+
+/// Seeded library of interview configurations.
+model InterviewTemplate {
+  id              String   @id @default(uuid())
+  personaId       String?
+  title           String
+  type            String   // TECHNICAL | BEHAVIORAL | HR | SYSTEM_DESIGN | CUSTOM
+  difficulty      String   // EASY | MEDIUM | HARD
+  experienceLevel String   // JUNIOR | MID | SENIOR | STAFF
+  durationMinutes Int
+  questionCount   Int
+  topics          String[]
+  companyStyle    String?
+  description     String?
+  followUpDepth   Int      @default(2)
+  isPublic        Boolean  @default(true)
+  createdAt       DateTime @default(now())
+
+  persona  InterviewPersona?  @relation(fields: [personaId], references: [id], onDelete: SetNull)
+  sessions InterviewSession[]
+}
+
+/// One interview attempt — top-level session entity.
+model InterviewSession {
+  id               String    @id @default(uuid())
+  userId           String
+  templateId       String?
+  personaId        String?
+  resumeId         String?
+  jobDescriptionId String?
+  type             String    // TECHNICAL | BEHAVIORAL | HR | SYSTEM_DESIGN | CUSTOM
+  difficulty       String    // EASY | MEDIUM | HARD
+  experienceLevel  String    // JUNIOR | MID | SENIOR | STAFF
+  targetCompany    String?
+  targetRole       String?
+  durationMinutes  Int
+  topics           String[]
+  language         String    @default("English")
+  status           String    @default("ACTIVE") // ACTIVE | COMPLETED | ABANDONED
+  planJson         Json?     // Full InterviewPlan from planner service
+  startedAt        DateTime  @default(now())
+  completedAt      DateTime?
+  createdAt        DateTime  @default(now())
+
+  user           User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  template       InterviewTemplate? @relation(fields: [templateId], references: [id], onDelete: SetNull)
+  persona        InterviewPersona?  @relation(fields: [personaId], references: [id], onDelete: SetNull)
+  resume         Resume?            @relation(fields: [resumeId], references: [id], onDelete: SetNull)
+  jobDescription JobDescription?    @relation(fields: [jobDescriptionId], references: [id], onDelete: SetNull)
+  questions      InterviewQuestion[]
+  messages       InterviewMessage[]
+  evaluations    InterviewEvaluation[]
+  feedback       InterviewFeedback?
+  score          InterviewScore?
+}
+
+/// One AI-generated question within a session. Supports follow-up chains.
+model InterviewQuestion {
+  id               String   @id @default(uuid())
+  sessionId        String
+  questionText     String
+  category         String
+  difficulty       String   // EASY | MEDIUM | HARD
+  expectedSkills   String[]
+  estimatedTimeSec Int
+  followUpAllowed  Boolean  @default(true)
+  orderIndex       Int
+  isFollowUp       Boolean  @default(false)
+  parentQuestionId String?
+  status           String   @default("PENDING") // PENDING | ANSWERED | SKIPPED
+  createdAt        DateTime @default(now())
+
+  session    InterviewSession     @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  messages   InterviewMessage[]
+  evaluation InterviewEvaluation?
+}
+
+/// Full conversation log — role: "question" | "answer"
+model InterviewMessage {
+  id         String   @id @default(uuid())
+  sessionId  String
+  questionId String
+  role       String   // "question" | "answer"
+  content    String
+  createdAt  DateTime @default(now())
+
+  session  InterviewSession  @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  question InterviewQuestion @relation(fields: [questionId], references: [id], onDelete: Cascade)
+}
+
+/// Per-question AI evaluation (8 dimensions, 0–100 each).
+model InterviewEvaluation {
+  id                String   @id @default(uuid())
+  sessionId         String
+  questionId        String   @unique
+  technicalAccuracy Int
+  communication     Int
+  problemSolving    Int
+  confidence        Int
+  depth             Int
+  structure         Int
+  examples          Int
+  completeness      Int
+  overallScore      Int
+  aiFeedback        String
+  createdAt         DateTime @default(now())
+
+  session  InterviewSession  @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  question InterviewQuestion @relation(fields: [questionId], references: [id], onDelete: Cascade)
+}
+
+/// Structured recruiter-grade feedback for the whole session.
+model InterviewFeedback {
+  id                     String   @id @default(uuid())
+  sessionId              String   @unique
+  strengths              String[]
+  weaknesses             String[]
+  missedConcepts         String[]
+  suggestedImprovements  String[]
+  topicsToRevise         String[]
+  recommendedDSAProblems String[]
+  resumeChanges          String[]
+  overallSummary         String
+  createdAt              DateTime @default(now())
+
+  session InterviewSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+}
+
+/// Aggregate session score — deterministic, no AI required.
+model InterviewScore {
+  id                String   @id @default(uuid())
+  sessionId         String   @unique
+  technicalAccuracy Int
+  communication     Int
+  problemSolving    Int
+  confidence        Int
+  depth             Int
+  structure         Int
+  examples          Int
+  completeness      Int
+  overallScore      Int
+  percentile        Int?
+  improvementTrend  String?  // JSON string: early vs late comparison
+  confidenceTrend   String?  // JSON string: confidence arc
+  createdAt         DateTime @default(now())
+
+  session InterviewSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// LIVE CODING STUDIO v2.1 — Production Architecture
+// ─────────────────────────────────────────────────────────────────────────────
+
+model CodingProblem {
+  id                String   @id @default(uuid())
+  slug              String   @unique
+  title             String
+  difficulty        String   // EASY | MEDIUM | HARD
+  description       String
+  constraints       String[]
+  examples          Json     // Array of { input, output, explanation }
+  starterCode       Json     // Map of language to starter code
+  boilerplates      Json?    // Hidden boilerplate code if any
+  editorial         String?
+  hints             String[]
+  expectedApproach  String?
+  timeComplexity    String?
+  spaceComplexity   String?
+  estimatedTime     Int      // minutes
+  acceptanceRate    Float    @default(0)
+  frequency         Int      @default(0)
+  followUpQuestions String[]
+  relatedProblems   String[] // Array of slugs
+  sampleTests       Json     // Array of sample test cases
+  hiddenTests       Json     // Array of hidden test cases
+  languages         String[] @default(["javascript", "typescript", "python", "java", "cpp"])
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  topics            CodingTopic[]
+  companies         CodingCompany[]
+  tags              CodingTag[]
+  learningPaths     CodingLearningPath[]
+  sessions          CodingSession[]
+  bookmarks         CodingBookmark[]
+  notes             CodingNote[]
+}
+
+model CodingTopic {
+  id        String   @id @default(uuid())
+  name      String   @unique
+  slug      String   @unique
+  problems  CodingProblem[]
+}
+
+model CodingCompany {
+  id        String   @id @default(uuid())
+  name      String   @unique
+  slug      String   @unique
+  problems  CodingProblem[]
+}
+
+model CodingTag {
+  id        String   @id @default(uuid())
+  name      String   @unique
+  slug      String   @unique
+  problems  CodingProblem[]
+}
+
+model CodingLearningPath {
+  id          String   @id @default(uuid())
+  title       String
+  slug        String   @unique
+  description String
+  problems    CodingProblem[]
+}
+
+model CodingSession {
+  id               String   @id @default(uuid())
+  userId           String
+  problemId        String
+  status           String   @default("ACTIVE") // ACTIVE | COMPLETED
+  language         String   @default("javascript")
+  code             String?  
+  startTime        DateTime @default(now())
+  completedAt      DateTime?
+  
+  user             User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  problem          CodingProblem @relation(fields: [problemId], references: [id], onDelete: Cascade)
+  submissions      CodingSubmission[]
+  snapshots        CodeSnapshot[]
+}
+
+model CodingSubmission {
+  id               String   @id @default(uuid())
+  sessionId        String
+  userId           String
+  codeSnapshot     String
+  language         String
+  status           String   // ACCEPTED | WRONG_ANSWER | TIME_LIMIT_EXCEEDED | RUNTIME_ERROR | COMPILE_ERROR
+  executionTimeMs  Int?
+  memoryBytes      Int?
+  passedCount      Int      @default(0)
+  totalCount       Int      @default(0)
+  percentile       Float?
+  basicReview      Json?    // Stores Pass/Fail, Time/Space complexity
+  detailedReview   Json?    // Full AI review, cached if requested
+  createdAt        DateTime @default(now())
+  
+  session          CodingSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  results          CodingExecution[]
+}
+
+model CodingExecution {
+  id               String   @id @default(uuid())
+  submissionId     String
+  testCaseIndex    Int
+  passed           Boolean
+  executionTimeMs  Int?
+  memoryBytes      Int?
+  stdout           String?
+  stderr           String?
+  
+  submission       CodingSubmission @relation(fields: [submissionId], references: [id], onDelete: Cascade)
+}
+
+model CodeSnapshot {
+  id               String   @id @default(uuid())
+  sessionId        String
+  code             String
+  createdAt        DateTime @default(now())
+
+  session          CodingSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+}
+
+model CodingProgress {
+  id               String   @id @default(uuid())
+  userId           String   @unique
+  easySolved       Int      @default(0)
+  mediumSolved     Int      @default(0)
+  hardSolved       Int      @default(0)
+  totalAttempted   Int      @default(0)
+  acceptanceRate   Float    @default(0)
+  dailyStreak      Int      @default(0)
+  lastSolvedAt     DateTime?
+  
+  user             User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model CodingBookmark {
+  id        String   @id @default(uuid())
+  userId    String
+  problemId String
+  isFavorite Boolean @default(false)
+  createdAt DateTime @default(now())
+
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  problem   CodingProblem @relation(fields: [problemId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, problemId])
+}
+
+model CodingNote {
+  id        String   @id @default(uuid())
+  userId    String
+  problemId String
+  content   String
+  isPinned  Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  problem   CodingProblem @relation(fields: [problemId], references: [id], onDelete: Cascade)
 }

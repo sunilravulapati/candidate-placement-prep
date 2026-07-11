@@ -8,56 +8,76 @@ import { MatchVisualization } from '../../../components/tailoring/MatchVisualiza
 import { RecommendationList } from '../../../components/tailoring/RecommendationList';
 import { SideBySideComparison } from '../../../components/tailoring/SideBySideComparison';
 import { TailoringHistory } from '../../../components/tailoring/TailoringHistory';
-import { LoadingOverlay, LoadingPhase } from '../../../components/tailoring/LoadingOverlay';
+import { LoadingOverlay, LoadingPhase } from '../../../components/core/LoadingOverlay';
 import { GeneratedResumePreview } from '../../../components/tailoring/GeneratedResumePreview';
 import { createTailoringSessionAction, getTailoringSessionByIdAction } from '@backend/features/resume/actions';
 import { generateTailoredResumeAction, getResumeJsonAction } from '@backend/features/resume/generatorActions';
 import { SectionHeader, Button, ErrorCard } from '@/components/ui';
 
-type RecommendationStatus = 'pending' | 'accepted' | 'rejected' | 'completed';
-
-function resumeJsonToText(resumeJson: any) {
-  if (!resumeJson) return '';
-
+// Client-safe serializer: converts CanonicalResume JSON to plain text for side-by-side comparison.
+// (Mirrors the backend canonicalJsonToText — kept inline to avoid server-only transitive imports)
+function resumeJsonToText(resume: any): string {
+  if (!resume || typeof resume !== 'object') return '';
   const lines: string[] = [];
-  const push = (value?: string) => {
-    if (value && String(value).trim()) lines.push(String(value).trim());
-  };
+  const push = (v?: string | null) => { if (v?.trim()) lines.push(v.trim()); };
+  const section = (t: string) => { lines.push(''); lines.push(`=== ${t.toUpperCase()} ===`); };
 
-  push(resumeJson.personalInfo?.fullName);
-  push(resumeJson.summary);
-
-  if (resumeJson.skills) {
-    Object.entries(resumeJson.skills).forEach(([group, values]) => {
-      if (Array.isArray(values) && values.length > 0) lines.push(`${group}: ${values.join(', ')}`);
-    });
+  const p = resume.personalInfo || {};
+  push(p.fullName);
+  if (p.email || p.phone || p.location) push([p.email, p.phone, p.location].filter(Boolean).join(' | '));
+  if (resume.summary) { section('Summary'); push(resume.summary); }
+  const skills = resume.skills;
+  if (skills && typeof skills === 'object') {
+    section('Skills');
+    for (const [key, val] of Object.entries(skills)) {
+      if (Array.isArray(val) && val.length) push(`${key}: ${val.join(', ')}`);
+    }
   }
-
-  resumeJson.experience?.forEach((item: any) => {
-    push(`${item.title || ''} ${item.company ? `at ${item.company}` : ''}`);
-    item.bullets?.forEach(push);
-  });
-
-  resumeJson.projects?.forEach((project: any) => {
-    push(project.name);
-    push(project.description);
-    if (project.technologies?.length) lines.push(project.technologies.join(', '));
-    project.bullets?.forEach(push);
-  });
-
-  resumeJson.education?.forEach((item: any) => push(`${item.institution || ''} ${item.degree || ''} ${item.fieldOfStudy || ''}`));
-  resumeJson.certifications?.forEach((item: any) => push(`${item.name || ''} ${item.issuer || ''}`));
-
-  return lines.join('\n');
+  const exp = Array.isArray(resume.experience) ? resume.experience : [];
+  if (exp.length) {
+    section('Experience');
+    for (const e of exp) {
+      push(`${e.title || ''} at ${e.company || ''}`);
+      (e.bullets || []).forEach((b: string) => push(`• ${b}`));
+    }
+  }
+  const proj = Array.isArray(resume.projects) ? resume.projects : [];
+  if (proj.length) {
+    section('Projects');
+    for (const p of proj) {
+      push(p.name);
+      if (p.description) push(p.description);
+      if (p.technologies?.length) push(`Tech: ${p.technologies.join(', ')}`);
+      (p.bullets || []).forEach((b: string) => push(`• ${b}`));
+    }
+  }
+  const edu = Array.isArray(resume.education) ? resume.education : [];
+  if (edu.length) {
+    section('Education');
+    for (const e of edu) push(`${e.institution || ''} — ${e.degree || ''} ${e.fieldOfStudy || ''}`);
+  }
+  const certs = Array.isArray(resume.certifications) ? resume.certifications : [];
+  if (certs.length) {
+    section('Certifications');
+    certs.forEach((c: any) => push(typeof c === 'string' ? c : `${c.name || ''} — ${c.issuer || ''}`));
+  }
+  return lines.join('\n').trim();
 }
+
+type RecommendationStatus = 'pending' | 'accepted' | 'rejected' | 'completed';
 
 export default function ResumeTailoringDashboard() {
   const [activeResume, setActiveResume] = useState<any>(null);
   const [sessionData, setSessionData] = useState<any>(null);
   const [recommendationStatuses, setRecommendationStatuses] = useState<Record<number, RecommendationStatus>>({});
-  const [generatedResume, setGeneratedResume] = useState<{ id: string; json: any; version?: number } | null>(null);
+  const [generatedResume, setGeneratedResume] = useState<{
+    id: string;
+    json: any;
+    version?: number;
+    metadata?: any;
+  } | null>(null);
   const [isGeneratingResume, setIsGeneratingResume] = useState(false);
-  
+
   const [phase, setPhase] = useState<LoadingPhase>('idle');
   const [error, setError] = useState<string | null>(null);
   const [view, setView] = useState<'selector' | 'dashboard' | 'history'>('selector');
@@ -78,11 +98,10 @@ export default function ResumeTailoringDashboard() {
     try {
       setError(null);
       setPhase('extracting_resume');
-      
-      // Simulate progressive loading while the monolithic backend action runs
+
       const phases: LoadingPhase[] = [
-        'extracting_resume', 'extracting_jd', 'analyzing_resume', 'analyzing_jd', 
-        'comparing', 'generating_recommendations', 'saving'
+        'extracting_resume', 'extracting_jd', 'analyzing_resume', 'analyzing_jd',
+        'comparing', 'generating_recommendations', 'saving',
       ];
       let pIdx = 0;
       const interval = setInterval(() => {
@@ -93,12 +112,11 @@ export default function ResumeTailoringDashboard() {
       }, 3000);
 
       const res = await createTailoringSessionAction(resumeId, jdId);
-      
       clearInterval(interval);
       setPhase('saving');
-      
+
       if (!res.success || !res.session) throw new Error('Tailoring session failed');
-      
+
       setSessionData(res.session);
       setGeneratedResume(null);
       setRecommendationStatuses({});
@@ -112,7 +130,7 @@ export default function ResumeTailoringDashboard() {
 
   const handleLoadSession = async (sessionId: string) => {
     try {
-      setPhase('extracting_resume'); // Just to show loader
+      setPhase('extracting_resume');
       const session = await getTailoringSessionByIdAction(sessionId);
       setActiveResume(session.resume);
       setSessionData(session);
@@ -122,6 +140,7 @@ export default function ResumeTailoringDashboard() {
           id: session.generatedResumeId,
           json: generated.json,
           version: generated.version,
+          metadata: generated.metadata,
         });
       } else {
         setGeneratedResume(null);
@@ -136,35 +155,47 @@ export default function ResumeTailoringDashboard() {
   };
 
   const handleRecommendationStatus = (index: number, status: RecommendationStatus) => {
-    setRecommendationStatuses((current) => ({ ...current, [index]: status }));
+    setRecommendationStatuses(current => ({ ...current, [index]: status }));
   };
 
   const acceptedRecommendations = useMemo(() => {
     const recommendations = sessionData?.recommendations || [];
-    const accepted = recommendations.filter((_: any, index: number) => {
+    // Use explicitly accepted/completed ones; fall back to all non-rejected if none accepted
+    const explicit = recommendations.filter((_: any, index: number) => {
       const status = recommendationStatuses[index];
       return status === 'accepted' || status === 'completed';
     });
-
-    return accepted.length > 0
-      ? accepted
-      : recommendations.filter((_: any, index: number) => recommendationStatuses[index] !== 'rejected');
+    if (explicit.length > 0) return explicit;
+    // Fallback: all non-rejected
+    return recommendations.filter((_: any, index: number) => recommendationStatuses[index] !== 'rejected');
   }, [recommendationStatuses, sessionData?.recommendations]);
 
   const handleGenerateResume = async () => {
     if (!sessionData?.id || !sessionData?.resumeId) return;
-
     try {
       setError(null);
       setIsGeneratingResume(true);
       setPhase('generating_resume');
-      const result = await generateTailoredResumeAction(sessionData.resumeId, sessionData.id, acceptedRecommendations);
-      setGeneratedResume({ id: result.newResumeId, json: result.json, version: result.version });
-      setSessionData((current: any) => current ? {
-        ...current,
-        generatedResumeId: result.newResumeId,
-        resume: { ...current.resume, canonicalJson: result.originalJson },
-      } : current);
+      const result = await generateTailoredResumeAction(
+        sessionData.resumeId,
+        sessionData.id,
+        acceptedRecommendations
+      );
+      setGeneratedResume({
+        id: result.newResumeId,
+        json: result.json,
+        version: result.version,
+        metadata: (result as any).metadata,
+      });
+      setSessionData((current: any) =>
+        current
+          ? {
+              ...current,
+              generatedResumeId: result.newResumeId,
+              resume: { ...current.resume, canonicalJson: result.originalJson },
+            }
+          : current
+      );
       setPhase('done');
     } catch (err: any) {
       setError(err.message || 'Failed to generate tailored resume.');
@@ -175,11 +206,18 @@ export default function ResumeTailoringDashboard() {
   };
 
   const originalResumeText = useMemo(() => {
-    const jsonText = resumeJsonToText(sessionData?.resume?.canonicalJson);
-    return jsonText || sessionData?.resume?.jdText || 'Original resume text is not available yet. Generate once to parse the source resume JSON.';
+    const json = sessionData?.resume?.canonicalJson;
+    if (json) return resumeJsonToText(json);
+    return sessionData?.resume?.jdText || 'Original resume text will appear here once parsed.';
   }, [sessionData?.resume?.canonicalJson, sessionData?.resume?.jdText]);
 
-  const generatedResumeText = useMemo(() => resumeJsonToText(generatedResume?.json), [generatedResume?.json]);
+  const generatedResumeText = useMemo(
+    () => (generatedResume?.json ? resumeJsonToText(generatedResume.json) : ''),
+    [generatedResume?.json]
+  );
+
+  // Button is disabled only if there are genuinely no recommendations to apply
+  const canGenerate = acceptedRecommendations.length > 0 && !isGeneratingResume;
 
   return (
     <div className="page-container relative min-h-[60vh] animate-fade-in">
@@ -237,7 +275,7 @@ export default function ResumeTailoringDashboard() {
             </div>
             <ResumeSelector onSelect={handleResumeSelect} selectedId={activeResume?.id || null} />
           </div>
-          
+
           <div className="space-y-4">
             <div className="flex items-center space-x-3 mb-6">
               <div className={`w-8 h-8 rounded-full flex items-center justify-center font-bold ${activeResume ? 'bg-indigo-500/20 text-indigo-400' : 'bg-slate-800 text-slate-500'}`}>2</div>
@@ -260,7 +298,7 @@ export default function ResumeTailoringDashboard() {
             <div className="lg:col-span-1 space-y-6">
               <MatchVisualization matchData={sessionData.matchDetails} />
             </div>
-            
+
             <div className="lg:col-span-2">
               <RecommendationList
                 recommendations={sessionData.recommendations}
@@ -269,12 +307,16 @@ export default function ResumeTailoringDashboard() {
               />
               <div className="mt-5 flex flex-col gap-3 rounded-2xl border border-slate-800 bg-slate-900/40 p-4 sm:flex-row sm:items-center sm:justify-between">
                 <div>
-                  <p className="text-sm font-semibold text-slate-200">Generate tailored resume JSON</p>
-                  <p className="mt-1 text-xs text-slate-500">Uses accepted recommendations; if none are accepted, every non-rejected recommendation is applied.</p>
+                  <p className="text-sm font-semibold text-slate-200">Generate tailored resume</p>
+                  <p className="mt-1 text-xs text-slate-500">
+                    {acceptedRecommendations.length > 0
+                      ? `${acceptedRecommendations.length} recommendations will be applied.`
+                      : 'Accept recommendations above to generate a targeted resume version.'}
+                  </p>
                 </div>
                 <Button
                   onClick={handleGenerateResume}
-                  disabled={isGeneratingResume || acceptedRecommendations.length === 0}
+                  disabled={!canGenerate}
                   variant="success"
                 >
                   {isGeneratingResume ? <Loader2 className="h-4 w-4 animate-spin" /> : <Wand2 className="h-4 w-4" />}
@@ -288,9 +330,10 @@ export default function ResumeTailoringDashboard() {
             resumeJson={generatedResume?.json}
             version={generatedResume?.version}
             resumeId={generatedResume?.id || sessionData.generatedResumeId}
+            generationMetadata={generatedResume?.metadata}
           />
-          
-          <SideBySideComparison 
+
+          <SideBySideComparison
             originalText={originalResumeText}
             generatedText={generatedResumeText}
             jdText={sessionData.jobDescription?.originalText || 'Job description content...'}
@@ -299,7 +342,6 @@ export default function ResumeTailoringDashboard() {
           />
         </div>
       )}
-      
     </div>
   );
 }

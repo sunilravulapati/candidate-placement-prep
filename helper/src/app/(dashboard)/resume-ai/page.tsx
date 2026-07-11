@@ -15,7 +15,6 @@ import {
   Upload, 
   Trash2, 
   Edit3, 
-  Download, 
   Loader2, 
   AlertCircle, 
   CheckCircle,
@@ -32,8 +31,11 @@ import {
   FileCheck2,
   Calendar,
   Hourglass,
-  Cpu
+  Cpu,
+  Scissors,
+  ArrowRight
 } from 'lucide-react';
+import Link from 'next/link';
 
 type ProgressStep = 'uploading' | 'extracting' | 'analyzing' | 'normalizing' | 'scoring' | 'saving' | 'done';
 
@@ -423,9 +425,21 @@ export default function ResumeAIPage() {
                       <h4 className="text-xs font-bold text-slate-200 line-clamp-1 group-hover:text-white transition-colors" title={resume.name}>
                         {resume.name}
                       </h4>
-                      <p className="text-[10px] text-slate-500">
-                        Uploaded {new Date(resume.createdAt).toLocaleDateString()}
-                      </p>
+                      <div className="flex items-center gap-2">
+                        {/* Source badge */}
+                        {resume.isGenerated ? (
+                          <span className="text-[9px] font-bold bg-emerald-950/50 border border-emerald-800/50 text-emerald-400 px-1.5 py-0.5 rounded-md">
+                            Generated v{resume.version}
+                          </span>
+                        ) : (
+                          <span className="text-[9px] font-bold bg-slate-900 border border-slate-800 text-slate-500 px-1.5 py-0.5 rounded-md">
+                            Original
+                          </span>
+                        )}
+                        <p className="text-[10px] text-slate-500">
+                          {new Date(resume.createdAt).toLocaleDateString()}
+                        </p>
+                      </div>
                     </div>
 
                     <div className="flex items-center gap-2">
@@ -451,6 +465,7 @@ export default function ResumeAIPage() {
                             setRenameValue(resume.name.replace('.pdf', ''));
                           }}
                           className="bg-slate-900 hover:bg-slate-800 text-slate-400 hover:text-white p-1 rounded-md border border-slate-800"
+                          title="Rename"
                         >
                           <Edit3 className="w-3 h-3" />
                         </button>
@@ -460,6 +475,7 @@ export default function ResumeAIPage() {
                             setDeleteTarget(resume);
                           }}
                           className="bg-slate-900 hover:bg-rose-950/30 text-slate-400 hover:text-rose-400 p-1 rounded-md border border-slate-800"
+                          title="Delete"
                         >
                           <Trash2 className="w-3 h-3" />
                         </button>
@@ -786,12 +802,22 @@ export default function ResumeAIPage() {
                 </div>
 
                 <div className="flex justify-end gap-3 pt-4 border-t border-slate-900">
+                  {selectedResume && (
+                    <Link
+                      href={`/resume-tailoring`}
+                      className="bg-gradient-to-r from-emerald-700 to-teal-700 hover:from-emerald-600 hover:to-teal-600 text-white font-bold text-xs px-4 py-2.5 rounded-xl flex items-center gap-1.5 shadow-lg transition-all"
+                    >
+                      <Scissors className="w-3.5 h-3.5" />
+                      Tailor This Resume
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </Link>
+                  )}
                   <button 
                     onClick={() => triggerAnalysis(selectedResume.id, true)}
                     className="bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-300 font-bold text-xs px-4 py-2.5 rounded-xl flex items-center gap-1.5 transition-all"
                   >
                     <Cpu className="w-3.5 h-3.5" />
-                    Bypass Cache & Re-analyze
+                    Bypass Cache &amp; Re-analyze
                   </button>
                 </div>
               </div>

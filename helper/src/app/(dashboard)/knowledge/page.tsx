@@ -1,0 +1,1 @@
+export default function KnowledgePage() { return <div className='p-12 text-center text-slate-300'>Coming Soon</div>; }

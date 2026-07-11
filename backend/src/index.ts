@@ -10,14 +10,14 @@ export type { SessionUser } from './auth/session';
 // ── AI Infrastructure ────────────────────────────────────────────────────────
 
 // AI Provider (upgraded: retry, backoff, JSON mode, timeout)
-export { getAICompletion, callGroqRaw, groq } from './ai/provider';
-export type { ChatMessage, AICompletionOptions } from './ai/provider';
-export { AI_MODELS } from './ai/models';
-export type { AIModelType } from './ai/models';
+export { getAICompletion, callGroqRaw, groq } from './ai/core/provider';
+export type { ChatMessage, AICompletionOptions } from './ai/core/provider';
+export { AI_MODELS } from './ai/core/models';
+export type { AIModelType } from './ai/core/models';
 
 // AI JSON utilities (Phase 1)
-export { parseJSONRobust, repairAIJson } from './ai/jsonParser';
-export type { AICaller } from './ai/jsonParser';
+export { parseJSONRobust, repairAIJson } from './ai/core/jsonParser';
+export type { AICaller } from './ai/core/jsonParser';
 
 // ── Shared Utilities ─────────────────────────────────────────────────────────
 
@@ -56,3 +56,11 @@ export { scoreBullet, shouldKeepRewrittenBullet } from './features/resume/bullet
 export type { RoleType } from './features/resume/bulletScorer';
 
 export { cleanBulletVerbosity, FILLER_PHRASES } from './features/resume/textCleaner';
+
+// Canonical resume text serializer (JSON-first pipeline)
+export { resumeJsonToText } from './features/resume/resumeSerializer';
+
+// ── Mock Interview Studio Feature ─────────────────────────────────────────────
+export * from './features/mockInterview/actions';
+export * from './features/mockInterview/types';
+
