@@ -1,0 +1,87 @@
+[
+  {
+    "id": "quant_percentages_1",
+    "title": "Basic Percentage Calculation",
+    "description": "If 40% of a number is equal to two-thirds of another number, what is the ratio of the first number to the second number?",
+    "options": [
+      "2 : 5",
+      "3 : 7",
+      "5 : 3",
+      "7 : 3"
+    ],
+    "correctAnswer": "5 : 3",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Let the two numbers be x and y.\nAccording to the problem:\n40% of x = (2/3) of y\n=> (40/100) * x = (2/5) * x = (2/3) * y\n=> (2/5) * x = (2/3) * y\nDivide both sides by 2:\n=> (1/5) * x = (1/3) * y\n=> x / y = 5 / 3\nHence, the ratio x : y is 5 : 3.",
+    "topic": "percentages",
+    "category": "quantitative"
+  },
+  {
+    "id": "quant_percentages_2",
+    "title": "Salary Adjustment",
+    "description": "A man's salary was decreased by 20% and then subsequently increased by 20%. What is the net change in his salary?",
+    "options": [
+      "No change",
+      "4% increase",
+      "4% decrease",
+      "2% decrease"
+    ],
+    "correctAnswer": "4% decrease",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Easy-Medium",
+    "explanation": "Let the initial salary be $100.\n1. After 20% decrease: Salary = 100 - (20% of 100) = $80.\n2. After 20% increase on the new salary: Salary = 80 + (20% of 80) = 80 + 16 = $96.\nNet change = 100 - 96 = 4% decrease.\nShortcut formula: Net change = x + y + (x*y)/100 = -20 + 20 + (-20 * 20)/100 = -400/100 = -4%. Negatives represent a decrease.",
+    "topic": "percentages",
+    "category": "quantitative"
+  },
+  {
+    "id": "quant_percentages_3",
+    "title": "Successive Population Changes",
+    "description": "The population of a town increases by 10% in the first year, decreases by 10% in the second year, and increases by 15% in the third year. If the current population is 22,770, what was the population 3 years ago?",
+    "options": [
+      "20,000",
+      "21,000",
+      "22,000",
+      "25,000"
+    ],
+    "correctAnswer": "20,000",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Let the population 3 years ago be P.\nAccording to successive percentage changes:\nP * (1 + 10/100) * (1 - 10/100) * (1 + 15/100) = 22,770\n=> P * (1.1) * (0.9) * (1.15) = 22,770\n=> P * (1.1) * (0.9) * (1.15) = 22,770\n=> P * 0.99 * 1.15 = 22,770\n=> P = 22,770 / 1.1385 = 20,000.\nTherefore, the population of the town 3 years ago was 20,000.",
+    "topic": "percentages",
+    "category": "quantitative"
+  },
+  {
+    "id": "quant_percentages_4",
+    "title": "Election Vote Share",
+    "description": "In an election between two candidates, 10% of the voters did not cast their votes and 10% of the votes cast were found invalid. The winning candidate got 54% of the valid votes and won by a majority of 1,620 votes. Find the total number of voters enrolled.",
+    "options": [
+      "20,000",
+      "22,500",
+      "25,000",
+      "30,000"
+    ],
+    "correctAnswer": "25,000",
+    "difficulty": "HARD",
+    "difficultyLabel": "Medium-Hard",
+    "explanation": "Let the total number of enrolled voters be x.\n1. Votes cast = 90% of x = 0.9x.\n2. Valid votes = 90% of votes cast = 0.9 * 0.9x = 0.81x.\n3. Winner got 54% of valid votes. The loser got (100 - 54) = 46% of valid votes.\n4. Difference (majority) = 54% - 46% = 8% of valid votes.\nGiven, 8% of valid votes = 1,620\n=> 0.08 * 0.81x = 1,620\n=> 0.0648x = 1,620\n=> x = 1,620 / 0.0648 = 25,000.\nHence, the total number of enrolled voters is 25,000.",
+    "topic": "percentages",
+    "category": "quantitative"
+  },
+  {
+    "id": "quant_percentages_5",
+    "title": "Commodity Price vs Consumption",
+    "description": "The price of sugar rises by 25%. If a family wants to keep their monthly expenditure on sugar the same as before, by what percentage must they reduce their sugar consumption?",
+    "options": [
+      "15%",
+      "20%",
+      "25%",
+      "33.33%"
+    ],
+    "correctAnswer": "20%",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Let the original price be P and original consumption be C. Original expenditure = P * C.\nNew price = 1.25 * P.\nLet the new consumption be C'.\nWe want the expenditure to remain the same:\n1.25 * P * C' = P * C\n=> 1.25 * C' = C\n=> C' = C / 1.25 = C * (4/5) = 0.8 * C.\nReduction in consumption = C - C' = C - 0.8C = 0.2C.\nPercentage reduction = (0.2C / C) * 100 = 20%.\nShortcut formula: Reduction % = [r / (100 + r)] * 100 = [25 / (100 + 25)] * 100 = (25/125) * 100 = 20%.",
+    "topic": "percentages",
+    "category": "quantitative"
+  }
+]

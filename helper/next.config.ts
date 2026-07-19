@@ -8,15 +8,12 @@ loadEnv({ path: path.resolve(__dirname, '../backend/.env'), override: false, qui
 
 const nextConfig: NextConfig = {
   transpilePackages: ["backend", "react-resizable-panels"],
+  serverExternalPackages: ["unpdf"],
   webpack: (config) => {
     config.resolve = {
       ...config.resolve,
       alias: {
         ...config.resolve?.alias,
-        '@': '.',
-        '@/components': './components',
-        '@/lib': './lib',
-        '@/app': './app',
         '@backend': path.resolve(__dirname, '../backend/src')
       },
     };

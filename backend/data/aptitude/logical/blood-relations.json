@@ -1,0 +1,87 @@
+[
+  {
+    "id": "logical_blood_relations_1",
+    "title": "Photograph Pointing",
+    "description": "Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+    "options": [
+      "Brother",
+      "Uncle",
+      "Cousin",
+      "Father"
+    ],
+    "correctAnswer": "Father",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "'The only son of Suresh's mother' is Suresh himself.\nSo, Suresh is talking about Suresh's own son.\nThus, Suresh is the father of the boy in the photograph.",
+    "topic": "blood-relations",
+    "category": "logical"
+  },
+  {
+    "id": "logical_blood_relations_2",
+    "title": "Family Relation Chain",
+    "description": "A is the brother of B. C is the father of A. D is the brother of E. E is the daughter of B. Who is the uncle of D?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "correctAnswer": "A",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Easy-Medium",
+    "explanation": "Let's trace the relations:\n1. A is the brother of B.\n2. C is the father of A (hence C is the father of both A and B).\n3. E is the daughter of B.\n4. D is the brother of E (hence D is B's son).\nSince D is the child of B and A is the brother of B, A is the uncle (maternal or paternal depending on B's gender) of D.",
+    "topic": "blood-relations",
+    "category": "logical"
+  },
+  {
+    "id": "logical_blood_relations_3",
+    "title": "Coded Relations",
+    "description": "If 'P + Q' means 'P is the mother of Q', 'P - Q' means 'P is the brother of Q', 'P * Q' means 'P is the father of Q', and 'P / Q' means 'P is the sister of Q', which of the following represents 'M is the maternal uncle of R'?",
+    "options": [
+      "M - N + R",
+      "M + N - R",
+      "M - N * R",
+      "M / N + R"
+    ],
+    "correctAnswer": "M - N + R",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Let's check option A: 'M - N + R'\n- 'M - N' means M is the brother of N.\n- 'N + R' means N is the mother of R.\nSince N is the mother of R, and M is the brother of N, M is the brother of R's mother, which means M is the maternal uncle of R.\nTherefore, option A is correct.",
+    "topic": "blood-relations",
+    "category": "logical"
+  },
+  {
+    "id": "logical_blood_relations_4",
+    "title": "Family Tree with Occupations",
+    "description": "In a family of six people (A, B, C, D, E, F), there are two married couples. The lawyer is the father of A. B is a teacher and the mother of C. F is the grandfather of E and is a doctor. D is the grandmother of C and is a housewife. There is one lawyer, one teacher, one doctor, one housewife, and two students in the family. What is the profession of A?",
+    "options": [
+      "Lawyer",
+      "Teacher",
+      "Doctor",
+      "Student"
+    ],
+    "correctAnswer": "Lawyer",
+    "difficulty": "HARD",
+    "difficultyLabel": "Medium-Hard",
+    "explanation": "Let's map the relations and professions:\n1. F is the grandfather of E and is a doctor.\n2. D is the grandmother of C and is a housewife. So, F and D are a married couple (Grandparents tier).\n3. B is a teacher and the mother of C.\n4. C and E are siblings (or cousins) of the youngest generation and are the two students.\n5. The lawyer is the father of A.\n6. Since there are two married couples, B (mother) must be married to the father of A/C/E. B is the teacher, meaning her husband is the lawyer.\n7. Since F is the grandfather and D is the grandmother, A must be the father of C and E. Thus, A is the lawyer.",
+    "topic": "blood-relations",
+    "category": "logical"
+  },
+  {
+    "id": "logical_blood_relations_5",
+    "title": "Complex Coded Relations",
+    "description": "Study the code: 'A # B' means A is the husband of B; 'A $ B' means A is the daughter of B; 'A % B' means A is the father of B; 'A * B' means A is the sister of B. If 'U $ V # W % X * Y' is true, how is U related to Y?",
+    "options": [
+      "Sister",
+      "Aunt",
+      "Mother",
+      "Niece"
+    ],
+    "correctAnswer": "Sister",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Let's decode the statement 'U $ V # W % X * Y' step-by-step:\n1. 'V # W': V is the husband of W (W is the wife).\n2. 'U $ V': U is the daughter of V. Since V is married to W, U is the daughter of V and W.\n3. 'W % X': W is the mother of X (since V is husband and % means father/parent in context, W is father/mother. W is female, so W is mother of X).\n4. 'X * Y': X is the sister of Y.\nFrom 2 and 3, V and W are parents of U, X, and Y.\nSince U is a female (daughter) and Y is another child of the same parents, U must be the sister of Y.",
+    "topic": "blood-relations",
+    "category": "logical"
+  }
+]

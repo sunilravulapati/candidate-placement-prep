@@ -1,80 +1,127 @@
 'use client';
 
-import React, { useState } from 'react';
-import { AlertCircle } from 'lucide-react';
-import { cn } from './CodingWorkspace';
+import React, { useEffect, useState } from 'react';
+import { CheckCircle2, XCircle, Plus, FlaskConical } from 'lucide-react';
+import { cn } from '@/lib/cn';
+import type { TestCaseResult } from '@/features/live-coding/execution/ExecutionProvider';
 
-export default function TestCasePanel() {
+interface TestCase {
+  input: string;
+  displayInput?: string;
+  expectedOutput: string;
+}
+
+interface TestCasePanelProps {
+  testCases?: TestCase[];
+  results?: TestCaseResult[];
+}
+
+export default function TestCasePanel({
+  testCases = [],
+  results,
+}: TestCasePanelProps) {
   const [activeTab, setActiveTab] = useState(0);
+  const hasResults = results && results.length > 0;
 
-  const testCases = [
-    { input: 'nums = [2,7,11,15], target = 9', target: '[0,1]', output: '[0,1]', passed: true, hidden: false },
-    { input: 'nums = [3,2,4], target = 6', target: '[1,2]', output: '[1,2]', passed: true, hidden: false },
-    { input: 'Hidden Test Case 1', target: 'Hidden', output: 'Hidden', passed: true, hidden: true },
-    { input: 'Hidden Test Case 2', target: 'Hidden', output: 'Hidden', passed: false, hidden: true },
-  ];
+  const safeTab = Math.min(activeTab, testCases.length - 1);
+
+  useEffect(() => {
+    setActiveTab(0);
+  }, [testCases]);
 
   return (
     <div className="flex flex-col h-full bg-[#1e1e1e]">
-      <div className="flex px-2 pt-2 border-b border-slate-800">
-        {testCases.map((tc, idx) => (
-          <button
-            key={idx}
-            onClick={() => setActiveTab(idx)}
-            className={cn(
-              "px-4 py-2 text-sm font-medium border-b-2 flex items-center gap-2 transition-colors relative",
-              activeTab === idx ? "border-indigo-500 text-white" : "border-transparent text-slate-400 hover:text-slate-200"
-            )}
-          >
-            {tc.hidden ? `Hidden ${idx + 1}` : `Case ${idx + 1}`}
-            {tc.passed ? (
-              <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 absolute top-2 right-2" />
-            ) : (
-              <div className="w-1.5 h-1.5 rounded-full bg-rose-500 absolute top-2 right-2" />
-            )}
-          </button>
-        ))}
-        <button className="px-4 py-2 text-sm font-medium border-b-2 border-transparent text-indigo-400 hover:text-indigo-300 flex items-center gap-2 transition-colors ml-auto">
-          + Custom Case
+      {/* Case tab bar */}
+      <div className="flex px-2 pt-2 border-b border-slate-800 items-end gap-0 overflow-x-auto">
+        {testCases.map((_, idx) => {
+          const result = hasResults ? results[idx] : undefined;
+          return (
+            <button
+              key={idx}
+              onClick={() => setActiveTab(idx)}
+              className={cn(
+                'px-4 py-2 text-sm font-medium border-b-2 flex items-center gap-2 transition-colors shrink-0',
+                safeTab === idx
+                  ? 'border-indigo-500 text-white'
+                  : 'border-transparent text-slate-400 hover:text-slate-200'
+              )}
+            >
+              {result && (
+                result.passed
+                  ? <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+                  : <XCircle className="w-3.5 h-3.5 text-rose-400 shrink-0" />
+              )}
+              Case {idx + 1}
+            </button>
+          );
+        })}
+
+        <button className="px-3 py-2 text-sm font-medium border-b-2 border-transparent text-indigo-400 hover:text-indigo-300 flex items-center gap-1.5 transition-colors ml-auto shrink-0">
+          <Plus className="w-3.5 h-3.5" /> Custom
         </button>
       </div>
 
+      {/* Case content */}
       <div className="p-4 flex-1 overflow-y-auto">
-        {testCases[activeTab].hidden ? (
-          <div className="flex flex-col items-center justify-center h-full text-slate-500 gap-3">
-            <AlertCircle className="w-12 h-12 text-slate-700" />
-            <p>This is a hidden test case used for submission.</p>
-            {!testCases[activeTab].passed && (
-              <p className="text-rose-400 text-sm">Failed with Wrong Answer or TLE.</p>
-            )}
+        {testCases.length === 0 ? (
+          <div className="flex flex-col items-center justify-center h-full text-slate-600 gap-3">
+            <FlaskConical className="w-10 h-10 opacity-40" />
+            <p className="text-sm">No test cases available.</p>
           </div>
         ) : (
-          <div className="space-y-6">
-            <div className="space-y-2">
-              <label className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Input</label>
+          <div className="space-y-4">
+            {/* Input */}
+            <div className="space-y-1.5">
+              <label className="text-xs font-semibold text-slate-400 uppercase tracking-wider">
+                Input
+              </label>
               <div className="bg-slate-900 rounded-lg p-3 font-mono text-sm text-slate-300 border border-slate-800">
-                {testCases[activeTab].input}
-              </div>
-            </div>
-            
-            <div className="space-y-2">
-              <label className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Expected Output</label>
-              <div className="bg-slate-900 rounded-lg p-3 font-mono text-sm text-slate-300 border border-slate-800">
-                {testCases[activeTab].target}
+                <pre className="whitespace-pre-wrap">
+                  {testCases[safeTab]?.displayInput ?? testCases[safeTab]?.input}
+                </pre>
               </div>
             </div>
 
-            <div className="space-y-2">
-              <label className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Actual Output</label>
-              <div className={cn(
-                "rounded-lg p-3 font-mono text-sm border",
-                testCases[activeTab].passed 
-                  ? "bg-emerald-500/10 border-emerald-500/20 text-emerald-400" 
-                  : "bg-rose-500/10 border-rose-500/20 text-rose-400"
-              )}>
-                {testCases[activeTab].output}
+            {/* Expected Output */}
+            <div className="space-y-1.5">
+              <label className="text-xs font-semibold text-slate-400 uppercase tracking-wider">
+                Expected Output
+              </label>
+              <div className="bg-slate-900 rounded-lg p-3 font-mono text-sm text-slate-300 border border-slate-800">
+                <pre className="whitespace-pre-wrap">{testCases[safeTab]?.expectedOutput}</pre>
               </div>
             </div>
+
+            {/* Your Output (only when results exist) */}
+            {hasResults && results[safeTab] && (
+              <div className="space-y-1.5">
+                <label className="text-xs font-semibold text-slate-400 uppercase tracking-wider">
+                  Your Output
+                </label>
+                <div
+                  className={cn(
+                    'rounded-lg p-3 font-mono text-sm border',
+                    results[safeTab].passed
+                      ? 'bg-emerald-500/10 border-emerald-500/20 text-emerald-300'
+                      : 'bg-rose-500/10 border-rose-500/20 text-rose-300'
+                  )}
+                >
+                  <pre className="whitespace-pre-wrap">
+                    {results[safeTab].actualOutput || '(empty)'}
+                  </pre>
+                </div>
+              </div>
+            )}
+
+            {/* Per-case timing */}
+            {hasResults && results[safeTab]?.executionTimeMs !== undefined && (
+              <div className="text-xs text-slate-600">
+                Runtime:{' '}
+                <span className="text-emerald-400">
+                  {results[safeTab].executionTimeMs!.toFixed(1)} ms
+                </span>
+              </div>
+            )}
           </div>
         )}
       </div>

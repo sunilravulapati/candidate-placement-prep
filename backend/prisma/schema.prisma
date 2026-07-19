@@ -26,6 +26,8 @@ model User {
   codingProgress    CodingProgress?
   codingBookmarks   CodingBookmark[]
   codingNotes       CodingNote[]
+  aptitudeProgress  UserAptitudeProgress[]
+  aptitudeSessions  AptitudeSession[]
 }
 
 model Question {
@@ -553,4 +555,37 @@ model CodingNote {
 
   user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
   problem   CodingProblem @relation(fields: [problemId], references: [id], onDelete: Cascade)
+}
+
+model UserAptitudeProgress {
+  id         String   @id @default(uuid())
+  userId     String
+  questionId String   // e.g. "quant_percentages_1"
+  category   String   // e.g. "quantitative", "logical", "verbal", "di"
+  topic      String   // e.g. "percentages", "blood-relations"
+  status     String   @default("not_started") // "not_started" | "in_progress" | "completed" | "wrong"
+  answer     String?  // user's submitted answer
+  isBookmarked Boolean @default(false)
+  notes      String?  // user's custom notes
+  timeTaken  Int      @default(0) // time taken in seconds
+  updatedAt  DateTime @updatedAt
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, questionId])
+}
+
+model AptitudeSession {
+  id            String   @id @default(uuid())
+  userId        String
+  mode          String   // "practice" | "test"
+  topics        String[] // e.g. ["percentages", "profit-loss"]
+  difficulty    String   // "easy" | "medium" | "hard" | "mixed"
+  questionCount Int
+  timeLimit     Int      // in seconds (0 for unlimited)
+  score         Int      // number of correct answers
+  accuracy      Float    // percentage of correct answers
+  timeTaken     Int      // time taken in seconds
+  completedAt   DateTime @default(now())
+  results       Json     // Array of { questionId, submittedAnswer, isCorrect, timeTaken }
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 }

@@ -7,6 +7,7 @@ import AnalysisTab from '../../../components/resume-studio/AnalysisTab';
 import TailoringTab from '../../../components/resume-studio/TailoringTab';
 import VersionsTab from '../../../components/resume-studio/VersionsTab';
 import HistoryTab from '../../../components/resume-studio/HistoryTab';
+import { PageHeader } from '../../../components/ui/PageHeader';
 
 export type ResumeStudioTab = 'library' | 'analysis' | 'tailoring' | 'versions' | 'history';
 
@@ -29,27 +30,21 @@ export default function ResumeStudioPage() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto space-y-6 animate-fade-in text-slate-100 pb-12">
+    <>
       
       {/* Header Banner */}
-      <div className="relative overflow-hidden bg-gradient-to-r from-violet-950/60 via-indigo-950/40 to-slate-900/30 border border-indigo-500/20 p-6 md:p-8 rounded-3xl backdrop-blur-md shadow-2xl">
-        <div className="absolute -top-12 -right-12 w-48 h-48 bg-indigo-500/10 rounded-full blur-3xl"></div>
-        <div className="relative z-10 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-          <div>
-            <h1 className="text-2xl md:text-3xl font-extrabold text-white tracking-tight flex items-center gap-3">
-              <Sparkles className="w-8 h-8 text-violet-400 animate-pulse" />
-              Resume Studio
-            </h1>
-            <p className="text-slate-400 text-sm mt-1 max-w-xl leading-relaxed">
-              Upload, analyze, and tailor your resumes to beat the ATS.
-            </p>
-          </div>
+      <PageHeader
+        title="Resume Studio"
+        description="Upload, analyze, and tailor your resumes to beat the ATS."
+        icon={Sparkles}
+        iconClassName="text-violet-400 animate-pulse"
+        actions={
           <div className="bg-indigo-600/10 border border-indigo-500/20 text-indigo-300 font-semibold text-xs px-4 py-2.5 rounded-xl flex items-center gap-2">
             <Cpu className="w-4 h-4 text-violet-400" />
             <span>AI Orchestrated Pipeline</span>
           </div>
-        </div>
-      </div>
+        }
+      />
 
       {/* Workspace Tabs */}
       <div className="flex overflow-x-auto bg-slate-900/50 p-1.5 rounded-2xl border border-slate-800 w-full backdrop-blur-md no-scrollbar">
@@ -97,6 +92,6 @@ export default function ResumeStudioPage() {
         )}
       </div>
 
-    </div>
+    </>
   );
 }

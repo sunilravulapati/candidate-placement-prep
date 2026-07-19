@@ -1,0 +1,87 @@
+[
+  {
+    "id": "quant_time_work_1",
+    "title": "Combined Work Rate",
+    "description": "A can complete a piece of work in 12 days, and B can complete the same work in 18 days. If they work together, how many days will they take to complete the work?",
+    "options": [
+      "5 days",
+      "7.2 days",
+      "8.5 days",
+      "9 days"
+    ],
+    "correctAnswer": "7.2 days",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "A's 1-day work = 1/12\nB's 1-day work = 1/18\nCombined 1-day work = 1/12 + 1/18 = (3 + 2) / 36 = 5 / 36\nTime taken to complete the work = 36 / 5 = 7.2 days.\nShortcut formula: (A * B) / (A + B) = (12 * 18) / (12 + 18) = 216 / 30 = 7.2 days.",
+    "topic": "time-work",
+    "category": "quantitative"
+  },
+  {
+    "id": "quant_time_work_2",
+    "title": "Early Departure",
+    "description": "A, B, and C can complete a task in 10, 12, and 15 days respectively. They begin working together, but A leaves 2 days before the task is completed. In how many days was the task completed?",
+    "options": [
+      "4.2 days",
+      "4.5 days",
+      "4.8 days",
+      "5 days"
+    ],
+    "correctAnswer": "4.8 days",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Easy-Medium",
+    "explanation": "Let the total work be LCM(10, 12, 15) = 60 units.\nEfficiency of A = 60 / 10 = 6 units/day\nEfficiency of B = 60 / 12 = 5 units/day\nEfficiency of C = 60 / 15 = 4 units/day\nLet the total time taken be x days.\nSince A left 2 days before completion, A worked for (x - 2) days.\nB and C worked for all x days.\nTotal work = 6 * (x - 2) + 5 * x + 4 * x = 60\n=> 6x - 12 + 9x = 60\n=> 15x = 72\n=> x = 72 / 15 = 4.8 days.\nHence, the task was completed in 4.8 days.",
+    "topic": "time-work",
+    "category": "quantitative"
+  },
+  {
+    "id": "quant_time_work_3",
+    "title": "Efficiency Ratios",
+    "description": "A is twice as efficient as B and is therefore able to finish a piece of work in 30 days less than B. Working together, in how many days can they complete the work?",
+    "options": [
+      "15 days",
+      "20 days",
+      "25 days",
+      "30 days"
+    ],
+    "correctAnswer": "20 days",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Let the time taken by B to finish the work be x days.\nSince A is twice as efficient as B, A takes half the time B takes, which is x/2 days.\nGiven that A takes 30 days less than B:\nx - x/2 = 30\n=> x/2 = 30\n=> x = 60 days.\nSo B takes 60 days, and A takes 30 days.\nA's 1-day work = 1/30\nB's 1-day work = 1/60\nCombined 1-day work = 1/30 + 1/60 = (2 + 1)/60 = 3/60 = 1/20.\nHence, working together they can complete the work in 20 days.",
+    "topic": "time-work",
+    "category": "quantitative"
+  },
+  {
+    "id": "quant_time_work_4",
+    "title": "Alternate Day Schedule",
+    "description": "A and B can complete a work in 9 and 12 days respectively. If they work on alternate days starting with A, in how many days will the work be finished?",
+    "options": [
+      "9.5 days",
+      "10 days",
+      "10.25 days",
+      "10.5 days"
+    ],
+    "correctAnswer": "10.25 days",
+    "difficulty": "HARD",
+    "difficultyLabel": "Medium-Hard",
+    "explanation": "Total work = LCM(9, 12) = 36 units.\nEfficiency of A = 36 / 9 = 4 units/day.\nEfficiency of B = 36 / 12 = 3 units/day.\nIn a 2-day cycle (Day 1: A, Day 2: B), they complete = 4 + 3 = 7 units.\nIn 10 days (5 full cycles), work completed = 5 * 7 = 35 units.\nRemaining work = 36 - 35 = 1 unit.\nOn Day 11, it is A's turn. A's efficiency is 4 units/day.\nTime taken by A to complete 1 unit = 1/4 = 0.25 days.\nTotal time taken = 10 + 0.25 = 10.25 days.",
+    "topic": "time-work",
+    "category": "quantitative"
+  },
+  {
+    "id": "quant_time_work_5",
+    "title": "Composite Work Groups",
+    "description": "4 men and 6 women can complete a work in 8 days, while 3 men and 7 women can complete it in 10 days. In how many days can 10 women complete the work alone?",
+    "options": [
+      "30 days",
+      "35 days",
+      "40 days",
+      "45 days"
+    ],
+    "correctAnswer": "40 days",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Let 1 man's 1-day work be M and 1 woman's 1-day work be W.\nFrom the given data:\n8 * (4M + 6W) = 1 (Total work)\n=> 32M + 48W = 1\nAlso:\n10 * (3M + 7W) = 1\n=> 30M + 70W = 1\nEquating total work:\n32M + 48W = 30M + 70W\n=> 2M = 22W\n=> 1M = 11W (A man's efficiency is equal to 11 women's efficiency).\nSubstitute M in first equation:\n32(11W) + 48W = 1\n=> 352W + 48W = 1\n=> 400W = 1\n=> 1W = 1/400 (A woman's 1-day work is 1/400).\n10 women's 1-day work = 10 * (1/400) = 1/40.\nTherefore, 10 women will take 40 days to complete the work.",
+    "topic": "time-work",
+    "category": "quantitative"
+  }
+]

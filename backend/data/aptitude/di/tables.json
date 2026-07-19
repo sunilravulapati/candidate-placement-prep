@@ -1,0 +1,87 @@
+[
+  {
+    "id": "di_tables_1",
+    "title": "Yearly Aggregate",
+    "description": "The following table shows the sales (in thousands of units) of four mobile phone brands over four years:\n\n| Year | Brand A | Brand B | Brand C | Brand D |\n|------|---------|---------|---------|---------|\n| 2021 | 120     | 80      | 150     | 90      |\n| 2022 | 140     | 95      | 160     | 110     |\n| 2023 | 130     | 110     | 180     | 120     |\n| 2024 | 160     | 130     | 200     | 140     |\n\nWhat are the total sales of all brands combined in the year 2022?",
+    "options": [
+      "440k units",
+      "485k units",
+      "505k units",
+      "540k units"
+    ],
+    "correctAnswer": "505k units",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Total sales in 2022 = Sales of (Brand A + Brand B + Brand C + Brand D)\n= 140 + 95 + 160 + 110\n= 505 (in thousands) = 505k units.",
+    "topic": "tables",
+    "category": "di"
+  },
+  {
+    "id": "di_tables_2",
+    "title": "Multi-Year Average",
+    "description": "The following table shows the sales (in thousands of units) of four mobile phone brands over four years:\n\n| Year | Brand A | Brand B | Brand C | Brand D |\n|------|---------|---------|---------|---------|\n| 2021 | 120     | 80      | 150     | 90      |\n| 2022 | 140     | 95      | 160     | 110     |\n| 2023 | 130     | 110     | 180     | 120     |\n| 2024 | 160     | 130     | 200     | 140     |\n\nWhat are the average annual sales of Brand B over the four-year period?",
+    "options": [
+      "98.75k units",
+      "101.25k units",
+      "103.75k units",
+      "106.25k units"
+    ],
+    "correctAnswer": "103.75k units",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Easy-Medium",
+    "explanation": "Sales of Brand B over 4 years:\n2021 = 80\n2022 = 95\n2023 = 110\n2024 = 130\nTotal sales = 80 + 95 + 110 + 130 = 415\nAverage annual sales = 415 / 4 = 103.75 (in thousands) = 103.75k units.",
+    "topic": "tables",
+    "category": "di"
+  },
+  {
+    "id": "di_tables_3",
+    "title": "Growth Comparison",
+    "description": "The following table shows the sales (in thousands of units) of four mobile phone brands over four years:\n\n| Year | Brand A | Brand B | Brand C | Brand D |\n|------|---------|---------|---------|---------|\n| 2021 | 120     | 80      | 150     | 90      |\n| 2022 | 140     | 95      | 160     | 110     |\n| 2023 | 130     | 110     | 180     | 120     |\n| 2024 | 160     | 130     | 200     | 140     |\n\nWhich brand registered the highest percentage increase in sales from 2021 to 2024?",
+    "options": [
+      "Brand A",
+      "Brand B",
+      "Brand C",
+      "Brand D"
+    ],
+    "correctAnswer": "Brand B",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Let's calculate the percentage growth for each brand from 2021 to 2024:\n- Brand A: Growth = (160 - 120) / 120 = 40 / 120 = 33.33%\n- Brand B: Growth = (130 - 80) / 80 = 50 / 80 = 62.5%\n- Brand C: Growth = (200 - 150) / 150 = 50 / 150 = 33.33%\n- Brand D: Growth = (140 - 90) / 90 = 50 / 90 = 55.56%\nBrand B has the highest percentage growth of 62.5%.",
+    "topic": "tables",
+    "category": "di"
+  },
+  {
+    "id": "di_tables_4",
+    "title": "Cross-Year Ratios",
+    "description": "The following table shows the sales (in thousands of units) of four mobile phone brands over four years:\n\n| Year | Brand A | Brand B | Brand C | Brand D |\n|------|---------|---------|---------|---------|\n| 2021 | 120     | 80      | 150     | 90      |\n| 2022 | 140     | 95      | 160     | 110     |\n| 2023 | 130     | 110     | 180     | 120     |\n| 2024 | 160     | 130     | 200     | 140     |\n\nWhat is the ratio of the combined sales of Brand A and Brand C in 2021 to the combined sales of Brand B and Brand D in 2024?",
+    "options": [
+      "1 : 1",
+      "3 : 4",
+      "9 : 10",
+      "27 : 29"
+    ],
+    "correctAnswer": "1 : 1",
+    "difficulty": "HARD",
+    "difficultyLabel": "Medium-Hard",
+    "explanation": "Combined sales of A and C in 2021 = 120 + 150 = 270\nCombined sales of B and D in 2024 = 130 + 140 = 270\nRatio = 270 : 270 = 1 : 1.",
+    "topic": "tables",
+    "category": "di"
+  },
+  {
+    "id": "di_tables_5",
+    "title": "Trend Projection",
+    "description": "The following table shows the sales (in thousands of units) of four mobile phone brands over four years:\n\n| Year | Brand A | Brand B | Brand C | Brand D |\n|------|---------|---------|---------|---------|\n| 2021 | 120     | 80      | 150     | 90      |\n| 2022 | 140     | 95      | 160     | 110     |\n| 2023 | 130     | 110     | 180     | 120     |\n| 2024 | 160     | 130     | 200     | 140     |\n\nIf the percentage increase in the sales of Brand D from 2024 to 2025 is expected to be double the percentage increase from 2023 to 2024, what will be the projected sales of Brand D in 2025?",
+    "options": [
+      "168.33k units",
+      "176.67k units",
+      "186.67k units",
+      "192.33k units"
+    ],
+    "correctAnswer": "186.67k units",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "1. Percentage increase for Brand D from 2023 to 2024 = [(140 - 120) / 120] * 100 = (20 / 120) * 100 = 16.67%.\n2. Projected percentage increase from 2024 to 2025 = 2 * 16.67% = 33.33% (or exactly 2 * 1/6 = 1/3).\n3. Projected sales of Brand D in 2025 = Sales in 2024 + 33.33% of Sales in 2024\n= 140 + (1/3) * 140 = 140 + 46.67 = 186.67 (in thousands) = 186.67k units.",
+    "topic": "tables",
+    "category": "di"
+  }
+]

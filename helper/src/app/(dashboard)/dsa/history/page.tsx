@@ -3,7 +3,7 @@
 import React from 'react';
 import { History, CheckCircle2, XCircle, Clock, Cpu } from 'lucide-react';
 import Link from 'next/link';
-import { cn } from '@/components/live-coding/CodingWorkspace';
+import { cn } from '@/lib/cn';
 
 export default function SubmissionHistoryPage() {
   const submissions = [

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "verbal_rc_1",
+    "title": "Main Idea",
+    "description": "Passage:\n\n'The economic theories of John Maynard Keynes, developed during the Great Depression, argued that active government intervention in the marketplace was necessary to stabilize the economy. Keynes suggested that during recessions, aggregate demand drops, leading to high unemployment. To counteract this, governments should increase public spending and lower taxes to stimulate demand and pull the economy out of stagnation.'\n\nAccording to the passage, what was the primary purpose of Keynes's theories?",
+    "options": [
+      "To discourage government involvement in business",
+      "To explain how to stabilize the economy through government intervention",
+      "To argue for higher taxes during periods of inflation",
+      "To promote a purely free-market capitalist system"
+    ],
+    "correctAnswer": "To explain how to stabilize the economy through government intervention",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "The text states that Keynes 'argued that active government intervention in the marketplace was necessary to stabilize the economy.' This matches the option.",
+    "topic": "reading-comprehension",
+    "category": "verbal"
+  },
+  {
+    "id": "verbal_rc_2",
+    "title": "Detail Recall",
+    "description": "Passage:\n\n'The economic theories of John Maynard Keynes, developed during the Great Depression, argued that active government intervention in the marketplace was necessary to stabilize the economy. Keynes suggested that during recessions, aggregate demand drops, leading to high unemployment. To counteract this, governments should increase public spending and lower taxes to stimulate demand and pull the economy out of stagnation.'\n\nAccording to Keynes, what is the direct consequence of a drop in aggregate demand during a recession?",
+    "options": [
+      "Lower public spending",
+      "Higher taxes",
+      "High unemployment",
+      "Increased market stabilization"
+    ],
+    "correctAnswer": "High unemployment",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Easy-Medium",
+    "explanation": "The passage explicitly says: 'during recessions, aggregate demand drops, leading to high unemployment.'",
+    "topic": "reading-comprehension",
+    "category": "verbal"
+  },
+  {
+    "id": "verbal_rc_3",
+    "title": "Inference Question",
+    "description": "Passage:\n\n'The economic theories of John Maynard Keynes, developed during the Great Depression, argued that active government intervention in the marketplace was necessary to stabilize the economy. Keynes suggested that during recessions, aggregate demand drops, leading to high unemployment. To counteract this, governments should increase public spending and lower taxes to stimulate demand and pull the economy out of stagnation.'\n\nWhat can be inferred about Keynes's view on government budgets during a recession?",
+    "options": [
+      "Governments should aim to achieve a budget surplus",
+      "Governments must balance their budgets at all costs",
+      "Governments should tolerate deficits to boost the economy",
+      "Governments should stop spending altogether"
+    ],
+    "correctAnswer": "Governments should tolerate deficits to boost the economy",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Keynes suggests that governments should 'increase public spending and lower taxes' during a recession. Increasing spending while reducing tax revenue naturally leads to a budget deficit. Therefore, we can infer he believes governments should run deficits during recessions to stimulate the economy.",
+    "topic": "reading-comprehension",
+    "category": "verbal"
+  },
+  {
+    "id": "verbal_rc_4",
+    "title": "Contextual Assumption",
+    "description": "Passage:\n\n'The economic theories of John Maynard Keynes, developed during the Great Depression, argued that active government intervention in the marketplace was necessary to stabilize the economy. Keynes suggested that during recessions, aggregate demand drops, leading to high unemployment. To counteract this, governments should increase public spending and lower taxes to stimulate demand and pull the economy out of stagnation.'\n\nWhat underlying assumption does Keynes make about the relationship between government action and consumer behavior?",
+    "options": [
+      "Consumers will save all additional money received from tax cuts",
+      "Government spending has no impact on total market demand",
+      "Stimulating demand through government action is effective in altering economic outcomes",
+      "Market forces are self-correcting and do not respond to external stimuli"
+    ],
+    "correctAnswer": "Stimulating demand through government action is effective in altering economic outcomes",
+    "difficulty": "HARD",
+    "difficultyLabel": "Medium-Hard",
+    "explanation": "Keynes assumes that increasing public spending and lowering taxes will successfully 'stimulate demand and pull the economy out of stagnation'. This assumes that government action is capable of changing the trajectory of consumer demand and economic health.",
+    "topic": "reading-comprehension",
+    "category": "verbal"
+  },
+  {
+    "id": "verbal_rc_5",
+    "title": "Critical Evaluation",
+    "description": "Passage:\n\n'The economic theories of John Maynard Keynes, developed during the Great Depression, argued that active government intervention in the marketplace was necessary to stabilize the economy. Keynes suggested that during recessions, aggregate demand drops, leading to high unemployment. To counteract this, governments should increase public spending and lower taxes to stimulate demand and pull the economy out of stagnation.'\n\nWhich of the following scenarios, if true, would most seriously weaken the effectiveness of the Keynesian approach during a recession?",
+    "options": [
+      "Increased government spending leads to immediate private sector hiring",
+      "Lowering taxes causes consumers to hoard cash rather than spend it",
+      "Interest rates remain low as a result of stable government policies",
+      "Public infrastructure projects create long term productive assets for the country"
+    ],
+    "correctAnswer": "Lowering taxes causes consumers to hoard cash rather than spend it",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "The core of the Keynesian argument is that lowering taxes will 'stimulate demand' (i.e. consumers will spend more, buying goods and services). If consumers hoard cash instead of spending it, demand will not increase, and the policy will fail to pull the economy out of stagnation.",
+    "topic": "reading-comprehension",
+    "category": "verbal"
+  }
+]

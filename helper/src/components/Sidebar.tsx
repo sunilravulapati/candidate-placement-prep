@@ -19,6 +19,7 @@ import {
   ChevronLeft,
   ChevronRight
 } from 'lucide-react';
+import { cn } from '@/lib/cn';
 
 export default function Sidebar() {
   const pathname = usePathname();
@@ -121,21 +122,23 @@ export default function Sidebar() {
                     : 'text-slate-400 hover:text-slate-100 hover:bg-slate-900/40 border border-transparent'}
                 `}
               >
-                <div className={`flex items-center ${isCollapsed ? 'space-x-0' : 'space-x-3'}`}>
-                  <Icon className={`w-5 h-5 shrink-0 transition-transform duration-200 group-hover:scale-110 ${active ? 'text-violet-400' : 'text-slate-400 group-hover:text-slate-200'}`} />
-                  {!isCollapsed && <span className="whitespace-nowrap overflow-hidden">{item.name}</span>}
+                <div className="flex items-center space-x-3 overflow-hidden">
+                  <Icon className={cn('w-5 h-5 shrink-0 transition-transform duration-200 group-hover:scale-110', active ? 'text-violet-400' : 'text-slate-400 group-hover:text-slate-200')} />
+                  <span className={cn('whitespace-nowrap transition-opacity duration-300', isCollapsed ? 'opacity-0 w-0' : 'opacity-100 w-auto')}>{item.name}</span>
                 </div>
-                {!isCollapsed && item.badge && (
-                  <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider scale-90 whitespace-nowrap ${
-                    item.badge === 'Soon' 
-                      ? 'bg-slate-800 text-slate-400 border border-slate-700'
-                      : item.badge === 'NEW'
-                      ? 'bg-fuchsia-600/20 text-fuchsia-400 border border-fuchsia-500/20'
-                      : 'bg-violet-600/20 text-violet-400 border border-violet-500/20'
-                  }`}>
-                    {item.badge}
-                  </span>
-                )}
+                <div className={cn('transition-all duration-300 overflow-hidden', isCollapsed ? 'opacity-0 w-0' : 'opacity-100')}>
+                  {item.badge && (
+                    <span className={cn('text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider scale-90 whitespace-nowrap',
+                      item.badge === 'Soon' 
+                        ? 'bg-slate-800 text-slate-400 border border-slate-700'
+                        : item.badge === 'NEW'
+                        ? 'bg-fuchsia-600/20 text-fuchsia-400 border border-fuchsia-500/20'
+                        : 'bg-violet-600/20 text-violet-400 border border-violet-500/20'
+                    )}>
+                      {item.badge}
+                    </span>
+                  )}
+                </div>
               </Link>
             );
           })}

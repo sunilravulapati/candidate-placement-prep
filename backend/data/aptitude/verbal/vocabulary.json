@@ -1,0 +1,87 @@
+[
+  {
+    "id": "verbal_vocabulary_1",
+    "title": "Antonym Selection",
+    "description": "Choose the word that is most nearly OPPOSITE in meaning to the word: 'AMICABLE'",
+    "options": [
+      "Friendly",
+      "Hostile",
+      "Peaceful",
+      "Harmonious"
+    ],
+    "correctAnswer": "Hostile",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "'Amicable' means having a spirit of friendliness and peaceable relations. The opposite is 'Hostile', which means unfriendly or antagonistic. 'Friendly', 'Peaceful', and 'Harmonious' are synonyms of amicable.",
+    "topic": "vocabulary",
+    "category": "verbal"
+  },
+  {
+    "id": "verbal_vocabulary_2",
+    "title": "Synonym Selection",
+    "description": "Choose the word that is closest in meaning to the word: 'MITIGATE'",
+    "options": [
+      "Aggravate",
+      "Alleviate",
+      "Intensify",
+      "Originate"
+    ],
+    "correctAnswer": "Alleviate",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Easy-Medium",
+    "explanation": "'Mitigate' means to make less severe, serious, or painful. 'Alleviate' has the exact same meaning. 'Aggravate' and 'Intensify' are antonyms, while 'Originate' means to begin or start.",
+    "topic": "vocabulary",
+    "category": "verbal"
+  },
+  {
+    "id": "verbal_vocabulary_3",
+    "title": "Word Analogy",
+    "description": "Complete the analogy: OSTRACIZE : Shun :: COALESCE : ______",
+    "options": [
+      "Disperse",
+      "Separate",
+      "Blend",
+      "Analyze"
+    ],
+    "correctAnswer": "Blend",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Ostracize and Shun are synonyms (both mean to exclude or reject from a group). Similarly, Coalesce means to come together and form one mass or whole, which is synonymous with 'Blend'. 'Disperse' and 'Separate' are antonyms of coalesce.",
+    "topic": "vocabulary",
+    "category": "verbal"
+  },
+  {
+    "id": "verbal_vocabulary_4",
+    "title": "Contextual Fill-in",
+    "description": "The scientist's claims were met with extreme skepticism, as his experimental design was deemed _______ and lacked rigorous controls.",
+    "options": [
+      "Meticulous",
+      "Flawed",
+      "Invulnerable",
+      "Exemplary"
+    ],
+    "correctAnswer": "Flawed",
+    "difficulty": "HARD",
+    "difficultyLabel": "Medium-Hard",
+    "explanation": "The sentence indicates that the scientist's claims were met with 'skepticism' and 'lacked rigorous controls'. Therefore, the blank should be filled with a negative word indicating a problem with the design. 'Flawed' fits this context perfectly. 'Meticulous', 'Invulnerable', and 'Exemplary' are positive terms and would not result in skepticism.",
+    "topic": "vocabulary",
+    "category": "verbal"
+  },
+  {
+    "id": "verbal_vocabulary_5",
+    "title": "Obscure Vocabulary",
+    "description": "Select the correct definition of the word: 'CACAPHONY'",
+    "options": [
+      "A harsh, discordant mixture of sounds",
+      "A beautiful and harmonious melody",
+      "A state of quiet stillness or silence",
+      "The study of vocal pitch and pronunciation"
+    ],
+    "correctAnswer": "A harsh, discordant mixture of sounds",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "'Cacophony' (sometimes spelled cacaphony in question papers) refers to a harsh, jarring, and discordant mixture of sounds. The opposite is euphony (agreeable sound).",
+    "topic": "vocabulary",
+    "category": "verbal"
+  }
+]

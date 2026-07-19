@@ -1,66 +1,79 @@
 'use client';
 
-import React, { useState } from 'react';
-import { CheckCircle2, ChevronRight, Play, AlertCircle, Lightbulb, Sparkles, AlertTriangle, Target, Briefcase, Activity } from 'lucide-react';
-import { cn } from './CodingWorkspace';
+import React, { useEffect, useState } from 'react';
+import {
+  Activity,
+  AlertTriangle,
+  Briefcase,
+  CheckCircle2,
+  Sparkles,
+  Target,
+} from 'lucide-react';
+import { cn } from '@/lib/cn';
+import type { ExecutionResult } from '@/features/live-coding/execution/ExecutionProvider';
+import type { WorkspaceProblem } from '@backend/features/liveCoding/types';
 
-export default function AIReviewPanel() {
+interface AIReviewPanelProps {
+  problem: WorkspaceProblem;
+  result: ExecutionResult | null;
+}
+
+export default function AIReviewPanel({ problem, result }: AIReviewPanelProps) {
   const [isDetailed, setIsDetailed] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
+
+  useEffect(() => {
+    setIsDetailed(false);
+    setIsGenerating(false);
+  }, [problem.slug]);
 
   const handleGenerateDetailed = () => {
     setIsGenerating(true);
     setTimeout(() => {
       setIsGenerating(false);
       setIsDetailed(true);
-    }, 2000);
+    }, 800);
   };
 
+  const passed = result?.passed ?? false;
   const basicReview = {
-    status: 'ACCEPTED',
-    timeComplexity: 'O(N)',
-    spaceComplexity: 'O(N)',
-    summary: 'Your solution passes all test cases.',
+    status: passed ? 'ACCEPTED' : result ? 'NEEDS WORK' : 'READY',
+    timeComplexity: problem.timeComplexity ?? 'Not specified',
+    spaceComplexity: problem.spaceComplexity ?? 'Not specified',
+    summary: result
+      ? passed
+        ? `${problem.title} passes the active sample tests.`
+        : `${problem.title} still has failing output against the active sample tests.`
+      : `Run or submit ${problem.title} to generate review context.`,
   };
 
-  const detailedReview = {
-    overall: 'Good approach, but missing edge cases.',
-    score: 85,
-    metrics: [
-      { label: 'Correctness', value: '80%', color: 'text-amber-400', bg: 'bg-amber-400/20' },
-      { label: 'Time', value: 'O(N)', color: 'text-emerald-400', bg: 'bg-emerald-400/20' },
-      { label: 'Space', value: 'O(N)', color: 'text-emerald-400', bg: 'bg-emerald-400/20' },
-      { label: 'Cleanliness', value: '95%', color: 'text-emerald-400', bg: 'bg-emerald-400/20' },
-    ],
-    feedback: [
-      { type: 'positive', text: 'Used a HashMap for O(1) lookups, achieving optimal O(N) time complexity.' },
-      { type: 'improvement', text: 'Consider what happens if the input array has fewer than 2 elements.' },
-      { type: 'improvement', text: 'Variable names could be more descriptive (e.g., `numMap` instead of `m`).' },
-    ],
-    companyReadiness: [
-      { name: 'Google', score: 85 },
-      { name: 'Amazon', score: 90 },
-      { name: 'Meta', score: 88 }
-    ]
-  };
+  const companyReadiness = problem.companies.slice(0, 3).map((company) => ({
+    name: company.name,
+    score: passed ? 88 : result ? 58 : 0,
+  }));
 
   return (
     <div className="p-6 h-full bg-[#1e1e1e] overflow-y-auto">
-      
-      {/* Basic Review Section - Always Visible */}
       <div className="mb-8 p-6 bg-slate-900 border border-slate-800 rounded-2xl">
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-emerald-500/20 flex items-center justify-center">
-              <CheckCircle2 className="w-5 h-5 text-emerald-400" />
+            <div
+              className={cn(
+                'w-10 h-10 rounded-full flex items-center justify-center',
+                passed ? 'bg-emerald-500/20' : 'bg-indigo-500/20'
+              )}
+            >
+              <CheckCircle2 className={cn('w-5 h-5', passed ? 'text-emerald-400' : 'text-indigo-400')} />
             </div>
             <div>
-              <h3 className="text-emerald-400 font-bold text-lg">{basicReview.status}</h3>
+              <h3 className={cn('font-bold text-lg', passed ? 'text-emerald-400' : 'text-indigo-300')}>
+                {basicReview.status}
+              </h3>
               <p className="text-slate-400 text-sm">{basicReview.summary}</p>
             </div>
           </div>
         </div>
-        
+
         <div className="grid grid-cols-2 gap-4 mt-6 pt-6 border-t border-slate-800">
           <div>
             <div className="text-slate-500 text-xs uppercase font-bold tracking-wider mb-1">Time Complexity</div>
@@ -73,37 +86,44 @@ export default function AIReviewPanel() {
         </div>
       </div>
 
-      {/* Detailed Review Section */}
       {!isDetailed ? (
         <div className="text-center p-8 bg-indigo-500/5 border border-indigo-500/20 rounded-2xl relative overflow-hidden">
           <div className="absolute top-0 right-0 p-4 opacity-10">
             <Sparkles className="w-24 h-24 text-indigo-400" />
           </div>
           <Sparkles className="w-8 h-8 text-indigo-400 mx-auto mb-4" />
-          <h3 className="text-white font-bold mb-2">Want a Deep Dive?</h3>
+          <h3 className="text-white font-bold mb-2">Review {problem.title}</h3>
           <p className="text-slate-400 text-sm mb-6 max-w-sm mx-auto">
-            Get comprehensive feedback on edge cases, alternative solutions, code style, and company readiness.
+            Get feedback using this problem&apos;s constraints, sample tests, expected approach, and company context.
           </p>
-          <button 
+          <button
             onClick={handleGenerateDetailed}
             disabled={isGenerating}
             className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-xl transition-colors shadow-lg shadow-indigo-500/20 flex items-center justify-center gap-2 mx-auto disabled:opacity-50"
           >
             {isGenerating ? (
-              <span className="flex items-center gap-2"><Activity className="w-4 h-4 animate-spin" /> Generating Review...</span>
+              <span className="flex items-center gap-2">
+                <Activity className="w-4 h-4 animate-spin" /> Generating Review...
+              </span>
             ) : (
-              <span className="flex items-center gap-2"><Sparkles className="w-4 h-4" /> Get Detailed AI Review</span>
+              <span className="flex items-center gap-2">
+                <Sparkles className="w-4 h-4" /> Get Detailed AI Review
+              </span>
             )}
           </button>
         </div>
       ) : (
         <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
-          
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-            {detailedReview.metrics.map((metric, idx) => (
-              <div key={idx} className="bg-slate-900 rounded-xl p-4 border border-slate-800 flex flex-col justify-center items-center text-center">
+            {[
+              { label: 'Correctness', value: passed ? '90%' : result ? '55%' : 'N/A', color: passed ? 'text-emerald-400' : 'text-amber-400' },
+              { label: 'Time', value: problem.timeComplexity ?? 'N/A', color: 'text-emerald-400' },
+              { label: 'Space', value: problem.spaceComplexity ?? 'N/A', color: 'text-emerald-400' },
+              { label: 'Approach', value: problem.expectedApproach ?? 'Review', color: 'text-indigo-300' },
+            ].map((metric) => (
+              <div key={metric.label} className="bg-slate-900 rounded-xl p-4 border border-slate-800 flex flex-col justify-center items-center text-center">
                 <div className="text-xs text-slate-400 mb-2 font-medium tracking-wide uppercase">{metric.label}</div>
-                <div className={cn("text-2xl font-bold", metric.color)}>{metric.value}</div>
+                <div className={cn('text-lg font-bold', metric.color)}>{metric.value}</div>
               </div>
             ))}
           </div>
@@ -112,14 +132,31 @@ export default function AIReviewPanel() {
             <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
               <Target className="w-4 h-4 text-indigo-400" /> Detailed Feedback
             </h3>
-            
-            {detailedReview.feedback.map((item, idx) => (
-              <div key={idx} className={cn(
-                "p-4 rounded-xl flex gap-3 text-sm border",
-                item.type === 'positive' 
-                  ? "bg-emerald-500/5 border-emerald-500/20 text-emerald-100" 
-                  : "bg-amber-500/5 border-amber-500/20 text-amber-100"
-              )}>
+            {[
+              {
+                type: 'positive',
+                text: `The active review context is ${problem.title}, not a cached problem.`,
+              },
+              {
+                type: 'improvement',
+                text: problem.expectedApproach
+                  ? `Compare your solution against the expected approach: ${problem.expectedApproach}.`
+                  : 'Walk through edge cases from the constraints before submitting.',
+              },
+              {
+                type: 'improvement',
+                text: `Sample tests loaded for this problem: ${problem.sampleTests.length}.`,
+              },
+            ].map((item, idx) => (
+              <div
+                key={idx}
+                className={cn(
+                  'p-4 rounded-xl flex gap-3 text-sm border',
+                  item.type === 'positive'
+                    ? 'bg-emerald-500/5 border-emerald-500/20 text-emerald-100'
+                    : 'bg-amber-500/5 border-amber-500/20 text-amber-100'
+                )}
+              >
                 <div className="shrink-0 mt-0.5">
                   {item.type === 'positive' ? (
                     <CheckCircle2 className="w-4 h-4 text-emerald-400" />
@@ -132,23 +169,25 @@ export default function AIReviewPanel() {
             ))}
           </div>
 
-          <div className="space-y-4">
-            <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
-              <Briefcase className="w-4 h-4 text-indigo-400" /> Company Readiness
-            </h3>
-            <div className="grid grid-cols-3 gap-4">
-              {detailedReview.companyReadiness.map((company, idx) => (
-                <div key={idx} className="bg-slate-900 border border-slate-800 p-4 rounded-xl flex flex-col items-center">
-                  <div className="text-slate-300 font-medium mb-2">{company.name}</div>
-                  <div className="text-xl font-bold text-emerald-400">{company.score}%</div>
-                </div>
-              ))}
+          {companyReadiness.length > 0 && (
+            <div className="space-y-4">
+              <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
+                <Briefcase className="w-4 h-4 text-indigo-400" /> Company Readiness
+              </h3>
+              <div className="grid grid-cols-3 gap-4">
+                {companyReadiness.map((company) => (
+                  <div key={company.name} className="bg-slate-900 border border-slate-800 p-4 rounded-xl flex flex-col items-center">
+                    <div className="text-slate-300 font-medium mb-2 text-center">{company.name}</div>
+                    <div className="text-xl font-bold text-emerald-400">
+                      {company.score > 0 ? `${company.score}%` : 'N/A'}
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
-
+          )}
         </div>
       )}
-
     </div>
   );
 }

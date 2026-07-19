@@ -1,0 +1,87 @@
+[
+  {
+    "id": "quant_profit_loss_1",
+    "title": "Basic Profit Percentage",
+    "description": "An article is bought for $600 and sold for $750. What is the profit percentage?",
+    "options": [
+      "15%",
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "correctAnswer": "25%",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Cost Price (CP) = $600\nSelling Price (SP) = $750\nProfit = SP - CP = 750 - 600 = $150\nProfit Percentage = (Profit / CP) * 100\n= (150 / 600) * 100\n= (1/4) * 100 = 25%.",
+    "topic": "profit-loss",
+    "category": "quantitative"
+  },
+  {
+    "id": "quant_profit_loss_2",
+    "title": "Equivalent Transactions",
+    "description": "A man sells two cycles for $990 each. On one he gains 10% and on the other he loses 10%. What is his overall gain or loss percentage?",
+    "options": [
+      "No gain, no loss",
+      "1% gain",
+      "1% loss",
+      "2% loss"
+    ],
+    "correctAnswer": "1% loss",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Easy-Medium",
+    "explanation": "When two items are sold at the same selling price, one at a gain of x% and other at a loss of x%, there is always a loss in the transaction.\nLoss % = (x/10)^2\nHere, x = 10.\nLoss % = (10/10)^2 = 1^2 = 1% loss.\nAlternative way:\nCP of first cycle = 990 / 1.1 = $900.\nCP of second cycle = 990 / 0.9 = $1100.\nTotal CP = 900 + 1100 = $2000.\nTotal SP = 990 + 990 = $1980.\nLoss = 2000 - 1980 = $20.\nLoss % = (20 / 2000) * 100 = 1% loss.",
+    "topic": "profit-loss",
+    "category": "quantitative"
+  },
+  {
+    "id": "quant_profit_loss_3",
+    "title": "Marked Price and Discount",
+    "description": "A trader marks his goods 30% above the cost price and allows a discount of 15% on the marked price. What is his gain percentage?",
+    "options": [
+      "10.5%",
+      "11.5%",
+      "12%",
+      "15%"
+    ],
+    "correctAnswer": "10.5%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Let Cost Price (CP) = $100.\nMarked Price (MP) = CP + 30% of CP = $130.\nDiscount = 15% of MP = 0.15 * 130 = $19.5.\nSelling Price (SP) = MP - Discount = 130 - 19.5 = $110.5.\nGain = SP - CP = 110.5 - 100 = $10.5.\nGain % = (10.5 / 100) * 100 = 10.5%.\nShortcut formula: Net change = x + y + (x*y)/100 = 30 + (-15) + (30 * -15)/100 = 15 - 4.5 = 10.5%.",
+    "topic": "profit-loss",
+    "category": "quantitative"
+  },
+  {
+    "id": "quant_profit_loss_4",
+    "title": "Dishonest Dealer",
+    "description": "A dishonest dealer claims to sell his goods at cost price, but uses a false weight of 900 grams instead of 1 kilogram. Find his actual profit percentage.",
+    "options": [
+      "10%",
+      "11.11%",
+      "12.5%",
+      "15%"
+    ],
+    "correctAnswer": "11.11%",
+    "difficulty": "HARD",
+    "difficultyLabel": "Medium-Hard",
+    "explanation": "Let the CP of 1g of goods be $1.\nThen, the CP of 1000g (1kg) = $1000.\nHe sells 900g, but claims it is 1000g.\nSo, the SP of 900g = CP of 1000g = $1000.\nBut the CP of the 900g actually given = $900.\nProfit made = SP - CP = 1000 - 900 = $100.\nProfit % = (Profit / CP) * 100 = (100 / 900) * 100 = 100/9 = 11.11%.\nShortcut formula: Profit % = [Error / (True Value - Error)] * 100 = [100 / (1000 - 100)] * 100 = (100/900) * 100 = 11.11%.",
+    "topic": "profit-loss",
+    "category": "quantitative"
+  },
+  {
+    "id": "quant_profit_loss_5",
+    "title": "Successive Transactions",
+    "description": "A manufacturer sells a product to a distributor at a profit of 10%. The distributor sells it to a retailer at a profit of 20%, and the retailer sells it to a consumer for $396 at a profit of 25%. What is the cost of production for the manufacturer?",
+    "options": [
+      "$240",
+      "$250",
+      "$260",
+      "$280"
+    ],
+    "correctAnswer": "$240",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Let the cost of production for the manufacturer be C.\nSP of manufacturer = CP of distributor = C * 1.10\nSP of distributor = CP of retailer = C * 1.10 * 1.20\nSP of retailer = Price paid by consumer = C * 1.10 * 1.20 * 1.25\nGiven consumer price is $396:\nC * 1.10 * 1.20 * 1.25 = 396\n=> C * 1.65 = 396\n=> C = 396 / 1.65 = 240.\nTherefore, the cost of production is $240.",
+    "topic": "profit-loss",
+    "category": "quantitative"
+  }
+]

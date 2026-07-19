@@ -64,3 +64,8 @@ export { resumeJsonToText } from './features/resume/resumeSerializer';
 export * from './features/mockInterview/actions';
 export * from './features/mockInterview/types';
 
+// ── Aptitude Studio Feature ──────────────────────────────────────────────────
+export * from './features/aptitude/actions';
+export * from './features/aptitude/types';
+
+

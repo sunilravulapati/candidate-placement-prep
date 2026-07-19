@@ -17,6 +17,7 @@ import FeedbackDashboard from '../../../components/mock-interview/FeedbackDashbo
 import InterviewHistoryList from '../../../components/mock-interview/InterviewHistoryList';
 import LoadingPlanOverlay from '../../../components/mock-interview/LoadingPlanOverlay';
 import { getInterviewSessionAction, getActiveSessionAction, endInterviewAction } from '@backend/features/mockInterview/actions';
+import { PageHeader } from '../../../components/ui/PageHeader';
 
 export type MockInterviewTab = 'library' | 'start' | 'interview' | 'feedback' | 'history';
 
@@ -196,7 +197,7 @@ export default function MockInterviewStudioPage() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto space-y-6 animate-fade-in text-slate-100 pb-12">
+    <>
 
       {/* Recovery Overlay */}
       {recoveringSession && (
@@ -222,20 +223,14 @@ export default function MockInterviewStudioPage() {
       <LoadingPlanOverlay isVisible={isGeneratingPlan} />
 
       {/* Header Banner */}
-      <div className="relative overflow-hidden bg-gradient-to-r from-violet-950/60 via-indigo-950/40 to-slate-900/30 border border-indigo-500/20 p-6 md:p-8 rounded-3xl backdrop-blur-md shadow-2xl">
-        <div className="absolute -top-12 -right-12 w-48 h-48 bg-indigo-500/10 rounded-full blur-3xl" />
-        <div className="absolute -bottom-8 -left-8 w-32 h-32 bg-violet-500/8 rounded-full blur-2xl" />
-        <div className="relative z-10 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-          <div>
-            <h1 className="text-2xl md:text-3xl font-extrabold text-white tracking-tight flex items-center gap-3">
-              <Mic2 className="w-8 h-8 text-violet-400" />
-              Interview Studio
-            </h1>
-            <p className="text-slate-400 text-sm mt-1 max-w-xl leading-relaxed">
-              AI-powered mock interviews with real-time follow-up questions, evaluation, and recruiter feedback.
-            </p>
-          </div>
-          <div className="flex items-center gap-3">
+      <PageHeader
+        title="Interview Studio"
+        description="AI-powered mock interviews with real-time follow-up questions, evaluation, and recruiter feedback."
+        icon={Mic2}
+        iconClassName="text-violet-400"
+        secondaryGlowColor="bg-violet-500/8"
+        actions={
+          <>
             {activeSession && (
               <div className="flex items-center gap-2 bg-emerald-600/10 border border-emerald-500/20 text-emerald-300 font-semibold text-xs px-4 py-2.5 rounded-xl">
                 <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse" />
@@ -246,9 +241,9 @@ export default function MockInterviewStudioPage() {
               <Cpu className="w-4 h-4 text-violet-400" />
               <span>v1 Foundation</span>
             </div>
-          </div>
-        </div>
-      </div>
+          </>
+        }
+      />
 
       {/* Tabs */}
       <div className="flex overflow-x-auto bg-slate-900/50 p-1.5 rounded-2xl border border-slate-800 w-full backdrop-blur-md no-scrollbar">
@@ -339,6 +334,6 @@ export default function MockInterviewStudioPage() {
           <InterviewHistoryList onViewFeedback={handleViewFeedback} />
         )}
       </div>
-    </div>
+    </>
   );
 }
