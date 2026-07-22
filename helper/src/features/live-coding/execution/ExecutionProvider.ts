@@ -38,6 +38,8 @@ export interface ExecutionResult {
   errorType?: ExecutionErrorType;
   /** Per-test-case breakdown (only populated by runTestCases) */
   testCaseResults?: TestCaseResult[];
+  /** Active execution engine provider name */
+  providerName?: string;
 }
 
 export interface ExecutionProvider {

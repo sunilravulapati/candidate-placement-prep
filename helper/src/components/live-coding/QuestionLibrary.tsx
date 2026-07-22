@@ -12,6 +12,8 @@ import {
   Briefcase,
   X,
   Filter,
+  ArrowLeft,
+  ChevronRight as BreadcrumbArrow,
 } from 'lucide-react';
 import Link from 'next/link';
 import { cn } from '@/lib/cn';
@@ -128,16 +130,24 @@ export default function QuestionLibrary() {
   const pageRange = getPageRange(page, totalPages);
 
   return (
-    <div className="min-h-screen bg-[#0A0A0B] text-slate-200 p-6 md:p-8">
-      <div className="max-w-6xl mx-auto space-y-6">
+    <div className="space-y-6">
 
-        {/* Header */}
-        <div>
-          <h1 className="text-3xl font-bold text-white mb-1">Problem Library</h1>
-          <p className="text-slate-400 text-sm">
-            {total > 0 ? `${total} problems` : 'Loading…'} — curated from top tech companies
-          </p>
-        </div>
+      {/* Breadcrumb navigation */}
+      <div className="flex items-center gap-2 text-sm text-slate-500">
+        <Link href="/dsa" className="flex items-center gap-1.5 hover:text-slate-300 transition-colors">
+          <ArrowLeft className="w-3.5 h-3.5" /> DSA Studio
+        </Link>
+        <BreadcrumbArrow className="w-3.5 h-3.5" />
+        <span className="text-slate-300 font-medium">Problem Library</span>
+      </div>
+
+      {/* Header */}
+      <div>
+        <h1 className="text-3xl font-bold text-white mb-1">Problem Library</h1>
+        <p className="text-slate-400 text-sm">
+          {total > 0 ? `${total} problems` : 'Loading…'} — curated from top tech companies
+        </p>
+      </div>
 
         {/* Filter bar */}
         <div className="flex flex-col md:flex-row gap-3 bg-slate-900/50 border border-slate-800 p-4 rounded-2xl">
@@ -423,6 +433,5 @@ export default function QuestionLibrary() {
           </div>
         </div>
       </div>
-    </div>
-  );
-}
+    );
+  }

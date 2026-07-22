@@ -3,14 +3,15 @@
 
 import { usePathname } from 'next/navigation';
 import { UserButton, SignInButton, Show } from '@clerk/nextjs';
-import { Bell, Search } from 'lucide-react';
+import { Bell, Search, User } from 'lucide-react';
 
 export default function Navbar() {
   const pathname = usePathname();
 
   const getPageTitle = () => {
     if (pathname === '/dashboard' || pathname === '/') return 'Dashboard';
-    if (pathname.startsWith('/questions')) return 'DSA Practice';
+    if (pathname.startsWith('/dsa/workspace')) return 'DSA Studio';
+    if (pathname.startsWith('/questions') || pathname.startsWith('/dsa')) return 'DSA Practice';
     if (pathname.startsWith('/resume-ai')) return 'Resume AI';
     if (pathname.startsWith('/resume-tailoring')) return 'Resume Tailoring';
     if (pathname.startsWith('/resume-editor')) return 'Resume Editor';
@@ -22,17 +23,17 @@ export default function Navbar() {
   };
 
   return (
-    <header className="sticky top-0 z-40 w-full bg-slate-950/20 backdrop-blur-md border-b border-slate-900/40 px-6 py-4 flex justify-between items-center">
+    <header className="sticky top-0 z-40 w-full bg-slate-950/40 backdrop-blur-md border-b border-slate-900/60 px-6 py-3.5 flex justify-between items-center shrink-0">
       {/* Page Title Context */}
       <div className="pl-12 md:pl-0">
-        <h2 className="text-xl font-bold text-slate-100 font-sans tracking-tight">
+        <h2 className="text-lg font-bold text-slate-100 font-sans tracking-tight">
           {getPageTitle()}
         </h2>
       </div>
 
       {/* Actions and Profile */}
       <div className="flex items-center space-x-4">
-        {/* Search Input (Decorative mockup) */}
+        {/* Search Input */}
         <div className="hidden sm:flex items-center space-x-2 bg-slate-900/60 border border-slate-800 rounded-xl px-3 py-1.5 w-60">
           <Search className="w-4 h-4 text-slate-500" />
           <input 
@@ -57,10 +58,22 @@ export default function Navbar() {
             <UserButton 
               appearance={{
                 elements: {
-                  userButtonAvatarBox: "w-8 h-8 rounded-xl border border-indigo-500/30"
+                  userButtonAvatarBox: "w-8 h-8 rounded-xl border border-indigo-500/30",
+                  userButtonPopoverCard: "bg-slate-900 border border-slate-800 shadow-2xl text-slate-100",
+                  userButtonPopoverActionButton: "hover:bg-slate-800 text-slate-200",
+                  userButtonPopoverActionButtonText: "text-slate-200",
+                  userButtonPopoverFooter: "hidden"
                 }
               }}
-            />
+            >
+              <UserButton.MenuItems>
+                <UserButton.Link
+                  label="Onboarding & Profile"
+                  href="/onboarding"
+                  labelIcon={<User className="w-4 h-4 text-violet-400" />}
+                />
+              </UserButton.MenuItems>
+            </UserButton>
           </Show>
           <Show when="signed-out">
             <SignInButton mode="modal">

@@ -31,7 +31,10 @@ export const LANGUAGE_CONFIG: Record<SupportedLanguage, LanguageConfig> = {
     label: 'C++',
     monacoId: 'cpp',
     defaultFileName: 'solution.cpp',
-    starterTemplate: `#include <bits/stdc++.h>
+    starterTemplate: `#include <iostream>
+#include <vector>
+#include <string>
+#include <algorithm>
 using namespace std;
 
 class Solution {

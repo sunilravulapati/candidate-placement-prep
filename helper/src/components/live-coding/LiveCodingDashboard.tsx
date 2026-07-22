@@ -38,17 +38,35 @@ const item = { hidden: { opacity: 0, y: 16 }, show: { opacity: 1, y: 0 } };
 export default function DSAStudioDashboard() {
   const [data, setData] = useState<DashboardData | null>(null);
   const [isClient, setIsClient] = useState(false);
+  const [loadError, setLoadError] = useState(false);
 
   useEffect(() => {
     setIsClient(true);
     getDashboardDataAction()
       .then(setData)
-      .catch((err) => console.error('Dashboard load failed:', err));
+      .catch(() => setLoadError(true));
   }, []);
+
+  if (loadError) {
+    return (
+      <div className="flex items-center justify-center py-20">
+        <div className="flex flex-col items-center gap-3 text-center">
+          <Code2 className="w-8 h-8 text-rose-400" />
+          <span className="text-slate-400 font-medium">Failed to load DSA dashboard</span>
+          <button
+            onClick={() => { setLoadError(false); getDashboardDataAction().then(setData).catch(() => setLoadError(true)); }}
+            className="mt-2 px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-sm transition-all"
+          >
+            Retry
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   if (!data) {
     return (
-      <div className="min-h-screen bg-[#0A0A0B] flex items-center justify-center">
+      <div className="flex items-center justify-center py-20">
         <div className="flex flex-col items-center gap-3">
           <Code2 className="w-8 h-8 text-indigo-400 animate-pulse" />
           <span className="text-slate-400 font-medium">Loading DSA Studio…</span>
