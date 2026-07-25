@@ -190,4 +190,8 @@ export class LiveCodingService {
   ) {
     return getStarterCode(starterCode, language, title);
   }
+
+  static async recalculateProgress(userId: string) {
+    return CodingProgressRepository.recalculate(userId);
+  }
 }

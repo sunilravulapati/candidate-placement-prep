@@ -3,6 +3,9 @@ import type { CodingDifficulty, ProblemFilters, ProblemStatus, SortOption } from
 import { TOPIC_FILTER_MAP } from './types';
 import fs from 'fs';
 import path from 'path';
+import { ProblemLoader } from '../dsa/problemLoader';
+import { StarterCodeGenerator } from '../dsa/starterCodeGenerator';
+
 
 const QUESTION_DATA_FILES = [
   'arrays-strings.json',
@@ -40,25 +43,29 @@ function toSlug(value: string) {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 }
 
+import { RepositoryIndex } from '../dsa/repositoryIndex';
+
 function loadStaticProblems(): StaticProblem[] {
-  const dataDirCandidates = [
-    path.join(process.cwd(), 'backend', 'data', 'questions'),
-    path.join(process.cwd(), '..', 'backend', 'data', 'questions'),
-  ];
-  const dataDir = dataDirCandidates.find((candidate) => fs.existsSync(candidate));
-  if (!dataDir) return [];
-
-  return QUESTION_DATA_FILES.flatMap((file) => {
-    const filePath = path.join(dataDir, file);
-    if (!fs.existsSync(filePath)) return [];
-
-    try {
-      return JSON.parse(fs.readFileSync(filePath, 'utf-8')) as StaticProblem[];
-    } catch (error) {
-      console.warn(`Failed to read static problem data from ${file}:`, (error as Error).message);
-      return [];
-    }
-  });
+  const problems = RepositoryIndex.getAllProblems();
+  return problems.map((p) => ({
+    slug: p.slug,
+    title: p.title,
+    difficulty: p.difficulty,
+    description: p.description,
+    constraints: p.constraints,
+    examples: p.examples,
+    starterCode: p.starterMetadata ? StarterCodeGenerator.generateAll(p.starterMetadata) : {},
+    hints: p.hints,
+    editorial: p.editorial || undefined,
+    timeComplexity: p.executionMetadata?.expectedComplexity?.time,
+    spaceComplexity: p.executionMetadata?.expectedComplexity?.space,
+    estimatedTime: p.estimatedMinutes || 15,
+    sampleTests: p.visibleTests || p.tests || [],
+    hiddenTests: p.hiddenTests || [],
+    topics: typeof p.topic === 'string' ? [p.topic] : p.topic,
+    companies: p.companies,
+    tags: p.tags,
+  } as unknown as StaticProblem));
 }
 
 function formatStaticRelation(names: string[] | undefined) {
@@ -66,6 +73,98 @@ function formatStaticRelation(names: string[] | undefined) {
 }
 
 function findStaticProblemBySlug(slug: string) {
+  // 1. Try new directory-based problem loader (Sprint A pilot problems)
+  const dirProblem = ProblemLoader.loadDirectoryProblem(slug);
+  if (dirProblem) {
+    const starterCodeMap = dirProblem.starterMetadata
+      ? StarterCodeGenerator.generateAll(dirProblem.starterMetadata)
+      : (dirProblem as any).starterCode || {};
+
+    const sampleTests = (dirProblem.visibleTests && dirProblem.visibleTests.length > 0)
+      ? dirProblem.visibleTests
+      : dirProblem.tests
+      ? dirProblem.tests.filter((t) => !t.classification || t.classification === 'sample' || t.classification === 'edge')
+      : [];
+
+    const hiddenTests = (dirProblem.hiddenTests && dirProblem.hiddenTests.length > 0)
+      ? dirProblem.hiddenTests
+      : dirProblem.tests
+      ? dirProblem.tests.filter((t) => t.classification === 'hidden' || t.classification === 'performance')
+      : [];
+
+    return {
+      id: dirProblem.slug,
+      slug: dirProblem.slug,
+      title: dirProblem.title,
+      difficulty: dirProblem.difficulty,
+      questionNo: dirProblem.questionNo,
+      importance: dirProblem.importance,
+      interviewFrequency: dirProblem.interviewFrequency,
+      estimatedSolveTime: dirProblem.estimatedSolveTime,
+      description: dirProblem.description,
+      whyLearnThis: dirProblem.whyLearnThis,
+      recognitionClues: dirProblem.recognitionClues,
+      prerequisites: dirProblem.prerequisites,
+      concepts: dirProblem.concepts,
+      keywords: dirProblem.keywords,
+      primaryTopic: dirProblem.primaryTopic || (typeof dirProblem.topic === 'string' ? dirProblem.topic : ''),
+      secondaryTopics: dirProblem.secondaryTopics || [],
+      pattern: dirProblem.pattern,
+      patternId: dirProblem.patternId,
+      technique: dirProblem.technique,
+      techniqueId: dirProblem.techniqueId,
+      dataStructuresUsed: dirProblem.dataStructuresUsed || [],
+      learningPath: dirProblem.learningPath,
+      constraints: dirProblem.constraints ?? [],
+      examples: dirProblem.examples ?? [],
+      starterCode: starterCodeMap,
+      starterMetadata: dirProblem.starterMetadata,
+      executionMetadata: dirProblem.executionMetadata,
+      driverMetadata: dirProblem.driverMetadata,
+      boilerplates: null,
+      editorial: dirProblem.editorial ?? null,
+      hints: dirProblem.hints ?? [],
+      optimalTC: dirProblem.optimalTC || dirProblem.executionMetadata?.expectedComplexity?.time,
+      optimalSC: dirProblem.optimalSC || dirProblem.executionMetadata?.expectedComplexity?.space,
+      bruteTC: dirProblem.bruteTC,
+      bruteSC: dirProblem.bruteSC,
+      approach: dirProblem.approach,
+      intuition: dirProblem.intuition,
+      algorithm: dirProblem.algorithm,
+      pseudocode: dirProblem.pseudocode,
+      commonMistakes: dirProblem.commonMistakes || dirProblem.solutionMetadata?.commonMistakes || [],
+      edgeCases: dirProblem.edgeCases || dirProblem.solutionMetadata?.edgeCases || [],
+      interviewTrick: dirProblem.interviewTrick,
+      revisionNotes: dirProblem.revisionNotes,
+      followUps: dirProblem.relationships?.followUps || [],
+      variants: dirProblem.relationships?.variants || [],
+      relatedProblems: dirProblem.relationships?.related || [],
+      resources: dirProblem.resources || [],
+      inputTemplates: dirProblem.inputTemplates || {},
+      expectedApproach: dirProblem.solutionMetadata?.explanation ?? (dirProblem.approach ?? null),
+      timeComplexity: dirProblem.optimalTC || (dirProblem.executionMetadata?.expectedComplexity?.time ?? null),
+      spaceComplexity: dirProblem.optimalSC || (dirProblem.executionMetadata?.expectedComplexity?.space ?? null),
+      estimatedTime: dirProblem.estimatedMinutes ?? 15,
+      acceptanceRate: dirProblem.acceptanceRate ?? 0,
+      frequency: dirProblem.frequency ?? 0,
+      followUpQuestions: dirProblem.relationships?.followUps || [],
+      sampleTests: sampleTests,
+      hiddenTests: hiddenTests,
+      languages: ['javascript', 'typescript', 'python', 'java', 'cpp'],
+      createdAt: new Date(0),
+      updatedAt: new Date(0),
+      topics: formatStaticRelation(
+        Array.from(new Set([
+          dirProblem.topic,
+          ...(dirProblem.secondaryTopics || [])
+        ])).filter(Boolean)
+      ),
+      companies: formatStaticRelation(dirProblem.companies),
+      tags: formatStaticRelation(dirProblem.tags),
+    };
+  }
+
+  // 2. Fall back to legacy flat JSON files
   const problem = loadStaticProblems().find((p) => p.slug === slug);
   if (!problem) return null;
 
@@ -91,7 +190,7 @@ function findStaticProblemBySlug(slug: string) {
     relatedProblems: [],
     sampleTests: problem.sampleTests ?? [],
     hiddenTests: problem.hiddenTests ?? [],
-    languages: ['javascript', 'python', 'java', 'cpp'],
+    languages: ['javascript', 'typescript', 'python', 'java', 'cpp'],
     createdAt: new Date(0),
     updatedAt: new Date(0),
     topics: formatStaticRelation(problem.topics),
@@ -205,7 +304,7 @@ export class CodingProblemRepository {
         include: { topics: true, companies: true, tags: true },
         orderBy: { createdAt: 'asc' },
       });
-      if (problems.length === 0) {
+      if (problems.length < 160) {
         return loadStaticProblems().map((problem) => ({
           ...findStaticProblemBySlug(problem.slug)!,
         }));
@@ -241,11 +340,63 @@ export class CodingProblemRepository {
 
   static async searchProblems(filters: ProblemFilters) {
     const where = buildWhereClause(filters);
-    let problems = await prisma.codingProblem.findMany({
-      where,
-      include: { topics: true, companies: true, tags: true },
-      orderBy: buildOrderBy(filters.sort),
-    });
+    let problems: any[] = [];
+    try {
+      problems = await prisma.codingProblem.findMany({
+        where,
+        include: { topics: true, companies: true, tags: true },
+        orderBy: buildOrderBy(filters.sort),
+      });
+    } catch {
+      problems = [];
+    }
+
+    if (problems.length < 160) {
+      let staticProblems = loadStaticProblems().map((problem) => findStaticProblemBySlug(problem.slug)!).filter(Boolean);
+
+      if (filters.difficulty) {
+        staticProblems = staticProblems.filter((p) => p.difficulty === filters.difficulty);
+      }
+
+      if (filters.topic) {
+        const topLower = filters.topic.toLowerCase();
+        staticProblems = staticProblems.filter((p) => {
+          const mainTop = (p.primaryTopic || '').toLowerCase();
+          const topicSlugs = (p.topics || []).map((t) => t.slug.toLowerCase());
+          const secondarySlugs = (p.secondaryTopics || []).map((s) => s.toLowerCase());
+          return mainTop === topLower || topicSlugs.includes(topLower) || secondarySlugs.includes(topLower);
+        });
+      }
+
+      if (filters.company) {
+        const compLower = filters.company.toLowerCase();
+        staticProblems = staticProblems.filter((p) => {
+          const compSlugs = (p.companies || []).map((c) => c.slug.toLowerCase());
+          const compNames = (p.companies || []).map((c) => c.name.toLowerCase());
+          return compSlugs.some((s) => s.includes(compLower)) || compNames.some((n) => n.includes(compLower));
+        });
+      }
+
+      if (filters.search) {
+        const sLower = filters.search.toLowerCase().trim();
+        staticProblems = staticProblems.filter((p) => {
+          const titleMatch = p.title.toLowerCase().includes(sLower);
+          const slugMatch = p.slug.toLowerCase().includes(sLower);
+          const descMatch = (p.description || '').toLowerCase().includes(sLower);
+          const patternMatch = (p.pattern || '').toLowerCase().includes(sLower);
+          const techMatch = (p.technique || '').toLowerCase().includes(sLower);
+          const dsMatch = (p.dataStructuresUsed || []).some((ds) => ds.toLowerCase().includes(sLower));
+          const kwMatch = (p.keywords || []).some((kw) => kw.toLowerCase().includes(sLower));
+          return titleMatch || slugMatch || descMatch || patternMatch || techMatch || dsMatch || kwMatch;
+        });
+      }
+
+      if (typeof filters.offset === 'number' && typeof filters.limit === 'number') {
+        staticProblems = staticProblems.slice(filters.offset, filters.offset + filters.limit);
+      }
+
+      problems = staticProblems;
+    }
 
     if (filters.userId) {
       const { solved, attempted, bookmarked } = await getUserProblemStatuses(filters.userId);
@@ -273,12 +424,14 @@ export class CodingProblemRepository {
   }
 
   static async countProblems(filters: ProblemFilters) {
-    if (filters.status || filters.bookmarked) {
-      const results = await this.searchProblems({ ...filters, limit: undefined, offset: undefined });
-      return results.length;
+    try {
+      const dbCount = await prisma.codingProblem.count({ where: buildWhereClause(filters) });
+      if (dbCount >= 160) return dbCount;
+    } catch {
+      // Database count unavailable, fallback to static problem search
     }
-    const where = buildWhereClause(filters);
-    return prisma.codingProblem.count({ where });
+    const filtered = await this.searchProblems({ ...filters, limit: undefined, offset: undefined });
+    return filtered.length;
   }
 
   static async getDifficultyTotals() {
@@ -290,24 +443,35 @@ export class CodingProblemRepository {
     return { easy, medium, hard };
   }
 
+  /**
+   * Returns a stable daily challenge that does NOT change as the user solves problems.
+   * Seeds by YYYYMMDD integer mod total problem count, then finds closest unsolved.
+   */
   static async getTodaysChallenge(userId: string) {
-    const { solved, attempted } = await getUserProblemStatuses(userId);
     const problems = await prisma.codingProblem.findMany({
       include: { topics: true, companies: true },
       orderBy: { createdAt: 'asc' },
     });
 
-    const unsolved = problems.filter((p) => !solved.has(p.id));
-    if (unsolved.length === 0) return null;
+    if (problems.length === 0) return null;
 
-    const dayIndex = new Date().getDate() % unsolved.length;
-    const challenge = unsolved[dayIndex];
-    const lastAttempted = [...attempted].length;
+    // Stable daily seed: YYYYMMDD
+    const now = new Date();
+    const seed = now.getFullYear() * 10000 + (now.getMonth() + 1) * 100 + now.getDate();
+    const todayIndex = seed % problems.length;
+    const { solved } = await getUserProblemStatuses(userId);
 
-    return {
-      ...challenge,
-      priority: lastAttempted,
-    };
+    // If today's problem is already solved, find next unsolved
+    if (!solved.has(problems[todayIndex].id)) {
+      return problems[todayIndex];
+    }
+
+    for (let i = 1; i <= problems.length; i++) {
+      const candidate = problems[(todayIndex + i) % problems.length];
+      if (!solved.has(candidate.id)) return candidate;
+    }
+
+    return null; // All problems solved
   }
 }
 
@@ -325,12 +489,7 @@ export class CodingSessionRepository {
     if (existing) return existing;
 
     return prisma.codingSession.create({
-      data: {
-        userId,
-        problemId: problem.id,
-        language,
-        status: 'ACTIVE',
-      },
+      data: { userId, problemId: problem.id, language, status: 'ACTIVE' },
       include: { problem: { include: { topics: true, companies: true, tags: true } } },
     });
   }
@@ -364,16 +523,47 @@ export class CodingSessionRepository {
     sessionId: string,
     data: { code?: string; language?: string; status?: string; completedAt?: Date }
   ) {
-    return prisma.codingSession.update({
-      where: { id: sessionId },
-      data,
-    });
+    return prisma.codingSession.update({ where: { id: sessionId }, data });
   }
 
   static async saveSnapshot(sessionId: string, code: string) {
-    return prisma.codeSnapshot.create({
-      data: { sessionId, code },
+    return prisma.codeSnapshot.create({ data: { sessionId, code } });
+  }
+
+  static async saveSessionCode(userId: string, problemSlug: string, code: string, language: string) {
+    const problem = await CodingProblemRepository.getProblemBySlug(problemSlug);
+    if (!problem) return null;
+
+    const session = await prisma.codingSession.findFirst({
+      where: { userId, problemId: problem.id },
+      orderBy: { startTime: 'desc' },
     });
+
+    if (!session) return null;
+
+    await prisma.codingSession.update({
+      where: { id: session.id },
+      data: { code, language },
+    });
+
+    return session.id;
+  }
+
+  static async getSavedCode(
+    userId: string,
+    problemSlug: string
+  ): Promise<{ code: string; language: string } | null> {
+    const problem = await CodingProblemRepository.getProblemBySlug(problemSlug);
+    if (!problem) return null;
+
+    const session = await prisma.codingSession.findFirst({
+      where: { userId, problemId: problem.id },
+      orderBy: { startTime: 'desc' },
+      select: { code: true, language: true },
+    });
+
+    if (!session?.code) return null;
+    return { code: session.code, language: session.language };
   }
 }
 
@@ -467,6 +657,13 @@ export class CodingSubmissionRepository {
 
 export class CodingProgressRepository {
   static async getOrCreate(userId: string) {
+    // Ensure User record exists in DB to prevent foreign key violation (P2003)
+    await prisma.user.upsert({
+      where: { id: userId },
+      update: {},
+      create: { id: userId, email: `${userId}@user.prepgenie.internal` },
+    });
+
     return prisma.codingProgress.upsert({
       where: { userId },
       update: {},

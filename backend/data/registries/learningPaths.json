@@ -1,0 +1,107 @@
+[
+  {
+    "id": "core-dsa-track-arrays-module",
+    "title": "Core DSA Track -> Arrays Module",
+    "slug": "core-dsa-track-arrays-module"
+  },
+  {
+    "id": "core-dsa-track-strings-module",
+    "title": "Core DSA Track -> Strings Module",
+    "slug": "core-dsa-track-strings-module"
+  },
+  {
+    "id": "core-dsa-track-hashing-module",
+    "title": "Core DSA Track -> Hashing Module",
+    "slug": "core-dsa-track-hashing-module"
+  },
+  {
+    "id": "core-dsa-track-two-pointers-module",
+    "title": "Core DSA Track -> Two Pointers Module",
+    "slug": "core-dsa-track-two-pointers-module"
+  },
+  {
+    "id": "core-dsa-track-sliding-window-module",
+    "title": "Core DSA Track -> Sliding Window Module",
+    "slug": "core-dsa-track-sliding-window-module"
+  },
+  {
+    "id": "core-dsa-track-binary-search-module",
+    "title": "Core DSA Track -> Binary Search Module",
+    "slug": "core-dsa-track-binary-search-module"
+  },
+  {
+    "id": "core-dsa-track-sorting-module",
+    "title": "Core DSA Track -> Sorting Module",
+    "slug": "core-dsa-track-sorting-module"
+  },
+  {
+    "id": "core-dsa-track-greedy-module",
+    "title": "Core DSA Track -> Greedy Module",
+    "slug": "core-dsa-track-greedy-module"
+  },
+  {
+    "id": "core-dsa-track-stack-module",
+    "title": "Core DSA Track -> Stack Module",
+    "slug": "core-dsa-track-stack-module"
+  },
+  {
+    "id": "core-dsa-track-queue-module",
+    "title": "Core DSA Track -> Queue Module",
+    "slug": "core-dsa-track-queue-module"
+  },
+  {
+    "id": "core-dsa-track-linked-list-module",
+    "title": "Core DSA Track -> Linked List Module",
+    "slug": "core-dsa-track-linked-list-module"
+  },
+  {
+    "id": "core-dsa-track-recursion-module",
+    "title": "Core DSA Track -> Recursion Module",
+    "slug": "core-dsa-track-recursion-module"
+  },
+  {
+    "id": "core-dsa-track-backtracking-module",
+    "title": "Core DSA Track -> Backtracking Module",
+    "slug": "core-dsa-track-backtracking-module"
+  },
+  {
+    "id": "core-dsa-track-heap-module",
+    "title": "Core DSA Track -> Heap Module",
+    "slug": "core-dsa-track-heap-module"
+  },
+  {
+    "id": "core-dsa-track-tree-module",
+    "title": "Core DSA Track -> Tree Module",
+    "slug": "core-dsa-track-tree-module"
+  },
+  {
+    "id": "core-dsa-track-bst-module",
+    "title": "Core DSA Track -> BST Module",
+    "slug": "core-dsa-track-bst-module"
+  },
+  {
+    "id": "core-dsa-track-trie-module",
+    "title": "Core DSA Track -> Trie Module",
+    "slug": "core-dsa-track-trie-module"
+  },
+  {
+    "id": "core-dsa-track-graphs-module",
+    "title": "Core DSA Track -> Graphs Module",
+    "slug": "core-dsa-track-graphs-module"
+  },
+  {
+    "id": "core-dsa-track-dp-module",
+    "title": "Core DSA Track -> DP Module",
+    "slug": "core-dsa-track-dp-module"
+  },
+  {
+    "id": "core-dsa-track-bit-manipulation-module",
+    "title": "Core DSA Track -> Bit Manipulation Module",
+    "slug": "core-dsa-track-bit-manipulation-module"
+  },
+  {
+    "id": "core-dsa-track-design-misc-module",
+    "title": "Core DSA Track -> Design / Misc Module",
+    "slug": "core-dsa-track-design-misc-module"
+  }
+]

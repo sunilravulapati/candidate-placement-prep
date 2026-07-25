@@ -1,0 +1,227 @@
+{
+  "id": "valid-parentheses",
+  "schemaVersion": "2.0",
+  "contentVersion": "1.1",
+  "importVersion": "54-column-sheet",
+  "lastReviewed": "2026-07-25",
+  "lastModified": "2026-07-25",
+  "author": "PrepGenie Content Team",
+  "reviewStatus": "published",
+  "questionNo": 46,
+  "slug": "valid-parentheses",
+  "title": "Valid Parentheses",
+  "difficulty": "EASY",
+  "importance": "3/5",
+  "interviewFrequency": "Medium",
+  "estimatedSolveTime": "15 mins",
+  "estimatedMinutes": 15,
+  "frequency": 85,
+  "acceptanceRate": 65,
+  "premium": false,
+  "topic": "stack",
+  "topicId": "stack",
+  "primaryTopic": "stack",
+  "secondaryTopics": [
+    "stack",
+    "string"
+  ],
+  "pattern": "Monotonic / LIFO Stack",
+  "patternId": "monotonic-lifo-stack",
+  "technique": "Hash Map Lookup / Traversal",
+  "techniqueId": "hash-map-lookup-traversal",
+  "dataStructuresUsed": [
+    "Stack"
+  ],
+  "learningPath": "Core DSA Track -> Stack Module",
+  "learningPaths": [
+    "Core DSA Track -> Stack Module"
+  ],
+  "description": "Check if brackets (), {}, [] close in the correct order.",
+  "whyLearnThis": "Core computer science parsing concept for nested structures, expressions, and compilers.",
+  "recognitionClues": "Look for array/string traversal where stack properties or sliding boundaries reduce time complexity.",
+  "prerequisites": "Stack Data Structure (LIFO)",
+  "concepts": "Stack push/pop, Bracket matching, String iteration",
+  "keywords": [
+    "Stack",
+    "stack",
+    "algorithms",
+    "data-structures",
+    "Monotonic / LIFO Stack",
+    "Hash Map Lookup / Traversal"
+  ],
+  "tags": [
+    "stack",
+    "algorithms",
+    "data-structures"
+  ],
+  "companies": [
+    "Amazon",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Apple",
+    "Uber",
+    "Goldman Sachs"
+  ],
+  "constraints": [
+    "1 <= input.length <= 10^5",
+    "-10^9 <= input[i] <= 10^9"
+  ],
+  "examples": [
+    {
+      "input": "nums = [1, 2, 3, 4, 5]",
+      "output": "15",
+      "explanation": "Sample test 1 for Valid Parentheses"
+    },
+    {
+      "input": "nums = [10, 20, 30]",
+      "output": "60",
+      "explanation": "Sample test 2 for Valid Parentheses"
+    },
+    {
+      "input": "nums = [0]",
+      "output": "0",
+      "explanation": "Sample test 3 for Valid Parentheses"
+    }
+  ],
+  "hints": [
+    "When encountering an opening bracket, push to stack.",
+    "When encountering a closing bracket, check if it matches stack top.",
+    "At the end, check if stack is empty."
+  ],
+  "optimalTC": "O(N)",
+  "optimalSC": "O(N)",
+  "bruteTC": "O(N^2)",
+  "bruteSC": "O(N)",
+  "approach": "Maintain stack for opening brackets. When closing bracket occurs, pop stack and check matching type. Return True if stack empty at end.",
+  "intuition": "By maintaining optimal state or invariants during iteration, we avoid recomputing redundant subproblems.",
+  "algorithm": "1. Initialize data structures (Stack).\n2. Traverse input while updating current boundary or accumulator.\n3. Return result once target state is reached.",
+  "pseudocode": "stack = [], map = {')':'(', '}':'{', ']':'['}\nfor char in s:\n  if char in map:\n    if not stack or stack.pop() != map[char]: return False\n  else: stack.append(char)\nreturn len(stack) == 0",
+  "commonMistakes": [
+    "Popping from an empty stack, forgetting to check if stack is empty at the end."
+  ],
+  "edgeCases": [
+    "Odd length strings, string starting with closing bracket, all opening brackets."
+  ],
+  "interviewTrick": "Focus on invariant preservation and spatial optimization (in-place manipulation where applicable).",
+  "revisionNotes": "Key Stack question frequently asked in FAANG/Top Tech interview loops.",
+  "resources": [
+    {
+      "type": "leetcode",
+      "url": "https://leetcode.com/problems/valid-parentheses/"
+    }
+  ],
+  "inputTemplates": {
+    "python": "# --- 46. Valid Parentheses (stack) ---\ndef solution(inputs):\n    # Function implementation\n    pass\n\nif __name__ == \"__main__\":\n    import sys\n    # Sample Input: adjust according to problem requirements\n    raw_input = sys.stdin.read().splitlines() if not sys.stdin.isatty() else [\"sample_input_1\", \"sample_input_2\"]\n    print(f\"Input: {raw_input}\")\n    # result = solution(raw_input)\n    # print(f\"Output: {result}\")\n",
+    "cpp": "// --- 46. Valid Parentheses (stack) ---\n#include <iostream>\n#include <vector>\n#include <string>\n#include <sstream>\nusing namespace std;\n\nclass Solution {\npublic:\n    void solve() {\n        // Implement driver and input logic\n    }\n};\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    Solution sol;\n    sol.solve();\n    return 0;\n}\n",
+    "java": "// --- 46. Valid Parentheses (stack) ---\nimport java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        // Parse input here\n        System.out.println(\"Ready for input: \" + \"Valid Parentheses\");\n    }\n}\n",
+    "javascript": "// --- 46. Valid Parentheses (stack) ---\nconst fs = require('fs');\n\nfunction solve(input) {\n  // Implement standard logic\n  return input;\n}\n\nconst input = fs.readFileSync('/dev/stdin', 'utf-8').trim().split('\\n');\nconsole.log(solve(input));\n",
+    "typescript": "// --- 46. Valid Parentheses (stack) ---\nimport * as fs from 'fs';\n\nfunction solveTS(inputData: string[]): any {\n  // Implement TypeScript logic\n  return inputData;\n}\n\nconst rawData: string[] = fs.readFileSync(0, 'utf-8').trim().split('\\n');\nconsole.log(solveTS(rawData));\n"
+  },
+  "starterMetadata": {
+    "functionName": "validParentheses",
+    "className": "Solution",
+    "returnType": "int",
+    "parameters": [
+      {
+        "name": "nums",
+        "type": "array<int>"
+      }
+    ],
+    "problemType": "FUNCTION"
+  },
+  "executionMetadata": {
+    "problemType": "FUNCTION",
+    "inputType": [
+      "array<int>"
+    ],
+    "outputType": "int",
+    "comparator": "EXACT",
+    "timeLimit": 2,
+    "memoryLimit": 256,
+    "expectedComplexity": {
+      "time": "O(N)",
+      "space": "O(N)"
+    }
+  },
+  "driverMetadata": {
+    "driver": "DEFAULT",
+    "inputSerializers": [
+      "ARRAY_INT"
+    ],
+    "outputSerializer": "INT"
+  },
+  "relationships": {
+    "prerequisites": [],
+    "followUps": [
+      "How to handle different custom bracket types or expressions with operands?"
+    ],
+    "variants": [
+      "Generate Parentheses (LC 22)",
+      "Minimum Remove to Make Valid Parentheses (LC 1249)."
+    ],
+    "related": [
+      "Other core questions in Stack module."
+    ]
+  },
+  "visibleTests": [
+    {
+      "id": "sample-1",
+      "classification": "sample",
+      "input": "nums = [1, 2, 3, 4, 5]",
+      "expectedOutput": "15",
+      "explanation": "Sample test 1 for Valid Parentheses"
+    },
+    {
+      "id": "sample-2",
+      "classification": "sample",
+      "input": "nums = [10, 20, 30]",
+      "expectedOutput": "60",
+      "explanation": "Sample test 2 for Valid Parentheses"
+    },
+    {
+      "id": "sample-3",
+      "classification": "sample",
+      "input": "nums = [0]",
+      "expectedOutput": "0",
+      "explanation": "Sample test 3 for Valid Parentheses"
+    }
+  ],
+  "hiddenTests": [
+    {
+      "id": "edge-1",
+      "classification": "edge",
+      "input": "nums = []",
+      "expectedOutput": "0",
+      "explanation": "Empty array boundary"
+    },
+    {
+      "id": "corner-2",
+      "classification": "corner",
+      "input": "nums = [-10, -20]",
+      "expectedOutput": "-30",
+      "explanation": "Negative numbers"
+    },
+    {
+      "id": "stress-3",
+      "classification": "stress",
+      "input": "nums = [1000, 2000, 3000]",
+      "expectedOutput": "6000",
+      "explanation": "Large inputs"
+    },
+    {
+      "id": "duplicates-4",
+      "classification": "duplicates",
+      "input": "nums = [5, 5, 5, 5]",
+      "expectedOutput": "20",
+      "explanation": "Duplicate values"
+    },
+    {
+      "id": "performance-5",
+      "classification": "performance",
+      "input": "nums = [1..10000]",
+      "expectedOutput": "...",
+      "explanation": "Performance stress test"
+    }
+  ]
+}

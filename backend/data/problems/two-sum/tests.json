@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sample-1",
+    "classification": "sample",
+    "input": "nums = [2,7,11,15], target = 9",
+    "expectedOutput": "[0,1]",
+    "explanation": "nums[0] + nums[1] == 9, return [0,1]."
+  },
+  {
+    "id": "sample-2",
+    "classification": "sample",
+    "input": "nums = [3,2,4], target = 6",
+    "expectedOutput": "[1,2]",
+    "explanation": "nums[1] + nums[2] == 6, return [1,2]."
+  },
+  {
+    "id": "sample-3",
+    "classification": "sample",
+    "input": "nums = [3,3], target = 6",
+    "expectedOutput": "[0,1]",
+    "explanation": "nums[0] + nums[1] == 6, return [0,1]."
+  },
+  {
+    "id": "edge-1",
+    "classification": "edge",
+    "input": "nums = [-1,-2,-3,-4,-5], target = -8",
+    "expectedOutput": "[2,4]",
+    "explanation": "Negative numbers"
+  },
+  {
+    "id": "corner-2",
+    "classification": "corner",
+    "input": "nums = [0,4,3,0], target = 0",
+    "expectedOutput": "[0,3]",
+    "explanation": "Zeros in array"
+  },
+  {
+    "id": "stress-3",
+    "classification": "stress",
+    "input": "nums = [1000000,500000,500000], target = 1000000",
+    "expectedOutput": "[1,2]",
+    "explanation": "Large values"
+  },
+  {
+    "id": "duplicates-4",
+    "classification": "duplicates",
+    "input": "nums = [5,5], target = 10",
+    "expectedOutput": "[0,1]",
+    "explanation": "Duplicate target pair"
+  },
+  {
+    "id": "performance-5",
+    "classification": "performance",
+    "input": "nums = [1..10000], target = 19999",
+    "expectedOutput": "[9998,9999]",
+    "explanation": "Large array search"
+  }
+]

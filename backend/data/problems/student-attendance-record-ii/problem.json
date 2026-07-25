@@ -1,0 +1,227 @@
+{
+  "id": "student-attendance-record-ii",
+  "schemaVersion": "2.0",
+  "contentVersion": "1.1",
+  "importVersion": "54-column-sheet",
+  "lastReviewed": "2026-07-25",
+  "lastModified": "2026-07-25",
+  "author": "PrepGenie Content Team",
+  "reviewStatus": "published",
+  "questionNo": 148,
+  "slug": "student-attendance-record-ii",
+  "title": "Student Attendance Record II",
+  "difficulty": "HARD",
+  "importance": "5/5",
+  "interviewFrequency": "High",
+  "estimatedSolveTime": "40 mins",
+  "estimatedMinutes": 40,
+  "frequency": 85,
+  "acceptanceRate": 65,
+  "premium": false,
+  "topic": "dp",
+  "topicId": "dp",
+  "primaryTopic": "dp",
+  "secondaryTopics": [
+    "dp",
+    "algorithms",
+    "data-structures"
+  ],
+  "pattern": "DP",
+  "patternId": "dp",
+  "technique": "Memoization / Tabulation",
+  "techniqueId": "memoization-tabulation",
+  "dataStructuresUsed": [
+    "DP Table / Array"
+  ],
+  "learningPath": "Core DSA Track -> DP Module",
+  "learningPaths": [
+    "Core DSA Track -> DP Module"
+  ],
+  "description": "Count total award-eligible attendance records of length n.",
+  "whyLearnThis": "Advanced hard-level problem testing deep problem-solving skills, optimal state management, and algorithmic rigor.",
+  "recognitionClues": "Look for array/string traversal where dp properties or sliding boundaries reduce time complexity.",
+  "prerequisites": "Mastery of dp, dynamic programming, advanced graph/tree traversal",
+  "concepts": "Complex DP algorithms, state compression, optimization",
+  "keywords": [
+    "DP Table / Array",
+    "dp",
+    "algorithms",
+    "data-structures",
+    "DP",
+    "Memoization / Tabulation"
+  ],
+  "tags": [
+    "dp",
+    "algorithms",
+    "data-structures"
+  ],
+  "companies": [
+    "Amazon",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Apple",
+    "Uber",
+    "Goldman Sachs"
+  ],
+  "constraints": [
+    "1 <= input.length <= 10^5",
+    "-10^9 <= input[i] <= 10^9"
+  ],
+  "examples": [
+    {
+      "input": "nums = [1, 2, 3, 4, 5]",
+      "output": "15",
+      "explanation": "Sample test 1 for Student Attendance Record II"
+    },
+    {
+      "input": "nums = [10, 20, 30]",
+      "output": "60",
+      "explanation": "Sample test 2 for Student Attendance Record II"
+    },
+    {
+      "input": "nums = [0]",
+      "output": "0",
+      "explanation": "Sample test 3 for Student Attendance Record II"
+    }
+  ],
+  "hints": [
+    "Break down the problem into smaller subproblems or independent sub-components.",
+    "Analyze optimal substructure or monotonic properties.",
+    "Consider auxiliary data structures like Monotonic Queue, Heap, or Segment Trees."
+  ],
+  "optimalTC": "O(N log N) or O(N)",
+  "optimalSC": "O(N)",
+  "bruteTC": "O(2^N) / O(N^3)",
+  "bruteSC": "O(N^2)",
+  "approach": "Leverage advanced dp algorithms, multi-dimensional DP, or monotonic data structures to achieve optimal asymptotic bounds.",
+  "intuition": "By maintaining optimal state or invariants during iteration, we avoid recomputing redundant subproblems.",
+  "algorithm": "1. Initialize data structures (DP Table / Array).\n2. Traverse input while updating current boundary or accumulator.\n3. Return result once target state is reached.",
+  "pseudocode": "# Hard DP optimal approach\ninitialize state table / priority queue\nwhile queue or states active:\n  transition states\nreturn target result",
+  "commonMistakes": [
+    "Overcomplicating the state transitions or missing crucial base cases."
+  ],
+  "edgeCases": [
+    "Maximum constraint bounds, disconnected components, boundary overflow."
+  ],
+  "interviewTrick": "Focus on invariant preservation and spatial optimization (in-place manipulation where applicable).",
+  "revisionNotes": "Key DP question frequently asked in FAANG/Top Tech interview loops.",
+  "resources": [
+    {
+      "type": "leetcode",
+      "url": "https://leetcode.com/problems/student-attendance-record-ii/"
+    }
+  ],
+  "inputTemplates": {
+    "python": "# --- 148. Student Attendance Record II (dp) ---\ndef solution(inputs):\n    # Function implementation\n    pass\n\nif __name__ == \"__main__\":\n    import sys\n    # Sample Input: adjust according to problem requirements\n    raw_input = sys.stdin.read().splitlines() if not sys.stdin.isatty() else [\"sample_input_1\", \"sample_input_2\"]\n    print(f\"Input: {raw_input}\")\n    # result = solution(raw_input)\n    # print(f\"Output: {result}\")\n",
+    "cpp": "// --- 148. Student Attendance Record II (dp) ---\n#include <iostream>\n#include <vector>\n#include <string>\n#include <sstream>\nusing namespace std;\n\nclass Solution {\npublic:\n    void solve() {\n        // Implement driver and input logic\n    }\n};\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    Solution sol;\n    sol.solve();\n    return 0;\n}\n",
+    "java": "// --- 148. Student Attendance Record II (dp) ---\nimport java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        // Parse input here\n        System.out.println(\"Ready for input: \" + \"Student Attendance Record II\");\n    }\n}\n",
+    "javascript": "// --- 148. Student Attendance Record II (dp) ---\nconst fs = require('fs');\n\nfunction solve(input) {\n  // Implement standard logic\n  return input;\n}\n\nconst input = fs.readFileSync('/dev/stdin', 'utf-8').trim().split('\\n');\nconsole.log(solve(input));\n",
+    "typescript": "// --- 148. Student Attendance Record II (dp) ---\nimport * as fs from 'fs';\n\nfunction solveTS(inputData: string[]): any {\n  // Implement TypeScript logic\n  return inputData;\n}\n\nconst rawData: string[] = fs.readFileSync(0, 'utf-8').trim().split('\\n');\nconsole.log(solveTS(rawData));\n"
+  },
+  "starterMetadata": {
+    "functionName": "studentAttendanceRecordIi",
+    "className": "Solution",
+    "returnType": "int",
+    "parameters": [
+      {
+        "name": "nums",
+        "type": "array<int>"
+      }
+    ],
+    "problemType": "FUNCTION"
+  },
+  "executionMetadata": {
+    "problemType": "FUNCTION",
+    "inputType": [
+      "array<int>"
+    ],
+    "outputType": "int",
+    "comparator": "EXACT",
+    "timeLimit": 2,
+    "memoryLimit": 256,
+    "expectedComplexity": {
+      "time": "O(N log N) or O(N)",
+      "space": "O(N)"
+    }
+  },
+  "driverMetadata": {
+    "driver": "DEFAULT",
+    "inputSerializers": [
+      "ARRAY_INT"
+    ],
+    "outputSerializer": "INT"
+  },
+  "relationships": {
+    "prerequisites": [],
+    "followUps": [
+      "Can you solve this in parallel or distributed setting?"
+    ],
+    "variants": [
+      "Hard level variants across FAANG interview loops."
+    ],
+    "related": [
+      "Other core questions in DP module."
+    ]
+  },
+  "visibleTests": [
+    {
+      "id": "sample-1",
+      "classification": "sample",
+      "input": "nums = [1, 2, 3, 4, 5]",
+      "expectedOutput": "15",
+      "explanation": "Sample test 1 for Student Attendance Record II"
+    },
+    {
+      "id": "sample-2",
+      "classification": "sample",
+      "input": "nums = [10, 20, 30]",
+      "expectedOutput": "60",
+      "explanation": "Sample test 2 for Student Attendance Record II"
+    },
+    {
+      "id": "sample-3",
+      "classification": "sample",
+      "input": "nums = [0]",
+      "expectedOutput": "0",
+      "explanation": "Sample test 3 for Student Attendance Record II"
+    }
+  ],
+  "hiddenTests": [
+    {
+      "id": "edge-1",
+      "classification": "edge",
+      "input": "nums = []",
+      "expectedOutput": "0",
+      "explanation": "Empty array boundary"
+    },
+    {
+      "id": "corner-2",
+      "classification": "corner",
+      "input": "nums = [-10, -20]",
+      "expectedOutput": "-30",
+      "explanation": "Negative numbers"
+    },
+    {
+      "id": "stress-3",
+      "classification": "stress",
+      "input": "nums = [1000, 2000, 3000]",
+      "expectedOutput": "6000",
+      "explanation": "Large inputs"
+    },
+    {
+      "id": "duplicates-4",
+      "classification": "duplicates",
+      "input": "nums = [5, 5, 5, 5]",
+      "expectedOutput": "20",
+      "explanation": "Duplicate values"
+    },
+    {
+      "id": "performance-5",
+      "classification": "performance",
+      "input": "nums = [1..10000]",
+      "expectedOutput": "...",
+      "explanation": "Performance stress test"
+    }
+  ]
+}

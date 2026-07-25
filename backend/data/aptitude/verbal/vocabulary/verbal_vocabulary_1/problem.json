@@ -1,0 +1,30 @@
+{
+  "metadataVersion": 1,
+  "id": "verbal_vocabulary_1",
+  "slug": "verbal_vocabulary_1",
+  "category": "verbal",
+  "topic": "vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture"
+  ],
+  "difficulty": "EASY",
+  "estimatedTime": 2,
+  "question": "Choose the word that is most nearly OPPOSITE in meaning to the word: 'AMICABLE'",
+  "options": [
+    "Friendly",
+    "Hostile",
+    "Peaceful",
+    "Harmonious"
+  ],
+  "answer": "Hostile",
+  "tags": [
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Aptitude Essentials"
+  ]
+}

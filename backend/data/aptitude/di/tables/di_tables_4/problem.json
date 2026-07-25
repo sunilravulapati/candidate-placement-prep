@@ -1,0 +1,30 @@
+{
+  "metadataVersion": 1,
+  "id": "di_tables_4",
+  "slug": "di_tables_4",
+  "category": "di",
+  "topic": "tables",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture"
+  ],
+  "difficulty": "HARD",
+  "estimatedTime": 2,
+  "question": "The following table shows the sales (in thousands of units) of four mobile phone brands over four years:\n\n| Year | Brand A | Brand B | Brand C | Brand D |\n|------|---------|---------|---------|---------|\n| 2021 | 120     | 80      | 150     | 90      |\n| 2022 | 140     | 95      | 160     | 110     |\n| 2023 | 130     | 110     | 180     | 120     |\n| 2024 | 160     | 130     | 200     | 140     |\n\nWhat is the ratio of the combined sales of Brand A and Brand C in 2021 to the combined sales of Brand B and Brand D in 2024?",
+  "options": [
+    "1 : 1",
+    "3 : 4",
+    "9 : 10",
+    "27 : 29"
+  ],
+  "answer": "1 : 1",
+  "tags": [
+    "tables"
+  ],
+  "learningPaths": [
+    "Aptitude Essentials"
+  ]
+}

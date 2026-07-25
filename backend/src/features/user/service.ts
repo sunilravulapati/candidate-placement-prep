@@ -1,73 +1,73 @@
 // backend/src/features/user/service.ts
 import { UserRepository } from './repository';
+import prisma from '../../db/client';
 
 export class UserService {
-  static async syncUserWithClerk(clerkUserId: string, email: string, name?: string) {
-    try {
-      return await UserRepository.upsertUser(clerkUserId, email, name);
-    } catch (error) {
-      console.warn('Failed to sync user with database. Falling back to local mock sync.', (error as Error).message);
-      return {
-        id: clerkUserId,
-        email,
-        name: name || null,
-        role: 'candidate',
-        createdAt: new Date(),
-        updatedAt: new Date(),
-      };
-    }
+  /**
+   * Sync a Clerk user into Prisma. Creates if new, updates if changed.
+   * Also initializes CodingProgress for the user if not already present.
+   */
+  static async syncUser(clerkUserId: string, email: string, name?: string, image?: string) {
+    const user = await UserRepository.upsertUser(clerkUserId, email, name, image);
+
+    // Ensure CodingProgress record exists so dashboard never fails
+    await prisma.codingProgress.upsert({
+      where: { userId: clerkUserId },
+      update: {},
+      create: { userId: clerkUserId },
+    });
+
+    return user;
   }
 
+  /**
+   * Check if the user has completed onboarding.
+   */
+  static async isProfileCompleted(userId: string): Promise<boolean> {
+    return UserRepository.isProfileCompleted(userId);
+  }
+
+  /**
+   * Save onboarding profile and mark as completed.
+   */
+  static async saveOnboardingProfile(
+    userId: string,
+    data: Parameters<typeof UserRepository.saveProfile>[1]
+  ) {
+    return UserRepository.saveProfile(userId, data);
+  }
+
+  /**
+   * Get the user's onboarding profile data.
+   */
+  static async getProfile(userId: string) {
+    return UserRepository.getProfile(userId);
+  }
+
+  /**
+   * Get user with dashboard statistics.
+   */
   static async getUserProfile(userId: string) {
-    try {
-      const user = await UserRepository.findUniqueWithRelations(userId);
-      if (!user) return null;
+    const user = await UserRepository.findUniqueWithRelations(userId);
+    if (!user) return null;
 
-      // Compute stats for dashboard
-      const totalSolved = user.progress.filter(p => p.status === 'completed').length;
-      const inProgress = user.progress.filter(p => p.status === 'in_progress').length;
-      
-      const latestResumeScore = user.resumes.length > 0 
-        ? user.resumes[user.resumes.length - 1].atsScore 
-        : null;
+    const totalSolved = user.progress.filter((p) => p.status === 'completed').length;
+    const inProgress = user.progress.filter((p) => p.status === 'in_progress').length;
 
-      const averageInterviewScore = user.interviews.length > 0
+    const latestResumeScore =
+      user.resumes.length > 0 ? user.resumes[user.resumes.length - 1].atsScore : null;
+
+    const averageInterviewScore =
+      user.interviews.length > 0
         ? Math.round(
-            user.interviews.reduce((acc, val) => acc + (val.score || 0), 0) / 
-            user.interviews.length
+            user.interviews.reduce((acc, val) => acc + (val.score ?? 0), 0) /
+              user.interviews.length
           )
         : null;
 
-      return {
-        ...user,
-        stats: {
-          totalSolved,
-          inProgress,
-          latestResumeScore,
-          averageInterviewScore,
-        },
-      };
-    } catch (error) {
-      console.warn(`Failed to fetch user profile for ${userId} from database. Returning mock statistics.`, (error as Error).message);
-      
-      // Return mock statistics
-      return {
-        id: userId,
-        email: 'candidate@prepgenie.dev',
-        name: 'Test Candidate',
-        role: 'candidate',
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        progress: [],
-        resumes: [],
-        interviews: [],
-        stats: {
-          totalSolved: 12,
-          inProgress: 3,
-          latestResumeScore: 82,
-          averageInterviewScore: 78,
-        },
-      };
-    }
+    return {
+      ...user,
+      stats: { totalSolved, inProgress, latestResumeScore, averageInterviewScore },
+    };
   }
 }

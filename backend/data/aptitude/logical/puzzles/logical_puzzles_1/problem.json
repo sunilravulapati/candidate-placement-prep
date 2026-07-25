@@ -1,0 +1,30 @@
+{
+  "metadataVersion": 1,
+  "id": "logical_puzzles_1",
+  "slug": "logical_puzzles_1",
+  "category": "logical",
+  "topic": "puzzles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture"
+  ],
+  "difficulty": "EASY",
+  "estimatedTime": 2,
+  "question": "In a row of 35 children, M is 15th from the right end and there are 10 children between M and R. What is R's position from the left end of the row?",
+  "options": [
+    "10th",
+    "11th",
+    "12th",
+    "Data Inadequate"
+  ],
+  "answer": "Data Inadequate",
+  "tags": [
+    "puzzles"
+  ],
+  "learningPaths": [
+    "Aptitude Essentials"
+  ]
+}

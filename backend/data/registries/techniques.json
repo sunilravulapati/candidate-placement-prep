@@ -1,0 +1,47 @@
+[
+  {
+    "id": "hash-map-lookup-traversal",
+    "name": "Hash Map Lookup / Traversal",
+    "slug": "hash-map-lookup-traversal"
+  },
+  {
+    "id": "sliding-window",
+    "name": "Sliding Window",
+    "slug": "sliding-window"
+  },
+  {
+    "id": "two-pointers",
+    "name": "Two Pointers",
+    "slug": "two-pointers"
+  },
+  {
+    "id": "binary-search",
+    "name": "Binary Search",
+    "slug": "binary-search"
+  },
+  {
+    "id": "greedy-choice",
+    "name": "Greedy Choice",
+    "slug": "greedy-choice"
+  },
+  {
+    "id": "monotonic-stack",
+    "name": "Monotonic Stack",
+    "slug": "monotonic-stack"
+  },
+  {
+    "id": "fast-slow-pointers",
+    "name": "Fast & Slow Pointers",
+    "slug": "fast-slow-pointers"
+  },
+  {
+    "id": "dfs-bfs",
+    "name": "DFS / BFS",
+    "slug": "dfs-bfs"
+  },
+  {
+    "id": "memoization-tabulation",
+    "name": "Memoization / Tabulation",
+    "slug": "memoization-tabulation"
+  }
+]

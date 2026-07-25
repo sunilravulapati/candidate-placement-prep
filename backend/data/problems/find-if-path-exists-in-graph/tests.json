@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sample-1",
+    "classification": "sample",
+    "input": "nums = [1, 2, 3, 4, 5]",
+    "expectedOutput": "15",
+    "explanation": "Sample test 1 for Find if Path Exists in Graph"
+  },
+  {
+    "id": "sample-2",
+    "classification": "sample",
+    "input": "nums = [10, 20, 30]",
+    "expectedOutput": "60",
+    "explanation": "Sample test 2 for Find if Path Exists in Graph"
+  },
+  {
+    "id": "sample-3",
+    "classification": "sample",
+    "input": "nums = [0]",
+    "expectedOutput": "0",
+    "explanation": "Sample test 3 for Find if Path Exists in Graph"
+  },
+  {
+    "id": "edge-1",
+    "classification": "edge",
+    "input": "nums = []",
+    "expectedOutput": "0",
+    "explanation": "Empty array boundary"
+  },
+  {
+    "id": "corner-2",
+    "classification": "corner",
+    "input": "nums = [-10, -20]",
+    "expectedOutput": "-30",
+    "explanation": "Negative numbers"
+  },
+  {
+    "id": "stress-3",
+    "classification": "stress",
+    "input": "nums = [1000, 2000, 3000]",
+    "expectedOutput": "6000",
+    "explanation": "Large inputs"
+  },
+  {
+    "id": "duplicates-4",
+    "classification": "duplicates",
+    "input": "nums = [5, 5, 5, 5]",
+    "expectedOutput": "20",
+    "explanation": "Duplicate values"
+  },
+  {
+    "id": "performance-5",
+    "classification": "performance",
+    "input": "nums = [1..10000]",
+    "expectedOutput": "...",
+    "explanation": "Performance stress test"
+  }
+]

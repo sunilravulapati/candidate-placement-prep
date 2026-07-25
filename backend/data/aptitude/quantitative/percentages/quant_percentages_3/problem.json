@@ -1,0 +1,30 @@
+{
+  "metadataVersion": 1,
+  "id": "quant_percentages_3",
+  "slug": "quant_percentages_3",
+  "category": "quantitative",
+  "topic": "percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture"
+  ],
+  "difficulty": "MEDIUM",
+  "estimatedTime": 2,
+  "question": "The population of a town increases by 10% in the first year, decreases by 10% in the second year, and increases by 15% in the third year. If the current population is 22,770, what was the population 3 years ago?",
+  "options": [
+    "20,000",
+    "21,000",
+    "22,000",
+    "25,000"
+  ],
+  "answer": "20,000",
+  "tags": [
+    "percentages"
+  ],
+  "learningPaths": [
+    "Aptitude Essentials"
+  ]
+}

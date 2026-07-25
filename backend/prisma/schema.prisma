@@ -12,9 +12,12 @@ model User {
   id                String                 @id // Clerk User ID (e.g. user_...)
   email             String                 @unique
   name              String?
+  image             String?                // Clerk profile image URL
   role              String                 @default("candidate") // "candidate" | "admin"
+  profileCompleted  Boolean                @default(false)
   createdAt         DateTime               @default(now())
   updatedAt         DateTime               @updatedAt
+  profile           UserProfile?
   progress          UserQuestionProgress[]
   documents         Document[]
   resumeGroups      ResumeGroup[]
@@ -28,6 +31,29 @@ model User {
   codingNotes       CodingNote[]
   aptitudeProgress  UserAptitudeProgress[]
   aptitudeSessions  AptitudeSession[]
+}
+
+model UserProfile {
+  id               String   @id @default(uuid())
+  userId           String   @unique
+  college          String?
+  degree           String?
+  branch           String?
+  graduationYear   Int?
+  cgpa             Float?
+  interestedRoles  String[]
+  languagesKnown   String[]
+  github           String?
+  linkedin         String?
+  leetcode         String?
+  codeforces       String?
+  interests        String[]
+  preferredLang    String?
+  resumeUrl        String?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
 model Question {

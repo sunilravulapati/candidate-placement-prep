@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sample-1",
+    "classification": "sample",
+    "input": "head = [1,2,3,4,5]",
+    "expectedOutput": "[5,4,3,2,1]",
+    "explanation": "Sample test 1 for Linked List Cycle II"
+  },
+  {
+    "id": "sample-2",
+    "classification": "sample",
+    "input": "head = [1,2]",
+    "expectedOutput": "[2,1]",
+    "explanation": "Sample test 2 for Linked List Cycle II"
+  },
+  {
+    "id": "sample-3",
+    "classification": "sample",
+    "input": "head = []",
+    "expectedOutput": "[]",
+    "explanation": "Empty linked list"
+  },
+  {
+    "id": "edge-1",
+    "classification": "edge",
+    "input": "head = [1]",
+    "expectedOutput": "[1]",
+    "explanation": "Single node"
+  },
+  {
+    "id": "corner-2",
+    "classification": "corner",
+    "input": "head = [1,1,1,1]",
+    "expectedOutput": "[1,1,1,1]",
+    "explanation": "Duplicate node values"
+  },
+  {
+    "id": "stress-3",
+    "classification": "stress",
+    "input": "head = [1..1000]",
+    "expectedOutput": "...",
+    "explanation": "Long list"
+  },
+  {
+    "id": "duplicates-4",
+    "classification": "duplicates",
+    "input": "head = [-1,0,1]",
+    "expectedOutput": "[1,0,-1]",
+    "explanation": "Negative values"
+  },
+  {
+    "id": "performance-5",
+    "classification": "performance",
+    "input": "head = [1..5000]",
+    "expectedOutput": "...",
+    "explanation": "Performance test"
+  }
+]

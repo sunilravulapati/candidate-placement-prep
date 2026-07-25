@@ -1,0 +1,30 @@
+{
+  "metadataVersion": 1,
+  "id": "verbal_vocabulary_4",
+  "slug": "verbal_vocabulary_4",
+  "category": "verbal",
+  "topic": "vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture"
+  ],
+  "difficulty": "HARD",
+  "estimatedTime": 2,
+  "question": "The scientist's claims were met with extreme skepticism, as his experimental design was deemed _______ and lacked rigorous controls.",
+  "options": [
+    "Meticulous",
+    "Flawed",
+    "Invulnerable",
+    "Exemplary"
+  ],
+  "answer": "Flawed",
+  "tags": [
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Aptitude Essentials"
+  ]
+}

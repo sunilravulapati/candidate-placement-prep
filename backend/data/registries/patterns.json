@@ -1,0 +1,187 @@
+[
+  {
+    "id": "kadane-s-algorithm-dynamic-programming",
+    "name": "Kadane's Algorithm / Dynamic Programming",
+    "slug": "kadane-s-algorithm-dynamic-programming"
+  },
+  {
+    "id": "prefix-suffix-products",
+    "name": "Prefix & Suffix Products",
+    "slug": "prefix-suffix-products"
+  },
+  {
+    "id": "arrays",
+    "name": "Arrays",
+    "slug": "arrays"
+  },
+  {
+    "id": "strings",
+    "name": "Strings",
+    "slug": "strings"
+  },
+  {
+    "id": "hash-map-lookup",
+    "name": "Hash Map Lookup",
+    "slug": "hash-map-lookup"
+  },
+  {
+    "id": "hashing",
+    "name": "Hashing",
+    "slug": "hashing"
+  },
+  {
+    "id": "two-pointers",
+    "name": "Two Pointers",
+    "slug": "two-pointers"
+  },
+  {
+    "id": "sliding-window",
+    "name": "Sliding Window",
+    "slug": "sliding-window"
+  },
+  {
+    "id": "binary-search-space-reduction",
+    "name": "Binary Search / Space Reduction",
+    "slug": "binary-search-space-reduction"
+  },
+  {
+    "id": "binary-search",
+    "name": "Binary Search",
+    "slug": "binary-search"
+  },
+  {
+    "id": "sorting",
+    "name": "Sorting",
+    "slug": "sorting"
+  },
+  {
+    "id": "greedy",
+    "name": "Greedy",
+    "slug": "greedy"
+  },
+  {
+    "id": "monotonic-lifo-stack",
+    "name": "Monotonic / LIFO Stack",
+    "slug": "monotonic-lifo-stack"
+  },
+  {
+    "id": "stack",
+    "name": "Stack",
+    "slug": "stack"
+  },
+  {
+    "id": "queue",
+    "name": "Queue",
+    "slug": "queue"
+  },
+  {
+    "id": "in-place-pointer-manipulation",
+    "name": "In-Place Pointer Manipulation",
+    "slug": "in-place-pointer-manipulation"
+  },
+  {
+    "id": "linked-list",
+    "name": "Linked List",
+    "slug": "linked-list"
+  },
+  {
+    "id": "recursion",
+    "name": "Recursion",
+    "slug": "recursion"
+  },
+  {
+    "id": "backtracking",
+    "name": "Backtracking",
+    "slug": "backtracking"
+  },
+  {
+    "id": "heap",
+    "name": "Heap",
+    "slug": "heap"
+  },
+  {
+    "id": "tree",
+    "name": "Tree",
+    "slug": "tree"
+  },
+  {
+    "id": "bst",
+    "name": "BST",
+    "slug": "bst"
+  },
+  {
+    "id": "trie",
+    "name": "Trie",
+    "slug": "trie"
+  },
+  {
+    "id": "graphs",
+    "name": "Graphs",
+    "slug": "graphs"
+  },
+  {
+    "id": "1d-dynamic-programming-state-reduction",
+    "name": "1D Dynamic Programming / State Reduction",
+    "slug": "1d-dynamic-programming-state-reduction"
+  },
+  {
+    "id": "dp",
+    "name": "DP",
+    "slug": "dp"
+  },
+  {
+    "id": "bit-manipulation",
+    "name": "Bit Manipulation",
+    "slug": "bit-manipulation"
+  },
+  {
+    "id": "design-misc",
+    "name": "Design / Misc",
+    "slug": "design-misc"
+  },
+  {
+    "id": "two-pointers-pattern",
+    "name": "Two Pointers Pattern",
+    "slug": "two-pointers-pattern"
+  },
+  {
+    "id": "sliding-window-pattern",
+    "name": "Sliding Window Pattern",
+    "slug": "sliding-window-pattern"
+  },
+  {
+    "id": "stack-pattern",
+    "name": "Stack Pattern",
+    "slug": "stack-pattern"
+  },
+  {
+    "id": "greedy-pattern",
+    "name": "Greedy Pattern",
+    "slug": "greedy-pattern"
+  },
+  {
+    "id": "backtracking-pattern",
+    "name": "Backtracking Pattern",
+    "slug": "backtracking-pattern"
+  },
+  {
+    "id": "tree-pattern",
+    "name": "Tree Pattern",
+    "slug": "tree-pattern"
+  },
+  {
+    "id": "graphs-pattern",
+    "name": "Graphs Pattern",
+    "slug": "graphs-pattern"
+  },
+  {
+    "id": "dp-pattern",
+    "name": "DP Pattern",
+    "slug": "dp-pattern"
+  },
+  {
+    "id": "trie-pattern",
+    "name": "Trie Pattern",
+    "slug": "trie-pattern"
+  }
+]

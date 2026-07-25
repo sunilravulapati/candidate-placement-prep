@@ -1,0 +1,30 @@
+{
+  "metadataVersion": 1,
+  "id": "logical_blood_relations_4",
+  "slug": "logical_blood_relations_4",
+  "category": "logical",
+  "topic": "blood-relations",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture"
+  ],
+  "difficulty": "HARD",
+  "estimatedTime": 2,
+  "question": "In a family of six people (A, B, C, D, E, F), there are two married couples. The lawyer is the father of A. B is a teacher and the mother of C. F is the grandfather of E and is a doctor. D is the grandmother of C and is a housewife. There is one lawyer, one teacher, one doctor, one housewife, and two students in the family. What is the profession of A?",
+  "options": [
+    "Lawyer",
+    "Teacher",
+    "Doctor",
+    "Student"
+  ],
+  "answer": "Lawyer",
+  "tags": [
+    "blood-relations"
+  ],
+  "learningPaths": [
+    "Aptitude Essentials"
+  ]
+}

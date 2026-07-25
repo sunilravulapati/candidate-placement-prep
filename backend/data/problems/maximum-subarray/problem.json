@@ -1,0 +1,229 @@
+{
+  "id": "maximum-subarray",
+  "schemaVersion": "2.0",
+  "contentVersion": "1.1",
+  "importVersion": "54-column-sheet",
+  "lastReviewed": "2026-07-25",
+  "lastModified": "2026-07-25",
+  "author": "PrepGenie Content Team",
+  "reviewStatus": "published",
+  "questionNo": 1,
+  "slug": "maximum-subarray",
+  "title": "Maximum Subarray",
+  "difficulty": "MEDIUM",
+  "importance": "4/5",
+  "interviewFrequency": "High",
+  "estimatedSolveTime": "25 mins",
+  "estimatedMinutes": 25,
+  "frequency": 85,
+  "acceptanceRate": 65,
+  "premium": false,
+  "topic": "arrays",
+  "topicId": "arrays",
+  "primaryTopic": "arrays",
+  "secondaryTopics": [
+    "dynamic-programming",
+    "divide-and-conquer"
+  ],
+  "pattern": "Kadane's Algorithm / Dynamic Programming",
+  "patternId": "kadane-s-algorithm-dynamic-programming",
+  "technique": "Hash Map Lookup / Traversal",
+  "techniqueId": "hash-map-lookup-traversal",
+  "dataStructuresUsed": [
+    "Array",
+    "Hash Table"
+  ],
+  "learningPath": "Core DSA Track -> Arrays Module",
+  "learningPaths": [
+    "Core DSA Track -> Arrays Module"
+  ],
+  "description": "Find the contiguous subarray with the largest sum.",
+  "whyLearnThis": "Fundamental dynamic programming problem for array optimization and maximum subarray contiguous sum.",
+  "recognitionClues": "Look for array/string traversal where arrays properties or sliding boundaries reduce time complexity.",
+  "prerequisites": "Array traversal, basic loops",
+  "concepts": "Local max vs Global max, Dynamic Programming, Greedy",
+  "keywords": [
+    "Array",
+    "Hash Table",
+    "arrays",
+    "algorithms",
+    "data-structures",
+    "Kadane's Algorithm / Dynamic Programming",
+    "Hash Map Lookup / Traversal"
+  ],
+  "tags": [
+    "arrays",
+    "algorithms",
+    "data-structures"
+  ],
+  "companies": [
+    "Amazon",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Apple",
+    "Uber",
+    "Goldman Sachs"
+  ],
+  "constraints": [
+    "1 <= input.length <= 10^5",
+    "-10^9 <= input[i] <= 10^9"
+  ],
+  "examples": [
+    {
+      "input": "nums = [-2,1,-3,4,-1,2,1,-5,4]",
+      "output": "6",
+      "explanation": "Subarray [4,-1,2,1] has the largest sum = 6."
+    },
+    {
+      "input": "nums = [1]",
+      "output": "1",
+      "explanation": "Subarray [1] has largest sum = 1."
+    },
+    {
+      "input": "nums = [5,4,-1,7,8]",
+      "output": "23",
+      "explanation": "Subarray [5,4,-1,7,8] has largest sum = 23."
+    }
+  ],
+  "hints": [
+    "How can you keep track of the current contiguous sum?",
+    "If current sum becomes negative, is it useful to continue extending it?",
+    "Reset current sum to 0 whenever it drops below 0."
+  ],
+  "optimalTC": "O(N)",
+  "optimalSC": "O(1)",
+  "bruteTC": "O(N log N) / O(N^2)",
+  "bruteSC": "O(log N)",
+  "approach": "Maintain current_sum and max_sum. Iterate through elements, add to current_sum. Update max_sum. If current_sum < 0, reset current_sum to 0.",
+  "intuition": "By maintaining optimal state or invariants during iteration, we avoid recomputing redundant subproblems.",
+  "algorithm": "1. Initialize data structures (Array, Hash Table).\n2. Traverse input while updating current boundary or accumulator.\n3. Return result once target state is reached.",
+  "pseudocode": "max_so_far = -inf, curr = 0\nfor x in nums:\n  curr += x\n  max_so_far = max(max_so_far, curr)\n  if curr < 0: curr = 0\nreturn max_so_far",
+  "commonMistakes": [
+    "Not handling all negative numbers properly (initializing max_sum to 0 instead of -inf)."
+  ],
+  "edgeCases": [
+    "All negative numbers, single element array, array with alternating signs."
+  ],
+  "interviewTrick": "Focus on invariant preservation and spatial optimization (in-place manipulation where applicable).",
+  "revisionNotes": "Key Arrays question frequently asked in FAANG/Top Tech interview loops.",
+  "resources": [
+    {
+      "type": "leetcode",
+      "url": "https://leetcode.com/problems/maximum-subarray/"
+    }
+  ],
+  "inputTemplates": {
+    "python": "# --- 1. Maximum Subarray (arrays) ---\ndef solution(inputs):\n    # Function implementation\n    pass\n\nif __name__ == \"__main__\":\n    import sys\n    # Sample Input: adjust according to problem requirements\n    raw_input = sys.stdin.read().splitlines() if not sys.stdin.isatty() else [\"sample_input_1\", \"sample_input_2\"]\n    print(f\"Input: {raw_input}\")\n    # result = solution(raw_input)\n    # print(f\"Output: {result}\")\n",
+    "cpp": "// --- 1. Maximum Subarray (arrays) ---\n#include <iostream>\n#include <vector>\n#include <string>\n#include <sstream>\nusing namespace std;\n\nclass Solution {\npublic:\n    void solve() {\n        // Implement driver and input logic\n    }\n};\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    Solution sol;\n    sol.solve();\n    return 0;\n}\n",
+    "java": "// --- 1. Maximum Subarray (arrays) ---\nimport java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        // Parse input here\n        System.out.println(\"Ready for input: \" + \"Maximum Subarray\");\n    }\n}\n",
+    "javascript": "// --- 1. Maximum Subarray (arrays) ---\nconst fs = require('fs');\n\nfunction solve(input) {\n  // Implement standard logic\n  return input;\n}\n\nconst input = fs.readFileSync('/dev/stdin', 'utf-8').trim().split('\\n');\nconsole.log(solve(input));\n",
+    "typescript": "// --- 1. Maximum Subarray (arrays) ---\nimport * as fs from 'fs';\n\nfunction solveTS(inputData: string[]): any {\n  // Implement TypeScript logic\n  return inputData;\n}\n\nconst rawData: string[] = fs.readFileSync(0, 'utf-8').trim().split('\\n');\nconsole.log(solveTS(rawData));\n"
+  },
+  "starterMetadata": {
+    "functionName": "maximumSubarray",
+    "className": "Solution",
+    "returnType": "int",
+    "parameters": [
+      {
+        "name": "nums",
+        "type": "array<int>"
+      }
+    ],
+    "problemType": "FUNCTION"
+  },
+  "executionMetadata": {
+    "problemType": "FUNCTION",
+    "inputType": [
+      "array<int>"
+    ],
+    "outputType": "int",
+    "comparator": "EXACT",
+    "timeLimit": 2,
+    "memoryLimit": 256,
+    "expectedComplexity": {
+      "time": "O(N)",
+      "space": "O(1)"
+    }
+  },
+  "driverMetadata": {
+    "driver": "DEFAULT",
+    "inputSerializers": [
+      "ARRAY_INT"
+    ],
+    "outputSerializer": "INT"
+  },
+  "relationships": {
+    "prerequisites": [],
+    "followUps": [
+      "How to return the actual subarray indices? (Use start/end pointers)."
+    ],
+    "variants": [
+      "Maximum Product Subarray (LC 152)",
+      "Circular Subarray Max Sum (LC 918)."
+    ],
+    "related": [
+      "Other core questions in Arrays module."
+    ]
+  },
+  "visibleTests": [
+    {
+      "id": "sample-1",
+      "classification": "sample",
+      "input": "nums = [-2,1,-3,4,-1,2,1,-5,4]",
+      "expectedOutput": "6",
+      "explanation": "Subarray [4,-1,2,1] has the largest sum = 6."
+    },
+    {
+      "id": "sample-2",
+      "classification": "sample",
+      "input": "nums = [1]",
+      "expectedOutput": "1",
+      "explanation": "Subarray [1] has largest sum = 1."
+    },
+    {
+      "id": "sample-3",
+      "classification": "sample",
+      "input": "nums = [5,4,-1,7,8]",
+      "expectedOutput": "23",
+      "explanation": "Subarray [5,4,-1,7,8] has largest sum = 23."
+    }
+  ],
+  "hiddenTests": [
+    {
+      "id": "edge-1",
+      "classification": "edge",
+      "input": "nums = [-1]",
+      "expectedOutput": "-1",
+      "explanation": "Single negative number"
+    },
+    {
+      "id": "corner-2",
+      "classification": "corner",
+      "input": "nums = [-5,-2,-3,-1,-4]",
+      "expectedOutput": "-1",
+      "explanation": "All negative numbers"
+    },
+    {
+      "id": "stress-3",
+      "classification": "stress",
+      "input": "nums = [1000, 2000, 3000]",
+      "expectedOutput": "6000",
+      "explanation": "Large values"
+    },
+    {
+      "id": "duplicates-4",
+      "classification": "duplicates",
+      "input": "nums = [0,0,0,0]",
+      "expectedOutput": "0",
+      "explanation": "Zero array"
+    },
+    {
+      "id": "performance-5",
+      "classification": "performance",
+      "input": "nums = [1..10000]",
+      "expectedOutput": "50005000",
+      "explanation": "Large array performance"
+    }
+  ]
+}

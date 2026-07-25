@@ -1,0 +1,30 @@
+{
+  "metadataVersion": 1,
+  "id": "logical_puzzles_3",
+  "slug": "logical_puzzles_3",
+  "category": "logical",
+  "topic": "puzzles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture"
+  ],
+  "difficulty": "MEDIUM",
+  "estimatedTime": 2,
+  "question": "Three friends (Priya, Riya, and Siya) drive three different cars (Red, Blue, and Black) and work in three different companies (Google, Meta, and Amazon). Priya drives a Blue car but does not work for Google. The person who drives a Red car works for Meta. Siya works for Amazon. Which car does Riya drive?",
+  "options": [
+    "Red",
+    "Blue",
+    "Black",
+    "Cannot be determined"
+  ],
+  "answer": "Red",
+  "tags": [
+    "puzzles"
+  ],
+  "learningPaths": [
+    "Aptitude Essentials"
+  ]
+}

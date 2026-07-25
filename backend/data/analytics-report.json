@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-07-25T09:53:06.632Z",
+  "totalProblems": 174,
+  "difficultyDistribution": {
+    "EASY": 37,
+    "MEDIUM": 103,
+    "HARD": 34
+  },
+  "topicDistribution": {
+    "arrays": 7,
+    "backtracking": 12,
+    "strings": 2,
+    "hashing": 4,
+    "two-pointers": 6,
+    "sliding-window": 9,
+    "binary-search": 7,
+    "sorting": 5,
+    "greedy": 8,
+    "stack": 6,
+    "design-misc": 9,
+    "queue": 3,
+    "linked-list": 13,
+    "recursion": 6,
+    "heap": 7,
+    "tree": 11,
+    "bst": 2,
+    "trie": 3,
+    "graphs": 17,
+    "dp": 31,
+    "bit-manipulation": 6
+  },
+  "companyCoverage": {
+    "Amazon": 174,
+    "Google": 174,
+    "Meta": 174,
+    "Microsoft": 174,
+    "Apple": 174,
+    "Uber": 174,
+    "Goldman Sachs": 174
+  },
+  "topicCorrectionsCount": 2,
+  "linterSummary": {
+    "errorsCount": 0,
+    "warningsCount": 0
+  }
+}

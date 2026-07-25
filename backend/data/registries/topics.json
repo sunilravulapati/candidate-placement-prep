@@ -1,0 +1,128 @@
+[
+  {
+    "id": "arrays",
+    "name": "Arrays",
+    "slug": "arrays",
+    "description": "Comprehensive problem set covering Arrays algorithmic patterns and concepts."
+  },
+  {
+    "id": "backtracking",
+    "name": "Arrays",
+    "slug": "backtracking",
+    "description": "Comprehensive problem set covering Arrays algorithmic patterns and concepts."
+  },
+  {
+    "id": "strings",
+    "name": "Strings",
+    "slug": "strings",
+    "description": "Comprehensive problem set covering Strings algorithmic patterns and concepts."
+  },
+  {
+    "id": "hashing",
+    "name": "Hashing",
+    "slug": "hashing",
+    "description": "Comprehensive problem set covering Hashing algorithmic patterns and concepts."
+  },
+  {
+    "id": "two-pointers",
+    "name": "Two Pointers",
+    "slug": "two-pointers",
+    "description": "Comprehensive problem set covering Two Pointers algorithmic patterns and concepts."
+  },
+  {
+    "id": "sliding-window",
+    "name": "Sliding Window",
+    "slug": "sliding-window",
+    "description": "Comprehensive problem set covering Sliding Window algorithmic patterns and concepts."
+  },
+  {
+    "id": "binary-search",
+    "name": "Binary Search",
+    "slug": "binary-search",
+    "description": "Comprehensive problem set covering Binary Search algorithmic patterns and concepts."
+  },
+  {
+    "id": "sorting",
+    "name": "Sorting",
+    "slug": "sorting",
+    "description": "Comprehensive problem set covering Sorting algorithmic patterns and concepts."
+  },
+  {
+    "id": "greedy",
+    "name": "Greedy",
+    "slug": "greedy",
+    "description": "Comprehensive problem set covering Greedy algorithmic patterns and concepts."
+  },
+  {
+    "id": "stack",
+    "name": "Stack",
+    "slug": "stack",
+    "description": "Comprehensive problem set covering Stack algorithmic patterns and concepts."
+  },
+  {
+    "id": "queue",
+    "name": "Queue",
+    "slug": "queue",
+    "description": "Comprehensive problem set covering Queue algorithmic patterns and concepts."
+  },
+  {
+    "id": "linked-list",
+    "name": "Linked List",
+    "slug": "linked-list",
+    "description": "Comprehensive problem set covering Linked List algorithmic patterns and concepts."
+  },
+  {
+    "id": "recursion",
+    "name": "Recursion",
+    "slug": "recursion",
+    "description": "Comprehensive problem set covering Recursion algorithmic patterns and concepts."
+  },
+  {
+    "id": "heap",
+    "name": "Heap",
+    "slug": "heap",
+    "description": "Comprehensive problem set covering Heap algorithmic patterns and concepts."
+  },
+  {
+    "id": "tree",
+    "name": "Tree",
+    "slug": "tree",
+    "description": "Comprehensive problem set covering Tree algorithmic patterns and concepts."
+  },
+  {
+    "id": "bst",
+    "name": "BST",
+    "slug": "bst",
+    "description": "Comprehensive problem set covering BST algorithmic patterns and concepts."
+  },
+  {
+    "id": "trie",
+    "name": "Trie",
+    "slug": "trie",
+    "description": "Comprehensive problem set covering Trie algorithmic patterns and concepts."
+  },
+  {
+    "id": "graphs",
+    "name": "Graphs",
+    "slug": "graphs",
+    "description": "Comprehensive problem set covering Graphs algorithmic patterns and concepts."
+  },
+  {
+    "id": "dp",
+    "name": "DP",
+    "slug": "dp",
+    "description": "Comprehensive problem set covering DP algorithmic patterns and concepts."
+  },
+  {
+    "id": "bit-manipulation",
+    "name": "Bit Manipulation",
+    "slug": "bit-manipulation",
+    "description": "Comprehensive problem set covering Bit Manipulation algorithmic patterns and concepts."
+  },
+  {
+    "id": "design-misc",
+    "name": "Design / Misc",
+    "slug": "design-misc",
+    "description": "Comprehensive problem set covering Design / Misc algorithmic patterns and concepts."
+  }
+]

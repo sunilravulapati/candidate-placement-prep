@@ -7,7 +7,13 @@
   "scripts": {
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",
-    "prisma:seed": "prisma db seed"
+    "prisma:seed": "prisma db seed",
+    "migrate-content": "npx tsx scripts/migrate-dsa-content.ts",
+    "validate-content": "npx tsx scripts/validate-content.ts",
+    "validate-aptitude": "npx tsx scripts/validate-aptitude.ts",
+    "health-report": "npx tsx scripts/health-report.ts",
+    "create-problem": "npx tsx scripts/create-problem.ts",
+    "bulk-update": "npx tsx scripts/bulk-update.ts"
   },
   "dependencies": {
     "@clerk/nextjs": "^7.5.12",
@@ -18,6 +24,7 @@
     "groq-sdk": "^1.3.0",
     "pg": "^8.22.0",
     "unpdf": "^1.6.2",
+    "xlsx": "^0.18.5",
     "zod": "^3.23.8"
   },
   "devDependencies": {

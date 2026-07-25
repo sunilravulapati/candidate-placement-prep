@@ -1,14 +1,104 @@
 'use server';
 
-import { CodingProblemRepository, CodingSubmissionRepository } from './repository';
+import {
+  CodingProblemRepository,
+  CodingSessionRepository,
+  CodingSubmissionRepository,
+} from './repository';
 import { LiveCodingService } from './service';
-import prisma from '../../db/client';
-import type { CodingDifficulty, WorkspaceProblem } from './types';
+import { requireSessionUser, getSessionUser } from '../../auth/session';
+import type { CodingDifficulty, SubmissionRecord, WorkspaceProblem } from './types';
 
-// Dummy auth matching the seeded database user
-const getSessionUser = async () => ({ id: 'user_test_123' });
+// ── Helpers ────────────────────────────────────────────────────────────────────
 
-// ── Problem Library ───────────────────────────────────────────────────────────
+function asArray<T>(value: unknown): T[] {
+  return Array.isArray(value) ? (value as T[]) : [];
+}
+
+function asRecord(value: unknown): Record<string, string> {
+  if (!value || typeof value !== 'object' || Array.isArray(value)) return {};
+  return Object.fromEntries(
+    Object.entries(value as Record<string, unknown>).filter(
+      (entry): entry is [string, string] => typeof entry[1] === 'string'
+    )
+  );
+}
+
+function toWorkspaceProblem(
+  problem: Awaited<ReturnType<typeof CodingProblemRepository.getProblemBySlug>>
+): WorkspaceProblem | null {
+  if (!problem) return null;
+  const examples = asArray<WorkspaceProblem['examples'][number]>(problem.examples);
+
+  return {
+    questionNo: (problem as any).questionNo,
+    slug: problem.slug,
+    title: problem.title,
+    difficulty: problem.difficulty as CodingDifficulty,
+    importance: (problem as any).importance,
+    interviewFrequency: (problem as any).interviewFrequency,
+    estimatedSolveTime: (problem as any).estimatedSolveTime,
+    description: problem.description,
+    whyLearnThis: (problem as any).whyLearnThis,
+    recognitionClues: (problem as any).recognitionClues,
+    prerequisites: (problem as any).prerequisites,
+    concepts: (problem as any).concepts,
+    keywords: (problem as any).keywords,
+    primaryTopic: (problem as any).primaryTopic,
+    secondaryTopics: (problem as any).secondaryTopics,
+    pattern: (problem as any).pattern,
+    patternId: (problem as any).patternId,
+    technique: (problem as any).technique,
+    techniqueId: (problem as any).techniqueId,
+    dataStructuresUsed: (problem as any).dataStructuresUsed,
+    learningPath: (problem as any).learningPath,
+    constraints: problem.constraints ?? [],
+    examples,
+    starterCode: asRecord(problem.starterCode),
+    starterMetadata: (problem as any).starterMetadata,
+    executionMetadata: (problem as any).executionMetadata,
+    driverMetadata: (problem as any).driverMetadata,
+    editorial: problem.editorial,
+    hints: problem.hints ?? [],
+
+    optimalTC: (problem as any).optimalTC,
+    optimalSC: (problem as any).optimalSC,
+    bruteTC: (problem as any).bruteTC,
+    bruteSC: (problem as any).bruteSC,
+
+    approach: (problem as any).approach,
+    intuition: (problem as any).intuition,
+    algorithm: (problem as any).algorithm,
+    pseudocode: (problem as any).pseudocode,
+    commonMistakes: (problem as any).commonMistakes,
+    edgeCases: (problem as any).edgeCases,
+    interviewTrick: (problem as any).interviewTrick,
+    revisionNotes: (problem as any).revisionNotes,
+
+    followUps: (problem as any).followUps,
+    variants: (problem as any).variants,
+    relatedProblems: (problem as any).relatedProblems,
+    resources: (problem as any).resources,
+    inputTemplates: (problem as any).inputTemplates,
+
+    sampleTests: asArray<WorkspaceProblem['sampleTests'][number]>(problem.sampleTests).map(
+      (testCase, index) => ({
+        ...testCase,
+        displayInput: testCase.displayInput ?? examples[index]?.input ?? testCase.input,
+      })
+    ),
+    hiddenTests: asArray<WorkspaceProblem['hiddenTests'][number]>(problem.hiddenTests),
+    companies: problem.companies.map((c) => ({ name: c.name, slug: c.slug })),
+    topics: problem.topics.map((t) => ({ name: t.name, slug: t.slug })),
+    tags: problem.tags.map((t) => ({ name: t.name, slug: t.slug })),
+    expectedApproach: problem.expectedApproach,
+    timeComplexity: problem.timeComplexity,
+    spaceComplexity: problem.spaceComplexity,
+    estimatedTime: problem.estimatedTime,
+  };
+}
+
+// ── Problem Library ────────────────────────────────────────────────────────────
 
 export async function getPaginatedProblemsAction(params: {
   page: number;
@@ -29,7 +119,7 @@ export async function getPaginatedProblemsAction(params: {
     topic: topic || undefined,
     company: company || undefined,
     status: status as Parameters<typeof CodingProblemRepository.searchProblems>[0]['status'] | undefined,
-    userId: user.id,
+    userId: user?.id,
     limit,
     offset,
   };
@@ -39,61 +129,7 @@ export async function getPaginatedProblemsAction(params: {
     CodingProblemRepository.countProblems(filters),
   ]);
 
-  return {
-    problems,
-    total,
-    page,
-    totalPages: Math.ceil(total / limit),
-  };
-}
-
-function asArray<T>(value: unknown): T[] {
-  return Array.isArray(value) ? (value as T[]) : [];
-}
-
-function asRecord(value: unknown): Record<string, string> {
-  if (!value || typeof value !== 'object' || Array.isArray(value)) return {};
-  return Object.fromEntries(
-    Object.entries(value as Record<string, unknown>).filter(
-      (entry): entry is [string, string] => typeof entry[1] === 'string'
-    )
-  );
-}
-
-function toWorkspaceProblem(problem: Awaited<ReturnType<typeof CodingProblemRepository.getProblemBySlug>>): WorkspaceProblem | null {
-  if (!problem) return null;
-  const examples = asArray<WorkspaceProblem['examples'][number]>(problem.examples);
-
-  return {
-    slug: problem.slug,
-    title: problem.title,
-    difficulty: problem.difficulty as CodingDifficulty,
-    description: problem.description,
-    constraints: problem.constraints ?? [],
-    examples,
-    starterCode: asRecord(problem.starterCode),
-    hints: problem.hints ?? [],
-    sampleTests: asArray<WorkspaceProblem['sampleTests'][number]>(problem.sampleTests).map((testCase, index) => ({
-      ...testCase,
-      displayInput: testCase.displayInput ?? examples[index]?.input ?? testCase.input,
-    })),
-    companies: problem.companies.map((company) => ({
-      name: company.name,
-      slug: company.slug,
-    })),
-    topics: problem.topics.map((topic) => ({
-      name: topic.name,
-      slug: topic.slug,
-    })),
-    tags: problem.tags.map((tag) => ({
-      name: tag.name,
-      slug: tag.slug,
-    })),
-    expectedApproach: problem.expectedApproach,
-    timeComplexity: problem.timeComplexity,
-    spaceComplexity: problem.spaceComplexity,
-    estimatedTime: problem.estimatedTime,
-  };
+  return { problems, total, page, totalPages: Math.ceil(total / limit) };
 }
 
 export async function getProblemBySlugAction(slug: string) {
@@ -104,88 +140,150 @@ export async function getProblemBySlugAction(slug: string) {
 
 export async function getProblemNavigationAction(slug: string) {
   const problems = await CodingProblemRepository.getAllProblems();
-  const ordered = problems.map((problem) => ({
-    slug: problem.slug,
-    title: problem.title,
-  }));
-  const currentIndex = ordered.findIndex((problem) => problem.slug === slug);
-  if (currentIndex === -1) {
-    return { previous: null, next: null };
-  }
-
+  const ordered = problems.map((p) => ({ slug: p.slug, title: p.title }));
+  const currentIndex = ordered.findIndex((p) => p.slug === slug);
+  if (currentIndex === -1) return { previous: null, next: null };
   return {
     previous: currentIndex > 0 ? ordered[currentIndex - 1] : null,
     next: currentIndex < ordered.length - 1 ? ordered[currentIndex + 1] : null,
   };
 }
 
-// ── Dashboard ─────────────────────────────────────────────────────────────────
+// ── Dashboard ──────────────────────────────────────────────────────────────────
+
+export async function getDashboardDataAction() {
+  const user = await requireSessionUser();
+  return LiveCodingService.getDashboardData(user.id);
+}
+
+// ── Judge / Execution ──────────────────────────────────────────────────────────
 
 /**
- * Full dashboard data — backed by LiveCodingService and all repositories.
- * Use this instead of getDashboardStatsAction for the main dashboard.
+ * Record a submission verdict to the database.
+ * Actual code execution happens client-side via ExecutionProvider (Judge0 or mock).
+ * This action persists the result and updates progress/stats.
  */
-export async function getDashboardDataAction() {
-  console.log("getDashboardDataAction: starting...");
-  try {
-    const user = await getSessionUser();
-    console.log("getDashboardDataAction: user =", user);
-    const data = await LiveCodingService.getDashboardData(user.id);
-    console.log("getDashboardDataAction: succeeded, returning data");
-    return data;
-  } catch (err) {
-    console.error("getDashboardDataAction: ERROR =", err);
-    throw err;
+export async function recordSubmissionAction(record: SubmissionRecord) {
+  const user = await requireSessionUser();
+  const userId = user.id;
+
+  // Get or create the session for this problem
+  const session = record.sessionId
+    ? await CodingSessionRepository.getSessionById(record.sessionId, userId)
+    : await CodingSessionRepository.getOrCreateSession(userId, record.problemSlug, record.language);
+
+  if (!session) throw new Error('Session not found or could not be created');
+
+  // Create the submission record
+  const submission = await CodingSubmissionRepository.createSubmission({
+    sessionId: session.id,
+    userId,
+    codeSnapshot: record.codeSnapshot,
+    language: record.language,
+    status: record.status,
+    executionTimeMs: record.executionTimeMs,
+    memoryBytes: record.memoryBytes,
+    passedCount: record.passedCount,
+    totalCount: record.totalCount,
+  });
+
+  // Only update progress on Accepted — Wrong Answer should NOT count as solved
+  if (record.status === 'ACCEPTED') {
+    await CodingSessionRepository.updateSession(session.id, {
+      status: 'COMPLETED',
+      completedAt: new Date(),
+      code: record.codeSnapshot,
+      language: record.language,
+    });
+    await LiveCodingService.recalculateProgress(userId);
+  } else {
+    // Still persist code but keep session active
+    await CodingSessionRepository.updateSession(session.id, {
+      code: record.codeSnapshot,
+      language: record.language,
+    });
   }
+
+  return { submissionId: submission.id, status: record.status };
 }
 
 /**
- * Lightweight stats-only action — kept for backwards compatibility.
- * @deprecated Use getDashboardDataAction instead.
+ * Get full submission history for the current user.
  */
-export async function getDashboardStatsAction() {
+export async function getSubmissionHistoryAction(filters?: {
+  status?: string;
+  language?: string;
+  limit?: number;
+}) {
+  const user = await requireSessionUser();
+  const limit = filters?.limit ?? 100;
+  const submissions = await CodingSubmissionRepository.getSubmissionsByUser(user.id, limit);
+
+  return submissions
+    .filter((s) => {
+      if (filters?.status && s.status !== filters.status) return false;
+      if (filters?.language && s.language !== filters.language) return false;
+      return true;
+    })
+    .map((s) => ({
+      id: s.id,
+      problemSlug: s.session.problem.slug,
+      problemTitle: s.session.problem.title,
+      difficulty: s.session.problem.difficulty,
+      language: s.language,
+      status: s.status,
+      executionTimeMs: s.executionTimeMs,
+      memoryBytes: s.memoryBytes,
+      passedCount: s.passedCount,
+      totalCount: s.totalCount,
+      createdAt: s.createdAt,
+    }));
+}
+
+// ── Session Persistence ────────────────────────────────────────────────────────
+
+/**
+ * Auto-save code to DB for continue-session across devices.
+ */
+export async function saveSessionCodeAction(
+  problemSlug: string,
+  code: string,
+  language: string
+) {
+  const user = await requireSessionUser();
+  return CodingSessionRepository.saveSessionCode(user.id, problemSlug, code, language);
+}
+
+/**
+ * Load saved code from DB for a problem (used on workspace init).
+ */
+export async function getSavedCodeAction(
+  problemSlug: string
+): Promise<{ code: string; language: string } | null> {
   const user = await getSessionUser();
-  const userId = user.id;
+  if (!user) return null;
+  return CodingSessionRepository.getSavedCode(user.id, problemSlug);
+}
 
-  const progress = await prisma.codingProgress.findUnique({ where: { userId } });
+// ── Bookmarks ─────────────────────────────────────────────────────────────────
 
-  const stats = progress
-    ? {
-        easy: { solved: progress.easySolved, total: 100 },
-        medium: { solved: progress.mediumSolved, total: 200 },
-        hard: { solved: progress.hardSolved, total: 80 },
-        acceptanceRate: progress.acceptanceRate,
-        solvedToday: progress.dailyStreak > 0 ? 1 : 0,
-        currentStreak: progress.dailyStreak,
-        longestStreak: Math.max(progress.dailyStreak, 10),
-      }
-    : {
-        easy: { solved: 45, total: 100 },
-        medium: { solved: 85, total: 200 },
-        hard: { solved: 20, total: 80 },
-        acceptanceRate: 68.5,
-        solvedToday: 3,
-        currentStreak: 12,
-        longestStreak: 30,
-      };
+export async function toggleBookmarkAction(problemSlug: string) {
+  const user = await requireSessionUser();
+  const { CodingBookmarkRepository } = await import('./repository');
+  return CodingBookmarkRepository.toggleBookmark(user.id, problemSlug);
+}
 
-  const recentAttemptsRaw = await CodingSubmissionRepository.getSubmissionsByUser(userId);
+// ── Notes ─────────────────────────────────────────────────────────────────────
 
-  let recentAttempts = recentAttemptsRaw.slice(0, 3).map((sub) => ({
-    id: sub.id,
-    title: `Session ${sub.sessionId.split('_')[2] || 'Problem'}`,
-    difficulty: 'MEDIUM',
-    status: sub.status === 'ACCEPTED' ? 'Accepted' : 'Wrong Answer',
-    time: sub.createdAt.toLocaleDateString(),
-  }));
+export async function getNoteAction(problemSlug: string) {
+  const user = await getSessionUser();
+  if (!user) return null;
+  const { CodingNoteRepository } = await import('./repository');
+  return CodingNoteRepository.getNote(user.id, problemSlug);
+}
 
-  if (recentAttempts.length === 0) {
-    recentAttempts = [
-      { id: '1', title: 'Two Sum', difficulty: 'EASY', status: 'Accepted', time: '2 hours ago' },
-      { id: '2', title: 'LRU Cache', difficulty: 'MEDIUM', status: 'Wrong Answer', time: '5 hours ago' },
-      { id: '3', title: 'Merge K Sorted Lists', difficulty: 'HARD', status: 'Accepted', time: '1 day ago' },
-    ];
-  }
-
-  return { stats, recentAttempts };
+export async function saveNoteAction(problemSlug: string, content: string) {
+  const user = await requireSessionUser();
+  const { CodingNoteRepository } = await import('./repository');
+  return CodingNoteRepository.saveNote(user.id, problemSlug, content);
 }

@@ -1,0 +1,30 @@
+{
+  "metadataVersion": 1,
+  "id": "quant_time_work_5",
+  "slug": "quant_time_work_5",
+  "category": "quantitative",
+  "topic": "time-work",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture"
+  ],
+  "difficulty": "HARD",
+  "estimatedTime": 2,
+  "question": "4 men and 6 women can complete a work in 8 days, while 3 men and 7 women can complete it in 10 days. In how many days can 10 women complete the work alone?",
+  "options": [
+    "30 days",
+    "35 days",
+    "40 days",
+    "45 days"
+  ],
+  "answer": "40 days",
+  "tags": [
+    "time-work"
+  ],
+  "learningPaths": [
+    "Aptitude Essentials"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "metadataVersion": 1,
+  "id": "quant_percentages_2",
+  "slug": "quant_percentages_2",
+  "category": "quantitative",
+  "topic": "percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture"
+  ],
+  "difficulty": "MEDIUM",
+  "estimatedTime": 2,
+  "question": "A man's salary was decreased by 20% and then subsequently increased by 20%. What is the net change in his salary?",
+  "options": [
+    "No change",
+    "4% increase",
+    "4% decrease",
+    "2% decrease"
+  ],
+  "answer": "4% decrease",
+  "tags": [
+    "percentages"
+  ],
+  "learningPaths": [
+    "Aptitude Essentials"
+  ]
+}

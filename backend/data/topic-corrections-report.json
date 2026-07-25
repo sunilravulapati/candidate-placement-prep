@@ -1,0 +1,30 @@
+[
+  {
+    "problemTitle": "Word Search",
+    "slug": "word-search",
+    "excelTopic": "Arrays",
+    "suggestedTopic": "backtracking",
+    "secondaryTopics": [
+      "arrays",
+      "algorithms",
+      "data-structures",
+      "dfs"
+    ],
+    "reason": "Grid traversal requires backtracking and DFS state reversal, not plain Arrays",
+    "confidence": 0.95
+  },
+  {
+    "problemTitle": "Word Search II",
+    "slug": "word-search-ii",
+    "excelTopic": "Trie",
+    "suggestedTopic": "backtracking",
+    "secondaryTopics": [
+      "trie",
+      "algorithms",
+      "data-structures",
+      "dfs"
+    ],
+    "reason": "Grid traversal requires backtracking and DFS state reversal, not plain Arrays",
+    "confidence": 0.95
+  }
+]

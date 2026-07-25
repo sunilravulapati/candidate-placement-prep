@@ -3,6 +3,8 @@ import type {
   ExecutionResult,
   TestCaseResult,
 } from './ExecutionProvider';
+import { ComparatorEngine } from '@backend/features/dsa/comparatorEngine';
+import type { ComparatorType, ComparatorOptions } from '@backend/features/dsa/canonicalTypes';
 
 export interface RawExecutionOutput {
   stdout: string;
@@ -22,7 +24,9 @@ export class VerdictEngine {
    */
   static evaluateSingle(
     raw: RawExecutionOutput,
-    expectedOutput?: string
+    expectedOutput?: string,
+    comparator: ComparatorType = 'EXACT',
+    options?: ComparatorOptions
   ): ExecutionResult {
     const stdout = raw.stdout ?? '';
     const stderr = raw.stderr ?? '';
@@ -74,11 +78,8 @@ export class VerdictEngine {
     let errorType: ExecutionErrorType | undefined = undefined;
 
     if (expectedOutput !== undefined) {
-      const actualNormalized = stdout.trim();
-      const expectedNormalized = expectedOutput.trim();
-
-      if (actualNormalized !== expectedNormalized) {
-        passed = false;
+      passed = ComparatorEngine.compare(stdout, expectedOutput, comparator, options);
+      if (!passed) {
         errorType = 'WRONG_ANSWER';
       }
     }
@@ -99,7 +100,9 @@ export class VerdictEngine {
    */
   static evaluateTestCases(
     testCases: { input: string; expectedOutput: string }[],
-    rawOutputs: RawExecutionOutput[]
+    rawOutputs: RawExecutionOutput[],
+    comparator: ComparatorType = 'EXACT',
+    options?: ComparatorOptions
   ): ExecutionResult {
     // 1. Check for compilation failure on any case
     const compileFailure = rawOutputs.find(
@@ -134,7 +137,7 @@ export class VerdictEngine {
     for (let i = 0; i < testCases.length; i++) {
       const tc = testCases[i];
       const raw = rawOutputs[i] ?? { stdout: '', stderr: '', executionTimeMs: 0, memoryBytes: 0 };
-      const singleRes = this.evaluateSingle(raw, tc.expectedOutput);
+      const singleRes = this.evaluateSingle(raw, tc.expectedOutput, comparator, options);
 
       totalTimeMs += singleRes.executionTimeMs;
       maxMemoryBytes = Math.max(maxMemoryBytes, singleRes.memoryBytes);
@@ -168,3 +171,4 @@ export class VerdictEngine {
     };
   }
 }
+

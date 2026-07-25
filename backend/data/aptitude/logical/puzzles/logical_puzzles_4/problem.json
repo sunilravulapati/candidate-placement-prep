@@ -1,0 +1,30 @@
+{
+  "metadataVersion": 1,
+  "id": "logical_puzzles_4",
+  "slug": "logical_puzzles_4",
+  "category": "logical",
+  "topic": "puzzles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture"
+  ],
+  "difficulty": "HARD",
+  "estimatedTime": 2,
+  "question": "Six people (A, B, C, D, E, F) are sitting around a circular table facing the center. B is sitting between F and D. A is sitting opposite to F. E is sitting adjacent to C. Who is sitting opposite to B?",
+  "options": [
+    "A",
+    "C",
+    "D",
+    "E"
+  ],
+  "answer": "E",
+  "tags": [
+    "puzzles"
+  ],
+  "learningPaths": [
+    "Aptitude Essentials"
+  ]
+}

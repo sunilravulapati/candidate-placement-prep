@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "metadataVersion": 1,
+  "lastReviewed": "2026-07-25",
+  "lastModified": "2026-07-25",
+  "author": "PrepGenie Content Team",
+  "reviewStatus": "published",
+  "slug": "codeforces-4a-watermelon",
+  "title": "Codeforces 4A",
+  "difficulty": "EASY",
+  "estimatedMinutes": 20,
+  "frequency": 94,
+  "acceptanceRate": 51,
+  "premium": false,
+  "topic": "extra-design-misc-cp-warm-ups",
+  "subtopic": "",
+  "tags": [
+    "extra-design-misc-cp-warm-ups"
+  ],
+  "companies": [
+    "Amazon",
+    "Google",
+    "Microsoft"
+  ],
+  "learningPaths": [
+    "Placement Essentials"
+  ],
+  "description": "Simple parity-based constructive problem — good warm-up for CP style.",
+  "constraints": [
+    "1 <= input.length <= 10^5",
+    "-10^9 <= input[i] <= 10^9"
+  ],
+  "examples": [
+    {
+      "input": "input = [...]",
+      "output": "expected_result",
+      "explanation": "Example case for Codeforces 4A."
+    }
+  ],
+  "hints": [
+    "Break down Codeforces 4A by identifying the optimal sub-structure.",
+    "Consider using appropriate data structures for optimal time complexity."
+  ],
+  "starterMetadata": {
+    "functionName": "codeforces-4aWatermelon",
+    "className": "Solution",
+    "returnType": "int",
+    "parameters": [
+      {
+        "name": "nums",
+        "type": "array<int>"
+      }
+    ],
+    "problemType": "FUNCTION"
+  },
+  "executionMetadata": {
+    "problemType": "FUNCTION",
+    "inputType": [
+      "array<int>"
+    ],
+    "outputType": "int",
+    "comparator": "EXACT",
+    "timeLimit": 2,
+    "memoryLimit": 256,
+    "expectedComplexity": {
+      "time": "O(N)",
+      "space": "O(1)"
+    },
+    "comparatorOptions": {
+      "ignoreTrailingSpaces": true,
+      "ignoreNewLines": true
+    }
+  },
+  "driverMetadata": {
+    "driver": "DEFAULT",
+    "inputSerializers": [
+      "ARRAY_INT"
+    ],
+    "outputSerializer": "INT"
+  },
+  "relationships": {
+    "prerequisites": [],
+    "followUps": [],
+    "variants": [],
+    "related": [
+      "extra-design-misc-cp-warm-ups"
+    ],
+    "learningPathPrevious": null,
+    "learningPathNext": null
+  },
+  "solutionMetadata": {
+    "optimalComplexity": {
+      "time": "O(N)",
+      "space": "O(1)"
+    },
+    "alternativeApproaches": [],
+    "patterns": [
+      "extra-design-misc-cp-warm-ups"
+    ],
+    "commonMistakes": [
+      "Edge case handling",
+      "Index bounds verification"
+    ],
+    "edgeCases": [
+      "Minimum size input",
+      "Negative integers or zeroes"
+    ],
+    "interviewNotes": []
+  }
+}

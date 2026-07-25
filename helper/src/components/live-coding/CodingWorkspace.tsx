@@ -111,6 +111,7 @@ export default function CodingWorkspace({
   // State
   const [language, setLanguage] = useState<SupportedLanguage>(DEFAULT_LANGUAGE);
   const [code, setCode] = useState<string>('');
+  const [drafts, setDrafts] = useState<Record<string, string>>({});
   const [isInitialized, setIsInitialized] = useState(false);
   const [savedAt, setSavedAt] = useState<number | null>(null);
 
@@ -145,6 +146,7 @@ export default function CodingWorkspace({
           if (isValidLanguage(dbSave.language)) restoredLang = dbSave.language as SupportedLanguage;
           setLanguage(restoredLang);
           setCode(restoredCode);
+          setDrafts((prev) => ({ ...prev, [restoredLang]: restoredCode }));
           setIsInitialized(true);
           return;
         }
@@ -164,16 +166,17 @@ export default function CodingWorkspace({
       if (draft?.code && draft.code.trim().length > 0) {
         restoredCode = draft.code;
       } else {
-        restoredCode = getStarterTemplate(restoredLang, problem.starterCode);
+        restoredCode = getStarterTemplate(restoredLang, problem.starterCode, (problem as any).starterMetadata);
       }
 
       setLanguage(restoredLang);
       setCode(restoredCode);
+      setDrafts((prev) => ({ ...prev, [restoredLang]: restoredCode }));
       setIsInitialized(true);
     }
 
     initCode();
-  }, [problemSlug, problem.starterCode]);
+  }, [problemSlug, problem]);
 
   // ── LocalStorage auto-save (debounced) ─────────────────────────────────────
 
@@ -213,14 +216,20 @@ export default function CodingWorkspace({
 
   const handleLanguageChange = useCallback(
     (newLang: SupportedLanguage) => {
-      const currentStarter = getStarterTemplate(language, problem.starterCode);
-      setLanguage(newLang);
-      draftStorage.saveLastLanguage(newLang);
-      if (!code || code.trim() === '' || code === currentStarter) {
-        setCode(getStarterTemplate(newLang, problem.starterCode));
-      }
+      setDrafts((prev) => {
+        const updated = { ...prev, [language]: code };
+        const existingDraft = updated[newLang];
+        const nextCode = existingDraft && existingDraft.trim().length > 0
+          ? existingDraft
+          : getStarterTemplate(newLang, problem.starterCode, (problem as any).starterMetadata);
+
+        setLanguage(newLang);
+        setCode(nextCode);
+        draftStorage.saveLastLanguage(newLang);
+        return updated;
+      });
     },
-    [language, code, problem.starterCode]
+    [language, code, problem]
   );
 
   const handleSaveDraft = useCallback(() => {
@@ -244,7 +253,11 @@ export default function CodingWorkspace({
         body: JSON.stringify({
           code,
           language,
+          problemSlug,
           testCases: problem.sampleTests,
+          starterMetadata: (problem as any).starterMetadata,
+          executionMetadata: (problem as any).executionMetadata,
+          driverMetadata: (problem as any).driverMetadata,
         }),
       });
       const res: ExecutionResult = await resp.json();
@@ -270,7 +283,7 @@ export default function CodingWorkspace({
     } finally {
       setIsRunning(false);
     }
-  }, [code, language, problem.sampleTests]);
+  }, [code, language, problemSlug, problem]);
 
   // ── Submit (sample + hidden tests via server endpoint) ───────────────────
 
@@ -293,11 +306,16 @@ export default function CodingWorkspace({
         body: JSON.stringify({
           code,
           language,
+          problemSlug,
           testCases: allTestCases,
+          starterMetadata: (problem as any).starterMetadata,
+          executionMetadata: (problem as any).executionMetadata,
+          driverMetadata: (problem as any).driverMetadata,
         }),
       });
       finalResult = await resp.json();
       setExecutionResult(finalResult);
+
 
       const status = getVerdictStatus(finalResult);
       await recordSubmissionAction({

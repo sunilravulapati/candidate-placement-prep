@@ -14,6 +14,7 @@ const LANG_ICONS: Record<SupportedLanguage, string> = {
   java: '☕',
   python: '🐍',
   javascript: '⬡',
+  typescript: '🔷',
 };
 
 interface LanguageSelectorProps {

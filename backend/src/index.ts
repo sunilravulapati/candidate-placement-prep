@@ -4,7 +4,7 @@
 export { default as prisma } from './db/client';
 
 // Export Auth
-export { getSessionUser } from './auth/session';
+export { getSessionUser, requireSessionUser } from './auth/session';
 export type { SessionUser } from './auth/session';
 
 // ── AI Infrastructure ────────────────────────────────────────────────────────
@@ -32,6 +32,10 @@ export * from './features/dsa/types';
 // ── User Feature ─────────────────────────────────────────────────────────────
 export * from './features/user/actions';
 export * from './features/user/types';
+
+// ── Live Coding Feature ───────────────────────────────────────────────────────
+export * from './features/liveCoding/actions';
+export * from './features/liveCoding/types';
 
 // ── Resume Feature ───────────────────────────────────────────────────────────
 

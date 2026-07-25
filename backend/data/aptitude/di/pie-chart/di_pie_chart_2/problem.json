@@ -1,0 +1,30 @@
+{
+  "metadataVersion": 1,
+  "id": "di_pie_chart_2",
+  "slug": "di_pie_chart_2",
+  "category": "di",
+  "topic": "pie-chart",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture"
+  ],
+  "difficulty": "MEDIUM",
+  "estimatedTime": 2,
+  "question": "The following data shows the percentage distribution of a household's monthly budget of $4,000:\n\n- Food: 30%\n- Rent: 25%\n- Education: 20%\n- Utilities: 15%\n- Miscellaneous: 10%\n\nWhat is the ratio of the expenditure on Education to the expenditure on Utilities?",
+  "options": [
+    "2 : 3",
+    "3 : 2",
+    "4 : 3",
+    "3 : 4"
+  ],
+  "answer": "4 : 3",
+  "tags": [
+    "pie-chart"
+  ],
+  "learningPaths": [
+    "Aptitude Essentials"
+  ]
+}

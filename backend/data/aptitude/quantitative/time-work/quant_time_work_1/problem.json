@@ -1,0 +1,30 @@
+{
+  "metadataVersion": 1,
+  "id": "quant_time_work_1",
+  "slug": "quant_time_work_1",
+  "category": "quantitative",
+  "topic": "time-work",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture"
+  ],
+  "difficulty": "EASY",
+  "estimatedTime": 2,
+  "question": "A can complete a piece of work in 12 days, and B can complete the same work in 18 days. If they work together, how many days will they take to complete the work?",
+  "options": [
+    "5 days",
+    "7.2 days",
+    "8.5 days",
+    "9 days"
+  ],
+  "answer": "7.2 days",
+  "tags": [
+    "time-work"
+  ],
+  "learningPaths": [
+    "Aptitude Essentials"
+  ]
+}

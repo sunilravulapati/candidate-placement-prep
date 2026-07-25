@@ -1,0 +1,229 @@
+{
+  "id": "reverse-linked-list",
+  "schemaVersion": "2.0",
+  "contentVersion": "1.1",
+  "importVersion": "54-column-sheet",
+  "lastReviewed": "2026-07-25",
+  "lastModified": "2026-07-25",
+  "author": "PrepGenie Content Team",
+  "reviewStatus": "published",
+  "questionNo": 55,
+  "slug": "reverse-linked-list",
+  "title": "Reverse Linked List I",
+  "difficulty": "EASY",
+  "importance": "3/5",
+  "interviewFrequency": "Medium",
+  "estimatedSolveTime": "15 mins",
+  "estimatedMinutes": 15,
+  "frequency": 85,
+  "acceptanceRate": 65,
+  "premium": false,
+  "topic": "linked-list",
+  "topicId": "linked-list",
+  "primaryTopic": "linked-list",
+  "secondaryTopics": [
+    "pointers",
+    "recursion"
+  ],
+  "pattern": "In-Place Pointer Manipulation",
+  "patternId": "in-place-pointer-manipulation",
+  "technique": "Two Pointers",
+  "techniqueId": "two-pointers",
+  "dataStructuresUsed": [
+    "Singly Linked List"
+  ],
+  "learningPath": "Core DSA Track -> Linked List Module",
+  "learningPaths": [
+    "Core DSA Track -> Linked List Module"
+  ],
+  "description": "Reverse a singly linked list iteratively or recursively.",
+  "whyLearnThis": "Classic pointer manipulation benchmark question required for complex list operations.",
+  "recognitionClues": "Look for array/string traversal where linked list properties or sliding boundaries reduce time complexity.",
+  "prerequisites": "Singly Linked List, Pointers",
+  "concepts": "Previous/Current/Next pointers, Recursive call stack",
+  "keywords": [
+    "Singly Linked List",
+    "linked list",
+    "algorithms",
+    "data-structures",
+    "linked-list",
+    "In-Place Pointer Manipulation",
+    "Two Pointers"
+  ],
+  "tags": [
+    "linked list",
+    "algorithms",
+    "data-structures"
+  ],
+  "companies": [
+    "Amazon",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Apple",
+    "Uber",
+    "Goldman Sachs"
+  ],
+  "constraints": [
+    "1 <= input.length <= 10^5",
+    "-10^9 <= input[i] <= 10^9"
+  ],
+  "examples": [
+    {
+      "input": "head = [1,2,3,4,5]",
+      "output": "[5,4,3,2,1]",
+      "explanation": "Sample test 1 for Reverse Linked List I"
+    },
+    {
+      "input": "head = [1,2]",
+      "output": "[2,1]",
+      "explanation": "Sample test 2 for Reverse Linked List I"
+    },
+    {
+      "input": "head = []",
+      "output": "[]",
+      "explanation": "Empty linked list"
+    }
+  ],
+  "hints": [
+    "Maintain prev, curr, and next pointers.",
+    "Save curr.next, reverse pointer curr.next = prev, advance prev and curr.",
+    "Return prev as the new head."
+  ],
+  "optimalTC": "O(N)",
+  "optimalSC": "O(1)",
+  "bruteTC": "O(N)",
+  "bruteSC": "O(N) recursive",
+  "approach": "Iteratively reverse links using three pointers: prev initialized to null, curr to head. Continuously redirect curr.next to prev.",
+  "intuition": "By maintaining optimal state or invariants during iteration, we avoid recomputing redundant subproblems.",
+  "algorithm": "1. Initialize data structures (Singly Linked List).\n2. Traverse input while updating current boundary or accumulator.\n3. Return result once target state is reached.",
+  "pseudocode": "prev = None, curr = head\nwhile curr:\n  next_node = curr.next\n  curr.next = prev\n  prev = curr\n  curr = next_node\nreturn prev",
+  "commonMistakes": [
+    "Losing reference to next node before updating pointer, causing memory leaks/infinite loops."
+  ],
+  "edgeCases": [
+    "Empty list (head is None), single node list."
+  ],
+  "interviewTrick": "Focus on invariant preservation and spatial optimization (in-place manipulation where applicable).",
+  "revisionNotes": "Key Linked List question frequently asked in FAANG/Top Tech interview loops.",
+  "resources": [
+    {
+      "type": "leetcode",
+      "url": "https://leetcode.com/problems/reverse-linked-list/"
+    }
+  ],
+  "inputTemplates": {
+    "python": "# --- 55. Reverse Linked List I (linked-list) ---\ndef solution(inputs):\n    # Function implementation\n    pass\n\nif __name__ == \"__main__\":\n    import sys\n    # Sample Input: adjust according to problem requirements\n    raw_input = sys.stdin.read().splitlines() if not sys.stdin.isatty() else [\"sample_input_1\", \"sample_input_2\"]\n    print(f\"Input: {raw_input}\")\n    # result = solution(raw_input)\n    # print(f\"Output: {result}\")\n",
+    "cpp": "// --- 55. Reverse Linked List I (linked-list) ---\n#include <iostream>\n#include <vector>\n#include <string>\n#include <sstream>\nusing namespace std;\n\nclass Solution {\npublic:\n    void solve() {\n        // Implement driver and input logic\n    }\n};\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    Solution sol;\n    sol.solve();\n    return 0;\n}\n",
+    "java": "// --- 55. Reverse Linked List I (linked-list) ---\nimport java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        // Parse input here\n        System.out.println(\"Ready for input: \" + \"Reverse Linked List I\");\n    }\n}\n",
+    "javascript": "// --- 55. Reverse Linked List I (linked-list) ---\nconst fs = require('fs');\n\nfunction solve(input) {\n  // Implement standard logic\n  return input;\n}\n\nconst input = fs.readFileSync('/dev/stdin', 'utf-8').trim().split('\\n');\nconsole.log(solve(input));\n",
+    "typescript": "// --- 55. Reverse Linked List I (linked-list) ---\nimport * as fs from 'fs';\n\nfunction solveTS(inputData: string[]): any {\n  // Implement TypeScript logic\n  return inputData;\n}\n\nconst rawData: string[] = fs.readFileSync(0, 'utf-8').trim().split('\\n');\nconsole.log(solveTS(rawData));\n"
+  },
+  "starterMetadata": {
+    "functionName": "reverseLinkedList",
+    "className": "Solution",
+    "returnType": "int",
+    "parameters": [
+      {
+        "name": "nums",
+        "type": "array<int>"
+      }
+    ],
+    "problemType": "FUNCTION"
+  },
+  "executionMetadata": {
+    "problemType": "FUNCTION",
+    "inputType": [
+      "array<int>"
+    ],
+    "outputType": "int",
+    "comparator": "EXACT",
+    "timeLimit": 2,
+    "memoryLimit": 256,
+    "expectedComplexity": {
+      "time": "O(N)",
+      "space": "O(1)"
+    }
+  },
+  "driverMetadata": {
+    "driver": "DEFAULT",
+    "inputSerializers": [
+      "ARRAY_INT"
+    ],
+    "outputSerializer": "INT"
+  },
+  "relationships": {
+    "prerequisites": [],
+    "followUps": [
+      "Can you solve it both iteratively and recursively?"
+    ],
+    "variants": [
+      "Reverse Linked List II (LC 92)",
+      "Reverse Nodes in k-Group (LC 25)",
+      "Palindrome Linked List (LC 234)."
+    ],
+    "related": [
+      "Other core questions in Linked List module."
+    ]
+  },
+  "visibleTests": [
+    {
+      "id": "sample-1",
+      "classification": "sample",
+      "input": "head = [1,2,3,4,5]",
+      "expectedOutput": "[5,4,3,2,1]",
+      "explanation": "Sample test 1 for Reverse Linked List I"
+    },
+    {
+      "id": "sample-2",
+      "classification": "sample",
+      "input": "head = [1,2]",
+      "expectedOutput": "[2,1]",
+      "explanation": "Sample test 2 for Reverse Linked List I"
+    },
+    {
+      "id": "sample-3",
+      "classification": "sample",
+      "input": "head = []",
+      "expectedOutput": "[]",
+      "explanation": "Empty linked list"
+    }
+  ],
+  "hiddenTests": [
+    {
+      "id": "edge-1",
+      "classification": "edge",
+      "input": "head = [1]",
+      "expectedOutput": "[1]",
+      "explanation": "Single node"
+    },
+    {
+      "id": "corner-2",
+      "classification": "corner",
+      "input": "head = [1,1,1,1]",
+      "expectedOutput": "[1,1,1,1]",
+      "explanation": "Duplicate node values"
+    },
+    {
+      "id": "stress-3",
+      "classification": "stress",
+      "input": "head = [1..1000]",
+      "expectedOutput": "...",
+      "explanation": "Long list"
+    },
+    {
+      "id": "duplicates-4",
+      "classification": "duplicates",
+      "input": "head = [-1,0,1]",
+      "expectedOutput": "[1,0,-1]",
+      "explanation": "Negative values"
+    },
+    {
+      "id": "performance-5",
+      "classification": "performance",
+      "input": "head = [1..5000]",
+      "expectedOutput": "...",
+      "explanation": "Performance test"
+    }
+  ]
+}

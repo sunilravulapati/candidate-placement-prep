@@ -1,0 +1,30 @@
+{
+  "metadataVersion": 1,
+  "id": "quant_profit_loss_1",
+  "slug": "quant_profit_loss_1",
+  "category": "quantitative",
+  "topic": "profit-loss",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture"
+  ],
+  "difficulty": "EASY",
+  "estimatedTime": 2,
+  "question": "An article is bought for $600 and sold for $750. What is the profit percentage?",
+  "options": [
+    "15%",
+    "20%",
+    "25%",
+    "30%"
+  ],
+  "answer": "25%",
+  "tags": [
+    "profit-loss"
+  ],
+  "learningPaths": [
+    "Aptitude Essentials"
+  ]
+}

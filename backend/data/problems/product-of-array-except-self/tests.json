@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sample-1",
+    "classification": "sample",
+    "input": "nums = [1,2,3,4]",
+    "expectedOutput": "[24,12,8,6]",
+    "explanation": "Product except self for [1,2,3,4]"
+  },
+  {
+    "id": "sample-2",
+    "classification": "sample",
+    "input": "nums = [-1,1,0,-3,3]",
+    "expectedOutput": "[0,0,9,0,0]",
+    "explanation": "Contains zero"
+  },
+  {
+    "id": "sample-3",
+    "classification": "sample",
+    "input": "nums = [2,3,4,5]",
+    "expectedOutput": "[60,40,30,24]",
+    "explanation": "All positive elements"
+  },
+  {
+    "id": "edge-1",
+    "classification": "edge",
+    "input": "nums = [0,0]",
+    "expectedOutput": "[0,0]",
+    "explanation": "Multiple zeros"
+  },
+  {
+    "id": "corner-2",
+    "classification": "corner",
+    "input": "nums = [1,-1]",
+    "expectedOutput": "[-1,1]",
+    "explanation": "Two elements"
+  },
+  {
+    "id": "stress-3",
+    "classification": "stress",
+    "input": "nums = [2,2,2,2,2]",
+    "expectedOutput": "[16,16,16,16,16]",
+    "explanation": "Identical elements"
+  },
+  {
+    "id": "duplicates-4",
+    "classification": "duplicates",
+    "input": "nums = [-2,-2,-2]",
+    "expectedOutput": "[4,4,4]",
+    "explanation": "Negative duplicates"
+  },
+  {
+    "id": "performance-5",
+    "classification": "performance",
+    "input": "nums = [1..1000]",
+    "expectedOutput": "...",
+    "explanation": "Stress test"
+  }
+]

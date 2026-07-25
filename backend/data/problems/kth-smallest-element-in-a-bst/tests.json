@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sample-1",
+    "classification": "sample",
+    "input": "root = [4,2,7,1,3,6,9]",
+    "expectedOutput": "[4,7,2,9,6,3,1]",
+    "explanation": "Sample test 1 for Kth Smallest Element in a BST"
+  },
+  {
+    "id": "sample-2",
+    "classification": "sample",
+    "input": "root = [2,1,3]",
+    "expectedOutput": "[2,3,1]",
+    "explanation": "Sample test 2 for Kth Smallest Element in a BST"
+  },
+  {
+    "id": "sample-3",
+    "classification": "sample",
+    "input": "root = []",
+    "expectedOutput": "[]",
+    "explanation": "Empty tree"
+  },
+  {
+    "id": "edge-1",
+    "classification": "edge",
+    "input": "root = [1]",
+    "expectedOutput": "[1]",
+    "explanation": "Single root node"
+  },
+  {
+    "id": "corner-2",
+    "classification": "corner",
+    "input": "root = [1,2,null,3]",
+    "expectedOutput": "...",
+    "explanation": "Skewed tree"
+  },
+  {
+    "id": "stress-3",
+    "classification": "stress",
+    "input": "root = [1..100]",
+    "expectedOutput": "...",
+    "explanation": "Deep tree"
+  },
+  {
+    "id": "duplicates-4",
+    "classification": "duplicates",
+    "input": "root = [1,1,1]",
+    "expectedOutput": "[1,1,1]",
+    "explanation": "Duplicate values"
+  },
+  {
+    "id": "performance-5",
+    "classification": "performance",
+    "input": "root = [1..1000]",
+    "expectedOutput": "...",
+    "explanation": "Performance test"
+  }
+]

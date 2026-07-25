@@ -1,0 +1,30 @@
+{
+  "metadataVersion": 1,
+  "id": "logical_blood_relations_2",
+  "slug": "logical_blood_relations_2",
+  "category": "logical",
+  "topic": "blood-relations",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture"
+  ],
+  "difficulty": "MEDIUM",
+  "estimatedTime": 2,
+  "question": "A is the brother of B. C is the father of A. D is the brother of E. E is the daughter of B. Who is the uncle of D?",
+  "options": [
+    "A",
+    "B",
+    "C",
+    "E"
+  ],
+  "answer": "A",
+  "tags": [
+    "blood-relations"
+  ],
+  "learningPaths": [
+    "Aptitude Essentials"
+  ]
+}

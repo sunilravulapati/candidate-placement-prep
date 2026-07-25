@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sample-1",
+    "classification": "sample",
+    "input": "nums = [1,1,0,1,1,1]",
+    "expectedOutput": "3",
+    "explanation": "First two and last three are 1s, max is 3."
+  },
+  {
+    "id": "sample-2",
+    "classification": "sample",
+    "input": "nums = [1,0,1,1,0,1]",
+    "expectedOutput": "2",
+    "explanation": "Max consecutive 1s is 2."
+  },
+  {
+    "id": "sample-3",
+    "classification": "sample",
+    "input": "nums = [0,0,0]",
+    "expectedOutput": "0",
+    "explanation": "No 1s in array."
+  },
+  {
+    "id": "edge-1",
+    "classification": "edge",
+    "input": "nums = [1]",
+    "expectedOutput": "1",
+    "explanation": "Single one"
+  },
+  {
+    "id": "corner-2",
+    "classification": "corner",
+    "input": "nums = [0]",
+    "expectedOutput": "0",
+    "explanation": "Single zero"
+  },
+  {
+    "id": "stress-3",
+    "classification": "stress",
+    "input": "nums = [1,1,1,1,1]",
+    "expectedOutput": "5",
+    "explanation": "All ones"
+  },
+  {
+    "id": "duplicates-4",
+    "classification": "duplicates",
+    "input": "nums = [1,0,1,0,1]",
+    "expectedOutput": "1",
+    "explanation": "Alternating ones and zeros"
+  },
+  {
+    "id": "performance-5",
+    "classification": "performance",
+    "input": "nums = [1..10000 ones]",
+    "expectedOutput": "10000",
+    "explanation": "Large sequence"
+  }
+]

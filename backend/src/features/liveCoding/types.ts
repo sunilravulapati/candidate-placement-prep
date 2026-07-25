@@ -12,15 +12,16 @@ export type SortOption =
   | 'least-solved'
   | 'company-frequency';
 
-export type SupportedLanguage = 'cpp' | 'python' | 'java' | 'javascript';
+export type SupportedLanguage = 'cpp' | 'python' | 'java' | 'javascript' | 'typescript';
 
-export const SUPPORTED_LANGUAGES: SupportedLanguage[] = ['cpp', 'python', 'java', 'javascript'];
+export const SUPPORTED_LANGUAGES: SupportedLanguage[] = ['cpp', 'python', 'java', 'javascript', 'typescript'];
 
 export const LANGUAGE_LABELS: Record<SupportedLanguage, string> = {
   cpp: 'C++',
   python: 'Python',
   java: 'Java',
   javascript: 'JavaScript',
+  typescript: 'TypeScript',
 };
 
 export const MONACO_LANGUAGE_MAP: Record<SupportedLanguage, string> = {
@@ -28,21 +29,30 @@ export const MONACO_LANGUAGE_MAP: Record<SupportedLanguage, string> = {
   python: 'python',
   java: 'java',
   javascript: 'javascript',
+  typescript: 'typescript',
 };
 
 export const TOPIC_FILTER_MAP: Record<string, string[]> = {
   arrays: ['arrays-strings', 'arrays'],
   strings: ['arrays-strings', 'strings'],
-  'linked-list': ['linked-lists'],
+  hashing: ['hashing', 'hash-table'],
+  'two-pointers': ['two-pointers'],
+  'sliding-window': ['sliding-window'],
+  'binary-search': ['binary-search', 'searching-sorting'],
+  'linked-list': ['linked-lists', 'linked-list'],
   stack: ['stacks-queues', 'stack'],
   queue: ['stacks-queues', 'queue'],
-  tree: ['trees'],
-  graph: ['graphs'],
-  dp: ['dynamic-programming'],
+  tree: ['trees', 'tree', 'bst', 'bst-binary-search-tree'],
+  graph: ['graphs', 'graph'],
+  dp: ['dynamic-programming', 'dp-dynamic-programming'],
   greedy: ['greedy'],
-  backtracking: ['recursion-backtracking'],
-  searching: ['searching-sorting', 'searching'],
+  backtracking: ['recursion-backtracking', 'backtracking'],
+  recursion: ['recursion', 'recursion-backtracking'],
+  searching: ['searching-sorting', 'searching', 'binary-search'],
   sorting: ['searching-sorting', 'sorting'],
+  'bit-manipulation': ['bit-manipulation'],
+  heap: ['heap', 'priority-queue'],
+  trie: ['trie'],
 };
 
 export const COMPANY_SLUGS = [
@@ -76,10 +86,27 @@ export interface TestCase {
 }
 
 export interface WorkspaceProblem {
+  questionNo?: number;
   slug: string;
   title: string;
   difficulty: CodingDifficulty;
+  importance?: string;
+  interviewFrequency?: string;
+  estimatedSolveTime?: string;
   description: string;
+  whyLearnThis?: string;
+  recognitionClues?: string;
+  prerequisites?: string;
+  concepts?: string;
+  keywords?: string[];
+  primaryTopic?: string;
+  secondaryTopics?: string[];
+  pattern?: string;
+  patternId?: string;
+  technique?: string;
+  techniqueId?: string;
+  dataStructuresUsed?: string[];
+  learningPath?: string;
   constraints: string[];
   examples: Array<{
     input: string;
@@ -87,8 +114,39 @@ export interface WorkspaceProblem {
     explanation?: string;
   }>;
   starterCode: Record<string, string>;
+  starterMetadata?: any;
+  executionMetadata?: any;
+  driverMetadata?: any;
+  editorial?: string | null;
   hints: string[];
+
+  // Complexity Matrix
+  optimalTC?: string;
+  optimalSC?: string;
+  bruteTC?: string;
+  bruteSC?: string;
+
+  // Pedagogical Solution & Notes
+  approach?: string;
+  intuition?: string;
+  algorithm?: string;
+  pseudocode?: string;
+  commonMistakes?: string[];
+  edgeCases?: string[];
+  interviewTrick?: string;
+  revisionNotes?: string;
+
+  // Relationships & Resources
+  followUps?: string[];
+  variants?: string[];
+  relatedProblems?: string[];
+  resources?: Array<{ type: string; url: string }>;
+  inputTemplates?: Record<string, string>;
+
+  /** Visible sample test cases — shown in Test Cases tab */
   sampleTests: TestCase[];
+  /** Hidden test cases — used only during Submit, never shown to user */
+  hiddenTests: TestCase[];
   companies: Array<{
     name: string;
     slug: string;
@@ -106,6 +164,7 @@ export interface WorkspaceProblem {
   spaceComplexity?: string | null;
   estimatedTime: number;
 }
+
 
 export interface BasicReview {
   timeComplexity: string;
@@ -143,6 +202,18 @@ export interface MockExecutionOutput {
   stderr: string;
   testCaseResults: ExecutionTestResult[];
   basicReview: BasicReview;
+}
+
+export interface SubmissionRecord {
+  problemSlug: string;
+  language: string;
+  status: MockExecutionOutput['status'];
+  passedCount: number;
+  totalCount: number;
+  executionTimeMs: number;
+  memoryBytes: number;
+  codeSnapshot: string;
+  sessionId?: string;
 }
 
 export interface DashboardData {

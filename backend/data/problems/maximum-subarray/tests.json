@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sample-1",
+    "classification": "sample",
+    "input": "nums = [-2,1,-3,4,-1,2,1,-5,4]",
+    "expectedOutput": "6",
+    "explanation": "Subarray [4,-1,2,1] has the largest sum = 6."
+  },
+  {
+    "id": "sample-2",
+    "classification": "sample",
+    "input": "nums = [1]",
+    "expectedOutput": "1",
+    "explanation": "Subarray [1] has largest sum = 1."
+  },
+  {
+    "id": "sample-3",
+    "classification": "sample",
+    "input": "nums = [5,4,-1,7,8]",
+    "expectedOutput": "23",
+    "explanation": "Subarray [5,4,-1,7,8] has largest sum = 23."
+  },
+  {
+    "id": "edge-1",
+    "classification": "edge",
+    "input": "nums = [-1]",
+    "expectedOutput": "-1",
+    "explanation": "Single negative number"
+  },
+  {
+    "id": "corner-2",
+    "classification": "corner",
+    "input": "nums = [-5,-2,-3,-1,-4]",
+    "expectedOutput": "-1",
+    "explanation": "All negative numbers"
+  },
+  {
+    "id": "stress-3",
+    "classification": "stress",
+    "input": "nums = [1000, 2000, 3000]",
+    "expectedOutput": "6000",
+    "explanation": "Large values"
+  },
+  {
+    "id": "duplicates-4",
+    "classification": "duplicates",
+    "input": "nums = [0,0,0,0]",
+    "expectedOutput": "0",
+    "explanation": "Zero array"
+  },
+  {
+    "id": "performance-5",
+    "classification": "performance",
+    "input": "nums = [1..10000]",
+    "expectedOutput": "50005000",
+    "explanation": "Large array performance"
+  }
+]

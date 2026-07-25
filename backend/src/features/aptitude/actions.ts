@@ -1,18 +1,18 @@
 // backend/src/features/aptitude/actions.ts
 'use server';
 
-import { getSessionUser } from '../../auth/session';
+import { requireSessionUser } from '../../auth/session';
 import { AptitudeService } from './service';
 import { AptitudeRepository } from './repository';
 import { CustomSessionOptions, SessionResultInput, AptitudeCategory } from './types';
 
 export async function getAptitudeTopicsAction() {
-  const user = await getSessionUser();
+  const user = await requireSessionUser();
   return AptitudeService.getAptitudeTopics(user.id);
 }
 
 export async function getQuestionsForTopicAction(category: string, topic: string) {
-  const user = await getSessionUser();
+  const user = await requireSessionUser();
   const questions = AptitudeRepository.getQuestions({
     category: category as AptitudeCategory,
     topic,
@@ -35,7 +35,7 @@ export async function getQuestionsForTopicAction(category: string, topic: string
 }
 
 export async function createCustomSessionAction(options: CustomSessionOptions) {
-  const user = await getSessionUser();
+  const user = await requireSessionUser();
   const sessionData = await AptitudeService.createCustomSession(user.id, options);
   
   // Pull existing progress to pre-fill bookmarks/notes
@@ -60,7 +60,7 @@ export async function createCustomSessionAction(options: CustomSessionOptions) {
 }
 
 export async function submitSessionResultsAction(input: SessionResultInput) {
-  const user = await getSessionUser();
+  const user = await requireSessionUser();
   return AptitudeService.submitSessionResults(user.id, input);
 }
 
@@ -74,17 +74,17 @@ export async function upsertQuestionProgressAction(
     timeTaken?: number;
   }
 ) {
-  const user = await getSessionUser();
+  const user = await requireSessionUser();
   return AptitudeRepository.upsertProgress(user.id, questionId, data);
 }
 
 export async function getAptitudeDashboardStatsAction() {
-  const user = await getSessionUser();
+  const user = await requireSessionUser();
   return AptitudeService.getDashboardStats(user.id);
 }
 
 export async function getAptitudeHistoryAction() {
-  const user = await getSessionUser();
+  const user = await requireSessionUser();
   const sessions = await AptitudeRepository.getSessionsForUser(user.id);
 
   // Retrieve static questions to map title details to history items if needed

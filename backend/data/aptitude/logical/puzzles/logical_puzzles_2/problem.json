@@ -1,0 +1,30 @@
+{
+  "metadataVersion": 1,
+  "id": "logical_puzzles_2",
+  "slug": "logical_puzzles_2",
+  "category": "logical",
+  "topic": "puzzles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture"
+  ],
+  "difficulty": "MEDIUM",
+  "estimatedTime": 2,
+  "question": "Six lectures A, B, C, D, E, and F are scheduled on consecutive days from Monday to Saturday. Lecture A is scheduled on Thursday. B is scheduled immediately after E. C and D have a two-day gap between them. F is scheduled on Monday. Which lecture is scheduled on Wednesday?",
+  "options": [
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "answer": "E",
+  "tags": [
+    "puzzles"
+  ],
+  "learningPaths": [
+    "Aptitude Essentials"
+  ]
+}

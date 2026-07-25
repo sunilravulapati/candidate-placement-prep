@@ -1,0 +1,30 @@
+{
+  "metadataVersion": 1,
+  "id": "verbal_rc_1",
+  "slug": "verbal_rc_1",
+  "category": "verbal",
+  "topic": "reading-comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture"
+  ],
+  "difficulty": "EASY",
+  "estimatedTime": 2,
+  "question": "Passage:\n\n'The economic theories of John Maynard Keynes, developed during the Great Depression, argued that active government intervention in the marketplace was necessary to stabilize the economy. Keynes suggested that during recessions, aggregate demand drops, leading to high unemployment. To counteract this, governments should increase public spending and lower taxes to stimulate demand and pull the economy out of stagnation.'\n\nAccording to the passage, what was the primary purpose of Keynes's theories?",
+  "options": [
+    "To discourage government involvement in business",
+    "To explain how to stabilize the economy through government intervention",
+    "To argue for higher taxes during periods of inflation",
+    "To promote a purely free-market capitalist system"
+  ],
+  "answer": "To explain how to stabilize the economy through government intervention",
+  "tags": [
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Aptitude Essentials"
+  ]
+}

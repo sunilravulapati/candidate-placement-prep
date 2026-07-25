@@ -1,22 +1,17 @@
-/**
- * Draft persistence abstraction layer.
- *
- * Components must never access localStorage directly.
- * They use the DraftStorage interface so the backing store
- * can be swapped (LocalDraftStorage → DatabaseDraftStorage)
- * without touching any UI code.
- */
+// helper/src/features/live-coding/draft-storage.ts
 
 export interface DraftData {
   language: string;
   code: string;
   updatedAt: number;
+  cursorPosition?: { lineNumber: number; column: number };
+  scrollTop?: number;
 }
 
 export interface DraftStorage {
   saveDraft(problemSlug: string, draft: DraftData): void;
-  loadDraft(problemSlug: string): DraftData | null;
-  clearDraft(problemSlug: string): void;
+  loadDraft(problemSlug: string, language?: string): DraftData | null;
+  clearDraft(problemSlug: string, language?: string): void;
   getLastLanguage(): string | null;
   saveLastLanguage(lang: string): void;
 }
@@ -24,29 +19,44 @@ export interface DraftStorage {
 const DRAFT_PREFIX = 'pg_draft_';
 const LAST_LANG_KEY = 'pg_lang';
 
-/** localStorage-backed implementation. Used in production until DB sync is available. */
 export class LocalDraftStorage implements DraftStorage {
   saveDraft(problemSlug: string, draft: DraftData): void {
     try {
+      const key = `${DRAFT_PREFIX}${problemSlug}_${draft.language}`;
+      localStorage.setItem(key, JSON.stringify(draft));
+      // Save legacy single key for backwards compatibility
       localStorage.setItem(`${DRAFT_PREFIX}${problemSlug}`, JSON.stringify(draft));
     } catch {
-      // Silently ignore — quota exceeded or private browsing
+      // Silently ignore storage quota or private browsing exceptions
     }
   }
 
-  loadDraft(problemSlug: string): DraftData | null {
+  loadDraft(problemSlug: string, language?: string): DraftData | null {
     try {
-      const raw = localStorage.getItem(`${DRAFT_PREFIX}${problemSlug}`);
-      if (!raw) return null;
-      return JSON.parse(raw) as DraftData;
+      if (language) {
+        const langKey = `${DRAFT_PREFIX}${problemSlug}_${language}`;
+        const rawLang = localStorage.getItem(langKey);
+        if (rawLang) return JSON.parse(rawLang) as DraftData;
+      }
+      const rawFallback = localStorage.getItem(`${DRAFT_PREFIX}${problemSlug}`);
+      if (!rawFallback) return null;
+      const parsed = JSON.parse(rawFallback) as DraftData;
+      if (!language || parsed.language === language) {
+        return parsed;
+      }
+      return null;
     } catch {
       return null;
     }
   }
 
-  clearDraft(problemSlug: string): void {
+  clearDraft(problemSlug: string, language?: string): void {
     try {
-      localStorage.removeItem(`${DRAFT_PREFIX}${problemSlug}`);
+      if (language) {
+        localStorage.removeItem(`${DRAFT_PREFIX}${problemSlug}_${language}`);
+      } else {
+        localStorage.removeItem(`${DRAFT_PREFIX}${problemSlug}`);
+      }
     } catch {
       // Ignore
     }

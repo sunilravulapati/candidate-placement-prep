@@ -1,0 +1,37 @@
+[
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "slug": "amazon"
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "slug": "google"
+  },
+  {
+    "id": "meta",
+    "name": "Meta",
+    "slug": "meta"
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "slug": "microsoft"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "slug": "apple"
+  },
+  {
+    "id": "uber",
+    "name": "Uber",
+    "slug": "uber"
+  },
+  {
+    "id": "goldman-sachs",
+    "name": "Goldman Sachs",
+    "slug": "goldman-sachs"
+  }
+]

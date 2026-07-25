@@ -29,13 +29,20 @@ const TOPIC_OPTIONS = [
   { label: 'Linked List', value: 'linked-list' },
   { label: 'Stack', value: 'stack' },
   { label: 'Queue', value: 'queue' },
-  { label: 'Trees', value: 'tree' },
+  { label: 'Trees & BST', value: 'tree' },
   { label: 'Graphs', value: 'graph' },
   { label: 'Dynamic Programming', value: 'dp' },
   { label: 'Greedy', value: 'greedy' },
   { label: 'Backtracking', value: 'backtracking' },
-  { label: 'Searching', value: 'searching' },
-  { label: 'Sorting', value: 'sorting' },
+  { label: 'Binary Search', value: 'binary-search' },
+  { label: 'Two Pointers', value: 'two-pointers' },
+  { label: 'Sliding Window', value: 'sliding-window' },
+  { label: 'Heap & Priority Queue', value: 'heap' },
+  { label: 'Trie', value: 'trie' },
+  { label: 'Bit Manipulation', value: 'bit-manipulation' },
+  { label: 'Hashing & Hash Table', value: 'hashing' },
+  { label: 'Searching & Sorting', value: 'sorting' },
+  { label: 'Math & Geometry', value: 'math' },
 ];
 
 const COMPANY_OPTIONS = [

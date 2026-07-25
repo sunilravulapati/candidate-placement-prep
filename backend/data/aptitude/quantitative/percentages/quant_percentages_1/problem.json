@@ -1,0 +1,30 @@
+{
+  "metadataVersion": 1,
+  "id": "quant_percentages_1",
+  "slug": "quant_percentages_1",
+  "category": "quantitative",
+  "topic": "percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture"
+  ],
+  "difficulty": "EASY",
+  "estimatedTime": 2,
+  "question": "If 40% of a number is equal to two-thirds of another number, what is the ratio of the first number to the second number?",
+  "options": [
+    "2 : 5",
+    "3 : 7",
+    "5 : 3",
+    "7 : 3"
+  ],
+  "answer": "5 : 3",
+  "tags": [
+    "percentages"
+  ],
+  "learningPaths": [
+    "Aptitude Essentials"
+  ]
+}

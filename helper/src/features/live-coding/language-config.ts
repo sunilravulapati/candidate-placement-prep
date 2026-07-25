@@ -1,12 +1,11 @@
 /**
  * Single source of truth for all language configuration in DSA Studio.
- *
- * Rules:
- * - Judge0 language IDs stay inside RealExecutionProvider — never here.
- * - UI only ever knows about SupportedLanguage identifiers and LanguageConfig.
  */
 
-export type SupportedLanguage = 'cpp' | 'java' | 'python' | 'javascript';
+import { StarterCodeGenerator } from '@backend/features/dsa/starterCodeGenerator';
+import type { StarterMetadata } from '@backend/features/dsa/canonicalTypes';
+
+export type SupportedLanguage = 'cpp' | 'java' | 'python' | 'javascript' | 'typescript';
 
 export interface LanguageConfig {
   /** Display name shown in selectors */
@@ -24,6 +23,7 @@ export const SUPPORTED_LANGUAGES: readonly SupportedLanguage[] = [
   'java',
   'python',
   'javascript',
+  'typescript',
 ] as const;
 
 export const LANGUAGE_CONFIG: Record<SupportedLanguage, LanguageConfig> = {
@@ -75,19 +75,38 @@ var solve = function() {
     // Write your solution here
 };`,
   },
+
+  typescript: {
+    label: 'TypeScript',
+    monacoId: 'typescript',
+    defaultFileName: 'solution.ts',
+    starterTemplate: `function solve(): void {
+    // Write your solution here
+};`,
+  },
 };
 
 /**
  * Returns the appropriate starter code for a given language.
  * Problem-specific starters take priority over generic defaults.
  *
- * @param language  - The target language
- * @param problemStarters - Optional map of language → problem-specific code
+ * @param language - The target language
+ * @param problemStarters - Optional map of language -> problem-specific code
+ * @param starterMetadata - Optional canonical StarterMetadata object
  */
 export function getStarterTemplate(
   language: SupportedLanguage,
-  problemStarters?: Record<string, string> | null
+  problemStarters?: Record<string, string> | null,
+  starterMetadata?: StarterMetadata | null
 ): string {
+  if (starterMetadata) {
+    try {
+      return StarterCodeGenerator.generate(starterMetadata, language);
+    } catch {
+      // Fallback
+    }
+  }
+
   const problemCode = problemStarters?.[language];
   if (problemCode && problemCode.trim().length > 0) return problemCode;
   return LANGUAGE_CONFIG[language]?.starterTemplate ?? '// Start coding here\n';
@@ -97,3 +116,4 @@ export function getStarterTemplate(
 export function isValidLanguage(lang: string): lang is SupportedLanguage {
   return (SUPPORTED_LANGUAGES as readonly string[]).includes(lang);
 }
+

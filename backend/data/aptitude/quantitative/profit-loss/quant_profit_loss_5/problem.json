@@ -1,0 +1,30 @@
+{
+  "metadataVersion": 1,
+  "id": "quant_profit_loss_5",
+  "slug": "quant_profit_loss_5",
+  "category": "quantitative",
+  "topic": "profit-loss",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture"
+  ],
+  "difficulty": "HARD",
+  "estimatedTime": 2,
+  "question": "A manufacturer sells a product to a distributor at a profit of 10%. The distributor sells it to a retailer at a profit of 20%, and the retailer sells it to a consumer for $396 at a profit of 25%. What is the cost of production for the manufacturer?",
+  "options": [
+    "$240",
+    "$250",
+    "$260",
+    "$280"
+  ],
+  "answer": "$240",
+  "tags": [
+    "profit-loss"
+  ],
+  "learningPaths": [
+    "Aptitude Essentials"
+  ]
+}
