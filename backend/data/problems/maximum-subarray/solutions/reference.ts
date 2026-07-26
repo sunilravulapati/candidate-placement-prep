@@ -1,8 +1,9 @@
-// Trusted Reference Solution for Maximum Subarray
-// Supported Languages: TypeScript, JavaScript, Python, C++, Java
-// Last Verified: 2026-07-25
-
-export function maximumSubarray(nums: number[]): number {
-  // Optimal implementation based on Kadane's Algorithm / Dynamic Programming
-  return 0;
-}
+function maxSubArray(nums: number[]): number {
+    let maxSoFar: number = nums[0];
+    let currMax: number = nums[0];
+    for (let i = 1; i < nums.length; i++) {
+        currMax = Math.max(nums[i], currMax + nums[i]);
+        maxSoFar = Math.max(maxSoFar, currMax);
+    }
+    return maxSoFar;
+};

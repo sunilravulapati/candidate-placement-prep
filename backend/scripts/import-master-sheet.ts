@@ -4,6 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import XLSX from 'xlsx';
 import { DSAProblemMetadata, ResourceLink, TestCaseSpec } from '../src/features/dsa/dsaTypes';
+import { normalizeTestInput } from '../src/features/dsa/inputNormalizer';
 
 // Helper to find data directory
 function findDataDir(): string {
@@ -78,9 +79,40 @@ interface RawExcelRow {
   'Related Problems'?: string;
   'LeetCode Link'?: string;
   'GeeksForGeeks Link'?: string;
+  'C++ Starter Code'?: string;
+  'C++ Complete Solution'?: string;
+  'Python Starter Code'?: string;
+  'Python Complete Solution'?: string;
+  'Java Starter Code'?: string;
+  'Java Complete Solution'?: string;
+  'JS Starter Code'?: string;
+  'JS Complete Solution'?: string;
+  'TS Starter Code'?: string;
+  'TS Complete Solution'?: string;
 }
 
-function generatePDFInputTemplates(questionNo: number, title: string, topic: string): Record<string, string> {
+export function deduplicateTestCases<T extends { input: string; expectedOutput: string }>(tests: T[]): { uniqueTests: T[]; removedCount: number } {
+  const seen = new Set<string>();
+  const uniqueTests: T[] = [];
+  let removedCount = 0;
+
+  for (const t of tests) {
+    const normIn = normalizeTestInput(t.input || '').trim();
+    const normOut = normalizeTestInput(t.expectedOutput || '').trim();
+    const key = `${normIn}::${normOut}`;
+
+    if (seen.has(key)) {
+      removedCount++;
+    } else {
+      seen.add(key);
+      uniqueTests.push(t);
+    }
+  }
+
+  return { uniqueTests, removedCount };
+}
+
+export function generatePDFInputTemplates(questionNo: number, title: string, topic: string): Record<string, string> {
   return {
     python: `# --- ${questionNo}. ${title} (${topic}) ---
 def solution(inputs):
@@ -89,23 +121,19 @@ def solution(inputs):
 
 if __name__ == "__main__":
     import sys
-    # Sample Input: adjust according to problem requirements
-    raw_input = sys.stdin.read().splitlines() if not sys.stdin.isatty() else ["sample_input_1", "sample_input_2"]
+    raw_input = sys.stdin.read().splitlines() if not sys.stdin.isatty() else ["sample_input"]
     print(f"Input: {raw_input}")
-    # result = solution(raw_input)
-    # print(f"Output: {result}")
 `,
     cpp: `// --- ${questionNo}. ${title} (${topic}) ---
 #include <iostream>
 #include <vector>
 #include <string>
-#include <sstream>
 using namespace std;
 
 class Solution {
 public:
     void solve() {
-        // Implement driver and input logic
+        // Implement solution
     }
 };
 
@@ -124,8 +152,7 @@ import java.io.*;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        // Parse input here
-        System.out.println("Ready for input: " + "${title}");
+        System.out.println("Ready for input: ${title}");
     }
 }
 `,
@@ -133,18 +160,16 @@ public class Main {
 const fs = require('fs');
 
 function solve(input) {
-  // Implement standard logic
   return input;
 }
 
-const input = fs.readFileSync('/dev/stdin', 'utf-8').trim().split('\\n');
+const input = fs.readFileSync(0, 'utf-8').trim().split('\\n');
 console.log(solve(input));
 `,
     typescript: `// --- ${questionNo}. ${title} (${topic}) ---
 import * as fs from 'fs';
 
 function solveTS(inputData: string[]): any {
-  // Implement TypeScript logic
   return inputData;
 }
 
@@ -224,6 +249,20 @@ function getProblemTestCases(slug: string, cleanTitle: string, topic: string) {
         { id: 'stress-3', classification: 'stress', input: 'nums = [1000000,500000,500000], target = 1000000', expectedOutput: '[1,2]', explanation: 'Large values' },
         { id: 'duplicates-4', classification: 'duplicates', input: 'nums = [5,5], target = 10', expectedOutput: '[0,1]', explanation: 'Duplicate target pair' },
         { id: 'performance-5', classification: 'performance', input: 'nums = [1..10000], target = 19999', expectedOutput: '[9998,9999]', explanation: 'Large array search' },
+      ],
+    },
+    'binary-search': {
+      visible: [
+        { id: 'sample-1', classification: 'sample', input: 'nums = [-1,0,3,5,9,12], target = 9', expectedOutput: '4', explanation: 'Target 9 exists at index 4.' },
+        { id: 'sample-2', classification: 'sample', input: 'nums = [-1,0,3,5,9,12], target = 2', expectedOutput: '-1', explanation: 'Target 2 does not exist in nums.' },
+        { id: 'sample-3', classification: 'sample', input: 'nums = [5], target = 5', expectedOutput: '0', explanation: 'Single element match.' },
+      ],
+      hidden: [
+        { id: 'edge-1', classification: 'edge', input: 'nums = [5], target = -5', expectedOutput: '-1', explanation: 'Target outside single element array' },
+        { id: 'corner-2', classification: 'corner', input: 'nums = [2,5], target = 5', expectedOutput: '1', explanation: 'Match at right endpoint' },
+        { id: 'stress-3', classification: 'stress', input: 'nums = [-10,-5,0,5,10,15,20], target = -10', expectedOutput: '0', explanation: 'Match at left endpoint' },
+        { id: 'duplicates-4', classification: 'duplicates', input: 'nums = [1,3,5,7,9,11], target = 7', expectedOutput: '3', explanation: 'Middle element match' },
+        { id: 'performance-5', classification: 'performance', input: 'nums = [1..100000], target = 99999', expectedOutput: '99998', explanation: 'Large array logarithmic search' },
       ],
     },
   };
@@ -322,6 +361,8 @@ export function runMasterSheetPipeline() {
   // PHASE 1: Read Excel
   // -------------------------------------------------------------------------
   const excelCandidates = [
+    path.join(process.cwd(), 'DSA_Master_Sheet_64_Columns_Final_Solutions.xlsx'),
+    path.join(process.cwd(), '..', 'DSA_Master_Sheet_64_Columns_Final_Solutions.xlsx'),
     path.join(process.cwd(), 'DSA_Master_Sheet_54_Columns.xlsx'),
     path.join(process.cwd(), '..', 'DSA_Master_Sheet_54_Columns.xlsx'),
   ];
@@ -586,17 +627,65 @@ export function runMasterSheetPipeline() {
 
     // Domain-Specific Test Cases & PDF 5-Language Driver Templates
     const curatedTests = getProblemTestCases(slug, cleanTitle, item.primaryTopic);
-    const visibleTests = curatedTests.visible;
-    const hiddenTests = curatedTests.hidden;
+    const rawVisibleTests = curatedTests.visible.map((tc) => ({
+      ...tc,
+      input: normalizeTestInput(tc.input),
+    }));
+    const rawHiddenTests = curatedTests.hidden.map((tc) => ({
+      ...tc,
+      input: normalizeTestInput(tc.input),
+    }));
+
+    // Deduplicate Visible & Hidden Test Cases (Preserving Excel / Curated order)
+    const visDedup = deduplicateTestCases(rawVisibleTests);
+    const hidDedup = deduplicateTestCases(rawHiddenTests);
+    const visibleTests = visDedup.uniqueTests;
+    const hiddenTests = hidDedup.uniqueTests;
+
+    if (visDedup.removedCount > 0 || hidDedup.removedCount > 0) {
+      console.log(`  [Deduplication] ${cleanTitle} (${slug}): Removed ${visDedup.removedCount} duplicate visible, ${hidDedup.removedCount} duplicate hidden test cases.`);
+    }
+
     const qNo = typeof row['Question No.'] === 'number' ? row['Question No.'] : parseInt(String(row['Question No.'] || '0'), 10);
     const pdfInputTemplates = generatePDFInputTemplates(qNo, cleanTitle, item.primaryTopic);
 
+    // Starter code dictionary from Excel or default generators
+    const starterCode: Record<string, string> = {
+      cpp: String(row['C++ Starter Code'] || '').trim() || pdfInputTemplates.cpp,
+      python: String(row['Python Starter Code'] || '').trim() || pdfInputTemplates.python,
+      java: String(row['Java Starter Code'] || '').trim() || pdfInputTemplates.java,
+      javascript: String(row['JS Starter Code'] || '').trim() || pdfInputTemplates.javascript,
+      typescript: String(row['TS Starter Code'] || '').trim() || pdfInputTemplates.typescript,
+    };
+
+    // Reference solutions dictionary directly from Excel columns
+    const cppSol = String(row['C++ Complete Solution'] || '').trim();
+    const pySol = String(row['Python Complete Solution'] || '').trim();
+    const javaSol = String(row['Java Complete Solution'] || '').trim();
+    const jsSol = String(row['JS Complete Solution'] || '').trim();
+    const tsSol = String(row['TS Complete Solution'] || '').trim();
+
+    const referenceSolutions: Record<string, string> = {
+      cpp: cppSol || `// Reference solution for ${cleanTitle} (C++)\n// Pattern: ${item.pattern}\nint main() { return 0; }`,
+      python: pySol || `# Reference solution for ${cleanTitle} (Python)\n# Pattern: ${item.pattern}\ndef solution(): pass`,
+      java: javaSol || `// Reference solution for ${cleanTitle} (Java)\npublic class Solution {}`,
+      javascript: jsSol || `// Reference solution for ${cleanTitle} (JavaScript)\nfunction solve() {}`,
+      typescript: tsSol || `// Reference solution for ${cleanTitle} (TypeScript)\nfunction solve(): void {}`,
+    };
+
+    // Structured Input Helper Metadata
+    const inputHelper = {
+      inputFormat: `Input Format for ${cleanTitle}:\nStandard competitive programming stdin input stream.`,
+      sampleInput: visibleTests[0]?.input || 'Sample Input 1',
+      codeTemplates: pdfInputTemplates,
+    };
+
     // Build problem.json
-    const problemJson: DSAProblemMetadata = {
+    const problemJson: DSAProblemMetadata & { inputHelper?: typeof inputHelper; referenceSolutions?: typeof referenceSolutions; starterCode?: typeof starterCode } = {
       id: slug,
       schemaVersion: '2.0',
       contentVersion: '1.1',
-      importVersion: '54-column-sheet',
+      importVersion: '64-column-sheet',
       lastReviewed: new Date().toISOString().split('T')[0],
       lastModified: new Date().toISOString().split('T')[0],
       author: 'PrepGenie Content Team',
@@ -669,6 +758,9 @@ export function runMasterSheetPipeline() {
 
       resources: resources,
       inputTemplates: pdfInputTemplates,
+      inputHelper,
+      referenceSolutions,
+      starterCode,
 
       starterMetadata: {
         functionName: slug.replace(/-([a-z])/g, (_, g) => g.toUpperCase()),
@@ -772,26 +864,20 @@ ${problemJson.revisionNotes}
     const hintsMd = problemJson.hints.join('\n---\n');
     fs.writeFileSync(path.join(folderPath, 'hints.md'), hintsMd, 'utf-8');
 
-    // Save solutions/reference.ts
+    // Save solutions folder with 5 language reference files from Excel
     const solutionsDir = path.join(folderPath, 'solutions');
     if (!fs.existsSync(solutionsDir)) fs.mkdirSync(solutionsDir, { recursive: true });
 
-    const funcName = problemJson.starterMetadata.functionName;
-    const refTs = `// Trusted Reference Solution for ${cleanTitle}
-// Supported Languages: TypeScript, JavaScript, Python, C++, Java
-// Last Verified: ${new Date().toISOString().split('T')[0]}
-
-export function ${funcName}(nums: number[]): number {
-  // Optimal implementation based on ${problemJson.pattern}
-  return 0;
-}
-`;
-    fs.writeFileSync(path.join(solutionsDir, 'reference.ts'), refTs, 'utf-8');
+    fs.writeFileSync(path.join(solutionsDir, 'reference.cpp'), referenceSolutions.cpp, 'utf-8');
+    fs.writeFileSync(path.join(solutionsDir, 'reference.py'), referenceSolutions.python, 'utf-8');
+    fs.writeFileSync(path.join(solutionsDir, 'reference.java'), referenceSolutions.java, 'utf-8');
+    fs.writeFileSync(path.join(solutionsDir, 'reference.js'), referenceSolutions.javascript, 'utf-8');
+    fs.writeFileSync(path.join(solutionsDir, 'reference.ts'), referenceSolutions.typescript, 'utf-8');
 
     generatedCount++;
   }
 
-  console.log(`✓ Phase 5 complete: Generated metadata files for ${generatedCount} problems.`);
+  console.log(`✓ Phase 5 complete: Generated metadata and solution files for ${generatedCount} problems.`);
 
   // -------------------------------------------------------------------------
   // PHASE 6: Static Search Index Generator (search-index.json)

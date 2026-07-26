@@ -2,75 +2,103 @@
 
 import fs from 'fs';
 import path from 'path';
-import { DSAProblemMetadata } from './dsaTypes';
+import { DSAProblemMetadata, TestCaseSpec } from './dsaTypes';
+import { normalizeTestInput } from './inputNormalizer';
+
+function getDataDir(): string {
+  const candidates = [
+    path.join(process.cwd(), 'data'),
+    path.join(process.cwd(), 'backend', 'data'),
+    path.join(process.cwd(), '..', 'backend', 'data'),
+  ];
+  return candidates.find((c) => fs.existsSync(c)) || path.join(process.cwd(), 'backend', 'data');
+}
+
+export interface LoadedProblemBundle {
+  metadata: DSAProblemMetadata;
+  visibleTests: TestCaseSpec[];
+  hiddenTests: TestCaseSpec[];
+  allTests: TestCaseSpec[];
+  editorialMarkdown?: string;
+  hintsMarkdown?: string;
+  referenceSolutions?: Record<string, string>;
+}
+
+export function loadProblemBySlug(slug: string): LoadedProblemBundle | null {
+  const problemDir = path.join(getDataDir(), 'problems', slug);
+  const jsonPath = path.join(problemDir, 'problem.json');
+
+  if (!fs.existsSync(jsonPath)) {
+    return null;
+  }
+
+  const rawJson = fs.readFileSync(jsonPath, 'utf-8');
+  const metadata: DSAProblemMetadata = JSON.parse(rawJson);
+
+  let allTests: TestCaseSpec[] = [];
+  const testsJsonPath = path.join(problemDir, 'tests.json');
+
+  if (fs.existsSync(testsJsonPath)) {
+    const rawTests = fs.readFileSync(testsJsonPath, 'utf-8');
+    allTests = JSON.parse(rawTests);
+  } else {
+    allTests = [...((metadata as any).visibleTests || []), ...((metadata as any).hiddenTests || [])];
+  }
+
+  allTests = allTests.map((t) => ({
+    ...t,
+    input: normalizeTestInput(t.input),
+  }));
+
+  const visibleTests = allTests.filter((t) => t.classification === 'sample' || (t.id && t.id.startsWith('sample')));
+  const hiddenTests = allTests.filter((t) => t.classification !== 'sample' && (!t.id || !t.id.startsWith('sample')));
+
+  const editorialPath = path.join(problemDir, 'editorial.md');
+  const editorialMarkdown = fs.existsSync(editorialPath) ? fs.readFileSync(editorialPath, 'utf-8') : undefined;
+
+  const hintsPath = path.join(problemDir, 'hints.md');
+  const hintsMarkdown = fs.existsSync(hintsPath) ? fs.readFileSync(hintsPath, 'utf-8') : undefined;
+
+  const referenceSolutions: Record<string, string> = (metadata as any).referenceSolutions || {};
+  const solutionsDir = path.join(problemDir, 'solutions');
+
+  if (fs.existsSync(solutionsDir)) {
+    const langs = ['cpp', 'py', 'java', 'js', 'ts'];
+    langs.forEach((ext) => {
+      const filePath = path.join(solutionsDir, `reference.${ext}`);
+      if (fs.existsSync(filePath)) {
+        const fullLang = ext === 'py' ? 'python' : ext === 'js' ? 'javascript' : ext === 'ts' ? 'typescript' : ext;
+        referenceSolutions[fullLang] = fs.readFileSync(filePath, 'utf-8');
+      }
+    });
+  }
+
+  return {
+    metadata,
+    visibleTests,
+    hiddenTests,
+    allTests,
+    editorialMarkdown,
+    hintsMarkdown,
+    referenceSolutions,
+  };
+}
 
 export class ProblemLoader {
   private static findProblemsDir(): string | null {
-    const candidates = [
-      path.join(process.cwd(), 'data', 'problems'),
-      path.join(process.cwd(), 'backend', 'data', 'problems'),
-      path.join(process.cwd(), '..', 'backend', 'data', 'problems'),
-    ];
-    return candidates.find((c) => fs.existsSync(c)) || null;
+    return getDataDir() ? path.join(getDataDir(), 'problems') : null;
   }
 
   public static loadDirectoryProblem(slug: string): DSAProblemMetadata | null {
-    const problemsDir = this.findProblemsDir();
-    if (!problemsDir) return null;
-
-    const problemFolder = path.join(problemsDir, slug);
-    if (!fs.existsSync(problemFolder)) return null;
-
-    const jsonPath = path.join(problemFolder, 'problem.json');
-    if (!fs.existsSync(jsonPath)) return null;
-
-    try {
-      const raw = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
-
-      // Read editorial.md if present
-      const editorialPath = path.join(problemFolder, 'editorial.md');
-      if (fs.existsSync(editorialPath)) {
-        raw.editorial = fs.readFileSync(editorialPath, 'utf-8');
-      }
-
-      // Read tests.json if present
-      const testsPath = path.join(problemFolder, 'tests.json');
-      if (fs.existsSync(testsPath)) {
-        const tests = JSON.parse(fs.readFileSync(testsPath, 'utf-8'));
-        raw.tests = tests;
-        raw.visibleTests = tests.filter((t: any) => !t.classification || t.classification === 'sample' || t.classification === 'edge' || t.classification === 'corner');
-        raw.hiddenTests = tests.filter((t: any) => t.classification === 'hidden' || t.classification === 'performance');
-      }
-
-      // Read hints.md if present
-      const hintsPath = path.join(problemFolder, 'hints.md');
-      if (fs.existsSync(hintsPath)) {
-        const hintsContent = fs.readFileSync(hintsPath, 'utf-8');
-        raw.hints = hintsContent.split('\n---\n').map((h) => h.trim()).filter(Boolean);
-      }
-
-      // Read reference solutions from solutions/ folder if present
-      const solutionsDir = path.join(problemFolder, 'solutions');
-      if (fs.existsSync(solutionsDir)) {
-        raw.solutionMetadata = raw.solutionMetadata || {};
-        raw.solutionMetadata.optimalCode = raw.solutionMetadata.optimalCode || {};
-        const solFiles = fs.readdirSync(solutionsDir);
-        for (const file of solFiles) {
-          const filePath = path.join(solutionsDir, file);
-          if (fs.statSync(filePath).isFile()) {
-            const ext = path.extname(file).replace('.', '');
-            const nameWithoutExt = path.basename(file, path.extname(file));
-            const lang = ext === 'cpp' ? 'cpp' : ext === 'py' ? 'python' : ext === 'java' ? 'java' : ext === 'ts' ? 'typescript' : ext === 'js' ? 'javascript' : nameWithoutExt;
-            raw.solutionMetadata.optimalCode[lang] = fs.readFileSync(filePath, 'utf-8');
-          }
-        }
-      }
-
-      return raw as DSAProblemMetadata;
-    } catch (err) {
-      console.warn(`Failed loading directory problem "${slug}":`, (err as Error).message);
-      return null;
-    }
+    const bundle = loadProblemBySlug(slug);
+    if (!bundle) return null;
+    const raw = { ...bundle.metadata } as any;
+    if (bundle.editorialMarkdown) raw.editorial = bundle.editorialMarkdown;
+    raw.visibleTests = bundle.visibleTests;
+    raw.hiddenTests = bundle.hiddenTests;
+    raw.tests = bundle.allTests;
+    if (bundle.referenceSolutions) raw.referenceSolutions = bundle.referenceSolutions;
+    return raw as DSAProblemMetadata;
   }
 
   public static loadSearchIndex(): any[] {
@@ -91,7 +119,7 @@ export class ProblemLoader {
 
   public static loadAllDirectoryProblems(): DSAProblemMetadata[] {
     const problemsDir = this.findProblemsDir();
-    if (!problemsDir) return [];
+    if (!problemsDir || !fs.existsSync(problemsDir)) return [];
 
     const entries = fs.readdirSync(problemsDir, { withFileTypes: true });
     const result: DSAProblemMetadata[] = [];

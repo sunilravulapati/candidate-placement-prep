@@ -1,8 +1,7 @@
-// Trusted Reference Solution for Word Search
-// Supported Languages: TypeScript, JavaScript, Python, C++, Java
-// Last Verified: 2026-07-25
-
-export function wordSearch(nums: number[]): number {
-  // Optimal implementation based on Arrays
-  return 0;
-}
+function wordSearch(nums: number[]): number[] {
+    const res: number[] = [];
+    for (let num of nums) {
+        res.push(num);
+    }
+    return res;
+};

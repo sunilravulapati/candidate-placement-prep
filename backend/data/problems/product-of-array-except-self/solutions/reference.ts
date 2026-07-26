@@ -1,8 +1,15 @@
-// Trusted Reference Solution for Product of Array Except Self
-// Supported Languages: TypeScript, JavaScript, Python, C++, Java
-// Last Verified: 2026-07-25
-
-export function productOfArrayExceptSelf(nums: number[]): number {
-  // Optimal implementation based on Prefix & Suffix Products
-  return 0;
-}
+function productExceptSelf(nums: number[]): number[] {
+    const n: number = nums.length;
+    const res: number[] = new Array(n).fill(1);
+    let prefix: number = 1;
+    for (let i = 0; i < n; i++) {
+        res[i] = prefix;
+        prefix *= nums[i];
+    }
+    let suffix: number = 1;
+    for (let i = n - 1; i >= 0; i--) {
+        res[i] *= suffix;
+        suffix *= nums[i];
+    }
+    return res;
+};

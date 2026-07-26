@@ -84,6 +84,19 @@ static void printList(ListNode* head) {
 }
 `;
 
+    const codeWithoutComments = this.userCode
+      .replace(/\/\*[\s\S]*?\*\//g, '')
+      .replace(/\/\/.*/g, '');
+    const hasUserMain = /\bint\s+main\s*\(/m.test(codeWithoutComments);
+
+    if (hasUserMain) {
+      return `
+${includes}
+
+${this.userCode}
+`;
+    }
+
     if (driverType === 'LINKED_LIST') {
       return `
 ${includes}

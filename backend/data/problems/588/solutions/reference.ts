@@ -1,8 +1,8 @@
-// Trusted Reference Solution for Design In-Memory File System
-// Supported Languages: TypeScript, JavaScript, Python, C++, Java
-// Last Verified: 2026-07-25
-
-export function 588(nums: number[]): number {
-  // Optimal implementation based on Trie Pattern
-  return 0;
-}
+function designInMemory(nums: number[]): number {
+    const n = nums.length;
+    const dp: number[] = new Array(n + 1).fill(0);
+    for (let i = 1; i <= n; i++) {
+        dp[i] = dp[i - 1] + nums[i - 1];
+    }
+    return dp[n];
+};

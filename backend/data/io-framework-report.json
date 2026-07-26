@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-07-26T11:22:10.652Z",
+  "status": "passed",
+  "totalChecked": 187,
+  "errorCount": 0,
+  "warningCount": 0,
+  "registeredParserTypes": [
+    "int",
+    "long",
+    "float",
+    "double",
+    "bool",
+    "char",
+    "string",
+    "void",
+    "listnode",
+    "treenode",
+    "graphnode",
+    "interval",
+    "pair",
+    "nestedinteger"
+  ],
+  "registeredPrinterTypes": [
+    "int",
+    "long",
+    "float",
+    "double",
+    "bool",
+    "char",
+    "string",
+    "void",
+    "listnode",
+    "treenode",
+    "graphnode",
+    "interval",
+    "pair",
+    "nestedinteger"
+  ],
+  "issues": []
+}

@@ -142,6 +142,12 @@ export interface WorkspaceProblem {
   relatedProblems?: string[];
   resources?: Array<{ type: string; url: string }>;
   inputTemplates?: Record<string, string>;
+  referenceSolutions?: Record<string, string>;
+  inputHelper?: {
+    inputFormat?: string;
+    sampleInput?: string;
+    codeTemplates?: Record<string, string>;
+  };
 
   /** Visible sample test cases — shown in Test Cases tab */
   sampleTests: TestCase[];

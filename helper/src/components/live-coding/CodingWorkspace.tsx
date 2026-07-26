@@ -254,13 +254,31 @@ export default function CodingWorkspace({
           code,
           language,
           problemSlug,
-          testCases: problem.sampleTests,
+          executionMode: 'run',
+          sampleTests: problem.sampleTests,
           starterMetadata: (problem as any).starterMetadata,
           executionMetadata: (problem as any).executionMetadata,
           driverMetadata: (problem as any).driverMetadata,
         }),
       });
-      const res: ExecutionResult = await resp.json();
+
+      let res: ExecutionResult;
+      if (!resp.ok) {
+        const text = await resp.text();
+        res = {
+          passed: false,
+          stdout: '',
+          stderr: text.startsWith('{') ? (JSON.parse(text).stderr || 'Server error') : `Execution service error (${resp.status}): ${text.slice(0, 150)}`,
+          compileOutput: '',
+          executionTimeMs: 0,
+          memoryBytes: 0,
+          errorType: 'RUNTIME_ERROR',
+          providerName: 'Execution Server',
+        };
+      } else {
+        res = await resp.json();
+      }
+
       setExecutionResult(res);
       if (res.passed) {
         toast.success('Sample tests passed!');
@@ -292,11 +310,7 @@ export default function CodingWorkspace({
     setIsSubmitting(true);
     setExecutionResult(null);
 
-    const allTestCases = [
-      ...problem.sampleTests,
-      ...problem.hiddenTests,
-    ];
-
+    const allTestCases = [...problem.sampleTests, ...problem.hiddenTests];
     let finalResult: ExecutionResult;
 
     try {
@@ -307,13 +321,30 @@ export default function CodingWorkspace({
           code,
           language,
           problemSlug,
-          testCases: allTestCases,
+          executionMode: 'submit',
+          sampleTests: problem.sampleTests,
+          hiddenTests: problem.hiddenTests,
           starterMetadata: (problem as any).starterMetadata,
           executionMetadata: (problem as any).executionMetadata,
           driverMetadata: (problem as any).driverMetadata,
         }),
       });
-      finalResult = await resp.json();
+
+      if (!resp.ok) {
+        const text = await resp.text();
+        finalResult = {
+          passed: false,
+          stdout: '',
+          stderr: text.startsWith('{') ? (JSON.parse(text).stderr || 'Server error') : `Execution service error (${resp.status}): ${text.slice(0, 150)}`,
+          compileOutput: '',
+          executionTimeMs: 0,
+          memoryBytes: 0,
+          errorType: 'RUNTIME_ERROR',
+          providerName: 'Execution Server',
+        };
+      } else {
+        finalResult = await resp.json();
+      }
       setExecutionResult(finalResult);
 
 

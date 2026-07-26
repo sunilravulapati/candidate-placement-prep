@@ -68,7 +68,7 @@ export class StarterCodeGenerator {
             return `    ${retType} ${m.name}(${pStr}) {\n        \n    }`;
           })
           .join('\n\n');
-        return `class ${className} {\npublic:\n    ${className}(${ctorParams}) {\n        \n    }\n\n${methodStubs}\n};`;
+        return `#include <iostream>\n#include <vector>\n#include <string>\n#include <algorithm>\nusing namespace std;\n\nclass ${className} {\npublic:\n    ${className}(${ctorParams}) {\n        \n    }\n\n${methodStubs}\n};`;
       }
       case 'java': {
         const ctorParams = initParams.map((p) => `${mapCanonicalToLanguage(p.type, 'java')} ${p.name}`).join(', ');
@@ -137,7 +137,7 @@ export class StarterCodeGenerator {
       })
       .join(', ');
 
-    return `class ${className} {\npublic:\n    ${returnType} ${funcName}(${params}) {\n        // Write your code here\n    }\n};`;
+    return `#include <iostream>\n#include <vector>\n#include <string>\n#include <algorithm>\nusing namespace std;\n\nclass ${className} {\npublic:\n    ${returnType} ${funcName}(${params}) {\n        // Write your code here\n    }\n};`;
   }
 
   private static generateJava(

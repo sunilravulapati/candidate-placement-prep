@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
+import { IOFramework, SupportedLanguage as IOSupportedLanguage } from '@backend/features/dsa/io';
 import {
   BookOpen,
   Lightbulb,
@@ -20,6 +21,13 @@ import {
   Building2,
   Terminal,
   Copy,
+  Send,
+  RotateCcw,
+  User,
+  Bot,
+  Bug,
+  Play,
+  Loader2,
 } from 'lucide-react';
 import { cn } from '@/lib/cn';
 import type { WorkspaceProblem } from '@backend/features/liveCoding/types';
@@ -30,7 +38,7 @@ interface QuestionPanelProps {
 
 export default function QuestionPanel({ problem }: QuestionPanelProps) {
   const [activeTab, setActiveTab] = useState<'description' | 'editorial' | 'solution' | 'ai-explain' | 'notes' | 'submissions'>('description');
-  const [solutionLang, setSolutionLang] = useState<'ts' | 'cpp' | 'python' | 'java'>('ts');
+  const [solutionLang, setSolutionLang] = useState<'ts' | 'cpp' | 'python' | 'java' | 'js'>('ts');
   const [selectedDriverLang, setSelectedDriverLang] = useState<'python' | 'cpp' | 'java' | 'javascript' | 'typescript'>('python');
   const [copiedLang, setCopiedLang] = useState<string | null>(null);
 
@@ -39,7 +47,7 @@ export default function QuestionPanel({ problem }: QuestionPanelProps) {
   }, [problem.slug]);
 
   const handleCopyDriver = (lang: string) => {
-    const code = problem.inputTemplates?.[lang] || getDefaultDriverTemplate(lang, problem);
+    const code = getDriverCode(lang, problem);
     navigator.clipboard.writeText(code);
     setCopiedLang(lang);
     setTimeout(() => setCopiedLang(null), 2000);
@@ -197,152 +205,77 @@ export default function QuestionPanel({ problem }: QuestionPanelProps) {
               </div>
             )}
 
-            {/* Problem Description */}
+            {/* 1. Problem Description */}
             <div className="space-y-3">
-              <h3 className="text-sm font-bold text-white uppercase tracking-wider text-slate-400">Problem Description</h3>
+              <h3 className="text-sm font-bold text-white uppercase tracking-wider text-slate-400">Description</h3>
               <div className="text-sm text-slate-300 leading-relaxed whitespace-pre-wrap bg-slate-900/40 border border-slate-800 p-4 rounded-xl">
                 {problem.description}
               </div>
             </div>
 
-            {/* Pedagogical Context: Why Learn This, Prerequisites, Concepts */}
-            {(problem.whyLearnThis || problem.prerequisites || problem.concepts) && (
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
-                {problem.whyLearnThis && (
-                  <div className="bg-slate-900/60 border border-slate-800 p-3.5 rounded-xl space-y-1">
-                    <span className="font-bold text-indigo-400 flex items-center gap-1">
-                      <HelpCircle className="w-3.5 h-3.5" /> Why Learn This?
-                    </span>
-                    <p className="text-slate-300 leading-normal">{problem.whyLearnThis}</p>
-                  </div>
-                )}
-                {problem.prerequisites && (
-                  <div className="bg-slate-900/60 border border-slate-800 p-3.5 rounded-xl space-y-1">
-                    <span className="font-bold text-amber-400 flex items-center gap-1">
-                      <Layers className="w-3.5 h-3.5" /> Prerequisites
-                    </span>
-                    <p className="text-slate-300 leading-normal">{problem.prerequisites}</p>
-                  </div>
-                )}
-                {problem.concepts && (
-                  <div className="bg-slate-900/60 border border-slate-800 p-3.5 rounded-xl space-y-1">
-                    <span className="font-bold text-emerald-400 flex items-center gap-1">
-                      <Tag className="w-3.5 h-3.5" /> Core Concepts
-                    </span>
-                    <p className="text-slate-300 leading-normal">{problem.concepts}</p>
-                  </div>
-                )}
-              </div>
-            )}
-
-            {/* Visible Test Cases */}
-            <div className="space-y-3">
-              <h3 className="text-sm font-bold text-white flex items-center gap-2">
-                <CheckCircle className="w-4 h-4 text-emerald-400" /> Visible Test Cases
-              </h3>
-              <div className="space-y-3">
-                {(problem.examples || []).map((ex, idx) => (
-                  <div key={idx} className="bg-slate-900 border border-slate-800 rounded-xl p-4 space-y-2 text-xs font-mono">
-                    <div className="flex justify-between text-slate-400 font-sans font-bold border-b border-slate-800 pb-1.5 text-[11px]">
-                      <span>Example {idx + 1}</span>
-                    </div>
-                    <div>
-                      <span className="text-slate-400">Input: </span>
-                      <span className="text-slate-200">{ex.input}</span>
-                    </div>
-                    <div>
-                      <span className="text-slate-400">Output: </span>
-                      <span className="text-emerald-400 font-bold">{ex.output}</span>
-                    </div>
-                    {ex.explanation && (
-                      <div className="text-slate-400 font-sans text-[11px] pt-1">
-                        <span className="font-semibold text-slate-300">Explanation: </span>
-                        {ex.explanation}
-                      </div>
-                    )}
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Hints Section (Collapsible) */}
-            {problem.hints && problem.hints.length > 0 && (
+            {/* 2. Examples */}
+            {problem.examples && problem.examples.length > 0 && (
               <div className="space-y-3 pt-4 border-t border-slate-800">
                 <h3 className="text-sm font-bold text-white flex items-center gap-2">
-                  <Lightbulb className="w-4 h-4 text-amber-400" /> Progressive Hints
+                  <CheckCircle className="w-4 h-4 text-emerald-400" /> Examples
                 </h3>
-                <div className="space-y-2">
-                  {problem.hints.map((hint, idx) => (
-                    <details key={idx} className="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden group">
-                      <summary className="cursor-pointer p-3 text-xs font-bold text-slate-300 hover:text-white transition-colors flex justify-between items-center bg-slate-900/90">
-                        <span>Hint {idx + 1}</span>
-                        <span className="text-[10px] text-violet-400 font-mono group-open:hidden">Click to reveal</span>
-                      </summary>
-                      <div className="p-3 pt-2 text-xs text-slate-300 border-t border-slate-800 bg-slate-950/60 leading-relaxed">
-                        {hint}
+                <div className="space-y-3">
+                  {problem.examples.map((ex, idx) => (
+                    <div key={idx} className="bg-slate-900 border border-slate-800 rounded-xl p-4 space-y-2 text-xs font-mono">
+                      <div className="flex justify-between text-slate-400 font-sans font-bold border-b border-slate-800 pb-1.5 text-[11px]">
+                        <span>Example {idx + 1}</span>
                       </div>
-                    </details>
+                      <div>
+                        <span className="text-slate-400">Input: </span>
+                        <span className="text-slate-200">{ex.input}</span>
+                      </div>
+                      <div>
+                        <span className="text-slate-400">Output: </span>
+                        <span className="text-emerald-400 font-bold">{ex.output}</span>
+                      </div>
+                      {ex.explanation && (
+                        <div className="text-slate-400 font-sans text-[11px] pt-1">
+                          <span className="font-semibold text-slate-300">Explanation: </span>
+                          {ex.explanation}
+                        </div>
+                      )}
+                    </div>
                   ))}
                 </div>
               </div>
             )}
 
-            {/* Complexity Matrix Section */}
-            <div className="space-y-3 pt-4 border-t border-slate-800">
-              <h3 className="text-sm font-bold text-white flex items-center gap-2">
-                <Cpu className="w-4 h-4 text-indigo-400" /> Complexity Matrix
-              </h3>
-              <div className="grid grid-cols-2 gap-3 text-xs font-mono">
-                <div className="bg-slate-900 border border-emerald-500/20 p-3 rounded-xl space-y-1">
-                  <span className="text-emerald-400 font-bold font-sans text-[11px] uppercase block">Optimal Complexity</span>
-                  <div className="text-slate-300">Time: <span className="text-emerald-300 font-bold">{problem.optimalTC || problem.timeComplexity || 'O(N)'}</span></div>
-                  <div className="text-slate-300">Space: <span className="text-emerald-300 font-bold">{problem.optimalSC || problem.spaceComplexity || 'O(1)'}</span></div>
-                </div>
-                <div className="bg-slate-900 border border-amber-500/20 p-3 rounded-xl space-y-1">
-                  <span className="text-amber-400 font-bold font-sans text-[11px] uppercase block">Brute Force Baseline</span>
-                  <div className="text-slate-300">Time: <span className="text-amber-300">{problem.bruteTC || 'O(N^2)'}</span></div>
-                  <div className="text-slate-300">Space: <span className="text-amber-300">{problem.bruteSC || 'O(1)'}</span></div>
-                </div>
-              </div>
-            </div>
-
-            {/* Extensible Resource Links */}
-            {problem.resources && problem.resources.length > 0 && (
-              <div className="pt-4 border-t border-slate-800 space-y-2">
-                <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider">Practice External Resources</h3>
-                <div className="flex flex-wrap gap-2">
-                  {problem.resources.map((res, i) => (
-                    <a
-                      key={i}
-                      href={res.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 hover:text-white px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors"
-                    >
-                      <span className="capitalize">{res.type}</span>
-                      <ExternalLink className="w-3 h-3 text-slate-400" />
-                    </a>
+            {/* 3. Constraints */}
+            {problem.constraints && problem.constraints.length > 0 && (
+              <div className="space-y-3 pt-4 border-t border-slate-800">
+                <h3 className="text-sm font-bold text-white uppercase tracking-wider text-slate-400">Constraints</h3>
+                <ul className="space-y-1.5 text-xs font-mono text-slate-300 bg-slate-900/40 border border-slate-800 p-4 rounded-xl">
+                  {problem.constraints.map((c, i) => (
+                    <li key={i} className="flex items-center gap-2">
+                      <span className="w-1.5 h-1.5 rounded-full bg-violet-400" />
+                      <span>{c}</span>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </div>
             )}
 
-            {/* Language Input Driver & Code Template Section */}
+            {/* 4. Input Helper Section (Isolated Usability Feature) */}
             <div className="pt-4 border-t border-slate-800 space-y-3">
               <div className="space-y-0.5">
-                <h3 className="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
-                  <Terminal className="w-3.5 h-3.5 text-violet-400" />
-                  <span>Language Input Driver & Code Templates</span>
+                <h3 className="text-sm font-bold text-slate-200 uppercase tracking-wider flex items-center gap-1.5">
+                  <Terminal className="w-4 h-4 text-violet-400" />
+                  <span>Input Helper</span>
                 </h3>
                 <p className="text-[11px] text-slate-400 leading-normal">
-                  If running in a custom runner or local IDE and output is empty, copy the stdin driver template for your language below:
+                  Write or copy standard input parsing code below into your main() function:
                 </p>
               </div>
 
               <div className="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
                 <div className="flex items-center justify-between bg-slate-950 px-3 py-2 border-b border-slate-800 text-xs">
                   <div className="flex gap-1 font-mono text-[11px]">
-                    {(['python', 'cpp', 'java', 'javascript', 'typescript'] as const).map((lang) => (
+                    {(['cpp', 'python', 'java', 'javascript', 'typescript'] as const).map((lang) => (
                       <button
                         key={lang}
                         onClick={() => setSelectedDriverLang(lang)}
@@ -368,11 +301,81 @@ export default function QuestionPanel({ problem }: QuestionPanelProps) {
 
                 <div className="p-4 font-mono text-[11px] text-slate-300 overflow-x-auto max-h-56 bg-slate-950/70">
                   <pre className="whitespace-pre">
-                    {problem.inputTemplates?.[selectedDriverLang] || getDefaultDriverTemplate(selectedDriverLang, problem)}
+                    {getDriverCode(selectedDriverLang, problem)}
                   </pre>
                 </div>
               </div>
             </div>
+
+            {/* 5. Visible Test Cases (Expandable Accordion) */}
+            <div className="space-y-3 pt-4 border-t border-slate-800">
+              <h3 className="text-sm font-bold text-white flex items-center gap-2">
+                <CheckCircle className="w-4 h-4 text-emerald-400" /> Visible Test Cases
+              </h3>
+              <div className="space-y-2">
+                {(problem.sampleTests || problem.examples || []).map((vt, idx) => (
+                  <details key={idx} className="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden group">
+                    <summary className="cursor-pointer p-3 text-xs font-bold text-slate-300 hover:text-white transition-colors flex justify-between items-center bg-slate-900/90 font-mono">
+                      <span>Visible Test #{idx + 1}</span>
+                      <span className="text-[10px] text-emerald-400 font-mono group-open:hidden">Expand</span>
+                    </summary>
+                    <div className="p-3 pt-2 text-xs font-mono space-y-2 border-t border-slate-800 bg-slate-950/60">
+                      <div>
+                        <span className="text-slate-400">Input: </span>
+                        <span className="text-slate-200">{vt.input}</span>
+                      </div>
+                      <div>
+                        <span className="text-slate-400">Expected Output: </span>
+                        <span className="text-emerald-400 font-bold">{vt.expectedOutput || (vt as any).output}</span>
+                      </div>
+                    </div>
+                  </details>
+                ))}
+              </div>
+            </div>
+
+            {/* 6. Hints (Progressive Collapsible) */}
+            {problem.hints && problem.hints.length > 0 && (
+              <div className="space-y-3 pt-4 border-t border-slate-800">
+                <h3 className="text-sm font-bold text-white flex items-center gap-2">
+                  <Lightbulb className="w-4 h-4 text-amber-400" /> Hints
+                </h3>
+                <div className="space-y-2">
+                  {problem.hints.map((hint, idx) => (
+                    <details key={idx} className="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden group">
+                      <summary className="cursor-pointer p-3 text-xs font-bold text-slate-300 hover:text-white transition-colors flex justify-between items-center bg-slate-900/90">
+                        <span>Hint {idx + 1}</span>
+                        <span className="text-[10px] text-violet-400 font-mono group-open:hidden">Click to reveal</span>
+                      </summary>
+                      <div className="p-3 pt-2 text-xs text-slate-300 border-t border-slate-800 bg-slate-950/60 leading-relaxed">
+                        {hint}
+                      </div>
+                    </details>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* 7. Resources */}
+            {problem.resources && problem.resources.length > 0 && (
+              <div className="pt-4 border-t border-slate-800 space-y-2">
+                <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider">Resources</h3>
+                <div className="flex flex-wrap gap-2">
+                  {problem.resources.map((res, i) => (
+                    <a
+                      key={i}
+                      href={res.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 hover:text-white px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors"
+                    >
+                      <span className="capitalize">{res.type}</span>
+                      <ExternalLink className="w-3 h-3 text-slate-400" />
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         )}
 
@@ -393,24 +396,6 @@ export default function QuestionPanel({ problem }: QuestionPanelProps) {
                   <h3 className="text-sm font-bold text-white">Approach</h3>
                   <p>{problem.approach || 'Utilize standard algorithmic patterns.'}</p>
                 </div>
-
-                {problem.pseudocode && (
-                  <div className="bg-slate-900 border border-slate-800 p-4 rounded-xl space-y-2">
-                    <h3 className="text-sm font-bold text-white">Pseudocode</h3>
-                    <pre className="bg-slate-950 p-3 rounded-lg font-mono text-slate-300 text-[11px] overflow-x-auto">
-                      {problem.pseudocode}
-                    </pre>
-                  </div>
-                )}
-
-                {problem.interviewTrick && (
-                  <div className="bg-indigo-950/30 border border-indigo-800/40 p-4 rounded-xl space-y-1">
-                    <h3 className="text-xs font-bold text-indigo-300 flex items-center gap-1.5">
-                      <Zap className="w-3.5 h-3.5 text-indigo-400" /> Interview Trick & Pro-Tip
-                    </h3>
-                    <p>{problem.interviewTrick}</p>
-                  </div>
-                )}
               </div>
             )}
           </div>
@@ -419,9 +404,9 @@ export default function QuestionPanel({ problem }: QuestionPanelProps) {
         {activeTab === 'solution' && (
           <div className="space-y-4">
             <div className="flex items-center justify-between bg-slate-900 border border-slate-800 p-3 rounded-xl">
-              <span className="text-xs font-bold text-white">Reference Solution Implementation</span>
+              <span className="text-xs font-bold text-white">Master Reference Solution (Single Source of Truth)</span>
               <div className="flex gap-1 bg-slate-950 p-1 rounded-lg border border-slate-800 text-[11px] font-mono">
-                {(['ts', 'cpp', 'python', 'java'] as const).map((lang) => (
+                {(['ts', 'cpp', 'python', 'java', 'js'] as const).map((lang) => (
                   <button
                     key={lang}
                     onClick={() => setSolutionLang(lang)}
@@ -437,27 +422,19 @@ export default function QuestionPanel({ problem }: QuestionPanelProps) {
             </div>
 
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 font-mono text-xs text-slate-200 overflow-x-auto">
-              <pre>
-                {`// Trusted Reference Solution for ${problem.title} (${solutionLang.toUpperCase()})
-// Pattern: ${problem.pattern || 'Optimal Algorithm'}
-// Time Complexity: ${problem.optimalTC || 'O(N)'} | Space Complexity: ${problem.optimalSC || 'O(1)'}
-
-${problem.pseudocode || '// Reference code stub\nfunction solve() {\n  return 0;\n}'}`}
+              <pre className="whitespace-pre">
+                {problem.referenceSolutions?.[solutionLang] ||
+                  problem.referenceSolutions?.[solutionLang === 'ts' ? 'typescript' : solutionLang === 'js' ? 'javascript' : solutionLang] ||
+                  problem.pseudocode ||
+                  '// Reference solution not available'}
               </pre>
             </div>
           </div>
         )}
 
         {activeTab === 'ai-explain' && (
-          <div className="text-slate-400 text-center py-12 space-y-4">
-            <Sparkles className="w-12 h-12 text-violet-500 mx-auto animate-pulse" />
-            <h3 className="text-lg font-bold text-white">AI Pedagogical Tutor</h3>
-            <p className="max-w-md mx-auto text-xs text-slate-400">
-              Need personalized guidance? Our AI tutor can explain intuition step-by-step, generate custom dry-runs, or clarify constraints.
-            </p>
-            <button className="px-5 py-2 bg-violet-600 hover:bg-violet-700 text-white font-medium text-xs rounded-xl transition-colors">
-              Explain Problem Intuition
-            </button>
+          <div className="h-full">
+            <AiTutorView problem={problem} />
           </div>
         )}
 
@@ -478,6 +455,18 @@ ${problem.pseudocode || '// Reference code stub\nfunction solve() {\n  return 0;
       </div>
     </div>
   );
+}
+
+function getDriverCode(lang: string, problem: WorkspaceProblem): string {
+  const meta = (problem as any).starterMetadata;
+  if (meta && meta.functionName) {
+    try {
+      return IOFramework.buildAndRender(meta, lang as IOSupportedLanguage);
+    } catch {
+      // Fallback
+    }
+  }
+  return getDefaultDriverTemplate(lang, problem);
 }
 
 function getDefaultDriverTemplate(lang: string, problem: WorkspaceProblem) {
@@ -557,4 +546,253 @@ function solveTS(inputData: string[]): any {
 
 const rawData: string[] = fs.readFileSync(0, 'utf-8').trim().split('\\n');
 console.log(solveTS(rawData));`;
+}
+
+function AiTutorView({ problem }: { problem: WorkspaceProblem }) {
+  const [messages, setMessages] = useState<Array<{ role: 'user' | 'assistant'; content: string }>>([]);
+  const [input, setInput] = useState('');
+  const [loading, setLoading] = useState(false);
+  const messagesEndRef = React.useRef<HTMLDivElement>(null);
+
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  useEffect(() => {
+    scrollToBottom();
+  }, [messages, loading]);
+
+  const handleAction = async (action: 'explain' | 'dry-run' | 'complexity' | 'debug', userMsgText?: string) => {
+    if (loading) return;
+    setLoading(true);
+
+    const userText = userMsgText || (
+      action === 'explain' ? 'Explain Problem Intuition' :
+      action === 'dry-run' ? 'Generate Step-by-Step Dry Run' :
+      action === 'complexity' ? 'Analyze Time & Space Complexity' :
+      'Debug My Current Code'
+    );
+
+    const newMessages = [...messages, { role: 'user' as const, content: userText }];
+    setMessages(newMessages);
+
+    try {
+      const resp = await fetch('/api/ai-tutor', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          problemTitle: problem.title,
+          problemDescription: problem.description,
+          action,
+          messages: newMessages,
+        }),
+      });
+
+      const data = await resp.json();
+      const replyText = data.reply || 'Sorry, I could not process your request at this time.';
+      setMessages((prev) => [...prev, { role: 'assistant', content: replyText }]);
+    } catch (err) {
+      setMessages((prev) => [
+        ...prev,
+        { role: 'assistant', content: '⚠️ Error connecting to AI Tutor service. Please try again.' },
+      ]);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleSendCustom = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!input.trim() || loading) return;
+    const txt = input.trim();
+    setInput('');
+    handleAction('explain', txt);
+  };
+
+  return (
+    <div className="flex flex-col h-full bg-slate-950 rounded-xl overflow-hidden border border-slate-800">
+      {/* Header */}
+      <div className="flex items-center justify-between px-4 py-3 border-b border-slate-800 bg-slate-900/60">
+        <div className="flex items-center gap-2">
+          <Sparkles className="w-4 h-4 text-violet-400 animate-pulse" />
+          <h3 className="text-xs font-bold text-white tracking-wide uppercase">AI Pedagogical Tutor</h3>
+        </div>
+        {messages.length > 0 && (
+          <button
+            onClick={() => setMessages([])}
+            className="text-xs text-slate-400 hover:text-rose-400 flex items-center gap-1 transition-colors"
+            title="Reset Chat"
+          >
+            <RotateCcw className="w-3.5 h-3.5" /> Clear
+          </button>
+        )}
+      </div>
+
+      {/* Quick Action Bar / Prompt Selector */}
+      <div className="p-3 bg-slate-900/40 border-b border-slate-800 flex flex-wrap gap-2">
+        <button
+          disabled={loading}
+          onClick={() => handleAction('explain')}
+          className="px-3 py-1.5 bg-violet-600/20 border border-violet-500/30 hover:bg-violet-600/30 text-violet-300 rounded-lg text-xs font-medium flex items-center gap-1.5 transition-all disabled:opacity-50"
+        >
+          <Lightbulb className="w-3.5 h-3.5 text-amber-400" /> Explain Intuition
+        </button>
+        <button
+          disabled={loading}
+          onClick={() => handleAction('dry-run')}
+          className="px-3 py-1.5 bg-blue-600/20 border border-blue-500/30 hover:bg-blue-600/30 text-blue-300 rounded-lg text-xs font-medium flex items-center gap-1.5 transition-all disabled:opacity-50"
+        >
+          <Play className="w-3.5 h-3.5 text-blue-400" /> Dry Run
+        </button>
+        <button
+          disabled={loading}
+          onClick={() => handleAction('complexity')}
+          className="px-3 py-1.5 bg-emerald-600/20 border border-emerald-500/30 hover:bg-emerald-600/30 text-emerald-300 rounded-lg text-xs font-medium flex items-center gap-1.5 transition-all disabled:opacity-50"
+        >
+          <Zap className="w-3.5 h-3.5 text-emerald-400" /> Complexity
+        </button>
+        <button
+          disabled={loading}
+          onClick={() => handleAction('debug')}
+          className="px-3 py-1.5 bg-amber-600/20 border border-amber-500/30 hover:bg-amber-600/30 text-amber-300 rounded-lg text-xs font-medium flex items-center gap-1.5 transition-all disabled:opacity-50"
+        >
+          <Bug className="w-3.5 h-3.5 text-amber-400" /> Debug Code
+        </button>
+      </div>
+
+      {/* Messages Scroll View */}
+      <div className="flex-1 overflow-y-auto p-4 space-y-4 no-scrollbar min-h-[280px] max-h-[460px]">
+        {messages.length === 0 ? (
+          <div className="text-center py-10 px-4 space-y-3 max-w-md mx-auto">
+            <div className="w-12 h-12 rounded-2xl bg-violet-600/20 border border-violet-500/30 flex items-center justify-center mx-auto text-violet-400">
+              <Sparkles className="w-6 h-6 animate-pulse" />
+            </div>
+            <h4 className="text-sm font-semibold text-white">How can I guide you on "{problem.title}"?</h4>
+            <p className="text-xs text-slate-400 leading-relaxed">
+              Click any pedagogical action above or ask custom questions below. I will break down intuition, generate step-by-step dry runs, or analyze complexity.
+            </p>
+          </div>
+        ) : (
+          messages.map((m, idx) => (
+            <div
+              key={idx}
+              className={cn(
+                'flex gap-2.5 text-xs leading-relaxed max-w-[95%]',
+                m.role === 'user' ? 'ml-auto flex-row-reverse' : 'mr-auto'
+              )}
+            >
+              <div
+                className={cn(
+                  'w-6 h-6 rounded-lg flex items-center justify-center shrink-0 text-white font-bold text-[10px]',
+                  m.role === 'user' ? 'bg-violet-600' : 'bg-slate-800 border border-slate-700 text-violet-400'
+                )}
+              >
+                {m.role === 'user' ? <User className="w-3.5 h-3.5" /> : <Bot className="w-3.5 h-3.5" />}
+              </div>
+              <div
+                className={cn(
+                  'p-3 rounded-2xl font-sans overflow-hidden',
+                  m.role === 'user'
+                    ? 'bg-violet-600 text-white rounded-tr-none'
+                    : 'bg-slate-900 border border-slate-800 text-slate-200 rounded-tl-none shadow-md'
+                )}
+              >
+                {m.role === 'user' ? (
+                  <p>{m.content}</p>
+                ) : (
+                  <FormattedMarkdown content={m.content} />
+                )}
+              </div>
+            </div>
+          ))
+        )}
+
+        {loading && (
+          <div className="flex gap-2.5 text-xs mr-auto items-center">
+            <div className="w-6 h-6 rounded-lg bg-slate-800 border border-slate-700 flex items-center justify-center text-violet-400 shrink-0">
+              <Loader2 className="w-3.5 h-3.5 animate-spin" />
+            </div>
+            <div className="p-3 bg-slate-900 border border-slate-800 rounded-2xl rounded-tl-none text-slate-400 flex items-center gap-2 text-xs">
+              <span className="inline-block w-2 h-2 rounded-full bg-violet-500 animate-ping" />
+              Thinking & generating response...
+            </div>
+          </div>
+        )}
+        <div ref={messagesEndRef} />
+      </div>
+
+      {/* Input Box */}
+      <form onSubmit={handleSendCustom} className="p-3 bg-slate-900 border-t border-slate-800 flex gap-2">
+        <input
+          type="text"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          placeholder={`Ask AI Tutor about ${problem.title}...`}
+          disabled={loading}
+          className="flex-1 bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-violet-500 transition-colors disabled:opacity-50"
+        />
+        <button
+          type="submit"
+          disabled={loading || !input.trim()}
+          className="px-3.5 py-2 bg-violet-600 hover:bg-violet-700 text-white rounded-xl text-xs font-semibold flex items-center justify-center transition-colors disabled:opacity-50"
+        >
+          <Send className="w-3.5 h-3.5" />
+        </button>
+      </form>
+    </div>
+  );
+}
+
+function FormattedMarkdown({ content }: { content: string }) {
+  const lines = content.split('\n');
+  const elements: React.ReactNode[] = [];
+  let inCodeBlock = false;
+  let codeBuffer: string[] = [];
+
+  lines.forEach((line, index) => {
+    if (line.trim().startsWith('```')) {
+      if (inCodeBlock) {
+        elements.push(
+          <pre key={`code-${index}`} className="bg-slate-950 border border-slate-800 rounded-lg p-2.5 my-1.5 text-[11px] font-mono overflow-x-auto text-emerald-300">
+            <code>{codeBuffer.join('\n')}</code>
+          </pre>
+        );
+        codeBuffer = [];
+        inCodeBlock = false;
+      } else {
+        inCodeBlock = true;
+      }
+      return;
+    }
+
+    if (inCodeBlock) {
+      codeBuffer.push(line);
+      return;
+    }
+
+    if (line.startsWith('### ')) {
+      elements.push(<h3 key={index} className="text-xs font-bold text-violet-300 mt-2 mb-1">{line.replace('### ', '')}</h3>);
+    } else if (line.startsWith('#### ')) {
+      elements.push(<h4 key={index} className="text-[11px] font-semibold text-slate-200 mt-1.5 mb-1">{line.replace('#### ', '')}</h4>);
+    } else if (line.trim().startsWith('- ') || line.trim().startsWith('* ')) {
+      elements.push(<li key={index} className="ml-3.5 list-disc my-0.5 text-slate-300 text-xs">{parseInline(line.trim().slice(2))}</li>);
+    } else if (line.trim().length > 0) {
+      elements.push(<p key={index} className="my-1 text-xs text-slate-300 leading-relaxed">{parseInline(line)}</p>);
+    }
+  });
+
+  return <div className="space-y-0.5">{elements}</div>;
+}
+
+function parseInline(text: string): React.ReactNode {
+  const parts = text.split(/(`[^`]+`|\*\*[^*]+\*\*)/g);
+  return parts.map((part, idx) => {
+    if (part.startsWith('`') && part.endsWith('`')) {
+      return <code key={idx} className="bg-slate-800 text-violet-300 px-1 py-0.5 rounded font-mono text-[10px]">{part.slice(1, -1)}</code>;
+    }
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={idx} className="font-semibold text-white">{part.slice(2, -2)}</strong>;
+    }
+    return part;
+  });
 }

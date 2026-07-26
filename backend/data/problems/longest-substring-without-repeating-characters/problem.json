@@ -2,9 +2,9 @@
   "id": "longest-substring-without-repeating-characters",
   "schemaVersion": "2.0",
   "contentVersion": "1.1",
-  "importVersion": "54-column-sheet",
-  "lastReviewed": "2026-07-25",
-  "lastModified": "2026-07-25",
+  "importVersion": "64-column-sheet",
+  "lastReviewed": "2026-07-26",
+  "lastModified": "2026-07-26",
   "author": "PrepGenie Content Team",
   "reviewStatus": "published",
   "questionNo": 20,
@@ -70,17 +70,17 @@
   ],
   "examples": [
     {
-      "input": "s = \"babad\"",
+      "input": "\"babad\"",
       "output": "\"bab\"",
       "explanation": "Sample test 1 for Longest Substring Without Repeating Characters"
     },
     {
-      "input": "s = \"cbbd\"",
+      "input": "\"cbbd\"",
       "output": "\"bb\"",
       "explanation": "Sample test 2 for Longest Substring Without Repeating Characters"
     },
     {
-      "input": "s = \"a\"",
+      "input": "\"a\"",
       "output": "\"a\"",
       "explanation": "Sample test 3 for Longest Substring Without Repeating Characters"
     }
@@ -118,6 +118,31 @@
     "java": "// --- 20. Longest Substring Without Repeating Characters (sliding-window) ---\nimport java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        // Parse input here\n        System.out.println(\"Ready for input: \" + \"Longest Substring Without Repeating Characters\");\n    }\n}\n",
     "javascript": "// --- 20. Longest Substring Without Repeating Characters (sliding-window) ---\nconst fs = require('fs');\n\nfunction solve(input) {\n  // Implement standard logic\n  return input;\n}\n\nconst input = fs.readFileSync('/dev/stdin', 'utf-8').trim().split('\\n');\nconsole.log(solve(input));\n",
     "typescript": "// --- 20. Longest Substring Without Repeating Characters (sliding-window) ---\nimport * as fs from 'fs';\n\nfunction solveTS(inputData: string[]): any {\n  // Implement TypeScript logic\n  return inputData;\n}\n\nconst rawData: string[] = fs.readFileSync(0, 'utf-8').trim().split('\\n');\nconsole.log(solveTS(rawData));\n"
+  },
+  "inputHelper": {
+    "inputFormat": "Input Format for Longest Substring Without Repeating Characters:\nStandard competitive programming stdin input stream.",
+    "sampleInput": "\"babad\"",
+    "codeTemplates": {
+      "python": "# --- 20. Longest Substring Without Repeating Characters (sliding-window) ---\ndef solution(inputs):\n    # Function implementation\n    pass\n\nif __name__ == \"__main__\":\n    import sys\n    # Sample Input: adjust according to problem requirements\n    raw_input = sys.stdin.read().splitlines() if not sys.stdin.isatty() else [\"sample_input_1\", \"sample_input_2\"]\n    print(f\"Input: {raw_input}\")\n    # result = solution(raw_input)\n    # print(f\"Output: {result}\")\n",
+      "cpp": "// --- 20. Longest Substring Without Repeating Characters (sliding-window) ---\n#include <iostream>\n#include <vector>\n#include <string>\n#include <sstream>\nusing namespace std;\n\nclass Solution {\npublic:\n    void solve() {\n        // Implement driver and input logic\n    }\n};\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    Solution sol;\n    sol.solve();\n    return 0;\n}\n",
+      "java": "// --- 20. Longest Substring Without Repeating Characters (sliding-window) ---\nimport java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        // Parse input here\n        System.out.println(\"Ready for input: \" + \"Longest Substring Without Repeating Characters\");\n    }\n}\n",
+      "javascript": "// --- 20. Longest Substring Without Repeating Characters (sliding-window) ---\nconst fs = require('fs');\n\nfunction solve(input) {\n  // Implement standard logic\n  return input;\n}\n\nconst input = fs.readFileSync('/dev/stdin', 'utf-8').trim().split('\\n');\nconsole.log(solve(input));\n",
+      "typescript": "// --- 20. Longest Substring Without Repeating Characters (sliding-window) ---\nimport * as fs from 'fs';\n\nfunction solveTS(inputData: string[]): any {\n  // Implement TypeScript logic\n  return inputData;\n}\n\nconst rawData: string[] = fs.readFileSync(0, 'utf-8').trim().split('\\n');\nconsole.log(solveTS(rawData));\n"
+    }
+  },
+  "referenceSolutions": {
+    "cpp": "class Solution {\npublic:\n    int longestSubstringWithout(vector<int>& nums, int target) {\n        int left = 0, right = nums.size() - 1;\n        while (left <= right) {\n            int mid = left + (right - left) / 2;\n            if (nums[mid] == target) return mid;\n            else if (nums[mid] < target) left = mid + 1;\n            else right = mid - 1;\n        }\n        return -1;\n    }\n};",
+    "python": "class Solution:\n    def longestSubstringWithout(self, nums: list[int], target: int) -> int:\n        left, right = 0, len(nums) - 1\n        while left <= right:\n            mid = (left + right) // 2\n            if nums[mid] == target: return mid\n            elif nums[mid] < target: left = mid + 1\n            else: right = mid - 1\n        return -1",
+    "java": "class Solution {\n    public int longestSubstringWithout(int[] nums, int target) {\n        int left = 0, right = nums.length - 1;\n        while (left <= right) {\n            int mid = left + (right - left) / 2;\n            if (nums[mid] == target) return mid;\n            else if (nums[mid] < target) left = mid + 1;\n            else right = mid - 1;\n        }\n        return -1;\n    }\n}",
+    "javascript": "var longestSubstringWithout = function(nums, target) {\n    let left = 0, right = nums.length - 1;\n    while (left <= right) {\n        let mid = Math.floor((left + right) / 2);\n        if (nums[mid] === target) return mid;\n        else if (nums[mid] < target) left = mid + 1;\n        else right = mid - 1;\n    }\n    return -1;\n};",
+    "typescript": "function longestSubstringWithout(nums: number[], target: number): number {\n    let left = 0, right = nums.length - 1;\n    while (left <= right) {\n        let mid = Math.floor((left + right) / 2);\n        if (nums[mid] === target) return mid;\n        else if (nums[mid] < target) left = mid + 1;\n        else right = mid - 1;\n    }\n    return -1;\n};"
+  },
+  "starterCode": {
+    "cpp": "class Solution {\npublic:\n    int longestSubstringWithout(vector<int>& nums, int target) {\n        \n    }\n};",
+    "python": "class Solution:\n    def longestSubstringWithout(self, nums: list[int], target: int) -> int:\n        pass",
+    "java": "class Solution {\n    public int longestSubstringWithout(int[] nums, int target) {\n        \n    }\n}",
+    "javascript": "var longestSubstringWithout = function(nums, target) {\n    \n};",
+    "typescript": "function longestSubstringWithout(nums: number[], target: number): number {\n    \n};"
   },
   "starterMetadata": {
     "functionName": "longestSubstringWithoutRepeatingCharacters",
@@ -168,21 +193,21 @@
     {
       "id": "sample-1",
       "classification": "sample",
-      "input": "s = \"babad\"",
+      "input": "\"babad\"",
       "expectedOutput": "\"bab\"",
       "explanation": "Sample test 1 for Longest Substring Without Repeating Characters"
     },
     {
       "id": "sample-2",
       "classification": "sample",
-      "input": "s = \"cbbd\"",
+      "input": "\"cbbd\"",
       "expectedOutput": "\"bb\"",
       "explanation": "Sample test 2 for Longest Substring Without Repeating Characters"
     },
     {
       "id": "sample-3",
       "classification": "sample",
-      "input": "s = \"a\"",
+      "input": "\"a\"",
       "expectedOutput": "\"a\"",
       "explanation": "Sample test 3 for Longest Substring Without Repeating Characters"
     }
@@ -191,35 +216,35 @@
     {
       "id": "edge-1",
       "classification": "edge",
-      "input": "s = \"\"",
+      "input": "\"\"",
       "expectedOutput": "\"\"",
       "explanation": "Empty string boundary"
     },
     {
       "id": "corner-2",
       "classification": "corner",
-      "input": "s = \"aaaaa\"",
+      "input": "\"aaaaa\"",
       "expectedOutput": "\"aaaaa\"",
       "explanation": "All identical characters"
     },
     {
       "id": "stress-3",
       "classification": "stress",
-      "input": "s = \"abcdefghijklmnopqrstuvwxyz\"",
+      "input": "\"abcdefghijklmnopqrstuvwxyz\"",
       "expectedOutput": "1",
       "explanation": "All distinct characters"
     },
     {
       "id": "duplicates-4",
       "classification": "duplicates",
-      "input": "s = \"abacaba\"",
+      "input": "\"abacaba\"",
       "expectedOutput": "\"abacaba\"",
       "explanation": "Symmetric palindrome string"
     },
     {
       "id": "performance-5",
       "classification": "performance",
-      "input": "s = \"a\"*1000",
+      "input": "\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"",
       "expectedOutput": "...",
       "explanation": "Performance test"
     }

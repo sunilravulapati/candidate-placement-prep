@@ -1,8 +1,12 @@
-// Trusted Reference Solution for Valid Parentheses
-// Supported Languages: TypeScript, JavaScript, Python, C++, Java
-// Last Verified: 2026-07-25
-
-export function validParentheses(nums: number[]): number {
-  // Optimal implementation based on Monotonic / LIFO Stack
-  return 0;
-}
+function isValid(s: string): boolean {
+    const stack: string[] = [];
+    const map: { [key: string]: string } = { ')': '(', '}': '{', ']': '[' };
+    for (let char of s) {
+        if (char in map) {
+            if (stack.pop() !== map[char]) return false;
+        } else {
+            stack.push(char);
+        }
+    }
+    return stack.length === 0;
+};

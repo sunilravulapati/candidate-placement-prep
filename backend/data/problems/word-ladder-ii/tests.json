@@ -2,56 +2,56 @@
   {
     "id": "sample-1",
     "classification": "sample",
-    "input": "s = \"babad\"",
+    "input": "\"babad\"",
     "expectedOutput": "\"bab\"",
     "explanation": "Sample test 1 for Word Ladder II"
   },
   {
     "id": "sample-2",
     "classification": "sample",
-    "input": "s = \"cbbd\"",
+    "input": "\"cbbd\"",
     "expectedOutput": "\"bb\"",
     "explanation": "Sample test 2 for Word Ladder II"
   },
   {
     "id": "sample-3",
     "classification": "sample",
-    "input": "s = \"a\"",
+    "input": "\"a\"",
     "expectedOutput": "\"a\"",
     "explanation": "Sample test 3 for Word Ladder II"
   },
   {
     "id": "edge-1",
     "classification": "edge",
-    "input": "s = \"\"",
+    "input": "\"\"",
     "expectedOutput": "\"\"",
     "explanation": "Empty string boundary"
   },
   {
     "id": "corner-2",
     "classification": "corner",
-    "input": "s = \"aaaaa\"",
+    "input": "\"aaaaa\"",
     "expectedOutput": "\"aaaaa\"",
     "explanation": "All identical characters"
   },
   {
     "id": "stress-3",
     "classification": "stress",
-    "input": "s = \"abcdefghijklmnopqrstuvwxyz\"",
+    "input": "\"abcdefghijklmnopqrstuvwxyz\"",
     "expectedOutput": "1",
     "explanation": "All distinct characters"
   },
   {
     "id": "duplicates-4",
     "classification": "duplicates",
-    "input": "s = \"abacaba\"",
+    "input": "\"abacaba\"",
     "expectedOutput": "\"abacaba\"",
     "explanation": "Symmetric palindrome string"
   },
   {
     "id": "performance-5",
     "classification": "performance",
-    "input": "s = \"a\"*1000",
+    "input": "\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"",
     "expectedOutput": "...",
     "explanation": "Performance test"
   }

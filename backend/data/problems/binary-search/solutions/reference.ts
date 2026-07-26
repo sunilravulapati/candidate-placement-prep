@@ -1,8 +1,10 @@
-// Trusted Reference Solution for Binary Search
-// Supported Languages: TypeScript, JavaScript, Python, C++, Java
-// Last Verified: 2026-07-25
-
-export function binarySearch(nums: number[]): number {
-  // Optimal implementation based on Binary Search / Space Reduction
-  return 0;
-}
+function binarySearch(nums: number[], target: number): number {
+    let left = 0, right = nums.length - 1;
+    while (left <= right) {
+        let mid = Math.floor((left + right) / 2);
+        if (nums[mid] === target) return mid;
+        else if (nums[mid] < target) left = mid + 1;
+        else right = mid - 1;
+    }
+    return -1;
+};

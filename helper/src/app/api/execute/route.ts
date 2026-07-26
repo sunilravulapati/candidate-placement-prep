@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { executionEngine } from '@/features/live-coding/execution/ExecutionEngine';
+import { normalizeTestCases, normalizeTestInput } from '@/features/live-coding/execution/inputNormalizer';
 import { WrapperGenerator } from '@backend/features/dsa/wrapperGenerator';
 import { CodingProblemRepository } from '@backend/features/liveCoding/repository';
 import type { SupportedLanguage } from '@/features/live-coding/language-config';
@@ -7,18 +8,35 @@ import type { SupportedLanguage } from '@/features/live-coding/language-config';
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const { code, language, problemSlug, testCases, starterMetadata, executionMetadata, driverMetadata } = body;
+    const {
+      code,
+      language,
+      problemSlug,
+      executionMode = 'run',
+      input,
+      testCases,
+      sampleTests,
+      hiddenTests,
+      starterMetadata,
+      executionMetadata,
+      driverMetadata,
+    } = body;
 
     let metaToUse = starterMetadata;
     let execMetaToUse = executionMetadata;
     let driverMetaToUse = driverMetadata;
 
-    if (!metaToUse && problemSlug) {
+    let probSampleTests = sampleTests;
+    let probHiddenTests = hiddenTests;
+
+    if (problemSlug) {
       const problem = await CodingProblemRepository.getProblemBySlug(problemSlug);
       if (problem) {
-        metaToUse = (problem as any).starterMetadata;
-        execMetaToUse = (problem as any).executionMetadata;
-        driverMetaToUse = (problem as any).driverMetadata;
+        metaToUse = (problem as any).starterMetadata || metaToUse;
+        execMetaToUse = (problem as any).executionMetadata || execMetaToUse;
+        driverMetaToUse = (problem as any).driverMetadata || driverMetaToUse;
+        probSampleTests = probSampleTests || problem.sampleTests;
+        probHiddenTests = probHiddenTests || problem.hiddenTests;
       }
     }
 
@@ -37,22 +55,88 @@ export async function POST(req: Request) {
       }
     }
 
+    if (executionMode === 'run') {
+      const visibleToRun = Array.isArray(sampleTests)
+        ? sampleTests
+        : Array.isArray(testCases)
+        ? testCases
+        : probSampleTests || [];
+
+      const normalizedVisible = normalizeTestCases(visibleToRun);
+
+      if (normalizedVisible.length === 0 && input) {
+        const normalizedInput = normalizeTestInput(input);
+        const result = await executionEngine.runCode({
+          code: executableCode,
+          language,
+          input: normalizedInput,
+        });
+        return NextResponse.json({ ...result, executionMode: 'run' });
+      }
+
+      const requestObj = {
+        code: executableCode,
+        language,
+        testCases: normalizedVisible,
+      };
+
+      const result = await executionEngine.runTestCases(requestObj);
+      return NextResponse.json({
+        ...result,
+        executionMode: 'run',
+      });
+    }
+
+    // SUBMIT MODE
+    const visibleToRun = probSampleTests || [];
+    const hiddenToRun = probHiddenTests || [];
+
+    const normVisible = normalizeTestCases(visibleToRun);
+    const normHidden = normalizeTestCases(hiddenToRun);
+
+    const allToRun = [...normVisible, ...normHidden];
     const requestObj = {
       code: executableCode,
       language,
-      testCases,
+      testCases: allToRun,
     };
 
-    const isSingleRun = !testCases || testCases.length === 0;
+    const rawResult = await executionEngine.runTestCases(requestObj);
+    const rawCaseResults = rawResult.testCaseResults || [];
 
-    let result;
-    if (isSingleRun) {
-      result = await executionEngine.runCode(requestObj);
-    } else {
-      result = await executionEngine.runTestCases(requestObj);
-    }
+    const visibleCaseResults = rawCaseResults.slice(0, normVisible.length);
+    const hiddenCaseResults = rawCaseResults.slice(normVisible.length);
 
-    return NextResponse.json(result);
+    const visiblePassed = visibleCaseResults.filter((c) => c.passed).length;
+    const hiddenPassed = hiddenCaseResults.filter((c) => c.passed).length;
+
+    // Secure Hidden Tests: NEVER expose hidden input, hidden output, or expected output
+    const sanitizedHiddenResults = hiddenCaseResults.map((c, idx) => ({
+      index: normVisible.length + idx + 1,
+      passed: c.passed,
+      executionTimeMs: c.executionTimeMs,
+      memoryBytes: c.memoryBytes,
+      errorType: (c as any).errorType,
+      category: (hiddenToRun[idx] as any)?.classification || 'hidden',
+    }));
+
+    const isAllPassed = visiblePassed === normVisible.length && hiddenPassed === normHidden.length;
+
+    return NextResponse.json({
+      ...rawResult,
+      passed: isAllPassed,
+      executionMode: 'submit',
+      visibleStats: {
+        passed: visiblePassed,
+        total: normVisible.length,
+      },
+      hiddenStats: {
+        passed: hiddenPassed,
+        total: normHidden.length,
+      },
+      visibleCaseResults,
+      hiddenCaseResultsSanitized: sanitizedHiddenResults,
+    });
   } catch (error: unknown) {
     const msg = error instanceof Error ? error.message : 'Execution failed';
     return NextResponse.json(
@@ -64,9 +148,9 @@ export async function POST(req: Request) {
         executionTimeMs: 0,
         memoryBytes: 0,
         errorType: 'RUNTIME_ERROR',
-        providerName: 'Server Error',
+        providerName: 'Server Execution Provider',
       },
-      { status: 500 }
+      { status: 200 }
     );
   }
 }

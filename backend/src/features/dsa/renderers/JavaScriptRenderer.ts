@@ -80,6 +80,38 @@ function treeNodeToArray(root) {
   while (res.length > 0 && res[res.length - 1] === null) res.pop();
   return res;
 }
+
+function expandRanges(token: string): string {
+  return token.replace(/\[([\s\S]*?)\]/g, (_match: string, inner: string) => {
+    return '[' + inner.replace(/\b(\d+)\s*\.\.\s*(\d+)\b/g, (_all: string, start: string, end: string) => {
+      const s = parseInt(start, 10);
+      const e = parseInt(end, 10);
+      const length = e - s + 1;
+      if (length <= 0 || length > 20000) {
+        return s + ',' + e;
+      }
+      return Array.from({ length }, (_, i) => String(s + i)).join(',');
+    }) + ']';
+  });
+}
+
+function parseValue(token: string): any {
+  const trimmed = token.trim();
+  try {
+    return JSON.parse(trimmed);
+  } catch (_err) {
+    // ignore
+  }
+
+  const assignmentMatch = trimmed.match(/^[A-Za-z_][A-Za-z0-9_]*\s*=\s*(.*)$/);
+  const candidate = assignmentMatch ? assignmentMatch[1].trim() : trimmed;
+  const expanded = expandRanges(candidate);
+  try {
+    return JSON.parse(expanded);
+  } catch (_err) {
+    return candidate;
+  }
+}
 `;
 
     if (driverType === 'COMMAND_SEQUENCE') {
@@ -135,7 +167,7 @@ ${this.userCode}
   const lines = inputData.split('\\n').filter(l => l.length > 0);
   
   try {
-    const rawArgs = lines.map(line => JSON.parse(line));
+    const rawArgs = lines.map(parseValue);
     // Convert first arg (or list args) to ListNode
     const args = rawArgs.map(arg => Array.isArray(arg) ? arrayToListNode(arg) : arg);
     const isClassMethod = ${this.userCode.includes(`class ${className}`)};
@@ -172,7 +204,7 @@ ${this.userCode}
   const lines = inputData.split('\\n').filter(l => l.length > 0);
   
   try {
-    const rawArgs = lines.map(line => JSON.parse(line));
+    const rawArgs = lines.map(parseValue);
     const args = rawArgs.map(arg => Array.isArray(arg) ? arrayToTreeNode(arg) : arg);
     const isClassMethod = ${this.userCode.includes(`class ${className}`)};
     let result;
@@ -208,7 +240,7 @@ ${this.userCode}
   const lines = inputData.split('\\n').filter(l => l.length > 0);
   
   try {
-    const args = lines.map(line => JSON.parse(line));
+    const args = lines.map(parseValue);
     const isClassMethod = ${this.userCode.includes(`class ${className}`)};
     let result;
     if (isClassMethod) {

@@ -1,8 +1,8 @@
-// Trusted Reference Solution for Maximum Length of Repeated Subarray
-// Supported Languages: TypeScript, JavaScript, Python, C++, Java
-// Last Verified: 2026-07-25
-
-export function 718(nums: number[]): number {
-  // Optimal implementation based on DP Pattern
-  return 0;
-}
+function maximumLengthOf(nums: number[]): number {
+    const n = nums.length;
+    const dp: number[] = new Array(n + 1).fill(0);
+    for (let i = 1; i <= n; i++) {
+        dp[i] = dp[i - 1] + nums[i - 1];
+    }
+    return dp[n];
+};

@@ -141,6 +141,8 @@ function findStaticProblemBySlug(slug: string) {
       relatedProblems: dirProblem.relationships?.related || [],
       resources: dirProblem.resources || [],
       inputTemplates: dirProblem.inputTemplates || {},
+      referenceSolutions: dirProblem.solutionMetadata?.optimalCode || (dirProblem as any).referenceSolutions || {},
+      inputHelper: (dirProblem as any).inputHelper || null,
       expectedApproach: dirProblem.solutionMetadata?.explanation ?? (dirProblem.approach ?? null),
       timeComplexity: dirProblem.optimalTC || (dirProblem.executionMetadata?.expectedComplexity?.time ?? null),
       spaceComplexity: dirProblem.optimalSC || (dirProblem.executionMetadata?.expectedComplexity?.space ?? null),

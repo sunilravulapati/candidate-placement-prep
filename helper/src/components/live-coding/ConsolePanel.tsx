@@ -145,26 +145,127 @@ export default function ConsolePanel({ result, isRunning, language }: ConsolePan
 }
 
 // ── Test Results Sub-tab ──────────────────────────────────────────────────────
-function TestResultsTab({ result }: { result: ExecutionResult }) {
-  const [activeCase, setActiveCase] = useState(0);
-  const cases = result.testCaseResults ?? [];
+function TestResultsTab({ result }: { result: ExecutionResult & { executionMode?: string; visibleStats?: { passed: number; total: number }; hiddenStats?: { passed: number; total: number }; visibleCaseResults?: any[]; hiddenCaseResultsSanitized?: any[] } }) {
+  const isSubmitMode = result.executionMode === 'submit';
+  const visibleCases = result.visibleCaseResults || result.testCaseResults || [];
+  const hiddenCases = result.hiddenCaseResultsSanitized || [];
 
-  if (cases.length === 0) {
+  const [activeCase, setActiveCase] = useState(0);
+
+  if (isSubmitMode) {
+    const visStats = result.visibleStats || { passed: visibleCases.filter((c: any) => c.passed).length, total: visibleCases.length };
+    const hidStats = result.hiddenStats || { passed: hiddenCases.filter((c: any) => c.passed).length, total: hiddenCases.length };
+    const isOverallAccepted = result.passed;
+
     return (
-      <div className="text-slate-500 flex items-center gap-2">
-        <Terminal className="w-4 h-4" />
-        <span>No per-test-case data available for this run.</span>
+      <div className="space-y-5">
+        {/* Submit Execution Summary Card */}
+        <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 space-y-3">
+          <div className="flex items-center justify-between border-b border-slate-800 pb-2">
+            <span className="text-xs font-bold uppercase tracking-wider text-slate-400">Submission Results</span>
+            <span className={cn('px-2.5 py-1 rounded-full text-xs font-bold', isOverallAccepted ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' : 'bg-rose-500/20 text-rose-400 border border-rose-500/30')}>
+              {isOverallAccepted ? 'Accepted' : (result.errorType || 'Wrong Answer')}
+            </span>
+          </div>
+
+          <div className="grid grid-cols-2 gap-3 text-xs">
+            <div className="bg-slate-950/80 border border-slate-800 p-3 rounded-lg flex items-center justify-between">
+              <span className="text-slate-400 font-semibold">Visible Tests</span>
+              <span className={cn('font-mono font-bold', visStats.passed === visStats.total ? 'text-emerald-400' : 'text-rose-400')}>
+                {visStats.passed} / {visStats.total}
+              </span>
+            </div>
+            <div className="bg-slate-950/80 border border-slate-800 p-3 rounded-lg flex items-center justify-between">
+              <span className="text-slate-400 font-semibold">Hidden Tests</span>
+              <span className={cn('font-mono font-bold', hidStats.passed === hidStats.total ? 'text-emerald-400' : 'text-rose-400')}>
+                {hidStats.passed} / {hidStats.total}
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* Visible Test Case Inspection */}
+        {visibleCases.length > 0 && (
+          <div className="space-y-3">
+            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-400">Visible Tests</h4>
+            <div className="flex gap-1.5 flex-wrap">
+              {visibleCases.map((c: any, i: number) => (
+                <button
+                  key={i}
+                  onClick={() => setActiveCase(i)}
+                  className={cn(
+                    'px-3 py-1 rounded-lg text-xs font-medium border transition-colors flex items-center gap-1.5',
+                    activeCase === i
+                      ? c.passed
+                        ? 'bg-emerald-500/20 border-emerald-500/40 text-emerald-300'
+                        : 'bg-rose-500/20 border-rose-500/40 text-rose-300'
+                      : 'bg-slate-800 border-slate-700 text-slate-400 hover:bg-slate-700 hover:text-slate-300'
+                  )}
+                >
+                  {c.passed ? <CheckCircle2 className="w-3 h-3 text-emerald-400" /> : <XCircle className="w-3 h-3 text-rose-400" />}
+                  Example {i + 1}
+                </button>
+              ))}
+            </div>
+
+            {visibleCases[activeCase] && (
+              <div className="space-y-3 pt-1">
+                {visibleCases[activeCase].input && <InfoBlock label="Input" value={visibleCases[activeCase].input} />}
+                <InfoBlock label="Expected Output" value={visibleCases[activeCase].expectedOutput} />
+                <InfoBlock label="Your Output" value={visibleCases[activeCase].actualOutput || '(empty)'} variant={visibleCases[activeCase].passed ? 'success' : 'error'} />
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Hidden Test Case Status List (SECURED: No hidden inputs or outputs revealed) */}
+        {hiddenCases.length > 0 && (
+          <div className="space-y-3 pt-2 border-t border-slate-800">
+            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-400 flex items-center justify-between">
+              <span>Hidden Tests Status</span>
+              <span className="text-[10px] text-slate-500 normal-case font-normal">(Hidden test inputs are masked)</span>
+            </h4>
+            <div className="space-y-2">
+              {hiddenCases.map((hc: any, i: number) => (
+                <div key={i} className="bg-slate-900 border border-slate-800 p-2.5 rounded-lg flex items-center justify-between text-xs">
+                  <div className="flex items-center gap-2">
+                    {hc.passed ? <CheckCircle2 className="w-4 h-4 text-emerald-400" /> : <XCircle className="w-4 h-4 text-rose-400" />}
+                    <span className="font-semibold text-slate-300">Hidden Test #{i + 1}</span>
+                  </div>
+                  <div className="flex items-center gap-3 font-mono text-[11px]">
+                    <span className={cn('font-bold', hc.passed ? 'text-emerald-400' : 'text-rose-400')}>
+                      {hc.passed ? 'Passed' : (hc.errorType || 'Failed')}
+                    </span>
+                    {hc.executionTimeMs !== undefined && hc.executionTimeMs > 0 && (
+                      <span className="text-slate-500">{hc.executionTimeMs.toFixed(1)} ms</span>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     );
   }
 
-  const tc = cases[activeCase];
+  // RUN MODE
+  if (visibleCases.length === 0) {
+    return (
+      <div className="text-slate-500 flex items-center gap-2 p-4">
+        <Terminal className="w-4 h-4" />
+        <span>No sample test case output available for this run.</span>
+      </div>
+    );
+  }
+
+  const tc = visibleCases[activeCase] || visibleCases[0];
 
   return (
     <div className="space-y-4">
-      {/* Case selector */}
+      {/* Visible Case Selector */}
       <div className="flex gap-1.5 flex-wrap">
-        {cases.map((c, i) => (
+        {visibleCases.map((c: any, i: number) => (
           <button
             key={i}
             onClick={() => setActiveCase(i)}
@@ -182,41 +283,43 @@ function TestResultsTab({ result }: { result: ExecutionResult }) {
             ) : (
               <XCircle className="w-3 h-3 text-rose-400" />
             )}
-            Case {i + 1}
+            Example {i + 1}
           </button>
         ))}
       </div>
 
-      {/* Case detail */}
-      <div className="space-y-3">
-        {tc.input && (
-          <InfoBlock label="Input" value={tc.input} />
-        )}
-        <InfoBlock label="Expected Output" value={tc.expectedOutput} />
-        <InfoBlock
-          label="Your Output"
-          value={tc.actualOutput || '(empty)'}
-          variant={tc.passed ? 'success' : 'error'}
-        />
-        {tc.executionTimeMs !== undefined && (
-          <div className="flex gap-4 text-xs text-slate-500 pt-1">
-            <span>
-              Runtime:{' '}
-              <span className="text-emerald-400 font-semibold">
-                {tc.executionTimeMs.toFixed(1)} ms
-              </span>
-            </span>
-            {tc.memoryBytes !== undefined && tc.memoryBytes > 0 && (
+      {/* Visible Case Detail */}
+      {tc && (
+        <div className="space-y-3">
+          {tc.input && (
+            <InfoBlock label="Input" value={tc.input} />
+          )}
+          <InfoBlock label="Expected Output" value={tc.expectedOutput} />
+          <InfoBlock
+            label="Your Output"
+            value={tc.actualOutput || '(empty)'}
+            variant={tc.passed ? 'success' : 'error'}
+          />
+          {tc.executionTimeMs !== undefined && (
+            <div className="flex gap-4 text-xs text-slate-500 pt-1">
               <span>
-                Memory:{' '}
-                <span className="text-indigo-400 font-semibold">
-                  {(tc.memoryBytes / 1024 / 1024).toFixed(1)} MB
+                Runtime:{' '}
+                <span className="text-emerald-400 font-semibold">
+                  {tc.executionTimeMs.toFixed(1)} ms
                 </span>
               </span>
-            )}
-          </div>
-        )}
-      </div>
+              {tc.memoryBytes !== undefined && tc.memoryBytes > 0 && (
+                <span>
+                  Memory:{' '}
+                  <span className="text-indigo-400 font-semibold">
+                    {(tc.memoryBytes / 1024 / 1024).toFixed(1)} MB
+                  </span>
+                </span>
+              )}
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }

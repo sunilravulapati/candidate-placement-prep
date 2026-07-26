@@ -9,6 +9,7 @@ export class PythonRenderer extends BaseRenderer {
     const helpers = `
 import sys
 import json
+import re
 from typing import List, Optional, Dict, Set, Tuple
 
 class ListNode:
@@ -76,6 +77,33 @@ def treeNodeToArray(root):
     while res and res[-1] is None:
         res.pop()
     return res
+
+
+def expand_ranges(token):
+    def replace_range(match):
+        start = int(match.group(1))
+        end = int(match.group(2))
+        length = end - start + 1
+        if length <= 0 or length > 20000:
+            return f"{start},{end}"
+        return ','.join(str(start + i) for i in range(length))
+    return re.sub(r'\[(.*?)\]', lambda m: '[' + re.sub(r'\b(\d+)\s*\.\.\s*(\d+)\b', replace_range, m.group(1)) + ']', token)
+
+
+def parse_value(token):
+    stripped = token.strip()
+    try:
+        return json.loads(stripped)
+    except Exception:
+        pass
+
+    match = re.match(r'^[A-Za-z_][A-Za-z0-9_]*\s*=\s*(.*)$', stripped)
+    candidate = match.group(1).strip() if match else stripped
+    candidate = expand_ranges(candidate)
+    try:
+        return json.loads(candidate)
+    except Exception:
+        return candidate
 `;
 
     if (driverType === 'COMMAND_SEQUENCE') {
@@ -119,7 +147,7 @@ if __name__ == '__main__':
     raw_input = sys.stdin.read().strip()
     if raw_input:
         lines = [l for l in raw_input.split('\\n') if l.strip()]
-        raw_args = [json.loads(l) for l in lines]
+        raw_args = [parse_value(l) for l in lines]
         args = [arrayToListNode(a) if isinstance(a, list) else a for a in raw_args]
         solver = ${className}()
         func = getattr(solver, '${functionName}', None)
@@ -142,7 +170,7 @@ if __name__ == '__main__':
     raw_input = sys.stdin.read().strip()
     if raw_input:
         lines = [l for l in raw_input.split('\\n') if l.strip()]
-        raw_args = [json.loads(l) for l in lines]
+        raw_args = [parse_value(l) for l in lines]
         args = [arrayToTreeNode(a) if isinstance(a, list) else a for a in raw_args]
         solver = ${className}()
         func = getattr(solver, '${functionName}', None)
@@ -165,7 +193,7 @@ if __name__ == '__main__':
     raw_input = sys.stdin.read().strip()
     if raw_input:
         lines = [l for l in raw_input.split('\\n') if l.strip()]
-        args = [json.loads(l) for l in lines]
+        args = [parse_value(l) for l in lines]
         solver = ${className}()
         func = getattr(solver, '${functionName}', None)
         if func:

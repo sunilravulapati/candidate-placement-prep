@@ -1,8 +1,8 @@
-// Trusted Reference Solution for Kth Smallest Element in a BST
-// Supported Languages: TypeScript, JavaScript, Python, C++, Java
-// Last Verified: 2026-07-25
-
-export function kthSmallestElementInABst(nums: number[]): number {
-  // Optimal implementation based on BST
-  return 0;
-}
+function kthSmallestElement(nums: number[]): number {
+    const n = nums.length;
+    const dp: number[] = new Array(n + 1).fill(0);
+    for (let i = 1; i <= n; i++) {
+        dp[i] = dp[i - 1] + nums[i - 1];
+    }
+    return dp[n];
+};
