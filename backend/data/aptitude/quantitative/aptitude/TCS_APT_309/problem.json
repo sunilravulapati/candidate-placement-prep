@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_309",
+  "slug": "tcs-apt-309",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A bus travels at 60 km/h for 2.5h, then 80 km/h for 1.5h. Total distance?",
+  "description": "A bus travels at 60 km/h for 2.5h, then 80 km/h for 1.5h. Total distance?",
+  "question": "A bus travels at 60 km/h for 2.5h, then 80 km/h for 1.5h. Total distance?",
+  "options": [
+    "270 km",
+    "300 km",
+    "250 km",
+    "280 km"
+  ],
+  "optionsMap": {
+    "A": "270 km",
+    "B": "300 km",
+    "C": "250 km",
+    "D": "280 km"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "270 km",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

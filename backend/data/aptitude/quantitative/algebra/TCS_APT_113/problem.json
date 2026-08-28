@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_113",
+  "slug": "tcs-apt-113",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "algebra",
+  "topicName": "Algebra",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The sum of two numbers is 40 and their difference is 10. Find the smaller num...",
+  "description": "The sum of two numbers is 40 and their difference is 10. Find the smaller number.",
+  "question": "The sum of two numbers is 40 and their difference is 10. Find the smaller number.",
+  "options": [
+    "15",
+    "20",
+    "25",
+    "10"
+  ],
+  "optionsMap": {
+    "A": "15",
+    "B": "20",
+    "C": "25",
+    "D": "10"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "15",
+  "tags": [
+    "quantitative",
+    "algebra"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_397",
+  "slug": "tcs-ver-397",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "miscellaneous",
+  "topicName": "Miscellaneous",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "What is the noun form of 'describe'?",
+  "description": "What is the noun form of 'describe'?",
+  "question": "What is the noun form of 'describe'?",
+  "options": [
+    "Descriptive",
+    "Describing",
+    "Description",
+    "Describation"
+  ],
+  "optionsMap": {
+    "A": "Descriptive",
+    "B": "Describing",
+    "C": "Description",
+    "D": "Describation"
+  },
+  "answer": "C",
+  "answerKey": "C",
+  "correctAnswer": "Description",
+  "tags": [
+    "verbal",
+    "miscellaneous"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

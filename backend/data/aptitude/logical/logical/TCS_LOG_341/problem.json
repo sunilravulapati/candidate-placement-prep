@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_341",
+  "slug": "tcs-log-341",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If some managers are leaders, and all leaders inspire, then?",
+  "description": "If some managers are leaders, and all leaders inspire, then?",
+  "question": "If some managers are leaders, and all leaders inspire, then?",
+  "options": [
+    "Some managers inspire",
+    "No managers inspire",
+    "All inspire",
+    "Cannot say"
+  ],
+  "optionsMap": {
+    "A": "Some managers inspire",
+    "B": "No managers inspire",
+    "C": "All inspire",
+    "D": "Cannot say"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Some managers inspire",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_345",
+  "slug": "tcs-ver-345",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "one-word-substitution",
+  "topicName": "One Word Substitution",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Find the one word substitution for: A person living permanently in a foreign ...",
+  "description": "Find the one word substitution for: A person living permanently in a foreign country",
+  "question": "Find the one word substitution for: A person living permanently in a foreign country",
+  "options": [
+    "Expatriate",
+    "Immigrant",
+    "Emigrant",
+    "Refugee"
+  ],
+  "optionsMap": {
+    "A": "Expatriate",
+    "B": "Immigrant",
+    "C": "Emigrant",
+    "D": "Refugee"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Expatriate",
+  "tags": [
+    "verbal",
+    "one-word-substitution"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

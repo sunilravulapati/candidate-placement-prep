@@ -264,38 +264,52 @@ function buildOrderBy(sort?: SortOption) {
   }
 }
 
-async function getUserProblemStatuses(userId: string) {
+export async function getUserProblemStatuses(userId: string) {
   const [accepted, attempted, bookmarks] = await Promise.all([
     prisma.codingSubmission.findMany({
       where: { userId, status: 'ACCEPTED' },
-      include: { session: { select: { problemId: true } } },
+      include: { session: { select: { problemId: true, problem: { select: { slug: true } } } } },
     }),
     prisma.codingSubmission.findMany({
       where: { userId },
-      include: { session: { select: { problemId: true } } },
+      include: { session: { select: { problemId: true, problem: { select: { slug: true } } } } },
     }),
     prisma.codingBookmark.findMany({
       where: { userId },
-      select: { problemId: true },
+      select: { problemId: true, problem: { select: { slug: true } } },
     }),
   ]);
 
-  const solved = new Set(accepted.map((s) => s.session.problemId));
-  const attemptedSet = new Set(attempted.map((s) => s.session.problemId));
-  const bookmarked = new Set(bookmarks.map((b) => b.problemId));
+  const solved = new Set<string>();
+  for (const s of accepted) {
+    if (s.session.problemId) solved.add(s.session.problemId);
+    if (s.session.problem?.slug) solved.add(s.session.problem.slug);
+  }
+
+  const attemptedSet = new Set<string>();
+  for (const s of attempted) {
+    if (s.session.problemId) attemptedSet.add(s.session.problemId);
+    if (s.session.problem?.slug) attemptedSet.add(s.session.problem.slug);
+  }
+
+  const bookmarked = new Set<string>();
+  for (const b of bookmarks) {
+    if (b.problemId) bookmarked.add(b.problemId);
+    if (b.problem?.slug) bookmarked.add(b.problem.slug);
+  }
 
   return { solved, attempted: attemptedSet, bookmarked };
 }
 
-function resolveStatus(
-  problemId: string,
+export function resolveStatus(
+  problemIdentifier: string,
   solved: Set<string>,
   attempted: Set<string>,
   bookmarked: Set<string>
 ): ProblemStatus {
-  if (solved.has(problemId)) return 'SOLVED';
-  if (attempted.has(problemId)) return 'ATTEMPTED';
-  if (bookmarked.has(problemId)) return 'BOOKMARKED';
+  if (solved.has(problemIdentifier)) return 'SOLVED';
+  if (attempted.has(problemIdentifier)) return 'ATTEMPTED';
+  if (bookmarked.has(problemIdentifier)) return 'BOOKMARKED';
   return 'NOT_STARTED';
 }
 
@@ -437,11 +451,15 @@ export class CodingProblemRepository {
   }
 
   static async getDifficultyTotals() {
-    const [easy, medium, hard] = await Promise.all([
-      prisma.codingProblem.count({ where: { difficulty: 'EASY' } }),
-      prisma.codingProblem.count({ where: { difficulty: 'MEDIUM' } }),
-      prisma.codingProblem.count({ where: { difficulty: 'HARD' } }),
-    ]);
+    const allProblems = await this.getAllProblems();
+    let easy = 0;
+    let medium = 0;
+    let hard = 0;
+    for (const p of allProblems) {
+      if (p.difficulty === 'EASY') easy++;
+      else if (p.difficulty === 'MEDIUM') medium++;
+      else if (p.difficulty === 'HARD') hard++;
+    }
     return { easy, medium, hard };
   }
 
@@ -450,11 +468,7 @@ export class CodingProblemRepository {
    * Seeds by YYYYMMDD integer mod total problem count, then finds closest unsolved.
    */
   static async getTodaysChallenge(userId: string) {
-    const problems = await prisma.codingProblem.findMany({
-      include: { topics: true, companies: true },
-      orderBy: { createdAt: 'asc' },
-    });
-
+    const problems = await this.getAllProblems();
     if (problems.length === 0) return null;
 
     // Stable daily seed: YYYYMMDD
@@ -464,13 +478,13 @@ export class CodingProblemRepository {
     const { solved } = await getUserProblemStatuses(userId);
 
     // If today's problem is already solved, find next unsolved
-    if (!solved.has(problems[todayIndex].id)) {
+    if (!solved.has(problems[todayIndex].id) && !solved.has(problems[todayIndex].slug)) {
       return problems[todayIndex];
     }
 
     for (let i = 1; i <= problems.length; i++) {
       const candidate = problems[(todayIndex + i) % problems.length];
-      if (!solved.has(candidate.id)) return candidate;
+      if (!solved.has(candidate.id) && !solved.has(candidate.slug)) return candidate;
     }
 
     return null; // All problems solved
@@ -479,11 +493,52 @@ export class CodingProblemRepository {
 
 export class CodingSessionRepository {
   static async getOrCreateSession(userId: string, problemSlug: string, language = 'javascript') {
+    // 1. Ensure user exists
+    await prisma.user.upsert({
+      where: { id: userId },
+      update: {},
+      create: { id: userId, email: `${userId}@user.prepgenie.internal` },
+    });
+
     const problem = await CodingProblemRepository.getProblemBySlug(problemSlug);
     if (!problem) throw new Error('Problem not found');
 
+    // 2. Ensure problem exists in DB table to satisfy foreign key
+    let dbProblem = await prisma.codingProblem.findUnique({
+      where: { slug: problemSlug },
+    });
+
+    if (!dbProblem) {
+      const staticData = findStaticProblemBySlug(problemSlug);
+      if (staticData) {
+        dbProblem = await prisma.codingProblem.upsert({
+          where: { slug: problemSlug },
+          update: {},
+          create: {
+            id: staticData.id || undefined,
+            slug: staticData.slug,
+            title: staticData.title,
+            difficulty: staticData.difficulty,
+            description: staticData.description,
+            constraints: staticData.constraints || [],
+            examples: (staticData.examples as any) || [],
+            starterCode: (staticData.starterCode as any) || {},
+            hints: staticData.hints || [],
+            editorial: staticData.editorial || null,
+            timeComplexity: staticData.timeComplexity || null,
+            spaceComplexity: staticData.spaceComplexity || null,
+            estimatedTime: staticData.estimatedTime || 15,
+            sampleTests: (staticData.sampleTests as any) || [],
+            hiddenTests: (staticData.hiddenTests as any) || [],
+          },
+        });
+      }
+    }
+
+    const finalProblemId = dbProblem?.id || problem.id;
+
     const existing = await prisma.codingSession.findFirst({
-      where: { userId, problemId: problem.id, status: 'ACTIVE' },
+      where: { userId, problemId: finalProblemId, status: 'ACTIVE' },
       include: { problem: { include: { topics: true, companies: true, tags: true } } },
       orderBy: { startTime: 'desc' },
     });
@@ -491,7 +546,7 @@ export class CodingSessionRepository {
     if (existing) return existing;
 
     return prisma.codingSession.create({
-      data: { userId, problemId: problem.id, language, status: 'ACTIVE' },
+      data: { userId, problemId: finalProblemId, language, status: 'ACTIVE' },
       include: { problem: { include: { topics: true, companies: true, tags: true } } },
     });
   }
@@ -583,7 +638,12 @@ export class CodingSubmissionRepository {
     basicReview?: unknown;
     detailedReview?: unknown;
   }) {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    await prisma.user.upsert({
+      where: { id: data.userId },
+      update: {},
+      create: { id: data.userId, email: `${data.userId}@user.prepgenie.internal` },
+    });
+
     return prisma.codingSubmission.create({ data: data as any });
   }
 
@@ -611,7 +671,6 @@ export class CodingSubmissionRepository {
   static async updateDetailedReview(submissionId: string, detailedReview: any) {
     return prisma.codingSubmission.update({
       where: { id: submissionId },
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       data: { detailedReview: detailedReview as any },
     });
   }
@@ -674,23 +733,35 @@ export class CodingProgressRepository {
   }
 
   static async recalculate(userId: string) {
+    await this.getOrCreate(userId);
+
     const accepted = await prisma.codingSubmission.findMany({
       where: { userId, status: 'ACCEPTED' },
       include: { session: { include: { problem: true } } },
     });
 
-    const uniqueSolved = new Map<string, CodingDifficulty>();
-    for (const sub of accepted) {
-      uniqueSolved.set(sub.session.problemId, sub.session.problem.difficulty as CodingDifficulty);
+    const allProblems = await CodingProblemRepository.getAllProblems();
+    const probMap = new Map<string, any>();
+    for (const p of allProblems) {
+      probMap.set(p.id, p);
+      probMap.set(p.slug, p);
     }
 
+    const uniqueSolvedSlugs = new Set<string>();
     let easySolved = 0;
     let mediumSolved = 0;
     let hardSolved = 0;
-    for (const diff of uniqueSolved.values()) {
+
+    for (const sub of accepted) {
+      const p = probMap.get(sub.session.problemId) || probMap.get((sub.session as any).problem?.slug);
+      const slug = p?.slug || sub.session.problemId;
+      if (uniqueSolvedSlugs.has(slug)) continue;
+      uniqueSolvedSlugs.add(slug);
+
+      const diff = (p?.difficulty || sub.session.problem?.difficulty || 'MEDIUM').toUpperCase();
       if (diff === 'EASY') easySolved++;
       else if (diff === 'MEDIUM') mediumSolved++;
-      else hardSolved++;
+      else if (diff === 'HARD') hardSolved++;
     }
 
     const totalSubmissions = await prisma.codingSubmission.count({ where: { userId } });
@@ -731,11 +802,20 @@ export class CodingProgressRepository {
 
 export class CodingBookmarkRepository {
   static async toggleBookmark(userId: string, problemSlug: string) {
+    await prisma.user.upsert({
+      where: { id: userId },
+      update: {},
+      create: { id: userId, email: `${userId}@user.prepgenie.internal` },
+    });
+
     const problem = await CodingProblemRepository.getProblemBySlug(problemSlug);
     if (!problem) throw new Error('Problem not found');
 
-    const existing = await prisma.codingBookmark.findUnique({
-      where: { userId_problemId: { userId, problemId: problem.id } },
+    const existing = await prisma.codingBookmark.findFirst({
+      where: {
+        userId,
+        OR: [{ problemId: problem.id }, { problemId: problemSlug }],
+      },
     });
 
     if (existing) {
@@ -763,17 +843,29 @@ export class CodingNoteRepository {
     const problem = await CodingProblemRepository.getProblemBySlug(problemSlug);
     if (!problem) return null;
     return prisma.codingNote.findFirst({
-      where: { userId, problemId: problem.id },
+      where: {
+        userId,
+        OR: [{ problemId: problem.id }, { problemId: problemSlug }],
+      },
       orderBy: { updatedAt: 'desc' },
     });
   }
 
   static async saveNote(userId: string, problemSlug: string, content: string) {
+    await prisma.user.upsert({
+      where: { id: userId },
+      update: {},
+      create: { id: userId, email: `${userId}@user.prepgenie.internal` },
+    });
+
     const problem = await CodingProblemRepository.getProblemBySlug(problemSlug);
     if (!problem) throw new Error('Problem not found');
 
     const existing = await prisma.codingNote.findFirst({
-      where: { userId, problemId: problem.id },
+      where: {
+        userId,
+        OR: [{ problemId: problem.id }, { problemId: problemSlug }],
+      },
     });
 
     if (existing) {
@@ -795,22 +887,18 @@ export class CodingLearningPathRepository {
       include: { problems: true },
     });
 
-    const accepted = await prisma.codingSubmission.findMany({
-      where: { userId, status: 'ACCEPTED' },
-      include: { session: { select: { problemId: true } } },
-    });
-    const solvedIds = new Set(accepted.map((s) => s.session.problemId));
+    const { solved } = await getUserProblemStatuses(userId);
 
     return paths.map((path) => {
       const total = path.problems.length;
-      const solved = path.problems.filter((p) => solvedIds.has(p.id)).length;
+      const solvedCount = path.problems.filter((p) => solved.has(p.id) || solved.has(p.slug)).length;
       return {
         slug: path.slug,
         title: path.title,
         description: path.description,
         total,
-        solved,
-        progress: total > 0 ? Math.round((solved / total) * 100) : 0,
+        solved: solvedCount,
+        progress: total > 0 ? Math.round((solvedCount / total) * 100) : 0,
       };
     });
   }
@@ -820,18 +908,14 @@ export class CodingLearningPathRepository {
       include: { problems: true },
     });
 
-    const accepted = await prisma.codingSubmission.findMany({
-      where: { userId, status: 'ACCEPTED' },
-      include: { session: { select: { problemId: true } } },
-    });
-    const solvedIds = new Set(accepted.map((s) => s.session.problemId));
+    const { solved } = await getUserProblemStatuses(userId);
 
     return companies
       .map((c) => ({
         name: c.name,
         slug: c.slug,
         total: c.problems.length,
-        solved: c.problems.filter((p) => solvedIds.has(p.id)).length,
+        solved: c.problems.filter((p) => solved.has(p.id) || solved.has(p.slug)).length,
       }))
       .filter((c) => c.total > 0)
       .sort((a, b) => b.solved - a.solved)
@@ -839,24 +923,28 @@ export class CodingLearningPathRepository {
   }
 
   static async getTopicProgress(userId: string) {
-    const topics = await prisma.codingTopic.findMany({
-      include: { problems: true },
-    });
+    const allProblems = await CodingProblemRepository.getAllProblems();
+    const { solved } = await getUserProblemStatuses(userId);
 
-    const accepted = await prisma.codingSubmission.findMany({
-      where: { userId, status: 'ACCEPTED' },
-      include: { session: { select: { problemId: true } } },
-    });
-    const solvedIds = new Set(accepted.map((s) => s.session.problemId));
+    const topicMap = new Map<string, { name: string; slug: string; total: number; solved: number }>();
 
-    return topics
-      .map((t) => ({
-        name: t.name,
-        slug: t.slug,
-        total: t.problems.length,
-        solved: t.problems.filter((p) => solvedIds.has(p.id)).length,
-      }))
+    for (const p of allProblems) {
+      const topSlug = (p as any).primaryTopic || (p.topics && p.topics[0]?.slug) || 'general';
+      const topName = (p.topics && p.topics[0]?.name) || topSlug.replace(/-/g, ' ');
+
+      if (!topicMap.has(topSlug)) {
+        topicMap.set(topSlug, { name: topName, slug: topSlug, total: 0, solved: 0 });
+      }
+
+      const item = topicMap.get(topSlug)!;
+      item.total++;
+      if (solved.has(p.id) || solved.has(p.slug)) {
+        item.solved++;
+      }
+    }
+
+    return Array.from(topicMap.values())
       .filter((t) => t.total > 0)
-      .sort((a, b) => b.solved - a.solved);
+      .sort((a, b) => b.solved - a.solved || b.total - a.total);
   }
 }

@@ -1,77 +1,118 @@
-/* src/styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: 224 71% 4%;
-  --foreground: 213 31% 91%;
-
-  --card: 224 71% 4%;
-  --card-foreground: 213 31% 91%;
-
-  --popover: 224 71% 4%;
-  --popover-foreground: 213 31% 91%;
-
-  --primary: 263.4 70% 50.4%;
-  --primary-foreground: 210 40% 98%;
-
-  --secondary: 222.2 47.4% 11.2%;
+  --background: 225 36% 7%;
+  --foreground: 210 40% 98%;
+  --card: 224 36% 10%;
+  --card-foreground: 210 40% 98%;
+  --popover: 224 36% 10%;
+  --popover-foreground: 210 40% 98%;
+  --primary: 259 94% 68%;
+  --primary-foreground: 222 47% 11%;
+  --secondary: 222 30% 15%;
   --secondary-foreground: 210 40% 98%;
-
-  --muted: 223 47% 11%;
-  --muted-foreground: 215.4 16.3% 56.9%;
-
-  --accent: 216 34% 17%;
+  --muted: 222 30% 14%;
+  --muted-foreground: 215 20% 65%;
+  --accent: 222 30% 17%;
   --accent-foreground: 210 40% 98%;
-
-  --destructive: 0 63% 31%;
+  --destructive: 0 72% 51%;
   --destructive-foreground: 210 40% 98%;
+  --border: 220 24% 19%;
+  --input: 220 24% 19%;
+  --ring: 259 94% 68%;
+}
 
-  --border: 216 34% 17%;
-  --input: 216 34% 17%;
-  --ring: 263.4 70% 50.4%;
+* {
+  border-color: rgba(148, 163, 184, 0.14);
+}
+
+html {
+  background: #070b14;
+  scroll-behavior: smooth;
 }
 
 body {
   color: hsl(var(--foreground));
-  background-color: #030712; /* Deep background gray/black */
-  background-image: 
-    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
-    radial-gradient(at 50% 0%, hsla(225,39%,30%,0.15) 0, transparent 50%),
-    radial-gradient(at 100% 0%, hsla(339,49%,30%,0.08) 0, transparent 50%);
+  background-color: #070b14;
+  background-image:
+    radial-gradient(
+      circle at 12% -5%,
+      rgba(124, 58, 237, 0.15),
+      transparent 28rem
+    ),
+    radial-gradient(
+      circle at 88% 0%,
+      rgba(14, 165, 233, 0.1),
+      transparent 24rem
+    ),
+    linear-gradient(180deg, #070b14 0%, #0a1020 52%, #070b14 100%);
   background-attachment: fixed;
-  font-family: 'Outfit', 'Inter', sans-serif;
+  font-family: "Outfit", "Inter", sans-serif;
   overflow-x: hidden;
 }
 
-/* Glassmorphism Panels */
-.glass-panel {
-  background: rgba(10, 15, 30, 0.7);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+::selection {
+  color: #f8fafc;
+  background: rgba(139, 92, 246, 0.45);
 }
 
-.glass-card {
-  background: rgba(17, 24, 39, 0.45);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+@layer components {
+  .glass-panel {
+    background: rgba(11, 17, 31, 0.82);
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+    border: 1px solid rgba(148, 163, 184, 0.13);
+    box-shadow: 0 18px 55px -34px rgba(0, 0, 0, 0.75);
+  }
+
+  .glass-card {
+    position: relative;
+    isolation: isolate;
+    background: linear-gradient(
+      145deg,
+      rgba(20, 28, 46, 0.82),
+      rgba(11, 17, 31, 0.72)
+    );
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(148, 163, 184, 0.13);
+    box-shadow: 0 16px 45px -34px rgba(0, 0, 0, 0.8);
+    transition:
+      transform 220ms ease,
+      border-color 220ms ease,
+      box-shadow 220ms ease,
+      background 220ms ease;
+  }
+
+  .glass-card:hover {
+    background: linear-gradient(
+      145deg,
+      rgba(27, 37, 60, 0.9),
+      rgba(13, 20, 36, 0.82)
+    );
+    border-color: rgba(167, 139, 250, 0.28);
+    box-shadow: 0 22px 58px -34px rgba(124, 58, 237, 0.45);
+    transform: translateY(-3px);
+  }
+
+  .page-container {
+    @apply max-w-[1440px] mx-auto space-y-7 pb-14 w-full min-w-0;
+  }
+
+  .eyebrow {
+    @apply text-[11px] font-bold uppercase tracking-[0.18em] text-slate-500;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-violet-300 via-fuchsia-300 to-sky-300;
+  }
 }
 
-.glass-card:hover {
-  background: rgba(17, 24, 39, 0.6);
-  border-color: rgba(139, 92, 246, 0.25);
-  box-shadow: 0 10px 30px -10px rgba(139, 92, 246, 0.15);
-  transform: translateY(-2px);
-}
-
-/* Scrollbar styling */
 ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  width: 7px;
+  height: 7px;
 }
 
 ::-webkit-scrollbar-track {
@@ -79,22 +120,36 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(148, 163, 184, 0.18);
+  border: 2px solid transparent;
+  background-clip: padding-box;
   border-radius: 9999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.18);
+  background: rgba(148, 163, 184, 0.32);
+  border: 2px solid transparent;
+  background-clip: padding-box;
 }
 
-/* Focus visible for keyboard navigation */
 :focus-visible {
   outline: 2px solid hsl(var(--ring));
-  outline-offset: 2px;
+  outline-offset: 3px;
 }
 
-/* Reduced motion preference */
+button,
+a,
+select,
+input,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+
 @media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
   *,
   *::before,
   *::after {
@@ -106,9 +161,4 @@ body {
   .glass-card:hover {
     transform: none;
   }
-}
-
-/* Page content wrapper */
-.page-container {
-  @apply max-w-7xl mx-auto space-y-8 pb-12 w-full min-w-0;
 }

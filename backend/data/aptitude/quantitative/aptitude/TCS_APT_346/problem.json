@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_346",
+  "slug": "tcs-apt-346",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If today is Monday, what day will it be after 100 days?",
+  "description": "If today is Monday, what day will it be after 100 days?",
+  "question": "If today is Monday, what day will it be after 100 days?",
+  "options": [
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Sunday"
+  ],
+  "optionsMap": {
+    "A": "Wednesday",
+    "B": "Thursday",
+    "C": "Friday",
+    "D": "Sunday"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Wednesday",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

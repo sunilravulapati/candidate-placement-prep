@@ -2,57 +2,81 @@
   {
     "id": "sample-1",
     "classification": "sample",
-    "input": "\"babad\"",
-    "expectedOutput": "\"bab\"",
-    "explanation": "Sample test 1 for Longest Substring Without Repeating Characters"
+    "displayInput": "s = \"abcabcbb\"",
+    "input": "abcabcbb",
+    "stdin": "abcabcbb",
+    "expectedOutput": "3",
+    "explanation": "repeating window. Expected output: 3",
+    "serializationStatus": "compatible"
   },
   {
     "id": "sample-2",
     "classification": "sample",
-    "input": "\"cbbd\"",
-    "expectedOutput": "\"bb\"",
-    "explanation": "Sample test 2 for Longest Substring Without Repeating Characters"
+    "displayInput": "s = \"bbbbb\"",
+    "input": "bbbbb",
+    "stdin": "bbbbb",
+    "expectedOutput": "1",
+    "explanation": "all same character. Expected output: 1",
+    "serializationStatus": "compatible"
   },
   {
     "id": "sample-3",
     "classification": "sample",
-    "input": "\"a\"",
-    "expectedOutput": "\"a\"",
-    "explanation": "Sample test 3 for Longest Substring Without Repeating Characters"
+    "displayInput": "s = \"pwwkew\"",
+    "input": "pwwkew",
+    "stdin": "pwwkew",
+    "expectedOutput": "3",
+    "explanation": "repeated character after window start. Expected output: 3",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "edge-1",
-    "classification": "edge",
-    "input": "\"\"",
-    "expectedOutput": "\"\"",
-    "explanation": "Empty string boundary"
+    "id": "hidden-1",
+    "classification": "hidden",
+    "displayInput": "s = \"\"",
+    "input": "\\n",
+    "stdin": "\\n",
+    "expectedOutput": "0",
+    "explanation": "empty string",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "corner-2",
-    "classification": "corner",
-    "input": "\"aaaaa\"",
-    "expectedOutput": "\"aaaaa\"",
-    "explanation": "All identical characters"
+    "id": "hidden-2",
+    "classification": "hidden",
+    "displayInput": "s = \"abcdef\"",
+    "input": "abcdef",
+    "stdin": "abcdef",
+    "expectedOutput": "6",
+    "explanation": "all unique characters",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "stress-3",
-    "classification": "stress",
-    "input": "\"abcdefghijklmnopqrstuvwxyz\"",
-    "expectedOutput": "1",
-    "explanation": "All distinct characters"
+    "id": "hidden-3",
+    "classification": "hidden",
+    "displayInput": "s = \"abba\"",
+    "input": "abba",
+    "stdin": "abba",
+    "expectedOutput": "2",
+    "explanation": "left boundary must advance",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "duplicates-4",
-    "classification": "duplicates",
-    "input": "\"abacaba\"",
-    "expectedOutput": "\"abacaba\"",
-    "explanation": "Symmetric palindrome string"
+    "id": "hidden-4",
+    "classification": "hidden",
+    "displayInput": "s = \"dvdf\"",
+    "input": "dvdf",
+    "stdin": "dvdf",
+    "expectedOutput": "3",
+    "explanation": "overlapping windows",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "performance-5",
-    "classification": "performance",
-    "input": "\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"",
-    "expectedOutput": "...",
-    "explanation": "Performance test"
+    "id": "hidden-5",
+    "classification": "hidden",
+    "displayInput": "s = \"a b!a\"",
+    "input": "a b!a",
+    "stdin": "a b!a",
+    "expectedOutput": "4",
+    "explanation": "spaces and punctuation are characters",
+    "serializationStatus": "compatible"
   }
 ]

@@ -2,57 +2,81 @@
   {
     "id": "sample-1",
     "classification": "sample",
-    "input": "\"babad\"",
-    "expectedOutput": "\"bab\"",
-    "explanation": "Sample test 1 for Word Ladder II"
+    "displayInput": "beginWord = \"hit\", endWord = \"cog\", wordList = [\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]",
+    "input": "hit\ncog\n6\nhot dot dog lot log cog",
+    "stdin": "hit\ncog\n6\nhot dot dog lot log cog",
+    "expectedOutput": "[[\"hit\",\"hot\",\"dot\",\"dog\",\"cog\"],[\"hit\",\"hot\",\"lot\",\"log\",\"cog\"]]",
+    "explanation": "two shortest ladders. Expected output: [[\"hit\",\"hot\",\"dot\",\"dog\",\"cog\"],[\"hit\",\"hot\",\"lot\",\"log\",\"cog\"]]",
+    "serializationStatus": "compatible"
   },
   {
     "id": "sample-2",
     "classification": "sample",
-    "input": "\"cbbd\"",
-    "expectedOutput": "\"bb\"",
-    "explanation": "Sample test 2 for Word Ladder II"
+    "displayInput": "beginWord = \"hit\", endWord = \"cog\", wordList = [\"hot\",\"dot\",\"dog\",\"lot\",\"log\"]",
+    "input": "hit\ncog\n5\nhot dot dog lot log",
+    "stdin": "hit\ncog\n5\nhot dot dog lot log",
+    "expectedOutput": "[]",
+    "explanation": "end word absent. Expected output: []",
+    "serializationStatus": "compatible"
   },
   {
     "id": "sample-3",
     "classification": "sample",
-    "input": "\"a\"",
-    "expectedOutput": "\"a\"",
-    "explanation": "Sample test 3 for Word Ladder II"
+    "displayInput": "beginWord = \"a\", endWord = \"c\", wordList = [\"a\",\"b\",\"c\"]",
+    "input": "a\nc\n3\na b c",
+    "stdin": "a\nc\n3\na b c",
+    "expectedOutput": "[[\"a\",\"c\"]]",
+    "explanation": "one-letter words. Expected output: [[\"a\",\"c\"]]",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "edge-1",
-    "classification": "edge",
-    "input": "\"\"",
-    "expectedOutput": "\"\"",
-    "explanation": "Empty string boundary"
+    "id": "hidden-1",
+    "classification": "hidden",
+    "displayInput": "beginWord = \"red\", endWord = \"tax\", wordList = [\"ted\",\"tex\",\"red\",\"tax\",\"tad\",\"den\",\"rex\",\"pee\"]",
+    "input": "red\ntax\n8\nted tex red tax tad den rex pee",
+    "stdin": "red\ntax\n8\nted tex red tax tad den rex pee",
+    "expectedOutput": "[[\"red\",\"ted\",\"tad\",\"tax\"],[\"red\",\"ted\",\"tex\",\"tax\"],[\"red\",\"rex\",\"tex\",\"tax\"]]",
+    "explanation": "multiple shortest ladders",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "corner-2",
-    "classification": "corner",
-    "input": "\"aaaaa\"",
-    "expectedOutput": "\"aaaaa\"",
-    "explanation": "All identical characters"
+    "id": "hidden-2",
+    "classification": "hidden",
+    "displayInput": "beginWord = \"same\", endWord = \"same\", wordList = [\"same\"]",
+    "input": "same\nsame\n1\nsame",
+    "stdin": "same\nsame\n1\nsame",
+    "expectedOutput": "[[\"same\"]]",
+    "explanation": "same endpoints",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "stress-3",
-    "classification": "stress",
-    "input": "\"abcdefghijklmnopqrstuvwxyz\"",
-    "expectedOutput": "1",
-    "explanation": "All distinct characters"
+    "id": "hidden-3",
+    "classification": "hidden",
+    "displayInput": "beginWord = \"aaa\", endWord = \"bbb\", wordList = [\"aab\",\"abb\",\"bbb\"]",
+    "input": "aaa\nbbb\n3\naab abb bbb",
+    "stdin": "aaa\nbbb\n3\naab abb bbb",
+    "expectedOutput": "[[\"aaa\",\"aab\",\"abb\",\"bbb\"]]",
+    "explanation": "three-step ladder",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "duplicates-4",
-    "classification": "duplicates",
-    "input": "\"abacaba\"",
-    "expectedOutput": "\"abacaba\"",
-    "explanation": "Symmetric palindrome string"
+    "id": "hidden-4",
+    "classification": "hidden",
+    "displayInput": "beginWord = \"hot\", endWord = \"dog\", wordList = [\"hot\",\"dog\"]",
+    "input": "hot\ndog\n2\nhot dog",
+    "stdin": "hot\ndog\n2\nhot dog",
+    "expectedOutput": "[]",
+    "explanation": "no one-letter path",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "performance-5",
-    "classification": "performance",
-    "input": "\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"",
-    "expectedOutput": "...",
-    "explanation": "Performance test"
+    "id": "hidden-5",
+    "classification": "hidden",
+    "displayInput": "beginWord = \"lost\", endWord = \"cost\", wordList = [\"lost\",\"cost\"]",
+    "input": "lost\ncost\n2\nlost cost",
+    "stdin": "lost\ncost\n2\nlost cost",
+    "expectedOutput": "[[\"lost\",\"cost\"]]",
+    "explanation": "one-character change",
+    "serializationStatus": "compatible"
   }
 ]

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_591",
+  "slug": "tcs-apt-591",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Sum of AP: 5,10,15... to 20 terms?",
+  "description": "Sum of AP: 5,10,15... to 20 terms?",
+  "question": "Sum of AP: 5,10,15... to 20 terms?",
+  "options": [
+    "1050",
+    "1000",
+    "1100",
+    "950"
+  ],
+  "optionsMap": {
+    "A": "1050",
+    "B": "1000",
+    "C": "1100",
+    "D": "950"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1050",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

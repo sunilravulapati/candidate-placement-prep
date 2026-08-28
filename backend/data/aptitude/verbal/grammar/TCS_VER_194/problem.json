@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_194",
+  "slug": "tcs-ver-194",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Which sentence correctly uses a semicolon?",
+  "description": "Which sentence correctly uses a semicolon?",
+  "question": "Which sentence correctly uses a semicolon?",
+  "options": [
+    "She was tired; but she kept working.",
+    "She was tired; however, she kept working.",
+    "She was tired; and she kept working.",
+    "She was tired; yet, she kept working."
+  ],
+  "optionsMap": {
+    "A": "She was tired; but she kept working.",
+    "B": "She was tired; however, she kept working.",
+    "C": "She was tired; and she kept working.",
+    "D": "She was tired; yet, she kept working."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "She was tired; however, she kept working.",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

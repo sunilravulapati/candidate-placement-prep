@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_504",
+  "slug": "tcs-ver-504",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What is the antonym of 'frugal'?",
+  "description": "What is the antonym of 'frugal'?",
+  "question": "What is the antonym of 'frugal'?",
+  "options": [
+    "Extravagant",
+    "Thrifty",
+    "Economical",
+    "Careful"
+  ],
+  "optionsMap": {
+    "A": "Extravagant",
+    "B": "Thrifty",
+    "C": "Economical",
+    "D": "Careful"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Extravagant",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

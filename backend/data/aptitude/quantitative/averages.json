@@ -1,0 +1,332 @@
+[
+  {
+    "id": "TCS_APT_102",
+    "title": "Average of 7 numbers is 8. If each number is multiplied by 3, the new average...",
+    "description": "Average of 7 numbers is 8. If each number is multiplied by 3, the new average is:",
+    "question": "Average of 7 numbers is 8. If each number is multiplied by 3, the new average is:",
+    "options": [
+      "24",
+      "21",
+      "18",
+      "27"
+    ],
+    "answer": "24",
+    "answerKey": "A",
+    "correctAnswer": "24",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 24.",
+    "topic": "averages",
+    "topicName": "Averages",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_107",
+    "title": "The average of 3 numbers is 18. The average of the first two is 16. The third...",
+    "description": "The average of 3 numbers is 18. The average of the first two is 16. The third number is:",
+    "question": "The average of 3 numbers is 18. The average of the first two is 16. The third number is:",
+    "options": [
+      "22",
+      "20",
+      "24",
+      "26"
+    ],
+    "answer": "22",
+    "answerKey": "A",
+    "correctAnswer": "22",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 22.",
+    "topic": "averages",
+    "topicName": "Averages",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_105",
+    "title": "The average temperature of Mon, Tue, Wed was 37°C. For Tue, Wed, Thu it was 3...",
+    "description": "The average temperature of Mon, Tue, Wed was 37°C. For Tue, Wed, Thu it was 38°C. If Thursday's temp was 39°C, what was Monday's?",
+    "question": "The average temperature of Mon, Tue, Wed was 37°C. For Tue, Wed, Thu it was 38°C. If Thursday's temp was 39°C, what was Monday's?",
+    "options": [
+      "36°C",
+      "35°C",
+      "38°C",
+      "37°C"
+    ],
+    "answer": "36°C",
+    "answerKey": "A",
+    "correctAnswer": "36°C",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 36°C.",
+    "topic": "averages",
+    "topicName": "Averages",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_450",
+    "title": "A cricketer's average in 30 innings is 40. After 10 more innings average is 4...",
+    "description": "A cricketer's average in 30 innings is 40. After 10 more innings average is 42. Average in last 10 innings?",
+    "question": "A cricketer's average in 30 innings is 40. After 10 more innings average is 42. Average in last 10 innings?",
+    "options": [
+      "48",
+      "46",
+      "50",
+      "44"
+    ],
+    "answer": "48",
+    "answerKey": "A",
+    "correctAnswer": "48",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 48.",
+    "topic": "averages",
+    "topicName": "Averages",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_451",
+    "title": "Average weight of class increases by 0.2 kg when a student weighing 30 kg joi...",
+    "description": "Average weight of class increases by 0.2 kg when a student weighing 30 kg joins. New class has 21 students. Original average?",
+    "question": "Average weight of class increases by 0.2 kg when a student weighing 30 kg joins. New class has 21 students. Original average?",
+    "options": [
+      "26 kg",
+      "30 kg",
+      "25 kg",
+      "28 kg"
+    ],
+    "answer": "26 kg",
+    "answerKey": "A",
+    "correctAnswer": "26 kg",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 26 kg.",
+    "topic": "averages",
+    "topicName": "Averages",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_099",
+    "title": "The average of 5 numbers is 30. If one number is excluded, the average become...",
+    "description": "The average of 5 numbers is 30. If one number is excluded, the average becomes 28. The excluded number is:",
+    "question": "The average of 5 numbers is 30. If one number is excluded, the average becomes 28. The excluded number is:",
+    "options": [
+      "38",
+      "40",
+      "36",
+      "32"
+    ],
+    "answer": "38",
+    "answerKey": "A",
+    "correctAnswer": "38",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 38.",
+    "topic": "averages",
+    "topicName": "Averages",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_100",
+    "title": "The average of 10 numbers is 45. If one number is included, the new average i...",
+    "description": "The average of 10 numbers is 45. If one number is included, the new average is 46. The included number is:",
+    "question": "The average of 10 numbers is 45. If one number is included, the new average is 46. The included number is:",
+    "options": [
+      "56",
+      "50",
+      "60",
+      "55"
+    ],
+    "answer": "56",
+    "answerKey": "A",
+    "correctAnswer": "56",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 56.",
+    "topic": "averages",
+    "topicName": "Averages",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_103",
+    "title": "The average weight of 10 men is 70 kg. One man of 80 kg leaves and another jo...",
+    "description": "The average weight of 10 men is 70 kg. One man of 80 kg leaves and another joins. New average is 69 kg. New man's weight:",
+    "question": "The average weight of 10 men is 70 kg. One man of 80 kg leaves and another joins. New average is 69 kg. New man's weight:",
+    "options": [
+      "70",
+      "60",
+      "68",
+      "75"
+    ],
+    "answer": "60",
+    "answerKey": "B",
+    "correctAnswer": "60",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: 60.",
+    "topic": "averages",
+    "topicName": "Averages",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_106",
+    "title": "A batsman's average after 30 innings is 25. After the 31st innings, average b...",
+    "description": "A batsman's average after 30 innings is 25. After the 31st innings, average becomes 26. The 31st innings score is:",
+    "question": "A batsman's average after 30 innings is 25. After the 31st innings, average becomes 26. The 31st innings score is:",
+    "options": [
+      "56",
+      "55",
+      "60",
+      "50"
+    ],
+    "answer": "56",
+    "answerKey": "A",
+    "correctAnswer": "56",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 56.",
+    "topic": "averages",
+    "topicName": "Averages",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_108",
+    "title": "In a class of 40 students, boys' average marks is 70 and girls' is 75. If gir...",
+    "description": "In a class of 40 students, boys' average marks is 70 and girls' is 75. If girls are 60% of class, what is class average?",
+    "question": "In a class of 40 students, boys' average marks is 70 and girls' is 75. If girls are 60% of class, what is class average?",
+    "options": [
+      "73",
+      "72",
+      "74",
+      "71"
+    ],
+    "answer": "73",
+    "answerKey": "A",
+    "correctAnswer": "73",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 73.",
+    "topic": "averages",
+    "topicName": "Averages",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_448",
+    "title": "Average of 50 numbers is 30. Average of first 25 is 35. Average of last 25 is:",
+    "description": "Average of 50 numbers is 30. Average of first 25 is 35. Average of last 25 is:",
+    "question": "Average of 50 numbers is 30. Average of first 25 is 35. Average of last 25 is:",
+    "options": [
+      "25",
+      "20",
+      "30",
+      "28"
+    ],
+    "answer": "25",
+    "answerKey": "A",
+    "correctAnswer": "25",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 25.",
+    "topic": "averages",
+    "topicName": "Averages",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

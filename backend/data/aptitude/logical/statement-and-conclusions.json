@@ -1,0 +1,302 @@
+[
+  {
+    "id": "TCS_LOG_136",
+    "title": "Statement: All students who study hard pass. Rajan studies hard. Conclusion: ...",
+    "description": "Statement: All students who study hard pass. Rajan studies hard. Conclusion: Rajan passes the exam.",
+    "question": "Statement: All students who study hard pass. Rajan studies hard. Conclusion: Rajan passes the exam.",
+    "options": [
+      "Conclusion follows",
+      "Conclusion does not follow",
+      "Cannot be determined",
+      "Statement is false"
+    ],
+    "answer": "Conclusion follows",
+    "answerKey": "A",
+    "correctAnswer": "Conclusion follows",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Conclusion follows.",
+    "topic": "statement-and-conclusions",
+    "topicName": "Statement and Conclusions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_138",
+    "title": "Statement: No politician is honest. Ram is a politician. Conclusion: Ram is n...",
+    "description": "Statement: No politician is honest. Ram is a politician. Conclusion: Ram is not honest.",
+    "question": "Statement: No politician is honest. Ram is a politician. Conclusion: Ram is not honest.",
+    "options": [
+      "Conclusion follows",
+      "Conclusion does not follow",
+      "Partially follows",
+      "Cannot say"
+    ],
+    "answer": "Conclusion follows",
+    "answerKey": "A",
+    "correctAnswer": "Conclusion follows",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Conclusion follows.",
+    "topic": "statement-and-conclusions",
+    "topicName": "Statement and Conclusions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_140",
+    "title": "Statement: All tables are furniture. All furniture is wood. Conclusion: All t...",
+    "description": "Statement: All tables are furniture. All furniture is wood. Conclusion: All tables are wood.",
+    "question": "Statement: All tables are furniture. All furniture is wood. Conclusion: All tables are wood.",
+    "options": [
+      "Conclusion follows",
+      "Conclusion does not follow",
+      "Partially follows",
+      "Cannot say"
+    ],
+    "answer": "Conclusion follows",
+    "answerKey": "A",
+    "correctAnswer": "Conclusion follows",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Conclusion follows.",
+    "topic": "statement-and-conclusions",
+    "topicName": "Statement and Conclusions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_137",
+    "title": "Statement: All birds can fly. Penguins are birds. Conclusion: Penguins can fly.",
+    "description": "Statement: All birds can fly. Penguins are birds. Conclusion: Penguins can fly.",
+    "question": "Statement: All birds can fly. Penguins are birds. Conclusion: Penguins can fly.",
+    "options": [
+      "Conclusion follows (logically)",
+      "Conclusion does not follow (factually)",
+      "Cannot be determined",
+      "Both A and B"
+    ],
+    "answer": "Conclusion follows (logically)",
+    "answerKey": "A",
+    "correctAnswer": "Conclusion follows (logically)",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Conclusion follows (logically).",
+    "topic": "statement-and-conclusions",
+    "topicName": "Statement and Conclusions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_142",
+    "title": "Statement: The government has implemented a new tax to fund education. Conclu...",
+    "description": "Statement: The government has implemented a new tax to fund education. Conclusion: Education quality will improve immediately.",
+    "question": "Statement: The government has implemented a new tax to fund education. Conclusion: Education quality will improve immediately.",
+    "options": [
+      "The conclusion does not necessarily follow",
+      "The conclusion follows",
+      "More information needed",
+      "Statement is incorrect"
+    ],
+    "answer": "The conclusion does not necessarily follow",
+    "answerKey": "A",
+    "correctAnswer": "The conclusion does not necessarily follow",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: The conclusion does not necessarily follow.",
+    "topic": "statement-and-conclusions",
+    "topicName": "Statement and Conclusions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_144",
+    "title": "Statement: Most criminals have a troubled childhood. John had a troubled chil...",
+    "description": "Statement: Most criminals have a troubled childhood. John had a troubled childhood. Conclusion: John will become a criminal.",
+    "question": "Statement: Most criminals have a troubled childhood. John had a troubled childhood. Conclusion: John will become a criminal.",
+    "options": [
+      "Conclusion does not follow",
+      "Conclusion follows",
+      "Partially follows",
+      "Cannot determine"
+    ],
+    "answer": "Conclusion does not follow",
+    "answerKey": "A",
+    "correctAnswer": "Conclusion does not follow",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Conclusion does not follow.",
+    "topic": "statement-and-conclusions",
+    "topicName": "Statement and Conclusions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_145",
+    "title": "Statement: Healthy eating prevents diseases. Poor countries have high disease...",
+    "description": "Statement: Healthy eating prevents diseases. Poor countries have high disease rates. Conclusion: People in poor countries do not eat healthy.",
+    "question": "Statement: Healthy eating prevents diseases. Poor countries have high disease rates. Conclusion: People in poor countries do not eat healthy.",
+    "options": [
+      "Conclusion may partially follow",
+      "Conclusion definitely follows",
+      "Conclusion does not follow",
+      "Needs more data"
+    ],
+    "answer": "Conclusion may partially follow",
+    "answerKey": "A",
+    "correctAnswer": "Conclusion may partially follow",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Conclusion may partially follow.",
+    "topic": "statement-and-conclusions",
+    "topicName": "Statement and Conclusions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_139",
+    "title": "Statement: Some doctors are teachers. All teachers are graduates. Conclusion ...",
+    "description": "Statement: Some doctors are teachers. All teachers are graduates. Conclusion I: Some doctors are graduates. Conclusion II: All graduates are teachers.",
+    "question": "Statement: Some doctors are teachers. All teachers are graduates. Conclusion I: Some doctors are graduates. Conclusion II: All graduates are teachers.",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both follow",
+      "Neither follows"
+    ],
+    "answer": "Only I follows",
+    "answerKey": "A",
+    "correctAnswer": "Only I follows",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Only I follows.",
+    "topic": "statement-and-conclusions",
+    "topicName": "Statement and Conclusions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_141",
+    "title": "Statement: Some cats are dogs. All dogs are black. Conclusion I: Some cats ar...",
+    "description": "Statement: Some cats are dogs. All dogs are black. Conclusion I: Some cats are black. Conclusion II: All black are dogs.",
+    "question": "Statement: Some cats are dogs. All dogs are black. Conclusion I: Some cats are black. Conclusion II: All black are dogs.",
+    "options": [
+      "Only I follows",
+      "Both follow",
+      "Only II follows",
+      "Neither follows"
+    ],
+    "answer": "Only I follows",
+    "answerKey": "A",
+    "correctAnswer": "Only I follows",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Only I follows.",
+    "topic": "statement-and-conclusions",
+    "topicName": "Statement and Conclusions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_143",
+    "title": "Statement: Regular exercise reduces stress. Meena exercises daily. Conclusion...",
+    "description": "Statement: Regular exercise reduces stress. Meena exercises daily. Conclusion: Meena has reduced stress.",
+    "question": "Statement: Regular exercise reduces stress. Meena exercises daily. Conclusion: Meena has reduced stress.",
+    "options": [
+      "Conclusion likely follows",
+      "Conclusion definitely follows",
+      "Conclusion does not follow",
+      "Cannot say"
+    ],
+    "answer": "Conclusion likely follows",
+    "answerKey": "A",
+    "correctAnswer": "Conclusion likely follows",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Conclusion likely follows.",
+    "topic": "statement-and-conclusions",
+    "topicName": "Statement and Conclusions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

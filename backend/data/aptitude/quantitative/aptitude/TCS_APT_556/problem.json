@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_556",
+  "slug": "tcs-apt-556",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A goes 60 km in 1.5h. Speed?",
+  "description": "A goes 60 km in 1.5h. Speed?",
+  "question": "A goes 60 km in 1.5h. Speed?",
+  "options": [
+    "40 km/h",
+    "45 km/h",
+    "50 km/h",
+    "35 km/h"
+  ],
+  "optionsMap": {
+    "A": "40 km/h",
+    "B": "45 km/h",
+    "C": "50 km/h",
+    "D": "35 km/h"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "40 km/h",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

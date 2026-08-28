@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_208",
+  "slug": "tcs-ver-208",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "para-jumbles",
+  "topicName": "Para Jumbles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "P: Space exploration has yielded tremendous scientific knowledge. Q: Satellit...",
+  "description": "P: Space exploration has yielded tremendous scientific knowledge. Q: Satellites now provide global navigation, weather forecasting, and communication. R: Despite the enormous costs involved, the benefits are undeniable. S: Future missions aim to establish human settlements on Mars. Arrange in logical order:",
+  "question": "P: Space exploration has yielded tremendous scientific knowledge. Q: Satellites now provide global navigation, weather forecasting, and communication. R: Despite the enormous costs involved, the benefits are undeniable. S: Future missions aim to establish human settlements on Mars. Arrange in logical order:",
+  "options": [
+    "P-Q-R-S",
+    "Q-P-R-S",
+    "R-P-Q-S",
+    "P-R-S-Q"
+  ],
+  "optionsMap": {
+    "A": "P-Q-R-S",
+    "B": "Q-P-R-S",
+    "C": "R-P-Q-S",
+    "D": "P-R-S-Q"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "P-Q-R-S",
+  "tags": [
+    "verbal",
+    "para-jumbles"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

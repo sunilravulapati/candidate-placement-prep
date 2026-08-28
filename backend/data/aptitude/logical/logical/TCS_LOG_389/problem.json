@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_389",
+  "slug": "tcs-log-389",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find missing: 2, 5, 11, 23, ?",
+  "description": "Find missing: 2, 5, 11, 23, ?",
+  "question": "Find missing: 2, 5, 11, 23, ?",
+  "options": [
+    "47",
+    "45",
+    "41",
+    "43"
+  ],
+  "optionsMap": {
+    "A": "47",
+    "B": "45",
+    "C": "41",
+    "D": "43"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "47",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_111",
+  "slug": "tcs-ver-111",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The athlete's _____ performance broke three world records.",
+  "description": "The athlete's _____ performance broke three world records.",
+  "question": "The athlete's _____ performance broke three world records.",
+  "options": [
+    "phenomenal",
+    "mediocre",
+    "average",
+    "poor"
+  ],
+  "optionsMap": {
+    "A": "phenomenal",
+    "B": "mediocre",
+    "C": "average",
+    "D": "poor"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "phenomenal",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

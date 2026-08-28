@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_303",
+  "slug": "tcs-apt-303",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A, B, C invest in ratio 1:2:3. Total profit is Rs 12000. C's share?",
+  "description": "A, B, C invest in ratio 1:2:3. Total profit is Rs 12000. C's share?",
+  "question": "A, B, C invest in ratio 1:2:3. Total profit is Rs 12000. C's share?",
+  "options": [
+    "6000",
+    "4000",
+    "2000",
+    "3000"
+  ],
+  "optionsMap": {
+    "A": "6000",
+    "B": "4000",
+    "C": "2000",
+    "D": "3000"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "6000",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

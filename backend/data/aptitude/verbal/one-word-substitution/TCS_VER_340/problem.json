@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_340",
+  "slug": "tcs-ver-340",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "one-word-substitution",
+  "topicName": "One Word Substitution",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Find the one word substitution for: Government by the people",
+  "description": "Find the one word substitution for: Government by the people",
+  "question": "Find the one word substitution for: Government by the people",
+  "options": [
+    "Democracy",
+    "Monarchy",
+    "Oligarchy",
+    "Theocracy"
+  ],
+  "optionsMap": {
+    "A": "Democracy",
+    "B": "Monarchy",
+    "C": "Oligarchy",
+    "D": "Theocracy"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Democracy",
+  "tags": [
+    "verbal",
+    "one-word-substitution"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_293",
+  "slug": "tcs-apt-293",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A mixture of 60L has milk:water = 2:1. How much water to add to get 1:1 ratio?",
+  "description": "A mixture of 60L has milk:water = 2:1. How much water to add to get 1:1 ratio?",
+  "question": "A mixture of 60L has milk:water = 2:1. How much water to add to get 1:1 ratio?",
+  "options": [
+    "20L",
+    "30L",
+    "15L",
+    "10L"
+  ],
+  "optionsMap": {
+    "A": "20L",
+    "B": "30L",
+    "C": "15L",
+    "D": "10L"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "20L",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

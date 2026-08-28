@@ -5,7 +5,7 @@ import { Bot, AlertCircle } from 'lucide-react';
 import QuestionCard from './QuestionCard';
 import AnswerEditor from './AnswerEditor';
 import ProgressSidebar from './ProgressSidebar';
-import { submitAnswerAction } from '@backend/features/mockInterview/actions';
+import { submitAnswerAction, endInterviewAction } from '@backend/features/mockInterview/actions';
 
 interface SessionQuestion {
   id: string;
@@ -68,19 +68,17 @@ export function InterviewRoom({
 
   const handleEndInterview = useCallback(async (reason: 'completed' | 'abandoned') => {
     setIsEnding(true);
-    setSubmittingText('Finalizing interview...');
+    setSubmittingText('Finalizing interview and analyzing recruiter feedback...');
     try {
-      // In a full implementation, we'd call an endInterviewAction here.
-      // For now, we simulate completion.
-      setTimeout(() => {
-        onInterviewEnded({ reason, questionsAnswered: historicalQuestions.length });
-      }, 1000);
+      const summary = await endInterviewAction({ sessionId, reason });
+      onInterviewEnded(summary);
     } catch (err) {
-      setError((err as Error).message);
+      console.error('Error finalizing interview:', err);
+      setError((err as Error).message || 'Failed to finalize interview');
       setIsEnding(false);
       setSubmittingText(undefined);
     }
-  }, [historicalQuestions.length, onInterviewEnded]);
+  }, [sessionId, onInterviewEnded]);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {

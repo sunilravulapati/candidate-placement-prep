@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_249",
+  "slug": "tcs-ver-249",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "sentence-improvement",
+  "topicName": "Sentence Improvement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Improve the underlined part of the sentence: 'They discussed about the issue ...",
+  "description": "Improve the underlined part of the sentence: 'They discussed about the issue for hours.'",
+  "question": "Improve the underlined part of the sentence: 'They discussed about the issue for hours.'",
+  "options": [
+    "discussed of the issue",
+    "discussed the issue",
+    "discussed over the issue",
+    "No improvement"
+  ],
+  "optionsMap": {
+    "A": "discussed of the issue",
+    "B": "discussed the issue",
+    "C": "discussed over the issue",
+    "D": "No improvement"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "discussed the issue",
+  "tags": [
+    "verbal",
+    "sentence-improvement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

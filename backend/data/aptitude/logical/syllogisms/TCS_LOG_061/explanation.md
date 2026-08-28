@@ -1,0 +1,18 @@
+# Question TCS_LOG_061 — Explanation
+
+**Correct Answer: Option A (Both I and II follow)**
+
+### Topic
+Logical Reasoning > Syllogisms
+
+### Question
+All dogs are animals. All animals are mammals. Conclusions: (I) All dogs are mammals. (II) Some mammals are dogs.
+
+### Options
+- (A) Both I and II follow
+- (B) Only I follows
+- (C) Only II follows
+- (D) Neither follows
+
+### Explanation
+Option (A) is the correct answer. In Syllogisms, evaluating the given problem conditions confirms that "Both I and II follow" is the valid solution.

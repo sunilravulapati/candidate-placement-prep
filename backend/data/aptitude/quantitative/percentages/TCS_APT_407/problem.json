@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_407",
+  "slug": "tcs-apt-407",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "percentages",
+  "topicName": "Percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "In a test of 80 marks, a student scored 70%. What was the score?",
+  "description": "In a test of 80 marks, a student scored 70%. What was the score?",
+  "question": "In a test of 80 marks, a student scored 70%. What was the score?",
+  "options": [
+    "56",
+    "60",
+    "52",
+    "64"
+  ],
+  "optionsMap": {
+    "A": "56",
+    "B": "60",
+    "C": "52",
+    "D": "64"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "56",
+  "tags": [
+    "quantitative",
+    "percentages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

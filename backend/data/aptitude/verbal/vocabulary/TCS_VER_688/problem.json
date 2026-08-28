@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_688",
+  "slug": "tcs-ver-688",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Idiom: 'Call a spade a spade' means?",
+  "description": "Idiom: 'Call a spade a spade' means?",
+  "question": "Idiom: 'Call a spade a spade' means?",
+  "options": [
+    "Speak bluntly",
+    "Garden work",
+    "Name tools",
+    "Be direct"
+  ],
+  "optionsMap": {
+    "A": "Speak bluntly",
+    "B": "Garden work",
+    "C": "Name tools",
+    "D": "Be direct"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Speak bluntly",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

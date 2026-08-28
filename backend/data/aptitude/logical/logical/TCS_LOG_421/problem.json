@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_421",
+  "slug": "tcs-log-421",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Ranking: If Priya is 8th from top and 14th from bottom, total?",
+  "description": "Ranking: If Priya is 8th from top and 14th from bottom, total?",
+  "question": "Ranking: If Priya is 8th from top and 14th from bottom, total?",
+  "options": [
+    "21",
+    "20",
+    "22",
+    "19"
+  ],
+  "optionsMap": {
+    "A": "21",
+    "B": "20",
+    "C": "22",
+    "D": "19"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "21",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

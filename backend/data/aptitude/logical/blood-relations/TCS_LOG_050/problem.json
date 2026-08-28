@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_050",
+  "slug": "tcs-log-050",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "blood-relations",
+  "topicName": "Blood Relations",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Introducing a girl, a boy says 'She is the daughter of my mother's only son.'...",
+  "description": "Introducing a girl, a boy says 'She is the daughter of my mother's only son.' How is the girl related to the boy?",
+  "question": "Introducing a girl, a boy says 'She is the daughter of my mother's only son.' How is the girl related to the boy?",
+  "options": [
+    "Daughter",
+    "Niece",
+    "Sister",
+    "Cousin"
+  ],
+  "optionsMap": {
+    "A": "Daughter",
+    "B": "Niece",
+    "C": "Sister",
+    "D": "Cousin"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Daughter",
+  "tags": [
+    "logical",
+    "blood-relations"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

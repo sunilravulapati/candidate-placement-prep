@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_283",
+  "slug": "tcs-apt-283",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Two numbers differ by 6. Their sum is 42. Find the numbers.",
+  "description": "Two numbers differ by 6. Their sum is 42. Find the numbers.",
+  "question": "Two numbers differ by 6. Their sum is 42. Find the numbers.",
+  "options": [
+    "24 and 18",
+    "20 and 22",
+    "21 and 21",
+    "25 and 17"
+  ],
+  "optionsMap": {
+    "A": "24 and 18",
+    "B": "20 and 22",
+    "C": "21 and 21",
+    "D": "25 and 17"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "24 and 18",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

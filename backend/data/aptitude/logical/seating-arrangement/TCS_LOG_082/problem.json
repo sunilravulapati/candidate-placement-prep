@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_082",
+  "slug": "tcs-log-082",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "seating-arrangement",
+  "topicName": "Seating Arrangement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "In a circular arrangement of 8 people, if 4 people between A and B going cloc...",
+  "description": "In a circular arrangement of 8 people, if 4 people between A and B going clockwise, how many are there going counter-clockwise?",
+  "question": "In a circular arrangement of 8 people, if 4 people between A and B going clockwise, how many are there going counter-clockwise?",
+  "options": [
+    "3",
+    "4",
+    "5",
+    "2"
+  ],
+  "optionsMap": {
+    "A": "3",
+    "B": "4",
+    "C": "5",
+    "D": "2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "3",
+  "tags": [
+    "logical",
+    "seating-arrangement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

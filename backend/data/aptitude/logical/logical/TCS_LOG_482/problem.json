@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_482",
+  "slug": "tcs-log-482",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number: 6,10,18,34,66,__?",
+  "description": "Number: 6,10,18,34,66,__?",
+  "question": "Number: 6,10,18,34,66,__?",
+  "options": [
+    "130",
+    "128",
+    "132",
+    "124"
+  ],
+  "optionsMap": {
+    "A": "130",
+    "B": "128",
+    "C": "132",
+    "D": "124"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "130",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

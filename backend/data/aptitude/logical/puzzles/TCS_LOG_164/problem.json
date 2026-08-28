@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_164",
+  "slug": "tcs-log-164",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "puzzles",
+  "topicName": "Puzzles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "How many squares are there on a standard chessboard (including all sizes)?",
+  "description": "How many squares are there on a standard chessboard (including all sizes)?",
+  "question": "How many squares are there on a standard chessboard (including all sizes)?",
+  "options": [
+    "204",
+    "64",
+    "128",
+    "256"
+  ],
+  "optionsMap": {
+    "A": "204",
+    "B": "64",
+    "C": "128",
+    "D": "256"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "204",
+  "tags": [
+    "logical",
+    "puzzles"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

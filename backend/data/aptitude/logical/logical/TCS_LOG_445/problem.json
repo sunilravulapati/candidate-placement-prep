@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_445",
+  "slug": "tcs-log-445",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Direction: A is North of B. C is East of B. D is South of C. Relation A to D?",
+  "description": "Direction: A is North of B. C is East of B. D is South of C. Relation A to D?",
+  "question": "Direction: A is North of B. C is East of B. D is South of C. Relation A to D?",
+  "options": [
+    "NW",
+    "NE",
+    "SW",
+    "SE"
+  ],
+  "optionsMap": {
+    "A": "NW",
+    "B": "NE",
+    "C": "SW",
+    "D": "SE"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "NE",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

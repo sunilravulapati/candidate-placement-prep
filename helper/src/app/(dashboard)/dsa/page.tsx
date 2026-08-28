@@ -6,21 +6,41 @@ import { DSA_TOPICS_31 } from '@backend/features/dsa/topicTaxonomy';
 import { LEARNING_PATHS } from '@backend/features/dsa/learningPathTaxonomy';
 import { ProblemLoader } from '@backend/features/dsa/problemLoader';
 import { CodingProblemRepository } from '@backend/features/liveCoding/repository';
-import {
-  Code2,
-  BookOpen,
-  Sparkles,
-  ChevronRight,
-  Trophy,
-  Target,
-  Zap,
-  Clock,
-  Layers,
-  ArrowRight,
-  Flame,
-} from 'lucide-react';
+import { ArrowRight, ChevronRight, Flame } from 'lucide-react';
 
 import DSASearchExplorer from '@/components/dsa/DSASearchExplorer';
+
+const TOPIC_COMPLEXITY_MAP: Record<string, string> = {
+  arrays: 'O(n)',
+  strings: 'O(n)',
+  hashing: 'O(1)*',
+  'two-pointers': 'O(n)',
+  'sliding-window': 'O(n)',
+  'binary-search': 'O(log n)',
+  stack: 'O(n)',
+  queue: 'O(n)',
+  'linked-list': 'O(n)',
+  recursion: 'O(2ⁿ)',
+  backtracking: 'O(2ⁿ)',
+  greedy: 'O(n log n)',
+  'heap-priority-queue': 'O(log n)',
+  trees: 'O(n)',
+  'binary-search-trees': 'O(n)',
+  trie: 'O(L)',
+  graphs: 'O(V+E)',
+  'dynamic-programming': 'O(n²)',
+  'bit-manipulation': 'O(1)',
+  math: 'O(1)',
+  design: 'O(1)*',
+  intervals: 'O(n log n)',
+  matrix: 'O(m×n)',
+  'union-find': 'O(α(n))',
+  'topological-sort': 'O(V+E)',
+  'shortest-path': 'O(E log V)',
+  'advanced-graphs': 'O(V+E)',
+  'advanced-dp': 'O(n²)',
+  miscellaneous: 'O(n)',
+};
 
 export default async function DSAStudioTopicPage() {
   // Load static search index
@@ -30,7 +50,7 @@ export default async function DSAStudioTopicPage() {
   let allProblems: any[] = [];
   try {
     allProblems = await CodingProblemRepository.getAllProblems();
-  } catch (err) {
+  } catch {
     allProblems = ProblemLoader.loadAllDirectoryProblems();
   }
 
@@ -39,7 +59,10 @@ export default async function DSAStudioTopicPage() {
   }
 
   // Calculate dynamic stats per topic
-  const topicStatsMap: Record<string, { total: number; easy: number; medium: number; hard: number }> = {};
+  const topicStatsMap: Record<
+    string,
+    { total: number; easy: number; medium: number; hard: number }
+  > = {};
 
   const TOPIC_ALIASES_MAP: Record<string, string[]> = {
     arrays: ['arrays', 'array', 'arrays-strings'],
@@ -58,7 +81,14 @@ export default async function DSAStudioTopicPage() {
     trees: ['tree', 'trees', 'bst', 'binary-search-tree', 'binary-search-trees'],
     'binary-search-trees': ['bst', 'binary-search-tree', 'binary-search-trees'],
     trie: ['trie', 'prefix-tree'],
-    graphs: ['graph', 'graphs', 'advanced-graphs', 'shortest-path', 'topological-sort', 'union-find'],
+    graphs: [
+      'graph',
+      'graphs',
+      'advanced-graphs',
+      'shortest-path',
+      'topological-sort',
+      'union-find',
+    ],
     'dynamic-programming': ['dp', 'dynamic-programming', 'advanced-dp'],
     'bit-manipulation': ['bit-manipulation', 'bits'],
     math: ['math', 'math-geometry'],
@@ -76,7 +106,9 @@ export default async function DSAStudioTopicPage() {
   for (const prob of allProblems) {
     const mainTopic = (prob.primaryTopic || prob.topic || '').toLowerCase();
     const secondaries = (prob.secondaryTopics || []).map((s: string) => String(s).toLowerCase());
-    const tags = (prob.tags || []).map((t: any) => (typeof t === 'string' ? t : t.name).toLowerCase());
+    const tags = (prob.tags || []).map((t: any) =>
+      (typeof t === 'string' ? t : t.name).toLowerCase()
+    );
     const topicSet = new Set([mainTopic, ...secondaries, ...tags]);
 
     for (const t of DSA_TOPICS_31) {
@@ -95,89 +127,101 @@ export default async function DSAStudioTopicPage() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 p-6 md:p-10 space-y-10">
-      {/* Header Banner */}
-      <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-violet-900/50 via-indigo-900/40 to-slate-900 p-8 border border-violet-500/20 shadow-2xl">
-        <div className="absolute -right-10 -bottom-10 w-72 h-72 bg-indigo-600/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="relative z-10 space-y-4 max-w-3xl">
-          <div className="inline-flex items-center space-x-2 bg-violet-500/10 border border-violet-500/30 px-3 py-1 rounded-full text-xs font-semibold text-violet-300">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>Placement OS • DSA Studio ({allProblems.length} Total Problems)</span>
-          </div>
-          <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-white">
-            DSA Master Platform
-          </h1>
-          <p className="text-slate-300 text-sm md:text-base leading-relaxed">
-            Master Data Structures & Algorithms topic by topic across {DSA_TOPICS_31.length} standardized categories. Multi-attribute search, pattern recognition, topic roadmaps, and detailed metadata.
-          </p>
+    <div className="min-h-screen bg-[#070b14] text-slate-100 p-6 md:p-10 space-y-8 font-sans">
+      {/* Hero Section */}
+      <section className="relative pt-4 pb-8 border-b border-slate-800/80 space-y-6">
+        <div className="flex items-center gap-2 font-mono text-xs text-amber-400">
+          <span className="text-slate-600">#</span>
+          <span>placement_os · dsa_studio · {allProblems.length}_total_problems</span>
+        </div>
 
-          {/* Recommended Next Problem Widget */}
-          <div className="bg-slate-950/80 border border-violet-500/30 p-4 rounded-xl flex items-center justify-between gap-4">
-            <div className="flex items-center space-x-3">
-              <div className="bg-amber-500/20 p-2.5 rounded-lg border border-amber-500/30 text-amber-400">
-                <Flame className="w-5 h-5" />
-              </div>
-              <div>
-                <span className="text-[10px] uppercase font-bold tracking-wider text-amber-400">Recommended Problem</span>
-                <h4 className="text-sm font-bold text-white">Largest Rectangle in Histogram (Stack)</h4>
-              </div>
-            </div>
-            <Link
-              href="/dsa/workspace/largest-rectangle-in-histogram"
-              className="bg-violet-600 hover:bg-violet-500 text-white text-xs font-bold px-4 py-2 rounded-lg transition-colors flex items-center space-x-1 shrink-0"
-            >
-              <span>Solve Now</span>
-              <ArrowRight className="w-3.5 h-3.5" />
-            </Link>
+        <div className="space-y-3">
+          <h1 className="text-3xl md:text-5xl font-mono font-bold tracking-tight text-white">
+            Master Data Structures &amp; Algorithms
+          </h1>
+          <p className="text-slate-400 max-w-2xl text-sm md:text-base leading-relaxed">
+            32 structured categories, multi-attribute search, pattern recognition, topic roadmaps, and detailed metadata — one place to actually get through it.
+          </p>
+        </div>
+
+        {/* Hero Stats */}
+        <div className="flex flex-wrap gap-8 py-2">
+          <div className="space-y-0.5">
+            <div className="font-mono text-2xl font-bold text-slate-100">{DSA_TOPICS_31.length}</div>
+            <div className="font-mono text-xs text-slate-500">TOPICS</div>
+          </div>
+          <div className="space-y-0.5">
+            <div className="font-mono text-2xl font-bold text-slate-100">{allProblems.length}</div>
+            <div className="font-mono text-xs text-slate-500">PROBLEMS</div>
+          </div>
+          <div className="space-y-0.5">
+            <div className="font-mono text-2xl font-bold text-slate-100">{LEARNING_PATHS.length}</div>
+            <div className="font-mono text-xs text-slate-500">LEARNING PATHS</div>
           </div>
         </div>
-      </div>
+
+        {/* Action Button: Resume Recommended Problem */}
+        <div>
+          <Link
+            href="/dsa/workspace/largest-rectangle-in-histogram"
+            className="inline-flex items-center gap-2.5 bg-amber-400 hover:bg-amber-300 text-slate-950 font-mono font-bold text-xs px-5 py-3 rounded-lg transition-colors shadow-lg shadow-amber-950/30"
+          >
+            <Flame className="w-4 h-4 text-slate-950" />
+            <span>Resume: Largest Rectangle in Histogram</span>
+            <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
+      </section>
 
       {/* Multi-Attribute Real-time Search Explorer */}
       <DSASearchExplorer initialSearchIndex={searchIndex} />
 
-      {/* Featured Structured Learning Paths Section */}
-      <div className="space-y-4">
-        <div className="flex items-center justify-between">
-          <h2 className="text-xl font-bold text-slate-100 flex items-center space-x-2">
-            <BookOpen className="w-5 h-5 text-violet-400" />
-            <span>Structured Learning Paths ({LEARNING_PATHS.length})</span>
-          </h2>
+      {/* Section 01: Structured Learning Paths (Compact List Rows) */}
+      <section className="space-y-4">
+        <div className="font-mono text-xs text-slate-500 flex items-center gap-3">
+          <span className="text-teal-300 font-bold">01</span>
+          <span className="text-slate-300">structured_learning_paths</span>
+          <span>({LEARNING_PATHS.length})</span>
+          <div className="flex-1 h-px bg-slate-800/80" />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          {LEARNING_PATHS.map((path) => (
+        <div className="border border-slate-800/80 rounded-xl overflow-hidden bg-slate-900/60 divide-y divide-slate-800/80">
+          {LEARNING_PATHS.map((path, idx) => (
             <Link
               key={path.slug}
-              href={`/dsa/learning-paths`}
-              className="bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-violet-500/40 p-5 rounded-xl transition-all duration-200 flex flex-col justify-between space-y-3"
+              href="/dsa/learning-paths"
+              className="group flex flex-col md:flex-row md:items-center gap-3 md:gap-6 p-4 hover:bg-slate-800/60 transition-colors"
             >
-              <div className="space-y-2">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-violet-400 bg-violet-500/10 px-2 py-0.5 rounded border border-violet-500/20">
-                  {path.recommendedDays} Days
-                </span>
-                <h3 className="text-base font-bold text-white">{path.title}</h3>
-                <p className="text-xs text-slate-400 line-clamp-2">{path.description}</p>
+              <div className="font-mono text-xs text-slate-500 w-6 shrink-0">
+                {String(idx + 1).padStart(2, '0')}
               </div>
-              <div className="flex items-center justify-between text-xs text-slate-400 pt-2 border-t border-slate-800">
-                <span>{path.targetAudience.split('/')[0]}</span>
-                <ChevronRight className="w-4 h-4 text-violet-400" />
+              <div className="font-bold text-sm text-white md:w-48 shrink-0 group-hover:text-amber-300 transition-colors">
+                {path.title}
+              </div>
+              <div className="text-xs text-slate-400 flex-1 line-clamp-1">
+                {path.description}
+              </div>
+              <div className="font-mono text-xs text-slate-500 flex items-center gap-4 shrink-0">
+                <span>{path.recommendedDays}d · {path.targetAudience.split('/')[0]}</span>
+                <span className="text-amber-400 font-mono text-sm group-hover:translate-x-1 transition-transform">
+                  →
+                </span>
               </div>
             </Link>
           ))}
         </div>
-      </div>
+      </section>
 
-      {/* 31 Topics Grid */}
-      <div className="space-y-4">
-        <div className="flex items-center justify-between">
-          <h2 className="text-xl font-bold text-slate-100 flex items-center space-x-2">
-            <Layers className="w-5 h-5 text-indigo-400" />
-            <span>All DSA Topics ({DSA_TOPICS_31.length})</span>
-          </h2>
+      {/* Section 02: All DSA Topics (3-Column Topic Cards Grid) */}
+      <section className="space-y-4 pt-4">
+        <div className="font-mono text-xs text-slate-500 flex items-center gap-3">
+          <span className="text-teal-300 font-bold">02</span>
+          <span className="text-slate-300">all_dsa_topics</span>
+          <span>({DSA_TOPICS_31.length})</span>
+          <div className="flex-1 h-px bg-slate-800/80" />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {DSA_TOPICS_31.map((topic) => {
             const stats = topicStatsMap[topic.slug] || {
               total: 0,
@@ -185,58 +229,95 @@ export default async function DSAStudioTopicPage() {
               medium: 0,
               hard: 0,
             };
-            const safeTotal = Math.max(1, stats.total);
+            const complexity = TOPIC_COMPLEXITY_MAP[topic.slug] || 'O(n)';
+
+            // Determine dominant difficulty for visual tick indicator
+            const dominantDiff =
+              stats.hard >= stats.medium && stats.hard > 0
+                ? 'hard'
+                : stats.medium >= stats.easy && stats.medium > 0
+                ? 'medium'
+                : 'easy';
 
             return (
               <Link
                 key={topic.slug}
                 href={`/dsa/topics/${topic.slug}`}
-                className="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-violet-500/40 rounded-xl p-6 transition-all duration-300 shadow-md flex flex-col justify-between space-y-4"
+                className="group bg-slate-900/70 hover:bg-slate-900 border border-slate-800/90 hover:border-slate-700 rounded-xl p-5 transition-all duration-200 flex flex-col justify-between space-y-4 shadow-sm"
               >
-                <div className="space-y-3">
-                  <div className="flex items-center justify-between">
-                    <h3 className="text-base font-bold text-white group-hover:text-violet-300 transition-colors">
+                <div className="space-y-2.5">
+                  <div className="flex items-start justify-between gap-2">
+                    <h3 className="font-mono font-bold text-base text-white group-hover:text-amber-300 transition-colors">
                       {topic.name}
                     </h3>
-                    <span className="text-xs font-mono font-semibold text-slate-400">
-                      {stats.total} Problems
+                    <span className="font-mono text-[11px] text-slate-500 whitespace-nowrap pt-0.5">
+                      {stats.total} problems
                     </span>
+                  </div>
+
+                  {/* Complexity Badge */}
+                  <div className="inline-block font-mono text-[11px] text-teal-300 bg-teal-500/10 border border-teal-500/20 px-2 py-0.5 rounded">
+                    {complexity}
                   </div>
 
                   <p className="text-xs text-slate-400 line-clamp-2 leading-relaxed">
                     {topic.description}
                   </p>
-
-                  {/* Difficulty Breakdown Bar */}
-                  <div className="space-y-1">
-                    <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden flex">
-                      <div className="bg-emerald-500 h-full" style={{ width: stats.total > 0 ? `${(stats.easy / safeTotal) * 100}%` : '0%' }} title={`Easy: ${stats.easy}`} />
-                      <div className="bg-amber-500 h-full" style={{ width: stats.total > 0 ? `${(stats.medium / safeTotal) * 100}%` : '0%' }} title={`Medium: ${stats.medium}`} />
-                      <div className="bg-rose-500 h-full" style={{ width: stats.total > 0 ? `${(stats.hard / safeTotal) * 100}%` : '0%' }} title={`Hard: ${stats.hard}`} />
-                    </div>
-                    <div className="flex justify-between text-[10px] text-slate-400 font-mono">
-                      <span className="text-emerald-400 font-semibold">Easy {stats.easy}</span>
-                      <span className="text-amber-400 font-semibold">Med {stats.medium}</span>
-                      <span className="text-rose-400 font-semibold">Hard {stats.hard}</span>
-                    </div>
-                  </div>
                 </div>
 
-                <div className="pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs text-indigo-400 font-medium">
-                  <span className="flex items-center space-x-1">
-                    <Clock className="w-3.5 h-3.5 text-slate-400" />
-                    <span className="text-slate-400">~{topic.estimatedHours} hrs</span>
-                  </span>
-                  <span className="group-hover:translate-x-1 transition-transform flex items-center space-x-1">
-                    <span>Explore Topic</span>
-                    <ChevronRight className="w-3.5 h-3.5" />
-                  </span>
+                {/* Footer with Difficulty Ticks */}
+                <div className="pt-3 border-t border-slate-800/80 flex items-center justify-between">
+                  <div className="flex items-center gap-2 font-mono text-xs">
+                    <div className="flex gap-0.5">
+                      <div
+                        className={`w-1.5 h-3 rounded-xs ${
+                          dominantDiff === 'easy' || dominantDiff === 'medium' || dominantDiff === 'hard'
+                            ? stats.hard > 0
+                              ? 'bg-rose-400'
+                              : stats.medium > 0
+                              ? 'bg-amber-400'
+                              : 'bg-emerald-400'
+                            : 'bg-slate-800'
+                        }`}
+                      />
+                      <div
+                        className={`w-1.5 h-3 rounded-xs ${
+                          dominantDiff === 'medium' || dominantDiff === 'hard'
+                            ? stats.hard > 0
+                              ? 'bg-rose-400'
+                              : 'bg-amber-400'
+                            : 'bg-slate-800'
+                        }`}
+                      />
+                      <div
+                        className={`w-1.5 h-3 rounded-xs ${
+                          dominantDiff === 'hard' ? 'bg-rose-400' : 'bg-slate-800'
+                        }`}
+                      />
+                    </div>
+                    <span
+                      className={`text-[11px] font-bold ${
+                        dominantDiff === 'easy'
+                          ? 'text-emerald-400'
+                          : dominantDiff === 'medium'
+                          ? 'text-amber-400'
+                          : 'text-rose-400'
+                      }`}
+                    >
+                      {dominantDiff === 'easy' ? 'Easy' : dominantDiff === 'medium' ? 'Med' : 'Hard'}
+                    </span>
+                  </div>
+
+                  <div className="font-mono text-xs text-slate-400 group-hover:text-amber-400 transition-colors flex items-center gap-1">
+                    <span>Explore</span>
+                    <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+                  </div>
                 </div>
               </Link>
             );
           })}
         </div>
-      </div>
+      </section>
     </div>
   );
 }

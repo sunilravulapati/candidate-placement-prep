@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_266",
+  "slug": "tcs-apt-266",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Sugar costing Rs 9/kg and Rs 15/kg mixed in ratio 2:1. Cost of mixture per kg?",
+  "description": "Sugar costing Rs 9/kg and Rs 15/kg mixed in ratio 2:1. Cost of mixture per kg?",
+  "question": "Sugar costing Rs 9/kg and Rs 15/kg mixed in ratio 2:1. Cost of mixture per kg?",
+  "options": [
+    "11",
+    "12",
+    "10",
+    "13"
+  ],
+  "optionsMap": {
+    "A": "11",
+    "B": "12",
+    "C": "10",
+    "D": "13"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "11",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

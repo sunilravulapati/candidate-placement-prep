@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_131",
+  "slug": "tcs-apt-131",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "mensuration",
+  "topicName": "Mensuration",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A room 5m × 4m × 3m. Area of 4 walls is:",
+  "description": "A room 5m × 4m × 3m. Area of 4 walls is:",
+  "question": "A room 5m × 4m × 3m. Area of 4 walls is:",
+  "options": [
+    "54 m2",
+    "60 m2",
+    "48 m2",
+    "70 m2"
+  ],
+  "optionsMap": {
+    "A": "54 m2",
+    "B": "60 m2",
+    "C": "48 m2",
+    "D": "70 m2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "54 m2",
+  "tags": [
+    "quantitative",
+    "mensuration"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

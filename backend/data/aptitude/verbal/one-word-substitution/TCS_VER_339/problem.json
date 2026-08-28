@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_339",
+  "slug": "tcs-ver-339",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "one-word-substitution",
+  "topicName": "One Word Substitution",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Find the one word substitution for: One who studies the origin and history of...",
+  "description": "Find the one word substitution for: One who studies the origin and history of words",
+  "question": "Find the one word substitution for: One who studies the origin and history of words",
+  "options": [
+    "Etymologist",
+    "Philologist",
+    "Lexicographer",
+    "Linguist"
+  ],
+  "optionsMap": {
+    "A": "Etymologist",
+    "B": "Philologist",
+    "C": "Lexicographer",
+    "D": "Linguist"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Etymologist",
+  "tags": [
+    "verbal",
+    "one-word-substitution"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

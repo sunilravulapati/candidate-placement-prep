@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_115",
+  "slug": "tcs-ver-115",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The students were _____ by the complexity of the math problem.",
+  "description": "The students were _____ by the complexity of the math problem.",
+  "question": "The students were _____ by the complexity of the math problem.",
+  "options": [
+    "baffled",
+    "inspired",
+    "motivated",
+    "excited"
+  ],
+  "optionsMap": {
+    "A": "baffled",
+    "B": "inspired",
+    "C": "motivated",
+    "D": "excited"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "baffled",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

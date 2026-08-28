@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_455",
+  "slug": "tcs-log-455",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Missing: 64, 49, 36, 25, __?",
+  "description": "Missing: 64, 49, 36, 25, __?",
+  "question": "Missing: 64, 49, 36, 25, __?",
+  "options": [
+    "16",
+    "9",
+    "12",
+    "18"
+  ],
+  "optionsMap": {
+    "A": "16",
+    "B": "9",
+    "C": "12",
+    "D": "18"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "16",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_088",
+  "slug": "tcs-ver-088",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most OPPOSITE in meaning to: LISTLESS",
+  "description": "Choose the word most OPPOSITE in meaning to: LISTLESS",
+  "question": "Choose the word most OPPOSITE in meaning to: LISTLESS",
+  "options": [
+    "Energetic",
+    "Lazy",
+    "Dull",
+    "Tired"
+  ],
+  "optionsMap": {
+    "A": "Energetic",
+    "B": "Lazy",
+    "C": "Dull",
+    "D": "Tired"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Energetic",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

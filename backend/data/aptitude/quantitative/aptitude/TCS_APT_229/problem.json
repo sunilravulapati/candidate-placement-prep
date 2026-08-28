@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_229",
+  "slug": "tcs-apt-229",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A and B together can do a job in 12 days. A alone in 20 days. B alone in how ...",
+  "description": "A and B together can do a job in 12 days. A alone in 20 days. B alone in how many days?",
+  "question": "A and B together can do a job in 12 days. A alone in 20 days. B alone in how many days?",
+  "options": [
+    "30",
+    "25",
+    "40",
+    "35"
+  ],
+  "optionsMap": {
+    "A": "30",
+    "B": "25",
+    "C": "40",
+    "D": "35"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "30",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

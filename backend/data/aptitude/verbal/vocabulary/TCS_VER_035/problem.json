@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_035",
+  "slug": "tcs-ver-035",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: INCESSANT",
+  "description": "Choose the word most similar in meaning to: INCESSANT",
+  "question": "Choose the word most similar in meaning to: INCESSANT",
+  "options": [
+    "Continuous",
+    "Occasional",
+    "Rare",
+    "Sporadic"
+  ],
+  "optionsMap": {
+    "A": "Continuous",
+    "B": "Occasional",
+    "C": "Rare",
+    "D": "Sporadic"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Continuous",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

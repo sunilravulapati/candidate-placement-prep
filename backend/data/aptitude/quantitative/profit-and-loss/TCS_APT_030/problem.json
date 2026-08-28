@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_030",
+  "slug": "tcs-apt-030",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "profit-and-loss",
+  "topicName": "Profit and Loss",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A person sells 36 oranges for Rs.100 and gains 8%. How many oranges did he bu...",
+  "description": "A person sells 36 oranges for Rs.100 and gains 8%. How many oranges did he buy for Rs.100?",
+  "question": "A person sells 36 oranges for Rs.100 and gains 8%. How many oranges did he buy for Rs.100?",
+  "options": [
+    "38.88",
+    "40",
+    "35",
+    "37"
+  ],
+  "optionsMap": {
+    "A": "38.88",
+    "B": "40",
+    "C": "35",
+    "D": "37"
+  },
+  "answer": "C",
+  "answerKey": "C",
+  "correctAnswer": "35",
+  "tags": [
+    "quantitative",
+    "profit-and-loss"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

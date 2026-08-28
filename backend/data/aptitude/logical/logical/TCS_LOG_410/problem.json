@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_410",
+  "slug": "tcs-log-410",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Missing: 1, 2, 6, 24, 120, ?",
+  "description": "Missing: 1, 2, 6, 24, 120, ?",
+  "question": "Missing: 1, 2, 6, 24, 120, ?",
+  "options": [
+    "720",
+    "600",
+    "840",
+    "480"
+  ],
+  "optionsMap": {
+    "A": "720",
+    "B": "600",
+    "C": "840",
+    "D": "480"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "720",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

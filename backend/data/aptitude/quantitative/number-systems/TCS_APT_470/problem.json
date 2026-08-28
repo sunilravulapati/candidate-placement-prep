@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_470",
+  "slug": "tcs-apt-470",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "number-systems",
+  "topicName": "Number Systems",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "What is the HCF of (a2-b2) and (a3-b3)?",
+  "description": "What is the HCF of (a2-b2) and (a3-b3)?",
+  "question": "What is the HCF of (a2-b2) and (a3-b3)?",
+  "options": [
+    "a2-b2",
+    "a-b",
+    "a3-b3",
+    "a+b"
+  ],
+  "optionsMap": {
+    "A": "a2-b2",
+    "B": "a-b",
+    "C": "a3-b3",
+    "D": "a+b"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "a2-b2",
+  "tags": [
+    "quantitative",
+    "number-systems"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

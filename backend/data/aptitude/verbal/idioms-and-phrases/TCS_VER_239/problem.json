@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_239",
+  "slug": "tcs-ver-239",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "What does 'wolf in sheep's clothing' mean?",
+  "description": "What does 'wolf in sheep's clothing' mean?",
+  "question": "What does 'wolf in sheep's clothing' mean?",
+  "options": [
+    "A dangerous person disguised as harmless",
+    "An animal wearing clothes",
+    "A friendly stranger",
+    "An honest person"
+  ],
+  "optionsMap": {
+    "A": "A dangerous person disguised as harmless",
+    "B": "An animal wearing clothes",
+    "C": "A friendly stranger",
+    "D": "An honest person"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "A dangerous person disguised as harmless",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

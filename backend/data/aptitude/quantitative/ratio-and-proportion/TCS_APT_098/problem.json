@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_098",
+  "slug": "tcs-apt-098",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "ratio-and-proportion",
+  "topicName": "Ratio and Proportion",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "If 4 is subtracted from each term of ratio 5:8, ratio becomes 1:2. Find origi...",
+  "description": "If 4 is subtracted from each term of ratio 5:8, ratio becomes 1:2. Find original numbers.",
+  "question": "If 4 is subtracted from each term of ratio 5:8, ratio becomes 1:2. Find original numbers.",
+  "options": [
+    "5 and 8",
+    "10 and 16",
+    "15 and 24",
+    "4 and 8"
+  ],
+  "optionsMap": {
+    "A": "5 and 8",
+    "B": "10 and 16",
+    "C": "15 and 24",
+    "D": "4 and 8"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "5 and 8",
+  "tags": [
+    "quantitative",
+    "ratio-and-proportion"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

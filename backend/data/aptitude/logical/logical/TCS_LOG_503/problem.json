@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_503",
+  "slug": "tcs-log-503",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Analogy: Ornithology:Birds :: Entomology:?",
+  "description": "Analogy: Ornithology:Birds :: Entomology:?",
+  "question": "Analogy: Ornithology:Birds :: Entomology:?",
+  "options": [
+    "Insects",
+    "Reptiles",
+    "Mammals",
+    "Fish"
+  ],
+  "optionsMap": {
+    "A": "Insects",
+    "B": "Reptiles",
+    "C": "Mammals",
+    "D": "Fish"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Insects",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_207",
+  "slug": "tcs-log-207",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "critical-reasoning",
+  "topicName": "Critical Reasoning",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Which weakens the argument: 'Students who use laptops in class perform better...",
+  "description": "Which weakens the argument: 'Students who use laptops in class perform better on exams.'?",
+  "question": "Which weakens the argument: 'Students who use laptops in class perform better on exams.'?",
+  "options": [
+    "High-performing students are more likely to own laptops",
+    "Laptops distract students",
+    "The study covered 5000 students",
+    "Laptops allow better note-taking"
+  ],
+  "optionsMap": {
+    "A": "High-performing students are more likely to own laptops",
+    "B": "Laptops distract students",
+    "C": "The study covered 5000 students",
+    "D": "Laptops allow better note-taking"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "High-performing students are more likely to own laptops",
+  "tags": [
+    "logical",
+    "critical-reasoning"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

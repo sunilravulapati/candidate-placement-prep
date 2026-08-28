@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_457",
+  "slug": "tcs-log-457",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Analogy: Cold:Fever :: War:?",
+  "description": "Analogy: Cold:Fever :: War:?",
+  "question": "Analogy: Cold:Fever :: War:?",
+  "options": [
+    "Peace",
+    "Destruction",
+    "Hunger",
+    "Inflation"
+  ],
+  "optionsMap": {
+    "A": "Peace",
+    "B": "Destruction",
+    "C": "Hunger",
+    "D": "Inflation"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Destruction",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

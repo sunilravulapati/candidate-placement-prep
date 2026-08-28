@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_070",
+  "slug": "tcs-apt-070",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "speed-and-distance",
+  "topicName": "Speed and Distance",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A boat travels 24 km upstream in 6 hours and 24 km downstream in 4 hours. Wha...",
+  "description": "A boat travels 24 km upstream in 6 hours and 24 km downstream in 4 hours. What is the speed of the stream?",
+  "question": "A boat travels 24 km upstream in 6 hours and 24 km downstream in 4 hours. What is the speed of the stream?",
+  "options": [
+    "2 km/h",
+    "1 km/h",
+    "3 km/h",
+    "4 km/h"
+  ],
+  "optionsMap": {
+    "A": "2 km/h",
+    "B": "1 km/h",
+    "C": "3 km/h",
+    "D": "4 km/h"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "2 km/h",
+  "tags": [
+    "quantitative",
+    "speed-and-distance"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_153",
+  "slug": "tcs-apt-153",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "number-series",
+  "topicName": "Number Series",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Find the missing: 6, 11, 21, 36, 56, ___",
+  "description": "Find the missing: 6, 11, 21, 36, 56, ___",
+  "question": "Find the missing: 6, 11, 21, 36, 56, ___",
+  "options": [
+    "81",
+    "80",
+    "82",
+    "75"
+  ],
+  "optionsMap": {
+    "A": "81",
+    "B": "80",
+    "C": "82",
+    "D": "75"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "81",
+  "tags": [
+    "quantitative",
+    "number-series"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

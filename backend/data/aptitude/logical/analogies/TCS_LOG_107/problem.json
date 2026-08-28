@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_107",
+  "slug": "tcs-log-107",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "analogies",
+  "topicName": "Analogies",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Ruminant : Cow :: Carnivore : ?",
+  "description": "Ruminant : Cow :: Carnivore : ?",
+  "question": "Ruminant : Cow :: Carnivore : ?",
+  "options": [
+    "Lion",
+    "Deer",
+    "Elephant",
+    "Horse"
+  ],
+  "optionsMap": {
+    "A": "Lion",
+    "B": "Deer",
+    "C": "Elephant",
+    "D": "Horse"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Lion",
+  "tags": [
+    "logical",
+    "analogies"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_018",
+  "slug": "tcs-ver-018",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Choose the word most similar in meaning to: RESILIENT",
+  "description": "Choose the word most similar in meaning to: RESILIENT",
+  "question": "Choose the word most similar in meaning to: RESILIENT",
+  "options": [
+    "Tough",
+    "Fragile",
+    "Weak",
+    "Brittle"
+  ],
+  "optionsMap": {
+    "A": "Tough",
+    "B": "Fragile",
+    "C": "Weak",
+    "D": "Brittle"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Tough",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

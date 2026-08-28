@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_617",
+  "slug": "tcs-apt-617",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Diagonal of square with side 6?",
+  "description": "Diagonal of square with side 6?",
+  "question": "Diagonal of square with side 6?",
+  "options": [
+    "6√2",
+    "6",
+    "12",
+    "3√2"
+  ],
+  "optionsMap": {
+    "A": "6√2",
+    "B": "6",
+    "C": "12",
+    "D": "3√2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "6√2",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

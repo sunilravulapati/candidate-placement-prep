@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_257",
+  "slug": "tcs-ver-257",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "sentence-improvement",
+  "topicName": "Sentence Improvement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Improve the underlined part of the sentence: 'He is too weak that he cannot s...",
+  "description": "Improve the underlined part of the sentence: 'He is too weak that he cannot stand up.'",
+  "question": "Improve the underlined part of the sentence: 'He is too weak that he cannot stand up.'",
+  "options": [
+    "He is too weak to stand up.",
+    "He is much weak to stand up.",
+    "He is very weak that he cannot stand up.",
+    "No improvement"
+  ],
+  "optionsMap": {
+    "A": "He is too weak to stand up.",
+    "B": "He is much weak to stand up.",
+    "C": "He is very weak that he cannot stand up.",
+    "D": "No improvement"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "He is too weak to stand up.",
+  "tags": [
+    "verbal",
+    "sentence-improvement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_142",
+  "slug": "tcs-ver-142",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Her _____ for languages allowed her to learn three in two years.",
+  "description": "Her _____ for languages allowed her to learn three in two years.",
+  "question": "Her _____ for languages allowed her to learn three in two years.",
+  "options": [
+    "aptitude",
+    "dislike",
+    "inability",
+    "weakness"
+  ],
+  "optionsMap": {
+    "A": "aptitude",
+    "B": "dislike",
+    "C": "inability",
+    "D": "weakness"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "aptitude",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

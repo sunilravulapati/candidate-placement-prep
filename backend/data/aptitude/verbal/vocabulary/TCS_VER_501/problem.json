@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_501",
+  "slug": "tcs-ver-501",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "What is the synonym of 'sagacious'?",
+  "description": "What is the synonym of 'sagacious'?",
+  "question": "What is the synonym of 'sagacious'?",
+  "options": [
+    "Wise",
+    "Foolish",
+    "Reckless",
+    "Ignorant"
+  ],
+  "optionsMap": {
+    "A": "Wise",
+    "B": "Foolish",
+    "C": "Reckless",
+    "D": "Ignorant"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Wise",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

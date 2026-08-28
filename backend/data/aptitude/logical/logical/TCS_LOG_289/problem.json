@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_289",
+  "slug": "tcs-log-289",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Calendar: A year has 365 days. If Jan 1 is Monday, what day is Dec 31?",
+  "description": "Calendar: A year has 365 days. If Jan 1 is Monday, what day is Dec 31?",
+  "question": "Calendar: A year has 365 days. If Jan 1 is Monday, what day is Dec 31?",
+  "options": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Sunday"
+  ],
+  "optionsMap": {
+    "A": "Monday",
+    "B": "Tuesday",
+    "C": "Wednesday",
+    "D": "Sunday"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Monday",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

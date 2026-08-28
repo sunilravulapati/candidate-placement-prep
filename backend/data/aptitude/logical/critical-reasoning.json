@@ -1,0 +1,302 @@
+[
+  {
+    "id": "TCS_LOG_201",
+    "title": "Argument: 'The crime rate in cities with CCTV cameras is lower than in cities...",
+    "description": "Argument: 'The crime rate in cities with CCTV cameras is lower than in cities without. Therefore, CCTV cameras reduce crime.' The assumption is:",
+    "question": "Argument: 'The crime rate in cities with CCTV cameras is lower than in cities without. Therefore, CCTV cameras reduce crime.' The assumption is:",
+    "options": [
+      "CCTV cameras are the only difference between the two groups of cities",
+      "Cities are identical in all other respects",
+      "CCTV cameras record all crime",
+      "Police in CCTV cities work harder"
+    ],
+    "answer": "Cities are identical in all other respects",
+    "answerKey": "B",
+    "correctAnswer": "Cities are identical in all other respects",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: Cities are identical in all other respects.",
+    "topic": "critical-reasoning",
+    "topicName": "Critical Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_202",
+    "title": "Argument: 'Sales of ice cream rise when drowning accidents increase. Therefor...",
+    "description": "Argument: 'Sales of ice cream rise when drowning accidents increase. Therefore, eating ice cream causes drowning.' The flaw is:",
+    "question": "Argument: 'Sales of ice cream rise when drowning accidents increase. Therefore, eating ice cream causes drowning.' The flaw is:",
+    "options": [
+      "Correlation is mistaken for causation",
+      "The sample size is too small",
+      "The argument is circular",
+      "The conclusion is irrelevant"
+    ],
+    "answer": "Correlation is mistaken for causation",
+    "answerKey": "A",
+    "correctAnswer": "Correlation is mistaken for causation",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Correlation is mistaken for causation.",
+    "topic": "critical-reasoning",
+    "topicName": "Critical Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_203",
+    "title": "A company policy states: 'Employees with perfect attendance get a bonus.' Ram...",
+    "description": "A company policy states: 'Employees with perfect attendance get a bonus.' Ram received a bonus. What can we conclude?",
+    "question": "A company policy states: 'Employees with perfect attendance get a bonus.' Ram received a bonus. What can we conclude?",
+    "options": [
+      "Ram may or may not have perfect attendance",
+      "Ram has perfect attendance",
+      "Ram has partial attendance",
+      "Cannot conclude anything"
+    ],
+    "answer": "Ram may or may not have perfect attendance",
+    "answerKey": "A",
+    "correctAnswer": "Ram may or may not have perfect attendance",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Ram may or may not have perfect attendance.",
+    "topic": "critical-reasoning",
+    "topicName": "Critical Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_204",
+    "title": "Argument: 'Every student who passed the exam studied hard. Priya studied hard...",
+    "description": "Argument: 'Every student who passed the exam studied hard. Priya studied hard.' Conclusion: 'Priya passed the exam.' This argument is:",
+    "question": "Argument: 'Every student who passed the exam studied hard. Priya studied hard.' Conclusion: 'Priya passed the exam.' This argument is:",
+    "options": [
+      "Invalid - affirming the consequent",
+      "Valid deductive argument",
+      "Valid inductive argument",
+      "Sound and valid"
+    ],
+    "answer": "Invalid - affirming the consequent",
+    "answerKey": "A",
+    "correctAnswer": "Invalid - affirming the consequent",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Invalid - affirming the consequent.",
+    "topic": "critical-reasoning",
+    "topicName": "Critical Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_206",
+    "title": "'Either the train is on time, or we will be late. We are not late. Therefore,...",
+    "description": "'Either the train is on time, or we will be late. We are not late. Therefore, the train was on time.' This is an example of:",
+    "question": "'Either the train is on time, or we will be late. We are not late. Therefore, the train was on time.' This is an example of:",
+    "options": [
+      "Valid disjunctive syllogism",
+      "Invalid argument",
+      "Circular reasoning",
+      "Hasty generalization"
+    ],
+    "answer": "Valid disjunctive syllogism",
+    "answerKey": "A",
+    "correctAnswer": "Valid disjunctive syllogism",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Valid disjunctive syllogism.",
+    "topic": "critical-reasoning",
+    "topicName": "Critical Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_207",
+    "title": "Which weakens the argument: 'Students who use laptops in class perform better...",
+    "description": "Which weakens the argument: 'Students who use laptops in class perform better on exams.'?",
+    "question": "Which weakens the argument: 'Students who use laptops in class perform better on exams.'?",
+    "options": [
+      "High-performing students are more likely to own laptops",
+      "Laptops distract students",
+      "The study covered 5000 students",
+      "Laptops allow better note-taking"
+    ],
+    "answer": "High-performing students are more likely to own laptops",
+    "answerKey": "A",
+    "correctAnswer": "High-performing students are more likely to own laptops",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: High-performing students are more likely to own laptops.",
+    "topic": "critical-reasoning",
+    "topicName": "Critical Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_208",
+    "title": "All A are B. Some B are C. Therefore:",
+    "description": "All A are B. Some B are C. Therefore:",
+    "question": "All A are B. Some B are C. Therefore:",
+    "options": [
+      "Some A may or may not be C",
+      "All A are C",
+      "No A are C",
+      "Some A are definitely C"
+    ],
+    "answer": "Some A may or may not be C",
+    "answerKey": "A",
+    "correctAnswer": "Some A may or may not be C",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Some A may or may not be C.",
+    "topic": "critical-reasoning",
+    "topicName": "Critical Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_209",
+    "title": "A man says, 'I always lie.' This statement is:",
+    "description": "A man says, 'I always lie.' This statement is:",
+    "question": "A man says, 'I always lie.' This statement is:",
+    "options": [
+      "A paradox",
+      "True",
+      "False",
+      "A valid claim"
+    ],
+    "answer": "A paradox",
+    "answerKey": "A",
+    "correctAnswer": "A paradox",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: A paradox.",
+    "topic": "critical-reasoning",
+    "topicName": "Critical Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_205",
+    "title": "If the statement 'All politicians are corrupt' is false, which is definitely ...",
+    "description": "If the statement 'All politicians are corrupt' is false, which is definitely true?",
+    "question": "If the statement 'All politicians are corrupt' is false, which is definitely true?",
+    "options": [
+      "Some politicians are not corrupt",
+      "No politician is corrupt",
+      "All politicians are honest",
+      "Politicians are rarely corrupt"
+    ],
+    "answer": "Some politicians are not corrupt",
+    "answerKey": "A",
+    "correctAnswer": "Some politicians are not corrupt",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Some politicians are not corrupt.",
+    "topic": "critical-reasoning",
+    "topicName": "Critical Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_210",
+    "title": "Which conclusion follows from: 'No honest person is wealthy. Some politicians...",
+    "description": "Which conclusion follows from: 'No honest person is wealthy. Some politicians are wealthy.'?",
+    "question": "Which conclusion follows from: 'No honest person is wealthy. Some politicians are wealthy.'?",
+    "options": [
+      "Some politicians are not honest",
+      "All politicians are dishonest",
+      "No politician is honest",
+      "Wealthy people are dishonest"
+    ],
+    "answer": "Some politicians are not honest",
+    "answerKey": "A",
+    "correctAnswer": "Some politicians are not honest",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Some politicians are not honest.",
+    "topic": "critical-reasoning",
+    "topicName": "Critical Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

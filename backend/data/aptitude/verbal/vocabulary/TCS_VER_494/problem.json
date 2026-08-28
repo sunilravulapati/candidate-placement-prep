@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_494",
+  "slug": "tcs-ver-494",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Which word means 'to make amends'?",
+  "description": "Which word means 'to make amends'?",
+  "question": "Which word means 'to make amends'?",
+  "options": [
+    "Atone",
+    "Pretend",
+    "Deny",
+    "Refuse"
+  ],
+  "optionsMap": {
+    "A": "Atone",
+    "B": "Pretend",
+    "C": "Deny",
+    "D": "Refuse"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Atone",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

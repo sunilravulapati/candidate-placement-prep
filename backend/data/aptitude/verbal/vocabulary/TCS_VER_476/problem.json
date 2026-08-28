@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_476",
+  "slug": "tcs-ver-476",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Which sentence uses 'risen' correctly?",
+  "description": "Which sentence uses 'risen' correctly?",
+  "question": "Which sentence uses 'risen' correctly?",
+  "options": [
+    "The sun has risen.",
+    "The sun has rose.",
+    "The sun had rose.",
+    "The sun was risen."
+  ],
+  "optionsMap": {
+    "A": "The sun has risen.",
+    "B": "The sun has rose.",
+    "C": "The sun had rose.",
+    "D": "The sun was risen."
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "The sun has risen.",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

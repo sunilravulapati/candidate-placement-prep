@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_177",
+  "slug": "tcs-ver-177",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Choose the sentence that is grammatically correct:",
+  "description": "Choose the sentence that is grammatically correct:",
+  "question": "Choose the sentence that is grammatically correct:",
+  "options": [
+    "Between you and I, this is wrong.",
+    "Between you and me, this is wrong.",
+    "Between you and I, this is right.",
+    "Between me and you, this is wrong."
+  ],
+  "optionsMap": {
+    "A": "Between you and I, this is wrong.",
+    "B": "Between you and me, this is wrong.",
+    "C": "Between you and I, this is right.",
+    "D": "Between me and you, this is wrong."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Between you and me, this is wrong.",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

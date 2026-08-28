@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_338",
+  "slug": "tcs-log-338",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Statement-Argument: Should all cars be banned in cities? For: Reduces polluti...",
+  "description": "Statement-Argument: Should all cars be banned in cities? For: Reduces pollution. Against?",
+  "question": "Statement-Argument: Should all cars be banned in cities? For: Reduces pollution. Against?",
+  "options": [
+    "Reduces mobility",
+    "Expensive to own",
+    "Hard to repair",
+    "Old models pollute less"
+  ],
+  "optionsMap": {
+    "A": "Reduces mobility",
+    "B": "Expensive to own",
+    "C": "Hard to repair",
+    "D": "Old models pollute less"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Reduces mobility",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

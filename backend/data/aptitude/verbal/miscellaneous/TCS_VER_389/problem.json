@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_389",
+  "slug": "tcs-ver-389",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "miscellaneous",
+  "topicName": "Miscellaneous",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the correctly spelt word:",
+  "description": "Choose the correctly spelt word:",
+  "question": "Choose the correctly spelt word:",
+  "options": [
+    "Mischievous",
+    "Mischievious",
+    "Mischivous",
+    "Mischeivous"
+  ],
+  "optionsMap": {
+    "A": "Mischievous",
+    "B": "Mischievious",
+    "C": "Mischivous",
+    "D": "Mischeivous"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Mischievous",
+  "tags": [
+    "verbal",
+    "miscellaneous"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

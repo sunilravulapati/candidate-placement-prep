@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_081",
+  "slug": "tcs-log-081",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "seating-arrangement",
+  "topicName": "Seating Arrangement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "6 students sit in a row facing north. A is at one end. F is between D and E. ...",
+  "description": "6 students sit in a row facing north. A is at one end. F is between D and E. B is to the immediate right of A. C is between B and D. Who is in the middle?",
+  "question": "6 students sit in a row facing north. A is at one end. F is between D and E. B is to the immediate right of A. C is between B and D. Who is in the middle?",
+  "options": [
+    "C or D",
+    "B or C",
+    "D or E",
+    "A or B"
+  ],
+  "optionsMap": {
+    "A": "C or D",
+    "B": "B or C",
+    "C": "D or E",
+    "D": "A or B"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "C or D",
+  "tags": [
+    "logical",
+    "seating-arrangement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

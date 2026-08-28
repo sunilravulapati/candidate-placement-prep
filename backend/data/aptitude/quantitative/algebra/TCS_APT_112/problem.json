@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_112",
+  "slug": "tcs-apt-112",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "algebra",
+  "topicName": "Algebra",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "If 2x − 3y = 4 and 3x + y = 7, find x.",
+  "description": "If 2x − 3y = 4 and 3x + y = 7, find x.",
+  "question": "If 2x − 3y = 4 and 3x + y = 7, find x.",
+  "options": [
+    "1.8",
+    "2",
+    "1.5",
+    "2.5"
+  ],
+  "optionsMap": {
+    "A": "1.8",
+    "B": "2",
+    "C": "1.5",
+    "D": "2.5"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "2",
+  "tags": [
+    "quantitative",
+    "algebra"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

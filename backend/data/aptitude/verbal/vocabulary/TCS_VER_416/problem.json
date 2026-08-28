@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_416",
+  "slug": "tcs-ver-416",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the synonym of: LOQUACIOUS",
+  "description": "Choose the synonym of: LOQUACIOUS",
+  "question": "Choose the synonym of: LOQUACIOUS",
+  "options": [
+    "Talkative",
+    "Silent",
+    "Reserved",
+    "Thoughtful"
+  ],
+  "optionsMap": {
+    "A": "Talkative",
+    "B": "Silent",
+    "C": "Reserved",
+    "D": "Thoughtful"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Talkative",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

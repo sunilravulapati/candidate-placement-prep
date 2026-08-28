@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_195",
+  "slug": "tcs-apt-195",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "calendars",
+  "topicName": "Calendars",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "If 15th August 1947 was Friday, what day was 14th August 1947?",
+  "description": "If 15th August 1947 was Friday, what day was 14th August 1947?",
+  "question": "If 15th August 1947 was Friday, what day was 14th August 1947?",
+  "options": [
+    "Thursday",
+    "Saturday",
+    "Wednesday",
+    "Tuesday"
+  ],
+  "optionsMap": {
+    "A": "Thursday",
+    "B": "Saturday",
+    "C": "Wednesday",
+    "D": "Tuesday"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Thursday",
+  "tags": [
+    "quantitative",
+    "calendars"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

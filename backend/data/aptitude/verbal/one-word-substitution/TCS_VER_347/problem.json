@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_347",
+  "slug": "tcs-ver-347",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "one-word-substitution",
+  "topicName": "One Word Substitution",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find the one word substitution for: Government by a small group of people",
+  "description": "Find the one word substitution for: Government by a small group of people",
+  "question": "Find the one word substitution for: Government by a small group of people",
+  "options": [
+    "Oligarchy",
+    "Democracy",
+    "Theocracy",
+    "Monarchy"
+  ],
+  "optionsMap": {
+    "A": "Oligarchy",
+    "B": "Democracy",
+    "C": "Theocracy",
+    "D": "Monarchy"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Oligarchy",
+  "tags": [
+    "verbal",
+    "one-word-substitution"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

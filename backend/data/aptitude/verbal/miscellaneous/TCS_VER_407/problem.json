@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_407",
+  "slug": "tcs-ver-407",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "miscellaneous",
+  "topicName": "Miscellaneous",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Which is the correct reported speech for: He said, 'I am happy'?",
+  "description": "Which is the correct reported speech for: He said, 'I am happy'?",
+  "question": "Which is the correct reported speech for: He said, 'I am happy'?",
+  "options": [
+    "He said that he is happy.",
+    "He said that he was happy.",
+    "He said that I am happy.",
+    "He told he was happy."
+  ],
+  "optionsMap": {
+    "A": "He said that he is happy.",
+    "B": "He said that he was happy.",
+    "C": "He said that I am happy.",
+    "D": "He told he was happy."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "He said that he was happy.",
+  "tags": [
+    "verbal",
+    "miscellaneous"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

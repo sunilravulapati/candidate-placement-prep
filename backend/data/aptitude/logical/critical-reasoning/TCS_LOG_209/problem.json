@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_209",
+  "slug": "tcs-log-209",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "critical-reasoning",
+  "topicName": "Critical Reasoning",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A man says, 'I always lie.' This statement is:",
+  "description": "A man says, 'I always lie.' This statement is:",
+  "question": "A man says, 'I always lie.' This statement is:",
+  "options": [
+    "A paradox",
+    "True",
+    "False",
+    "A valid claim"
+  ],
+  "optionsMap": {
+    "A": "A paradox",
+    "B": "True",
+    "C": "False",
+    "D": "A valid claim"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "A paradox",
+  "tags": [
+    "logical",
+    "critical-reasoning"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_394",
+  "slug": "tcs-ver-394",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "miscellaneous",
+  "topicName": "Miscellaneous",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which word is the PLURAL of 'phenomenon'?",
+  "description": "Which word is the PLURAL of 'phenomenon'?",
+  "question": "Which word is the PLURAL of 'phenomenon'?",
+  "options": [
+    "Phenomenons",
+    "Phenomena",
+    "Phenomenas",
+    "Phenomenes"
+  ],
+  "optionsMap": {
+    "A": "Phenomenons",
+    "B": "Phenomena",
+    "C": "Phenomenas",
+    "D": "Phenomenes"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Phenomena",
+  "tags": [
+    "verbal",
+    "miscellaneous"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

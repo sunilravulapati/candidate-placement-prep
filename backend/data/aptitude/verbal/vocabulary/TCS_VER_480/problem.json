@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_480",
+  "slug": "tcs-ver-480",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Choose the meaning of the phrase 'kill two birds with one stone':",
+  "description": "Choose the meaning of the phrase 'kill two birds with one stone':",
+  "question": "Choose the meaning of the phrase 'kill two birds with one stone':",
+  "options": [
+    "Accomplish two things with one effort",
+    "Be violent",
+    "Be efficient",
+    "Waste time"
+  ],
+  "optionsMap": {
+    "A": "Accomplish two things with one effort",
+    "B": "Be violent",
+    "C": "Be efficient",
+    "D": "Waste time"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Accomplish two things with one effort",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

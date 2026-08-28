@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_359",
+  "slug": "tcs-log-359",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Blood relation: If X is son of Y's uncle and Z is wife of Y. How is X related...",
+  "description": "Blood relation: If X is son of Y's uncle and Z is wife of Y. How is X related to Z's husband?",
+  "question": "Blood relation: If X is son of Y's uncle and Z is wife of Y. How is X related to Z's husband?",
+  "options": [
+    "Cousin",
+    "Nephew",
+    "Brother",
+    "Uncle"
+  ],
+  "optionsMap": {
+    "A": "Cousin",
+    "B": "Nephew",
+    "C": "Brother",
+    "D": "Uncle"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Cousin",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_287",
+  "slug": "tcs-log-287",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Calendar: If 1 March 2022 is Tuesday, what day is 1 March 2023?",
+  "description": "Calendar: If 1 March 2022 is Tuesday, what day is 1 March 2023?",
+  "question": "Calendar: If 1 March 2022 is Tuesday, what day is 1 March 2023?",
+  "options": [
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Tuesday"
+  ],
+  "optionsMap": {
+    "A": "Wednesday",
+    "B": "Thursday",
+    "C": "Friday",
+    "D": "Tuesday"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Wednesday",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

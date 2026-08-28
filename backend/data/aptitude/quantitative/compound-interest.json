@@ -1,0 +1,332 @@
+[
+  {
+    "id": "TCS_APT_051",
+    "title": "What is the difference between SI and CI on Rs.8000 at 5% for 2 years?",
+    "description": "What is the difference between SI and CI on Rs.8000 at 5% for 2 years?",
+    "question": "What is the difference between SI and CI on Rs.8000 at 5% for 2 years?",
+    "options": [
+      "Rs.20",
+      "Rs.10",
+      "Rs.25",
+      "Rs.30"
+    ],
+    "answer": "Rs.20",
+    "answerKey": "A",
+    "correctAnswer": "Rs.20",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Rs.20.",
+    "topic": "compound-interest",
+    "topicName": "Compound Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_053",
+    "title": "Find the amount on Rs.2000 at 10% p.a. compounded annually for 3 years.",
+    "description": "Find the amount on Rs.2000 at 10% p.a. compounded annually for 3 years.",
+    "question": "Find the amount on Rs.2000 at 10% p.a. compounded annually for 3 years.",
+    "options": [
+      "Rs.2662",
+      "Rs.2600",
+      "Rs.2700",
+      "Rs.2640"
+    ],
+    "answer": "Rs.2662",
+    "answerKey": "A",
+    "correctAnswer": "Rs.2662",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Rs.2662.",
+    "topic": "compound-interest",
+    "topicName": "Compound Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_054",
+    "title": "The difference between CI and SI on Rs.5000 for 2 years at 4% is:",
+    "description": "The difference between CI and SI on Rs.5000 for 2 years at 4% is:",
+    "question": "The difference between CI and SI on Rs.5000 for 2 years at 4% is:",
+    "options": [
+      "Rs.8",
+      "Rs.10",
+      "Rs.12",
+      "Rs.6"
+    ],
+    "answer": "Rs.8",
+    "answerKey": "A",
+    "correctAnswer": "Rs.8",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Rs.8.",
+    "topic": "compound-interest",
+    "topicName": "Compound Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_058",
+    "title": "If a sum doubles in 5 years at SI, in how many years will it double at CI (ap...",
+    "description": "If a sum doubles in 5 years at SI, in how many years will it double at CI (approx)?",
+    "question": "If a sum doubles in 5 years at SI, in how many years will it double at CI (approx)?",
+    "options": [
+      "4.2 years",
+      "5 years",
+      "3.8 years",
+      "6 years"
+    ],
+    "answer": "4.2 years",
+    "answerKey": "A",
+    "correctAnswer": "4.2 years",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 4.2 years.",
+    "topic": "compound-interest",
+    "topicName": "Compound Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_426",
+    "title": "CI on Rs.8000 at 15% for 2 years 4 months (compounded annually) is:",
+    "description": "CI on Rs.8000 at 15% for 2 years 4 months (compounded annually) is:",
+    "question": "CI on Rs.8000 at 15% for 2 years 4 months (compounded annually) is:",
+    "options": [
+      "Rs.3109",
+      "Rs.3000",
+      "Rs.2800",
+      "Rs.3200"
+    ],
+    "answer": "Rs.3109",
+    "answerKey": "A",
+    "correctAnswer": "Rs.3109",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Rs.3109.",
+    "topic": "compound-interest",
+    "topicName": "Compound Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_427",
+    "title": "The effective annual rate of 12% compounded semi-annually is approximately:",
+    "description": "The effective annual rate of 12% compounded semi-annually is approximately:",
+    "question": "The effective annual rate of 12% compounded semi-annually is approximately:",
+    "options": [
+      "12.36%",
+      "12%",
+      "11.5%",
+      "13%"
+    ],
+    "answer": "12.36%",
+    "answerKey": "A",
+    "correctAnswer": "12.36%",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 12.36%.",
+    "topic": "compound-interest",
+    "topicName": "Compound Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_428",
+    "title": "If the difference between SI and CI for 2 years at 10% is Rs.100, the princip...",
+    "description": "If the difference between SI and CI for 2 years at 10% is Rs.100, the principal is:",
+    "question": "If the difference between SI and CI for 2 years at 10% is Rs.100, the principal is:",
+    "options": [
+      "Rs.10000",
+      "Rs.8000",
+      "Rs.12000",
+      "Rs.9000"
+    ],
+    "answer": "Rs.10000",
+    "answerKey": "A",
+    "correctAnswer": "Rs.10000",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Rs.10000.",
+    "topic": "compound-interest",
+    "topicName": "Compound Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_049",
+    "title": "Compound interest on Rs.1000 at 10% p.a. for 2 years (compounded annually) is:",
+    "description": "Compound interest on Rs.1000 at 10% p.a. for 2 years (compounded annually) is:",
+    "question": "Compound interest on Rs.1000 at 10% p.a. for 2 years (compounded annually) is:",
+    "options": [
+      "Rs.210",
+      "Rs.200",
+      "Rs.250",
+      "Rs.220"
+    ],
+    "answer": "Rs.210",
+    "answerKey": "A",
+    "correctAnswer": "Rs.210",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Rs.210.",
+    "topic": "compound-interest",
+    "topicName": "Compound Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_050",
+    "title": "Find CI on Rs.5000 at 8% p.a. for 2 years compounded annually.",
+    "description": "Find CI on Rs.5000 at 8% p.a. for 2 years compounded annually.",
+    "question": "Find CI on Rs.5000 at 8% p.a. for 2 years compounded annually.",
+    "options": [
+      "Rs.832",
+      "Rs.800",
+      "Rs.850",
+      "Rs.900"
+    ],
+    "answer": "Rs.832",
+    "answerKey": "A",
+    "correctAnswer": "Rs.832",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Rs.832.",
+    "topic": "compound-interest",
+    "topicName": "Compound Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_052",
+    "title": "A sum becomes Rs.1331 in 3 years at 10% compounded annually. Find the sum.",
+    "description": "A sum becomes Rs.1331 in 3 years at 10% compounded annually. Find the sum.",
+    "question": "A sum becomes Rs.1331 in 3 years at 10% compounded annually. Find the sum.",
+    "options": [
+      "Rs.1000",
+      "Rs.1100",
+      "Rs.1200",
+      "Rs.900"
+    ],
+    "answer": "Rs.1000",
+    "answerKey": "A",
+    "correctAnswer": "Rs.1000",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Rs.1000.",
+    "topic": "compound-interest",
+    "topicName": "Compound Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_055",
+    "title": "At what rate of CI will Rs.1000 become Rs.1331 in 3 years?",
+    "description": "At what rate of CI will Rs.1000 become Rs.1331 in 3 years?",
+    "question": "At what rate of CI will Rs.1000 become Rs.1331 in 3 years?",
+    "options": [
+      "10%",
+      "11%",
+      "12%",
+      "9%"
+    ],
+    "answer": "10%",
+    "answerKey": "A",
+    "correctAnswer": "10%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10%.",
+    "topic": "compound-interest",
+    "topicName": "Compound Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

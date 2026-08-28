@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_180",
+  "slug": "tcs-ver-180",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Identify the sentence that is grammatically correct:",
+  "description": "Identify the sentence that is grammatically correct:",
+  "question": "Identify the sentence that is grammatically correct:",
+  "options": [
+    "Neither the manager nor the employees was informed.",
+    "Neither the manager nor the employees were informed.",
+    "Neither the manager nor the employees has been informed.",
+    "Neither the manager nor employees is informed."
+  ],
+  "optionsMap": {
+    "A": "Neither the manager nor the employees was informed.",
+    "B": "Neither the manager nor the employees were informed.",
+    "C": "Neither the manager nor the employees has been informed.",
+    "D": "Neither the manager nor employees is informed."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Neither the manager nor the employees were informed.",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

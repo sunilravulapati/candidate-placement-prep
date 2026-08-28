@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_162",
+  "slug": "tcs-ver-162",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "PASSAGE: Climate change is one of the most pressing challenges facing humanit...",
+  "description": "PASSAGE: Climate change is one of the most pressing challenges facing humanity. Rising global temperatures, driven primarily by g... Q: What is the temperature threshold scientists warn about?",
+  "question": "PASSAGE: Climate change is one of the most pressing challenges facing humanity. Rising global temperatures, driven primarily by g... Q: What is the temperature threshold scientists warn about?",
+  "options": [
+    "2°C above pre-industrial levels",
+    "4°C above current levels",
+    "1°C below average",
+    "5°C above historical average"
+  ],
+  "optionsMap": {
+    "A": "2°C above pre-industrial levels",
+    "B": "4°C above current levels",
+    "C": "1°C below average",
+    "D": "5°C above historical average"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "2°C above pre-industrial levels",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

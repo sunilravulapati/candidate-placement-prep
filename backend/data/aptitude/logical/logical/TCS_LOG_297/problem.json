@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_297",
+  "slug": "tcs-log-297",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Input-Output: Machine: LEAD → DEAL, POTS → STOP. FLOW → ?",
+  "description": "Input-Output: Machine: LEAD → DEAL, POTS → STOP. FLOW → ?",
+  "question": "Input-Output: Machine: LEAD → DEAL, POTS → STOP. FLOW → ?",
+  "options": [
+    "WOLF",
+    "FLOW",
+    "FOWL",
+    "LOWF"
+  ],
+  "optionsMap": {
+    "A": "WOLF",
+    "B": "FLOW",
+    "C": "FOWL",
+    "D": "LOWF"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "WOLF",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

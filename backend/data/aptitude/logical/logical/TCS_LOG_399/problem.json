@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_399",
+  "slug": "tcs-log-399",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which conclusion follows: No P is Q. All Q are R. Some R are S.",
+  "description": "Which conclusion follows: No P is Q. All Q are R. Some R are S.",
+  "question": "Which conclusion follows: No P is Q. All Q are R. Some R are S.",
+  "options": [
+    "No P is R",
+    "Some S are Q",
+    "Some R may not be Q",
+    "All P are S"
+  ],
+  "optionsMap": {
+    "A": "No P is R",
+    "B": "Some S are Q",
+    "C": "Some R may not be Q",
+    "D": "All P are S"
+  },
+  "answer": "C",
+  "answerKey": "C",
+  "correctAnswer": "Some R may not be Q",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_524",
+  "slug": "tcs-apt-524",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "surds-and-indices",
+  "topicName": "Surds and Indices",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "If 4^x = 128, find x.",
+  "description": "If 4^x = 128, find x.",
+  "question": "If 4^x = 128, find x.",
+  "options": [
+    "3.5",
+    "4",
+    "3",
+    "2.5"
+  ],
+  "optionsMap": {
+    "A": "3.5",
+    "B": "4",
+    "C": "3",
+    "D": "2.5"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "3.5",
+  "tags": [
+    "quantitative",
+    "surds-and-indices"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

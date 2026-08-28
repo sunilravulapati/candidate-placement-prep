@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_399",
+  "slug": "tcs-ver-399",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "miscellaneous",
+  "topicName": "Miscellaneous",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the correct preposition: 'She is good _____ mathematics.'",
+  "description": "Choose the correct preposition: 'She is good _____ mathematics.'",
+  "question": "Choose the correct preposition: 'She is good _____ mathematics.'",
+  "options": [
+    "in",
+    "at",
+    "on",
+    "with"
+  ],
+  "optionsMap": {
+    "A": "in",
+    "B": "at",
+    "C": "on",
+    "D": "with"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "at",
+  "tags": [
+    "verbal",
+    "miscellaneous"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

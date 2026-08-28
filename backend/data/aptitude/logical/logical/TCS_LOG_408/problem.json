@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_408",
+  "slug": "tcs-log-408",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Blood relation: If A*B means A is father of B, A/B means A is mother, A+B mea...",
+  "description": "Blood relation: If A*B means A is father of B, A/B means A is mother, A+B means A is brother. P*Q/R+S means P is __ of S?",
+  "question": "Blood relation: If A*B means A is father of B, A/B means A is mother, A+B means A is brother. P*Q/R+S means P is __ of S?",
+  "options": [
+    "Grandfather",
+    "Father",
+    "Grandmother",
+    "Uncle"
+  ],
+  "optionsMap": {
+    "A": "Grandfather",
+    "B": "Father",
+    "C": "Grandmother",
+    "D": "Uncle"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Grandfather",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

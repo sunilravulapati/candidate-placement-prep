@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_644",
+  "slug": "tcs-ver-644",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of PRUDENT",
+  "description": "Choose the antonym of PRUDENT",
+  "question": "Choose the antonym of PRUDENT",
+  "options": [
+    "Reckless",
+    "Wise",
+    "Careful",
+    "Cautious"
+  ],
+  "optionsMap": {
+    "A": "Reckless",
+    "B": "Wise",
+    "C": "Careful",
+    "D": "Cautious"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Reckless",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

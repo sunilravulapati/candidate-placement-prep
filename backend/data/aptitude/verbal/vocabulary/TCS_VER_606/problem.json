@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_606",
+  "slug": "tcs-ver-606",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: TYRANNICAL",
+  "description": "Choose the word most similar in meaning to: TYRANNICAL",
+  "question": "Choose the word most similar in meaning to: TYRANNICAL",
+  "options": [
+    "Oppressively cruel",
+    "Kindly gentle",
+    "Fairly democratic",
+    "Generously helpful"
+  ],
+  "optionsMap": {
+    "A": "Oppressively cruel",
+    "B": "Kindly gentle",
+    "C": "Fairly democratic",
+    "D": "Generously helpful"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Oppressively cruel",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_096",
+  "slug": "tcs-apt-096",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "ratio-and-proportion",
+  "topicName": "Ratio and Proportion",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A mixture contains milk and water in ratio 7:3. If 10 litres of water is adde...",
+  "description": "A mixture contains milk and water in ratio 7:3. If 10 litres of water is added, ratio becomes 7:4. Find initial milk.",
+  "question": "A mixture contains milk and water in ratio 7:3. If 10 litres of water is added, ratio becomes 7:4. Find initial milk.",
+  "options": [
+    "70 litres",
+    "60 litres",
+    "80 litres",
+    "50 litres"
+  ],
+  "optionsMap": {
+    "A": "70 litres",
+    "B": "60 litres",
+    "C": "80 litres",
+    "D": "50 litres"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "70 litres",
+  "tags": [
+    "quantitative",
+    "ratio-and-proportion"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

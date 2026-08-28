@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_570",
+  "slug": "tcs-log-570",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Pen:Write :: Hammer:?",
+  "description": "Pen:Write :: Hammer:?",
+  "question": "Pen:Write :: Hammer:?",
+  "options": [
+    "Hit",
+    "Nail",
+    "Build",
+    "Destroy"
+  ],
+  "optionsMap": {
+    "A": "Hit",
+    "B": "Nail",
+    "C": "Build",
+    "D": "Destroy"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Hit",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

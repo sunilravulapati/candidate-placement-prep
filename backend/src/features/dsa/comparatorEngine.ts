@@ -64,7 +64,41 @@ export class ComparatorEngine {
 
   private static compareExact(actual: any, expected: any): boolean {
     if (actual === expected) return true;
-    return JSON.stringify(actual) === JSON.stringify(expected);
+    if (JSON.stringify(actual) === JSON.stringify(expected)) return true;
+
+    // Handle space/comma-separated strings against array of numbers/strings
+    if (Array.isArray(expected) && typeof actual === 'string') {
+      const tokens = actual.trim().split(/[\s,]+/).filter(Boolean);
+      if (tokens.length === expected.length) {
+        const parsedTokens = tokens.map((t) => {
+          const n = Number(t);
+          return !isNaN(n) ? n : t;
+        });
+        if (JSON.stringify(parsedTokens) === JSON.stringify(expected)) return true;
+      }
+    }
+
+    // Handle boolean comparisons
+    if (typeof expected === 'boolean' || expected === 'true' || expected === 'false') {
+      const expBool = expected === true || expected === 'true';
+      if (typeof actual === 'string') {
+        const actLower = actual.trim().toLowerCase();
+        if ((actLower === 'true' || actLower === '1') && expBool) return true;
+        if ((actLower === 'false' || actLower === '0') && !expBool) return true;
+      } else if (typeof actual === 'boolean') {
+        return actual === expBool;
+      } else if (typeof actual === 'number') {
+        return (actual === 1 && expBool) || (actual === 0 && !expBool);
+      }
+    }
+
+    // Handle scalar string/number comparisons
+    if (typeof expected === 'number' && typeof actual === 'string') {
+      const actNum = Number(actual.trim());
+      if (!isNaN(actNum) && actNum === expected) return true;
+    }
+
+    return false;
   }
 
   private static compareDesign(actual: any, expected: any): boolean {

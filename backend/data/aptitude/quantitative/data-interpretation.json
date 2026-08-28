@@ -1,0 +1,212 @@
+[
+  {
+    "id": "TCS_APT_480",
+    "title": "A table shows sales: Jan=40, Feb=35, Mar=45, Apr=50. Average monthly sales?",
+    "description": "A table shows sales: Jan=40, Feb=35, Mar=45, Apr=50. Average monthly sales?",
+    "question": "A table shows sales: Jan=40, Feb=35, Mar=45, Apr=50. Average monthly sales?",
+    "options": [
+      "42.5",
+      "40",
+      "45",
+      "47.5"
+    ],
+    "answer": "42.5",
+    "answerKey": "A",
+    "correctAnswer": "42.5",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 42.5.",
+    "topic": "data-interpretation",
+    "topicName": "Data Interpretation",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_481",
+    "title": "In a pie chart, if a sector represents 25%, its central angle is:",
+    "description": "In a pie chart, if a sector represents 25%, its central angle is:",
+    "question": "In a pie chart, if a sector represents 25%, its central angle is:",
+    "options": [
+      "90°",
+      "72°",
+      "45°",
+      "120°"
+    ],
+    "answer": "90°",
+    "answerKey": "A",
+    "correctAnswer": "90°",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 90°.",
+    "topic": "data-interpretation",
+    "topicName": "Data Interpretation",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_484",
+    "title": "If total expenses in a pie chart are Rs.12000 and food sector is 30%, food ex...",
+    "description": "If total expenses in a pie chart are Rs.12000 and food sector is 30%, food expense is:",
+    "question": "If total expenses in a pie chart are Rs.12000 and food sector is 30%, food expense is:",
+    "options": [
+      "Rs.3600",
+      "Rs.4000",
+      "Rs.3000",
+      "Rs.2400"
+    ],
+    "answer": "Rs.3600",
+    "answerKey": "A",
+    "correctAnswer": "Rs.3600",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Rs.3600.",
+    "topic": "data-interpretation",
+    "topicName": "Data Interpretation",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_485",
+    "title": "A histogram shows frequency: 0-10: 5, 10-20: 8, 20-30: 12, 30-40: 7. Mode cla...",
+    "description": "A histogram shows frequency: 0-10: 5, 10-20: 8, 20-30: 12, 30-40: 7. Mode class interval:",
+    "question": "A histogram shows frequency: 0-10: 5, 10-20: 8, 20-30: 12, 30-40: 7. Mode class interval:",
+    "options": [
+      "20-30",
+      "10-20",
+      "30-40",
+      "0-10"
+    ],
+    "answer": "20-30",
+    "answerKey": "A",
+    "correctAnswer": "20-30",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 20-30.",
+    "topic": "data-interpretation",
+    "topicName": "Data Interpretation",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_482",
+    "title": "Bar chart shows production: 2020=500, 2021=600, 2022=750. % increase from 202...",
+    "description": "Bar chart shows production: 2020=500, 2021=600, 2022=750. % increase from 2020 to 2022?",
+    "question": "Bar chart shows production: 2020=500, 2021=600, 2022=750. % increase from 2020 to 2022?",
+    "options": [
+      "50%",
+      "40%",
+      "60%",
+      "55%"
+    ],
+    "answer": "50%",
+    "answerKey": "A",
+    "correctAnswer": "50%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 50%.",
+    "topic": "data-interpretation",
+    "topicName": "Data Interpretation",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_483",
+    "title": "Line graph: profit was Rs.40L in 2019 and Rs.52L in 2021. What is the % incre...",
+    "description": "Line graph: profit was Rs.40L in 2019 and Rs.52L in 2021. What is the % increase?",
+    "question": "Line graph: profit was Rs.40L in 2019 and Rs.52L in 2021. What is the % increase?",
+    "options": [
+      "30%",
+      "25%",
+      "20%",
+      "35%"
+    ],
+    "answer": "30%",
+    "answerKey": "A",
+    "correctAnswer": "30%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 30%.",
+    "topic": "data-interpretation",
+    "topicName": "Data Interpretation",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_487",
+    "title": "From a table: Company A revenue grew from 200 to 350 Cr. Growth rate?",
+    "description": "From a table: Company A revenue grew from 200 to 350 Cr. Growth rate?",
+    "question": "From a table: Company A revenue grew from 200 to 350 Cr. Growth rate?",
+    "options": [
+      "75%",
+      "70%",
+      "65%",
+      "80%"
+    ],
+    "answer": "75%",
+    "answerKey": "A",
+    "correctAnswer": "75%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 75%.",
+    "topic": "data-interpretation",
+    "topicName": "Data Interpretation",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

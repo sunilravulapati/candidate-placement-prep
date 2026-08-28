@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_673",
+  "slug": "tcs-ver-673",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "One word: A person who compiles a dictionary",
+  "description": "One word: A person who compiles a dictionary",
+  "question": "One word: A person who compiles a dictionary",
+  "options": [
+    "Lexicographer",
+    "Author",
+    "Editor",
+    "Publisher"
+  ],
+  "optionsMap": {
+    "A": "Lexicographer",
+    "B": "Author",
+    "C": "Editor",
+    "D": "Publisher"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Lexicographer",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

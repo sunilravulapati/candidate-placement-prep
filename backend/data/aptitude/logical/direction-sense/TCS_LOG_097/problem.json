@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_097",
+  "slug": "tcs-log-097",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "direction-sense",
+  "topicName": "Direction Sense",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "P walks 10m North, Q starts at same point and walks 10m South. How far apart ...",
+  "description": "P walks 10m North, Q starts at same point and walks 10m South. How far apart are they?",
+  "question": "P walks 10m North, Q starts at same point and walks 10m South. How far apart are they?",
+  "options": [
+    "20 m",
+    "10 m",
+    "0 m",
+    "15 m"
+  ],
+  "optionsMap": {
+    "A": "20 m",
+    "B": "10 m",
+    "C": "0 m",
+    "D": "15 m"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "20 m",
+  "tags": [
+    "logical",
+    "direction-sense"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

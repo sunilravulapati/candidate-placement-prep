@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_332",
+  "slug": "tcs-ver-332",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "one-word-substitution",
+  "topicName": "One Word Substitution",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Find the one word substitution for: One who walks in sleep",
+  "description": "Find the one word substitution for: One who walks in sleep",
+  "question": "Find the one word substitution for: One who walks in sleep",
+  "options": [
+    "Somnambulant",
+    "Omnivore",
+    "Insomniac",
+    "Amnesiac"
+  ],
+  "optionsMap": {
+    "A": "Somnambulant",
+    "B": "Omnivore",
+    "C": "Insomniac",
+    "D": "Amnesiac"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Somnambulant",
+  "tags": [
+    "verbal",
+    "one-word-substitution"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

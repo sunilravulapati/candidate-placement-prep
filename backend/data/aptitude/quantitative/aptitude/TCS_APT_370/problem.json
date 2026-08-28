@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_370",
+  "slug": "tcs-apt-370",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A salesman's commission is 15% on first Rs 10000 and 10% on rest. If he earns...",
+  "description": "A salesman's commission is 15% on first Rs 10000 and 10% on rest. If he earns Rs 2500, what were sales?",
+  "question": "A salesman's commission is 15% on first Rs 10000 and 10% on rest. If he earns Rs 2500, what were sales?",
+  "options": [
+    "Rs 20000",
+    "Rs 15000",
+    "Rs 25000",
+    "Rs 18000"
+  ],
+  "optionsMap": {
+    "A": "Rs 20000",
+    "B": "Rs 15000",
+    "C": "Rs 25000",
+    "D": "Rs 18000"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs 20000",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

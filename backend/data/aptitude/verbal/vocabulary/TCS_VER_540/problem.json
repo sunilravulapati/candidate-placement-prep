@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_540",
+  "slug": "tcs-ver-540",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: PHLEGMATIC",
+  "description": "Choose the word most similar in meaning to: PHLEGMATIC",
+  "question": "Choose the word most similar in meaning to: PHLEGMATIC",
+  "options": [
+    "Calm",
+    "Excitable",
+    "Emotional",
+    "Passionate"
+  ],
+  "optionsMap": {
+    "A": "Calm",
+    "B": "Excitable",
+    "C": "Emotional",
+    "D": "Passionate"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Calm",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

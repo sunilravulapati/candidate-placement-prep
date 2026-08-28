@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_011",
+  "slug": "tcs-log-011",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "series",
+  "topicName": "Series",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Number series: 5, 10, 17, 26, 37, ___",
+  "description": "Number series: 5, 10, 17, 26, 37, ___",
+  "question": "Number series: 5, 10, 17, 26, 37, ___",
+  "options": [
+    "50",
+    "48",
+    "52",
+    "55"
+  ],
+  "optionsMap": {
+    "A": "50",
+    "B": "48",
+    "C": "52",
+    "D": "55"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "50",
+  "tags": [
+    "logical",
+    "series"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

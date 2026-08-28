@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_268",
+  "slug": "tcs-log-268",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Coding: ABCD=DCBA. Then HELP=?",
+  "description": "Coding: ABCD=DCBA. Then HELP=?",
+  "question": "Coding: ABCD=DCBA. Then HELP=?",
+  "options": [
+    "PLEH",
+    "HELP",
+    "HLEP",
+    "PELH"
+  ],
+  "optionsMap": {
+    "A": "PLEH",
+    "B": "HELP",
+    "C": "HLEP",
+    "D": "PELH"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "PLEH",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

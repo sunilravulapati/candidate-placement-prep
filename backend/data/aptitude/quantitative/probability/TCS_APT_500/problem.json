@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_500",
+  "slug": "tcs-apt-500",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "probability",
+  "topicName": "Probability",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "P(A) = 0.6, P(B) = 0.4, A and B mutually exclusive. P(A∪B)?",
+  "description": "P(A) = 0.6, P(B) = 0.4, A and B mutually exclusive. P(A∪B)?",
+  "question": "P(A) = 0.6, P(B) = 0.4, A and B mutually exclusive. P(A∪B)?",
+  "options": [
+    "1.0",
+    "0.24",
+    "0.8",
+    "0.2"
+  ],
+  "optionsMap": {
+    "A": "1.0",
+    "B": "0.24",
+    "C": "0.8",
+    "D": "0.2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1.0",
+  "tags": [
+    "quantitative",
+    "probability"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

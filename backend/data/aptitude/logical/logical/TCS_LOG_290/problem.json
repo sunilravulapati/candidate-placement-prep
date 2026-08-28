@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_290",
+  "slug": "tcs-log-290",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Calendar: Day after day after tomorrow is Sunday. What day is today?",
+  "description": "Calendar: Day after day after tomorrow is Sunday. What day is today?",
+  "question": "Calendar: Day after day after tomorrow is Sunday. What day is today?",
+  "options": [
+    "Thursday",
+    "Wednesday",
+    "Friday",
+    "Tuesday"
+  ],
+  "optionsMap": {
+    "A": "Thursday",
+    "B": "Wednesday",
+    "C": "Friday",
+    "D": "Tuesday"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Thursday",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

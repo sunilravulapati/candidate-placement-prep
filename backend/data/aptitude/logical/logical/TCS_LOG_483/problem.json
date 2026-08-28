@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_483",
+  "slug": "tcs-log-483",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Coding: FLOW coded as GMPX. BIRD = ?",
+  "description": "Coding: FLOW coded as GMPX. BIRD = ?",
+  "question": "Coding: FLOW coded as GMPX. BIRD = ?",
+  "options": [
+    "CJSE",
+    "CIRE",
+    "BJSE",
+    "CJRE"
+  ],
+  "optionsMap": {
+    "A": "CJSE",
+    "B": "CIRE",
+    "C": "BJSE",
+    "D": "CJRE"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "CJSE",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

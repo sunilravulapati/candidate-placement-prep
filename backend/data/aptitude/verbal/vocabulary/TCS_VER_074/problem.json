@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_074",
+  "slug": "tcs-ver-074",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most OPPOSITE in meaning to: XENOPHOBIA",
+  "description": "Choose the word most OPPOSITE in meaning to: XENOPHOBIA",
+  "question": "Choose the word most OPPOSITE in meaning to: XENOPHOBIA",
+  "options": [
+    "Tolerance",
+    "Fear",
+    "Hatred",
+    "Bias"
+  ],
+  "optionsMap": {
+    "A": "Tolerance",
+    "B": "Fear",
+    "C": "Hatred",
+    "D": "Bias"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Tolerance",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

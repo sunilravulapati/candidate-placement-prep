@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_408",
+  "slug": "tcs-ver-408",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "miscellaneous",
+  "topicName": "Miscellaneous",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which sentence correctly uses 'hardly'?",
+  "description": "Which sentence correctly uses 'hardly'?",
+  "question": "Which sentence correctly uses 'hardly'?",
+  "options": [
+    "She hardly ever lies.",
+    "She ever hardly lies.",
+    "She lies hardly ever.",
+    "She hardly lies ever."
+  ],
+  "optionsMap": {
+    "A": "She hardly ever lies.",
+    "B": "She ever hardly lies.",
+    "C": "She lies hardly ever.",
+    "D": "She hardly lies ever."
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "She hardly ever lies.",
+  "tags": [
+    "verbal",
+    "miscellaneous"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

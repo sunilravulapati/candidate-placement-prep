@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_454",
+  "slug": "tcs-ver-454",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word with correct spelling:",
+  "description": "Choose the word with correct spelling:",
+  "question": "Choose the word with correct spelling:",
+  "options": [
+    "Priviledge",
+    "Privilege",
+    "Previliege",
+    "Privelege"
+  ],
+  "optionsMap": {
+    "A": "Priviledge",
+    "B": "Privilege",
+    "C": "Previliege",
+    "D": "Privelege"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Privilege",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

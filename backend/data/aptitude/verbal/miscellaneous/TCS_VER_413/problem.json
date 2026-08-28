@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_413",
+  "slug": "tcs-ver-413",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "miscellaneous",
+  "topicName": "Miscellaneous",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which sentence is in the pluperfect (past perfect) tense?",
+  "description": "Which sentence is in the pluperfect (past perfect) tense?",
+  "question": "Which sentence is in the pluperfect (past perfect) tense?",
+  "options": [
+    "She had finished the work before he arrived.",
+    "She finished the work before he arrived.",
+    "She has finished the work before he arrived.",
+    "She was finishing the work when he arrived."
+  ],
+  "optionsMap": {
+    "A": "She had finished the work before he arrived.",
+    "B": "She finished the work before he arrived.",
+    "C": "She has finished the work before he arrived.",
+    "D": "She was finishing the work when he arrived."
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "She had finished the work before he arrived.",
+  "tags": [
+    "verbal",
+    "miscellaneous"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

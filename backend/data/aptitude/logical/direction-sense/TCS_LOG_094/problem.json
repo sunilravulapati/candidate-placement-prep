@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_094",
+  "slug": "tcs-log-094",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "direction-sense",
+  "topicName": "Direction Sense",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A walks 20m South, turns left 10m, turns left 20m, turns left 10m. He is now:",
+  "description": "A walks 20m South, turns left 10m, turns left 20m, turns left 10m. He is now:",
+  "question": "A walks 20m South, turns left 10m, turns left 20m, turns left 10m. He is now:",
+  "options": [
+    "At start",
+    "20m North",
+    "10m South",
+    "20m East"
+  ],
+  "optionsMap": {
+    "A": "At start",
+    "B": "20m North",
+    "C": "10m South",
+    "D": "20m East"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "At start",
+  "tags": [
+    "logical",
+    "direction-sense"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

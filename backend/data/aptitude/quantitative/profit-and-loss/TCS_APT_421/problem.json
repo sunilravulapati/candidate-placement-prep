@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_421",
+  "slug": "tcs-apt-421",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "profit-and-loss",
+  "topicName": "Profit and Loss",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "After allowing a 12% discount on marked price, a shopkeeper still gains 10%. ...",
+  "description": "After allowing a 12% discount on marked price, a shopkeeper still gains 10%. Marked price is what % of CP?",
+  "question": "After allowing a 12% discount on marked price, a shopkeeper still gains 10%. Marked price is what % of CP?",
+  "options": [
+    "125%",
+    "120%",
+    "130%",
+    "115%"
+  ],
+  "optionsMap": {
+    "A": "125%",
+    "B": "120%",
+    "C": "130%",
+    "D": "115%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "125%",
+  "tags": [
+    "quantitative",
+    "profit-and-loss"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

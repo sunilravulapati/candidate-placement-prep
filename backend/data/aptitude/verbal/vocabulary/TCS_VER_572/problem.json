@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_572",
+  "slug": "tcs-ver-572",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: SANCTIMONIOUS",
+  "description": "Choose the word most similar in meaning to: SANCTIMONIOUS",
+  "question": "Choose the word most similar in meaning to: SANCTIMONIOUS",
+  "options": [
+    "Hypocritically pious",
+    "Genuinely humble",
+    "Sincerely devoted",
+    "Truly modest"
+  ],
+  "optionsMap": {
+    "A": "Hypocritically pious",
+    "B": "Genuinely humble",
+    "C": "Sincerely devoted",
+    "D": "Truly modest"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Hypocritically pious",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

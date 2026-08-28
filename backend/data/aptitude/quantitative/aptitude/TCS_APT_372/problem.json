@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_372",
+  "slug": "tcs-apt-372",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A car's price depreciated by 10% per year. Original price Rs 100000. Value af...",
+  "description": "A car's price depreciated by 10% per year. Original price Rs 100000. Value after 2 years?",
+  "question": "A car's price depreciated by 10% per year. Original price Rs 100000. Value after 2 years?",
+  "options": [
+    "Rs 81000",
+    "Rs 80000",
+    "Rs 90000",
+    "Rs 82000"
+  ],
+  "optionsMap": {
+    "A": "Rs 81000",
+    "B": "Rs 80000",
+    "C": "Rs 90000",
+    "D": "Rs 82000"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs 81000",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

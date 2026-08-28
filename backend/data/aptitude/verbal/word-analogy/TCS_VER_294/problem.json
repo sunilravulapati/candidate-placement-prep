@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_294",
+  "slug": "tcs-ver-294",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "word-analogy",
+  "topicName": "Word Analogy",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Complete the analogy: Conclave : Cardinals :: Parliament : ?",
+  "description": "Complete the analogy: Conclave : Cardinals :: Parliament : ?",
+  "question": "Complete the analogy: Conclave : Cardinals :: Parliament : ?",
+  "options": [
+    "Legislators",
+    "Judges",
+    "Scientists",
+    "Soldiers"
+  ],
+  "optionsMap": {
+    "A": "Legislators",
+    "B": "Judges",
+    "C": "Scientists",
+    "D": "Soldiers"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Legislators",
+  "tags": [
+    "verbal",
+    "word-analogy"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

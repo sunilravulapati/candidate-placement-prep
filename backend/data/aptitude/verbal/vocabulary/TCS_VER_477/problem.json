@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_477",
+  "slug": "tcs-ver-477",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Choose the sentence with a misplaced modifier:",
+  "description": "Choose the sentence with a misplaced modifier:",
+  "question": "Choose the sentence with a misplaced modifier:",
+  "options": [
+    "He only eats vegetables on Mondays.",
+    "On Mondays, he eats only vegetables.",
+    "He eats only vegetables.",
+    "He eats vegetables only on Mondays."
+  ],
+  "optionsMap": {
+    "A": "He only eats vegetables on Mondays.",
+    "B": "On Mondays, he eats only vegetables.",
+    "C": "He eats only vegetables.",
+    "D": "He eats vegetables only on Mondays."
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "He only eats vegetables on Mondays.",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

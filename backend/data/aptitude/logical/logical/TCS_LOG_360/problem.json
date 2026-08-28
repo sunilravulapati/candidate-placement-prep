@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_360",
+  "slug": "tcs-log-360",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Direction: Starting East, turn right 90°, then 180°, then 270°. Final direction?",
+  "description": "Direction: Starting East, turn right 90°, then 180°, then 270°. Final direction?",
+  "question": "Direction: Starting East, turn right 90°, then 180°, then 270°. Final direction?",
+  "options": [
+    "North",
+    "South",
+    "East",
+    "West"
+  ],
+  "optionsMap": {
+    "A": "North",
+    "B": "South",
+    "C": "East",
+    "D": "West"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "North",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

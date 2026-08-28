@@ -1,0 +1,302 @@
+[
+  {
+    "id": "TCS_LOG_171",
+    "title": "Statement I: The government announced free vaccinations. Statement II: Hospit...",
+    "description": "Statement I: The government announced free vaccinations. Statement II: Hospital admissions for preventable diseases dropped significantly. Relation:",
+    "question": "Statement I: The government announced free vaccinations. Statement II: Hospital admissions for preventable diseases dropped significantly. Relation:",
+    "options": [
+      "Statement I is the cause, Statement II is the effect",
+      "Statement II is the cause, Statement I is the effect",
+      "Both are effects of a third cause",
+      "Both are independent"
+    ],
+    "answer": "Statement I is the cause, Statement II is the effect",
+    "answerKey": "A",
+    "correctAnswer": "Statement I is the cause, Statement II is the effect",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Statement I is the cause, Statement II is the effect.",
+    "topic": "cause-and-effect",
+    "topicName": "Cause and Effect",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_172",
+    "title": "Statement I: Fuel prices rose sharply this month. Statement II: Public transp...",
+    "description": "Statement I: Fuel prices rose sharply this month. Statement II: Public transport usage increased significantly. Relation:",
+    "question": "Statement I: Fuel prices rose sharply this month. Statement II: Public transport usage increased significantly. Relation:",
+    "options": [
+      "Statement I is the cause, Statement II is the effect",
+      "Statement II is the cause, Statement I is the effect",
+      "Both are independent",
+      "Cannot determine"
+    ],
+    "answer": "Statement I is the cause, Statement II is the effect",
+    "answerKey": "A",
+    "correctAnswer": "Statement I is the cause, Statement II is the effect",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Statement I is the cause, Statement II is the effect.",
+    "topic": "cause-and-effect",
+    "topicName": "Cause and Effect",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_173",
+    "title": "Statement I: The river flooded the fields. Statement II: Farmers reported mas...",
+    "description": "Statement I: The river flooded the fields. Statement II: Farmers reported massive crop losses. Relation:",
+    "question": "Statement I: The river flooded the fields. Statement II: Farmers reported massive crop losses. Relation:",
+    "options": [
+      "I is cause, II is effect",
+      "II is cause, I is effect",
+      "Both are effects",
+      "Both are causes"
+    ],
+    "answer": "I is cause, II is effect",
+    "answerKey": "A",
+    "correctAnswer": "I is cause, II is effect",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: I is cause, II is effect.",
+    "topic": "cause-and-effect",
+    "topicName": "Cause and Effect",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_176",
+    "title": "Statement I: Heavy rainfall for three consecutive days. Statement II: Roads i...",
+    "description": "Statement I: Heavy rainfall for three consecutive days. Statement II: Roads in the city have been waterlogged. Relation:",
+    "question": "Statement I: Heavy rainfall for three consecutive days. Statement II: Roads in the city have been waterlogged. Relation:",
+    "options": [
+      "I is cause, II is effect",
+      "II is cause, I is effect",
+      "Both are effects",
+      "Both are causes"
+    ],
+    "answer": "I is cause, II is effect",
+    "answerKey": "A",
+    "correctAnswer": "I is cause, II is effect",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: I is cause, II is effect.",
+    "topic": "cause-and-effect",
+    "topicName": "Cause and Effect",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_179",
+    "title": "Statement I: The company posted record profits. Statement II: Employee bonuse...",
+    "description": "Statement I: The company posted record profits. Statement II: Employee bonuses were doubled this quarter. Relation:",
+    "question": "Statement I: The company posted record profits. Statement II: Employee bonuses were doubled this quarter. Relation:",
+    "options": [
+      "I is cause, II is effect",
+      "II is cause, I is effect",
+      "Both are independent",
+      "Both are causes"
+    ],
+    "answer": "I is cause, II is effect",
+    "answerKey": "A",
+    "correctAnswer": "I is cause, II is effect",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: I is cause, II is effect.",
+    "topic": "cause-and-effect",
+    "topicName": "Cause and Effect",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_177",
+    "title": "Statement I: Many professionals are opting for remote work. Statement II: Off...",
+    "description": "Statement I: Many professionals are opting for remote work. Statement II: Office space rental rates in cities have fallen. Relation:",
+    "question": "Statement I: Many professionals are opting for remote work. Statement II: Office space rental rates in cities have fallen. Relation:",
+    "options": [
+      "I is cause, II is effect",
+      "II is cause, I is effect",
+      "Independent events",
+      "Both are effects of pandemic"
+    ],
+    "answer": "I is cause, II is effect",
+    "answerKey": "A",
+    "correctAnswer": "I is cause, II is effect",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: I is cause, II is effect.",
+    "topic": "cause-and-effect",
+    "topicName": "Cause and Effect",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_174",
+    "title": "Statement I: Rampant plastic use is polluting oceans. Statement II: Marine wi...",
+    "description": "Statement I: Rampant plastic use is polluting oceans. Statement II: Marine wildlife populations are declining globally. Relation:",
+    "question": "Statement I: Rampant plastic use is polluting oceans. Statement II: Marine wildlife populations are declining globally. Relation:",
+    "options": [
+      "I is cause, II is effect",
+      "II is cause, I is effect",
+      "Both are independent events",
+      "Both are effects of a third factor"
+    ],
+    "answer": "I is cause, II is effect",
+    "answerKey": "A",
+    "correctAnswer": "I is cause, II is effect",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: I is cause, II is effect.",
+    "topic": "cause-and-effect",
+    "topicName": "Cause and Effect",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_175",
+    "title": "Statement I: The school introduced digital tablets for students. Statement II...",
+    "description": "Statement I: The school introduced digital tablets for students. Statement II: Student engagement and performance improved significantly. Relation:",
+    "question": "Statement I: The school introduced digital tablets for students. Statement II: Student engagement and performance improved significantly. Relation:",
+    "options": [
+      "I is cause, II is effect",
+      "II is cause, I is effect",
+      "Both are independent",
+      "Cannot determine"
+    ],
+    "answer": "I is cause, II is effect",
+    "answerKey": "A",
+    "correctAnswer": "I is cause, II is effect",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: I is cause, II is effect.",
+    "topic": "cause-and-effect",
+    "topicName": "Cause and Effect",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_178",
+    "title": "Statement I: Smartphone usage among teenagers has increased dramatically. Sta...",
+    "description": "Statement I: Smartphone usage among teenagers has increased dramatically. Statement II: Many teenagers now have poor posture and neck pain. Relation:",
+    "question": "Statement I: Smartphone usage among teenagers has increased dramatically. Statement II: Many teenagers now have poor posture and neck pain. Relation:",
+    "options": [
+      "I is cause, II is effect",
+      "II is cause, I is effect",
+      "Both are independent",
+      "Cannot determine"
+    ],
+    "answer": "I is cause, II is effect",
+    "answerKey": "A",
+    "correctAnswer": "I is cause, II is effect",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: I is cause, II is effect.",
+    "topic": "cause-and-effect",
+    "topicName": "Cause and Effect",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_180",
+    "title": "Statement I: Crime rates in the neighborhood fell. Statement II: Police patro...",
+    "description": "Statement I: Crime rates in the neighborhood fell. Statement II: Police patrol frequency in the area was increased. Relation:",
+    "question": "Statement I: Crime rates in the neighborhood fell. Statement II: Police patrol frequency in the area was increased. Relation:",
+    "options": [
+      "II is cause, I is effect",
+      "I is cause, II is effect",
+      "Both are independent",
+      "Cannot determine"
+    ],
+    "answer": "II is cause, I is effect",
+    "answerKey": "A",
+    "correctAnswer": "II is cause, I is effect",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: II is cause, I is effect.",
+    "topic": "cause-and-effect",
+    "topicName": "Cause and Effect",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

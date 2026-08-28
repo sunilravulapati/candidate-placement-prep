@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_568",
+  "slug": "tcs-apt-568",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A number + 40% of itself = 280. Number?",
+  "description": "A number + 40% of itself = 280. Number?",
+  "question": "A number + 40% of itself = 280. Number?",
+  "options": [
+    "200",
+    "180",
+    "220",
+    "160"
+  ],
+  "optionsMap": {
+    "A": "200",
+    "B": "180",
+    "C": "220",
+    "D": "160"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "200",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

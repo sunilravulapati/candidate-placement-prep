@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_259",
+  "slug": "tcs-apt-259",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Average marks of 30 students is 60. 5 more students with avg 80 join. New ave...",
+  "description": "Average marks of 30 students is 60. 5 more students with avg 80 join. New average?",
+  "question": "Average marks of 30 students is 60. 5 more students with avg 80 join. New average?",
+  "options": [
+    "63.6",
+    "65",
+    "62",
+    "64"
+  ],
+  "optionsMap": {
+    "A": "63.6",
+    "B": "65",
+    "C": "62",
+    "D": "64"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "63.6",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

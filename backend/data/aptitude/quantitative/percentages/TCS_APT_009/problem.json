@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_009",
+  "slug": "tcs-apt-009",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "percentages",
+  "topicName": "Percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A shopkeeper marks his goods 25% above the cost price and allows a 10% discou...",
+  "description": "A shopkeeper marks his goods 25% above the cost price and allows a 10% discount. What is his profit percentage?",
+  "question": "A shopkeeper marks his goods 25% above the cost price and allows a 10% discount. What is his profit percentage?",
+  "options": [
+    "12.5%",
+    "15%",
+    "10%",
+    "12%"
+  ],
+  "optionsMap": {
+    "A": "12.5%",
+    "B": "15%",
+    "C": "10%",
+    "D": "12%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "12.5%",
+  "tags": [
+    "quantitative",
+    "percentages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

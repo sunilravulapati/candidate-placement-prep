@@ -1,0 +1,692 @@
+[
+  {
+    "id": "TCS_LOG_001",
+    "title": "Letter series: A, C, E, G, ___",
+    "description": "Letter series: A, C, E, G, ___",
+    "question": "Letter series: A, C, E, G, ___",
+    "options": [
+      "I",
+      "H",
+      "J",
+      "K"
+    ],
+    "answer": "I",
+    "answerKey": "A",
+    "correctAnswer": "I",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: I.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_002",
+    "title": "Letter series: Z, X, V, T, ___",
+    "description": "Letter series: Z, X, V, T, ___",
+    "question": "Letter series: Z, X, V, T, ___",
+    "options": [
+      "R",
+      "S",
+      "Q",
+      "P"
+    ],
+    "answer": "R",
+    "answerKey": "A",
+    "correctAnswer": "R",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: R.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_004",
+    "title": "Number series: 2, 4, 8, 16, ___",
+    "description": "Number series: 2, 4, 8, 16, ___",
+    "question": "Number series: 2, 4, 8, 16, ___",
+    "options": [
+      "32",
+      "24",
+      "28",
+      "36"
+    ],
+    "answer": "32",
+    "answerKey": "A",
+    "correctAnswer": "32",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 32.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_005",
+    "title": "Number series: 1, 4, 9, 16, 25, ___",
+    "description": "Number series: 1, 4, 9, 16, 25, ___",
+    "question": "Number series: 1, 4, 9, 16, 25, ___",
+    "options": [
+      "36",
+      "32",
+      "49",
+      "30"
+    ],
+    "answer": "36",
+    "answerKey": "A",
+    "correctAnswer": "36",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 36.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_010",
+    "title": "Letter series: AZ, BY, CX, DW, ___",
+    "description": "Letter series: AZ, BY, CX, DW, ___",
+    "question": "Letter series: AZ, BY, CX, DW, ___",
+    "options": [
+      "EV",
+      "EU",
+      "FV",
+      "DU"
+    ],
+    "answer": "EV",
+    "answerKey": "A",
+    "correctAnswer": "EV",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: EV.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_012",
+    "title": "Number series: 144, 121, 100, 81, ___",
+    "description": "Number series: 144, 121, 100, 81, ___",
+    "question": "Number series: 144, 121, 100, 81, ___",
+    "options": [
+      "64",
+      "49",
+      "72",
+      "56"
+    ],
+    "answer": "64",
+    "answerKey": "A",
+    "correctAnswer": "64",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 64.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_017",
+    "title": "Number series: 8, 27, 64, 125, ___",
+    "description": "Number series: 8, 27, 64, 125, ___",
+    "question": "Number series: 8, 27, 64, 125, ___",
+    "options": [
+      "216",
+      "196",
+      "200",
+      "225"
+    ],
+    "answer": "216",
+    "answerKey": "A",
+    "correctAnswer": "216",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 216.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_018",
+    "title": "Number series: 2, 3, 5, 7, 11, 13, ___",
+    "description": "Number series: 2, 3, 5, 7, 11, 13, ___",
+    "question": "Number series: 2, 3, 5, 7, 11, 13, ___",
+    "options": [
+      "17",
+      "15",
+      "19",
+      "16"
+    ],
+    "answer": "17",
+    "answerKey": "A",
+    "correctAnswer": "17",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 17.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_020",
+    "title": "Number series: 0, 1, 1, 2, 3, 5, 8, ___",
+    "description": "Number series: 0, 1, 1, 2, 3, 5, 8, ___",
+    "question": "Number series: 0, 1, 1, 2, 3, 5, 8, ___",
+    "options": [
+      "13",
+      "11",
+      "14",
+      "10"
+    ],
+    "answer": "13",
+    "answerKey": "A",
+    "correctAnswer": "13",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 13.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_023",
+    "title": "Alpha-numeric: AB1, CD2, EF3, GH4, ___",
+    "description": "Alpha-numeric: AB1, CD2, EF3, GH4, ___",
+    "question": "Alpha-numeric: AB1, CD2, EF3, GH4, ___",
+    "options": [
+      "IJ5",
+      "IJ6",
+      "KL5",
+      "HI5"
+    ],
+    "answer": "IJ5",
+    "answerKey": "A",
+    "correctAnswer": "IJ5",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: IJ5.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_025",
+    "title": "Number series: 1, 8, 27, 64, 125, 216, ___",
+    "description": "Number series: 1, 8, 27, 64, 125, 216, ___",
+    "question": "Number series: 1, 8, 27, 64, 125, 216, ___",
+    "options": [
+      "343",
+      "256",
+      "300",
+      "400"
+    ],
+    "answer": "343",
+    "answerKey": "A",
+    "correctAnswer": "343",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 343.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_011",
+    "title": "Number series: 5, 10, 17, 26, 37, ___",
+    "description": "Number series: 5, 10, 17, 26, 37, ___",
+    "question": "Number series: 5, 10, 17, 26, 37, ___",
+    "options": [
+      "50",
+      "48",
+      "52",
+      "55"
+    ],
+    "answer": "50",
+    "answerKey": "A",
+    "correctAnswer": "50",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 50.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_013",
+    "title": "Letter series: M, N, P, S, W, ___",
+    "description": "Letter series: M, N, P, S, W, ___",
+    "question": "Letter series: M, N, P, S, W, ___",
+    "options": [
+      "B",
+      "A",
+      "C",
+      "D"
+    ],
+    "answer": "B",
+    "answerKey": "A",
+    "correctAnswer": "B",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: B.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_014",
+    "title": "Number series: 1, 3, 7, 13, 21, ___",
+    "description": "Number series: 1, 3, 7, 13, 21, ___",
+    "question": "Number series: 1, 3, 7, 13, 21, ___",
+    "options": [
+      "31",
+      "29",
+      "33",
+      "27"
+    ],
+    "answer": "31",
+    "answerKey": "A",
+    "correctAnswer": "31",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 31.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_015",
+    "title": "Number series: 6, 13, 27, 55, ___",
+    "description": "Number series: 6, 13, 27, 55, ___",
+    "question": "Number series: 6, 13, 27, 55, ___",
+    "options": [
+      "111",
+      "113",
+      "109",
+      "105"
+    ],
+    "answer": "111",
+    "answerKey": "A",
+    "correctAnswer": "111",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 111.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_016",
+    "title": "Letter series: A, B, D, G, K, ___",
+    "description": "Letter series: A, B, D, G, K, ___",
+    "question": "Letter series: A, B, D, G, K, ___",
+    "options": [
+      "P",
+      "Q",
+      "O",
+      "N"
+    ],
+    "answer": "P",
+    "answerKey": "A",
+    "correctAnswer": "P",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: P.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_021",
+    "title": "Number series: 12, 35, 81, 173, ___",
+    "description": "Number series: 12, 35, 81, 173, ___",
+    "question": "Number series: 12, 35, 81, 173, ___",
+    "options": [
+      "357",
+      "350",
+      "360",
+      "370"
+    ],
+    "answer": "357",
+    "answerKey": "A",
+    "correctAnswer": "357",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 357.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_022",
+    "title": "Number series: 100, 95, 85, 70, 50, ___",
+    "description": "Number series: 100, 95, 85, 70, 50, ___",
+    "question": "Number series: 100, 95, 85, 70, 50, ___",
+    "options": [
+      "25",
+      "30",
+      "20",
+      "35"
+    ],
+    "answer": "25",
+    "answerKey": "A",
+    "correctAnswer": "25",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 25.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_006",
+    "title": "Number series: 3, 5, 9, 17, ___",
+    "description": "Number series: 3, 5, 9, 17, ___",
+    "question": "Number series: 3, 5, 9, 17, ___",
+    "options": [
+      "33",
+      "31",
+      "29",
+      "35"
+    ],
+    "answer": "33",
+    "answerKey": "A",
+    "correctAnswer": "33",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 33.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_007",
+    "title": "Number series: 10, 9, 7, 4, ___",
+    "description": "Number series: 10, 9, 7, 4, ___",
+    "question": "Number series: 10, 9, 7, 4, ___",
+    "options": [
+      "0",
+      "−1",
+      "1",
+      "2"
+    ],
+    "answer": "0",
+    "answerKey": "A",
+    "correctAnswer": "0",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 0.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_008",
+    "title": "Number series: 1, 2, 4, 7, 11, 16, ___",
+    "description": "Number series: 1, 2, 4, 7, 11, 16, ___",
+    "question": "Number series: 1, 2, 4, 7, 11, 16, ___",
+    "options": [
+      "22",
+      "20",
+      "21",
+      "18"
+    ],
+    "answer": "22",
+    "answerKey": "A",
+    "correctAnswer": "22",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 22.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_009",
+    "title": "Mixed series: B2, D4, F6, H8, ___",
+    "description": "Mixed series: B2, D4, F6, H8, ___",
+    "question": "Mixed series: B2, D4, F6, H8, ___",
+    "options": [
+      "J10",
+      "I9",
+      "K10",
+      "J11"
+    ],
+    "answer": "J10",
+    "answerKey": "A",
+    "correctAnswer": "J10",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: J10.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_024",
+    "title": "Number series: 3, 8, 15, 24, 35, ___",
+    "description": "Number series: 3, 8, 15, 24, 35, ___",
+    "question": "Number series: 3, 8, 15, 24, 35, ___",
+    "options": [
+      "48",
+      "45",
+      "50",
+      "42"
+    ],
+    "answer": "48",
+    "answerKey": "A",
+    "correctAnswer": "48",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 48.",
+    "topic": "series",
+    "topicName": "Series",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

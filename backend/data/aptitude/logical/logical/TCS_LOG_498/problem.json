@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_498",
+  "slug": "tcs-log-498",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Venn: Only P: 10, Only Q: 15, Both: 5, Neither: 3. Total?",
+  "description": "Venn: Only P: 10, Only Q: 15, Both: 5, Neither: 3. Total?",
+  "question": "Venn: Only P: 10, Only Q: 15, Both: 5, Neither: 3. Total?",
+  "options": [
+    "33",
+    "30",
+    "35",
+    "28"
+  ],
+  "optionsMap": {
+    "A": "33",
+    "B": "30",
+    "C": "35",
+    "D": "28"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "33",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

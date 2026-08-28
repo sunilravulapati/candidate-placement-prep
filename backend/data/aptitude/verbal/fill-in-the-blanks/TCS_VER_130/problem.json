@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_130",
+  "slug": "tcs-ver-130",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "She had such _____ opinions that no one could change her mind.",
+  "description": "She had such _____ opinions that no one could change her mind.",
+  "question": "She had such _____ opinions that no one could change her mind.",
+  "options": [
+    "entrenched",
+    "flexible",
+    "open",
+    "changing"
+  ],
+  "optionsMap": {
+    "A": "entrenched",
+    "B": "flexible",
+    "C": "open",
+    "D": "changing"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "entrenched",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

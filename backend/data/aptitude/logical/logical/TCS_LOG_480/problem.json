@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_480",
+  "slug": "tcs-log-480",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Floor: 6 floors. A is above B but below C. D is above C. E is between B and A...",
+  "description": "Floor: 6 floors. A is above B but below C. D is above C. E is between B and A. F is above D. Top?",
+  "question": "Floor: 6 floors. A is above B but below C. D is above C. E is between B and A. F is above D. Top?",
+  "options": [
+    "F",
+    "D",
+    "C",
+    "A"
+  ],
+  "optionsMap": {
+    "A": "F",
+    "B": "D",
+    "C": "C",
+    "D": "A"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "F",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

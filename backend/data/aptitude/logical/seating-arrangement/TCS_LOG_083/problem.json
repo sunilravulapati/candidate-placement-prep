@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_083",
+  "slug": "tcs-log-083",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "seating-arrangement",
+  "topicName": "Seating Arrangement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A,B,C,D,E sit in a row. B is to the right of E but left of C. A is at extreme...",
+  "description": "A,B,C,D,E sit in a row. B is to the right of E but left of C. A is at extreme left. D is not next to A. Middle position is:",
+  "question": "A,B,C,D,E sit in a row. B is to the right of E but left of C. A is at extreme left. D is not next to A. Middle position is:",
+  "options": [
+    "B",
+    "C",
+    "E",
+    "D"
+  ],
+  "optionsMap": {
+    "A": "B",
+    "B": "C",
+    "C": "E",
+    "D": "D"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "B",
+  "tags": [
+    "logical",
+    "seating-arrangement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

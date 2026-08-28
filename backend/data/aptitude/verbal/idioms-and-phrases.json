@@ -1,0 +1,842 @@
+[
+  {
+    "id": "TCS_VER_211",
+    "title": "What does 'bite the bullet' mean?",
+    "description": "What does 'bite the bullet' mean?",
+    "question": "What does 'bite the bullet' mean?",
+    "options": [
+      "Endure a painful situation bravely",
+      "Shoot someone",
+      "Eat something hard",
+      "Lose patience"
+    ],
+    "answer": "Endure a painful situation bravely",
+    "answerKey": "A",
+    "correctAnswer": "Endure a painful situation bravely",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Endure a painful situation bravely.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_212",
+    "title": "What does 'break the ice' mean?",
+    "description": "What does 'break the ice' mean?",
+    "question": "What does 'break the ice' mean?",
+    "options": [
+      "Initiate conversation in a social setting",
+      "Destroy frozen water",
+      "Start a fight",
+      "End a relationship"
+    ],
+    "answer": "Initiate conversation in a social setting",
+    "answerKey": "A",
+    "correctAnswer": "Initiate conversation in a social setting",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Initiate conversation in a social setting.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_213",
+    "title": "What does 'burn the midnight oil' mean?",
+    "description": "What does 'burn the midnight oil' mean?",
+    "question": "What does 'burn the midnight oil' mean?",
+    "options": [
+      "Work or study late into the night",
+      "Light candles",
+      "Waste energy",
+      "Work during daytime"
+    ],
+    "answer": "Work or study late into the night",
+    "answerKey": "A",
+    "correctAnswer": "Work or study late into the night",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Work or study late into the night.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_214",
+    "title": "What does 'cost an arm and a leg' mean?",
+    "description": "What does 'cost an arm and a leg' mean?",
+    "question": "What does 'cost an arm and a leg' mean?",
+    "options": [
+      "Be very expensive",
+      "Require physical effort",
+      "Cause injury",
+      "Need surgery"
+    ],
+    "answer": "Be very expensive",
+    "answerKey": "A",
+    "correctAnswer": "Be very expensive",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Be very expensive.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_217",
+    "title": "What does 'once in a blue moon' mean?",
+    "description": "What does 'once in a blue moon' mean?",
+    "question": "What does 'once in a blue moon' mean?",
+    "options": [
+      "Very rarely",
+      "Every month",
+      "Very often",
+      "Never"
+    ],
+    "answer": "Very rarely",
+    "answerKey": "A",
+    "correctAnswer": "Very rarely",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Very rarely.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_219",
+    "title": "What does 'under the weather' mean?",
+    "description": "What does 'under the weather' mean?",
+    "question": "What does 'under the weather' mean?",
+    "options": [
+      "Feeling ill",
+      "Outdoors",
+      "Happy",
+      "Confused"
+    ],
+    "answer": "Feeling ill",
+    "answerKey": "A",
+    "correctAnswer": "Feeling ill",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Feeling ill.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_223",
+    "title": "What does 'get out of hand' mean?",
+    "description": "What does 'get out of hand' mean?",
+    "question": "What does 'get out of hand' mean?",
+    "options": [
+      "Become uncontrollable",
+      "Finish a task",
+      "Leave a meeting",
+      "Lose direction"
+    ],
+    "answer": "Become uncontrollable",
+    "answerKey": "A",
+    "correctAnswer": "Become uncontrollable",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Become uncontrollable.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_224",
+    "title": "What does 'hit the sack' mean?",
+    "description": "What does 'hit the sack' mean?",
+    "question": "What does 'hit the sack' mean?",
+    "options": [
+      "Go to bed",
+      "Hit someone",
+      "Start work",
+      "Take a nap outside"
+    ],
+    "answer": "Go to bed",
+    "answerKey": "A",
+    "correctAnswer": "Go to bed",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Go to bed.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_228",
+    "title": "What does 'no pain, no gain' mean?",
+    "description": "What does 'no pain, no gain' mean?",
+    "question": "What does 'no pain, no gain' mean?",
+    "options": [
+      "Hard work and effort are necessary for success",
+      "Avoid pain",
+      "Stay comfortable",
+      "Refuse challenges"
+    ],
+    "answer": "Hard work and effort are necessary for success",
+    "answerKey": "A",
+    "correctAnswer": "Hard work and effort are necessary for success",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Hard work and effort are necessary for success.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_230",
+    "title": "What does 'pull someone's leg' mean?",
+    "description": "What does 'pull someone's leg' mean?",
+    "question": "What does 'pull someone's leg' mean?",
+    "options": [
+      "Joke with someone",
+      "Physically pull",
+      "Cause pain",
+      "Test someone's strength"
+    ],
+    "answer": "Joke with someone",
+    "answerKey": "A",
+    "correctAnswer": "Joke with someone",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Joke with someone.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_232",
+    "title": "What does 'spill the beans' mean?",
+    "description": "What does 'spill the beans' mean?",
+    "question": "What does 'spill the beans' mean?",
+    "options": [
+      "Reveal secret information",
+      "Cook beans",
+      "Make a mess",
+      "Drop food"
+    ],
+    "answer": "Reveal secret information",
+    "answerKey": "A",
+    "correctAnswer": "Reveal secret information",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Reveal secret information.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_240",
+    "title": "What does 'you can't judge a book by its cover' mean?",
+    "description": "What does 'you can't judge a book by its cover' mean?",
+    "question": "What does 'you can't judge a book by its cover' mean?",
+    "options": [
+      "Don't judge by appearances alone",
+      "Never read books",
+      "Avoid assumptions",
+      "Always judge quickly"
+    ],
+    "answer": "Don't judge by appearances alone",
+    "answerKey": "A",
+    "correctAnswer": "Don't judge by appearances alone",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Don't judge by appearances alone.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_225",
+    "title": "What does 'it takes two to tango' mean?",
+    "description": "What does 'it takes two to tango' mean?",
+    "question": "What does 'it takes two to tango' mean?",
+    "options": [
+      "Both parties are responsible for a conflict",
+      "Dance alone",
+      "Need music",
+      "One person is wrong"
+    ],
+    "answer": "Both parties are responsible for a conflict",
+    "answerKey": "A",
+    "correctAnswer": "Both parties are responsible for a conflict",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Both parties are responsible for a conflict.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_226",
+    "title": "What does 'let sleeping dogs lie' mean?",
+    "description": "What does 'let sleeping dogs lie' mean?",
+    "question": "What does 'let sleeping dogs lie' mean?",
+    "options": [
+      "Do not disturb a situation that could cause trouble",
+      "Let dogs rest",
+      "Avoid noise",
+      "Stay calm"
+    ],
+    "answer": "Do not disturb a situation that could cause trouble",
+    "answerKey": "A",
+    "correctAnswer": "Do not disturb a situation that could cause trouble",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Do not disturb a situation that could cause trouble.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_236",
+    "title": "What does 'under someone's thumb' mean?",
+    "description": "What does 'under someone's thumb' mean?",
+    "question": "What does 'under someone's thumb' mean?",
+    "options": [
+      "Controlled by someone",
+      "Help someone",
+      "Thumb-wrestle",
+      "Work independently"
+    ],
+    "answer": "Controlled by someone",
+    "answerKey": "A",
+    "correctAnswer": "Controlled by someone",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Controlled by someone.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_238",
+    "title": "What does 'wear your heart on your sleeve' mean?",
+    "description": "What does 'wear your heart on your sleeve' mean?",
+    "question": "What does 'wear your heart on your sleeve' mean?",
+    "options": [
+      "Express emotions openly",
+      "Have heart problems",
+      "Be fashionable",
+      "Hide feelings"
+    ],
+    "answer": "Express emotions openly",
+    "answerKey": "A",
+    "correctAnswer": "Express emotions openly",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Express emotions openly.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_239",
+    "title": "What does 'wolf in sheep's clothing' mean?",
+    "description": "What does 'wolf in sheep's clothing' mean?",
+    "question": "What does 'wolf in sheep's clothing' mean?",
+    "options": [
+      "A dangerous person disguised as harmless",
+      "An animal wearing clothes",
+      "A friendly stranger",
+      "An honest person"
+    ],
+    "answer": "A dangerous person disguised as harmless",
+    "answerKey": "A",
+    "correctAnswer": "A dangerous person disguised as harmless",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: A dangerous person disguised as harmless.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_215",
+    "title": "What does 'hit the nail on the head' mean?",
+    "description": "What does 'hit the nail on the head' mean?",
+    "question": "What does 'hit the nail on the head' mean?",
+    "options": [
+      "Describe something accurately",
+      "Cause physical harm",
+      "Make a mistake",
+      "Build something"
+    ],
+    "answer": "Describe something accurately",
+    "answerKey": "A",
+    "correctAnswer": "Describe something accurately",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Describe something accurately.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_216",
+    "title": "What does 'let the cat out of the bag' mean?",
+    "description": "What does 'let the cat out of the bag' mean?",
+    "question": "What does 'let the cat out of the bag' mean?",
+    "options": [
+      "Accidentally reveal a secret",
+      "Release an animal",
+      "Cause confusion",
+      "Make noise"
+    ],
+    "answer": "Accidentally reveal a secret",
+    "answerKey": "A",
+    "correctAnswer": "Accidentally reveal a secret",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Accidentally reveal a secret.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_218",
+    "title": "What does 'the ball is in your court' mean?",
+    "description": "What does 'the ball is in your court' mean?",
+    "question": "What does 'the ball is in your court' mean?",
+    "options": [
+      "It is your responsibility to act",
+      "Play a sport",
+      "Take a break",
+      "Ask for help"
+    ],
+    "answer": "It is your responsibility to act",
+    "answerKey": "A",
+    "correctAnswer": "It is your responsibility to act",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: It is your responsibility to act.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_220",
+    "title": "What does 'bite more than you can chew' mean?",
+    "description": "What does 'bite more than you can chew' mean?",
+    "question": "What does 'bite more than you can chew' mean?",
+    "options": [
+      "Take on more than you can handle",
+      "Eat excessively",
+      "Be greedy",
+      "Avoid responsibilities"
+    ],
+    "answer": "Take on more than you can handle",
+    "answerKey": "A",
+    "correctAnswer": "Take on more than you can handle",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Take on more than you can handle.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_221",
+    "title": "What does 'burn bridges' mean?",
+    "description": "What does 'burn bridges' mean?",
+    "question": "What does 'burn bridges' mean?",
+    "options": [
+      "Permanently damage a relationship",
+      "Build structures",
+      "Travel abroad",
+      "Start a fire"
+    ],
+    "answer": "Permanently damage a relationship",
+    "answerKey": "A",
+    "correctAnswer": "Permanently damage a relationship",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Permanently damage a relationship.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_227",
+    "title": "What does 'miss the boat' mean?",
+    "description": "What does 'miss the boat' mean?",
+    "question": "What does 'miss the boat' mean?",
+    "options": [
+      "Miss an opportunity",
+      "Be late for travel",
+      "Be confused",
+      "Fail an exam"
+    ],
+    "answer": "Miss an opportunity",
+    "answerKey": "A",
+    "correctAnswer": "Miss an opportunity",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Miss an opportunity.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_231",
+    "title": "What does 'sit on the fence' mean?",
+    "description": "What does 'sit on the fence' mean?",
+    "question": "What does 'sit on the fence' mean?",
+    "options": [
+      "Refuse to take a side in a dispute",
+      "Rest outdoors",
+      "Guard a property",
+      "Climb a fence"
+    ],
+    "answer": "Refuse to take a side in a dispute",
+    "answerKey": "A",
+    "correctAnswer": "Refuse to take a side in a dispute",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Refuse to take a side in a dispute.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_233",
+    "title": "What does 'the best of both worlds' mean?",
+    "description": "What does 'the best of both worlds' mean?",
+    "question": "What does 'the best of both worlds' mean?",
+    "options": [
+      "Enjoy two advantages at the same time",
+      "Travel worldwide",
+      "Win every competition",
+      "Be the best player"
+    ],
+    "answer": "Enjoy two advantages at the same time",
+    "answerKey": "A",
+    "correctAnswer": "Enjoy two advantages at the same time",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Enjoy two advantages at the same time.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_234",
+    "title": "What does 'throw in the towel' mean?",
+    "description": "What does 'throw in the towel' mean?",
+    "question": "What does 'throw in the towel' mean?",
+    "options": [
+      "Admit defeat or give up",
+      "Do laundry",
+      "Start a fight",
+      "Show respect"
+    ],
+    "answer": "Admit defeat or give up",
+    "answerKey": "A",
+    "correctAnswer": "Admit defeat or give up",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Admit defeat or give up.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_235",
+    "title": "What does 'turn over a new leaf' mean?",
+    "description": "What does 'turn over a new leaf' mean?",
+    "question": "What does 'turn over a new leaf' mean?",
+    "options": [
+      "Make a fresh start and change behavior",
+      "Read a book",
+      "Change location",
+      "Garden work"
+    ],
+    "answer": "Make a fresh start and change behavior",
+    "answerKey": "A",
+    "correctAnswer": "Make a fresh start and change behavior",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Make a fresh start and change behavior.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_237",
+    "title": "What does 'up in the air' mean?",
+    "description": "What does 'up in the air' mean?",
+    "question": "What does 'up in the air' mean?",
+    "options": [
+      "Uncertain or unresolved",
+      "Flying high",
+      "Excited",
+      "Confused about directions"
+    ],
+    "answer": "Uncertain or unresolved",
+    "answerKey": "A",
+    "correctAnswer": "Uncertain or unresolved",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Uncertain or unresolved.",
+    "topic": "idioms-and-phrases",
+    "topicName": "Idioms and Phrases",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

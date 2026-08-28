@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_285",
+  "slug": "tcs-ver-285",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "word-analogy",
+  "topicName": "Word Analogy",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Complete the analogy: Inning : Cricket :: Set : ?",
+  "description": "Complete the analogy: Inning : Cricket :: Set : ?",
+  "question": "Complete the analogy: Inning : Cricket :: Set : ?",
+  "options": [
+    "Tennis",
+    "Football",
+    "Hockey",
+    "Chess"
+  ],
+  "optionsMap": {
+    "A": "Tennis",
+    "B": "Football",
+    "C": "Hockey",
+    "D": "Chess"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Tennis",
+  "tags": [
+    "verbal",
+    "word-analogy"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

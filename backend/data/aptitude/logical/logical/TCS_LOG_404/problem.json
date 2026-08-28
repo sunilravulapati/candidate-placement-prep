@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_404",
+  "slug": "tcs-log-404",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number grid: 2 4 6 / 3 9 27 / 4 16 64. Pattern of last column: 6, 27, 64. Next?",
+  "description": "Number grid: 2 4 6 / 3 9 27 / 4 16 64. Pattern of last column: 6, 27, 64. Next?",
+  "question": "Number grid: 2 4 6 / 3 9 27 / 4 16 64. Pattern of last column: 6, 27, 64. Next?",
+  "options": [
+    "125",
+    "100",
+    "216",
+    "64"
+  ],
+  "optionsMap": {
+    "A": "125",
+    "B": "100",
+    "C": "216",
+    "D": "64"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "125",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_354",
+  "slug": "tcs-apt-354",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find the number of diagonals in a hexagon.",
+  "description": "Find the number of diagonals in a hexagon.",
+  "question": "Find the number of diagonals in a hexagon.",
+  "options": [
+    "9",
+    "6",
+    "12",
+    "15"
+  ],
+  "optionsMap": {
+    "A": "9",
+    "B": "6",
+    "C": "12",
+    "D": "15"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "9",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

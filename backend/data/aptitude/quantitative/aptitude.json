@@ -1,0 +1,7112 @@
+[
+  {
+    "id": "TCS_APT_215",
+    "title": "A number increased by 20% gives 180. What is the original number?",
+    "description": "A number increased by 20% gives 180. What is the original number?",
+    "question": "A number increased by 20% gives 180. What is the original number?",
+    "options": [
+      "150",
+      "160",
+      "140",
+      "170"
+    ],
+    "answer": "150",
+    "answerKey": "A",
+    "correctAnswer": "150",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 150.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_216",
+    "title": "If 15% of a number is 45, what is 40% of that number?",
+    "description": "If 15% of a number is 45, what is 40% of that number?",
+    "question": "If 15% of a number is 45, what is 40% of that number?",
+    "options": [
+      "120",
+      "100",
+      "80",
+      "60"
+    ],
+    "answer": "120",
+    "answerKey": "A",
+    "correctAnswer": "120",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 120.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_218",
+    "title": "A shopkeeper marks a price 40% above cost and gives 10% discount. What is the...",
+    "description": "A shopkeeper marks a price 40% above cost and gives 10% discount. What is the profit %?",
+    "question": "A shopkeeper marks a price 40% above cost and gives 10% discount. What is the profit %?",
+    "options": [
+      "26%",
+      "30%",
+      "24%",
+      "28%"
+    ],
+    "answer": "26%",
+    "answerKey": "A",
+    "correctAnswer": "26%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 26%.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_219",
+    "title": "If the price of an article falls by 20%, by what % must sales increase to mai...",
+    "description": "If the price of an article falls by 20%, by what % must sales increase to maintain revenue?",
+    "question": "If the price of an article falls by 20%, by what % must sales increase to maintain revenue?",
+    "options": [
+      "25%",
+      "20%",
+      "15%",
+      "30%"
+    ],
+    "answer": "25%",
+    "answerKey": "A",
+    "correctAnswer": "25%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 25%.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_220",
+    "title": "A student scored 72% in an exam. If full marks = 500, find the marks obtained.",
+    "description": "A student scored 72% in an exam. If full marks = 500, find the marks obtained.",
+    "question": "A student scored 72% in an exam. If full marks = 500, find the marks obtained.",
+    "options": [
+      "360",
+      "350",
+      "380",
+      "370"
+    ],
+    "answer": "360",
+    "answerKey": "A",
+    "correctAnswer": "360",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 360.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_221",
+    "title": "Two numbers are in ratio 3:5. If their sum is 160, find the smaller number.",
+    "description": "Two numbers are in ratio 3:5. If their sum is 160, find the smaller number.",
+    "question": "Two numbers are in ratio 3:5. If their sum is 160, find the smaller number.",
+    "options": [
+      "60",
+      "80",
+      "50",
+      "70"
+    ],
+    "answer": "60",
+    "answerKey": "A",
+    "correctAnswer": "60",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 60.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_222",
+    "title": "What percentage is 75 of 300?",
+    "description": "What percentage is 75 of 300?",
+    "question": "What percentage is 75 of 300?",
+    "options": [
+      "25%",
+      "20%",
+      "30%",
+      "15%"
+    ],
+    "answer": "25%",
+    "answerKey": "A",
+    "correctAnswer": "25%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 25%.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_223",
+    "title": "If A:B = 2:3 and B:C = 4:5, find A:C.",
+    "description": "If A:B = 2:3 and B:C = 4:5, find A:C.",
+    "question": "If A:B = 2:3 and B:C = 4:5, find A:C.",
+    "options": [
+      "8:15",
+      "2:5",
+      "4:9",
+      "6:10"
+    ],
+    "answer": "8:15",
+    "answerKey": "A",
+    "correctAnswer": "8:15",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 8:15.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_224",
+    "title": "A train travels 360 km in 4 hours. What is its speed in km/h?",
+    "description": "A train travels 360 km in 4 hours. What is its speed in km/h?",
+    "question": "A train travels 360 km in 4 hours. What is its speed in km/h?",
+    "options": [
+      "90",
+      "80",
+      "100",
+      "70"
+    ],
+    "answer": "90",
+    "answerKey": "A",
+    "correctAnswer": "90",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 90.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_225",
+    "title": "Two trains of 100m and 150m run at 60 km/h and 90 km/h in opposite directions...",
+    "description": "Two trains of 100m and 150m run at 60 km/h and 90 km/h in opposite directions. Time to cross?",
+    "question": "Two trains of 100m and 150m run at 60 km/h and 90 km/h in opposite directions. Time to cross?",
+    "options": [
+      "6 sec",
+      "8 sec",
+      "10 sec",
+      "5 sec"
+    ],
+    "answer": "6 sec",
+    "answerKey": "A",
+    "correctAnswer": "6 sec",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 6 sec.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_226",
+    "title": "A car covers 120 km at 40 km/h and 180 km at 60 km/h. Find average speed.",
+    "description": "A car covers 120 km at 40 km/h and 180 km at 60 km/h. Find average speed.",
+    "question": "A car covers 120 km at 40 km/h and 180 km at 60 km/h. Find average speed.",
+    "options": [
+      "52 km/h",
+      "50 km/h",
+      "48 km/h",
+      "55 km/h"
+    ],
+    "answer": "50 km/h",
+    "answerKey": "B",
+    "correctAnswer": "50 km/h",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: 50 km/h.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_227",
+    "title": "Walking at 4/5 of usual speed, a man is 15 min late. Find usual time.",
+    "description": "Walking at 4/5 of usual speed, a man is 15 min late. Find usual time.",
+    "question": "Walking at 4/5 of usual speed, a man is 15 min late. Find usual time.",
+    "options": [
+      "60 min",
+      "75 min",
+      "90 min",
+      "45 min"
+    ],
+    "answer": "60 min",
+    "answerKey": "A",
+    "correctAnswer": "60 min",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 60 min.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_228",
+    "title": "A train 200m long crosses a 300m bridge at 50 km/h. Time taken?",
+    "description": "A train 200m long crosses a 300m bridge at 50 km/h. Time taken?",
+    "question": "A train 200m long crosses a 300m bridge at 50 km/h. Time taken?",
+    "options": [
+      "36 sec",
+      "40 sec",
+      "30 sec",
+      "24 sec"
+    ],
+    "answer": "36 sec",
+    "answerKey": "A",
+    "correctAnswer": "36 sec",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 36 sec.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_229",
+    "title": "A and B together can do a job in 12 days. A alone in 20 days. B alone in how ...",
+    "description": "A and B together can do a job in 12 days. A alone in 20 days. B alone in how many days?",
+    "question": "A and B together can do a job in 12 days. A alone in 20 days. B alone in how many days?",
+    "options": [
+      "30",
+      "25",
+      "40",
+      "35"
+    ],
+    "answer": "30",
+    "answerKey": "A",
+    "correctAnswer": "30",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 30.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_230",
+    "title": "A pipe fills a tank in 6 hours. Another drains it in 8 hours. Both open, time...",
+    "description": "A pipe fills a tank in 6 hours. Another drains it in 8 hours. Both open, time to fill?",
+    "question": "A pipe fills a tank in 6 hours. Another drains it in 8 hours. Both open, time to fill?",
+    "options": [
+      "24 hours",
+      "20 hours",
+      "16 hours",
+      "18 hours"
+    ],
+    "answer": "24 hours",
+    "answerKey": "A",
+    "correctAnswer": "24 hours",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 24 hours.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_231",
+    "title": "A and B together finish in 8 days, B and C in 12 days, A and C in 16 days. Al...",
+    "description": "A and B together finish in 8 days, B and C in 12 days, A and C in 16 days. All three together?",
+    "question": "A and B together finish in 8 days, B and C in 12 days, A and C in 16 days. All three together?",
+    "options": [
+      "About 7.38 days",
+      "6 days",
+      "8 days",
+      "9 days"
+    ],
+    "answer": "About 7.38 days",
+    "answerKey": "A",
+    "correctAnswer": "About 7.38 days",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: About 7.38 days.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_232",
+    "title": "A does 1/4 work in 3 days, B does 1/3 work in 4 days. Together how many days ...",
+    "description": "A does 1/4 work in 3 days, B does 1/3 work in 4 days. Together how many days to finish?",
+    "question": "A does 1/4 work in 3 days, B does 1/3 work in 4 days. Together how many days to finish?",
+    "options": [
+      "about 5.5 days",
+      "6 days",
+      "7 days",
+      "4.5 days"
+    ],
+    "answer": "about 5.5 days",
+    "answerKey": "A",
+    "correctAnswer": "about 5.5 days",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: about 5.5 days.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_233",
+    "title": "Two workers A and B complete a job. A takes 18 days, B takes 9 days. Working ...",
+    "description": "Two workers A and B complete a job. A takes 18 days, B takes 9 days. Working together?",
+    "question": "Two workers A and B complete a job. A takes 18 days, B takes 9 days. Working together?",
+    "options": [
+      "6 days",
+      "5 days",
+      "4 days",
+      "7 days"
+    ],
+    "answer": "6 days",
+    "answerKey": "A",
+    "correctAnswer": "6 days",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 6 days.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_234",
+    "title": "Simple interest on Rs 5000 at 8% p.a. for 3 years?",
+    "description": "Simple interest on Rs 5000 at 8% p.a. for 3 years?",
+    "question": "Simple interest on Rs 5000 at 8% p.a. for 3 years?",
+    "options": [
+      "1200",
+      "1500",
+      "1000",
+      "800"
+    ],
+    "answer": "1200",
+    "answerKey": "A",
+    "correctAnswer": "1200",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1200.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_235",
+    "title": "Find compound interest on Rs 10000 at 10% p.a. for 2 years.",
+    "description": "Find compound interest on Rs 10000 at 10% p.a. for 2 years.",
+    "question": "Find compound interest on Rs 10000 at 10% p.a. for 2 years.",
+    "options": [
+      "2100",
+      "2000",
+      "1900",
+      "2200"
+    ],
+    "answer": "2100",
+    "answerKey": "A",
+    "correctAnswer": "2100",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 2100.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_236",
+    "title": "At what rate will Rs 8000 amount to Rs 9200 in 3 years (SI)?",
+    "description": "At what rate will Rs 8000 amount to Rs 9200 in 3 years (SI)?",
+    "question": "At what rate will Rs 8000 amount to Rs 9200 in 3 years (SI)?",
+    "options": [
+      "5%",
+      "4%",
+      "6%",
+      "3%"
+    ],
+    "answer": "5%",
+    "answerKey": "A",
+    "correctAnswer": "5%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 5%.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_237",
+    "title": "The sum doubles in 10 years under SI. Find the rate.",
+    "description": "The sum doubles in 10 years under SI. Find the rate.",
+    "question": "The sum doubles in 10 years under SI. Find the rate.",
+    "options": [
+      "10%",
+      "8%",
+      "12%",
+      "5%"
+    ],
+    "answer": "10%",
+    "answerKey": "A",
+    "correctAnswer": "10%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10%.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_238",
+    "title": "Difference between CI and SI for 2 years at 10% on Rs 1000?",
+    "description": "Difference between CI and SI for 2 years at 10% on Rs 1000?",
+    "question": "Difference between CI and SI for 2 years at 10% on Rs 1000?",
+    "options": [
+      "10",
+      "20",
+      "15",
+      "5"
+    ],
+    "answer": "10",
+    "answerKey": "A",
+    "correctAnswer": "10",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_239",
+    "title": "The cost price of an article is Rs 200. It is sold at a profit of 15%. Find s...",
+    "description": "The cost price of an article is Rs 200. It is sold at a profit of 15%. Find selling price.",
+    "question": "The cost price of an article is Rs 200. It is sold at a profit of 15%. Find selling price.",
+    "options": [
+      "230",
+      "240",
+      "220",
+      "250"
+    ],
+    "answer": "230",
+    "answerKey": "A",
+    "correctAnswer": "230",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 230.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_240",
+    "title": "A sold an article for Rs 240 at 20% profit. Find cost price.",
+    "description": "A sold an article for Rs 240 at 20% profit. Find cost price.",
+    "question": "A sold an article for Rs 240 at 20% profit. Find cost price.",
+    "options": [
+      "200",
+      "180",
+      "220",
+      "190"
+    ],
+    "answer": "200",
+    "answerKey": "A",
+    "correctAnswer": "200",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 200.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_241",
+    "title": "By selling an article for Rs 560, a man gains 12%. Find cost price.",
+    "description": "By selling an article for Rs 560, a man gains 12%. Find cost price.",
+    "question": "By selling an article for Rs 560, a man gains 12%. Find cost price.",
+    "options": [
+      "500",
+      "480",
+      "520",
+      "460"
+    ],
+    "answer": "500",
+    "answerKey": "A",
+    "correctAnswer": "500",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 500.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_242",
+    "title": "A man buys at Rs 750 and sells at Rs 675. Find loss %.",
+    "description": "A man buys at Rs 750 and sells at Rs 675. Find loss %.",
+    "question": "A man buys at Rs 750 and sells at Rs 675. Find loss %.",
+    "options": [
+      "10%",
+      "8%",
+      "12%",
+      "5%"
+    ],
+    "answer": "10%",
+    "answerKey": "A",
+    "correctAnswer": "10%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10%.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_243",
+    "title": "A trader has a 20% loss. If cost is Rs 500, what is selling price?",
+    "description": "A trader has a 20% loss. If cost is Rs 500, what is selling price?",
+    "question": "A trader has a 20% loss. If cost is Rs 500, what is selling price?",
+    "options": [
+      "400",
+      "450",
+      "350",
+      "420"
+    ],
+    "answer": "400",
+    "answerKey": "A",
+    "correctAnswer": "400",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 400.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_244",
+    "title": "What is the LCM of 12, 18, and 24?",
+    "description": "What is the LCM of 12, 18, and 24?",
+    "question": "What is the LCM of 12, 18, and 24?",
+    "options": [
+      "72",
+      "36",
+      "48",
+      "60"
+    ],
+    "answer": "72",
+    "answerKey": "A",
+    "correctAnswer": "72",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 72.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_246",
+    "title": "Find the LCM of 4, 6, 8, 10.",
+    "description": "Find the LCM of 4, 6, 8, 10.",
+    "question": "Find the LCM of 4, 6, 8, 10.",
+    "options": [
+      "120",
+      "60",
+      "40",
+      "80"
+    ],
+    "answer": "120",
+    "answerKey": "A",
+    "correctAnswer": "120",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 120.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_247",
+    "title": "The product of two numbers is 120. HCF is 4. Find LCM.",
+    "description": "The product of two numbers is 120. HCF is 4. Find LCM.",
+    "question": "The product of two numbers is 120. HCF is 4. Find LCM.",
+    "options": [
+      "30",
+      "40",
+      "20",
+      "50"
+    ],
+    "answer": "30",
+    "answerKey": "A",
+    "correctAnswer": "30",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 30.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_248",
+    "title": "HCF of two numbers is 8 and their LCM is 96. One number is 32. Find the other.",
+    "description": "HCF of two numbers is 8 and their LCM is 96. One number is 32. Find the other.",
+    "question": "HCF of two numbers is 8 and their LCM is 96. One number is 32. Find the other.",
+    "options": [
+      "24",
+      "16",
+      "32",
+      "48"
+    ],
+    "answer": "24",
+    "answerKey": "A",
+    "correctAnswer": "24",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 24.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_249",
+    "title": "What is the square root of 1764?",
+    "description": "What is the square root of 1764?",
+    "question": "What is the square root of 1764?",
+    "options": [
+      "42",
+      "41",
+      "43",
+      "44"
+    ],
+    "answer": "42",
+    "answerKey": "A",
+    "correctAnswer": "42",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 42.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_251",
+    "title": "What is the cube root of 1331?",
+    "description": "What is the cube root of 1331?",
+    "question": "What is the cube root of 1331?",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "10"
+    ],
+    "answer": "11",
+    "answerKey": "A",
+    "correctAnswer": "11",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 11.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_253",
+    "title": "Find the value of (2^5 × 2^3) / 2^4.",
+    "description": "Find the value of (2^5 × 2^3) / 2^4.",
+    "question": "Find the value of (2^5 × 2^3) / 2^4.",
+    "options": [
+      "16",
+      "32",
+      "8",
+      "64"
+    ],
+    "answer": "16",
+    "answerKey": "A",
+    "correctAnswer": "16",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 16.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_254",
+    "title": "A man is 24 years older than his son. In 2 years his age will be twice his so...",
+    "description": "A man is 24 years older than his son. In 2 years his age will be twice his son's. Find son's age now.",
+    "question": "A man is 24 years older than his son. In 2 years his age will be twice his son's. Find son's age now.",
+    "options": [
+      "22",
+      "20",
+      "24",
+      "18"
+    ],
+    "answer": "22",
+    "answerKey": "A",
+    "correctAnswer": "22",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 22.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_255",
+    "title": "The sum of ages of A and B is 45 years. 5 years ago, A was twice as old as B....",
+    "description": "The sum of ages of A and B is 45 years. 5 years ago, A was twice as old as B. Find A's current age.",
+    "question": "The sum of ages of A and B is 45 years. 5 years ago, A was twice as old as B. Find A's current age.",
+    "options": [
+      "35",
+      "30",
+      "25",
+      "40"
+    ],
+    "answer": "35",
+    "answerKey": "A",
+    "correctAnswer": "35",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 35.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_256",
+    "title": "Father is 4 times older than son. 5 years hence, father will be 3 times son. ...",
+    "description": "Father is 4 times older than son. 5 years hence, father will be 3 times son. Find father's age.",
+    "question": "Father is 4 times older than son. 5 years hence, father will be 3 times son. Find father's age.",
+    "options": [
+      "40",
+      "35",
+      "45",
+      "50"
+    ],
+    "answer": "40",
+    "answerKey": "A",
+    "correctAnswer": "40",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 40.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_257",
+    "title": "Average of 5 numbers is 27. If one number is 32, find avg of remaining 4.",
+    "description": "Average of 5 numbers is 27. If one number is 32, find avg of remaining 4.",
+    "question": "Average of 5 numbers is 27. If one number is 32, find avg of remaining 4.",
+    "options": [
+      "25.75",
+      "26",
+      "24.5",
+      "27"
+    ],
+    "answer": "25.75",
+    "answerKey": "A",
+    "correctAnswer": "25.75",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 25.75.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_258",
+    "title": "The average of 10 numbers is 40. If 2 more numbers (60 and 80) are added, new...",
+    "description": "The average of 10 numbers is 40. If 2 more numbers (60 and 80) are added, new average?",
+    "question": "The average of 10 numbers is 40. If 2 more numbers (60 and 80) are added, new average?",
+    "options": [
+      "45",
+      "47.5",
+      "50",
+      "42"
+    ],
+    "answer": "47.5",
+    "answerKey": "B",
+    "correctAnswer": "47.5",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: 47.5.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_259",
+    "title": "Average marks of 30 students is 60. 5 more students with avg 80 join. New ave...",
+    "description": "Average marks of 30 students is 60. 5 more students with avg 80 join. New average?",
+    "question": "Average marks of 30 students is 60. 5 more students with avg 80 join. New average?",
+    "options": [
+      "63.6",
+      "65",
+      "62",
+      "64"
+    ],
+    "answer": "63.6",
+    "answerKey": "A",
+    "correctAnswer": "63.6",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 63.6.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_260",
+    "title": "The average of consecutive integers from 10 to 20 is?",
+    "description": "The average of consecutive integers from 10 to 20 is?",
+    "question": "The average of consecutive integers from 10 to 20 is?",
+    "options": [
+      "15",
+      "14",
+      "16",
+      "17"
+    ],
+    "answer": "15",
+    "answerKey": "A",
+    "correctAnswer": "15",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 15.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_261",
+    "title": "Average weight of 40 students is 55 kg. New student joins, avg becomes 55.1 k...",
+    "description": "Average weight of 40 students is 55 kg. New student joins, avg becomes 55.1 kg. New student's weight?",
+    "question": "Average weight of 40 students is 55 kg. New student joins, avg becomes 55.1 kg. New student's weight?",
+    "options": [
+      "59",
+      "61",
+      "63",
+      "55"
+    ],
+    "answer": "59",
+    "answerKey": "A",
+    "correctAnswer": "59",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 59.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_262",
+    "title": "If average of n numbers is 40 and one number 20 is replaced by 60, new avg is...",
+    "description": "If average of n numbers is 40 and one number 20 is replaced by 60, new avg is 44. Find n.",
+    "question": "If average of n numbers is 40 and one number 20 is replaced by 60, new avg is 44. Find n.",
+    "options": [
+      "10",
+      "8",
+      "5",
+      "12"
+    ],
+    "answer": "10",
+    "answerKey": "A",
+    "correctAnswer": "10",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_263",
+    "title": "In what ratio must rice at Rs 12/kg be mixed with rice at Rs 16/kg to get mix...",
+    "description": "In what ratio must rice at Rs 12/kg be mixed with rice at Rs 16/kg to get mixture at Rs 14/kg?",
+    "question": "In what ratio must rice at Rs 12/kg be mixed with rice at Rs 16/kg to get mixture at Rs 14/kg?",
+    "options": [
+      "1:1",
+      "2:1",
+      "1:2",
+      "3:1"
+    ],
+    "answer": "1:1",
+    "answerKey": "A",
+    "correctAnswer": "1:1",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1:1.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_264",
+    "title": "A milkman mixes water and milk in ratio 1:3. If mixture is 40L, how many litr...",
+    "description": "A milkman mixes water and milk in ratio 1:3. If mixture is 40L, how many litres of milk?",
+    "question": "A milkman mixes water and milk in ratio 1:3. If mixture is 40L, how many litres of milk?",
+    "options": [
+      "30",
+      "20",
+      "25",
+      "35"
+    ],
+    "answer": "30",
+    "answerKey": "A",
+    "correctAnswer": "30",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 30.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_265",
+    "title": "Two alloys have iron and copper in ratios 3:1 and 1:3. Mixed equally. Ratio i...",
+    "description": "Two alloys have iron and copper in ratios 3:1 and 1:3. Mixed equally. Ratio in mixture?",
+    "question": "Two alloys have iron and copper in ratios 3:1 and 1:3. Mixed equally. Ratio in mixture?",
+    "options": [
+      "1:1",
+      "2:3",
+      "3:2",
+      "4:1"
+    ],
+    "answer": "1:1",
+    "answerKey": "A",
+    "correctAnswer": "1:1",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1:1.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_266",
+    "title": "Sugar costing Rs 9/kg and Rs 15/kg mixed in ratio 2:1. Cost of mixture per kg?",
+    "description": "Sugar costing Rs 9/kg and Rs 15/kg mixed in ratio 2:1. Cost of mixture per kg?",
+    "question": "Sugar costing Rs 9/kg and Rs 15/kg mixed in ratio 2:1. Cost of mixture per kg?",
+    "options": [
+      "11",
+      "12",
+      "10",
+      "13"
+    ],
+    "answer": "11",
+    "answerKey": "A",
+    "correctAnswer": "11",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 11.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_267",
+    "title": "A container has 20L milk. 4L removed and replaced with water. Repeated twice....",
+    "description": "A container has 20L milk. 4L removed and replaced with water. Repeated twice. Milk remaining?",
+    "question": "A container has 20L milk. 4L removed and replaced with water. Repeated twice. Milk remaining?",
+    "options": [
+      "12.8L",
+      "13.6L",
+      "11.2L",
+      "14.4L"
+    ],
+    "answer": "12.8L",
+    "answerKey": "A",
+    "correctAnswer": "12.8L",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 12.8L.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_268",
+    "title": "Find area of a rectangle: length 12m, breadth 8m.",
+    "description": "Find area of a rectangle: length 12m, breadth 8m.",
+    "question": "Find area of a rectangle: length 12m, breadth 8m.",
+    "options": [
+      "96 m2",
+      "80 m2",
+      "100 m2",
+      "72 m2"
+    ],
+    "answer": "96 m2",
+    "answerKey": "A",
+    "correctAnswer": "96 m2",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 96 m2.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_269",
+    "title": "A circle has radius 7cm. Find area (π = 22/7).",
+    "description": "A circle has radius 7cm. Find area (π = 22/7).",
+    "question": "A circle has radius 7cm. Find area (π = 22/7).",
+    "options": [
+      "154 cm2",
+      "144 cm2",
+      "176 cm2",
+      "132 cm2"
+    ],
+    "answer": "154 cm2",
+    "answerKey": "A",
+    "correctAnswer": "154 cm2",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 154 cm2.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_270",
+    "title": "Perimeter of a square is 48m. Find its area.",
+    "description": "Perimeter of a square is 48m. Find its area.",
+    "question": "Perimeter of a square is 48m. Find its area.",
+    "options": [
+      "144 m2",
+      "100 m2",
+      "121 m2",
+      "169 m2"
+    ],
+    "answer": "144 m2",
+    "answerKey": "A",
+    "correctAnswer": "144 m2",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 144 m2.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_271",
+    "title": "Volume of a cube of side 5cm.",
+    "description": "Volume of a cube of side 5cm.",
+    "question": "Volume of a cube of side 5cm.",
+    "options": [
+      "125 cm3",
+      "100 cm3",
+      "75 cm3",
+      "150 cm3"
+    ],
+    "answer": "125 cm3",
+    "answerKey": "A",
+    "correctAnswer": "125 cm3",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 125 cm3.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_272",
+    "title": "A cylinder has radius 7cm and height 10cm. Find volume (π=22/7).",
+    "description": "A cylinder has radius 7cm and height 10cm. Find volume (π=22/7).",
+    "question": "A cylinder has radius 7cm and height 10cm. Find volume (π=22/7).",
+    "options": [
+      "1540 cm3",
+      "1000 cm3",
+      "1200 cm3",
+      "1320 cm3"
+    ],
+    "answer": "1540 cm3",
+    "answerKey": "A",
+    "correctAnswer": "1540 cm3",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1540 cm3.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_273",
+    "title": "Area of a triangle with base 10m and height 6m.",
+    "description": "Area of a triangle with base 10m and height 6m.",
+    "question": "Area of a triangle with base 10m and height 6m.",
+    "options": [
+      "30 m2",
+      "60 m2",
+      "50 m2",
+      "25 m2"
+    ],
+    "answer": "30 m2",
+    "answerKey": "A",
+    "correctAnswer": "30 m2",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 30 m2.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_274",
+    "title": "Find diagonal of rectangle: length 8m, breadth 6m.",
+    "description": "Find diagonal of rectangle: length 8m, breadth 6m.",
+    "question": "Find diagonal of rectangle: length 8m, breadth 6m.",
+    "options": [
+      "10m",
+      "12m",
+      "8m",
+      "14m"
+    ],
+    "answer": "10m",
+    "answerKey": "A",
+    "correctAnswer": "10m",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10m.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_275",
+    "title": "A cone has radius 7cm and height 24cm. Find slant height.",
+    "description": "A cone has radius 7cm and height 24cm. Find slant height.",
+    "question": "A cone has radius 7cm and height 24cm. Find slant height.",
+    "options": [
+      "25cm",
+      "26cm",
+      "20cm",
+      "28cm"
+    ],
+    "answer": "25cm",
+    "answerKey": "A",
+    "correctAnswer": "25cm",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 25cm.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_276",
+    "title": "Total surface area of a cube of side 6cm.",
+    "description": "Total surface area of a cube of side 6cm.",
+    "question": "Total surface area of a cube of side 6cm.",
+    "options": [
+      "216 cm2",
+      "144 cm2",
+      "180 cm2",
+      "196 cm2"
+    ],
+    "answer": "216 cm2",
+    "answerKey": "A",
+    "correctAnswer": "216 cm2",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 216 cm2.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_277",
+    "title": "A rectangle has perimeter 60m. If length is 20m, find breadth.",
+    "description": "A rectangle has perimeter 60m. If length is 20m, find breadth.",
+    "question": "A rectangle has perimeter 60m. If length is 20m, find breadth.",
+    "options": [
+      "10m",
+      "15m",
+      "12m",
+      "8m"
+    ],
+    "answer": "10m",
+    "answerKey": "A",
+    "correctAnswer": "10m",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10m.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_278",
+    "title": "x + y = 10, x - y = 2. Find x and y.",
+    "description": "x + y = 10, x - y = 2. Find x and y.",
+    "question": "x + y = 10, x - y = 2. Find x and y.",
+    "options": [
+      "x=6, y=4",
+      "x=4, y=6",
+      "x=7, y=3",
+      "x=5, y=5"
+    ],
+    "answer": "x=6, y=4",
+    "answerKey": "A",
+    "correctAnswer": "x=6, y=4",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: x=6, y=4.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_283",
+    "title": "Two numbers differ by 6. Their sum is 42. Find the numbers.",
+    "description": "Two numbers differ by 6. Their sum is 42. Find the numbers.",
+    "question": "Two numbers differ by 6. Their sum is 42. Find the numbers.",
+    "options": [
+      "24 and 18",
+      "20 and 22",
+      "21 and 21",
+      "25 and 17"
+    ],
+    "answer": "24 and 18",
+    "answerKey": "A",
+    "correctAnswer": "24 and 18",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 24 and 18.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_284",
+    "title": "If the sum of two numbers is 72 and one is twice the other, find the numbers.",
+    "description": "If the sum of two numbers is 72 and one is twice the other, find the numbers.",
+    "question": "If the sum of two numbers is 72 and one is twice the other, find the numbers.",
+    "options": [
+      "24 and 48",
+      "36 and 36",
+      "20 and 52",
+      "30 and 42"
+    ],
+    "answer": "24 and 48",
+    "answerKey": "A",
+    "correctAnswer": "24 and 48",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 24 and 48.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_286",
+    "title": "A 20% increase followed by 25% decrease gives what net change?",
+    "description": "A 20% increase followed by 25% decrease gives what net change?",
+    "question": "A 20% increase followed by 25% decrease gives what net change?",
+    "options": [
+      "-10%",
+      "0%",
+      "-5%",
+      "+5%"
+    ],
+    "answer": "-10%",
+    "answerKey": "A",
+    "correctAnswer": "-10%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: -10%.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_287",
+    "title": "A shopkeeper uses a 900g weight for 1kg. His profit%?",
+    "description": "A shopkeeper uses a 900g weight for 1kg. His profit%?",
+    "question": "A shopkeeper uses a 900g weight for 1kg. His profit%?",
+    "options": [
+      "About 11.1%",
+      "10%",
+      "9%",
+      "12.5%"
+    ],
+    "answer": "About 11.1%",
+    "answerKey": "A",
+    "correctAnswer": "About 11.1%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: About 11.1%.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_288",
+    "title": "Find compound amount: P=1000, r=10%, t=3 years.",
+    "description": "Find compound amount: P=1000, r=10%, t=3 years.",
+    "question": "Find compound amount: P=1000, r=10%, t=3 years.",
+    "options": [
+      "1331",
+      "1200",
+      "1300",
+      "1100"
+    ],
+    "answer": "1331",
+    "answerKey": "A",
+    "correctAnswer": "1331",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1331.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_289",
+    "title": "What sum at 5% SI gives Rs 150 interest in 2 years?",
+    "description": "What sum at 5% SI gives Rs 150 interest in 2 years?",
+    "question": "What sum at 5% SI gives Rs 150 interest in 2 years?",
+    "options": [
+      "1500",
+      "1200",
+      "1000",
+      "1800"
+    ],
+    "answer": "1500",
+    "answerKey": "A",
+    "correctAnswer": "1500",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1500.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_290",
+    "title": "If A is 40% of B and B is 25% of C, what % is A of C?",
+    "description": "If A is 40% of B and B is 25% of C, what % is A of C?",
+    "question": "If A is 40% of B and B is 25% of C, what % is A of C?",
+    "options": [
+      "10%",
+      "5%",
+      "15%",
+      "20%"
+    ],
+    "answer": "10%",
+    "answerKey": "A",
+    "correctAnswer": "10%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10%.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_291",
+    "title": "In an election, candidate A gets 55% votes. Winning margin is 2000 votes. Tot...",
+    "description": "In an election, candidate A gets 55% votes. Winning margin is 2000 votes. Total votes?",
+    "question": "In an election, candidate A gets 55% votes. Winning margin is 2000 votes. Total votes?",
+    "options": [
+      "20000",
+      "10000",
+      "15000",
+      "25000"
+    ],
+    "answer": "20000",
+    "answerKey": "A",
+    "correctAnswer": "20000",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 20000.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_292",
+    "title": "Population of a city is 80000. It increases by 10% in yr1 and decreases by 5%...",
+    "description": "Population of a city is 80000. It increases by 10% in yr1 and decreases by 5% in yr2. Final pop?",
+    "question": "Population of a city is 80000. It increases by 10% in yr1 and decreases by 5% in yr2. Final pop?",
+    "options": [
+      "83600",
+      "84000",
+      "86000",
+      "82000"
+    ],
+    "answer": "83600",
+    "answerKey": "A",
+    "correctAnswer": "83600",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 83600.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_293",
+    "title": "A mixture of 60L has milk:water = 2:1. How much water to add to get 1:1 ratio?",
+    "description": "A mixture of 60L has milk:water = 2:1. How much water to add to get 1:1 ratio?",
+    "question": "A mixture of 60L has milk:water = 2:1. How much water to add to get 1:1 ratio?",
+    "options": [
+      "20L",
+      "30L",
+      "15L",
+      "10L"
+    ],
+    "answer": "20L",
+    "answerKey": "A",
+    "correctAnswer": "20L",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 20L.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_294",
+    "title": "A cistern can be filled by pipes A and B in 6h and 8h. Opened together. Time ...",
+    "description": "A cistern can be filled by pipes A and B in 6h and 8h. Opened together. Time to fill 3/4 tank?",
+    "question": "A cistern can be filled by pipes A and B in 6h and 8h. Opened together. Time to fill 3/4 tank?",
+    "options": [
+      "3h 26min",
+      "2h 24min",
+      "4h",
+      "2h"
+    ],
+    "answer": "3h 26min",
+    "answerKey": "A",
+    "correctAnswer": "3h 26min",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 3h 26min.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_295",
+    "title": "A man rows 18 km downstream in 2h and returns in 3h. Speed of stream?",
+    "description": "A man rows 18 km downstream in 2h and returns in 3h. Speed of stream?",
+    "question": "A man rows 18 km downstream in 2h and returns in 3h. Speed of stream?",
+    "options": [
+      "1.5 km/h",
+      "2 km/h",
+      "1 km/h",
+      "2.5 km/h"
+    ],
+    "answer": "1.5 km/h",
+    "answerKey": "A",
+    "correctAnswer": "1.5 km/h",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1.5 km/h.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_296",
+    "title": "Speed of a boat in still water 12 km/h, stream 4 km/h. Time to cover 48 km up...",
+    "description": "Speed of a boat in still water 12 km/h, stream 4 km/h. Time to cover 48 km upstream?",
+    "question": "Speed of a boat in still water 12 km/h, stream 4 km/h. Time to cover 48 km upstream?",
+    "options": [
+      "6h",
+      "4h",
+      "8h",
+      "5h"
+    ],
+    "answer": "6h",
+    "answerKey": "A",
+    "correctAnswer": "6h",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 6h.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_297",
+    "title": "A certain job is done by 12 men in 20 days. How many men to finish in 15 days?",
+    "description": "A certain job is done by 12 men in 20 days. How many men to finish in 15 days?",
+    "question": "A certain job is done by 12 men in 20 days. How many men to finish in 15 days?",
+    "options": [
+      "16",
+      "20",
+      "18",
+      "24"
+    ],
+    "answer": "16",
+    "answerKey": "A",
+    "correctAnswer": "16",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 16.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_298",
+    "title": "A can finish in 20 days. B is 25% more efficient. B finishes in?",
+    "description": "A can finish in 20 days. B is 25% more efficient. B finishes in?",
+    "question": "A can finish in 20 days. B is 25% more efficient. B finishes in?",
+    "options": [
+      "16 days",
+      "15 days",
+      "18 days",
+      "20 days"
+    ],
+    "answer": "16 days",
+    "answerKey": "A",
+    "correctAnswer": "16 days",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 16 days.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_299",
+    "title": "Ratio of efficiency of A:B = 3:2. Together finish in 12 days. A alone finishe...",
+    "description": "Ratio of efficiency of A:B = 3:2. Together finish in 12 days. A alone finishes in?",
+    "question": "Ratio of efficiency of A:B = 3:2. Together finish in 12 days. A alone finishes in?",
+    "options": [
+      "20 days",
+      "25 days",
+      "18 days",
+      "30 days"
+    ],
+    "answer": "20 days",
+    "answerKey": "A",
+    "correctAnswer": "20 days",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 20 days.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_300",
+    "title": "What is the interest on Rs 12000 at 6.25% SI for 2.5 years?",
+    "description": "What is the interest on Rs 12000 at 6.25% SI for 2.5 years?",
+    "question": "What is the interest on Rs 12000 at 6.25% SI for 2.5 years?",
+    "options": [
+      "1875",
+      "1500",
+      "2000",
+      "1200"
+    ],
+    "answer": "1875",
+    "answerKey": "A",
+    "correctAnswer": "1875",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1875.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_301",
+    "title": "At 12% CI, what will Rs 5000 become after 2 years?",
+    "description": "At 12% CI, what will Rs 5000 become after 2 years?",
+    "question": "At 12% CI, what will Rs 5000 become after 2 years?",
+    "options": [
+      "6272",
+      "6000",
+      "5600",
+      "6500"
+    ],
+    "answer": "6272",
+    "answerKey": "A",
+    "correctAnswer": "6272",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 6272.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_302",
+    "title": "A and B invest Rs 3000 and Rs 5000. Profit at end of year is Rs 1600. B's share?",
+    "description": "A and B invest Rs 3000 and Rs 5000. Profit at end of year is Rs 1600. B's share?",
+    "question": "A and B invest Rs 3000 and Rs 5000. Profit at end of year is Rs 1600. B's share?",
+    "options": [
+      "1000",
+      "800",
+      "600",
+      "1200"
+    ],
+    "answer": "1000",
+    "answerKey": "A",
+    "correctAnswer": "1000",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1000.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_303",
+    "title": "A, B, C invest in ratio 1:2:3. Total profit is Rs 12000. C's share?",
+    "description": "A, B, C invest in ratio 1:2:3. Total profit is Rs 12000. C's share?",
+    "question": "A, B, C invest in ratio 1:2:3. Total profit is Rs 12000. C's share?",
+    "options": [
+      "6000",
+      "4000",
+      "2000",
+      "3000"
+    ],
+    "answer": "6000",
+    "answerKey": "A",
+    "correctAnswer": "6000",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 6000.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_304",
+    "title": "A invested Rs 8000 for 6 months, B Rs 6000 for 8 months. Ratio of profit?",
+    "description": "A invested Rs 8000 for 6 months, B Rs 6000 for 8 months. Ratio of profit?",
+    "question": "A invested Rs 8000 for 6 months, B Rs 6000 for 8 months. Ratio of profit?",
+    "options": [
+      "1:1",
+      "2:1",
+      "3:2",
+      "4:3"
+    ],
+    "answer": "1:1",
+    "answerKey": "A",
+    "correctAnswer": "1:1",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1:1.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_305",
+    "title": "A and B started business with Rs 5000 each. After 4 months A invested Rs 1000...",
+    "description": "A and B started business with Rs 5000 each. After 4 months A invested Rs 1000 more. Year-end ratio?",
+    "question": "A and B started business with Rs 5000 each. After 4 months A invested Rs 1000 more. Year-end ratio?",
+    "options": [
+      "9:8",
+      "5:4",
+      "7:6",
+      "3:2"
+    ],
+    "answer": "9:8",
+    "answerKey": "A",
+    "correctAnswer": "9:8",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 9:8.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_307",
+    "title": "A train passes a pole in 10 sec at 54 km/h. Length of train?",
+    "description": "A train passes a pole in 10 sec at 54 km/h. Length of train?",
+    "question": "A train passes a pole in 10 sec at 54 km/h. Length of train?",
+    "options": [
+      "150m",
+      "100m",
+      "120m",
+      "180m"
+    ],
+    "answer": "150m",
+    "answerKey": "A",
+    "correctAnswer": "150m",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 150m.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_308",
+    "title": "Two trains run toward each other at 60 km/h and 90 km/h. Distance 300 km. Tim...",
+    "description": "Two trains run toward each other at 60 km/h and 90 km/h. Distance 300 km. Time to meet?",
+    "question": "Two trains run toward each other at 60 km/h and 90 km/h. Distance 300 km. Time to meet?",
+    "options": [
+      "2h",
+      "3h",
+      "1.5h",
+      "2.5h"
+    ],
+    "answer": "2h",
+    "answerKey": "A",
+    "correctAnswer": "2h",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 2h.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_309",
+    "title": "A bus travels at 60 km/h for 2.5h, then 80 km/h for 1.5h. Total distance?",
+    "description": "A bus travels at 60 km/h for 2.5h, then 80 km/h for 1.5h. Total distance?",
+    "question": "A bus travels at 60 km/h for 2.5h, then 80 km/h for 1.5h. Total distance?",
+    "options": [
+      "270 km",
+      "300 km",
+      "250 km",
+      "280 km"
+    ],
+    "answer": "270 km",
+    "answerKey": "A",
+    "correctAnswer": "270 km",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 270 km.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_310",
+    "title": "Average speed for trip: 120 km at 60 km/h then 120 km at 40 km/h.",
+    "description": "Average speed for trip: 120 km at 60 km/h then 120 km at 40 km/h.",
+    "question": "Average speed for trip: 120 km at 60 km/h then 120 km at 40 km/h.",
+    "options": [
+      "48 km/h",
+      "50 km/h",
+      "45 km/h",
+      "55 km/h"
+    ],
+    "answer": "48 km/h",
+    "answerKey": "A",
+    "correctAnswer": "48 km/h",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 48 km/h.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_311",
+    "title": "A man saves Rs 1200 from salary of Rs 6000. Save % next month if salary rises...",
+    "description": "A man saves Rs 1200 from salary of Rs 6000. Save % next month if salary rises 10% and savings unchanged?",
+    "question": "A man saves Rs 1200 from salary of Rs 6000. Save % next month if salary rises 10% and savings unchanged?",
+    "options": [
+      "About 18.2%",
+      "20%",
+      "15%",
+      "16.7%"
+    ],
+    "answer": "About 18.2%",
+    "answerKey": "A",
+    "correctAnswer": "About 18.2%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: About 18.2%.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_312",
+    "title": "A is 25% more than B. B is what % less than A?",
+    "description": "A is 25% more than B. B is what % less than A?",
+    "question": "A is 25% more than B. B is what % less than A?",
+    "options": [
+      "20%",
+      "25%",
+      "15%",
+      "30%"
+    ],
+    "answer": "20%",
+    "answerKey": "A",
+    "correctAnswer": "20%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 20%.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_313",
+    "title": "Number decreased by 25% gives 120. Original number?",
+    "description": "Number decreased by 25% gives 120. Original number?",
+    "question": "Number decreased by 25% gives 120. Original number?",
+    "options": [
+      "160",
+      "150",
+      "140",
+      "180"
+    ],
+    "answer": "160",
+    "answerKey": "A",
+    "correctAnswer": "160",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 160.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_314",
+    "title": "If 3 is added to both numerator and denominator of 3/8, what is new fraction?",
+    "description": "If 3 is added to both numerator and denominator of 3/8, what is new fraction?",
+    "question": "If 3 is added to both numerator and denominator of 3/8, what is new fraction?",
+    "options": [
+      "6/11",
+      "7/12",
+      "4/9",
+      "5/10"
+    ],
+    "answer": "6/11",
+    "answerKey": "A",
+    "correctAnswer": "6/11",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 6/11.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_316",
+    "title": "Sum of squares of first 10 natural numbers.",
+    "description": "Sum of squares of first 10 natural numbers.",
+    "question": "Sum of squares of first 10 natural numbers.",
+    "options": [
+      "385",
+      "380",
+      "390",
+      "400"
+    ],
+    "answer": "385",
+    "answerKey": "A",
+    "correctAnswer": "385",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 385.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_317",
+    "title": "What is the sum of first 10 odd numbers?",
+    "description": "What is the sum of first 10 odd numbers?",
+    "question": "What is the sum of first 10 odd numbers?",
+    "options": [
+      "100",
+      "90",
+      "81",
+      "121"
+    ],
+    "answer": "100",
+    "answerKey": "A",
+    "correctAnswer": "100",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 100.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_319",
+    "title": "Number of ways to arrange 4 objects out of 6: P(6,4)=?",
+    "description": "Number of ways to arrange 4 objects out of 6: P(6,4)=?",
+    "question": "Number of ways to arrange 4 objects out of 6: P(6,4)=?",
+    "options": [
+      "360",
+      "120",
+      "720",
+      "60"
+    ],
+    "answer": "360",
+    "answerKey": "A",
+    "correctAnswer": "360",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 360.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_320",
+    "title": "Number of ways to choose 3 from 8: C(8,3)=?",
+    "description": "Number of ways to choose 3 from 8: C(8,3)=?",
+    "question": "Number of ways to choose 3 from 8: C(8,3)=?",
+    "options": [
+      "56",
+      "28",
+      "70",
+      "84"
+    ],
+    "answer": "56",
+    "answerKey": "A",
+    "correctAnswer": "56",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 56.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_321",
+    "title": "Probability of getting head on tossing a fair coin.",
+    "description": "Probability of getting head on tossing a fair coin.",
+    "question": "Probability of getting head on tossing a fair coin.",
+    "options": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "2/3"
+    ],
+    "answer": "1/2",
+    "answerKey": "A",
+    "correctAnswer": "1/2",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1/2.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_322",
+    "title": "A bag has 4 red and 6 blue balls. Probability of drawing a red ball?",
+    "description": "A bag has 4 red and 6 blue balls. Probability of drawing a red ball?",
+    "question": "A bag has 4 red and 6 blue balls. Probability of drawing a red ball?",
+    "options": [
+      "2/5",
+      "1/2",
+      "3/5",
+      "1/4"
+    ],
+    "answer": "2/5",
+    "answerKey": "A",
+    "correctAnswer": "2/5",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 2/5.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_323",
+    "title": "Two dice thrown. Probability of sum = 7.",
+    "description": "Two dice thrown. Probability of sum = 7.",
+    "question": "Two dice thrown. Probability of sum = 7.",
+    "options": [
+      "1/6",
+      "1/4",
+      "1/8",
+      "1/3"
+    ],
+    "answer": "1/6",
+    "answerKey": "A",
+    "correctAnswer": "1/6",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1/6.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_324",
+    "title": "A card drawn from a deck of 52. Probability of king?",
+    "description": "A card drawn from a deck of 52. Probability of king?",
+    "question": "A card drawn from a deck of 52. Probability of king?",
+    "options": [
+      "1/13",
+      "4/52",
+      "1/52",
+      "1/26"
+    ],
+    "answer": "1/13",
+    "answerKey": "A",
+    "correctAnswer": "1/13",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1/13.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_325",
+    "title": "Probability of getting even number on a die.",
+    "description": "Probability of getting even number on a die.",
+    "question": "Probability of getting even number on a die.",
+    "options": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "1/6"
+    ],
+    "answer": "1/2",
+    "answerKey": "A",
+    "correctAnswer": "1/2",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1/2.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_326",
+    "title": "Two unbiased coins tossed. Probability of both tails?",
+    "description": "Two unbiased coins tossed. Probability of both tails?",
+    "question": "Two unbiased coins tossed. Probability of both tails?",
+    "options": [
+      "1/4",
+      "1/2",
+      "1/3",
+      "3/4"
+    ],
+    "answer": "1/4",
+    "answerKey": "A",
+    "correctAnswer": "1/4",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1/4.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_327",
+    "title": "Out of 100 students, 60 passed in Maths, 48 in Science, 36 in both. Failed in...",
+    "description": "Out of 100 students, 60 passed in Maths, 48 in Science, 36 in both. Failed in both?",
+    "question": "Out of 100 students, 60 passed in Maths, 48 in Science, 36 in both. Failed in both?",
+    "options": [
+      "28",
+      "32",
+      "24",
+      "40"
+    ],
+    "answer": "28",
+    "answerKey": "A",
+    "correctAnswer": "28",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 28.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_328",
+    "title": "In a class 40% play cricket, 30% play football, 20% play both. Play neither?",
+    "description": "In a class 40% play cricket, 30% play football, 20% play both. Play neither?",
+    "question": "In a class 40% play cricket, 30% play football, 20% play both. Play neither?",
+    "options": [
+      "50%",
+      "40%",
+      "30%",
+      "60%"
+    ],
+    "answer": "50%",
+    "answerKey": "A",
+    "correctAnswer": "50%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 50%.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_329",
+    "title": "A number when divided by 6 leaves remainder 5. The same number when divided b...",
+    "description": "A number when divided by 6 leaves remainder 5. The same number when divided by 3 leaves?",
+    "question": "A number when divided by 6 leaves remainder 5. The same number when divided by 3 leaves?",
+    "options": [
+      "2",
+      "1",
+      "0",
+      "3"
+    ],
+    "answer": "2",
+    "answerKey": "A",
+    "correctAnswer": "2",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 2.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_330",
+    "title": "The sum of digits of a two digit number is 11. If digits reversed, number dec...",
+    "description": "The sum of digits of a two digit number is 11. If digits reversed, number decreases by 27. Number?",
+    "question": "The sum of digits of a two digit number is 11. If digits reversed, number decreases by 27. Number?",
+    "options": [
+      "74",
+      "65",
+      "83",
+      "56"
+    ],
+    "answer": "74",
+    "answerKey": "A",
+    "correctAnswer": "74",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 74.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_331",
+    "title": "A number is divisible by 9 if the sum of its digits is divisible by?",
+    "description": "A number is divisible by 9 if the sum of its digits is divisible by?",
+    "question": "A number is divisible by 9 if the sum of its digits is divisible by?",
+    "options": [
+      "9",
+      "3",
+      "6",
+      "12"
+    ],
+    "answer": "9",
+    "answerKey": "A",
+    "correctAnswer": "9",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 9.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_332",
+    "title": "Which is the smallest 4-digit number divisible by 18?",
+    "description": "Which is the smallest 4-digit number divisible by 18?",
+    "question": "Which is the smallest 4-digit number divisible by 18?",
+    "options": [
+      "1008",
+      "1080",
+      "1000",
+      "1026"
+    ],
+    "answer": "1008",
+    "answerKey": "A",
+    "correctAnswer": "1008",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1008.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_333",
+    "title": "A library has 3 different Science, 4 different Maths, 2 different English boo...",
+    "description": "A library has 3 different Science, 4 different Maths, 2 different English books. How many ways to choose one?",
+    "question": "A library has 3 different Science, 4 different Maths, 2 different English books. How many ways to choose one?",
+    "options": [
+      "9",
+      "24",
+      "12",
+      "6"
+    ],
+    "answer": "9",
+    "answerKey": "A",
+    "correctAnswer": "9",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 9.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_334",
+    "title": "A bag has 3 red, 4 blue, 2 green balls. Probability of drawing not blue?",
+    "description": "A bag has 3 red, 4 blue, 2 green balls. Probability of drawing not blue?",
+    "question": "A bag has 3 red, 4 blue, 2 green balls. Probability of drawing not blue?",
+    "options": [
+      "5/9",
+      "4/9",
+      "1/2",
+      "2/3"
+    ],
+    "answer": "5/9",
+    "answerKey": "A",
+    "correctAnswer": "5/9",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 5/9.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_335",
+    "title": "If a number is multiplied by 2 and 10 added, result is 30. The number is?",
+    "description": "If a number is multiplied by 2 and 10 added, result is 30. The number is?",
+    "question": "If a number is multiplied by 2 and 10 added, result is 30. The number is?",
+    "options": [
+      "10",
+      "15",
+      "12",
+      "8"
+    ],
+    "answer": "10",
+    "answerKey": "A",
+    "correctAnswer": "10",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_338",
+    "title": "Which is greatest: 3/5, 4/7, 5/9?",
+    "description": "Which is greatest: 3/5, 4/7, 5/9?",
+    "question": "Which is greatest: 3/5, 4/7, 5/9?",
+    "options": [
+      "3/5",
+      "4/7",
+      "5/9",
+      "All equal"
+    ],
+    "answer": "3/5",
+    "answerKey": "A",
+    "correctAnswer": "3/5",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 3/5.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_341",
+    "title": "The number 0.0025 in fraction form is?",
+    "description": "The number 0.0025 in fraction form is?",
+    "question": "The number 0.0025 in fraction form is?",
+    "options": [
+      "1/400",
+      "1/40",
+      "1/4000",
+      "1/25"
+    ],
+    "answer": "1/400",
+    "answerKey": "A",
+    "correctAnswer": "1/400",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1/400.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_342",
+    "title": "If 2/3 of a number is 18, what is 3/4 of the same number?",
+    "description": "If 2/3 of a number is 18, what is 3/4 of the same number?",
+    "question": "If 2/3 of a number is 18, what is 3/4 of the same number?",
+    "options": [
+      "20.25",
+      "27",
+      "18",
+      "24"
+    ],
+    "answer": "20.25",
+    "answerKey": "A",
+    "correctAnswer": "20.25",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 20.25.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_343",
+    "title": "How many prime numbers are between 1 and 30?",
+    "description": "How many prime numbers are between 1 and 30?",
+    "question": "How many prime numbers are between 1 and 30?",
+    "options": [
+      "10",
+      "8",
+      "11",
+      "9"
+    ],
+    "answer": "10",
+    "answerKey": "A",
+    "correctAnswer": "10",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_344",
+    "title": "What is the HCF of 72 and 108?",
+    "description": "What is the HCF of 72 and 108?",
+    "question": "What is the HCF of 72 and 108?",
+    "options": [
+      "36",
+      "18",
+      "24",
+      "12"
+    ],
+    "answer": "36",
+    "answerKey": "A",
+    "correctAnswer": "36",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 36.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_345",
+    "title": "The LCM of 6, 10, and 15 is?",
+    "description": "The LCM of 6, 10, and 15 is?",
+    "question": "The LCM of 6, 10, and 15 is?",
+    "options": [
+      "30",
+      "60",
+      "90",
+      "120"
+    ],
+    "answer": "30",
+    "answerKey": "A",
+    "correctAnswer": "30",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 30.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_346",
+    "title": "If today is Monday, what day will it be after 100 days?",
+    "description": "If today is Monday, what day will it be after 100 days?",
+    "question": "If today is Monday, what day will it be after 100 days?",
+    "options": [
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Sunday"
+    ],
+    "answer": "Wednesday",
+    "answerKey": "A",
+    "correctAnswer": "Wednesday",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Wednesday.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_347",
+    "title": "If Jan 1 is Thursday, what day is Jan 15?",
+    "description": "If Jan 1 is Thursday, what day is Jan 15?",
+    "question": "If Jan 1 is Thursday, what day is Jan 15?",
+    "options": [
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "answer": "Wednesday",
+    "answerKey": "A",
+    "correctAnswer": "Wednesday",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Wednesday.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_349",
+    "title": "What is (1/2 + 1/3) × (1/4 + 1/5)?",
+    "description": "What is (1/2 + 1/3) × (1/4 + 1/5)?",
+    "question": "What is (1/2 + 1/3) × (1/4 + 1/5)?",
+    "options": [
+      "77/120",
+      "7/12",
+      "7/120",
+      "1"
+    ],
+    "answer": "77/120",
+    "answerKey": "A",
+    "correctAnswer": "77/120",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 77/120.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_350",
+    "title": "If the area of a square is 169 m2, find its perimeter.",
+    "description": "If the area of a square is 169 m2, find its perimeter.",
+    "question": "If the area of a square is 169 m2, find its perimeter.",
+    "options": [
+      "52m",
+      "48m",
+      "56m",
+      "44m"
+    ],
+    "answer": "52m",
+    "answerKey": "A",
+    "correctAnswer": "52m",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 52m.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_351",
+    "title": "A 12m ladder leans against wall, foot 5m from wall. How high up wall?",
+    "description": "A 12m ladder leans against wall, foot 5m from wall. How high up wall?",
+    "question": "A 12m ladder leans against wall, foot 5m from wall. How high up wall?",
+    "options": [
+      "about 10.9m",
+      "11m",
+      "10m",
+      "12m"
+    ],
+    "answer": "about 10.9m",
+    "answerKey": "A",
+    "correctAnswer": "about 10.9m",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: about 10.9m.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_352",
+    "title": "A man walks 3 km east, then 4 km north. Distance from start?",
+    "description": "A man walks 3 km east, then 4 km north. Distance from start?",
+    "question": "A man walks 3 km east, then 4 km north. Distance from start?",
+    "options": [
+      "5 km",
+      "7 km",
+      "6 km",
+      "8 km"
+    ],
+    "answer": "5 km",
+    "answerKey": "A",
+    "correctAnswer": "5 km",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 5 km.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_353",
+    "title": "A ship moves 10 km north and 10 km east. Displacement?",
+    "description": "A ship moves 10 km north and 10 km east. Displacement?",
+    "question": "A ship moves 10 km north and 10 km east. Displacement?",
+    "options": [
+      "10√2 km",
+      "20 km",
+      "14 km",
+      "12 km"
+    ],
+    "answer": "10√2 km",
+    "answerKey": "A",
+    "correctAnswer": "10√2 km",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10√2 km.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_354",
+    "title": "Find the number of diagonals in a hexagon.",
+    "description": "Find the number of diagonals in a hexagon.",
+    "question": "Find the number of diagonals in a hexagon.",
+    "options": [
+      "9",
+      "6",
+      "12",
+      "15"
+    ],
+    "answer": "9",
+    "answerKey": "A",
+    "correctAnswer": "9",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 9.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_355",
+    "title": "In a triangle, angles are in ratio 1:2:3. Largest angle is?",
+    "description": "In a triangle, angles are in ratio 1:2:3. Largest angle is?",
+    "question": "In a triangle, angles are in ratio 1:2:3. Largest angle is?",
+    "options": [
+      "90°",
+      "60°",
+      "45°",
+      "120°"
+    ],
+    "answer": "90°",
+    "answerKey": "A",
+    "correctAnswer": "90°",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 90°.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_356",
+    "title": "If cost of 5 pens and 7 pencils is Rs 87, and 4 pens and 6 pencils is Rs 72, ...",
+    "description": "If cost of 5 pens and 7 pencils is Rs 87, and 4 pens and 6 pencils is Rs 72, find cost of pen.",
+    "question": "If cost of 5 pens and 7 pencils is Rs 87, and 4 pens and 6 pencils is Rs 72, find cost of pen.",
+    "options": [
+      "Rs 9",
+      "Rs 6",
+      "Rs 12",
+      "Rs 8"
+    ],
+    "answer": "Rs 9",
+    "answerKey": "A",
+    "correctAnswer": "Rs 9",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Rs 9.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_357",
+    "title": "A started with Rs 2000 for 12m, B joined with Rs 3000 after 4m. Profit ratio ...",
+    "description": "A started with Rs 2000 for 12m, B joined with Rs 3000 after 4m. Profit ratio A:B?",
+    "question": "A started with Rs 2000 for 12m, B joined with Rs 3000 after 4m. Profit ratio A:B?",
+    "options": [
+      "2:1",
+      "3:2",
+      "8:9",
+      "1:1"
+    ],
+    "answer": "8:9",
+    "answerKey": "C",
+    "correctAnswer": "8:9",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (C) is the correct answer: 8:9.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_358",
+    "title": "Two pipes fill tank in 30min and 45min. Third drains in 60min. Time to fill w...",
+    "description": "Two pipes fill tank in 30min and 45min. Third drains in 60min. Time to fill when all open?",
+    "question": "Two pipes fill tank in 30min and 45min. Third drains in 60min. Time to fill when all open?",
+    "options": [
+      "36min",
+      "40min",
+      "45min",
+      "30min"
+    ],
+    "answer": "36min",
+    "answerKey": "A",
+    "correctAnswer": "36min",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 36min.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_359",
+    "title": "A train of length 180m passes a tree in 9 seconds. Speed of train?",
+    "description": "A train of length 180m passes a tree in 9 seconds. Speed of train?",
+    "question": "A train of length 180m passes a tree in 9 seconds. Speed of train?",
+    "options": [
+      "72 km/h",
+      "20 m/s",
+      "54 km/h",
+      "15 m/s"
+    ],
+    "answer": "72 km/h",
+    "answerKey": "A",
+    "correctAnswer": "72 km/h",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 72 km/h.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_360",
+    "title": "A clock gains 15 min per day. Set correctly at noon Mon. What time on Tue noo...",
+    "description": "A clock gains 15 min per day. Set correctly at noon Mon. What time on Tue noon does it show?",
+    "question": "A clock gains 15 min per day. Set correctly at noon Mon. What time on Tue noon does it show?",
+    "options": [
+      "12:15",
+      "1:00 PM",
+      "12:30",
+      "11:45 AM"
+    ],
+    "answer": "12:15",
+    "answerKey": "A",
+    "correctAnswer": "12:15",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 12:15.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_361",
+    "title": "How many two-digit numbers are divisible by 7?",
+    "description": "How many two-digit numbers are divisible by 7?",
+    "question": "How many two-digit numbers are divisible by 7?",
+    "options": [
+      "13",
+      "12",
+      "11",
+      "14"
+    ],
+    "answer": "13",
+    "answerKey": "A",
+    "correctAnswer": "13",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 13.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_362",
+    "title": "What is the last digit of 7^75?",
+    "description": "What is the last digit of 7^75?",
+    "question": "What is the last digit of 7^75?",
+    "options": [
+      "7",
+      "3",
+      "1",
+      "9"
+    ],
+    "answer": "7",
+    "answerKey": "A",
+    "correctAnswer": "7",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 7.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_363",
+    "title": "The price of a commodity rose by 25%. By what % must consumption decrease to ...",
+    "description": "The price of a commodity rose by 25%. By what % must consumption decrease to maintain expenditure?",
+    "question": "The price of a commodity rose by 25%. By what % must consumption decrease to maintain expenditure?",
+    "options": [
+      "20%",
+      "25%",
+      "15%",
+      "30%"
+    ],
+    "answer": "20%",
+    "answerKey": "A",
+    "correctAnswer": "20%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 20%.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_365",
+    "title": "How many 3-digit numbers are divisible by both 4 and 6?",
+    "description": "How many 3-digit numbers are divisible by both 4 and 6?",
+    "question": "How many 3-digit numbers are divisible by both 4 and 6?",
+    "options": [
+      "75",
+      "50",
+      "40",
+      "60"
+    ],
+    "answer": "75",
+    "answerKey": "A",
+    "correctAnswer": "75",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 75.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_366",
+    "title": "If 6 men can do a job in 10 days, how long will 4 men take?",
+    "description": "If 6 men can do a job in 10 days, how long will 4 men take?",
+    "question": "If 6 men can do a job in 10 days, how long will 4 men take?",
+    "options": [
+      "15 days",
+      "12 days",
+      "10 days",
+      "20 days"
+    ],
+    "answer": "15 days",
+    "answerKey": "A",
+    "correctAnswer": "15 days",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 15 days.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_367",
+    "title": "A man rows downstream at 12 km/h and upstream at 8 km/h. Speed of current?",
+    "description": "A man rows downstream at 12 km/h and upstream at 8 km/h. Speed of current?",
+    "question": "A man rows downstream at 12 km/h and upstream at 8 km/h. Speed of current?",
+    "options": [
+      "2 km/h",
+      "3 km/h",
+      "4 km/h",
+      "1 km/h"
+    ],
+    "answer": "2 km/h",
+    "answerKey": "A",
+    "correctAnswer": "2 km/h",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 2 km/h.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_368",
+    "title": "A sum of Rs 5000 is invested at 8% compound interest annually. Amount after 3...",
+    "description": "A sum of Rs 5000 is invested at 8% compound interest annually. Amount after 3 years?",
+    "question": "A sum of Rs 5000 is invested at 8% compound interest annually. Amount after 3 years?",
+    "options": [
+      "Rs 6298.56",
+      "Rs 6200",
+      "Rs 6500",
+      "Rs 6100"
+    ],
+    "answer": "Rs 6298.56",
+    "answerKey": "A",
+    "correctAnswer": "Rs 6298.56",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Rs 6298.56.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_370",
+    "title": "A salesman's commission is 15% on first Rs 10000 and 10% on rest. If he earns...",
+    "description": "A salesman's commission is 15% on first Rs 10000 and 10% on rest. If he earns Rs 2500, what were sales?",
+    "question": "A salesman's commission is 15% on first Rs 10000 and 10% on rest. If he earns Rs 2500, what were sales?",
+    "options": [
+      "Rs 20000",
+      "Rs 15000",
+      "Rs 25000",
+      "Rs 18000"
+    ],
+    "answer": "Rs 20000",
+    "answerKey": "A",
+    "correctAnswer": "Rs 20000",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Rs 20000.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_371",
+    "title": "60 students in a class. 40% are girls. How many boys?",
+    "description": "60 students in a class. 40% are girls. How many boys?",
+    "question": "60 students in a class. 40% are girls. How many boys?",
+    "options": [
+      "36",
+      "24",
+      "30",
+      "20"
+    ],
+    "answer": "36",
+    "answerKey": "A",
+    "correctAnswer": "36",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 36.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_372",
+    "title": "A car's price depreciated by 10% per year. Original price Rs 100000. Value af...",
+    "description": "A car's price depreciated by 10% per year. Original price Rs 100000. Value after 2 years?",
+    "question": "A car's price depreciated by 10% per year. Original price Rs 100000. Value after 2 years?",
+    "options": [
+      "Rs 81000",
+      "Rs 80000",
+      "Rs 90000",
+      "Rs 82000"
+    ],
+    "answer": "Rs 81000",
+    "answerKey": "A",
+    "correctAnswer": "Rs 81000",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Rs 81000.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_373",
+    "title": "A shopkeeper has 100kg sugar. He sells it at 20% profit at Rs 18/kg. His cost...",
+    "description": "A shopkeeper has 100kg sugar. He sells it at 20% profit at Rs 18/kg. His cost price per kg?",
+    "question": "A shopkeeper has 100kg sugar. He sells it at 20% profit at Rs 18/kg. His cost price per kg?",
+    "options": [
+      "Rs 15",
+      "Rs 12",
+      "Rs 14",
+      "Rs 16"
+    ],
+    "answer": "Rs 15",
+    "answerKey": "A",
+    "correctAnswer": "Rs 15",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Rs 15.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_374",
+    "title": "Find the next in sequence: 1, 4, 9, 16, 25, ?",
+    "description": "Find the next in sequence: 1, 4, 9, 16, 25, ?",
+    "question": "Find the next in sequence: 1, 4, 9, 16, 25, ?",
+    "options": [
+      "36",
+      "49",
+      "35",
+      "30"
+    ],
+    "answer": "36",
+    "answerKey": "A",
+    "correctAnswer": "36",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 36.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_375",
+    "title": "Find the next in sequence: 2, 6, 12, 20, 30, ?",
+    "description": "Find the next in sequence: 2, 6, 12, 20, 30, ?",
+    "question": "Find the next in sequence: 2, 6, 12, 20, 30, ?",
+    "options": [
+      "42",
+      "40",
+      "44",
+      "38"
+    ],
+    "answer": "42",
+    "answerKey": "A",
+    "correctAnswer": "42",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 42.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_376",
+    "title": "Sum of n terms of AP with first term 2 and common difference 3, n=10?",
+    "description": "Sum of n terms of AP with first term 2 and common difference 3, n=10?",
+    "question": "Sum of n terms of AP with first term 2 and common difference 3, n=10?",
+    "options": [
+      "155",
+      "150",
+      "145",
+      "165"
+    ],
+    "answer": "155",
+    "answerKey": "A",
+    "correctAnswer": "155",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 155.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_377",
+    "title": "Find the 10th term of the sequence 3, 7, 11, 15...",
+    "description": "Find the 10th term of the sequence 3, 7, 11, 15...",
+    "question": "Find the 10th term of the sequence 3, 7, 11, 15...",
+    "options": [
+      "39",
+      "40",
+      "38",
+      "42"
+    ],
+    "answer": "39",
+    "answerKey": "A",
+    "correctAnswer": "39",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 39.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_378",
+    "title": "A geometric series: 2, 6, 18, 54... Find 6th term.",
+    "description": "A geometric series: 2, 6, 18, 54... Find 6th term.",
+    "question": "A geometric series: 2, 6, 18, 54... Find 6th term.",
+    "options": [
+      "486",
+      "162",
+      "324",
+      "972"
+    ],
+    "answer": "486",
+    "answerKey": "A",
+    "correctAnswer": "486",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 486.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_379",
+    "title": "In how many ways can letters of MATHS be arranged?",
+    "description": "In how many ways can letters of MATHS be arranged?",
+    "question": "In how many ways can letters of MATHS be arranged?",
+    "options": [
+      "120",
+      "60",
+      "24",
+      "720"
+    ],
+    "answer": "120",
+    "answerKey": "A",
+    "correctAnswer": "120",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 120.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_380",
+    "title": "How many 4-digit numbers can be formed using 1,2,3,4 without repetition?",
+    "description": "How many 4-digit numbers can be formed using 1,2,3,4 without repetition?",
+    "question": "How many 4-digit numbers can be formed using 1,2,3,4 without repetition?",
+    "options": [
+      "24",
+      "16",
+      "12",
+      "36"
+    ],
+    "answer": "24",
+    "answerKey": "A",
+    "correctAnswer": "24",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 24.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_381",
+    "title": "How many words can be formed using all letters of PENCIL?",
+    "description": "How many words can be formed using all letters of PENCIL?",
+    "question": "How many words can be formed using all letters of PENCIL?",
+    "options": [
+      "720",
+      "360",
+      "120",
+      "240"
+    ],
+    "answer": "720",
+    "answerKey": "A",
+    "correctAnswer": "720",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 720.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_382",
+    "title": "Three cards drawn from 52. Probability all are kings?",
+    "description": "Three cards drawn from 52. Probability all are kings?",
+    "question": "Three cards drawn from 52. Probability all are kings?",
+    "options": [
+      "1/5525",
+      "1/2197",
+      "4/52",
+      "1/100"
+    ],
+    "answer": "1/5525",
+    "answerKey": "A",
+    "correctAnswer": "1/5525",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1/5525.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_383",
+    "title": "A tosses 3 coins. Probability of at least 2 heads?",
+    "description": "A tosses 3 coins. Probability of at least 2 heads?",
+    "question": "A tosses 3 coins. Probability of at least 2 heads?",
+    "options": [
+      "1/2",
+      "3/8",
+      "5/8",
+      "1/4"
+    ],
+    "answer": "1/2",
+    "answerKey": "A",
+    "correctAnswer": "1/2",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1/2.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_384",
+    "title": "The mean of 6 numbers is 15. Fifth is 18, sixth is 22. Mean of first four?",
+    "description": "The mean of 6 numbers is 15. Fifth is 18, sixth is 22. Mean of first four?",
+    "question": "The mean of 6 numbers is 15. Fifth is 18, sixth is 22. Mean of first four?",
+    "options": [
+      "12.5",
+      "11",
+      "13",
+      "14"
+    ],
+    "answer": "12.5",
+    "answerKey": "A",
+    "correctAnswer": "12.5",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 12.5.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_385",
+    "title": "The median of: 3, 7, 2, 1, 9, 8, 5 is?",
+    "description": "The median of: 3, 7, 2, 1, 9, 8, 5 is?",
+    "question": "The median of: 3, 7, 2, 1, 9, 8, 5 is?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "4"
+    ],
+    "answer": "5",
+    "answerKey": "A",
+    "correctAnswer": "5",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 5.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_386",
+    "title": "Mode of: 2, 3, 4, 3, 5, 3, 6, 3, 7 is?",
+    "description": "Mode of: 2, 3, 4, 3, 5, 3, 6, 3, 7 is?",
+    "question": "Mode of: 2, 3, 4, 3, 5, 3, 6, 3, 7 is?",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "answer": "3",
+    "answerKey": "A",
+    "correctAnswer": "3",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 3.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_387",
+    "title": "Standard deviation of 2, 4, 4, 4, 5, 5, 7, 9 is?",
+    "description": "Standard deviation of 2, 4, 4, 4, 5, 5, 7, 9 is?",
+    "question": "Standard deviation of 2, 4, 4, 4, 5, 5, 7, 9 is?",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "answer": "2",
+    "answerKey": "A",
+    "correctAnswer": "2",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 2.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_388",
+    "title": "Age of A is 3/5 of B. After 5 years, sum of ages = 50. Find A's age now.",
+    "description": "Age of A is 3/5 of B. After 5 years, sum of ages = 50. Find A's age now.",
+    "question": "Age of A is 3/5 of B. After 5 years, sum of ages = 50. Find A's age now.",
+    "options": [
+      "15",
+      "12",
+      "18",
+      "20"
+    ],
+    "answer": "15",
+    "answerKey": "A",
+    "correctAnswer": "15",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 15.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_389",
+    "title": "Ratio of A's to B's salary is 5:4. If A gets Rs 5000 more, find B's salary if...",
+    "description": "Ratio of A's to B's salary is 5:4. If A gets Rs 5000 more, find B's salary if total = Rs 45000.",
+    "question": "Ratio of A's to B's salary is 5:4. If A gets Rs 5000 more, find B's salary if total = Rs 45000.",
+    "options": [
+      "Rs 20000",
+      "Rs 25000",
+      "Rs 18000",
+      "Rs 22000"
+    ],
+    "answer": "Rs 20000",
+    "answerKey": "A",
+    "correctAnswer": "Rs 20000",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Rs 20000.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_390",
+    "title": "A number is 35 more than its half. Find the number.",
+    "description": "A number is 35 more than its half. Find the number.",
+    "question": "A number is 35 more than its half. Find the number.",
+    "options": [
+      "70",
+      "65",
+      "80",
+      "75"
+    ],
+    "answer": "70",
+    "answerKey": "A",
+    "correctAnswer": "70",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 70.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_391",
+    "title": "If 4 times a number is 20 more than 3 times the number, the number is?",
+    "description": "If 4 times a number is 20 more than 3 times the number, the number is?",
+    "question": "If 4 times a number is 20 more than 3 times the number, the number is?",
+    "options": [
+      "20",
+      "15",
+      "25",
+      "30"
+    ],
+    "answer": "20",
+    "answerKey": "A",
+    "correctAnswer": "20",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 20.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_392",
+    "title": "When 5 is added to 3 times a number, result is 14. The number is?",
+    "description": "When 5 is added to 3 times a number, result is 14. The number is?",
+    "question": "When 5 is added to 3 times a number, result is 14. The number is?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "2"
+    ],
+    "answer": "3",
+    "answerKey": "A",
+    "correctAnswer": "3",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 3.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_393",
+    "title": "A fraction when added to its reciprocal gives 25/12. The fraction is?",
+    "description": "A fraction when added to its reciprocal gives 25/12. The fraction is?",
+    "question": "A fraction when added to its reciprocal gives 25/12. The fraction is?",
+    "options": [
+      "4/3",
+      "3/4",
+      "5/4",
+      "3/5"
+    ],
+    "answer": "4/3",
+    "answerKey": "A",
+    "correctAnswer": "4/3",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 4/3.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_394",
+    "title": "If 30% discount is given on a marked price of Rs 200, what is selling price?",
+    "description": "If 30% discount is given on a marked price of Rs 200, what is selling price?",
+    "question": "If 30% discount is given on a marked price of Rs 200, what is selling price?",
+    "options": [
+      "140",
+      "150",
+      "160",
+      "130"
+    ],
+    "answer": "140",
+    "answerKey": "A",
+    "correctAnswer": "140",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 140.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_395",
+    "title": "A trader marks up 50% and offers 20% discount. Profit %?",
+    "description": "A trader marks up 50% and offers 20% discount. Profit %?",
+    "question": "A trader marks up 50% and offers 20% discount. Profit %?",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "15%"
+    ],
+    "answer": "20%",
+    "answerKey": "A",
+    "correctAnswer": "20%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 20%.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_396",
+    "title": "Cost of 12 apples = Rs 48. Cost of 7 oranges = Rs 35. Total cost of 4 apples ...",
+    "description": "Cost of 12 apples = Rs 48. Cost of 7 oranges = Rs 35. Total cost of 4 apples and 3 oranges?",
+    "question": "Cost of 12 apples = Rs 48. Cost of 7 oranges = Rs 35. Total cost of 4 apples and 3 oranges?",
+    "options": [
+      "31",
+      "28",
+      "35",
+      "40"
+    ],
+    "answer": "31",
+    "answerKey": "A",
+    "correctAnswer": "31",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 31.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_397",
+    "title": "If ink costs Rs 5 per bottle and each bottle prints 200 sheets, cost per 1000...",
+    "description": "If ink costs Rs 5 per bottle and each bottle prints 200 sheets, cost per 1000 sheets of printing?",
+    "question": "If ink costs Rs 5 per bottle and each bottle prints 200 sheets, cost per 1000 sheets of printing?",
+    "options": [
+      "Rs 25",
+      "Rs 20",
+      "Rs 30",
+      "Rs 15"
+    ],
+    "answer": "Rs 25",
+    "answerKey": "A",
+    "correctAnswer": "Rs 25",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Rs 25.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_398",
+    "title": "A sum of Rs 2000 earns Rs 400 in simple interest in 4 years. Rate per annum?",
+    "description": "A sum of Rs 2000 earns Rs 400 in simple interest in 4 years. Rate per annum?",
+    "question": "A sum of Rs 2000 earns Rs 400 in simple interest in 4 years. Rate per annum?",
+    "options": [
+      "5%",
+      "4%",
+      "6%",
+      "8%"
+    ],
+    "answer": "5%",
+    "answerKey": "A",
+    "correctAnswer": "5%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 5%.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_399",
+    "title": "Two numbers are in ratio 4:7. If 3 is added to each, ratio becomes 3:5. Find ...",
+    "description": "Two numbers are in ratio 4:7. If 3 is added to each, ratio becomes 3:5. Find the numbers.",
+    "question": "Two numbers are in ratio 4:7. If 3 is added to each, ratio becomes 3:5. Find the numbers.",
+    "options": [
+      "12 and 21",
+      "8 and 14",
+      "16 and 28",
+      "4 and 7"
+    ],
+    "answer": "12 and 21",
+    "answerKey": "A",
+    "correctAnswer": "12 and 21",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 12 and 21.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_400",
+    "title": "Perimeter of a right triangle is 40cm with hypotenuse 17cm. Other two sides?",
+    "description": "Perimeter of a right triangle is 40cm with hypotenuse 17cm. Other two sides?",
+    "question": "Perimeter of a right triangle is 40cm with hypotenuse 17cm. Other two sides?",
+    "options": [
+      "7cm and 16cm",
+      "8cm and 15cm",
+      "9cm and 14cm",
+      "10cm and 13cm"
+    ],
+    "answer": "8cm and 15cm",
+    "answerKey": "B",
+    "correctAnswer": "8cm and 15cm",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: 8cm and 15cm.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_401",
+    "title": "Water in cylinder of radius 3m and height 10m. Volume?",
+    "description": "Water in cylinder of radius 3m and height 10m. Volume?",
+    "question": "Water in cylinder of radius 3m and height 10m. Volume?",
+    "options": [
+      "90π m3",
+      "30π m3",
+      "270π m3",
+      "9π m3"
+    ],
+    "answer": "90π m3",
+    "answerKey": "A",
+    "correctAnswer": "90π m3",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 90π m3.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_402",
+    "title": "A cube of side 5cm is painted on all faces. How many unit cubes have exactly ...",
+    "description": "A cube of side 5cm is painted on all faces. How many unit cubes have exactly 1 face painted?",
+    "question": "A cube of side 5cm is painted on all faces. How many unit cubes have exactly 1 face painted?",
+    "options": [
+      "54",
+      "27",
+      "8",
+      "18"
+    ],
+    "answer": "54",
+    "answerKey": "A",
+    "correctAnswer": "54",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 54.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_403",
+    "title": "A cylinder with radius 7cm and height 5cm. Lateral surface area (π=22/7)?",
+    "description": "A cylinder with radius 7cm and height 5cm. Lateral surface area (π=22/7)?",
+    "question": "A cylinder with radius 7cm and height 5cm. Lateral surface area (π=22/7)?",
+    "options": [
+      "220 cm2",
+      "154 cm2",
+      "440 cm2",
+      "110 cm2"
+    ],
+    "answer": "220 cm2",
+    "answerKey": "A",
+    "correctAnswer": "220 cm2",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 220 cm2.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_528",
+    "title": "A car is sold for Rs 36000 at 20% profit. Cost price?",
+    "description": "A car is sold for Rs 36000 at 20% profit. Cost price?",
+    "question": "A car is sold for Rs 36000 at 20% profit. Cost price?",
+    "options": [
+      "30000",
+      "32000",
+      "28000",
+      "25000"
+    ],
+    "answer": "30000",
+    "answerKey": "A",
+    "correctAnswer": "30000",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 30000.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_533",
+    "title": "Area of circle with diameter 14cm (π=22/7)?",
+    "description": "Area of circle with diameter 14cm (π=22/7)?",
+    "question": "Area of circle with diameter 14cm (π=22/7)?",
+    "options": [
+      "154 cm2",
+      "100 cm2",
+      "176 cm2",
+      "196 cm2"
+    ],
+    "answer": "154 cm2",
+    "answerKey": "A",
+    "correctAnswer": "154 cm2",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 154 cm2.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_535",
+    "title": "A invested Rs 4000, B Rs 6000. Total profit Rs 5000. A's share?",
+    "description": "A invested Rs 4000, B Rs 6000. Total profit Rs 5000. A's share?",
+    "question": "A invested Rs 4000, B Rs 6000. Total profit Rs 5000. A's share?",
+    "options": [
+      "2000",
+      "2500",
+      "1500",
+      "3000"
+    ],
+    "answer": "2000",
+    "answerKey": "A",
+    "correctAnswer": "2000",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 2000.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_536",
+    "title": "25 workers in 16 days. 20 workers do same work in?",
+    "description": "25 workers in 16 days. 20 workers do same work in?",
+    "question": "25 workers in 16 days. 20 workers do same work in?",
+    "options": [
+      "20 days",
+      "18 days",
+      "24 days",
+      "15 days"
+    ],
+    "answer": "20 days",
+    "answerKey": "A",
+    "correctAnswer": "20 days",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 20 days.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_537",
+    "title": "CI on 1000 at 10% for 2 years?",
+    "description": "CI on 1000 at 10% for 2 years?",
+    "question": "CI on 1000 at 10% for 2 years?",
+    "options": [
+      "210",
+      "200",
+      "220",
+      "100"
+    ],
+    "answer": "210",
+    "answerKey": "A",
+    "correctAnswer": "210",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 210.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_538",
+    "title": "SI on 2000 at 5% for 4 years?",
+    "description": "SI on 2000 at 5% for 4 years?",
+    "question": "SI on 2000 at 5% for 4 years?",
+    "options": [
+      "400",
+      "200",
+      "600",
+      "800"
+    ],
+    "answer": "400",
+    "answerKey": "A",
+    "correctAnswer": "400",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 400.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_539",
+    "title": "Train 300m passes pole in 15s. Speed in km/h?",
+    "description": "Train 300m passes pole in 15s. Speed in km/h?",
+    "question": "Train 300m passes pole in 15s. Speed in km/h?",
+    "options": [
+      "72",
+      "80",
+      "60",
+      "90"
+    ],
+    "answer": "72",
+    "answerKey": "A",
+    "correctAnswer": "72",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 72.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_540",
+    "title": "Product of two numbers 480, one is 24. Other is?",
+    "description": "Product of two numbers 480, one is 24. Other is?",
+    "question": "Product of two numbers 480, one is 24. Other is?",
+    "options": [
+      "20",
+      "18",
+      "25",
+      "16"
+    ],
+    "answer": "20",
+    "answerKey": "A",
+    "correctAnswer": "20",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 20.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_541",
+    "title": "Ratio 5:8, sum 260. Smaller number?",
+    "description": "Ratio 5:8, sum 260. Smaller number?",
+    "question": "Ratio 5:8, sum 260. Smaller number?",
+    "options": [
+      "100",
+      "130",
+      "80",
+      "120"
+    ],
+    "answer": "100",
+    "answerKey": "A",
+    "correctAnswer": "100",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 100.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_544",
+    "title": "A runs at 10 km/h, B at 15 km/h. 300m race. B gives A head start of how much ...",
+    "description": "A runs at 10 km/h, B at 15 km/h. 300m race. B gives A head start of how much to tie?",
+    "question": "A runs at 10 km/h, B at 15 km/h. 300m race. B gives A head start of how much to tie?",
+    "options": [
+      "100m",
+      "50m",
+      "150m",
+      "200m"
+    ],
+    "answer": "100m",
+    "answerKey": "A",
+    "correctAnswer": "100m",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 100m.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_545",
+    "title": "Pipes A fills in 8h, B in 12h. Together?",
+    "description": "Pipes A fills in 8h, B in 12h. Together?",
+    "question": "Pipes A fills in 8h, B in 12h. Together?",
+    "options": [
+      "4.8h",
+      "6h",
+      "4h",
+      "5h"
+    ],
+    "answer": "4.8h",
+    "answerKey": "A",
+    "correctAnswer": "4.8h",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 4.8h.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_553",
+    "title": "Probability of drawing ace from 52 cards?",
+    "description": "Probability of drawing ace from 52 cards?",
+    "question": "Probability of drawing ace from 52 cards?",
+    "options": [
+      "1/13",
+      "4/52",
+      "1/52",
+      "1/26"
+    ],
+    "answer": "1/13",
+    "answerKey": "A",
+    "correctAnswer": "1/13",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1/13.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_556",
+    "title": "A goes 60 km in 1.5h. Speed?",
+    "description": "A goes 60 km in 1.5h. Speed?",
+    "question": "A goes 60 km in 1.5h. Speed?",
+    "options": [
+      "40 km/h",
+      "45 km/h",
+      "50 km/h",
+      "35 km/h"
+    ],
+    "answer": "40 km/h",
+    "answerKey": "A",
+    "correctAnswer": "40 km/h",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 40 km/h.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_557",
+    "title": "Profit % when CP=80, SP=100?",
+    "description": "Profit % when CP=80, SP=100?",
+    "question": "Profit % when CP=80, SP=100?",
+    "options": [
+      "25%",
+      "20%",
+      "15%",
+      "30%"
+    ],
+    "answer": "25%",
+    "answerKey": "A",
+    "correctAnswer": "25%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 25%.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_559",
+    "title": "Sum of first 100 natural numbers?",
+    "description": "Sum of first 100 natural numbers?",
+    "question": "Sum of first 100 natural numbers?",
+    "options": [
+      "5050",
+      "5000",
+      "4950",
+      "5100"
+    ],
+    "answer": "5050",
+    "answerKey": "A",
+    "correctAnswer": "5050",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 5050.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_563",
+    "title": "Side of square with area 196?",
+    "description": "Side of square with area 196?",
+    "question": "Side of square with area 196?",
+    "options": [
+      "14",
+      "13",
+      "15",
+      "12"
+    ],
+    "answer": "14",
+    "answerKey": "A",
+    "correctAnswer": "14",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 14.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_568",
+    "title": "A number + 40% of itself = 280. Number?",
+    "description": "A number + 40% of itself = 280. Number?",
+    "question": "A number + 40% of itself = 280. Number?",
+    "options": [
+      "200",
+      "180",
+      "220",
+      "160"
+    ],
+    "answer": "200",
+    "answerKey": "A",
+    "correctAnswer": "200",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 200.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_569",
+    "title": "Speed upstream 6 km/h, downstream 10 km/h. Still water speed?",
+    "description": "Speed upstream 6 km/h, downstream 10 km/h. Still water speed?",
+    "question": "Speed upstream 6 km/h, downstream 10 km/h. Still water speed?",
+    "options": [
+      "8",
+      "7",
+      "9",
+      "6"
+    ],
+    "answer": "8",
+    "answerKey": "A",
+    "correctAnswer": "8",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 8.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_570",
+    "title": "5 men + 10 boys do work in 6 days. 10 men + 5 boys in 4 days. Men vs boys eff...",
+    "description": "5 men + 10 boys do work in 6 days. 10 men + 5 boys in 4 days. Men vs boys efficiency?",
+    "question": "5 men + 10 boys do work in 6 days. 10 men + 5 boys in 4 days. Men vs boys efficiency?",
+    "options": [
+      "1:2",
+      "2:1",
+      "1:1",
+      "3:1"
+    ],
+    "answer": "2:1",
+    "answerKey": "B",
+    "correctAnswer": "2:1",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: 2:1.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_571",
+    "title": "Rs 1200 shared among A:B:C = 2:3:5. C's share?",
+    "description": "Rs 1200 shared among A:B:C = 2:3:5. C's share?",
+    "question": "Rs 1200 shared among A:B:C = 2:3:5. C's share?",
+    "options": [
+      "600",
+      "480",
+      "360",
+      "240"
+    ],
+    "answer": "600",
+    "answerKey": "A",
+    "correctAnswer": "600",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 600.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_572",
+    "title": "If A is B's 1.2 times, B is C's 0.8 times, A:C = ?",
+    "description": "If A is B's 1.2 times, B is C's 0.8 times, A:C = ?",
+    "question": "If A is B's 1.2 times, B is C's 0.8 times, A:C = ?",
+    "options": [
+      "0.96",
+      "1.5",
+      "0.8",
+      "1.2"
+    ],
+    "answer": "0.96",
+    "answerKey": "A",
+    "correctAnswer": "0.96",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 0.96.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_578",
+    "title": "12% tax on Rs 500 item. Total?",
+    "description": "12% tax on Rs 500 item. Total?",
+    "question": "12% tax on Rs 500 item. Total?",
+    "options": [
+      "560",
+      "550",
+      "580",
+      "540"
+    ],
+    "answer": "560",
+    "answerKey": "A",
+    "correctAnswer": "560",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 560.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_579",
+    "title": "60L mixture 3:2 water to milk. Pure milk added to get 1:1 ratio. Litres added?",
+    "description": "60L mixture 3:2 water to milk. Pure milk added to get 1:1 ratio. Litres added?",
+    "question": "60L mixture 3:2 water to milk. Pure milk added to get 1:1 ratio. Litres added?",
+    "options": [
+      "24",
+      "12",
+      "18",
+      "6"
+    ],
+    "answer": "24",
+    "answerKey": "A",
+    "correctAnswer": "24",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 24.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_580",
+    "title": "A sum triples in 8 years SI. Rate?",
+    "description": "A sum triples in 8 years SI. Rate?",
+    "question": "A sum triples in 8 years SI. Rate?",
+    "options": [
+      "25%",
+      "20%",
+      "12.5%",
+      "15%"
+    ],
+    "answer": "25%",
+    "answerKey": "A",
+    "correctAnswer": "25%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 25%.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_583",
+    "title": "Area of rhombus with diagonals 12 and 8?",
+    "description": "Area of rhombus with diagonals 12 and 8?",
+    "question": "Area of rhombus with diagonals 12 and 8?",
+    "options": [
+      "48",
+      "96",
+      "24",
+      "60"
+    ],
+    "answer": "48",
+    "answerKey": "A",
+    "correctAnswer": "48",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 48.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_584",
+    "title": "Side of equilateral triangle with perimeter 48?",
+    "description": "Side of equilateral triangle with perimeter 48?",
+    "question": "Side of equilateral triangle with perimeter 48?",
+    "options": [
+      "16",
+      "12",
+      "14",
+      "18"
+    ],
+    "answer": "16",
+    "answerKey": "A",
+    "correctAnswer": "16",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 16.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_585",
+    "title": "Angles of parallelogram: one angle is 70°. Adjacent angle?",
+    "description": "Angles of parallelogram: one angle is 70°. Adjacent angle?",
+    "question": "Angles of parallelogram: one angle is 70°. Adjacent angle?",
+    "options": [
+      "110°",
+      "70°",
+      "120°",
+      "90°"
+    ],
+    "answer": "110°",
+    "answerKey": "A",
+    "correctAnswer": "110°",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 110°.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_586",
+    "title": "A bicycle costs Rs 2400. On 30% discount, SP?",
+    "description": "A bicycle costs Rs 2400. On 30% discount, SP?",
+    "question": "A bicycle costs Rs 2400. On 30% discount, SP?",
+    "options": [
+      "1680",
+      "1800",
+      "2000",
+      "1920"
+    ],
+    "answer": "1680",
+    "answerKey": "A",
+    "correctAnswer": "1680",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1680.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_587",
+    "title": "Difference between 40% of 250 and 60% of 150?",
+    "description": "Difference between 40% of 250 and 60% of 150?",
+    "question": "Difference between 40% of 250 and 60% of 150?",
+    "options": [
+      "10",
+      "0",
+      "20",
+      "5"
+    ],
+    "answer": "10",
+    "answerKey": "A",
+    "correctAnswer": "10",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_588",
+    "title": "Two-digit number, sum of digits 9, difference 1. Number?",
+    "description": "Two-digit number, sum of digits 9, difference 1. Number?",
+    "question": "Two-digit number, sum of digits 9, difference 1. Number?",
+    "options": [
+      "45",
+      "54",
+      "63",
+      "36"
+    ],
+    "answer": "45",
+    "answerKey": "A",
+    "correctAnswer": "45",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 45.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_590",
+    "title": "Find nth term of 7,10,13,16... where n=20?",
+    "description": "Find nth term of 7,10,13,16... where n=20?",
+    "question": "Find nth term of 7,10,13,16... where n=20?",
+    "options": [
+      "64",
+      "61",
+      "67",
+      "58"
+    ],
+    "answer": "64",
+    "answerKey": "A",
+    "correctAnswer": "64",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 64.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_591",
+    "title": "Sum of AP: 5,10,15... to 20 terms?",
+    "description": "Sum of AP: 5,10,15... to 20 terms?",
+    "question": "Sum of AP: 5,10,15... to 20 terms?",
+    "options": [
+      "1050",
+      "1000",
+      "1100",
+      "950"
+    ],
+    "answer": "1050",
+    "answerKey": "A",
+    "correctAnswer": "1050",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1050.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_592",
+    "title": "Sum of GP 1,2,4,8... first 8 terms?",
+    "description": "Sum of GP 1,2,4,8... first 8 terms?",
+    "question": "Sum of GP 1,2,4,8... first 8 terms?",
+    "options": [
+      "255",
+      "256",
+      "254",
+      "128"
+    ],
+    "answer": "255",
+    "answerKey": "A",
+    "correctAnswer": "255",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 255.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_599",
+    "title": "Hypotenuse of right triangle: legs 5 and 12?",
+    "description": "Hypotenuse of right triangle: legs 5 and 12?",
+    "question": "Hypotenuse of right triangle: legs 5 and 12?",
+    "options": [
+      "13",
+      "14",
+      "12",
+      "15"
+    ],
+    "answer": "13",
+    "answerKey": "A",
+    "correctAnswer": "13",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 13.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_600",
+    "title": "Isoceles triangle with equal sides 10cm and base 12cm. Area?",
+    "description": "Isoceles triangle with equal sides 10cm and base 12cm. Area?",
+    "question": "Isoceles triangle with equal sides 10cm and base 12cm. Area?",
+    "options": [
+      "48 cm2",
+      "60 cm2",
+      "40 cm2",
+      "36 cm2"
+    ],
+    "answer": "48 cm2",
+    "answerKey": "A",
+    "correctAnswer": "48 cm2",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 48 cm2.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_601",
+    "title": "Circle circumference 44cm. Radius (π=22/7)?",
+    "description": "Circle circumference 44cm. Radius (π=22/7)?",
+    "question": "Circle circumference 44cm. Radius (π=22/7)?",
+    "options": [
+      "7cm",
+      "14cm",
+      "3.5cm",
+      "21cm"
+    ],
+    "answer": "7cm",
+    "answerKey": "A",
+    "correctAnswer": "7cm",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 7cm.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_603",
+    "title": "Combinations: 4 colours, choose 2?",
+    "description": "Combinations: 4 colours, choose 2?",
+    "question": "Combinations: 4 colours, choose 2?",
+    "options": [
+      "6",
+      "4",
+      "8",
+      "12"
+    ],
+    "answer": "6",
+    "answerKey": "A",
+    "correctAnswer": "6",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 6.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_604",
+    "title": "Probability: 2 balls from 5 red 3 blue. Probability both red?",
+    "description": "Probability: 2 balls from 5 red 3 blue. Probability both red?",
+    "question": "Probability: 2 balls from 5 red 3 blue. Probability both red?",
+    "options": [
+      "5/14",
+      "2/7",
+      "10/56",
+      "1/3"
+    ],
+    "answer": "5/14",
+    "answerKey": "A",
+    "correctAnswer": "5/14",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 5/14.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_605",
+    "title": "Probability: Randomly pick letter from ENGINEERING. P(N)?",
+    "description": "Probability: Randomly pick letter from ENGINEERING. P(N)?",
+    "question": "Probability: Randomly pick letter from ENGINEERING. P(N)?",
+    "options": [
+      "3/11",
+      "1/4",
+      "2/11",
+      "4/11"
+    ],
+    "answer": "3/11",
+    "answerKey": "A",
+    "correctAnswer": "3/11",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 3/11.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_606",
+    "title": "Compound event: P(A)=0.4, P(B)=0.6, independent. P(A∩B)?",
+    "description": "Compound event: P(A)=0.4, P(B)=0.6, independent. P(A∩B)?",
+    "question": "Compound event: P(A)=0.4, P(B)=0.6, independent. P(A∩B)?",
+    "options": [
+      "0.24",
+      "0.48",
+      "0.2",
+      "0.36"
+    ],
+    "answer": "0.24",
+    "answerKey": "A",
+    "correctAnswer": "0.24",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 0.24.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_607",
+    "title": "P(at least one head) in 3 tosses?",
+    "description": "P(at least one head) in 3 tosses?",
+    "question": "P(at least one head) in 3 tosses?",
+    "options": [
+      "7/8",
+      "1/2",
+      "3/4",
+      "1/8"
+    ],
+    "answer": "7/8",
+    "answerKey": "A",
+    "correctAnswer": "7/8",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 7/8.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_610",
+    "title": "Which is larger: 5/6 or 7/8?",
+    "description": "Which is larger: 5/6 or 7/8?",
+    "question": "Which is larger: 5/6 or 7/8?",
+    "options": [
+      "7/8",
+      "5/6",
+      "Equal",
+      "Cannot say"
+    ],
+    "answer": "7/8",
+    "answerKey": "A",
+    "correctAnswer": "7/8",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 7/8.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_611",
+    "title": "Convert fraction 3/20 to percentage?",
+    "description": "Convert fraction 3/20 to percentage?",
+    "question": "Convert fraction 3/20 to percentage?",
+    "options": [
+      "15%",
+      "1.5%",
+      "0.15%",
+      "150%"
+    ],
+    "answer": "15%",
+    "answerKey": "A",
+    "correctAnswer": "15%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 15%.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_615",
+    "title": "Sum of interior angles of hexagon?",
+    "description": "Sum of interior angles of hexagon?",
+    "question": "Sum of interior angles of hexagon?",
+    "options": [
+      "720°",
+      "540°",
+      "1080°",
+      "900°"
+    ],
+    "answer": "720°",
+    "answerKey": "A",
+    "correctAnswer": "720°",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 720°.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_616",
+    "title": "External angle of regular polygon is 45°. Number of sides?",
+    "description": "External angle of regular polygon is 45°. Number of sides?",
+    "question": "External angle of regular polygon is 45°. Number of sides?",
+    "options": [
+      "8",
+      "6",
+      "9",
+      "10"
+    ],
+    "answer": "8",
+    "answerKey": "A",
+    "correctAnswer": "8",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 8.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_617",
+    "title": "Diagonal of square with side 6?",
+    "description": "Diagonal of square with side 6?",
+    "question": "Diagonal of square with side 6?",
+    "options": [
+      "6√2",
+      "6",
+      "12",
+      "3√2"
+    ],
+    "answer": "6√2",
+    "answerKey": "A",
+    "correctAnswer": "6√2",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 6√2.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_618",
+    "title": "Number of spheres of radius 1 in a cube of side 4 (touching, packing)?",
+    "description": "Number of spheres of radius 1 in a cube of side 4 (touching, packing)?",
+    "question": "Number of spheres of radius 1 in a cube of side 4 (touching, packing)?",
+    "options": [
+      "8",
+      "16",
+      "32",
+      "4"
+    ],
+    "answer": "8",
+    "answerKey": "A",
+    "correctAnswer": "8",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 8.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_620",
+    "title": "Express 1/3 kg + 200g in grams?",
+    "description": "Express 1/3 kg + 200g in grams?",
+    "question": "Express 1/3 kg + 200g in grams?",
+    "options": [
+      "533.3g",
+      "1533g",
+      "500g",
+      "600g"
+    ],
+    "answer": "533.3g",
+    "answerKey": "A",
+    "correctAnswer": "533.3g",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 533.3g.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_623",
+    "title": "If today is Friday, 45 days later is?",
+    "description": "If today is Friday, 45 days later is?",
+    "question": "If today is Friday, 45 days later is?",
+    "options": [
+      "Tuesday",
+      "Wednesday",
+      "Monday",
+      "Thursday"
+    ],
+    "answer": "Tuesday",
+    "answerKey": "A",
+    "correctAnswer": "Tuesday",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Tuesday.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_624",
+    "title": "A can do job in 15 days, does it for 5 days, leaves. B finishes in 8 days. B'...",
+    "description": "A can do job in 15 days, does it for 5 days, leaves. B finishes in 8 days. B's rate?",
+    "question": "A can do job in 15 days, does it for 5 days, leaves. B finishes in 8 days. B's rate?",
+    "options": [
+      "1/12 per day",
+      "1/10",
+      "1/8",
+      "1/15"
+    ],
+    "answer": "1/12 per day",
+    "answerKey": "A",
+    "correctAnswer": "1/12 per day",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1/12 per day.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_625",
+    "title": "2 numbers: product 192, sum 28. Numbers?",
+    "description": "2 numbers: product 192, sum 28. Numbers?",
+    "question": "2 numbers: product 192, sum 28. Numbers?",
+    "options": [
+      "16 and 12",
+      "14 and 14",
+      "20 and 8",
+      "24 and 4"
+    ],
+    "answer": "16 and 12",
+    "answerKey": "A",
+    "correctAnswer": "16 and 12",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 16 and 12.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_626",
+    "title": "Work done by A and B together if A=20days, B=30days, work for 4 days each the...",
+    "description": "Work done by A and B together if A=20days, B=30days, work for 4 days each then A leaves?",
+    "question": "Work done by A and B together if A=20days, B=30days, work for 4 days each then A leaves?",
+    "options": [
+      "Fraction done=7/15",
+      "8/15",
+      "9/15",
+      "6/15"
+    ],
+    "answer": "Fraction done=7/15",
+    "answerKey": "A",
+    "correctAnswer": "Fraction done=7/15",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Fraction done=7/15.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_627",
+    "title": "A and B alternate, A starts. A can do in 10, B in 15. After 5 days how much d...",
+    "description": "A and B alternate, A starts. A can do in 10, B in 15. After 5 days how much done?",
+    "question": "A and B alternate, A starts. A can do in 10, B in 15. After 5 days how much done?",
+    "options": [
+      "7/15",
+      "1/2",
+      "8/15",
+      "5/12"
+    ],
+    "answer": "7/15",
+    "answerKey": "A",
+    "correctAnswer": "7/15",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 7/15.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_628",
+    "title": "Pipes: A fills in 10h, B in 15h, C drains in 30h. All open?",
+    "description": "Pipes: A fills in 10h, B in 15h, C drains in 30h. All open?",
+    "question": "Pipes: A fills in 10h, B in 15h, C drains in 30h. All open?",
+    "options": [
+      "6h",
+      "8h",
+      "5h",
+      "4h"
+    ],
+    "answer": "6h",
+    "answerKey": "A",
+    "correctAnswer": "6h",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 6h.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_629",
+    "title": "Cost of building: material 60%, labour 30%, misc 10%=Rs 5000. Total cost?",
+    "description": "Cost of building: material 60%, labour 30%, misc 10%=Rs 5000. Total cost?",
+    "question": "Cost of building: material 60%, labour 30%, misc 10%=Rs 5000. Total cost?",
+    "options": [
+      "50000",
+      "45000",
+      "60000",
+      "55000"
+    ],
+    "answer": "50000",
+    "answerKey": "A",
+    "correctAnswer": "50000",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 50000.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_630",
+    "title": "If 20 shirts cost Rs 4000 after 20% discount. Marked price per shirt?",
+    "description": "If 20 shirts cost Rs 4000 after 20% discount. Marked price per shirt?",
+    "question": "If 20 shirts cost Rs 4000 after 20% discount. Marked price per shirt?",
+    "options": [
+      "250",
+      "200",
+      "300",
+      "350"
+    ],
+    "answer": "250",
+    "answerKey": "A",
+    "correctAnswer": "250",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 250.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_632",
+    "title": "Train 151m passes platform 201m at 72 km/h. Time?",
+    "description": "Train 151m passes platform 201m at 72 km/h. Time?",
+    "question": "Train 151m passes platform 201m at 72 km/h. Time?",
+    "options": [
+      "17.6s",
+      "14.1s",
+      "20s",
+      "25s"
+    ],
+    "answer": "17.6s",
+    "answerKey": "A",
+    "correctAnswer": "17.6s",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 17.6s.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_633",
+    "title": "A does work in 12 days, B in 17 days. Together?",
+    "description": "A does work in 12 days, B in 17 days. Together?",
+    "question": "A does work in 12 days, B in 17 days. Together?",
+    "options": [
+      "7.0 days",
+      "12 days",
+      "17 days",
+      "25 days"
+    ],
+    "answer": "7.0 days",
+    "answerKey": "A",
+    "correctAnswer": "7.0 days",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 7.0 days.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_634",
+    "title": "SI: P=1300, R=8%, T=2 years. Interest?",
+    "description": "SI: P=1300, R=8%, T=2 years. Interest?",
+    "question": "SI: P=1300, R=8%, T=2 years. Interest?",
+    "options": [
+      "208",
+      "39",
+      "500",
+      "100"
+    ],
+    "answer": "208",
+    "answerKey": "A",
+    "correctAnswer": "208",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 208.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_640",
+    "title": "1000 increased by 14%. New value?",
+    "description": "1000 increased by 14%. New value?",
+    "question": "1000 increased by 14%. New value?",
+    "options": [
+      "1140",
+      "1050",
+      "150",
+      "200"
+    ],
+    "answer": "1140",
+    "answerKey": "A",
+    "correctAnswer": "1140",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1140.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_641",
+    "title": "Speed: 400+100m in 30s. Speed m/s?",
+    "description": "Speed: 400+100m in 30s. Speed m/s?",
+    "question": "Speed: 400+100m in 30s. Speed m/s?",
+    "options": [
+      "16.7",
+      "20",
+      "15",
+      "25"
+    ],
+    "answer": "16.7",
+    "answerKey": "A",
+    "correctAnswer": "16.7",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 16.7.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_642",
+    "title": "Pipe fills tank in 17 hours. In 3 hours, fraction filled?",
+    "description": "Pipe fills tank in 17 hours. In 3 hours, fraction filled?",
+    "question": "Pipe fills tank in 17 hours. In 3 hours, fraction filled?",
+    "options": [
+      "3/17",
+      "1/2",
+      "1/3",
+      "2/5"
+    ],
+    "answer": "3/17",
+    "answerKey": "A",
+    "correctAnswer": "3/17",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 3/17.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_643",
+    "title": "Two numbers: sum=32, product=135. Larger?",
+    "description": "Two numbers: sum=32, product=135. Larger?",
+    "question": "Two numbers: sum=32, product=135. Larger?",
+    "options": [
+      "18",
+      "16",
+      "12",
+      "8"
+    ],
+    "answer": "18",
+    "answerKey": "A",
+    "correctAnswer": "18",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 18.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_647",
+    "title": "Find 17th term of 3,6,9,12...",
+    "description": "Find 17th term of 3,6,9,12...",
+    "question": "Find 17th term of 3,6,9,12...",
+    "options": [
+      "51",
+      "52",
+      "50",
+      "54"
+    ],
+    "answer": "51",
+    "answerKey": "A",
+    "correctAnswer": "51",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 51.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_649",
+    "title": "Compound interest Rs 3800 at 10% for 2 years?",
+    "description": "Compound interest Rs 3800 at 10% for 2 years?",
+    "question": "Compound interest Rs 3800 at 10% for 2 years?",
+    "options": [
+      "798",
+      "400",
+      "500",
+      "420"
+    ],
+    "answer": "798",
+    "answerKey": "A",
+    "correctAnswer": "798",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 798.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_668",
+    "title": "Ages: A is 39 times B. Sum=104. B's age?",
+    "description": "Ages: A is 39 times B. Sum=104. B's age?",
+    "question": "Ages: A is 39 times B. Sum=104. B's age?",
+    "options": [
+      "3",
+      "10",
+      "8",
+      "12"
+    ],
+    "answer": "3",
+    "answerKey": "A",
+    "correctAnswer": "3",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 3.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_685",
+    "title": "Ratio 13:15. Sum 134. Larger?",
+    "description": "Ratio 13:15. Sum 134. Larger?",
+    "question": "Ratio 13:15. Sum 134. Larger?",
+    "options": [
+      "69",
+      "50",
+      "40",
+      "45"
+    ],
+    "answer": "69",
+    "answerKey": "A",
+    "correctAnswer": "69",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 69.",
+    "topic": "aptitude",
+    "topicName": "Aptitude",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

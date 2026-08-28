@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_265",
+  "slug": "tcs-ver-265",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "sentence-improvement",
+  "topicName": "Sentence Improvement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Improve the underlined part of the sentence: 'The audience was clapping and c...",
+  "description": "Improve the underlined part of the sentence: 'The audience was clapping and cheering for the performers.'",
+  "question": "Improve the underlined part of the sentence: 'The audience was clapping and cheering for the performers.'",
+  "options": [
+    "were clapping",
+    "has been clapping",
+    "is clapping",
+    "No improvement"
+  ],
+  "optionsMap": {
+    "A": "were clapping",
+    "B": "has been clapping",
+    "C": "is clapping",
+    "D": "No improvement"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "were clapping",
+  "tags": [
+    "verbal",
+    "sentence-improvement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

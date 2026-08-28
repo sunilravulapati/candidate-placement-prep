@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_178",
+  "slug": "tcs-log-178",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "cause-and-effect",
+  "topicName": "Cause and Effect",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Statement I: Smartphone usage among teenagers has increased dramatically. Sta...",
+  "description": "Statement I: Smartphone usage among teenagers has increased dramatically. Statement II: Many teenagers now have poor posture and neck pain. Relation:",
+  "question": "Statement I: Smartphone usage among teenagers has increased dramatically. Statement II: Many teenagers now have poor posture and neck pain. Relation:",
+  "options": [
+    "I is cause, II is effect",
+    "II is cause, I is effect",
+    "Both are independent",
+    "Cannot determine"
+  ],
+  "optionsMap": {
+    "A": "I is cause, II is effect",
+    "B": "II is cause, I is effect",
+    "C": "Both are independent",
+    "D": "Cannot determine"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "I is cause, II is effect",
+  "tags": [
+    "logical",
+    "cause-and-effect"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

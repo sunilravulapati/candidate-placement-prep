@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_646",
+  "slug": "tcs-ver-646",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of PHLEGMATIC",
+  "description": "Choose the antonym of PHLEGMATIC",
+  "question": "Choose the antonym of PHLEGMATIC",
+  "options": [
+    "Excitable",
+    "Calm",
+    "Composed",
+    "Serene"
+  ],
+  "optionsMap": {
+    "A": "Excitable",
+    "B": "Calm",
+    "C": "Composed",
+    "D": "Serene"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Excitable",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

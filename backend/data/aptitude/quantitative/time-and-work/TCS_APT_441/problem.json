@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_441",
+  "slug": "tcs-apt-441",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "time-and-work",
+  "topicName": "Time and Work",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A taps fills tank in 6 hrs, B in 4 hrs. Both opened, after 1 hr A closed. Tot...",
+  "description": "A taps fills tank in 6 hrs, B in 4 hrs. Both opened, after 1 hr A closed. Total time to fill?",
+  "question": "A taps fills tank in 6 hrs, B in 4 hrs. Both opened, after 1 hr A closed. Total time to fill?",
+  "options": [
+    "3.5 hrs",
+    "2.5 hrs",
+    "4 hrs",
+    "3 hrs"
+  ],
+  "optionsMap": {
+    "A": "3.5 hrs",
+    "B": "2.5 hrs",
+    "C": "4 hrs",
+    "D": "3 hrs"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "3.5 hrs",
+  "tags": [
+    "quantitative",
+    "time-and-work"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

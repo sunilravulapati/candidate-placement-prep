@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_385",
+  "slug": "tcs-apt-385",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The median of: 3, 7, 2, 1, 9, 8, 5 is?",
+  "description": "The median of: 3, 7, 2, 1, 9, 8, 5 is?",
+  "question": "The median of: 3, 7, 2, 1, 9, 8, 5 is?",
+  "options": [
+    "5",
+    "6",
+    "7",
+    "4"
+  ],
+  "optionsMap": {
+    "A": "5",
+    "B": "6",
+    "C": "7",
+    "D": "4"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "5",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

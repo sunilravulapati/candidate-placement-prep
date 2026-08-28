@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_352",
+  "slug": "tcs-log-352",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Spatial reasoning: Same cube, how many have no paint?",
+  "description": "Spatial reasoning: Same cube, how many have no paint?",
+  "question": "Spatial reasoning: Same cube, how many have no paint?",
+  "options": [
+    "1",
+    "8",
+    "6",
+    "27"
+  ],
+  "optionsMap": {
+    "A": "1",
+    "B": "8",
+    "C": "6",
+    "D": "27"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

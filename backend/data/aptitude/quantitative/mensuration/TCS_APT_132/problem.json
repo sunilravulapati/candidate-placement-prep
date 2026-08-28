@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_132",
+  "slug": "tcs-apt-132",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "mensuration",
+  "topicName": "Mensuration",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Diagonal of a rectangle 8 × 6 cm.",
+  "description": "Diagonal of a rectangle 8 × 6 cm.",
+  "question": "Diagonal of a rectangle 8 × 6 cm.",
+  "options": [
+    "10 cm",
+    "12 cm",
+    "8 cm",
+    "14 cm"
+  ],
+  "optionsMap": {
+    "A": "10 cm",
+    "B": "12 cm",
+    "C": "8 cm",
+    "D": "14 cm"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "10 cm",
+  "tags": [
+    "quantitative",
+    "mensuration"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

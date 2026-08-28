@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_186",
+  "slug": "tcs-ver-186",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which sentence uses the correct tense?",
+  "description": "Which sentence uses the correct tense?",
+  "question": "Which sentence uses the correct tense?",
+  "options": [
+    "If it will rain, we will cancel the match.",
+    "If it rains, we will cancel the match.",
+    "If it rained, we will cancel the match.",
+    "If it rains, we cancel the match."
+  ],
+  "optionsMap": {
+    "A": "If it will rain, we will cancel the match.",
+    "B": "If it rains, we will cancel the match.",
+    "C": "If it rained, we will cancel the match.",
+    "D": "If it rains, we cancel the match."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "If it rains, we will cancel the match.",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

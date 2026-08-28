@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_153",
+  "slug": "tcs-log-153",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "statement-and-assumptions",
+  "topicName": "Statement and Assumptions",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Statement: 'If you are interested in the post, apply before 30th November.' A...",
+  "description": "Statement: 'If you are interested in the post, apply before 30th November.' Assumption I: Some people are interested in the post. Assumption II: Applications after 30th November will be rejected.",
+  "question": "Statement: 'If you are interested in the post, apply before 30th November.' Assumption I: Some people are interested in the post. Assumption II: Applications after 30th November will be rejected.",
+  "options": [
+    "Both are implicit",
+    "Only I is implicit",
+    "Only II is implicit",
+    "Neither is implicit"
+  ],
+  "optionsMap": {
+    "A": "Both are implicit",
+    "B": "Only I is implicit",
+    "C": "Only II is implicit",
+    "D": "Neither is implicit"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Both are implicit",
+  "tags": [
+    "logical",
+    "statement-and-assumptions"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

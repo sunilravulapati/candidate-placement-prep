@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_223",
+  "slug": "tcs-log-223",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "venn-diagrams",
+  "topicName": "Venn Diagrams",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Out of 100 people: 70 read newspaper A, 60 read newspaper B, 40 read both. Ho...",
+  "description": "Out of 100 people: 70 read newspaper A, 60 read newspaper B, 40 read both. How many read neither?",
+  "question": "Out of 100 people: 70 read newspaper A, 60 read newspaper B, 40 read both. How many read neither?",
+  "options": [
+    "10",
+    "15",
+    "20",
+    "5"
+  ],
+  "optionsMap": {
+    "A": "10",
+    "B": "15",
+    "C": "20",
+    "D": "5"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "10",
+  "tags": [
+    "logical",
+    "venn-diagrams"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

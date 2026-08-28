@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_631",
+  "slug": "tcs-ver-631",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of VOLATILE",
+  "description": "Choose the antonym of VOLATILE",
+  "question": "Choose the antonym of VOLATILE",
+  "options": [
+    "Stable",
+    "Changeable",
+    "Unpredictable",
+    "Erratic"
+  ],
+  "optionsMap": {
+    "A": "Stable",
+    "B": "Changeable",
+    "C": "Unpredictable",
+    "D": "Erratic"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Stable",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_116",
+  "slug": "tcs-log-116",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "analogies",
+  "topicName": "Analogies",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Chlorophyll : Green :: Carotene : ?",
+  "description": "Chlorophyll : Green :: Carotene : ?",
+  "question": "Chlorophyll : Green :: Carotene : ?",
+  "options": [
+    "Orange",
+    "Yellow",
+    "Red",
+    "Blue"
+  ],
+  "optionsMap": {
+    "A": "Orange",
+    "B": "Yellow",
+    "C": "Red",
+    "D": "Blue"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Orange",
+  "tags": [
+    "logical",
+    "analogies"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

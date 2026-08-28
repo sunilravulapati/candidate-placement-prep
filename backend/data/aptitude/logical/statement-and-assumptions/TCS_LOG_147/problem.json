@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_147",
+  "slug": "tcs-log-147",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "statement-and-assumptions",
+  "topicName": "Statement and Assumptions",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Statement: 'Please keep off the grass.' Assumption I: People walk on grass. A...",
+  "description": "Statement: 'Please keep off the grass.' Assumption I: People walk on grass. Assumption II: The grass is fragile.",
+  "question": "Statement: 'Please keep off the grass.' Assumption I: People walk on grass. Assumption II: The grass is fragile.",
+  "options": [
+    "Both I and II are implicit",
+    "Only I is implicit",
+    "Only II is implicit",
+    "Neither is implicit"
+  ],
+  "optionsMap": {
+    "A": "Both I and II are implicit",
+    "B": "Only I is implicit",
+    "C": "Only II is implicit",
+    "D": "Neither is implicit"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Both I and II are implicit",
+  "tags": [
+    "logical",
+    "statement-and-assumptions"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

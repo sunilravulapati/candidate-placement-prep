@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_497",
+  "slug": "tcs-ver-497",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Which word means 'a great enthusiast'?",
+  "description": "Which word means 'a great enthusiast'?",
+  "question": "Which word means 'a great enthusiast'?",
+  "options": [
+    "Aficionado",
+    "Critic",
+    "Opponent",
+    "Skeptic"
+  ],
+  "optionsMap": {
+    "A": "Aficionado",
+    "B": "Critic",
+    "C": "Opponent",
+    "D": "Skeptic"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Aficionado",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_258",
+  "slug": "tcs-apt-258",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The average of 10 numbers is 40. If 2 more numbers (60 and 80) are added, new...",
+  "description": "The average of 10 numbers is 40. If 2 more numbers (60 and 80) are added, new average?",
+  "question": "The average of 10 numbers is 40. If 2 more numbers (60 and 80) are added, new average?",
+  "options": [
+    "45",
+    "47.5",
+    "50",
+    "42"
+  ],
+  "optionsMap": {
+    "A": "45",
+    "B": "47.5",
+    "C": "50",
+    "D": "42"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "47.5",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

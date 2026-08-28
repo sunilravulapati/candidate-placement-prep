@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_435",
+  "slug": "tcs-ver-435",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "What does the idiom 'burning the candle at both ends' mean?",
+  "description": "What does the idiom 'burning the candle at both ends' mean?",
+  "question": "What does the idiom 'burning the candle at both ends' mean?",
+  "options": [
+    "Overworking and exhausting oneself",
+    "Being very productive",
+    "Wasting resources",
+    "Enjoying life"
+  ],
+  "optionsMap": {
+    "A": "Overworking and exhausting oneself",
+    "B": "Being very productive",
+    "C": "Wasting resources",
+    "D": "Enjoying life"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Overworking and exhausting oneself",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

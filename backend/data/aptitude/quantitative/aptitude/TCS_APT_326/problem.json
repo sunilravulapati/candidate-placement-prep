@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_326",
+  "slug": "tcs-apt-326",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Two unbiased coins tossed. Probability of both tails?",
+  "description": "Two unbiased coins tossed. Probability of both tails?",
+  "question": "Two unbiased coins tossed. Probability of both tails?",
+  "options": [
+    "1/4",
+    "1/2",
+    "1/3",
+    "3/4"
+  ],
+  "optionsMap": {
+    "A": "1/4",
+    "B": "1/2",
+    "C": "1/3",
+    "D": "3/4"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1/4",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,872 @@
+[
+  {
+    "id": "TCS_VER_271",
+    "title": "Complete the analogy: Doctor : Hospital :: Teacher : ?",
+    "description": "Complete the analogy: Doctor : Hospital :: Teacher : ?",
+    "question": "Complete the analogy: Doctor : Hospital :: Teacher : ?",
+    "options": [
+      "School",
+      "Market",
+      "Hospital",
+      "Museum"
+    ],
+    "answer": "School",
+    "answerKey": "A",
+    "correctAnswer": "School",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: School.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_272",
+    "title": "Complete the analogy: Pen : Write :: Knife : ?",
+    "description": "Complete the analogy: Pen : Write :: Knife : ?",
+    "question": "Complete the analogy: Pen : Write :: Knife : ?",
+    "options": [
+      "Cut",
+      "Paint",
+      "Dig",
+      "Sew"
+    ],
+    "answer": "Cut",
+    "answerKey": "A",
+    "correctAnswer": "Cut",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Cut.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_273",
+    "title": "Complete the analogy: Fish : Water :: Bird : ?",
+    "description": "Complete the analogy: Fish : Water :: Bird : ?",
+    "question": "Complete the analogy: Fish : Water :: Bird : ?",
+    "options": [
+      "Sky",
+      "Tree",
+      "Nest",
+      "Cage"
+    ],
+    "answer": "Sky",
+    "answerKey": "A",
+    "correctAnswer": "Sky",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Sky.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_274",
+    "title": "Complete the analogy: Hungry : Food :: Thirsty : ?",
+    "description": "Complete the analogy: Hungry : Food :: Thirsty : ?",
+    "question": "Complete the analogy: Hungry : Food :: Thirsty : ?",
+    "options": [
+      "Water",
+      "Sleep",
+      "Rest",
+      "Medicine"
+    ],
+    "answer": "Water",
+    "answerKey": "A",
+    "correctAnswer": "Water",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Water.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_275",
+    "title": "Complete the analogy: Author : Book :: Director : ?",
+    "description": "Complete the analogy: Author : Book :: Director : ?",
+    "question": "Complete the analogy: Author : Book :: Director : ?",
+    "options": [
+      "Film",
+      "Song",
+      "Building",
+      "Painting"
+    ],
+    "answer": "Film",
+    "answerKey": "A",
+    "correctAnswer": "Film",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Film.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_278",
+    "title": "Complete the analogy: Peace : War :: Happiness : ?",
+    "description": "Complete the analogy: Peace : War :: Happiness : ?",
+    "question": "Complete the analogy: Peace : War :: Happiness : ?",
+    "options": [
+      "Sorrow",
+      "Love",
+      "Joy",
+      "Hope"
+    ],
+    "answer": "Sorrow",
+    "answerKey": "A",
+    "correctAnswer": "Sorrow",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Sorrow.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_282",
+    "title": "Complete the analogy: Pilot : Aircraft :: Captain : ?",
+    "description": "Complete the analogy: Pilot : Aircraft :: Captain : ?",
+    "question": "Complete the analogy: Pilot : Aircraft :: Captain : ?",
+    "options": [
+      "Ship",
+      "Train",
+      "Bus",
+      "Bicycle"
+    ],
+    "answer": "Ship",
+    "answerKey": "A",
+    "correctAnswer": "Ship",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Ship.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_289",
+    "title": "Complete the analogy: Parliament : Britain :: Congress : ?",
+    "description": "Complete the analogy: Parliament : Britain :: Congress : ?",
+    "question": "Complete the analogy: Parliament : Britain :: Congress : ?",
+    "options": [
+      "USA",
+      "India",
+      "France",
+      "Germany"
+    ],
+    "answer": "USA",
+    "answerKey": "A",
+    "correctAnswer": "USA",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: USA.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_279",
+    "title": "Complete the analogy: Acrophobia : Heights :: Claustrophobia : ?",
+    "description": "Complete the analogy: Acrophobia : Heights :: Claustrophobia : ?",
+    "question": "Complete the analogy: Acrophobia : Heights :: Claustrophobia : ?",
+    "options": [
+      "Confined spaces",
+      "Water",
+      "Darkness",
+      "Crowds"
+    ],
+    "answer": "Confined spaces",
+    "answerKey": "A",
+    "correctAnswer": "Confined spaces",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Confined spaces.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_284",
+    "title": "Complete the analogy: Pedometer : Distance :: Barometer : ?",
+    "description": "Complete the analogy: Pedometer : Distance :: Barometer : ?",
+    "question": "Complete the analogy: Pedometer : Distance :: Barometer : ?",
+    "options": [
+      "Atmospheric pressure",
+      "Temperature",
+      "Speed",
+      "Humidity"
+    ],
+    "answer": "Atmospheric pressure",
+    "answerKey": "A",
+    "correctAnswer": "Atmospheric pressure",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Atmospheric pressure.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_287",
+    "title": "Complete the analogy: Chronometer : Time :: Seismograph : ?",
+    "description": "Complete the analogy: Chronometer : Time :: Seismograph : ?",
+    "question": "Complete the analogy: Chronometer : Time :: Seismograph : ?",
+    "options": [
+      "Earthquakes",
+      "Rainfall",
+      "Wind speed",
+      "Sea depth"
+    ],
+    "answer": "Earthquakes",
+    "answerKey": "A",
+    "correctAnswer": "Earthquakes",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Earthquakes.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_290",
+    "title": "Complete the analogy: Stalactite : Ceiling :: Stalagmite : ?",
+    "description": "Complete the analogy: Stalactite : Ceiling :: Stalagmite : ?",
+    "question": "Complete the analogy: Stalactite : Ceiling :: Stalagmite : ?",
+    "options": [
+      "Floor",
+      "Wall",
+      "Roof",
+      "Door"
+    ],
+    "answer": "Floor",
+    "answerKey": "A",
+    "correctAnswer": "Floor",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Floor.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_293",
+    "title": "Complete the analogy: Stethoscope : Heartbeat :: Sphygmomanometer : ?",
+    "description": "Complete the analogy: Stethoscope : Heartbeat :: Sphygmomanometer : ?",
+    "question": "Complete the analogy: Stethoscope : Heartbeat :: Sphygmomanometer : ?",
+    "options": [
+      "Blood pressure",
+      "Sugar level",
+      "Oxygen level",
+      "Temperature"
+    ],
+    "answer": "Blood pressure",
+    "answerKey": "A",
+    "correctAnswer": "Blood pressure",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Blood pressure.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_294",
+    "title": "Complete the analogy: Conclave : Cardinals :: Parliament : ?",
+    "description": "Complete the analogy: Conclave : Cardinals :: Parliament : ?",
+    "question": "Complete the analogy: Conclave : Cardinals :: Parliament : ?",
+    "options": [
+      "Legislators",
+      "Judges",
+      "Scientists",
+      "Soldiers"
+    ],
+    "answer": "Legislators",
+    "answerKey": "A",
+    "correctAnswer": "Legislators",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Legislators.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_295",
+    "title": "Complete the analogy: Ornithology : Birds :: Herpetology : ?",
+    "description": "Complete the analogy: Ornithology : Birds :: Herpetology : ?",
+    "question": "Complete the analogy: Ornithology : Birds :: Herpetology : ?",
+    "options": [
+      "Reptiles",
+      "Insects",
+      "Plants",
+      "Mammals"
+    ],
+    "answer": "Reptiles",
+    "answerKey": "A",
+    "correctAnswer": "Reptiles",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Reptiles.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_296",
+    "title": "Complete the analogy: Lachrymose : Tears :: Irascible : ?",
+    "description": "Complete the analogy: Lachrymose : Tears :: Irascible : ?",
+    "question": "Complete the analogy: Lachrymose : Tears :: Irascible : ?",
+    "options": [
+      "Anger",
+      "Laughter",
+      "Sadness",
+      "Fear"
+    ],
+    "answer": "Anger",
+    "answerKey": "A",
+    "correctAnswer": "Anger",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Anger.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_297",
+    "title": "Complete the analogy: Lexicon : Words :: Anthology : ?",
+    "description": "Complete the analogy: Lexicon : Words :: Anthology : ?",
+    "question": "Complete the analogy: Lexicon : Words :: Anthology : ?",
+    "options": [
+      "Literary pieces",
+      "Coins",
+      "Stamps",
+      "Paintings"
+    ],
+    "answer": "Literary pieces",
+    "answerKey": "A",
+    "correctAnswer": "Literary pieces",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Literary pieces.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_298",
+    "title": "Complete the analogy: Regicide : King :: Patricide : ?",
+    "description": "Complete the analogy: Regicide : King :: Patricide : ?",
+    "question": "Complete the analogy: Regicide : King :: Patricide : ?",
+    "options": [
+      "Father",
+      "Mother",
+      "Sibling",
+      "Child"
+    ],
+    "answer": "Father",
+    "answerKey": "A",
+    "correctAnswer": "Father",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Father.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_299",
+    "title": "Complete the analogy: Ephemeral : Lasting :: Diurnal : ?",
+    "description": "Complete the analogy: Ephemeral : Lasting :: Diurnal : ?",
+    "question": "Complete the analogy: Ephemeral : Lasting :: Diurnal : ?",
+    "options": [
+      "Nocturnal",
+      "Daily",
+      "Annual",
+      "Seasonal"
+    ],
+    "answer": "Nocturnal",
+    "answerKey": "A",
+    "correctAnswer": "Nocturnal",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Nocturnal.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_276",
+    "title": "Complete the analogy: Carpenter : Wood :: Mason : ?",
+    "description": "Complete the analogy: Carpenter : Wood :: Mason : ?",
+    "question": "Complete the analogy: Carpenter : Wood :: Mason : ?",
+    "options": [
+      "Brick",
+      "Clay",
+      "Iron",
+      "Sand"
+    ],
+    "answer": "Brick",
+    "answerKey": "A",
+    "correctAnswer": "Brick",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Brick.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_277",
+    "title": "Complete the analogy: Telescope : Stars :: Microscope : ?",
+    "description": "Complete the analogy: Telescope : Stars :: Microscope : ?",
+    "question": "Complete the analogy: Telescope : Stars :: Microscope : ?",
+    "options": [
+      "Germs",
+      "Planets",
+      "Oceans",
+      "Mountains"
+    ],
+    "answer": "Germs",
+    "answerKey": "A",
+    "correctAnswer": "Germs",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Germs.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_280",
+    "title": "Complete the analogy: Marathon : Race :: Sonnet : ?",
+    "description": "Complete the analogy: Marathon : Race :: Sonnet : ?",
+    "question": "Complete the analogy: Marathon : Race :: Sonnet : ?",
+    "options": [
+      "Poem",
+      "Novel",
+      "Essay",
+      "Speech"
+    ],
+    "answer": "Poem",
+    "answerKey": "A",
+    "correctAnswer": "Poem",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Poem.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_283",
+    "title": "Complete the analogy: Botany : Plants :: Entomology : ?",
+    "description": "Complete the analogy: Botany : Plants :: Entomology : ?",
+    "question": "Complete the analogy: Botany : Plants :: Entomology : ?",
+    "options": [
+      "Insects",
+      "Birds",
+      "Animals",
+      "Reptiles"
+    ],
+    "answer": "Insects",
+    "answerKey": "A",
+    "correctAnswer": "Insects",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Insects.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_285",
+    "title": "Complete the analogy: Inning : Cricket :: Set : ?",
+    "description": "Complete the analogy: Inning : Cricket :: Set : ?",
+    "question": "Complete the analogy: Inning : Cricket :: Set : ?",
+    "options": [
+      "Tennis",
+      "Football",
+      "Hockey",
+      "Chess"
+    ],
+    "answer": "Tennis",
+    "answerKey": "A",
+    "correctAnswer": "Tennis",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Tennis.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_286",
+    "title": "Complete the analogy: Ophthalmologist : Eyes :: Dermatologist : ?",
+    "description": "Complete the analogy: Ophthalmologist : Eyes :: Dermatologist : ?",
+    "question": "Complete the analogy: Ophthalmologist : Eyes :: Dermatologist : ?",
+    "options": [
+      "Skin",
+      "Teeth",
+      "Bones",
+      "Lungs"
+    ],
+    "answer": "Skin",
+    "answerKey": "A",
+    "correctAnswer": "Skin",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Skin.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_288",
+    "title": "Complete the analogy: Autobiography : Self :: Biography : ?",
+    "description": "Complete the analogy: Autobiography : Self :: Biography : ?",
+    "question": "Complete the analogy: Autobiography : Self :: Biography : ?",
+    "options": [
+      "Others",
+      "Future",
+      "Fiction",
+      "History"
+    ],
+    "answer": "Others",
+    "answerKey": "A",
+    "correctAnswer": "Others",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Others.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_291",
+    "title": "Complete the analogy: Numismatics : Coins :: Philately : ?",
+    "description": "Complete the analogy: Numismatics : Coins :: Philately : ?",
+    "question": "Complete the analogy: Numismatics : Coins :: Philately : ?",
+    "options": [
+      "Stamps",
+      "Paintings",
+      "Books",
+      "Statues"
+    ],
+    "answer": "Stamps",
+    "answerKey": "A",
+    "correctAnswer": "Stamps",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Stamps.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_292",
+    "title": "Complete the analogy: Archipelago : Islands :: Bouquet : ?",
+    "description": "Complete the analogy: Archipelago : Islands :: Bouquet : ?",
+    "question": "Complete the analogy: Archipelago : Islands :: Bouquet : ?",
+    "options": [
+      "Flowers",
+      "Trees",
+      "Leaves",
+      "Fruits"
+    ],
+    "answer": "Flowers",
+    "answerKey": "A",
+    "correctAnswer": "Flowers",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Flowers.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_300",
+    "title": "Complete the analogy: Cartographer : Maps :: Choreographer : ?",
+    "description": "Complete the analogy: Cartographer : Maps :: Choreographer : ?",
+    "question": "Complete the analogy: Cartographer : Maps :: Choreographer : ?",
+    "options": [
+      "Dances",
+      "Songs",
+      "Films",
+      "Books"
+    ],
+    "answer": "Dances",
+    "answerKey": "A",
+    "correctAnswer": "Dances",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Dances.",
+    "topic": "word-analogy",
+    "topicName": "Word Analogy",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_304",
+  "slug": "tcs-ver-304",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "error-spotting",
+  "topicName": "Error Spotting",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Spot the error: (A)Neither John (B)nor his friends (C)was present (D)at the e...",
+  "description": "Spot the error: (A)Neither John (B)nor his friends (C)was present (D)at the event.",
+  "question": "Spot the error: (A)Neither John (B)nor his friends (C)was present (D)at the event.",
+  "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "optionsMap": {
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "D": "D"
+  },
+  "answer": "C",
+  "answerKey": "C",
+  "correctAnswer": "C",
+  "tags": [
+    "verbal",
+    "error-spotting"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_228",
+  "slug": "tcs-log-228",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "venn-diagrams",
+  "topicName": "Venn Diagrams",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "In a survey, 100 people: 70% like tea, 60% like coffee, 40% like both. What %...",
+  "description": "In a survey, 100 people: 70% like tea, 60% like coffee, 40% like both. What % like only tea?",
+  "question": "In a survey, 100 people: 70% like tea, 60% like coffee, 40% like both. What % like only tea?",
+  "options": [
+    "30%",
+    "20%",
+    "25%",
+    "40%"
+  ],
+  "optionsMap": {
+    "A": "30%",
+    "B": "20%",
+    "C": "25%",
+    "D": "40%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "30%",
+  "tags": [
+    "logical",
+    "venn-diagrams"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_028",
+  "slug": "tcs-apt-028",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "profit-and-loss",
+  "topicName": "Profit and Loss",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "By selling 24 pens for Rs.120, a man gains 20%. How many pens should be sold ...",
+  "description": "By selling 24 pens for Rs.120, a man gains 20%. How many pens should be sold for Rs.120 to gain 60%?",
+  "question": "By selling 24 pens for Rs.120, a man gains 20%. How many pens should be sold for Rs.120 to gain 60%?",
+  "options": [
+    "18",
+    "20",
+    "16",
+    "14"
+  ],
+  "optionsMap": {
+    "A": "18",
+    "B": "20",
+    "C": "16",
+    "D": "14"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "18",
+  "tags": [
+    "quantitative",
+    "profit-and-loss"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

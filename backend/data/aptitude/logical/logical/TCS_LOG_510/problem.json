@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_510",
+  "slug": "tcs-log-510",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Direction: A is 4m E of B. C is 3m N of A. D is 5m W of C. D from B?",
+  "description": "Direction: A is 4m E of B. C is 3m N of A. D is 5m W of C. D from B?",
+  "question": "Direction: A is 4m E of B. C is 3m N of A. D is 5m W of C. D from B?",
+  "options": [
+    "Due North",
+    "Due West",
+    "NW direction",
+    "NE direction"
+  ],
+  "optionsMap": {
+    "A": "Due North",
+    "B": "Due West",
+    "C": "NW direction",
+    "D": "NE direction"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Due North",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

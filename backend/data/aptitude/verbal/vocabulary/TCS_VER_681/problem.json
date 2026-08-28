@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_681",
+  "slug": "tcs-ver-681",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Idiom: 'At the drop of a hat' means?",
+  "description": "Idiom: 'At the drop of a hat' means?",
+  "question": "Idiom: 'At the drop of a hat' means?",
+  "options": [
+    "Immediately",
+    "Slowly",
+    "Reluctantly",
+    "After much thought"
+  ],
+  "optionsMap": {
+    "A": "Immediately",
+    "B": "Slowly",
+    "C": "Reluctantly",
+    "D": "After much thought"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Immediately",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_379",
+  "slug": "tcs-apt-379",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "In how many ways can letters of MATHS be arranged?",
+  "description": "In how many ways can letters of MATHS be arranged?",
+  "question": "In how many ways can letters of MATHS be arranged?",
+  "options": [
+    "120",
+    "60",
+    "24",
+    "720"
+  ],
+  "optionsMap": {
+    "A": "120",
+    "B": "60",
+    "C": "24",
+    "D": "720"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "120",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

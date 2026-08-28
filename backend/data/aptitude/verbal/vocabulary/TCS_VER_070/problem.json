@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_070",
+  "slug": "tcs-ver-070",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most OPPOSITE in meaning to: TRANQUIL",
+  "description": "Choose the word most OPPOSITE in meaning to: TRANQUIL",
+  "question": "Choose the word most OPPOSITE in meaning to: TRANQUIL",
+  "options": [
+    "Turbulent",
+    "Calm",
+    "Peaceful",
+    "Serene"
+  ],
+  "optionsMap": {
+    "A": "Turbulent",
+    "B": "Calm",
+    "C": "Peaceful",
+    "D": "Serene"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Turbulent",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_129",
+  "slug": "tcs-log-129",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "classification",
+  "topicName": "Classification",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Find the odd one: Triangle, Circle, Square, Cube, Rectangle",
+  "description": "Find the odd one: Triangle, Circle, Square, Cube, Rectangle",
+  "question": "Find the odd one: Triangle, Circle, Square, Cube, Rectangle",
+  "options": [
+    "Cube",
+    "Triangle",
+    "Circle",
+    "Square"
+  ],
+  "optionsMap": {
+    "A": "Cube",
+    "B": "Triangle",
+    "C": "Circle",
+    "D": "Square"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Cube",
+  "tags": [
+    "logical",
+    "classification"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

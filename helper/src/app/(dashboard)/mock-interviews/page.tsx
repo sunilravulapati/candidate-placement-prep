@@ -149,20 +149,21 @@ export default function MockInterviewStudioPage() {
 
   // Interview ended — evaluation complete, go to Feedback
   const handleInterviewEnded = (summary: any) => {
-    if (!activeSession) return;
+    const prevActive = activeSession;
+    setActiveSession(null);
 
     setCompletedSession({
-      sessionId: summary.sessionId || activeSession.sessionId,
+      sessionId: summary.sessionId || prevActive?.sessionId || '',
       overallScore: summary.score?.overallScore ?? 0,
       dimensions: summary.score?.dimensions ?? {},
       improvementTrend: summary.score?.improvementTrend,
       feedback: summary.feedback,
-      questions: summary.evaluations,
+      questions: summary.evaluations || summary.questions,
       sessionInfo: {
-        type: 'TECHNICAL',
-        difficulty: 'MEDIUM',
+        type: summary.session?.type || 'TECHNICAL',
+        difficulty: summary.session?.difficulty || 'MEDIUM',
         questionsAnswered: summary.questionsAnswered ?? 0,
-        durationMinutes: activeSession.durationMinutes,
+        durationMinutes: prevActive?.durationMinutes || 30,
       },
     });
     setActiveTab('feedback');

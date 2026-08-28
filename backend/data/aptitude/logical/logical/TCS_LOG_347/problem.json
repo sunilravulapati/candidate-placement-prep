@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_347",
+  "slug": "tcs-log-347",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Logical puzzle: P is Q's brother. Q is R's wife. S is R's son. How is P relat...",
+  "description": "Logical puzzle: P is Q's brother. Q is R's wife. S is R's son. How is P related to S?",
+  "question": "Logical puzzle: P is Q's brother. Q is R's wife. S is R's son. How is P related to S?",
+  "options": [
+    "Uncle",
+    "Father",
+    "Brother",
+    "Cousin"
+  ],
+  "optionsMap": {
+    "A": "Uncle",
+    "B": "Father",
+    "C": "Brother",
+    "D": "Cousin"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Uncle",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

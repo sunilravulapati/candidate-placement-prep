@@ -1,0 +1,332 @@
+[
+  {
+    "id": "TCS_APT_097",
+    "title": "Salaries of A, B, C are in ratio 1:2:3. If salary of C is Rs.12000, what is t...",
+    "description": "Salaries of A, B, C are in ratio 1:2:3. If salary of C is Rs.12000, what is the average salary?",
+    "question": "Salaries of A, B, C are in ratio 1:2:3. If salary of C is Rs.12000, what is the average salary?",
+    "options": [
+      "Rs.8000",
+      "Rs.6000",
+      "Rs.10000",
+      "Rs.4000"
+    ],
+    "answer": "Rs.8000",
+    "answerKey": "A",
+    "correctAnswer": "Rs.8000",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Rs.8000.",
+    "topic": "ratio-and-proportion",
+    "topicName": "Ratio and Proportion",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_092",
+    "title": "The ages of A and B are in ratio 4:5. Six years hence the ratio will be 5:6. ...",
+    "description": "The ages of A and B are in ratio 4:5. Six years hence the ratio will be 5:6. Find A's age.",
+    "question": "The ages of A and B are in ratio 4:5. Six years hence the ratio will be 5:6. Find A's age.",
+    "options": [
+      "24",
+      "20",
+      "28",
+      "30"
+    ],
+    "answer": "24",
+    "answerKey": "A",
+    "correctAnswer": "24",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 24.",
+    "topic": "ratio-and-proportion",
+    "topicName": "Ratio and Proportion",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_093",
+    "title": "A bag has coins in ratio 2:3:5 for Re.1, 50p, and 25p. Total Rs.114. How many...",
+    "description": "A bag has coins in ratio 2:3:5 for Re.1, 50p, and 25p. Total Rs.114. How many 50p coins?",
+    "question": "A bag has coins in ratio 2:3:5 for Re.1, 50p, and 25p. Total Rs.114. How many 50p coins?",
+    "options": [
+      "48",
+      "60",
+      "36",
+      "72"
+    ],
+    "answer": "48",
+    "answerKey": "A",
+    "correctAnswer": "48",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 48.",
+    "topic": "ratio-and-proportion",
+    "topicName": "Ratio and Proportion",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_095",
+    "title": "Two numbers are in ratio 3:5. If 4 is added to each, ratio becomes 2:3. Find ...",
+    "description": "Two numbers are in ratio 3:5. If 4 is added to each, ratio becomes 2:3. Find the numbers.",
+    "question": "Two numbers are in ratio 3:5. If 4 is added to each, ratio becomes 2:3. Find the numbers.",
+    "options": [
+      "12 and 20",
+      "15 and 25",
+      "9 and 15",
+      "6 and 10"
+    ],
+    "answer": "12 and 20",
+    "answerKey": "A",
+    "correctAnswer": "12 and 20",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 12 and 20.",
+    "topic": "ratio-and-proportion",
+    "topicName": "Ratio and Proportion",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_096",
+    "title": "A mixture contains milk and water in ratio 7:3. If 10 litres of water is adde...",
+    "description": "A mixture contains milk and water in ratio 7:3. If 10 litres of water is added, ratio becomes 7:4. Find initial milk.",
+    "question": "A mixture contains milk and water in ratio 7:3. If 10 litres of water is added, ratio becomes 7:4. Find initial milk.",
+    "options": [
+      "70 litres",
+      "60 litres",
+      "80 litres",
+      "50 litres"
+    ],
+    "answer": "70 litres",
+    "answerKey": "A",
+    "correctAnswer": "70 litres",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 70 litres.",
+    "topic": "ratio-and-proportion",
+    "topicName": "Ratio and Proportion",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_098",
+    "title": "If 4 is subtracted from each term of ratio 5:8, ratio becomes 1:2. Find origi...",
+    "description": "If 4 is subtracted from each term of ratio 5:8, ratio becomes 1:2. Find original numbers.",
+    "question": "If 4 is subtracted from each term of ratio 5:8, ratio becomes 1:2. Find original numbers.",
+    "options": [
+      "5 and 8",
+      "10 and 16",
+      "15 and 24",
+      "4 and 8"
+    ],
+    "answer": "5 and 8",
+    "answerKey": "A",
+    "correctAnswer": "5 and 8",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 5 and 8.",
+    "topic": "ratio-and-proportion",
+    "topicName": "Ratio and Proportion",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_444",
+    "title": "Rs.5400 is divided among A, B, C in ratio 1/2 : 1/3 : 1/4. A's share?",
+    "description": "Rs.5400 is divided among A, B, C in ratio 1/2 : 1/3 : 1/4. A's share?",
+    "question": "Rs.5400 is divided among A, B, C in ratio 1/2 : 1/3 : 1/4. A's share?",
+    "options": [
+      "Rs.2400",
+      "Rs.1800",
+      "Rs.1200",
+      "Rs.2000"
+    ],
+    "answer": "Rs.2400",
+    "answerKey": "A",
+    "correctAnswer": "Rs.2400",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Rs.2400.",
+    "topic": "ratio-and-proportion",
+    "topicName": "Ratio and Proportion",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_445",
+    "title": "Two numbers are in ratio 3:4. Their LCM is 180. The numbers are:",
+    "description": "Two numbers are in ratio 3:4. Their LCM is 180. The numbers are:",
+    "question": "Two numbers are in ratio 3:4. Their LCM is 180. The numbers are:",
+    "options": [
+      "45 and 60",
+      "36 and 48",
+      "60 and 80",
+      "54 and 72"
+    ],
+    "answer": "45 and 60",
+    "answerKey": "A",
+    "correctAnswer": "45 and 60",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 45 and 60.",
+    "topic": "ratio-and-proportion",
+    "topicName": "Ratio and Proportion",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_446",
+    "title": "Milk and water in ratio 5:3. If 16L of mixture removed and 16L water added, r...",
+    "description": "Milk and water in ratio 5:3. If 16L of mixture removed and 16L water added, ratio becomes 3:5. Original quantity?",
+    "question": "Milk and water in ratio 5:3. If 16L of mixture removed and 16L water added, ratio becomes 3:5. Original quantity?",
+    "options": [
+      "40 L",
+      "32 L",
+      "48 L",
+      "50 L"
+    ],
+    "answer": "40 L",
+    "answerKey": "A",
+    "correctAnswer": "40 L",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 40 L.",
+    "topic": "ratio-and-proportion",
+    "topicName": "Ratio and Proportion",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_447",
+    "title": "If a:b = 2:3, b:c = 4:5, c:d = 6:7, find a:d.",
+    "description": "If a:b = 2:3, b:c = 4:5, c:d = 6:7, find a:d.",
+    "question": "If a:b = 2:3, b:c = 4:5, c:d = 6:7, find a:d.",
+    "options": [
+      "16:35",
+      "2:7",
+      "8:15",
+      "4:9"
+    ],
+    "answer": "16:35",
+    "answerKey": "A",
+    "correctAnswer": "16:35",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 16:35.",
+    "topic": "ratio-and-proportion",
+    "topicName": "Ratio and Proportion",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_089",
+    "title": "If A:B = 3:4 and B:C = 5:6, what is A:C?",
+    "description": "If A:B = 3:4 and B:C = 5:6, what is A:C?",
+    "question": "If A:B = 3:4 and B:C = 5:6, what is A:C?",
+    "options": [
+      "5:8",
+      "15:24",
+      "3:6",
+      "5:6"
+    ],
+    "answer": "5:8",
+    "answerKey": "A",
+    "correctAnswer": "5:8",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 5:8.",
+    "topic": "ratio-and-proportion",
+    "topicName": "Ratio and Proportion",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

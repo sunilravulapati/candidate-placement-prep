@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_179",
+  "slug": "tcs-ver-179",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Which sentence uses the apostrophe correctly?",
+  "description": "Which sentence uses the apostrophe correctly?",
+  "question": "Which sentence uses the apostrophe correctly?",
+  "options": [
+    "The childrens' toys were scattered.",
+    "The children's toys were scattered.",
+    "The childrens toys' were scattered.",
+    "The children toys were scattered."
+  ],
+  "optionsMap": {
+    "A": "The childrens' toys were scattered.",
+    "B": "The children's toys were scattered.",
+    "C": "The childrens toys' were scattered.",
+    "D": "The children toys were scattered."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "The children's toys were scattered.",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

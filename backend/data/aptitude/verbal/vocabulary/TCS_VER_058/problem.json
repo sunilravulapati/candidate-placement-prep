@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_058",
+  "slug": "tcs-ver-058",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most OPPOSITE in meaning to: HAUGHTY",
+  "description": "Choose the word most OPPOSITE in meaning to: HAUGHTY",
+  "question": "Choose the word most OPPOSITE in meaning to: HAUGHTY",
+  "options": [
+    "Humble",
+    "Proud",
+    "Arrogant",
+    "Vain"
+  ],
+  "optionsMap": {
+    "A": "Humble",
+    "B": "Proud",
+    "C": "Arrogant",
+    "D": "Vain"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Humble",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

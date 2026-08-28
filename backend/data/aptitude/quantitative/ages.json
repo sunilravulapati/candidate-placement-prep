@@ -1,0 +1,152 @@
+[
+  {
+    "id": "TCS_APT_205",
+    "title": "A is 2 years older than B. Sum of their ages is 40. Find A's age.",
+    "description": "A is 2 years older than B. Sum of their ages is 40. Find A's age.",
+    "question": "A is 2 years older than B. Sum of their ages is 40. Find A's age.",
+    "options": [
+      "21",
+      "19",
+      "22",
+      "20"
+    ],
+    "answer": "21",
+    "answerKey": "A",
+    "correctAnswer": "21",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 21.",
+    "topic": "ages",
+    "topicName": "Ages",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_208",
+    "title": "The average age of 5 people is 30. If the eldest is 50, the average of the re...",
+    "description": "The average age of 5 people is 30. If the eldest is 50, the average of the rest is:",
+    "question": "The average age of 5 people is 30. If the eldest is 50, the average of the rest is:",
+    "options": [
+      "25",
+      "22",
+      "20",
+      "28"
+    ],
+    "answer": "25",
+    "answerKey": "A",
+    "correctAnswer": "25",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 25.",
+    "topic": "ages",
+    "topicName": "Ages",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_206",
+    "title": "Ratio of A's to B's age is 4:5. In 5 years, ratio becomes 5:6. Find A's curre...",
+    "description": "Ratio of A's to B's age is 4:5. In 5 years, ratio becomes 5:6. Find A's current age.",
+    "question": "Ratio of A's to B's age is 4:5. In 5 years, ratio becomes 5:6. Find A's current age.",
+    "options": [
+      "20",
+      "25",
+      "15",
+      "30"
+    ],
+    "answer": "20",
+    "answerKey": "A",
+    "correctAnswer": "20",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 20.",
+    "topic": "ages",
+    "topicName": "Ages",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_207",
+    "title": "A mother is 30 years older than her daughter. In 5 years, mother will be 3 ti...",
+    "description": "A mother is 30 years older than her daughter. In 5 years, mother will be 3 times daughter's age. Find daughter's current age.",
+    "question": "A mother is 30 years older than her daughter. In 5 years, mother will be 3 times daughter's age. Find daughter's current age.",
+    "options": [
+      "10",
+      "8",
+      "12",
+      "15"
+    ],
+    "answer": "10",
+    "answerKey": "A",
+    "correctAnswer": "10",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 10.",
+    "topic": "ages",
+    "topicName": "Ages",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_204",
+    "title": "Father is 4 times son's age. In 20 years, father will be twice son's age. Fin...",
+    "description": "Father is 4 times son's age. In 20 years, father will be twice son's age. Find son's current age.",
+    "question": "Father is 4 times son's age. In 20 years, father will be twice son's age. Find son's current age.",
+    "options": [
+      "10",
+      "15",
+      "12",
+      "8"
+    ],
+    "answer": "10",
+    "answerKey": "A",
+    "correctAnswer": "10",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10.",
+    "topic": "ages",
+    "topicName": "Ages",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

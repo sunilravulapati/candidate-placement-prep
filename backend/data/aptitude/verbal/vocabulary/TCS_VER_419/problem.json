@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_419",
+  "slug": "tcs-ver-419",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Choose the synonym of: SYCOPHANT",
+  "description": "Choose the synonym of: SYCOPHANT",
+  "question": "Choose the synonym of: SYCOPHANT",
+  "options": [
+    "A flatterer",
+    "A leader",
+    "A rebel",
+    "A philosopher"
+  ],
+  "optionsMap": {
+    "A": "A flatterer",
+    "B": "A leader",
+    "C": "A rebel",
+    "D": "A philosopher"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "A flatterer",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

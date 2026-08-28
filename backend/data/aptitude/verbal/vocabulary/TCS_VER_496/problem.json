@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_496",
+  "slug": "tcs-ver-496",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which word means 'lasting for a very short time'?",
+  "description": "Which word means 'lasting for a very short time'?",
+  "question": "Which word means 'lasting for a very short time'?",
+  "options": [
+    "Fleeting",
+    "Permanent",
+    "Enduring",
+    "Lasting"
+  ],
+  "optionsMap": {
+    "A": "Fleeting",
+    "B": "Permanent",
+    "C": "Enduring",
+    "D": "Lasting"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Fleeting",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

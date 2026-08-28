@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_353",
+  "slug": "tcs-ver-353",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "one-word-substitution",
+  "topicName": "One Word Substitution",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Find the one word substitution for: One who travels from place to place",
+  "description": "Find the one word substitution for: One who travels from place to place",
+  "question": "Find the one word substitution for: One who travels from place to place",
+  "options": [
+    "Nomad",
+    "Vagabond",
+    "Itinerant",
+    "All of above"
+  ],
+  "optionsMap": {
+    "A": "Nomad",
+    "B": "Vagabond",
+    "C": "Itinerant",
+    "D": "All of above"
+  },
+  "answer": "C",
+  "answerKey": "C",
+  "correctAnswer": "Itinerant",
+  "tags": [
+    "verbal",
+    "one-word-substitution"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

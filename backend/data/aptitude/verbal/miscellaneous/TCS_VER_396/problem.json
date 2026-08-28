@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_396",
+  "slug": "tcs-ver-396",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "miscellaneous",
+  "topicName": "Miscellaneous",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which word correctly fills: 'He _____ me to take the job.'",
+  "description": "Which word correctly fills: 'He _____ me to take the job.'",
+  "question": "Which word correctly fills: 'He _____ me to take the job.'",
+  "options": [
+    "advised",
+    "suggested",
+    "recommended",
+    "told"
+  ],
+  "optionsMap": {
+    "A": "advised",
+    "B": "suggested",
+    "C": "recommended",
+    "D": "told"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "advised",
+  "tags": [
+    "verbal",
+    "miscellaneous"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_156",
+  "slug": "tcs-log-156",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "puzzles",
+  "topicName": "Puzzles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "There are 3 boxes: one has apples, one has oranges, and one has both. Labels ...",
+  "description": "There are 3 boxes: one has apples, one has oranges, and one has both. Labels are wrong. You pick one fruit from box labeled 'Both'. It is an apple. How do you identify all boxes?",
+  "question": "There are 3 boxes: one has apples, one has oranges, and one has both. Labels are wrong. You pick one fruit from box labeled 'Both'. It is an apple. How do you identify all boxes?",
+  "options": [
+    "Box labeled 'Both' has Apples; box labeled 'Apples' has Both; box labeled 'Oranges' has Oranges",
+    "Cannot determine",
+    "Box labeled 'Both' has Oranges",
+    "Need to open another box"
+  ],
+  "optionsMap": {
+    "A": "Box labeled 'Both' has Apples; box labeled 'Apples' has Both; box labeled 'Oranges' has Oranges",
+    "B": "Cannot determine",
+    "C": "Box labeled 'Both' has Oranges",
+    "D": "Need to open another box"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Box labeled 'Both' has Apples; box labeled 'Apples' has Both; box labeled 'Oranges' has Oranges",
+  "tags": [
+    "logical",
+    "puzzles"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

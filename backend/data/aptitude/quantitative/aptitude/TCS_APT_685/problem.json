@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_685",
+  "slug": "tcs-apt-685",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Ratio 13:15. Sum 134. Larger?",
+  "description": "Ratio 13:15. Sum 134. Larger?",
+  "question": "Ratio 13:15. Sum 134. Larger?",
+  "options": [
+    "69",
+    "50",
+    "40",
+    "45"
+  ],
+  "optionsMap": {
+    "A": "69",
+    "B": "50",
+    "C": "40",
+    "D": "45"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "69",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

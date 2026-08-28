@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_216",
+  "slug": "tcs-log-216",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "input-output",
+  "topicName": "Input-Output",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Input: 84 25 63 12 45. Numbers sorted in ascending order, then each multiplie...",
+  "description": "Input: 84 25 63 12 45. Numbers sorted in ascending order, then each multiplied by 2. Final sequence:",
+  "question": "Input: 84 25 63 12 45. Numbers sorted in ascending order, then each multiplied by 2. Final sequence:",
+  "options": [
+    "24 50 84 90 126",
+    "24 50 90 84 126",
+    "24 50 84 126 90",
+    "50 24 84 90 126"
+  ],
+  "optionsMap": {
+    "A": "24 50 84 90 126",
+    "B": "24 50 90 84 126",
+    "C": "24 50 84 126 90",
+    "D": "50 24 84 90 126"
+  },
+  "answer": "C",
+  "answerKey": "C",
+  "correctAnswer": "24 50 84 126 90",
+  "tags": [
+    "logical",
+    "input-output"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

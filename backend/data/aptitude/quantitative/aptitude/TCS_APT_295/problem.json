@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_295",
+  "slug": "tcs-apt-295",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A man rows 18 km downstream in 2h and returns in 3h. Speed of stream?",
+  "description": "A man rows 18 km downstream in 2h and returns in 3h. Speed of stream?",
+  "question": "A man rows 18 km downstream in 2h and returns in 3h. Speed of stream?",
+  "options": [
+    "1.5 km/h",
+    "2 km/h",
+    "1 km/h",
+    "2.5 km/h"
+  ],
+  "optionsMap": {
+    "A": "1.5 km/h",
+    "B": "2 km/h",
+    "C": "1 km/h",
+    "D": "2.5 km/h"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1.5 km/h",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

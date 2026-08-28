@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_236",
+  "slug": "tcs-log-236",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "matrix-reasoning",
+  "topicName": "Matrix Reasoning",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Matrix: 1 4 9 / 16 25 36 / 49 64 ?",
+  "description": "Matrix: 1 4 9 / 16 25 36 / 49 64 ?",
+  "question": "Matrix: 1 4 9 / 16 25 36 / 49 64 ?",
+  "options": [
+    "81",
+    "64",
+    "100",
+    "72"
+  ],
+  "optionsMap": {
+    "A": "81",
+    "B": "64",
+    "C": "100",
+    "D": "72"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "81",
+  "tags": [
+    "logical",
+    "matrix-reasoning"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

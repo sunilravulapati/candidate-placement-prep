@@ -2,11 +2,15 @@
   "id": "group-anagrams",
   "schemaVersion": "2.0",
   "contentVersion": "1.1",
-  "importVersion": "64-column-sheet",
-  "lastReviewed": "2026-07-26",
-  "lastModified": "2026-07-26",
+  "importVersion": "stdin-converted-master-v1",
+  "lastReviewed": "2026-08-28",
+  "lastModified": "2026-08-28",
   "author": "PrepGenie Content Team",
   "reviewStatus": "published",
+  "stdinStatus": "OK",
+  "executionStatus": "V1_READY",
+  "isV2Pending": false,
+  "stdinFormatNotes": "Visible Stdin Input 1: strs: length followed by one space-separated value line\nVisible Stdin Input 2: strs: length followed by one space-separated value line\nVisible Stdin Input 3: strs: length followed by one space-separated value line\nHidden Stdin Input 1: strs: length followed by one space-separated value line\nHidden Stdin Input 2: strs: length followed by one space-separated value line\nHidden Stdin Input 3: strs: length followed by one space-separated value line\nHidden Stdin Input 4: strs: length followed by one space-separated value line\nHidden Stdin Input 5: strs: length followed by one space-separated value line",
   "questionNo": 12,
   "slug": "group-anagrams",
   "title": "Group Anagrams",
@@ -39,6 +43,8 @@
     "Core DSA Track -> Hashing Module"
   ],
   "description": "Group strings that are anagrams of each other.",
+  "inputFormat": "Two strings provided on separate lines or space-separated",
+  "outputFormat": "Standard output stream containing the computed result.",
   "whyLearnThis": "High frequency medium-level interview question for testing algorithm design and hashing proficiency.",
   "recognitionClues": "Look for array/string traversal where hashing properties or sliding boundaries reduce time complexity.",
   "prerequisites": "Hashing fundamentals, recursion, or hashing",
@@ -67,24 +73,25 @@
     "Goldman Sachs"
   ],
   "constraints": [
-    "1 <= input.length <= 10^5",
-    "-10^9 <= input[i] <= 10^9"
+    "1 <= input length <= 10^5",
+    "Standard execution time limit: 2.0s",
+    "Standard memory limit: 256MB"
   ],
   "examples": [
     {
-      "input": "\"babad\"",
-      "output": "\"bab\"",
-      "explanation": "Sample test 1 for Group Anagrams"
+      "input": "strs = [\"eat\",\"tea\",\"tan\",\"ate\",\"nat\",\"bat\"]",
+      "output": "[[\"eat\",\"tea\",\"ate\"],[\"tan\",\"nat\"],[\"bat\"]]",
+      "explanation": "three anagram groups. Expected output: [[\"eat\",\"tea\",\"ate\"],[\"tan\",\"nat\"],[\"bat\"]]"
     },
     {
-      "input": "\"cbbd\"",
-      "output": "\"bb\"",
-      "explanation": "Sample test 2 for Group Anagrams"
+      "input": "strs = [\"\"]",
+      "output": "[[\"\"]]",
+      "explanation": "empty string. Expected output: [[\"\"]]"
     },
     {
-      "input": "\"a\"",
-      "output": "\"a\"",
-      "explanation": "Sample test 3 for Group Anagrams"
+      "input": "strs = [\"a\"]",
+      "output": "[[\"a\"]]",
+      "explanation": "single word. Expected output: [[\"a\"]]"
     }
   ],
   "hints": [
@@ -114,22 +121,17 @@
       "url": "https://leetcode.com/problems/group-anagrams/"
     }
   ],
-  "inputTemplates": {
-    "python": "# --- 12. Group Anagrams (hashing) ---\ndef solution(inputs):\n    # Function implementation\n    pass\n\nif __name__ == \"__main__\":\n    import sys\n    # Sample Input: adjust according to problem requirements\n    raw_input = sys.stdin.read().splitlines() if not sys.stdin.isatty() else [\"sample_input_1\", \"sample_input_2\"]\n    print(f\"Input: {raw_input}\")\n    # result = solution(raw_input)\n    # print(f\"Output: {result}\")\n",
-    "cpp": "// --- 12. Group Anagrams (hashing) ---\n#include <iostream>\n#include <vector>\n#include <string>\n#include <sstream>\nusing namespace std;\n\nclass Solution {\npublic:\n    void solve() {\n        // Implement driver and input logic\n    }\n};\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    Solution sol;\n    sol.solve();\n    return 0;\n}\n",
-    "java": "// --- 12. Group Anagrams (hashing) ---\nimport java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        // Parse input here\n        System.out.println(\"Ready for input: \" + \"Group Anagrams\");\n    }\n}\n",
-    "javascript": "// --- 12. Group Anagrams (hashing) ---\nconst fs = require('fs');\n\nfunction solve(input) {\n  // Implement standard logic\n  return input;\n}\n\nconst input = fs.readFileSync('/dev/stdin', 'utf-8').trim().split('\\n');\nconsole.log(solve(input));\n",
-    "typescript": "// --- 12. Group Anagrams (hashing) ---\nimport * as fs from 'fs';\n\nfunction solveTS(inputData: string[]): any {\n  // Implement TypeScript logic\n  return inputData;\n}\n\nconst rawData: string[] = fs.readFileSync(0, 'utf-8').trim().split('\\n');\nconsole.log(solveTS(rawData));\n"
-  },
   "inputHelper": {
-    "inputFormat": "Input Format for Group Anagrams:\nStandard competitive programming stdin input stream.",
-    "sampleInput": "\"babad\"",
-    "codeTemplates": {
-      "python": "# --- 12. Group Anagrams (hashing) ---\ndef solution(inputs):\n    # Function implementation\n    pass\n\nif __name__ == \"__main__\":\n    import sys\n    # Sample Input: adjust according to problem requirements\n    raw_input = sys.stdin.read().splitlines() if not sys.stdin.isatty() else [\"sample_input_1\", \"sample_input_2\"]\n    print(f\"Input: {raw_input}\")\n    # result = solution(raw_input)\n    # print(f\"Output: {result}\")\n",
-      "cpp": "// --- 12. Group Anagrams (hashing) ---\n#include <iostream>\n#include <vector>\n#include <string>\n#include <sstream>\nusing namespace std;\n\nclass Solution {\npublic:\n    void solve() {\n        // Implement driver and input logic\n    }\n};\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    Solution sol;\n    sol.solve();\n    return 0;\n}\n",
-      "java": "// --- 12. Group Anagrams (hashing) ---\nimport java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        // Parse input here\n        System.out.println(\"Ready for input: \" + \"Group Anagrams\");\n    }\n}\n",
-      "javascript": "// --- 12. Group Anagrams (hashing) ---\nconst fs = require('fs');\n\nfunction solve(input) {\n  // Implement standard logic\n  return input;\n}\n\nconst input = fs.readFileSync('/dev/stdin', 'utf-8').trim().split('\\n');\nconsole.log(solve(input));\n",
-      "typescript": "// --- 12. Group Anagrams (hashing) ---\nimport * as fs from 'fs';\n\nfunction solveTS(inputData: string[]): any {\n  // Implement TypeScript logic\n  return inputData;\n}\n\nconst rawData: string[] = fs.readFileSync(0, 'utf-8').trim().split('\\n');\nconsole.log(solveTS(rawData));\n"
+    "mode": "auto",
+    "inputFormat": "Two strings provided on separate lines or space-separated",
+    "sampleInput": "6\neat tea tan ate nat bat",
+    "instructions": "Read input from standard input (stdin) and print output to standard output (stdout).",
+    "snippets": {
+      "cpp": "// Read two strings\nstring s1, s2;\nif (cin >> s1 >> s2) {\n    // Solve problem with s1 and s2\n}",
+      "python": "# Read two strings\nimport sys\n\ntokens = sys.stdin.read().split()\nif len(tokens) >= 2:\n    s1, s2 = tokens[0], tokens[1]\n    # Solve problem with s1 and s2",
+      "java": "import java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        if (sc.hasNext()) {\n            String s1 = sc.next();\n            String s2 = sc.next();\n            // Solve problem with s1 and s2\n        }\n    }\n}",
+      "javascript": "const fs = require('fs');\n\nconst tokens = fs.readFileSync(0, 'utf8').trim().split(/\\s+/);\nif (tokens.length >= 2) {\n    const s1 = tokens[0];\n    const s2 = tokens[1];\n    // Solve problem with s1 and s2\n}",
+      "typescript": "import * as fs from 'fs';\n\nconst tokens: string[] = fs.readFileSync(0, 'utf8').trim().split(/\\s+/);\nif (tokens.length >= 2) {\n    const s1: string = tokens[0];\n    const s2: string = tokens[1];\n    // Solve problem with s1 and s2\n}"
     }
   },
   "referenceSolutions": {
@@ -140,44 +142,11 @@
     "typescript": "function groupAnagrams(s: string): boolean {\n    const map = new Map<string, number>();\n    for (let char of s) map.set(char, (map.get(char) || 0) + 1);\n    return true;\n};"
   },
   "starterCode": {
-    "cpp": "class Solution {\npublic:\n    bool groupAnagrams(string s) {\n        \n    }\n};",
-    "python": "class Solution:\n    def groupAnagrams(self, s: str) -> bool:\n        pass",
-    "java": "class Solution {\n    public boolean groupAnagrams(String s) {\n        \n    }\n}",
-    "javascript": "var groupAnagrams = function(s) {\n    \n};",
-    "typescript": "function groupAnagrams(s: string): boolean {\n    \n};"
-  },
-  "starterMetadata": {
-    "functionName": "groupAnagrams",
-    "className": "Solution",
-    "returnType": "int",
-    "parameters": [
-      {
-        "name": "nums",
-        "type": "array<int>"
-      }
-    ],
-    "problemType": "FUNCTION"
-  },
-  "executionMetadata": {
-    "problemType": "FUNCTION",
-    "inputType": [
-      "array<int>"
-    ],
-    "outputType": "int",
-    "comparator": "EXACT",
-    "timeLimit": 2,
-    "memoryLimit": 256,
-    "expectedComplexity": {
-      "time": "O(N) or O(N log N)",
-      "space": "O(N) or O(1)"
-    }
-  },
-  "driverMetadata": {
-    "driver": "DEFAULT",
-    "inputSerializers": [
-      "ARRAY_INT"
-    ],
-    "outputSerializer": "INT"
+    "cpp": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    // Read input according to the Input Format\n    // Write solution here\n    return 0;\n}",
+    "python": "def main():\n    # Read input according to the Input Format\n    # Write solution here\n    pass\n\nif __name__ == \"__main__\":\n    main()",
+    "java": "import java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        // Read input according to the Input Format\n        // Write solution here\n    }\n}",
+    "javascript": "const fs = require(\"fs\");\n\nfunction main() {\n    const input = fs.readFileSync(0, \"utf-8\").trim();\n    if (!input) return;\n    // Read input according to the Input Format\n    // Write solution here\n}\n\nmain();",
+    "typescript": "import * as fs from \"fs\";\n\nfunction main() {\n    const input = fs.readFileSync(0, \"utf-8\").trim();\n    if (!input) return;\n    // Read input according to the Input Format\n    // Write solution here\n}\n\nmain();"
   },
   "relationships": {
     "prerequisites": [],
@@ -195,60 +164,84 @@
     {
       "id": "sample-1",
       "classification": "sample",
-      "input": "\"babad\"",
-      "expectedOutput": "\"bab\"",
-      "explanation": "Sample test 1 for Group Anagrams"
+      "displayInput": "strs = [\"eat\",\"tea\",\"tan\",\"ate\",\"nat\",\"bat\"]",
+      "input": "6\neat tea tan ate nat bat",
+      "stdin": "6\neat tea tan ate nat bat",
+      "expectedOutput": "[[\"eat\",\"tea\",\"ate\"],[\"tan\",\"nat\"],[\"bat\"]]",
+      "explanation": "three anagram groups. Expected output: [[\"eat\",\"tea\",\"ate\"],[\"tan\",\"nat\"],[\"bat\"]]",
+      "serializationStatus": "compatible"
     },
     {
       "id": "sample-2",
       "classification": "sample",
-      "input": "\"cbbd\"",
-      "expectedOutput": "\"bb\"",
-      "explanation": "Sample test 2 for Group Anagrams"
+      "displayInput": "strs = [\"\"]",
+      "input": "1",
+      "stdin": "1",
+      "expectedOutput": "[[\"\"]]",
+      "explanation": "empty string. Expected output: [[\"\"]]",
+      "serializationStatus": "compatible"
     },
     {
       "id": "sample-3",
       "classification": "sample",
-      "input": "\"a\"",
-      "expectedOutput": "\"a\"",
-      "explanation": "Sample test 3 for Group Anagrams"
+      "displayInput": "strs = [\"a\"]",
+      "input": "1\na",
+      "stdin": "1\na",
+      "expectedOutput": "[[\"a\"]]",
+      "explanation": "single word. Expected output: [[\"a\"]]",
+      "serializationStatus": "compatible"
     }
   ],
   "hiddenTests": [
     {
-      "id": "edge-1",
-      "classification": "edge",
-      "input": "\"\"",
-      "expectedOutput": "\"\"",
-      "explanation": "Empty string boundary"
+      "id": "hidden-1",
+      "classification": "hidden",
+      "displayInput": "strs = [\"ab\",\"ba\",\"abc\",\"cab\",\"bca\"]",
+      "input": "5\nab ba abc cab bca",
+      "stdin": "5\nab ba abc cab bca",
+      "expectedOutput": "[[\"ab\",\"ba\"],[\"abc\",\"cab\",\"bca\"]]",
+      "explanation": "groups with different lengths",
+      "serializationStatus": "compatible"
     },
     {
-      "id": "corner-2",
-      "classification": "corner",
-      "input": "\"aaaaa\"",
-      "expectedOutput": "\"aaaaa\"",
-      "explanation": "All identical characters"
+      "id": "hidden-2",
+      "classification": "hidden",
+      "displayInput": "strs = [\"listen\",\"silent\",\"enlist\",\"google\"]",
+      "input": "4\nlisten silent enlist google",
+      "stdin": "4\nlisten silent enlist google",
+      "expectedOutput": "[[\"listen\",\"silent\",\"enlist\"],[\"google\"]]",
+      "explanation": "longer words",
+      "serializationStatus": "compatible"
     },
     {
-      "id": "stress-3",
-      "classification": "stress",
-      "input": "\"abcdefghijklmnopqrstuvwxyz\"",
-      "expectedOutput": "1",
-      "explanation": "All distinct characters"
+      "id": "hidden-3",
+      "classification": "hidden",
+      "displayInput": "strs = [\"a\",\"a\",\"b\"]",
+      "input": "3\na a b",
+      "stdin": "3\na a b",
+      "expectedOutput": "[[\"a\",\"a\"],[\"b\"]]",
+      "explanation": "duplicate words",
+      "serializationStatus": "compatible"
     },
     {
-      "id": "duplicates-4",
-      "classification": "duplicates",
-      "input": "\"abacaba\"",
-      "expectedOutput": "\"abacaba\"",
-      "explanation": "Symmetric palindrome string"
+      "id": "hidden-4",
+      "classification": "hidden",
+      "displayInput": "strs = [\"rat\",\"tar\",\"art\",\"car\"]",
+      "input": "4\nrat tar art car",
+      "stdin": "4\nrat tar art car",
+      "expectedOutput": "[[\"rat\",\"tar\",\"art\"],[\"car\"]]",
+      "explanation": "multiple anagrams",
+      "serializationStatus": "compatible"
     },
     {
-      "id": "performance-5",
-      "classification": "performance",
-      "input": "\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"",
-      "expectedOutput": "...",
-      "explanation": "Performance test"
+      "id": "hidden-5",
+      "classification": "hidden",
+      "displayInput": "strs = []",
+      "input": "0",
+      "stdin": "0",
+      "expectedOutput": "[]",
+      "explanation": "empty list",
+      "serializationStatus": "compatible"
     }
   ]
 }

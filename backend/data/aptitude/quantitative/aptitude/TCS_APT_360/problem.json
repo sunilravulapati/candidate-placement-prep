@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_360",
+  "slug": "tcs-apt-360",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A clock gains 15 min per day. Set correctly at noon Mon. What time on Tue noo...",
+  "description": "A clock gains 15 min per day. Set correctly at noon Mon. What time on Tue noon does it show?",
+  "question": "A clock gains 15 min per day. Set correctly at noon Mon. What time on Tue noon does it show?",
+  "options": [
+    "12:15",
+    "1:00 PM",
+    "12:30",
+    "11:45 AM"
+  ],
+  "optionsMap": {
+    "A": "12:15",
+    "B": "1:00 PM",
+    "C": "12:30",
+    "D": "11:45 AM"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "12:15",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

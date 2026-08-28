@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_325",
+  "slug": "tcs-log-325",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Letter series: A, B, D, G, K, ?",
+  "description": "Letter series: A, B, D, G, K, ?",
+  "question": "Letter series: A, B, D, G, K, ?",
+  "options": [
+    "P",
+    "O",
+    "Q",
+    "N"
+  ],
+  "optionsMap": {
+    "A": "P",
+    "B": "O",
+    "C": "Q",
+    "D": "N"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "P",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_258",
+  "slug": "tcs-ver-258",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "sentence-improvement",
+  "topicName": "Sentence Improvement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Improve the underlined part of the sentence: 'I am used to sleep late on week...",
+  "description": "Improve the underlined part of the sentence: 'I am used to sleep late on weekends.'",
+  "question": "Improve the underlined part of the sentence: 'I am used to sleep late on weekends.'",
+  "options": [
+    "sleeping",
+    "slept",
+    "sleep",
+    "No improvement"
+  ],
+  "optionsMap": {
+    "A": "sleeping",
+    "B": "slept",
+    "C": "sleep",
+    "D": "No improvement"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "sleeping",
+  "tags": [
+    "verbal",
+    "sentence-improvement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

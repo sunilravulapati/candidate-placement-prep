@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_143",
+  "slug": "tcs-apt-143",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "number-series",
+  "topicName": "Number Series",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Find the next: 2, 5, 11, 23, 47, ___",
+  "description": "Find the next: 2, 5, 11, 23, 47, ___",
+  "question": "Find the next: 2, 5, 11, 23, 47, ___",
+  "options": [
+    "95",
+    "90",
+    "100",
+    "85"
+  ],
+  "optionsMap": {
+    "A": "95",
+    "B": "90",
+    "C": "100",
+    "D": "85"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "95",
+  "tags": [
+    "quantitative",
+    "number-series"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

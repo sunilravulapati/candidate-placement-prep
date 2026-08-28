@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_282",
+  "slug": "tcs-ver-282",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "word-analogy",
+  "topicName": "Word Analogy",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Complete the analogy: Pilot : Aircraft :: Captain : ?",
+  "description": "Complete the analogy: Pilot : Aircraft :: Captain : ?",
+  "question": "Complete the analogy: Pilot : Aircraft :: Captain : ?",
+  "options": [
+    "Ship",
+    "Train",
+    "Bus",
+    "Bicycle"
+  ],
+  "optionsMap": {
+    "A": "Ship",
+    "B": "Train",
+    "C": "Bus",
+    "D": "Bicycle"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Ship",
+  "tags": [
+    "verbal",
+    "word-analogy"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

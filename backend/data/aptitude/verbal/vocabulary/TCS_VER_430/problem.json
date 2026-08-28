@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_430",
+  "slug": "tcs-ver-430",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Choose the synonym of: RECALCITRANT",
+  "description": "Choose the synonym of: RECALCITRANT",
+  "question": "Choose the synonym of: RECALCITRANT",
+  "options": [
+    "Stubbornly disobedient",
+    "Cooperative",
+    "Obedient",
+    "Agreeable"
+  ],
+  "optionsMap": {
+    "A": "Stubbornly disobedient",
+    "B": "Cooperative",
+    "C": "Obedient",
+    "D": "Agreeable"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Stubbornly disobedient",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

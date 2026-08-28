@@ -1,87 +1,422 @@
 [
   {
-    "id": "logical_blood_relations_1",
-    "title": "Photograph Pointing",
-    "description": "Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+    "id": "TCS_LOG_052",
+    "title": "If P is Q's father, Q is R's mother, R is S's sibling, then P is S's?",
+    "description": "If P is Q's father, Q is R's mother, R is S's sibling, then P is S's?",
+    "question": "If P is Q's father, Q is R's mother, R is S's sibling, then P is S's?",
     "options": [
-      "Brother",
+      "Grandfather",
+      "Father",
       "Uncle",
-      "Cousin",
-      "Father"
+      "Grandmother"
     ],
-    "correctAnswer": "Father",
+    "answer": "Grandfather",
+    "answerKey": "A",
+    "correctAnswer": "Grandfather",
     "difficulty": "EASY",
     "difficultyLabel": "Easy",
-    "explanation": "'The only son of Suresh's mother' is Suresh himself.\nSo, Suresh is talking about Suresh's own son.\nThus, Suresh is the father of the boy in the photograph.",
+    "explanation": "Option (A) is the correct answer: Grandfather.",
     "topic": "blood-relations",
-    "category": "logical"
+    "topicName": "Blood Relations",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
   },
   {
-    "id": "logical_blood_relations_2",
-    "title": "Family Relation Chain",
-    "description": "A is the brother of B. C is the father of A. D is the brother of E. E is the daughter of B. Who is the uncle of D?",
+    "id": "TCS_LOG_060",
+    "title": "A boy says 'That man is the husband of my mother's sister.' The man is the bo...",
+    "description": "A boy says 'That man is the husband of my mother's sister.' The man is the boy's ___",
+    "question": "A boy says 'That man is the husband of my mother's sister.' The man is the boy's ___",
     "options": [
-      "A",
-      "B",
-      "C",
-      "E"
+      "Uncle",
+      "Father",
+      "Cousin",
+      "Brother"
     ],
-    "correctAnswer": "A",
-    "difficulty": "MEDIUM",
-    "difficultyLabel": "Easy-Medium",
-    "explanation": "Let's trace the relations:\n1. A is the brother of B.\n2. C is the father of A (hence C is the father of both A and B).\n3. E is the daughter of B.\n4. D is the brother of E (hence D is B's son).\nSince D is the child of B and A is the brother of B, A is the uncle (maternal or paternal depending on B's gender) of D.",
+    "answer": "Uncle",
+    "answerKey": "A",
+    "correctAnswer": "Uncle",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Uncle.",
     "topic": "blood-relations",
-    "category": "logical"
+    "topicName": "Blood Relations",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
   },
   {
-    "id": "logical_blood_relations_3",
-    "title": "Coded Relations",
-    "description": "If 'P + Q' means 'P is the mother of Q', 'P - Q' means 'P is the brother of Q', 'P * Q' means 'P is the father of Q', and 'P / Q' means 'P is the sister of Q', which of the following represents 'M is the maternal uncle of R'?",
+    "id": "TCS_LOG_048",
+    "title": "A + B means A is mother of B; A − B means A is brother of B; A × B means A is...",
+    "description": "A + B means A is mother of B; A − B means A is brother of B; A × B means A is father of B; A ÷ B means A is sister of B. If P × Q + R, then P is R's?",
+    "question": "A + B means A is mother of B; A − B means A is brother of B; A × B means A is father of B; A ÷ B means A is sister of B. If P × Q + R, then P is R's?",
     "options": [
-      "M - N + R",
-      "M + N - R",
-      "M - N * R",
-      "M / N + R"
+      "Grandfather",
+      "Father",
+      "Grandmother",
+      "Maternal uncle"
     ],
-    "correctAnswer": "M - N + R",
+    "answer": "Grandfather",
+    "answerKey": "A",
+    "correctAnswer": "Grandfather",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Grandfather.",
+    "topic": "blood-relations",
+    "topicName": "Blood Relations",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_053",
+    "title": "A woman pointing to a photo says 'This man's son is my son's father.' Who is ...",
+    "description": "A woman pointing to a photo says 'This man's son is my son's father.' Who is the man in the photo to the woman?",
+    "question": "A woman pointing to a photo says 'This man's son is my son's father.' Who is the man in the photo to the woman?",
+    "options": [
+      "Father-in-law",
+      "Father",
+      "Uncle",
+      "Husband"
+    ],
+    "answer": "Father-in-law",
+    "answerKey": "A",
+    "correctAnswer": "Father-in-law",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Father-in-law.",
+    "topic": "blood-relations",
+    "topicName": "Blood Relations",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_054",
+    "title": "X is Y's brother. Y is Z's sister. Z is W's father. W is V's mother. V is X's...",
+    "description": "X is Y's brother. Y is Z's sister. Z is W's father. W is V's mother. V is X's ___.",
+    "question": "X is Y's brother. Y is Z's sister. Z is W's father. W is V's mother. V is X's ___.",
+    "options": [
+      "Niece",
+      "Nephew",
+      "Daughter",
+      "Cousin"
+    ],
+    "answer": "Niece",
+    "answerKey": "A",
+    "correctAnswer": "Niece",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Niece.",
+    "topic": "blood-relations",
+    "topicName": "Blood Relations",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_055",
+    "title": "Rahul's mother is the only daughter of Monika's father. How is Monika's husba...",
+    "description": "Rahul's mother is the only daughter of Monika's father. How is Monika's husband related to Rahul?",
+    "question": "Rahul's mother is the only daughter of Monika's father. How is Monika's husband related to Rahul?",
+    "options": [
+      "Maternal uncle",
+      "Father",
+      "Grandfather",
+      "Uncle"
+    ],
+    "answer": "Maternal uncle",
+    "answerKey": "A",
+    "correctAnswer": "Maternal uncle",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Maternal uncle.",
+    "topic": "blood-relations",
+    "topicName": "Blood Relations",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_058",
+    "title": "If M is the daughter of N, N is the sister of P, P is the mother of Q, then M...",
+    "description": "If M is the daughter of N, N is the sister of P, P is the mother of Q, then M is Q's ___",
+    "question": "If M is the daughter of N, N is the sister of P, P is the mother of Q, then M is Q's ___",
+    "options": [
+      "Cousin",
+      "Niece",
+      "Aunt",
+      "Sister"
+    ],
+    "answer": "Cousin",
+    "answerKey": "A",
+    "correctAnswer": "Cousin",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Cousin.",
+    "topic": "blood-relations",
+    "topicName": "Blood Relations",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_059",
+    "title": "P is Q's father. Q is R's sister. S is R's mother. T is S's father. P is T's ___",
+    "description": "P is Q's father. Q is R's sister. S is R's mother. T is S's father. P is T's ___",
+    "question": "P is Q's father. Q is R's sister. S is R's mother. T is S's father. P is T's ___",
+    "options": [
+      "Son-in-law",
+      "Nephew",
+      "Son",
+      "Cousin"
+    ],
+    "answer": "Son-in-law",
+    "answerKey": "A",
+    "correctAnswer": "Son-in-law",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Son-in-law.",
+    "topic": "blood-relations",
+    "topicName": "Blood Relations",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_046",
+    "title": "A is the father of B. B is the sister of C. C is the son of D. What is D to A?",
+    "description": "A is the father of B. B is the sister of C. C is the son of D. What is D to A?",
+    "question": "A is the father of B. B is the sister of C. C is the son of D. What is D to A?",
+    "options": [
+      "Son-in-law",
+      "Daughter-in-law",
+      "Son",
+      "Daughter"
+    ],
+    "answer": "Son-in-law",
+    "answerKey": "A",
+    "correctAnswer": "Son-in-law",
     "difficulty": "MEDIUM",
     "difficultyLabel": "Medium",
-    "explanation": "Let's check option A: 'M - N + R'\n- 'M - N' means M is the brother of N.\n- 'N + R' means N is the mother of R.\nSince N is the mother of R, and M is the brother of N, M is the brother of R's mother, which means M is the maternal uncle of R.\nTherefore, option A is correct.",
+    "explanation": "Option (A) is the correct answer: Son-in-law.",
     "topic": "blood-relations",
-    "category": "logical"
+    "topicName": "Blood Relations",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
   },
   {
-    "id": "logical_blood_relations_4",
-    "title": "Family Tree with Occupations",
-    "description": "In a family of six people (A, B, C, D, E, F), there are two married couples. The lawyer is the father of A. B is a teacher and the mother of C. F is the grandfather of E and is a doctor. D is the grandmother of C and is a housewife. There is one lawyer, one teacher, one doctor, one housewife, and two students in the family. What is the profession of A?",
+    "id": "TCS_LOG_047",
+    "title": "Pointing to a woman, a man says 'She is the sister of the father of my son.' ...",
+    "description": "Pointing to a woman, a man says 'She is the sister of the father of my son.' How is the woman related to the man?",
+    "question": "Pointing to a woman, a man says 'She is the sister of the father of my son.' How is the woman related to the man?",
     "options": [
-      "Lawyer",
-      "Teacher",
-      "Doctor",
-      "Student"
+      "Aunt",
+      "Sister",
+      "Mother",
+      "Cousin"
     ],
-    "correctAnswer": "Lawyer",
-    "difficulty": "HARD",
-    "difficultyLabel": "Medium-Hard",
-    "explanation": "Let's map the relations and professions:\n1. F is the grandfather of E and is a doctor.\n2. D is the grandmother of C and is a housewife. So, F and D are a married couple (Grandparents tier).\n3. B is a teacher and the mother of C.\n4. C and E are siblings (or cousins) of the youngest generation and are the two students.\n5. The lawyer is the father of A.\n6. Since there are two married couples, B (mother) must be married to the father of A/C/E. B is the teacher, meaning her husband is the lawyer.\n7. Since F is the grandfather and D is the grandmother, A must be the father of C and E. Thus, A is the lawyer.",
+    "answer": "Aunt",
+    "answerKey": "A",
+    "correctAnswer": "Aunt",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Aunt.",
     "topic": "blood-relations",
-    "category": "logical"
+    "topicName": "Blood Relations",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
   },
   {
-    "id": "logical_blood_relations_5",
-    "title": "Complex Coded Relations",
-    "description": "Study the code: 'A # B' means A is the husband of B; 'A $ B' means A is the daughter of B; 'A % B' means A is the father of B; 'A * B' means A is the sister of B. If 'U $ V # W % X * Y' is true, how is U related to Y?",
+    "id": "TCS_LOG_050",
+    "title": "Introducing a girl, a boy says 'She is the daughter of my mother's only son.'...",
+    "description": "Introducing a girl, a boy says 'She is the daughter of my mother's only son.' How is the girl related to the boy?",
+    "question": "Introducing a girl, a boy says 'She is the daughter of my mother's only son.' How is the girl related to the boy?",
+    "options": [
+      "Daughter",
+      "Niece",
+      "Sister",
+      "Cousin"
+    ],
+    "answer": "Daughter",
+    "answerKey": "A",
+    "correctAnswer": "Daughter",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Daughter.",
+    "topic": "blood-relations",
+    "topicName": "Blood Relations",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_051",
+    "title": "A man said to a woman, 'Your mother's husband's sister is my aunt.' How is th...",
+    "description": "A man said to a woman, 'Your mother's husband's sister is my aunt.' How is the woman related to the man?",
+    "question": "A man said to a woman, 'Your mother's husband's sister is my aunt.' How is the woman related to the man?",
     "options": [
       "Sister",
       "Aunt",
-      "Mother",
-      "Niece"
+      "Niece",
+      "Cousin"
     ],
+    "answer": "Sister",
+    "answerKey": "A",
     "correctAnswer": "Sister",
-    "difficulty": "HARD",
-    "difficultyLabel": "Hard",
-    "explanation": "Let's decode the statement 'U $ V # W % X * Y' step-by-step:\n1. 'V # W': V is the husband of W (W is the wife).\n2. 'U $ V': U is the daughter of V. Since V is married to W, U is the daughter of V and W.\n3. 'W % X': W is the mother of X (since V is husband and % means father/parent in context, W is father/mother. W is female, so W is mother of X).\n4. 'X * Y': X is the sister of Y.\nFrom 2 and 3, V and W are parents of U, X, and Y.\nSince U is a female (daughter) and Y is another child of the same parents, U must be the sister of Y.",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Sister.",
     "topic": "blood-relations",
-    "category": "logical"
+    "topicName": "Blood Relations",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_056",
+    "title": "If A's father's only son is B, and B's mother is C, then C is A's ___",
+    "description": "If A's father's only son is B, and B's mother is C, then C is A's ___",
+    "question": "If A's father's only son is B, and B's mother is C, then C is A's ___",
+    "options": [
+      "Mother",
+      "Aunt",
+      "Sister",
+      "Grandmother"
+    ],
+    "answer": "Mother",
+    "answerKey": "A",
+    "correctAnswer": "Mother",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Mother.",
+    "topic": "blood-relations",
+    "topicName": "Blood Relations",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_057",
+    "title": "A woman introduces a man as the son of the brother of her mother. How is the ...",
+    "description": "A woman introduces a man as the son of the brother of her mother. How is the man related to the woman?",
+    "question": "A woman introduces a man as the son of the brother of her mother. How is the man related to the woman?",
+    "options": [
+      "Cousin",
+      "Uncle",
+      "Nephew",
+      "Brother"
+    ],
+    "answer": "Cousin",
+    "answerKey": "A",
+    "correctAnswer": "Cousin",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Cousin.",
+    "topic": "blood-relations",
+    "topicName": "Blood Relations",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
   }
 ]

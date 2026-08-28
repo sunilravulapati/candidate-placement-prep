@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_440",
+  "slug": "tcs-log-440",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Series: AAB, BBC, CCD, __?",
+  "description": "Series: AAB, BBC, CCD, __?",
+  "question": "Series: AAB, BBC, CCD, __?",
+  "options": [
+    "DDE",
+    "EEF",
+    "DDC",
+    "DEF"
+  ],
+  "optionsMap": {
+    "A": "DDE",
+    "B": "EEF",
+    "C": "DDC",
+    "D": "DEF"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "DDE",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

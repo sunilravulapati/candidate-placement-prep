@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_390",
+  "slug": "tcs-log-390",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which does not fit: Violin, Guitar, Flute, Sitar",
+  "description": "Which does not fit: Violin, Guitar, Flute, Sitar",
+  "question": "Which does not fit: Violin, Guitar, Flute, Sitar",
+  "options": [
+    "Flute",
+    "Guitar",
+    "Violin",
+    "Sitar"
+  ],
+  "optionsMap": {
+    "A": "Flute",
+    "B": "Guitar",
+    "C": "Violin",
+    "D": "Sitar"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Flute",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

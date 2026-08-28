@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_345",
+  "slug": "tcs-apt-345",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The LCM of 6, 10, and 15 is?",
+  "description": "The LCM of 6, 10, and 15 is?",
+  "question": "The LCM of 6, 10, and 15 is?",
+  "options": [
+    "30",
+    "60",
+    "90",
+    "120"
+  ],
+  "optionsMap": {
+    "A": "30",
+    "B": "60",
+    "C": "90",
+    "D": "120"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "30",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

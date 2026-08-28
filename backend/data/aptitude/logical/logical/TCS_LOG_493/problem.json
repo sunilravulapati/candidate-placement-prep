@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_493",
+  "slug": "tcs-log-493",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Direction: Map shows N top. A goes right then down. Directions moved?",
+  "description": "Direction: Map shows N top. A goes right then down. Directions moved?",
+  "question": "Direction: Map shows N top. A goes right then down. Directions moved?",
+  "options": [
+    "East then South",
+    "North then East",
+    "West then South",
+    "East then North"
+  ],
+  "optionsMap": {
+    "A": "East then South",
+    "B": "North then East",
+    "C": "West then South",
+    "D": "East then North"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "East then South",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

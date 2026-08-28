@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_353",
+  "slug": "tcs-apt-353",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A ship moves 10 km north and 10 km east. Displacement?",
+  "description": "A ship moves 10 km north and 10 km east. Displacement?",
+  "question": "A ship moves 10 km north and 10 km east. Displacement?",
+  "options": [
+    "10√2 km",
+    "20 km",
+    "14 km",
+    "12 km"
+  ],
+  "optionsMap": {
+    "A": "10√2 km",
+    "B": "20 km",
+    "C": "14 km",
+    "D": "12 km"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "10√2 km",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

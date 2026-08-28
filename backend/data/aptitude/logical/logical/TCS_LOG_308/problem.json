@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_308",
+  "slug": "tcs-log-308",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Ranking: In a row of 40, X is 11th from right. Position from left?",
+  "description": "Ranking: In a row of 40, X is 11th from right. Position from left?",
+  "question": "Ranking: In a row of 40, X is 11th from right. Position from left?",
+  "options": [
+    "30",
+    "29",
+    "31",
+    "28"
+  ],
+  "optionsMap": {
+    "A": "30",
+    "B": "29",
+    "C": "31",
+    "D": "28"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "30",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

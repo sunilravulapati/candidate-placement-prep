@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_108",
+  "slug": "tcs-ver-108",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "He had an _____ memory and could recall events from decades ago.",
+  "description": "He had an _____ memory and could recall events from decades ago.",
+  "question": "He had an _____ memory and could recall events from decades ago.",
+  "options": [
+    "impeccable",
+    "average",
+    "ordinary",
+    "poor"
+  ],
+  "optionsMap": {
+    "A": "impeccable",
+    "B": "average",
+    "C": "ordinary",
+    "D": "poor"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "impeccable",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

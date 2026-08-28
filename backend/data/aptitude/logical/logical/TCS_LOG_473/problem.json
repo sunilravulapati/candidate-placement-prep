@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_473",
+  "slug": "tcs-log-473",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Coding: COMPUTER reversals = ?",
+  "description": "Coding: COMPUTER reversals = ?",
+  "question": "Coding: COMPUTER reversals = ?",
+  "options": [
+    "RETUPMOC",
+    "COMPUTOR",
+    "COMRUTER",
+    "RETUMPC"
+  ],
+  "optionsMap": {
+    "A": "RETUPMOC",
+    "B": "COMPUTOR",
+    "C": "COMRUTER",
+    "D": "RETUMPC"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "RETUPMOC",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

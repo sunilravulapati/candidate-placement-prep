@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_288",
+  "slug": "tcs-log-288",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Calendar: How many odd days in a leap year?",
+  "description": "Calendar: How many odd days in a leap year?",
+  "question": "Calendar: How many odd days in a leap year?",
+  "options": [
+    "2",
+    "1",
+    "3",
+    "0"
+  ],
+  "optionsMap": {
+    "A": "2",
+    "B": "1",
+    "C": "3",
+    "D": "0"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "2",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

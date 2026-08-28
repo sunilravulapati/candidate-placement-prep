@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_365",
+  "slug": "tcs-ver-365",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, enc...",
+  "description": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: What do scientists warn could happen if species loss continues?",
+  "question": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: What do scientists warn could happen if species loss continues?",
+  "options": [
+    "A sixth mass extinction",
+    "A new ice age",
+    "Rapid species recovery",
+    "Improved ecosystems"
+  ],
+  "optionsMap": {
+    "A": "A sixth mass extinction",
+    "B": "A new ice age",
+    "C": "Rapid species recovery",
+    "D": "Improved ecosystems"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "A sixth mass extinction",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

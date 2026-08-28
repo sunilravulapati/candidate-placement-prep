@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_358",
+  "slug": "tcs-apt-358",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Two pipes fill tank in 30min and 45min. Third drains in 60min. Time to fill w...",
+  "description": "Two pipes fill tank in 30min and 45min. Third drains in 60min. Time to fill when all open?",
+  "question": "Two pipes fill tank in 30min and 45min. Third drains in 60min. Time to fill when all open?",
+  "options": [
+    "36min",
+    "40min",
+    "45min",
+    "30min"
+  ],
+  "optionsMap": {
+    "A": "36min",
+    "B": "40min",
+    "C": "45min",
+    "D": "30min"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "36min",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

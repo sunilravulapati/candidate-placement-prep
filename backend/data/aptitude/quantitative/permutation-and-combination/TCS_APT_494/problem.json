@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_494",
+  "slug": "tcs-apt-494",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "permutation-and-combination",
+  "topicName": "Permutation and Combination",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number of ways to form a committee of 3 men and 2 women from 5 men and 4 women?",
+  "description": "Number of ways to form a committee of 3 men and 2 women from 5 men and 4 women?",
+  "question": "Number of ways to form a committee of 3 men and 2 women from 5 men and 4 women?",
+  "options": [
+    "60",
+    "80",
+    "90",
+    "120"
+  ],
+  "optionsMap": {
+    "A": "60",
+    "B": "80",
+    "C": "90",
+    "D": "120"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "60",
+  "tags": [
+    "quantitative",
+    "permutation-and-combination"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

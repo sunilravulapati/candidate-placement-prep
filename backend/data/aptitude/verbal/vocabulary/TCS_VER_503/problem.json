@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_503",
+  "slug": "tcs-ver-503",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What is the antonym of 'copious'?",
+  "description": "What is the antonym of 'copious'?",
+  "question": "What is the antonym of 'copious'?",
+  "options": [
+    "Scarce",
+    "Plentiful",
+    "Abundant",
+    "Overflowing"
+  ],
+  "optionsMap": {
+    "A": "Scarce",
+    "B": "Plentiful",
+    "C": "Abundant",
+    "D": "Overflowing"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Scarce",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_090",
+  "slug": "tcs-ver-090",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most OPPOSITE in meaning to: NONCHALANT",
+  "description": "Choose the word most OPPOSITE in meaning to: NONCHALANT",
+  "question": "Choose the word most OPPOSITE in meaning to: NONCHALANT",
+  "options": [
+    "Anxious",
+    "Calm",
+    "Cool",
+    "Casual"
+  ],
+  "optionsMap": {
+    "A": "Anxious",
+    "B": "Calm",
+    "C": "Cool",
+    "D": "Casual"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Anxious",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

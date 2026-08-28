@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_465",
+  "slug": "tcs-ver-465",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Choose the correctly formed question tag: 'She is intelligent, ___?'",
+  "description": "Choose the correctly formed question tag: 'She is intelligent, ___?'",
+  "question": "Choose the correctly formed question tag: 'She is intelligent, ___?'",
+  "options": [
+    "isn't she",
+    "is she",
+    "was she",
+    "wasn't she"
+  ],
+  "optionsMap": {
+    "A": "isn't she",
+    "B": "is she",
+    "C": "was she",
+    "D": "wasn't she"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "isn't she",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

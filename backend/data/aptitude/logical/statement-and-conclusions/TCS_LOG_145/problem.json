@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_145",
+  "slug": "tcs-log-145",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "statement-and-conclusions",
+  "topicName": "Statement and Conclusions",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Statement: Healthy eating prevents diseases. Poor countries have high disease...",
+  "description": "Statement: Healthy eating prevents diseases. Poor countries have high disease rates. Conclusion: People in poor countries do not eat healthy.",
+  "question": "Statement: Healthy eating prevents diseases. Poor countries have high disease rates. Conclusion: People in poor countries do not eat healthy.",
+  "options": [
+    "Conclusion may partially follow",
+    "Conclusion definitely follows",
+    "Conclusion does not follow",
+    "Needs more data"
+  ],
+  "optionsMap": {
+    "A": "Conclusion may partially follow",
+    "B": "Conclusion definitely follows",
+    "C": "Conclusion does not follow",
+    "D": "Needs more data"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Conclusion may partially follow",
+  "tags": [
+    "logical",
+    "statement-and-conclusions"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

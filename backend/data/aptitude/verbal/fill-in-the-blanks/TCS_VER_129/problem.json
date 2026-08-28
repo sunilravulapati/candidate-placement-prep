@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_129",
+  "slug": "tcs-ver-129",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The _____ of the ancient ruins left archaeologists astonished.",
+  "description": "The _____ of the ancient ruins left archaeologists astonished.",
+  "question": "The _____ of the ancient ruins left archaeologists astonished.",
+  "options": [
+    "grandeur",
+    "simplicity",
+    "ordinariness",
+    "smallness"
+  ],
+  "optionsMap": {
+    "A": "grandeur",
+    "B": "simplicity",
+    "C": "ordinariness",
+    "D": "smallness"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "grandeur",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

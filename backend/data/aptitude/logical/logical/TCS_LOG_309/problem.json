@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_309",
+  "slug": "tcs-log-309",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Puzzle: 5 friends A,B,C,D,E have different weights. D>C>B. A>E. C>A. Who is l...",
+  "description": "Puzzle: 5 friends A,B,C,D,E have different weights. D>C>B. A>E. C>A. Who is lightest?",
+  "question": "Puzzle: 5 friends A,B,C,D,E have different weights. D>C>B. A>E. C>A. Who is lightest?",
+  "options": [
+    "E",
+    "B",
+    "A",
+    "D"
+  ],
+  "optionsMap": {
+    "A": "E",
+    "B": "B",
+    "C": "A",
+    "D": "D"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "E",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

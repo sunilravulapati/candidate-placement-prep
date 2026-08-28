@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_401",
+  "slug": "tcs-log-401",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If A is the mother of B and C, C is married to D. D is the son of E. How is E...",
+  "description": "If A is the mother of B and C, C is married to D. D is the son of E. How is E related to A?",
+  "question": "If A is the mother of B and C, C is married to D. D is the son of E. How is E related to A?",
+  "options": [
+    "In-law",
+    "Brother",
+    "Uncle",
+    "Son"
+  ],
+  "optionsMap": {
+    "A": "In-law",
+    "B": "Brother",
+    "C": "Uncle",
+    "D": "Son"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "In-law",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

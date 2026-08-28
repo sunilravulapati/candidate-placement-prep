@@ -1,9 +1,6 @@
 /**
- * Single source of truth for all language configuration in DSA Studio.
+ * Single source of truth for all language configuration in DSA Studio (V1 Standard Input Model).
  */
-
-import { StarterCodeGenerator } from '@backend/features/dsa/starterCodeGenerator';
-import type { StarterMetadata } from '@backend/features/dsa/canonicalTypes';
 
 export type SupportedLanguage = 'cpp' | 'java' | 'python' | 'javascript' | 'typescript';
 
@@ -14,7 +11,7 @@ export interface LanguageConfig {
   monacoId: string;
   /** Default file name shown in editor toolbar */
   defaultFileName: string;
-  /** Generic starter template used when a problem has no specific starter */
+  /** Generic starter template providing competitive-programming boilerplate */
   starterTemplate: string;
 }
 
@@ -31,26 +28,27 @@ export const LANGUAGE_CONFIG: Record<SupportedLanguage, LanguageConfig> = {
     label: 'C++',
     monacoId: 'cpp',
     defaultFileName: 'solution.cpp',
-    starterTemplate: `#include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+    starterTemplate: `#include <bits/stdc++.h>
 using namespace std;
 
-class Solution {
-public:
+int main() {
+
     // Write your solution here
-    
-};`,
+
+    return 0;
+}`,
   },
 
   java: {
     label: 'Java',
     monacoId: 'java',
-    defaultFileName: 'Solution.java',
-    starterTemplate: `class Solution {
-    // Write your solution here
-    
+    defaultFileName: 'Main.java',
+    starterTemplate: `import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // Write your solution here
+    }
 }`,
   },
 
@@ -58,62 +56,54 @@ public:
     label: 'Python',
     monacoId: 'python',
     defaultFileName: 'solution.py',
-    starterTemplate: `class Solution:
+    starterTemplate: `def main():
     # Write your solution here
-    def solve(self):
-        pass`,
+    pass
+
+
+if __name__ == "__main__":
+    main()`,
   },
 
   javascript: {
     label: 'JavaScript',
     monacoId: 'javascript',
     defaultFileName: 'solution.js',
-    starterTemplate: `/**
- * @return {void}
- */
-var solve = function() {
-    // Write your solution here
-};`,
+    starterTemplate: `const fs = require("fs");
+
+const input = fs.readFileSync(0, "utf8").trim();
+
+// Write your solution here`,
   },
 
   typescript: {
     label: 'TypeScript',
     monacoId: 'typescript',
     defaultFileName: 'solution.ts',
-    starterTemplate: `function solve(): void {
-    // Write your solution here
-};`,
+    starterTemplate: `import * as fs from "fs";
+
+const input = fs.readFileSync(0, "utf8").trim();
+
+// Write your solution here`,
   },
 };
 
 /**
- * Returns the appropriate starter code for a given language.
- * Problem-specific starters take priority over generic defaults.
+ * Returns the appropriate starter code for a given language in V1 standard input mode.
  *
  * @param language - The target language
  * @param problemStarters - Optional map of language -> problem-specific code
- * @param starterMetadata - Optional canonical StarterMetadata object
  */
 export function getStarterTemplate(
   language: SupportedLanguage,
-  problemStarters?: Record<string, string> | null,
-  starterMetadata?: StarterMetadata | null
+  problemStarters?: Record<string, string> | null
 ): string {
-  if (starterMetadata) {
-    try {
-      return StarterCodeGenerator.generate(starterMetadata, language);
-    } catch {
-      // Fallback
-    }
-  }
-
   const problemCode = problemStarters?.[language];
   if (problemCode && problemCode.trim().length > 0) return problemCode;
-  return LANGUAGE_CONFIG[language]?.starterTemplate ?? '// Start coding here\n';
+  return LANGUAGE_CONFIG[language]?.starterTemplate ?? '// Write your solution here\n';
 }
 
 /** Type guard to check whether a raw string is a valid SupportedLanguage */
 export function isValidLanguage(lang: string): lang is SupportedLanguage {
-  return (SUPPORTED_LANGUAGES as readonly string[]).includes(lang);
+  return (SUPPORTED_LANGUAGES as readonly string[]).includes(lang as SupportedLanguage);
 }
-

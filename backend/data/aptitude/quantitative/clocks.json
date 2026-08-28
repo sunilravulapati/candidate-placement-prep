@@ -1,0 +1,182 @@
+[
+  {
+    "id": "TCS_APT_189",
+    "title": "At 3:40, the angle between clock hands is:",
+    "description": "At 3:40, the angle between clock hands is:",
+    "question": "At 3:40, the angle between clock hands is:",
+    "options": [
+      "130°",
+      "140°",
+      "120°",
+      "150°"
+    ],
+    "answer": "130°",
+    "answerKey": "A",
+    "correctAnswer": "130°",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 130°.",
+    "topic": "clocks",
+    "topicName": "Clocks",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_191",
+    "title": "What is the angle between clock hands at 6:30?",
+    "description": "What is the angle between clock hands at 6:30?",
+    "question": "What is the angle between clock hands at 6:30?",
+    "options": [
+      "15°",
+      "0°",
+      "30°",
+      "45°"
+    ],
+    "answer": "15°",
+    "answerKey": "A",
+    "correctAnswer": "15°",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 15°.",
+    "topic": "clocks",
+    "topicName": "Clocks",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_192",
+    "title": "A clock gains 5 minutes every hour. In how many hours will it show 1 hour ahead?",
+    "description": "A clock gains 5 minutes every hour. In how many hours will it show 1 hour ahead?",
+    "question": "A clock gains 5 minutes every hour. In how many hours will it show 1 hour ahead?",
+    "options": [
+      "12 hours",
+      "10 hours",
+      "15 hours",
+      "8 hours"
+    ],
+    "answer": "12 hours",
+    "answerKey": "A",
+    "correctAnswer": "12 hours",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 12 hours.",
+    "topic": "clocks",
+    "topicName": "Clocks",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_488",
+    "title": "At what time between 4 and 5 o'clock are clock hands coincident?",
+    "description": "At what time between 4 and 5 o'clock are clock hands coincident?",
+    "question": "At what time between 4 and 5 o'clock are clock hands coincident?",
+    "options": [
+      "4:21.8 min",
+      "4:20 min",
+      "4:22 min",
+      "4:23 min"
+    ],
+    "answer": "4:21.8 min",
+    "answerKey": "A",
+    "correctAnswer": "4:21.8 min",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 4:21.8 min.",
+    "topic": "clocks",
+    "topicName": "Clocks",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_489",
+    "title": "How many times in a day do clock hands form a right angle?",
+    "description": "How many times in a day do clock hands form a right angle?",
+    "question": "How many times in a day do clock hands form a right angle?",
+    "options": [
+      "44",
+      "48",
+      "22",
+      "24"
+    ],
+    "answer": "44",
+    "answerKey": "A",
+    "correctAnswer": "44",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 44.",
+    "topic": "clocks",
+    "topicName": "Clocks",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_190",
+    "title": "How many times do clock hands coincide in 12 hours?",
+    "description": "How many times do clock hands coincide in 12 hours?",
+    "question": "How many times do clock hands coincide in 12 hours?",
+    "options": [
+      "11",
+      "12",
+      "10",
+      "13"
+    ],
+    "answer": "11",
+    "answerKey": "A",
+    "correctAnswer": "11",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 11.",
+    "topic": "clocks",
+    "topicName": "Clocks",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

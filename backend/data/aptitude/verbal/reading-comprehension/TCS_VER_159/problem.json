@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_159",
+  "slug": "tcs-ver-159",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwi...",
+  "description": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwide. Unlike traditional software that follows fixed i... Q: Which of the following is listed as an ethical concern related to AI?",
+  "question": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwide. Unlike traditional software that follows fixed i... Q: Which of the following is listed as an ethical concern related to AI?",
+  "options": [
+    "Algorithmic bias",
+    "Faster computers",
+    "Better graphics",
+    "Cheaper hardware"
+  ],
+  "optionsMap": {
+    "A": "Algorithmic bias",
+    "B": "Faster computers",
+    "C": "Better graphics",
+    "D": "Cheaper hardware"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Algorithmic bias",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

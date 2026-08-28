@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_291",
+  "slug": "tcs-log-291",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Clock: At what time between 3 and 4 do minute and hour hands coincide?",
+  "description": "Clock: At what time between 3 and 4 do minute and hour hands coincide?",
+  "question": "Clock: At what time between 3 and 4 do minute and hour hands coincide?",
+  "options": [
+    "3:16.36",
+    "3:15",
+    "3:20",
+    "3:12"
+  ],
+  "optionsMap": {
+    "A": "3:16.36",
+    "B": "3:15",
+    "C": "3:20",
+    "D": "3:12"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "3:16.36",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

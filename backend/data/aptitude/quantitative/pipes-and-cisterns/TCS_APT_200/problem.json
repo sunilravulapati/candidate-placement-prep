@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_200",
+  "slug": "tcs-apt-200",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "pipes-and-cisterns",
+  "topicName": "Pipes and Cisterns",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A pipe fills a tank in 30 min. A leak empties it in 45 min. With both, tank i...",
+  "description": "A pipe fills a tank in 30 min. A leak empties it in 45 min. With both, tank is full in:",
+  "question": "A pipe fills a tank in 30 min. A leak empties it in 45 min. With both, tank is full in:",
+  "options": [
+    "90 min",
+    "120 min",
+    "60 min",
+    "75 min"
+  ],
+  "optionsMap": {
+    "A": "90 min",
+    "B": "120 min",
+    "C": "60 min",
+    "D": "75 min"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "90 min",
+  "tags": [
+    "quantitative",
+    "pipes-and-cisterns"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

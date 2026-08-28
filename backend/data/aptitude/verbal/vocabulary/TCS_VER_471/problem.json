@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_471",
+  "slug": "tcs-ver-471",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Choose the word that is NOT a synonym of 'happy':",
+  "description": "Choose the word that is NOT a synonym of 'happy':",
+  "question": "Choose the word that is NOT a synonym of 'happy':",
+  "options": [
+    "Elated",
+    "Joyful",
+    "Content",
+    "Sullen"
+  ],
+  "optionsMap": {
+    "A": "Elated",
+    "B": "Joyful",
+    "C": "Content",
+    "D": "Sullen"
+  },
+  "answer": "D",
+  "answerKey": "D",
+  "correctAnswer": "Sullen",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

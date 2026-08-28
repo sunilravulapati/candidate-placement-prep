@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_276",
+  "slug": "tcs-ver-276",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "word-analogy",
+  "topicName": "Word Analogy",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Complete the analogy: Carpenter : Wood :: Mason : ?",
+  "description": "Complete the analogy: Carpenter : Wood :: Mason : ?",
+  "question": "Complete the analogy: Carpenter : Wood :: Mason : ?",
+  "options": [
+    "Brick",
+    "Clay",
+    "Iron",
+    "Sand"
+  ],
+  "optionsMap": {
+    "A": "Brick",
+    "B": "Clay",
+    "C": "Iron",
+    "D": "Sand"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Brick",
+  "tags": [
+    "verbal",
+    "word-analogy"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

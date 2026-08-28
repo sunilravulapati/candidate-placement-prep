@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_592",
+  "slug": "tcs-ver-592",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: SUPPRESS",
+  "description": "Choose the word most similar in meaning to: SUPPRESS",
+  "question": "Choose the word most similar in meaning to: SUPPRESS",
+  "options": [
+    "Prevent",
+    "Encourage",
+    "Promote",
+    "Support"
+  ],
+  "optionsMap": {
+    "A": "Prevent",
+    "B": "Encourage",
+    "C": "Promote",
+    "D": "Support"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Prevent",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

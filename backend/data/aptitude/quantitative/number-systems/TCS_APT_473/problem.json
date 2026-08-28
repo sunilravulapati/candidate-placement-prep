@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_473",
+  "slug": "tcs-apt-473",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "number-systems",
+  "topicName": "Number Systems",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "How many prime numbers exist between 1 and 50?",
+  "description": "How many prime numbers exist between 1 and 50?",
+  "question": "How many prime numbers exist between 1 and 50?",
+  "options": [
+    "15",
+    "12",
+    "10",
+    "18"
+  ],
+  "optionsMap": {
+    "A": "15",
+    "B": "12",
+    "C": "10",
+    "D": "18"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "15",
+  "tags": [
+    "quantitative",
+    "number-systems"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

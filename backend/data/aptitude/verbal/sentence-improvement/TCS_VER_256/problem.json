@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_256",
+  "slug": "tcs-ver-256",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "sentence-improvement",
+  "topicName": "Sentence Improvement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Improve the underlined part of the sentence: 'The thief denied to have stolen...",
+  "description": "Improve the underlined part of the sentence: 'The thief denied to have stolen the jewellery.'",
+  "question": "Improve the underlined part of the sentence: 'The thief denied to have stolen the jewellery.'",
+  "options": [
+    "denied stealing",
+    "denied to steal",
+    "denied stealing of",
+    "No improvement"
+  ],
+  "optionsMap": {
+    "A": "denied stealing",
+    "B": "denied to steal",
+    "C": "denied stealing of",
+    "D": "No improvement"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "denied stealing",
+  "tags": [
+    "verbal",
+    "sentence-improvement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

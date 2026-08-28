@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_154",
+  "slug": "tcs-ver-154",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th c...",
+  "description": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: What eventually helped improve working conditions?",
+  "question": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: What eventually helped improve working conditions?",
+  "options": [
+    "Reform movements and labor unions",
+    "Industrial revolution itself",
+    "Factory owners' goodwill",
+    "Government bans on industry"
+  ],
+  "optionsMap": {
+    "A": "Reform movements and labor unions",
+    "B": "Industrial revolution itself",
+    "C": "Factory owners' goodwill",
+    "D": "Government bans on industry"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Reform movements and labor unions",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

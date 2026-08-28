@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_234",
+  "slug": "tcs-log-234",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "matrix-reasoning",
+  "topicName": "Matrix Reasoning",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Matrix: Row 1: A1, B2, C3. Row 2: D4, E5, F6. Row 3: G7, H8, ?",
+  "description": "Matrix: Row 1: A1, B2, C3. Row 2: D4, E5, F6. Row 3: G7, H8, ?",
+  "question": "Matrix: Row 1: A1, B2, C3. Row 2: D4, E5, F6. Row 3: G7, H8, ?",
+  "options": [
+    "I9",
+    "I8",
+    "J9",
+    "H9"
+  ],
+  "optionsMap": {
+    "A": "I9",
+    "B": "I8",
+    "C": "J9",
+    "D": "H9"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "I9",
+  "tags": [
+    "logical",
+    "matrix-reasoning"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

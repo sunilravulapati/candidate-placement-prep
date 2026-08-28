@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_300",
+  "slug": "tcs-log-300",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Venn diagram: 25 people like A, 30 like B, 10 like both. How many like only A?",
+  "description": "Venn diagram: 25 people like A, 30 like B, 10 like both. How many like only A?",
+  "question": "Venn diagram: 25 people like A, 30 like B, 10 like both. How many like only A?",
+  "options": [
+    "15",
+    "20",
+    "25",
+    "10"
+  ],
+  "optionsMap": {
+    "A": "15",
+    "B": "20",
+    "C": "25",
+    "D": "10"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "15",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

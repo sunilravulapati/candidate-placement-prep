@@ -10,6 +10,7 @@
     "prisma:seed": "prisma db seed",
     "migrate-content": "npx tsx scripts/migrate-dsa-content.ts",
     "validate-content": "npx tsx scripts/validate-content.ts",
+    "validate-dsa-v1": "npx tsx scripts/validate-dsa-v1.ts",
     "validate-aptitude": "npx tsx scripts/validate-aptitude.ts",
     "health-report": "npx tsx scripts/health-report.ts",
     "create-problem": "npx tsx scripts/create-problem.ts",

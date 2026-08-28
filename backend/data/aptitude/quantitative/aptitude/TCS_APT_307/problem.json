@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_307",
+  "slug": "tcs-apt-307",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A train passes a pole in 10 sec at 54 km/h. Length of train?",
+  "description": "A train passes a pole in 10 sec at 54 km/h. Length of train?",
+  "question": "A train passes a pole in 10 sec at 54 km/h. Length of train?",
+  "options": [
+    "150m",
+    "100m",
+    "120m",
+    "180m"
+  ],
+  "optionsMap": {
+    "A": "150m",
+    "B": "100m",
+    "C": "120m",
+    "D": "180m"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "150m",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

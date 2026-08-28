@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_684",
+  "slug": "tcs-ver-684",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Idiom: 'Bite the dust' means?",
+  "description": "Idiom: 'Bite the dust' means?",
+  "question": "Idiom: 'Bite the dust' means?",
+  "options": [
+    "Fail or die",
+    "Eat poorly",
+    "Work in dust",
+    "Be dirty"
+  ],
+  "optionsMap": {
+    "A": "Fail or die",
+    "B": "Eat poorly",
+    "C": "Work in dust",
+    "D": "Be dirty"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Fail or die",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

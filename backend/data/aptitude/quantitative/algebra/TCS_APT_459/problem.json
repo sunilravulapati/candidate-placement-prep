@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_459",
+  "slug": "tcs-apt-459",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "algebra",
+  "topicName": "Algebra",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Find the number of solutions: |x - 3| = x + 1",
+  "description": "Find the number of solutions: |x - 3| = x + 1",
+  "question": "Find the number of solutions: |x - 3| = x + 1",
+  "options": [
+    "One solution: x=1",
+    "Two solutions: x=1 and x=−2 rejected",
+    "Infinitely many",
+    "No solution"
+  ],
+  "optionsMap": {
+    "A": "One solution: x=1",
+    "B": "Two solutions: x=1 and x=−2 rejected",
+    "C": "Infinitely many",
+    "D": "No solution"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "One solution: x=1",
+  "tags": [
+    "quantitative",
+    "algebra"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

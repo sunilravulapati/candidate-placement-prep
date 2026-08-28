@@ -1,0 +1,362 @@
+[
+  {
+    "id": "TCS_APT_164",
+    "title": "A card is drawn from a standard deck. Probability of drawing an ace?",
+    "description": "A card is drawn from a standard deck. Probability of drawing an ace?",
+    "question": "A card is drawn from a standard deck. Probability of drawing an ace?",
+    "options": [
+      "1/13",
+      "4/52",
+      "1/52",
+      "4/13"
+    ],
+    "answer": "1/13",
+    "answerKey": "A",
+    "correctAnswer": "1/13",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 1/13.",
+    "topic": "probability",
+    "topicName": "Probability",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_165",
+    "title": "A coin is tossed twice. Probability of getting exactly one head?",
+    "description": "A coin is tossed twice. Probability of getting exactly one head?",
+    "question": "A coin is tossed twice. Probability of getting exactly one head?",
+    "options": [
+      "1/2",
+      "1/4",
+      "3/4",
+      "2/4"
+    ],
+    "answer": "1/2",
+    "answerKey": "A",
+    "correctAnswer": "1/2",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 1/2.",
+    "topic": "probability",
+    "topicName": "Probability",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_166",
+    "title": "A die is rolled. Probability of getting a prime number?",
+    "description": "A die is rolled. Probability of getting a prime number?",
+    "question": "A die is rolled. Probability of getting a prime number?",
+    "options": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "5/6"
+    ],
+    "answer": "1/2",
+    "answerKey": "A",
+    "correctAnswer": "1/2",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 1/2.",
+    "topic": "probability",
+    "topicName": "Probability",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_170",
+    "title": "Two coins are tossed. Probability of at least one head?",
+    "description": "Two coins are tossed. Probability of at least one head?",
+    "question": "Two coins are tossed. Probability of at least one head?",
+    "options": [
+      "3/4",
+      "1/2",
+      "1/4",
+      "2/3"
+    ],
+    "answer": "3/4",
+    "answerKey": "A",
+    "correctAnswer": "3/4",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 3/4.",
+    "topic": "probability",
+    "topicName": "Probability",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_171",
+    "title": "A box contains 3 white and 5 black balls. Probability of NOT drawing a white ...",
+    "description": "A box contains 3 white and 5 black balls. Probability of NOT drawing a white ball?",
+    "question": "A box contains 3 white and 5 black balls. Probability of NOT drawing a white ball?",
+    "options": [
+      "5/8",
+      "3/8",
+      "1/2",
+      "2/5"
+    ],
+    "answer": "5/8",
+    "answerKey": "A",
+    "correctAnswer": "5/8",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 5/8.",
+    "topic": "probability",
+    "topicName": "Probability",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_168",
+    "title": "A bag has 4 red and 6 blue balls. Probability of drawing 2 red balls?",
+    "description": "A bag has 4 red and 6 blue balls. Probability of drawing 2 red balls?",
+    "question": "A bag has 4 red and 6 blue balls. Probability of drawing 2 red balls?",
+    "options": [
+      "2/15",
+      "4/10",
+      "1/5",
+      "3/15"
+    ],
+    "answer": "2/15",
+    "answerKey": "A",
+    "correctAnswer": "2/15",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 2/15.",
+    "topic": "probability",
+    "topicName": "Probability",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_169",
+    "title": "Probability of getting a king or a spade from a standard deck?",
+    "description": "Probability of getting a king or a spade from a standard deck?",
+    "question": "Probability of getting a king or a spade from a standard deck?",
+    "options": [
+      "4/13",
+      "16/52",
+      "17/52",
+      "15/52"
+    ],
+    "answer": "4/13",
+    "answerKey": "A",
+    "correctAnswer": "4/13",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 4/13.",
+    "topic": "probability",
+    "topicName": "Probability",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_498",
+    "title": "From a pack of 52 cards, 3 drawn simultaneously. Probability all 3 are kings?",
+    "description": "From a pack of 52 cards, 3 drawn simultaneously. Probability all 3 are kings?",
+    "question": "From a pack of 52 cards, 3 drawn simultaneously. Probability all 3 are kings?",
+    "options": [
+      "1/5525",
+      "4/52",
+      "1/2652",
+      "3/52"
+    ],
+    "answer": "1/5525",
+    "answerKey": "A",
+    "correctAnswer": "1/5525",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 1/5525.",
+    "topic": "probability",
+    "topicName": "Probability",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_499",
+    "title": "Probability that a randomly chosen 2-digit number is divisible by 7?",
+    "description": "Probability that a randomly chosen 2-digit number is divisible by 7?",
+    "question": "Probability that a randomly chosen 2-digit number is divisible by 7?",
+    "options": [
+      "13/90",
+      "12/90",
+      "14/90",
+      "10/90"
+    ],
+    "answer": "13/90",
+    "answerKey": "A",
+    "correctAnswer": "13/90",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 13/90.",
+    "topic": "probability",
+    "topicName": "Probability",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_502",
+    "title": "A bag has 5 red and 3 green balls. 2 drawn without replacement. P(one each)?",
+    "description": "A bag has 5 red and 3 green balls. 2 drawn without replacement. P(one each)?",
+    "question": "A bag has 5 red and 3 green balls. 2 drawn without replacement. P(one each)?",
+    "options": [
+      "15/28",
+      "15/32",
+      "6/28",
+      "12/28"
+    ],
+    "answer": "15/28",
+    "answerKey": "A",
+    "correctAnswer": "15/28",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 15/28.",
+    "topic": "probability",
+    "topicName": "Probability",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_500",
+    "title": "P(A) = 0.6, P(B) = 0.4, A and B mutually exclusive. P(A∪B)?",
+    "description": "P(A) = 0.6, P(B) = 0.4, A and B mutually exclusive. P(A∪B)?",
+    "question": "P(A) = 0.6, P(B) = 0.4, A and B mutually exclusive. P(A∪B)?",
+    "options": [
+      "1.0",
+      "0.24",
+      "0.8",
+      "0.2"
+    ],
+    "answer": "1.0",
+    "answerKey": "A",
+    "correctAnswer": "1.0",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1.0.",
+    "topic": "probability",
+    "topicName": "Probability",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_501",
+    "title": "Three unbiased coins tossed. P(at least 2 heads)?",
+    "description": "Three unbiased coins tossed. P(at least 2 heads)?",
+    "question": "Three unbiased coins tossed. P(at least 2 heads)?",
+    "options": [
+      "1/2",
+      "3/8",
+      "5/8",
+      "3/4"
+    ],
+    "answer": "1/2",
+    "answerKey": "A",
+    "correctAnswer": "1/2",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 1/2.",
+    "topic": "probability",
+    "topicName": "Probability",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

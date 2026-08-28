@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_460",
+  "slug": "tcs-ver-460",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What does the word ALLEVIATE mean?",
+  "description": "What does the word ALLEVIATE mean?",
+  "question": "What does the word ALLEVIATE mean?",
+  "options": [
+    "Make less severe",
+    "Worsen",
+    "Intensify",
+    "Create"
+  ],
+  "optionsMap": {
+    "A": "Make less severe",
+    "B": "Worsen",
+    "C": "Intensify",
+    "D": "Create"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Make less severe",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_058",
+  "slug": "tcs-apt-058",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "compound-interest",
+  "topicName": "Compound Interest",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "If a sum doubles in 5 years at SI, in how many years will it double at CI (ap...",
+  "description": "If a sum doubles in 5 years at SI, in how many years will it double at CI (approx)?",
+  "question": "If a sum doubles in 5 years at SI, in how many years will it double at CI (approx)?",
+  "options": [
+    "4.2 years",
+    "5 years",
+    "3.8 years",
+    "6 years"
+  ],
+  "optionsMap": {
+    "A": "4.2 years",
+    "B": "5 years",
+    "C": "3.8 years",
+    "D": "6 years"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "4.2 years",
+  "tags": [
+    "quantitative",
+    "compound-interest"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

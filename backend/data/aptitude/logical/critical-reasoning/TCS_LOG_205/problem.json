@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_205",
+  "slug": "tcs-log-205",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "critical-reasoning",
+  "topicName": "Critical Reasoning",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If the statement 'All politicians are corrupt' is false, which is definitely ...",
+  "description": "If the statement 'All politicians are corrupt' is false, which is definitely true?",
+  "question": "If the statement 'All politicians are corrupt' is false, which is definitely true?",
+  "options": [
+    "Some politicians are not corrupt",
+    "No politician is corrupt",
+    "All politicians are honest",
+    "Politicians are rarely corrupt"
+  ],
+  "optionsMap": {
+    "A": "Some politicians are not corrupt",
+    "B": "No politician is corrupt",
+    "C": "All politicians are honest",
+    "D": "Politicians are rarely corrupt"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Some politicians are not corrupt",
+  "tags": [
+    "logical",
+    "critical-reasoning"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

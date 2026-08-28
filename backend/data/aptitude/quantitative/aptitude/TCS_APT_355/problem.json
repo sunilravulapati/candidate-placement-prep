@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_355",
+  "slug": "tcs-apt-355",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "In a triangle, angles are in ratio 1:2:3. Largest angle is?",
+  "description": "In a triangle, angles are in ratio 1:2:3. Largest angle is?",
+  "question": "In a triangle, angles are in ratio 1:2:3. Largest angle is?",
+  "options": [
+    "90°",
+    "60°",
+    "45°",
+    "120°"
+  ],
+  "optionsMap": {
+    "A": "90°",
+    "B": "60°",
+    "C": "45°",
+    "D": "120°"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "90°",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

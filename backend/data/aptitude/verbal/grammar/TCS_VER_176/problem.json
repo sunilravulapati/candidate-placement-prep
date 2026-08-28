@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_176",
+  "slug": "tcs-ver-176",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Identify the sentence with correct subject-verb agreement:",
+  "description": "Identify the sentence with correct subject-verb agreement:",
+  "question": "Identify the sentence with correct subject-verb agreement:",
+  "options": [
+    "A number of students was absent today.",
+    "A number of students were absent today.",
+    "The number of students were absent today.",
+    "A number of student was absent."
+  ],
+  "optionsMap": {
+    "A": "A number of students was absent today.",
+    "B": "A number of students were absent today.",
+    "C": "The number of students were absent today.",
+    "D": "A number of student was absent."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "A number of students were absent today.",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

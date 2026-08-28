@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_048",
+  "slug": "tcs-log-048",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "blood-relations",
+  "topicName": "Blood Relations",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A + B means A is mother of B; A − B means A is brother of B; A × B means A is...",
+  "description": "A + B means A is mother of B; A − B means A is brother of B; A × B means A is father of B; A ÷ B means A is sister of B. If P × Q + R, then P is R's?",
+  "question": "A + B means A is mother of B; A − B means A is brother of B; A × B means A is father of B; A ÷ B means A is sister of B. If P × Q + R, then P is R's?",
+  "options": [
+    "Grandfather",
+    "Father",
+    "Grandmother",
+    "Maternal uncle"
+  ],
+  "optionsMap": {
+    "A": "Grandfather",
+    "B": "Father",
+    "C": "Grandmother",
+    "D": "Maternal uncle"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Grandfather",
+  "tags": [
+    "logical",
+    "blood-relations"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

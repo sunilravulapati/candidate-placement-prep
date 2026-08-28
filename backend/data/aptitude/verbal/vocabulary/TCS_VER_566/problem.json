@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_566",
+  "slug": "tcs-ver-566",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: REPUDIATE",
+  "description": "Choose the word most similar in meaning to: REPUDIATE",
+  "question": "Choose the word most similar in meaning to: REPUDIATE",
+  "options": [
+    "Reject",
+    "Accept",
+    "Welcome",
+    "Embrace"
+  ],
+  "optionsMap": {
+    "A": "Reject",
+    "B": "Accept",
+    "C": "Welcome",
+    "D": "Embrace"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Reject",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

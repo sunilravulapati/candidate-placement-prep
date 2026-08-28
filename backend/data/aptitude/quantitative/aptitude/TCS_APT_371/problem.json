@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_371",
+  "slug": "tcs-apt-371",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "60 students in a class. 40% are girls. How many boys?",
+  "description": "60 students in a class. 40% are girls. How many boys?",
+  "question": "60 students in a class. 40% are girls. How many boys?",
+  "options": [
+    "36",
+    "24",
+    "30",
+    "20"
+  ],
+  "optionsMap": {
+    "A": "36",
+    "B": "24",
+    "C": "30",
+    "D": "20"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "36",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

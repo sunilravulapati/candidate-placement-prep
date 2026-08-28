@@ -1,0 +1,212 @@
+[
+  {
+    "id": "TCS_APT_509",
+    "title": "log(100) = ? (base 10)",
+    "description": "log(100) = ? (base 10)",
+    "question": "log(100) = ? (base 10)",
+    "options": [
+      "2",
+      "10",
+      "1",
+      "100"
+    ],
+    "answer": "2",
+    "answerKey": "A",
+    "correctAnswer": "2",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 2.",
+    "topic": "logarithms",
+    "topicName": "Logarithms",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_513",
+    "title": "If log2(64) = x, find x.",
+    "description": "If log2(64) = x, find x.",
+    "question": "If log2(64) = x, find x.",
+    "options": [
+      "6",
+      "8",
+      "4",
+      "5"
+    ],
+    "answer": "6",
+    "answerKey": "A",
+    "correctAnswer": "6",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 6.",
+    "topic": "logarithms",
+    "topicName": "Logarithms",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_515",
+    "title": "If log(2) = 0.301 and log(3) = 0.477, find log(12).",
+    "description": "If log(2) = 0.301 and log(3) = 0.477, find log(12).",
+    "question": "If log(2) = 0.301 and log(3) = 0.477, find log(12).",
+    "options": [
+      "1.079",
+      "1.1",
+      "1.05",
+      "1.2"
+    ],
+    "answer": "1.079",
+    "answerKey": "A",
+    "correctAnswer": "1.079",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 1.079.",
+    "topic": "logarithms",
+    "topicName": "Logarithms",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_516",
+    "title": "The value of log2(8) × log3(9)?",
+    "description": "The value of log2(8) × log3(9)?",
+    "question": "The value of log2(8) × log3(9)?",
+    "options": [
+      "6",
+      "4",
+      "8",
+      "9"
+    ],
+    "answer": "6",
+    "answerKey": "A",
+    "correctAnswer": "6",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 6.",
+    "topic": "logarithms",
+    "topicName": "Logarithms",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_514",
+    "title": "log(x2) = 2log(x). If x = 100 (base 10), log(x2) = ?",
+    "description": "log(x2) = 2log(x). If x = 100 (base 10), log(x2) = ?",
+    "question": "log(x2) = 2log(x). If x = 100 (base 10), log(x2) = ?",
+    "options": [
+      "4",
+      "2",
+      "6",
+      "8"
+    ],
+    "answer": "4",
+    "answerKey": "A",
+    "correctAnswer": "4",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 4.",
+    "topic": "logarithms",
+    "topicName": "Logarithms",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_517",
+    "title": "Change of base formula: loga(b) = ?",
+    "description": "Change of base formula: loga(b) = ?",
+    "question": "Change of base formula: loga(b) = ?",
+    "options": [
+      "log(b)/log(a)",
+      "log(a)/log(b)",
+      "log(a+b)",
+      "log(ab)"
+    ],
+    "answer": "log(b)/log(a)",
+    "answerKey": "A",
+    "correctAnswer": "log(b)/log(a)",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: log(b)/log(a).",
+    "topic": "logarithms",
+    "topicName": "Logarithms",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_518",
+    "title": "If log(x) = −2 (base 10), then x = ?",
+    "description": "If log(x) = −2 (base 10), then x = ?",
+    "question": "If log(x) = −2 (base 10), then x = ?",
+    "options": [
+      "0.01",
+      "0.1",
+      "100",
+      "−100"
+    ],
+    "answer": "0.01",
+    "answerKey": "A",
+    "correctAnswer": "0.01",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 0.01.",
+    "topic": "logarithms",
+    "topicName": "Logarithms",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_248",
+  "slug": "tcs-ver-248",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "sentence-improvement",
+  "topicName": "Sentence Improvement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Improve the underlined part of the sentence: 'Despite of his illness, he atte...",
+  "description": "Improve the underlined part of the sentence: 'Despite of his illness, he attended the meeting.'",
+  "question": "Improve the underlined part of the sentence: 'Despite of his illness, he attended the meeting.'",
+  "options": [
+    "Despite his illness",
+    "In spite his illness",
+    "Because of his illness",
+    "No improvement"
+  ],
+  "optionsMap": {
+    "A": "Despite his illness",
+    "B": "In spite his illness",
+    "C": "Because of his illness",
+    "D": "No improvement"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Despite his illness",
+  "tags": [
+    "verbal",
+    "sentence-improvement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_001",
+  "slug": "tcs-log-001",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "series",
+  "topicName": "Series",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Letter series: A, C, E, G, ___",
+  "description": "Letter series: A, C, E, G, ___",
+  "question": "Letter series: A, C, E, G, ___",
+  "options": [
+    "I",
+    "H",
+    "J",
+    "K"
+  ],
+  "optionsMap": {
+    "A": "I",
+    "B": "H",
+    "C": "J",
+    "D": "K"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "I",
+  "tags": [
+    "logical",
+    "series"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

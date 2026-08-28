@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_474",
+  "slug": "tcs-log-474",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Statement: All glass is fragile. This is glass. Conclusion?",
+  "description": "Statement: All glass is fragile. This is glass. Conclusion?",
+  "question": "Statement: All glass is fragile. This is glass. Conclusion?",
+  "options": [
+    "This is fragile",
+    "All fragile is glass",
+    "Some glass is not fragile",
+    "Cannot say"
+  ],
+  "optionsMap": {
+    "A": "This is fragile",
+    "B": "All fragile is glass",
+    "C": "Some glass is not fragile",
+    "D": "Cannot say"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "This is fragile",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

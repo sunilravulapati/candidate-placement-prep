@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_215",
+  "slug": "tcs-log-215",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "input-output",
+  "topicName": "Input-Output",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A machine reverses words and capitalizes first letter of each reversed word. ...",
+  "description": "A machine reverses words and capitalizes first letter of each reversed word. Input: 'hello world test'. Output:",
+  "question": "A machine reverses words and capitalizes first letter of each reversed word. Input: 'hello world test'. Output:",
+  "options": [
+    "Olleh Dlrow Tset",
+    "HELLO WORLD TEST",
+    "olleh dlrow tset",
+    "Hello World Test"
+  ],
+  "optionsMap": {
+    "A": "Olleh Dlrow Tset",
+    "B": "HELLO WORLD TEST",
+    "C": "olleh dlrow tset",
+    "D": "Hello World Test"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Olleh Dlrow Tset",
+  "tags": [
+    "logical",
+    "input-output"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

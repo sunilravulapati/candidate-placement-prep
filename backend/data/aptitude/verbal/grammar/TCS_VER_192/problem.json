@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_192",
+  "slug": "tcs-ver-192",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Identify the sentence with correct use of 'who' and 'whom':",
+  "description": "Identify the sentence with correct use of 'who' and 'whom':",
+  "question": "Identify the sentence with correct use of 'who' and 'whom':",
+  "options": [
+    "Who did you speak to?",
+    "Whom did you speak to?",
+    "To who did you speak?",
+    "Whom spoke to you?"
+  ],
+  "optionsMap": {
+    "A": "Who did you speak to?",
+    "B": "Whom did you speak to?",
+    "C": "To who did you speak?",
+    "D": "Whom spoke to you?"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Whom did you speak to?",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

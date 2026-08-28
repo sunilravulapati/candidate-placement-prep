@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_355",
+  "slug": "tcs-log-355",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number series: 10, 14, 18, 22, ?",
+  "description": "Number series: 10, 14, 18, 22, ?",
+  "question": "Number series: 10, 14, 18, 22, ?",
+  "options": [
+    "26",
+    "24",
+    "28",
+    "30"
+  ],
+  "optionsMap": {
+    "A": "26",
+    "B": "24",
+    "C": "28",
+    "D": "30"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "26",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

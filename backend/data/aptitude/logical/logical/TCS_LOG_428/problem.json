@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_428",
+  "slug": "tcs-log-428",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Syllogism: All S are P. No P is Q. Therefore?",
+  "description": "Syllogism: All S are P. No P is Q. Therefore?",
+  "question": "Syllogism: All S are P. No P is Q. Therefore?",
+  "options": [
+    "No S is Q",
+    "All Q are S",
+    "Some S are Q",
+    "Cannot say"
+  ],
+  "optionsMap": {
+    "A": "No S is Q",
+    "B": "All Q are S",
+    "C": "Some S are Q",
+    "D": "Cannot say"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "No S is Q",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_285",
+  "slug": "tcs-log-285",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Syllogism: No birds are mammals. All dogs are mammals. Which is definitely true?",
+  "description": "Syllogism: No birds are mammals. All dogs are mammals. Which is definitely true?",
+  "question": "Syllogism: No birds are mammals. All dogs are mammals. Which is definitely true?",
+  "options": [
+    "No dog is a bird",
+    "All birds are dogs",
+    "Some birds are dogs",
+    "None of above"
+  ],
+  "optionsMap": {
+    "A": "No dog is a bird",
+    "B": "All birds are dogs",
+    "C": "Some birds are dogs",
+    "D": "None of above"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "No dog is a bird",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

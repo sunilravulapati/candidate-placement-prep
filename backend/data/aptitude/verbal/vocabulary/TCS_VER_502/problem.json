@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_502",
+  "slug": "tcs-ver-502",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "What is the antonym of 'alacrity'?",
+  "description": "What is the antonym of 'alacrity'?",
+  "question": "What is the antonym of 'alacrity'?",
+  "options": [
+    "Reluctance",
+    "Eagerness",
+    "Speed",
+    "Enthusiasm"
+  ],
+  "optionsMap": {
+    "A": "Reluctance",
+    "B": "Eagerness",
+    "C": "Speed",
+    "D": "Enthusiasm"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Reluctance",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

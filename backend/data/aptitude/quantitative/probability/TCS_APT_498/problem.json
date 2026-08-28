@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_498",
+  "slug": "tcs-apt-498",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "probability",
+  "topicName": "Probability",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "From a pack of 52 cards, 3 drawn simultaneously. Probability all 3 are kings?",
+  "description": "From a pack of 52 cards, 3 drawn simultaneously. Probability all 3 are kings?",
+  "question": "From a pack of 52 cards, 3 drawn simultaneously. Probability all 3 are kings?",
+  "options": [
+    "1/5525",
+    "4/52",
+    "1/2652",
+    "3/52"
+  ],
+  "optionsMap": {
+    "A": "1/5525",
+    "B": "4/52",
+    "C": "1/2652",
+    "D": "3/52"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1/5525",
+  "tags": [
+    "quantitative",
+    "probability"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

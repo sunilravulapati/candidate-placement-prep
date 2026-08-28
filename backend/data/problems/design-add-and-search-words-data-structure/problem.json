@@ -2,11 +2,15 @@
   "id": "design-add-and-search-words-data-structure",
   "schemaVersion": "2.0",
   "contentVersion": "1.1",
-  "importVersion": "64-column-sheet",
-  "lastReviewed": "2026-07-26",
-  "lastModified": "2026-07-26",
+  "importVersion": "stdin-converted-master-v1",
+  "lastReviewed": "2026-08-28",
+  "lastModified": "2026-08-28",
   "author": "PrepGenie Content Team",
-  "reviewStatus": "published",
+  "reviewStatus": "reviewed",
+  "stdinStatus": "REVIEW",
+  "executionStatus": "V2_PENDING",
+  "isV2Pending": true,
+  "stdinFormatNotes": "Visible Stdin Input 1: Operation stream: first line is operation count; each following line is `<operation> <argument-count> <arguments...>`; scalar configuration values precede the operation count.\nVisible Stdin Input 2: Operation stream: first line is operation count; each following line is `<operation> <argument-count> <arguments...>`; scalar configuration values precede the operation count.\nVisible Stdin Input 3: Operation stream: first line is operation count; each following line is `<operation> <argument-count> <arguments...>`; scalar configuration values precede the operation count.\nHidden Stdin Input 1: Operation stream: first line is operation count; each following line is `<operation> <argument-count> <arguments...>`; scalar configuration values precede the operation count.\nHidden Stdin Input 2: Operation stream: first line is operation count; each following line is `<operation> <argument-count> <arguments...>`; scalar configuration values precede the operation count.\nHidden Stdin Input 3: Operation stream: first line is operation count; each following line is `<operation> <argument-count> <arguments...>`; scalar configuration values precede the operation count.\nHidden Stdin Input 4: Operation stream: first line is operation count; each following line is `<operation> <argument-count> <arguments...>`; scalar configuration values precede the operation count.\nHidden Stdin Input 5: Operation stream: first line is operation count; each following line is `<operation> <argument-count> <arguments...>`; scalar configuration values precede the operation count.",
   "questionNo": 104,
   "slug": "design-add-and-search-words-data-structure",
   "title": "Design Add and Search Words Data Structure",
@@ -38,6 +42,8 @@
     "Core DSA Track -> Trie Module"
   ],
   "description": "Support adding words and searching with wildcard '.'.",
+  "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers",
+  "outputFormat": "Standard output stream containing the computed result.",
   "whyLearnThis": "High frequency medium-level interview question for testing algorithm design and trie proficiency.",
   "recognitionClues": "Look for array/string traversal where trie properties or sliding boundaries reduce time complexity.",
   "prerequisites": "Trie fundamentals, recursion, or hashing",
@@ -65,24 +71,25 @@
     "Goldman Sachs"
   ],
   "constraints": [
-    "1 <= input.length <= 10^5",
-    "-10^9 <= input[i] <= 10^9"
+    "1 <= input length <= 10^5",
+    "Standard execution time limit: 2.0s",
+    "Standard memory limit: 256MB"
   ],
   "examples": [
     {
-      "input": "\"babad\"",
-      "output": "\"bab\"",
-      "explanation": "Sample test 1 for Design Add and Search Words Data Structure"
+      "input": "ops = [\"addWord\",\"addWord\",\"search\",\"search\",\"search\",\"search\"], args = [[\"bad\"],[\"dad\"],[\"pad\"],[\"bad\"],[\".ad\"],[\"b..\"]]",
+      "output": "[null,null,false,true,true,true]",
+      "explanation": "wildcard searches. Expected output: [null,null,false,true,true,true]"
     },
     {
-      "input": "\"cbbd\"",
-      "output": "\"bb\"",
-      "explanation": "Sample test 2 for Design Add and Search Words Data Structure"
+      "input": "ops = [\"addWord\",\"search\",\"search\"], args = [[\"a\"],[\"a\"],[\".\"]]",
+      "output": "[null,true,true]",
+      "explanation": "single-character wildcard. Expected output: [null,true,true]"
     },
     {
-      "input": "\"a\"",
-      "output": "\"a\"",
-      "explanation": "Sample test 3 for Design Add and Search Words Data Structure"
+      "input": "ops = [\"search\"], args = [[\".\"]]",
+      "output": "[false]",
+      "explanation": "empty dictionary. Expected output: [false]"
     }
   ],
   "hints": [
@@ -112,22 +119,17 @@
       "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/"
     }
   ],
-  "inputTemplates": {
-    "python": "# --- 104. Design Add and Search Words Data Structure (trie) ---\ndef solution(inputs):\n    # Function implementation\n    pass\n\nif __name__ == \"__main__\":\n    import sys\n    # Sample Input: adjust according to problem requirements\n    raw_input = sys.stdin.read().splitlines() if not sys.stdin.isatty() else [\"sample_input_1\", \"sample_input_2\"]\n    print(f\"Input: {raw_input}\")\n    # result = solution(raw_input)\n    # print(f\"Output: {result}\")\n",
-    "cpp": "// --- 104. Design Add and Search Words Data Structure (trie) ---\n#include <iostream>\n#include <vector>\n#include <string>\n#include <sstream>\nusing namespace std;\n\nclass Solution {\npublic:\n    void solve() {\n        // Implement driver and input logic\n    }\n};\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    Solution sol;\n    sol.solve();\n    return 0;\n}\n",
-    "java": "// --- 104. Design Add and Search Words Data Structure (trie) ---\nimport java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        // Parse input here\n        System.out.println(\"Ready for input: \" + \"Design Add and Search Words Data Structure\");\n    }\n}\n",
-    "javascript": "// --- 104. Design Add and Search Words Data Structure (trie) ---\nconst fs = require('fs');\n\nfunction solve(input) {\n  // Implement standard logic\n  return input;\n}\n\nconst input = fs.readFileSync('/dev/stdin', 'utf-8').trim().split('\\n');\nconsole.log(solve(input));\n",
-    "typescript": "// --- 104. Design Add and Search Words Data Structure (trie) ---\nimport * as fs from 'fs';\n\nfunction solveTS(inputData: string[]): any {\n  // Implement TypeScript logic\n  return inputData;\n}\n\nconst rawData: string[] = fs.readFileSync(0, 'utf-8').trim().split('\\n');\nconsole.log(solveTS(rawData));\n"
-  },
   "inputHelper": {
-    "inputFormat": "Input Format for Design Add and Search Words Data Structure:\nStandard competitive programming stdin input stream.",
-    "sampleInput": "\"babad\"",
-    "codeTemplates": {
-      "python": "# --- 104. Design Add and Search Words Data Structure (trie) ---\ndef solution(inputs):\n    # Function implementation\n    pass\n\nif __name__ == \"__main__\":\n    import sys\n    # Sample Input: adjust according to problem requirements\n    raw_input = sys.stdin.read().splitlines() if not sys.stdin.isatty() else [\"sample_input_1\", \"sample_input_2\"]\n    print(f\"Input: {raw_input}\")\n    # result = solution(raw_input)\n    # print(f\"Output: {result}\")\n",
-      "cpp": "// --- 104. Design Add and Search Words Data Structure (trie) ---\n#include <iostream>\n#include <vector>\n#include <string>\n#include <sstream>\nusing namespace std;\n\nclass Solution {\npublic:\n    void solve() {\n        // Implement driver and input logic\n    }\n};\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    Solution sol;\n    sol.solve();\n    return 0;\n}\n",
-      "java": "// --- 104. Design Add and Search Words Data Structure (trie) ---\nimport java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        // Parse input here\n        System.out.println(\"Ready for input: \" + \"Design Add and Search Words Data Structure\");\n    }\n}\n",
-      "javascript": "// --- 104. Design Add and Search Words Data Structure (trie) ---\nconst fs = require('fs');\n\nfunction solve(input) {\n  // Implement standard logic\n  return input;\n}\n\nconst input = fs.readFileSync('/dev/stdin', 'utf-8').trim().split('\\n');\nconsole.log(solve(input));\n",
-      "typescript": "// --- 104. Design Add and Search Words Data Structure (trie) ---\nimport * as fs from 'fs';\n\nfunction solveTS(inputData: string[]): any {\n  // Implement TypeScript logic\n  return inputData;\n}\n\nconst rawData: string[] = fs.readFileSync(0, 'utf-8').trim().split('\\n');\nconsole.log(solveTS(rawData));\n"
+    "mode": "auto",
+    "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers",
+    "sampleInput": "6\naddWord 1 bad\naddWord 1 dad\nsearch 1 pad\nsearch 1 bad\nsearch 1 .ad\n\"search 1 b..\"",
+    "instructions": "Read input from standard input (stdin) and print output to standard output (stdout).",
+    "snippets": {
+      "cpp": "// Read array length then elements\nint n;\nif (cin >> n) {\n    vector<int> nums(n);\n    for (int i = 0; i < n; i++) {\n        cin >> nums[i];\n    }\n    // Solve problem with nums\n}",
+      "python": "# Read array length and space-separated elements\nimport sys\n\ninput_data = sys.stdin.read().split()\nif input_data:\n    n = int(input_data[0])\n    nums = [int(x) for x in input_data[1:n+1]]\n    # Solve problem with nums",
+      "java": "import java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        if (sc.hasNextInt()) {\n            int n = sc.nextInt();\n            int[] nums = new int[n];\n            for (int i = 0; i < n; i++) {\n                nums[i] = sc.nextInt();\n            }\n            // Solve problem with nums\n        }\n    }\n}",
+      "javascript": "const fs = require('fs');\n\nconst input = fs.readFileSync(0, 'utf8').trim().split(/\\s+/);\nif (input.length > 0 && input[0] !== '') {\n    const n = parseInt(input[0], 10);\n    const nums = input.slice(1, n + 1).map(Number);\n    // Solve problem with nums\n}",
+      "typescript": "import * as fs from 'fs';\n\nconst input = fs.readFileSync(0, 'utf8').trim().split(/\\s+/);\nif (input.length > 0 && input[0] !== '') {\n    const n = parseInt(input[0], 10);\n    const nums: number[] = input.slice(1, n + 1).map(Number);\n    // Solve problem with nums\n}"
     }
   },
   "referenceSolutions": {
@@ -138,44 +140,11 @@
     "typescript": "function designAddAnd(nums: number[]): number {\n    const n = nums.length;\n    const dp: number[] = new Array(n + 1).fill(0);\n    for (let i = 1; i <= n; i++) {\n        dp[i] = dp[i - 1] + nums[i - 1];\n    }\n    return dp[n];\n};"
   },
   "starterCode": {
-    "cpp": "class Solution {\npublic:\n    int designAddAnd(vector<int>& nums) {\n        \n    }\n};",
-    "python": "class Solution:\n    def designAddAnd(self, nums: list[int]) -> int:\n        pass",
-    "java": "class Solution {\n    public int designAddAnd(int[] nums) {\n        \n    }\n}",
-    "javascript": "var designAddAnd = function(nums) {\n    \n};",
-    "typescript": "function designAddAnd(nums: number[]): number {\n    \n};"
-  },
-  "starterMetadata": {
-    "functionName": "designAddAndSearchWordsDataStructure",
-    "className": "Solution",
-    "returnType": "int",
-    "parameters": [
-      {
-        "name": "nums",
-        "type": "array<int>"
-      }
-    ],
-    "problemType": "FUNCTION"
-  },
-  "executionMetadata": {
-    "problemType": "FUNCTION",
-    "inputType": [
-      "array<int>"
-    ],
-    "outputType": "int",
-    "comparator": "EXACT",
-    "timeLimit": 2,
-    "memoryLimit": 256,
-    "expectedComplexity": {
-      "time": "O(N) or O(N log N)",
-      "space": "O(N) or O(1)"
-    }
-  },
-  "driverMetadata": {
-    "driver": "DEFAULT",
-    "inputSerializers": [
-      "ARRAY_INT"
-    ],
-    "outputSerializer": "INT"
+    "cpp": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    // Read input according to the Input Format\n    // Write solution here\n    return 0;\n}",
+    "python": "def main():\n    # Read input according to the Input Format\n    # Write solution here\n    pass\n\nif __name__ == \"__main__\":\n    main()",
+    "java": "import java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        // Read input according to the Input Format\n        // Write solution here\n    }\n}",
+    "javascript": "const fs = require(\"fs\");\n\nfunction main() {\n    const input = fs.readFileSync(0, \"utf-8\").trim();\n    if (!input) return;\n    // Read input according to the Input Format\n    // Write solution here\n}\n\nmain();",
+    "typescript": "import * as fs from \"fs\";\n\nfunction main() {\n    const input = fs.readFileSync(0, \"utf-8\").trim();\n    if (!input) return;\n    // Read input according to the Input Format\n    // Write solution here\n}\n\nmain();"
   },
   "relationships": {
     "prerequisites": [],
@@ -193,60 +162,84 @@
     {
       "id": "sample-1",
       "classification": "sample",
-      "input": "\"babad\"",
-      "expectedOutput": "\"bab\"",
-      "explanation": "Sample test 1 for Design Add and Search Words Data Structure"
+      "displayInput": "ops = [\"addWord\",\"addWord\",\"search\",\"search\",\"search\",\"search\"], args = [[\"bad\"],[\"dad\"],[\"pad\"],[\"bad\"],[\".ad\"],[\"b..\"]]",
+      "input": "6\naddWord 1 bad\naddWord 1 dad\nsearch 1 pad\nsearch 1 bad\nsearch 1 .ad\n\"search 1 b..\"",
+      "stdin": "6\naddWord 1 bad\naddWord 1 dad\nsearch 1 pad\nsearch 1 bad\nsearch 1 .ad\n\"search 1 b..\"",
+      "expectedOutput": "[null,null,false,true,true,true]",
+      "explanation": "wildcard searches. Expected output: [null,null,false,true,true,true]",
+      "serializationStatus": "manual_required"
     },
     {
       "id": "sample-2",
       "classification": "sample",
-      "input": "\"cbbd\"",
-      "expectedOutput": "\"bb\"",
-      "explanation": "Sample test 2 for Design Add and Search Words Data Structure"
+      "displayInput": "ops = [\"addWord\",\"search\",\"search\"], args = [[\"a\"],[\"a\"],[\".\"]]",
+      "input": "3\naddWord 1 a\nsearch 1 a\nsearch 1 .",
+      "stdin": "3\naddWord 1 a\nsearch 1 a\nsearch 1 .",
+      "expectedOutput": "[null,true,true]",
+      "explanation": "single-character wildcard. Expected output: [null,true,true]",
+      "serializationStatus": "manual_required"
     },
     {
       "id": "sample-3",
       "classification": "sample",
-      "input": "\"a\"",
-      "expectedOutput": "\"a\"",
-      "explanation": "Sample test 3 for Design Add and Search Words Data Structure"
+      "displayInput": "ops = [\"search\"], args = [[\".\"]]",
+      "input": "1\nsearch 1 .",
+      "stdin": "1\nsearch 1 .",
+      "expectedOutput": "[false]",
+      "explanation": "empty dictionary. Expected output: [false]",
+      "serializationStatus": "manual_required"
     }
   ],
   "hiddenTests": [
     {
-      "id": "edge-1",
-      "classification": "edge",
-      "input": "\"\"",
-      "expectedOutput": "\"\"",
-      "explanation": "Empty string boundary"
+      "id": "hidden-1",
+      "classification": "hidden",
+      "displayInput": "ops = [\"addWord\",\"search\",\"search\"], args = [[\"at\"],[\"a.\"],[\".t\"]]",
+      "input": "3\naddWord 1 at\nsearch 1 a.\nsearch 1 .t",
+      "stdin": "3\naddWord 1 at\nsearch 1 a.\nsearch 1 .t",
+      "expectedOutput": "[null,true,true]",
+      "explanation": "wildcard at each position",
+      "serializationStatus": "manual_required"
     },
     {
-      "id": "corner-2",
-      "classification": "corner",
-      "input": "\"aaaaa\"",
-      "expectedOutput": "\"aaaaa\"",
-      "explanation": "All identical characters"
+      "id": "hidden-2",
+      "classification": "hidden",
+      "displayInput": "ops = [\"addWord\",\"search\",\"search\"], args = [[\"hello\"],[\"he.lo\"],[\"hello.\"]]",
+      "input": "3\naddWord 1 hello\nsearch 1 he.lo\nsearch 1 hello.",
+      "stdin": "3\naddWord 1 hello\nsearch 1 he.lo\nsearch 1 hello.",
+      "expectedOutput": "[null,true,false]",
+      "explanation": "wildcard length must match",
+      "serializationStatus": "manual_required"
     },
     {
-      "id": "stress-3",
-      "classification": "stress",
-      "input": "\"abcdefghijklmnopqrstuvwxyz\"",
-      "expectedOutput": "1",
-      "explanation": "All distinct characters"
+      "id": "hidden-3",
+      "classification": "hidden",
+      "displayInput": "ops = [\"addWord\",\"addWord\",\"search\"], args = [[\"cat\"],[\"car\"],[\"ca.\"]]",
+      "input": "3\naddWord 1 cat\naddWord 1 car\nsearch 1 ca.",
+      "stdin": "3\naddWord 1 cat\naddWord 1 car\nsearch 1 ca.",
+      "expectedOutput": "[null,null,true]",
+      "explanation": "common prefix alternatives",
+      "serializationStatus": "manual_required"
     },
     {
-      "id": "duplicates-4",
-      "classification": "duplicates",
-      "input": "\"abacaba\"",
-      "expectedOutput": "\"abacaba\"",
-      "explanation": "Symmetric palindrome string"
+      "id": "hidden-4",
+      "classification": "hidden",
+      "displayInput": "ops = [\"addWord\",\"search\",\"search\"], args = [[\"bad\"],[\"b..\"],[\"...\" ]]",
+      "input": "3\naddWord 1 bad\n\"search 1 b..\"\n\"search 1 ...\"",
+      "stdin": "3\naddWord 1 bad\n\"search 1 b..\"\n\"search 1 ...\"",
+      "expectedOutput": "[null,true,true]",
+      "explanation": "all-position wildcard",
+      "serializationStatus": "manual_required"
     },
     {
-      "id": "performance-5",
-      "classification": "performance",
-      "input": "\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"",
-      "expectedOutput": "...",
-      "explanation": "Performance test"
+      "id": "hidden-5",
+      "classification": "hidden",
+      "displayInput": "ops = [\"addWord\",\"search\"], args = [[\"z\"],[\"z\"]]",
+      "input": "2\naddWord 1 z\nsearch 1 z",
+      "stdin": "2\naddWord 1 z\nsearch 1 z",
+      "expectedOutput": "[null,true]",
+      "explanation": "literal single word",
+      "serializationStatus": "manual_required"
     }
   ]
 }

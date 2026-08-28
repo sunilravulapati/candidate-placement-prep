@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_456",
+  "slug": "tcs-apt-456",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "algebra",
+  "topicName": "Algebra",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If logx 64 = 3, find x.",
+  "description": "If logx 64 = 3, find x.",
+  "question": "If logx 64 = 3, find x.",
+  "options": [
+    "4",
+    "8",
+    "16",
+    "2"
+  ],
+  "optionsMap": {
+    "A": "4",
+    "B": "8",
+    "C": "16",
+    "D": "2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "4",
+  "tags": [
+    "quantitative",
+    "algebra"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

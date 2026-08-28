@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_421",
+  "slug": "tcs-ver-421",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of: MAGNANIMOUS",
+  "description": "Choose the antonym of: MAGNANIMOUS",
+  "question": "Choose the antonym of: MAGNANIMOUS",
+  "options": [
+    "Petty",
+    "Generous",
+    "Kind",
+    "Giving"
+  ],
+  "optionsMap": {
+    "A": "Petty",
+    "B": "Generous",
+    "C": "Kind",
+    "D": "Giving"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Petty",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

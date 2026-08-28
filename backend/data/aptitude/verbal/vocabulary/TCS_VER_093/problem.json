@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_093",
+  "slug": "tcs-ver-093",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most OPPOSITE in meaning to: QUIXOTIC",
+  "description": "Choose the word most OPPOSITE in meaning to: QUIXOTIC",
+  "question": "Choose the word most OPPOSITE in meaning to: QUIXOTIC",
+  "options": [
+    "Realistic",
+    "Idealistic",
+    "Romantic",
+    "Fanciful"
+  ],
+  "optionsMap": {
+    "A": "Realistic",
+    "B": "Idealistic",
+    "C": "Romantic",
+    "D": "Fanciful"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Realistic",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

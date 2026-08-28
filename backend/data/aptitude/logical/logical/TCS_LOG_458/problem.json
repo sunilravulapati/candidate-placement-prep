@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_458",
+  "slug": "tcs-log-458",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If MANGO coded as 13+1+14+7+15=50, APPLE=?",
+  "description": "If MANGO coded as 13+1+14+7+15=50, APPLE=?",
+  "question": "If MANGO coded as 13+1+14+7+15=50, APPLE=?",
+  "options": [
+    "50",
+    "51",
+    "52",
+    "53"
+  ],
+  "optionsMap": {
+    "A": "50",
+    "B": "51",
+    "C": "52",
+    "D": "53"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "50",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

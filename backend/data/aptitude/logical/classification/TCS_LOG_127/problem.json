@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_127",
+  "slug": "tcs-log-127",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "classification",
+  "topicName": "Classification",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find the odd one: Nephew, Brother, Son, Cousin, Aunt",
+  "description": "Find the odd one: Nephew, Brother, Son, Cousin, Aunt",
+  "question": "Find the odd one: Nephew, Brother, Son, Cousin, Aunt",
+  "options": [
+    "Aunt",
+    "Nephew",
+    "Brother",
+    "Son"
+  ],
+  "optionsMap": {
+    "A": "Aunt",
+    "B": "Nephew",
+    "C": "Brother",
+    "D": "Son"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Aunt",
+  "tags": [
+    "logical",
+    "classification"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

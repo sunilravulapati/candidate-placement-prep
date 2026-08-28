@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_668",
+  "slug": "tcs-ver-668",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of ARROGANCE",
+  "description": "Choose the antonym of ARROGANCE",
+  "question": "Choose the antonym of ARROGANCE",
+  "options": [
+    "Humility",
+    "Pride",
+    "Ego",
+    "Vanity"
+  ],
+  "optionsMap": {
+    "A": "Humility",
+    "B": "Pride",
+    "C": "Ego",
+    "D": "Vanity"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Humility",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

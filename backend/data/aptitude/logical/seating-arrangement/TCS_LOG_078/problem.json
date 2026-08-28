@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_078",
+  "slug": "tcs-log-078",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "seating-arrangement",
+  "topicName": "Seating Arrangement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "P,Q,R,S sit in a row. P is not next to Q. R is next to S. If Q is 2nd from le...",
+  "description": "P,Q,R,S sit in a row. P is not next to Q. R is next to S. If Q is 2nd from left, where is P?",
+  "question": "P,Q,R,S sit in a row. P is not next to Q. R is next to S. If Q is 2nd from left, where is P?",
+  "options": [
+    "4th from left",
+    "1st from left",
+    "3rd from left",
+    "2nd from right"
+  ],
+  "optionsMap": {
+    "A": "4th from left",
+    "B": "1st from left",
+    "C": "3rd from left",
+    "D": "2nd from right"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "4th from left",
+  "tags": [
+    "logical",
+    "seating-arrangement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

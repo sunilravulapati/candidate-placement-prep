@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_423",
+  "slug": "tcs-log-423",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Direction: Face N, turn 90° right, turn 180°. Now facing?",
+  "description": "Direction: Face N, turn 90° right, turn 180°. Now facing?",
+  "question": "Direction: Face N, turn 90° right, turn 180°. Now facing?",
+  "options": [
+    "West",
+    "East",
+    "South",
+    "North"
+  ],
+  "optionsMap": {
+    "A": "West",
+    "B": "East",
+    "C": "South",
+    "D": "North"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "West",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

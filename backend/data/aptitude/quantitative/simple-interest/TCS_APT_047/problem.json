@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_047",
+  "slug": "tcs-apt-047",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "simple-interest",
+  "topicName": "Simple Interest",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "A sum of Rs.800 amounts to Rs.920 in 3 years at simple interest. What is the ...",
+  "description": "A sum of Rs.800 amounts to Rs.920 in 3 years at simple interest. What is the rate?",
+  "question": "A sum of Rs.800 amounts to Rs.920 in 3 years at simple interest. What is the rate?",
+  "options": [
+    "5%",
+    "4%",
+    "6%",
+    "3%"
+  ],
+  "optionsMap": {
+    "A": "5%",
+    "B": "4%",
+    "C": "6%",
+    "D": "3%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "5%",
+  "tags": [
+    "quantitative",
+    "simple-interest"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

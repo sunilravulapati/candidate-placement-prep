@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_165",
+  "slug": "tcs-log-165",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "puzzles",
+  "topicName": "Puzzles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A train enters a 600m tunnel at 50 km/h. The train is 200m long. How long to ...",
+  "description": "A train enters a 600m tunnel at 50 km/h. The train is 200m long. How long to pass completely?",
+  "question": "A train enters a 600m tunnel at 50 km/h. The train is 200m long. How long to pass completely?",
+  "options": [
+    "57.6 s",
+    "60 s",
+    "64 s",
+    "48 s"
+  ],
+  "optionsMap": {
+    "A": "57.6 s",
+    "B": "60 s",
+    "C": "64 s",
+    "D": "48 s"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "57.6 s",
+  "tags": [
+    "logical",
+    "puzzles"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

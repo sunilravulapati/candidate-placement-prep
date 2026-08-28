@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_414",
+  "slug": "tcs-log-414",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Coding: ABCD in reverse gives DCBA. PQRS reversed is?",
+  "description": "Coding: ABCD in reverse gives DCBA. PQRS reversed is?",
+  "question": "Coding: ABCD in reverse gives DCBA. PQRS reversed is?",
+  "options": [
+    "SRQP",
+    "RSPQ",
+    "SQRP",
+    "PSRQ"
+  ],
+  "optionsMap": {
+    "A": "SRQP",
+    "B": "RSPQ",
+    "C": "SQRP",
+    "D": "PSRQ"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "SRQP",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_218",
+  "slug": "tcs-ver-218",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What does 'the ball is in your court' mean?",
+  "description": "What does 'the ball is in your court' mean?",
+  "question": "What does 'the ball is in your court' mean?",
+  "options": [
+    "It is your responsibility to act",
+    "Play a sport",
+    "Take a break",
+    "Ask for help"
+  ],
+  "optionsMap": {
+    "A": "It is your responsibility to act",
+    "B": "Play a sport",
+    "C": "Take a break",
+    "D": "Ask for help"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "It is your responsibility to act",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

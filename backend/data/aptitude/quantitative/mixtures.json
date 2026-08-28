@@ -1,0 +1,152 @@
+[
+  {
+    "id": "TCS_APT_184",
+    "title": "A mixture of milk and water in ratio 3:1. To make ratio 3:2, how much water s...",
+    "description": "A mixture of milk and water in ratio 3:1. To make ratio 3:2, how much water should be added to 20L?",
+    "question": "A mixture of milk and water in ratio 3:1. To make ratio 3:2, how much water should be added to 20L?",
+    "options": [
+      "4 L",
+      "5 L",
+      "6 L",
+      "3 L"
+    ],
+    "answer": "5 L",
+    "answerKey": "B",
+    "correctAnswer": "5 L",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: 5 L.",
+    "topic": "mixtures",
+    "topicName": "Mixtures",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_185",
+    "title": "A 40L mixture has 30% alcohol. How much water must be added to make alcohol 20%?",
+    "description": "A 40L mixture has 30% alcohol. How much water must be added to make alcohol 20%?",
+    "question": "A 40L mixture has 30% alcohol. How much water must be added to make alcohol 20%?",
+    "options": [
+      "20 L",
+      "25 L",
+      "15 L",
+      "10 L"
+    ],
+    "answer": "20 L",
+    "answerKey": "A",
+    "correctAnswer": "20 L",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 20 L.",
+    "topic": "mixtures",
+    "topicName": "Mixtures",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_186",
+    "title": "By rule of alligation, in what ratio must 5% and 20% acid solutions be mixed ...",
+    "description": "By rule of alligation, in what ratio must 5% and 20% acid solutions be mixed to get 10% solution?",
+    "question": "By rule of alligation, in what ratio must 5% and 20% acid solutions be mixed to get 10% solution?",
+    "options": [
+      "2:1",
+      "1:2",
+      "3:1",
+      "1:1"
+    ],
+    "answer": "2:1",
+    "answerKey": "A",
+    "correctAnswer": "2:1",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 2:1.",
+    "topic": "mixtures",
+    "topicName": "Mixtures",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_187",
+    "title": "A vessel contains 60L of juice. 12L is drawn and replaced with water, then 12...",
+    "description": "A vessel contains 60L of juice. 12L is drawn and replaced with water, then 12L again drawn and replaced. Final juice amount:",
+    "question": "A vessel contains 60L of juice. 12L is drawn and replaced with water, then 12L again drawn and replaced. Final juice amount:",
+    "options": [
+      "38.4 L",
+      "40 L",
+      "36 L",
+      "42 L"
+    ],
+    "answer": "38.4 L",
+    "answerKey": "A",
+    "correctAnswer": "38.4 L",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 38.4 L.",
+    "topic": "mixtures",
+    "topicName": "Mixtures",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_188",
+    "title": "Two varieties of rice, Rs.8/kg and Rs.12/kg, are mixed in ratio 3:2. Selling ...",
+    "description": "Two varieties of rice, Rs.8/kg and Rs.12/kg, are mixed in ratio 3:2. Selling price for 20% profit:",
+    "question": "Two varieties of rice, Rs.8/kg and Rs.12/kg, are mixed in ratio 3:2. Selling price for 20% profit:",
+    "options": [
+      "Rs.11.52/kg",
+      "Rs.12/kg",
+      "Rs.10.5/kg",
+      "Rs.13/kg"
+    ],
+    "answer": "Rs.11.52/kg",
+    "answerKey": "A",
+    "correctAnswer": "Rs.11.52/kg",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Rs.11.52/kg.",
+    "topic": "mixtures",
+    "topicName": "Mixtures",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

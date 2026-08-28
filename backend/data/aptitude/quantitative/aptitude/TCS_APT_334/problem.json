@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_334",
+  "slug": "tcs-apt-334",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A bag has 3 red, 4 blue, 2 green balls. Probability of drawing not blue?",
+  "description": "A bag has 3 red, 4 blue, 2 green balls. Probability of drawing not blue?",
+  "question": "A bag has 3 red, 4 blue, 2 green balls. Probability of drawing not blue?",
+  "options": [
+    "5/9",
+    "4/9",
+    "1/2",
+    "2/3"
+  ],
+  "optionsMap": {
+    "A": "5/9",
+    "B": "4/9",
+    "C": "1/2",
+    "D": "2/3"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "5/9",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

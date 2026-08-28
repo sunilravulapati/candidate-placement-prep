@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_518",
+  "slug": "tcs-apt-518",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "logarithms",
+  "topicName": "Logarithms",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If log(x) = −2 (base 10), then x = ?",
+  "description": "If log(x) = −2 (base 10), then x = ?",
+  "question": "If log(x) = −2 (base 10), then x = ?",
+  "options": [
+    "0.01",
+    "0.1",
+    "100",
+    "−100"
+  ],
+  "optionsMap": {
+    "A": "0.01",
+    "B": "0.1",
+    "C": "100",
+    "D": "−100"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "0.01",
+  "tags": [
+    "quantitative",
+    "logarithms"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

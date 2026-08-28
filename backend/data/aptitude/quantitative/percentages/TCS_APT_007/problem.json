@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_007",
+  "slug": "tcs-apt-007",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "percentages",
+  "topicName": "Percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "A student scored 72 out of 120. What percentage did the student score?",
+  "description": "A student scored 72 out of 120. What percentage did the student score?",
+  "question": "A student scored 72 out of 120. What percentage did the student score?",
+  "options": [
+    "60%",
+    "55%",
+    "65%",
+    "70%"
+  ],
+  "optionsMap": {
+    "A": "60%",
+    "B": "55%",
+    "C": "65%",
+    "D": "70%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "60%",
+  "tags": [
+    "quantitative",
+    "percentages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

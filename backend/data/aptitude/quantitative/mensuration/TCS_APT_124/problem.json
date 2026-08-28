@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_124",
+  "slug": "tcs-apt-124",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "mensuration",
+  "topicName": "Mensuration",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Area of a rectangle with length 12 cm and breadth 8 cm.",
+  "description": "Area of a rectangle with length 12 cm and breadth 8 cm.",
+  "question": "Area of a rectangle with length 12 cm and breadth 8 cm.",
+  "options": [
+    "96 cm2",
+    "80 cm2",
+    "72 cm2",
+    "100 cm2"
+  ],
+  "optionsMap": {
+    "A": "96 cm2",
+    "B": "80 cm2",
+    "C": "72 cm2",
+    "D": "100 cm2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "96 cm2",
+  "tags": [
+    "quantitative",
+    "mensuration"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

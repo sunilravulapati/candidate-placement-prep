@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_375",
+  "slug": "tcs-apt-375",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find the next in sequence: 2, 6, 12, 20, 30, ?",
+  "description": "Find the next in sequence: 2, 6, 12, 20, 30, ?",
+  "question": "Find the next in sequence: 2, 6, 12, 20, 30, ?",
+  "options": [
+    "42",
+    "40",
+    "44",
+    "38"
+  ],
+  "optionsMap": {
+    "A": "42",
+    "B": "40",
+    "C": "44",
+    "D": "38"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "42",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

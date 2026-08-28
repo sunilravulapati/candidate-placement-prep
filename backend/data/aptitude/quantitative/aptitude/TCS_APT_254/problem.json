@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_254",
+  "slug": "tcs-apt-254",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A man is 24 years older than his son. In 2 years his age will be twice his so...",
+  "description": "A man is 24 years older than his son. In 2 years his age will be twice his son's. Find son's age now.",
+  "question": "A man is 24 years older than his son. In 2 years his age will be twice his son's. Find son's age now.",
+  "options": [
+    "22",
+    "20",
+    "24",
+    "18"
+  ],
+  "optionsMap": {
+    "A": "22",
+    "B": "20",
+    "C": "24",
+    "D": "18"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "22",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

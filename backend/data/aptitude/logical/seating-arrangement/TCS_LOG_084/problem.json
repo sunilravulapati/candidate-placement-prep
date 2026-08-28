@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_084",
+  "slug": "tcs-log-084",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "seating-arrangement",
+  "topicName": "Seating Arrangement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "5 boxes are stacked. Red is below yellow. Blue is above green. Green is above...",
+  "description": "5 boxes are stacked. Red is below yellow. Blue is above green. Green is above yellow. Black is at top. Order from top?",
+  "question": "5 boxes are stacked. Red is below yellow. Blue is above green. Green is above yellow. Black is at top. Order from top?",
+  "options": [
+    "Black, Blue, Green, Yellow, Red",
+    "Black, Green, Blue, Yellow, Red",
+    "Blue, Black, Green, Yellow, Red",
+    "Black, Blue, Yellow, Green, Red"
+  ],
+  "optionsMap": {
+    "A": "Black, Blue, Green, Yellow, Red",
+    "B": "Black, Green, Blue, Yellow, Red",
+    "C": "Blue, Black, Green, Yellow, Red",
+    "D": "Black, Blue, Yellow, Green, Red"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Black, Blue, Green, Yellow, Red",
+  "tags": [
+    "logical",
+    "seating-arrangement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

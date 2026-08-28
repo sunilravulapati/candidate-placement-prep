@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_399",
+  "slug": "tcs-apt-399",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Two numbers are in ratio 4:7. If 3 is added to each, ratio becomes 3:5. Find ...",
+  "description": "Two numbers are in ratio 4:7. If 3 is added to each, ratio becomes 3:5. Find the numbers.",
+  "question": "Two numbers are in ratio 4:7. If 3 is added to each, ratio becomes 3:5. Find the numbers.",
+  "options": [
+    "12 and 21",
+    "8 and 14",
+    "16 and 28",
+    "4 and 7"
+  ],
+  "optionsMap": {
+    "A": "12 and 21",
+    "B": "8 and 14",
+    "C": "16 and 28",
+    "D": "4 and 7"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "12 and 21",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

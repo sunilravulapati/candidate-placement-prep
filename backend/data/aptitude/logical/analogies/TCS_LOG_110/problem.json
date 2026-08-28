@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_110",
+  "slug": "tcs-log-110",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "analogies",
+  "topicName": "Analogies",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Carbon : Diamond :: Sand : ?",
+  "description": "Carbon : Diamond :: Sand : ?",
+  "question": "Carbon : Diamond :: Sand : ?",
+  "options": [
+    "Glass",
+    "Brick",
+    "Metal",
+    "Stone"
+  ],
+  "optionsMap": {
+    "A": "Glass",
+    "B": "Brick",
+    "C": "Metal",
+    "D": "Stone"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Glass",
+  "tags": [
+    "logical",
+    "analogies"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

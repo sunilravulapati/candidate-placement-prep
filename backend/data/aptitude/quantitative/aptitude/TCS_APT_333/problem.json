@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_333",
+  "slug": "tcs-apt-333",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A library has 3 different Science, 4 different Maths, 2 different English boo...",
+  "description": "A library has 3 different Science, 4 different Maths, 2 different English books. How many ways to choose one?",
+  "question": "A library has 3 different Science, 4 different Maths, 2 different English books. How many ways to choose one?",
+  "options": [
+    "9",
+    "24",
+    "12",
+    "6"
+  ],
+  "optionsMap": {
+    "A": "9",
+    "B": "24",
+    "C": "12",
+    "D": "6"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "9",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

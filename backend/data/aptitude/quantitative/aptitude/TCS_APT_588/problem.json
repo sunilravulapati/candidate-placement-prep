@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_588",
+  "slug": "tcs-apt-588",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Two-digit number, sum of digits 9, difference 1. Number?",
+  "description": "Two-digit number, sum of digits 9, difference 1. Number?",
+  "question": "Two-digit number, sum of digits 9, difference 1. Number?",
+  "options": [
+    "45",
+    "54",
+    "63",
+    "36"
+  ],
+  "optionsMap": {
+    "A": "45",
+    "B": "54",
+    "C": "63",
+    "D": "36"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "45",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

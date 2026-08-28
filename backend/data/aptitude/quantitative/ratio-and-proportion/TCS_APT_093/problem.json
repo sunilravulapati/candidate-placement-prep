@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_093",
+  "slug": "tcs-apt-093",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "ratio-and-proportion",
+  "topicName": "Ratio and Proportion",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A bag has coins in ratio 2:3:5 for Re.1, 50p, and 25p. Total Rs.114. How many...",
+  "description": "A bag has coins in ratio 2:3:5 for Re.1, 50p, and 25p. Total Rs.114. How many 50p coins?",
+  "question": "A bag has coins in ratio 2:3:5 for Re.1, 50p, and 25p. Total Rs.114. How many 50p coins?",
+  "options": [
+    "48",
+    "60",
+    "36",
+    "72"
+  ],
+  "optionsMap": {
+    "A": "48",
+    "B": "60",
+    "C": "36",
+    "D": "72"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "48",
+  "tags": [
+    "quantitative",
+    "ratio-and-proportion"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

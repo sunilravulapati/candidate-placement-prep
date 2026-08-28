@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_098",
+  "slug": "tcs-log-098",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "direction-sense",
+  "topicName": "Direction Sense",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "From home I walk 5m East, 5m North, 5m West, and 5m South. Where am I?",
+  "description": "From home I walk 5m East, 5m North, 5m West, and 5m South. Where am I?",
+  "question": "From home I walk 5m East, 5m North, 5m West, and 5m South. Where am I?",
+  "options": [
+    "At home",
+    "5m North",
+    "5m East",
+    "5m South"
+  ],
+  "optionsMap": {
+    "A": "At home",
+    "B": "5m North",
+    "C": "5m East",
+    "D": "5m South"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "At home",
+  "tags": [
+    "logical",
+    "direction-sense"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

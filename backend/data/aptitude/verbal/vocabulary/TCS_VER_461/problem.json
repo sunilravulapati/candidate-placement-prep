@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_461",
+  "slug": "tcs-ver-461",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "What does the word CIRCUMSPECT mean?",
+  "description": "What does the word CIRCUMSPECT mean?",
+  "question": "What does the word CIRCUMSPECT mean?",
+  "options": [
+    "Wary and cautious",
+    "Reckless",
+    "Bold",
+    "Careless"
+  ],
+  "optionsMap": {
+    "A": "Wary and cautious",
+    "B": "Reckless",
+    "C": "Bold",
+    "D": "Careless"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Wary and cautious",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

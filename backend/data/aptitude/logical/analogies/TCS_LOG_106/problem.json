@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_106",
+  "slug": "tcs-log-106",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "analogies",
+  "topicName": "Analogies",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Scissors : Tailor :: Scalpel : ?",
+  "description": "Scissors : Tailor :: Scalpel : ?",
+  "question": "Scissors : Tailor :: Scalpel : ?",
+  "options": [
+    "Surgeon",
+    "Engineer",
+    "Teacher",
+    "Lawyer"
+  ],
+  "optionsMap": {
+    "A": "Surgeon",
+    "B": "Engineer",
+    "C": "Teacher",
+    "D": "Lawyer"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Surgeon",
+  "tags": [
+    "logical",
+    "analogies"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

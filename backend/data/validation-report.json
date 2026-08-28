@@ -1,41 +1,25 @@
 {
-  "timestamp": "2026-07-26T10:19:57.458Z",
-  "totalProblems": 181,
-  "totalVisibleTests": 516,
-  "totalHiddenTests": 860,
+  "timestamp": "2026-08-27T15:35:11.027Z",
+  "totalProblems": 174,
+  "totalVisibleTests": 522,
+  "totalHiddenTests": 870,
   "totalDuplicateVisibleRemoved": 0,
   "totalDuplicateHiddenRemoved": 0,
   "metrics": {
-    "missingVisibleTestsCount": 9,
-    "missingHiddenTestsCount": 9,
+    "missingVisibleTestsCount": 0,
+    "missingHiddenTestsCount": 0,
     "missingReferenceSolutionsCount": 0,
-    "missingStarterCodeCount": 9,
-    "missingInputHelperCount": 9,
+    "missingStarterCodeCount": 0,
+    "missingInputHelperCount": 0,
     "missingHintsCount": 0,
-    "missingResourcesCount": 9,
+    "missingResourcesCount": 0,
     "brokenLinksCount": 0,
     "duplicateSlugsCount": 0,
     "malformedInputsCount": 0,
     "malformedOutputsCount": 0,
-    "validationErrorsCount": 36
+    "validationErrorsCount": 0
   },
   "problemDetails": [
-    {
-      "slug": "0-1-knapsack-problem-dp-10",
-      "title": "0/1 Knapsack",
-      "visibleTestsCount": 0,
-      "hiddenTestsCount": 0,
-      "hasReferenceSolutions": true,
-      "hasStarterCode": false,
-      "hasInputHelper": false,
-      "hasHints": true,
-      "issues": [
-        "Insufficient visible tests: 0 (Expected >= 3)",
-        "Insufficient hidden tests: 0 (Expected >= 5)",
-        "Missing starter code for problem",
-        "Missing input helper metadata"
-      ]
-    },
     {
       "slug": "1123",
       "title": "Lowest Common Ancestor of Deepest Leaves",
@@ -343,38 +327,6 @@
       "hasInputHelper": true,
       "hasHints": true,
       "issues": []
-    },
-    {
-      "slug": "codeforces-1360d-buying-shovels",
-      "title": "Codeforces 1360D",
-      "visibleTestsCount": 0,
-      "hiddenTestsCount": 0,
-      "hasReferenceSolutions": true,
-      "hasStarterCode": false,
-      "hasInputHelper": false,
-      "hasHints": true,
-      "issues": [
-        "Insufficient visible tests: 0 (Expected >= 3)",
-        "Insufficient hidden tests: 0 (Expected >= 5)",
-        "Missing starter code for problem",
-        "Missing input helper metadata"
-      ]
-    },
-    {
-      "slug": "codeforces-4a-watermelon",
-      "title": "Codeforces 4A",
-      "visibleTestsCount": 0,
-      "hiddenTestsCount": 0,
-      "hasReferenceSolutions": true,
-      "hasStarterCode": false,
-      "hasInputHelper": false,
-      "hasHints": true,
-      "issues": [
-        "Insufficient visible tests: 0 (Expected >= 3)",
-        "Insufficient hidden tests: 0 (Expected >= 5)",
-        "Missing starter code for problem",
-        "Missing input helper metadata"
-      ]
     },
     {
       "slug": "coin-change",
@@ -718,22 +670,6 @@
       "issues": []
     },
     {
-      "slug": "egg-dropping-puzzle-dp-11",
-      "title": "Egg Dropping Puzzle",
-      "visibleTestsCount": 0,
-      "hiddenTestsCount": 0,
-      "hasReferenceSolutions": true,
-      "hasStarterCode": false,
-      "hasInputHelper": false,
-      "hasHints": true,
-      "issues": [
-        "Insufficient visible tests: 0 (Expected >= 3)",
-        "Insufficient hidden tests: 0 (Expected >= 5)",
-        "Missing starter code for problem",
-        "Missing input helper metadata"
-      ]
-    },
-    {
       "slug": "evaluate-reverse-polish-notation",
       "title": "Evaluate Reverse Polish Notation",
       "visibleTestsCount": 3,
@@ -853,22 +789,6 @@
       "hasInputHelper": true,
       "hasHints": true,
       "issues": []
-    },
-    {
-      "slug": "given-sorted-dictionary-find-precedence-characters",
-      "title": "Alien Dictionary",
-      "visibleTestsCount": 0,
-      "hiddenTestsCount": 0,
-      "hasReferenceSolutions": true,
-      "hasStarterCode": false,
-      "hasInputHelper": false,
-      "hasHints": true,
-      "issues": [
-        "Insufficient visible tests: 0 (Expected >= 3)",
-        "Insufficient hidden tests: 0 (Expected >= 5)",
-        "Missing starter code for problem",
-        "Missing input helper metadata"
-      ]
     },
     {
       "slug": "group-anagrams",
@@ -1036,22 +956,6 @@
       "issues": []
     },
     {
-      "slug": "kruskals-minimum-spanning-tree-algorithm-greedy-algo-2",
-      "title": "Kruskal's Algorithm",
-      "visibleTestsCount": 0,
-      "hiddenTestsCount": 0,
-      "hasReferenceSolutions": true,
-      "hasStarterCode": false,
-      "hasInputHelper": false,
-      "hasHints": true,
-      "issues": [
-        "Insufficient visible tests: 0 (Expected >= 3)",
-        "Insufficient hidden tests: 0 (Expected >= 5)",
-        "Missing starter code for problem",
-        "Missing input helper metadata"
-      ]
-    },
-    {
       "slug": "kth-largest-element-in-a-stream",
       "title": "Kth Largest Element in a Stream",
       "visibleTestsCount": 3,
@@ -1140,22 +1044,6 @@
       "issues": []
     },
     {
-      "slug": "longest-common-increasing-subseq",
-      "title": "Longest Common Increasing Subseq.",
-      "visibleTestsCount": 0,
-      "hiddenTestsCount": 0,
-      "hasReferenceSolutions": true,
-      "hasStarterCode": false,
-      "hasInputHelper": false,
-      "hasHints": true,
-      "issues": [
-        "Insufficient visible tests: 0 (Expected >= 3)",
-        "Insufficient hidden tests: 0 (Expected >= 5)",
-        "Missing starter code for problem",
-        "Missing input helper metadata"
-      ]
-    },
-    {
       "slug": "longest-consecutive-sequence",
       "title": "Longest Consecutive Sequence",
       "visibleTestsCount": 3,
@@ -1234,6 +1122,17 @@
     },
     {
       "slug": "lru-cache",
+      "title": "LRU Cache",
+      "visibleTestsCount": 3,
+      "hiddenTestsCount": 5,
+      "hasReferenceSolutions": true,
+      "hasStarterCode": true,
+      "hasInputHelper": true,
+      "hasHints": true,
+      "issues": []
+    },
+    {
+      "slug": "lru-cache-design",
       "title": "LRU Cache",
       "visibleTestsCount": 3,
       "hiddenTestsCount": 5,
@@ -1377,6 +1276,17 @@
     },
     {
       "slug": "min-stack",
+      "title": "Min Stack",
+      "visibleTestsCount": 3,
+      "hiddenTestsCount": 5,
+      "hasReferenceSolutions": true,
+      "hasStarterCode": true,
+      "hasInputHelper": true,
+      "hasHints": true,
+      "issues": []
+    },
+    {
+      "slug": "min-stack-design",
       "title": "Min Stack",
       "visibleTestsCount": 3,
       "hiddenTestsCount": 5,
@@ -1629,22 +1539,6 @@
       "issues": []
     },
     {
-      "slug": "prims-minimum-spanning-tree-mst-greedy-algo-5",
-      "title": "Prim's Algorithm",
-      "visibleTestsCount": 0,
-      "hiddenTestsCount": 0,
-      "hasReferenceSolutions": true,
-      "hasStarterCode": false,
-      "hasInputHelper": false,
-      "hasHints": true,
-      "issues": [
-        "Insufficient visible tests: 0 (Expected >= 3)",
-        "Insufficient hidden tests: 0 (Expected >= 5)",
-        "Missing starter code for problem",
-        "Missing input helper metadata"
-      ]
-    },
-    {
       "slug": "product-of-array-except-self",
       "title": "Product of Array Except Self",
       "visibleTestsCount": 3,
@@ -1654,22 +1548,6 @@
       "hasInputHelper": true,
       "hasHints": true,
       "issues": []
-    },
-    {
-      "slug": "rat-in-a-maze",
-      "title": "Rat in a Maze",
-      "visibleTestsCount": 0,
-      "hiddenTestsCount": 0,
-      "hasReferenceSolutions": true,
-      "hasStarterCode": false,
-      "hasInputHelper": false,
-      "hasHints": true,
-      "issues": [
-        "Insufficient visible tests: 0 (Expected >= 3)",
-        "Insufficient hidden tests: 0 (Expected >= 5)",
-        "Missing starter code for problem",
-        "Missing input helper metadata"
-      ]
     },
     {
       "slug": "remove-nth-node-from-end-of-list",

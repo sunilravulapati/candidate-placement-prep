@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_489",
+  "slug": "tcs-ver-489",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What does 'verbose' mean?",
+  "description": "What does 'verbose' mean?",
+  "question": "What does 'verbose' mean?",
+  "options": [
+    "Using more words than necessary",
+    "Speaking clearly",
+    "Being silent",
+    "Communicating well"
+  ],
+  "optionsMap": {
+    "A": "Using more words than necessary",
+    "B": "Speaking clearly",
+    "C": "Being silent",
+    "D": "Communicating well"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Using more words than necessary",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

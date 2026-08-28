@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_019",
+  "slug": "tcs-apt-019",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "percentages",
+  "topicName": "Percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If A's income is 25% more than B's, by what percent is B's income less than A's?",
+  "description": "If A's income is 25% more than B's, by what percent is B's income less than A's?",
+  "question": "If A's income is 25% more than B's, by what percent is B's income less than A's?",
+  "options": [
+    "20%",
+    "25%",
+    "22%",
+    "18%"
+  ],
+  "optionsMap": {
+    "A": "20%",
+    "B": "25%",
+    "C": "22%",
+    "D": "18%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "20%",
+  "tags": [
+    "quantitative",
+    "percentages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

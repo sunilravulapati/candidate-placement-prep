@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_382",
+  "slug": "tcs-ver-382",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "cloze-test",
+  "topicName": "Cloze Test",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Climate negotiations have repeatedly failed. While leaders acknowledge the __...",
+  "description": "Climate negotiations have repeatedly failed. While leaders acknowledge the _____ (2) of the crisis, domestic politics obstructs cooperation. SELECT WORD FOR BLANK (2):",
+  "question": "Climate negotiations have repeatedly failed. While leaders acknowledge the _____ (2) of the crisis, domestic politics obstructs cooperation. SELECT WORD FOR BLANK (2):",
+  "options": [
+    "urgency",
+    "irrelevance",
+    "unimportance",
+    "insignificance"
+  ],
+  "optionsMap": {
+    "A": "urgency",
+    "B": "irrelevance",
+    "C": "unimportance",
+    "D": "insignificance"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "urgency",
+  "tags": [
+    "verbal",
+    "cloze-test"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

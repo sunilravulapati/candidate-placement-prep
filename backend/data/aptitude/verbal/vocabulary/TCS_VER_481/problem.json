@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_481",
+  "slug": "tcs-ver-481",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the meaning of 'at the drop of a hat':",
+  "description": "Choose the meaning of 'at the drop of a hat':",
+  "question": "Choose the meaning of 'at the drop of a hat':",
+  "options": [
+    "Immediately without delay",
+    "Accidentally",
+    "With great effort",
+    "Slowly"
+  ],
+  "optionsMap": {
+    "A": "Immediately without delay",
+    "B": "Accidentally",
+    "C": "With great effort",
+    "D": "Slowly"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Immediately without delay",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

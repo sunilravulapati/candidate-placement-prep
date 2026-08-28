@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_020",
+  "slug": "tcs-apt-020",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "percentages",
+  "topicName": "Percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "In a class of 100 students, 40 are girls. What percentage are boys?",
+  "description": "In a class of 100 students, 40 are girls. What percentage are boys?",
+  "question": "In a class of 100 students, 40 are girls. What percentage are boys?",
+  "options": [
+    "60%",
+    "40%",
+    "50%",
+    "70%"
+  ],
+  "optionsMap": {
+    "A": "60%",
+    "B": "40%",
+    "C": "50%",
+    "D": "70%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "60%",
+  "tags": [
+    "quantitative",
+    "percentages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

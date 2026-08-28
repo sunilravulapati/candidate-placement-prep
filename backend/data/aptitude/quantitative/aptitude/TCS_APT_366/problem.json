@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_366",
+  "slug": "tcs-apt-366",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If 6 men can do a job in 10 days, how long will 4 men take?",
+  "description": "If 6 men can do a job in 10 days, how long will 4 men take?",
+  "question": "If 6 men can do a job in 10 days, how long will 4 men take?",
+  "options": [
+    "15 days",
+    "12 days",
+    "10 days",
+    "20 days"
+  ],
+  "optionsMap": {
+    "A": "15 days",
+    "B": "12 days",
+    "C": "10 days",
+    "D": "20 days"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "15 days",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

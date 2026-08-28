@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_292",
+  "slug": "tcs-ver-292",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "word-analogy",
+  "topicName": "Word Analogy",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Complete the analogy: Archipelago : Islands :: Bouquet : ?",
+  "description": "Complete the analogy: Archipelago : Islands :: Bouquet : ?",
+  "question": "Complete the analogy: Archipelago : Islands :: Bouquet : ?",
+  "options": [
+    "Flowers",
+    "Trees",
+    "Leaves",
+    "Fruits"
+  ],
+  "optionsMap": {
+    "A": "Flowers",
+    "B": "Trees",
+    "C": "Leaves",
+    "D": "Fruits"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Flowers",
+  "tags": [
+    "verbal",
+    "word-analogy"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

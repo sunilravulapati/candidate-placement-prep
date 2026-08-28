@@ -1,0 +1,572 @@
+[
+  {
+    "id": "TCS_APT_109",
+    "title": "If 3x + 5 = 20, what is x?",
+    "description": "If 3x + 5 = 20, what is x?",
+    "question": "If 3x + 5 = 20, what is x?",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "3"
+    ],
+    "answer": "5",
+    "answerKey": "A",
+    "correctAnswer": "5",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 5.",
+    "topic": "algebra",
+    "topicName": "Algebra",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_110",
+    "title": "If x2 - 5x + 6 = 0, the values of x are:",
+    "description": "If x2 - 5x + 6 = 0, the values of x are:",
+    "question": "If x2 - 5x + 6 = 0, the values of x are:",
+    "options": [
+      "2 and 3",
+      "1 and 6",
+      "−2 and −3",
+      "2 and −3"
+    ],
+    "answer": "2 and 3",
+    "answerKey": "A",
+    "correctAnswer": "2 and 3",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 2 and 3.",
+    "topic": "algebra",
+    "topicName": "Algebra",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_119",
+    "title": "If f(x) = 2x2 − 3x + 1, find f(2).",
+    "description": "If f(x) = 2x2 − 3x + 1, find f(2).",
+    "question": "If f(x) = 2x2 − 3x + 1, find f(2).",
+    "options": [
+      "3",
+      "5",
+      "2",
+      "4"
+    ],
+    "answer": "3",
+    "answerKey": "A",
+    "correctAnswer": "3",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 3.",
+    "topic": "algebra",
+    "topicName": "Algebra",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_121",
+    "title": "Simplify (x2 − 4)/(x − 2).",
+    "description": "Simplify (x2 − 4)/(x − 2).",
+    "question": "Simplify (x2 − 4)/(x − 2).",
+    "options": [
+      "x + 2",
+      "x − 2",
+      "x2 + 2",
+      "2x"
+    ],
+    "answer": "x + 2",
+    "answerKey": "A",
+    "correctAnswer": "x + 2",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: x + 2.",
+    "topic": "algebra",
+    "topicName": "Algebra",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_122",
+    "title": "If 3a = 4b, find the ratio a:b.",
+    "description": "If 3a = 4b, find the ratio a:b.",
+    "question": "If 3a = 4b, find the ratio a:b.",
+    "options": [
+      "4:3",
+      "3:4",
+      "1:1",
+      "2:3"
+    ],
+    "answer": "4:3",
+    "answerKey": "A",
+    "correctAnswer": "4:3",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 4:3.",
+    "topic": "algebra",
+    "topicName": "Algebra",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_455",
+    "title": "Find the sum of roots of 2x2 - 8x + 6 = 0",
+    "description": "Find the sum of roots of 2x2 - 8x + 6 = 0",
+    "question": "Find the sum of roots of 2x2 - 8x + 6 = 0",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "6"
+    ],
+    "answer": "4",
+    "answerKey": "A",
+    "correctAnswer": "4",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 4.",
+    "topic": "algebra",
+    "topicName": "Algebra",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_457",
+    "title": "2^(x+3) = 16, find x.",
+    "description": "2^(x+3) = 16, find x.",
+    "question": "2^(x+3) = 16, find x.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "answer": "1",
+    "answerKey": "A",
+    "correctAnswer": "1",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 1.",
+    "topic": "algebra",
+    "topicName": "Algebra",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_461",
+    "title": "Sum of first n natural numbers formula is:",
+    "description": "Sum of first n natural numbers formula is:",
+    "question": "Sum of first n natural numbers formula is:",
+    "options": [
+      "n(n+1)/2",
+      "n(n-1)/2",
+      "n2",
+      "n(n+2)/2"
+    ],
+    "answer": "n(n+1)/2",
+    "answerKey": "A",
+    "correctAnswer": "n(n+1)/2",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: n(n+1)/2.",
+    "topic": "algebra",
+    "topicName": "Algebra",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_112",
+    "title": "If 2x − 3y = 4 and 3x + y = 7, find x.",
+    "description": "If 2x − 3y = 4 and 3x + y = 7, find x.",
+    "question": "If 2x − 3y = 4 and 3x + y = 7, find x.",
+    "options": [
+      "1.8",
+      "2",
+      "1.5",
+      "2.5"
+    ],
+    "answer": "2",
+    "answerKey": "B",
+    "correctAnswer": "2",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: 2.",
+    "topic": "algebra",
+    "topicName": "Algebra",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_114",
+    "title": "If x + y = 12 and xy = 32, what is x2 + y2?",
+    "description": "If x + y = 12 and xy = 32, what is x2 + y2?",
+    "question": "If x + y = 12 and xy = 32, what is x2 + y2?",
+    "options": [
+      "80",
+      "64",
+      "96",
+      "100"
+    ],
+    "answer": "80",
+    "answerKey": "A",
+    "correctAnswer": "80",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 80.",
+    "topic": "algebra",
+    "topicName": "Algebra",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_117",
+    "title": "If a + b = 5 and ab = 6, find a3 + b3.",
+    "description": "If a + b = 5 and ab = 6, find a3 + b3.",
+    "question": "If a + b = 5 and ab = 6, find a3 + b3.",
+    "options": [
+      "35",
+      "30",
+      "25",
+      "45"
+    ],
+    "answer": "35",
+    "answerKey": "A",
+    "correctAnswer": "35",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 35.",
+    "topic": "algebra",
+    "topicName": "Algebra",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_118",
+    "title": "For what value of k does 2x2 + kx + 8 = 0 have equal roots?",
+    "description": "For what value of k does 2x2 + kx + 8 = 0 have equal roots?",
+    "question": "For what value of k does 2x2 + kx + 8 = 0 have equal roots?",
+    "options": [
+      "8",
+      "4",
+      "−8",
+      "±8"
+    ],
+    "answer": "±8",
+    "answerKey": "D",
+    "correctAnswer": "±8",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (D) is the correct answer: ±8.",
+    "topic": "algebra",
+    "topicName": "Algebra",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_452",
+    "title": "If x2 + y2 = 25 and xy = 12, find x + y.",
+    "description": "If x2 + y2 = 25 and xy = 12, find x + y.",
+    "question": "If x2 + y2 = 25 and xy = 12, find x + y.",
+    "options": [
+      "7",
+      "5",
+      "6",
+      "8"
+    ],
+    "answer": "7",
+    "answerKey": "A",
+    "correctAnswer": "7",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 7.",
+    "topic": "algebra",
+    "topicName": "Algebra",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_459",
+    "title": "Find the number of solutions: |x - 3| = x + 1",
+    "description": "Find the number of solutions: |x - 3| = x + 1",
+    "question": "Find the number of solutions: |x - 3| = x + 1",
+    "options": [
+      "One solution: x=1",
+      "Two solutions: x=1 and x=−2 rejected",
+      "Infinitely many",
+      "No solution"
+    ],
+    "answer": "One solution: x=1",
+    "answerKey": "A",
+    "correctAnswer": "One solution: x=1",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: One solution: x=1.",
+    "topic": "algebra",
+    "topicName": "Algebra",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_113",
+    "title": "The sum of two numbers is 40 and their difference is 10. Find the smaller num...",
+    "description": "The sum of two numbers is 40 and their difference is 10. Find the smaller number.",
+    "question": "The sum of two numbers is 40 and their difference is 10. Find the smaller number.",
+    "options": [
+      "15",
+      "20",
+      "25",
+      "10"
+    ],
+    "answer": "15",
+    "answerKey": "A",
+    "correctAnswer": "15",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 15.",
+    "topic": "algebra",
+    "topicName": "Algebra",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_120",
+    "title": "Find the product of roots of 3x2 − 5x + 2 = 0.",
+    "description": "Find the product of roots of 3x2 − 5x + 2 = 0.",
+    "question": "Find the product of roots of 3x2 − 5x + 2 = 0.",
+    "options": [
+      "2/3",
+      "5/3",
+      "3/2",
+      "1/2"
+    ],
+    "answer": "2/3",
+    "answerKey": "A",
+    "correctAnswer": "2/3",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 2/3.",
+    "topic": "algebra",
+    "topicName": "Algebra",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_454",
+    "title": "If a + b = 7 and a - b = 3, find a2 - b2",
+    "description": "If a + b = 7 and a - b = 3, find a2 - b2",
+    "question": "If a + b = 7 and a - b = 3, find a2 - b2",
+    "options": [
+      "21",
+      "18",
+      "15",
+      "24"
+    ],
+    "answer": "21",
+    "answerKey": "A",
+    "correctAnswer": "21",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 21.",
+    "topic": "algebra",
+    "topicName": "Algebra",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_456",
+    "title": "If logx 64 = 3, find x.",
+    "description": "If logx 64 = 3, find x.",
+    "question": "If logx 64 = 3, find x.",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "2"
+    ],
+    "answer": "4",
+    "answerKey": "A",
+    "correctAnswer": "4",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 4.",
+    "topic": "algebra",
+    "topicName": "Algebra",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_458",
+    "title": "If f(x) = x2 - 1, find f(f(2)).",
+    "description": "If f(x) = x2 - 1, find f(f(2)).",
+    "question": "If f(x) = x2 - 1, find f(f(2)).",
+    "options": [
+      "8",
+      "7",
+      "9",
+      "6"
+    ],
+    "answer": "8",
+    "answerKey": "A",
+    "correctAnswer": "8",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 8.",
+    "topic": "algebra",
+    "topicName": "Algebra",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

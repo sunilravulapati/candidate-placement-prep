@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_147",
+  "slug": "tcs-ver-147",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The new hospital wing was _____ to patients with chronic illnesses.",
+  "description": "The new hospital wing was _____ to patients with chronic illnesses.",
+  "question": "The new hospital wing was _____ to patients with chronic illnesses.",
+  "options": [
+    "dedicated",
+    "hostile",
+    "closed",
+    "unavailable"
+  ],
+  "optionsMap": {
+    "A": "dedicated",
+    "B": "hostile",
+    "C": "closed",
+    "D": "unavailable"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "dedicated",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

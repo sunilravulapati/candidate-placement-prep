@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_492",
+  "slug": "tcs-log-492",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Odd one out: Circle, Triangle, Square, Pentagon, Sphere?",
+  "description": "Odd one out: Circle, Triangle, Square, Pentagon, Sphere?",
+  "question": "Odd one out: Circle, Triangle, Square, Pentagon, Sphere?",
+  "options": [
+    "Sphere",
+    "Circle",
+    "Triangle",
+    "Pentagon"
+  ],
+  "optionsMap": {
+    "A": "Sphere",
+    "B": "Circle",
+    "C": "Triangle",
+    "D": "Pentagon"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Sphere",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

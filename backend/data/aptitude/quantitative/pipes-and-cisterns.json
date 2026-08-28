@@ -1,0 +1,152 @@
+[
+  {
+    "id": "TCS_APT_201",
+    "title": "3 pipes can fill a tank in 3, 4, and 6 hours. Opened together, tank fills in:",
+    "description": "3 pipes can fill a tank in 3, 4, and 6 hours. Opened together, tank fills in:",
+    "question": "3 pipes can fill a tank in 3, 4, and 6 hours. Opened together, tank fills in:",
+    "options": [
+      "4/3 hours",
+      "2 hours",
+      "1.5 hours",
+      "3 hours"
+    ],
+    "answer": "4/3 hours",
+    "answerKey": "A",
+    "correctAnswer": "4/3 hours",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 4/3 hours.",
+    "topic": "pipes-and-cisterns",
+    "topicName": "Pipes and Cisterns",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_202",
+    "title": "A cistern has two inlets and one outlet. Inlets fill in 8 and 12 hours, outle...",
+    "description": "A cistern has two inlets and one outlet. Inlets fill in 8 and 12 hours, outlet drains in 6 hours. Time to fill when all open:",
+    "question": "A cistern has two inlets and one outlet. Inlets fill in 8 and 12 hours, outlet drains in 6 hours. Time to fill when all open:",
+    "options": [
+      "24 hours",
+      "12 hours",
+      "18 hours",
+      "16 hours"
+    ],
+    "answer": "24 hours",
+    "answerKey": "A",
+    "correctAnswer": "24 hours",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 24 hours.",
+    "topic": "pipes-and-cisterns",
+    "topicName": "Pipes and Cisterns",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_203",
+    "title": "Pipe A fills 1/3 of tank in 5 hours. Pipe B fills rest in 10 hours. Together ...",
+    "description": "Pipe A fills 1/3 of tank in 5 hours. Pipe B fills rest in 10 hours. Together they fill in:",
+    "question": "Pipe A fills 1/3 of tank in 5 hours. Pipe B fills rest in 10 hours. Together they fill in:",
+    "options": [
+      "6 hours",
+      "8 hours",
+      "5 hours",
+      "10 hours"
+    ],
+    "answer": "6 hours",
+    "answerKey": "A",
+    "correctAnswer": "6 hours",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 6 hours.",
+    "topic": "pipes-and-cisterns",
+    "topicName": "Pipes and Cisterns",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_199",
+    "title": "Pipe A fills a tank in 15 min and Pipe B in 20 min. Both open together fill t...",
+    "description": "Pipe A fills a tank in 15 min and Pipe B in 20 min. Both open together fill tank in:",
+    "question": "Pipe A fills a tank in 15 min and Pipe B in 20 min. Both open together fill tank in:",
+    "options": [
+      "60/7 min",
+      "8 min",
+      "10 min",
+      "12 min"
+    ],
+    "answer": "60/7 min",
+    "answerKey": "A",
+    "correctAnswer": "60/7 min",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 60/7 min.",
+    "topic": "pipes-and-cisterns",
+    "topicName": "Pipes and Cisterns",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_200",
+    "title": "A pipe fills a tank in 30 min. A leak empties it in 45 min. With both, tank i...",
+    "description": "A pipe fills a tank in 30 min. A leak empties it in 45 min. With both, tank is full in:",
+    "question": "A pipe fills a tank in 30 min. A leak empties it in 45 min. With both, tank is full in:",
+    "options": [
+      "90 min",
+      "120 min",
+      "60 min",
+      "75 min"
+    ],
+    "answer": "90 min",
+    "answerKey": "A",
+    "correctAnswer": "90 min",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 90 min.",
+    "topic": "pipes-and-cisterns",
+    "topicName": "Pipes and Cisterns",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

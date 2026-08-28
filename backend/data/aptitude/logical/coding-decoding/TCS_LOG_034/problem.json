@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_034",
+  "slug": "tcs-log-034",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "coding-decoding",
+  "topicName": "Coding-Decoding",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "In a code TREE = 3556, RIDE = 5465, then TIRE = ?",
+  "description": "In a code TREE = 3556, RIDE = 5465, then TIRE = ?",
+  "question": "In a code TREE = 3556, RIDE = 5465, then TIRE = ?",
+  "options": [
+    "3465",
+    "3456",
+    "4365",
+    "3546"
+  ],
+  "optionsMap": {
+    "A": "3465",
+    "B": "3456",
+    "C": "4365",
+    "D": "3546"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "3465",
+  "tags": [
+    "logical",
+    "coding-decoding"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_470",
+  "slug": "tcs-log-470",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Clock: How many times in a day do clock hands form right angle?",
+  "description": "Clock: How many times in a day do clock hands form right angle?",
+  "question": "Clock: How many times in a day do clock hands form right angle?",
+  "options": [
+    "44",
+    "22",
+    "48",
+    "24"
+  ],
+  "optionsMap": {
+    "A": "44",
+    "B": "22",
+    "C": "48",
+    "D": "24"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "44",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

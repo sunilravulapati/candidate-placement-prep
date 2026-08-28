@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_478",
+  "slug": "tcs-ver-478",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the meaning of the phrase 'to bite the dust':",
+  "description": "Choose the meaning of the phrase 'to bite the dust':",
+  "question": "Choose the meaning of the phrase 'to bite the dust':",
+  "options": [
+    "To fail or be defeated",
+    "To eat soil",
+    "To fall asleep",
+    "To become tired"
+  ],
+  "optionsMap": {
+    "A": "To fail or be defeated",
+    "B": "To eat soil",
+    "C": "To fall asleep",
+    "D": "To become tired"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "To fail or be defeated",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

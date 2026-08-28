@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_467",
+  "slug": "tcs-log-467",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number: 11, 17, 23, 29, __?",
+  "description": "Number: 11, 17, 23, 29, __?",
+  "question": "Number: 11, 17, 23, 29, __?",
+  "options": [
+    "35",
+    "31",
+    "37",
+    "33"
+  ],
+  "optionsMap": {
+    "A": "35",
+    "B": "31",
+    "C": "37",
+    "D": "33"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "35",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

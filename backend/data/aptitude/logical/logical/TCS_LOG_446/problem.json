@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_446",
+  "slug": "tcs-log-446",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number: 3×3, 5×5, 7×7, __×__?",
+  "description": "Number: 3×3, 5×5, 7×7, __×__?",
+  "question": "Number: 3×3, 5×5, 7×7, __×__?",
+  "options": [
+    "9×9",
+    "8×8",
+    "10×10",
+    "11×11"
+  ],
+  "optionsMap": {
+    "A": "9×9",
+    "B": "8×8",
+    "C": "10×10",
+    "D": "11×11"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "9×9",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

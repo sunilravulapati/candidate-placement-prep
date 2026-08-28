@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_499",
+  "slug": "tcs-log-499",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Analogy: Acrophobia:Heights :: Claustrophobia:?",
+  "description": "Analogy: Acrophobia:Heights :: Claustrophobia:?",
+  "question": "Analogy: Acrophobia:Heights :: Claustrophobia:?",
+  "options": [
+    "Enclosed spaces",
+    "Open spaces",
+    "Water",
+    "Insects"
+  ],
+  "optionsMap": {
+    "A": "Enclosed spaces",
+    "B": "Open spaces",
+    "C": "Water",
+    "D": "Insects"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Enclosed spaces",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

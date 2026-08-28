@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_445",
+  "slug": "tcs-apt-445",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "ratio-and-proportion",
+  "topicName": "Ratio and Proportion",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Two numbers are in ratio 3:4. Their LCM is 180. The numbers are:",
+  "description": "Two numbers are in ratio 3:4. Their LCM is 180. The numbers are:",
+  "question": "Two numbers are in ratio 3:4. Their LCM is 180. The numbers are:",
+  "options": [
+    "45 and 60",
+    "36 and 48",
+    "60 and 80",
+    "54 and 72"
+  ],
+  "optionsMap": {
+    "A": "45 and 60",
+    "B": "36 and 48",
+    "C": "60 and 80",
+    "D": "54 and 72"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "45 and 60",
+  "tags": [
+    "quantitative",
+    "ratio-and-proportion"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

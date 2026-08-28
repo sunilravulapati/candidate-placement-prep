@@ -9,7 +9,7 @@ export default function ProblemNotFound() {
           The requested DSA problem does not exist in the workspace library.
         </p>
         <Link
-          href="/dsa/library"
+          href="/dsa"
           className="inline-flex items-center justify-center rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-700 transition-colors"
         >
           Open Problem Library

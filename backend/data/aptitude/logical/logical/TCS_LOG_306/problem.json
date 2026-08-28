@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_306",
+  "slug": "tcs-log-306",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Ranking: Rahul is 15th from top and 26th from bottom. Total students?",
+  "description": "Ranking: Rahul is 15th from top and 26th from bottom. Total students?",
+  "question": "Ranking: Rahul is 15th from top and 26th from bottom. Total students?",
+  "options": [
+    "40",
+    "41",
+    "39",
+    "42"
+  ],
+  "optionsMap": {
+    "A": "40",
+    "B": "41",
+    "C": "39",
+    "D": "42"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "40",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

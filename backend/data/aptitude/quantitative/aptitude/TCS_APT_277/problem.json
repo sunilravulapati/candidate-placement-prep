@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_277",
+  "slug": "tcs-apt-277",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A rectangle has perimeter 60m. If length is 20m, find breadth.",
+  "description": "A rectangle has perimeter 60m. If length is 20m, find breadth.",
+  "question": "A rectangle has perimeter 60m. If length is 20m, find breadth.",
+  "options": [
+    "10m",
+    "15m",
+    "12m",
+    "8m"
+  ],
+  "optionsMap": {
+    "A": "10m",
+    "B": "15m",
+    "C": "12m",
+    "D": "8m"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "10m",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

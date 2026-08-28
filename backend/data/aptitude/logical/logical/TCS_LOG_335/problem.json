@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_335",
+  "slug": "tcs-log-335",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If A=26, B=25... Z=1, then BAD=?",
+  "description": "If A=26, B=25... Z=1, then BAD=?",
+  "question": "If A=26, B=25... Z=1, then BAD=?",
+  "options": [
+    "49",
+    "50",
+    "52",
+    "48"
+  ],
+  "optionsMap": {
+    "A": "49",
+    "B": "50",
+    "C": "52",
+    "D": "48"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "50",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

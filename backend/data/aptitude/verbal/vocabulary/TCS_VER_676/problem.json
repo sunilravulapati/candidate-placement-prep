@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_676",
+  "slug": "tcs-ver-676",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "One word: One who does not take alcohol",
+  "description": "One word: One who does not take alcohol",
+  "question": "One word: One who does not take alcohol",
+  "options": [
+    "Teetotaller",
+    "Abstainer",
+    "Non-drinker",
+    "Recusant"
+  ],
+  "optionsMap": {
+    "A": "Teetotaller",
+    "B": "Abstainer",
+    "C": "Non-drinker",
+    "D": "Recusant"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Teetotaller",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

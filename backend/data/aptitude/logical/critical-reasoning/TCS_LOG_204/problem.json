@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_204",
+  "slug": "tcs-log-204",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "critical-reasoning",
+  "topicName": "Critical Reasoning",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Argument: 'Every student who passed the exam studied hard. Priya studied hard...",
+  "description": "Argument: 'Every student who passed the exam studied hard. Priya studied hard.' Conclusion: 'Priya passed the exam.' This argument is:",
+  "question": "Argument: 'Every student who passed the exam studied hard. Priya studied hard.' Conclusion: 'Priya passed the exam.' This argument is:",
+  "options": [
+    "Invalid - affirming the consequent",
+    "Valid deductive argument",
+    "Valid inductive argument",
+    "Sound and valid"
+  ],
+  "optionsMap": {
+    "A": "Invalid - affirming the consequent",
+    "B": "Valid deductive argument",
+    "C": "Valid inductive argument",
+    "D": "Sound and valid"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Invalid - affirming the consequent",
+  "tags": [
+    "logical",
+    "critical-reasoning"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

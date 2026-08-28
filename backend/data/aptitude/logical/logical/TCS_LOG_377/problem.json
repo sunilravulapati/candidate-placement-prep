@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_377",
+  "slug": "tcs-log-377",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Logical: If no criminals are honest and some lawyers are criminals, are some ...",
+  "description": "Logical: If no criminals are honest and some lawyers are criminals, are some lawyers dishonest?",
+  "question": "Logical: If no criminals are honest and some lawyers are criminals, are some lawyers dishonest?",
+  "options": [
+    "Yes",
+    "No",
+    "Cannot determine",
+    "Maybe"
+  ],
+  "optionsMap": {
+    "A": "Yes",
+    "B": "No",
+    "C": "Cannot determine",
+    "D": "Maybe"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Yes",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

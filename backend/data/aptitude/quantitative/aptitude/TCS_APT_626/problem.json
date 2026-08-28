@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_626",
+  "slug": "tcs-apt-626",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Work done by A and B together if A=20days, B=30days, work for 4 days each the...",
+  "description": "Work done by A and B together if A=20days, B=30days, work for 4 days each then A leaves?",
+  "question": "Work done by A and B together if A=20days, B=30days, work for 4 days each then A leaves?",
+  "options": [
+    "Fraction done=7/15",
+    "8/15",
+    "9/15",
+    "6/15"
+  ],
+  "optionsMap": {
+    "A": "Fraction done=7/15",
+    "B": "8/15",
+    "C": "9/15",
+    "D": "6/15"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Fraction done=7/15",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

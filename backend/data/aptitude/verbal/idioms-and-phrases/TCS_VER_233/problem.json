@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_233",
+  "slug": "tcs-ver-233",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What does 'the best of both worlds' mean?",
+  "description": "What does 'the best of both worlds' mean?",
+  "question": "What does 'the best of both worlds' mean?",
+  "options": [
+    "Enjoy two advantages at the same time",
+    "Travel worldwide",
+    "Win every competition",
+    "Be the best player"
+  ],
+  "optionsMap": {
+    "A": "Enjoy two advantages at the same time",
+    "B": "Travel worldwide",
+    "C": "Win every competition",
+    "D": "Be the best player"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Enjoy two advantages at the same time",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

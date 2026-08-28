@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "TCS_VER_101",
+    "title": "The professor's lecture was so _____ that many students fell asleep.",
+    "description": "The professor's lecture was so _____ that many students fell asleep.",
+    "question": "The professor's lecture was so _____ that many students fell asleep.",
+    "options": [
+      "tedious",
+      "engaging",
+      "stimulating",
+      "thrilling"
+    ],
+    "answer": "tedious",
+    "answerKey": "A",
+    "correctAnswer": "tedious",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: tedious.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_102",
+    "title": "She showed great _____ by finishing the project despite all obstacles.",
+    "description": "She showed great _____ by finishing the project despite all obstacles.",
+    "question": "She showed great _____ by finishing the project despite all obstacles.",
+    "options": [
+      "perseverance",
+      "laziness",
+      "reluctance",
+      "hesitation"
+    ],
+    "answer": "perseverance",
+    "answerKey": "A",
+    "correctAnswer": "perseverance",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: perseverance.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_103",
+    "title": "The contract was declared _____ because it lacked proper signatures.",
+    "description": "The contract was declared _____ because it lacked proper signatures.",
+    "question": "The contract was declared _____ because it lacked proper signatures.",
+    "options": [
+      "void",
+      "valid",
+      "binding",
+      "legal"
+    ],
+    "answer": "void",
+    "answerKey": "A",
+    "correctAnswer": "void",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: void.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_104",
+    "title": "His _____ remarks offended many people in the audience.",
+    "description": "His _____ remarks offended many people in the audience.",
+    "question": "His _____ remarks offended many people in the audience.",
+    "options": [
+      "derogatory",
+      "kind",
+      "polite",
+      "flattering"
+    ],
+    "answer": "derogatory",
+    "answerKey": "A",
+    "correctAnswer": "derogatory",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: derogatory.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_105",
+    "title": "The scientist made a _____ discovery that changed modern medicine.",
+    "description": "The scientist made a _____ discovery that changed modern medicine.",
+    "question": "The scientist made a _____ discovery that changed modern medicine.",
+    "options": [
+      "groundbreaking",
+      "trivial",
+      "minor",
+      "unremarkable"
+    ],
+    "answer": "groundbreaking",
+    "answerKey": "A",
+    "correctAnswer": "groundbreaking",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: groundbreaking.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_106",
+    "title": "She was _____ about her diet, avoiding sugar and processed foods.",
+    "description": "She was _____ about her diet, avoiding sugar and processed foods.",
+    "question": "She was _____ about her diet, avoiding sugar and processed foods.",
+    "options": [
+      "meticulous",
+      "careless",
+      "relaxed",
+      "indifferent"
+    ],
+    "answer": "meticulous",
+    "answerKey": "A",
+    "correctAnswer": "meticulous",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: meticulous.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_107",
+    "title": "The old building was in a state of complete _____; it had to be demolished.",
+    "description": "The old building was in a state of complete _____; it had to be demolished.",
+    "question": "The old building was in a state of complete _____; it had to be demolished.",
+    "options": [
+      "dilapidation",
+      "repair",
+      "restoration",
+      "perfection"
+    ],
+    "answer": "dilapidation",
+    "answerKey": "A",
+    "correctAnswer": "dilapidation",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: dilapidation.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_108",
+    "title": "He had an _____ memory and could recall events from decades ago.",
+    "description": "He had an _____ memory and could recall events from decades ago.",
+    "question": "He had an _____ memory and could recall events from decades ago.",
+    "options": [
+      "impeccable",
+      "average",
+      "ordinary",
+      "poor"
+    ],
+    "answer": "impeccable",
+    "answerKey": "A",
+    "correctAnswer": "impeccable",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: impeccable.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_109",
+    "title": "The _____ negotiations finally led to a peace agreement after years of war.",
+    "description": "The _____ negotiations finally led to a peace agreement after years of war.",
+    "question": "The _____ negotiations finally led to a peace agreement after years of war.",
+    "options": [
+      "protracted",
+      "brief",
+      "quick",
+      "instant"
+    ],
+    "answer": "protracted",
+    "answerKey": "A",
+    "correctAnswer": "protracted",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: protracted.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_110",
+    "title": "Her _____ smile made everyone in the room feel welcome.",
+    "description": "Her _____ smile made everyone in the room feel welcome.",
+    "question": "Her _____ smile made everyone in the room feel welcome.",
+    "options": [
+      "radiant",
+      "gloomy",
+      "forced",
+      "artificial"
+    ],
+    "answer": "radiant",
+    "answerKey": "A",
+    "correctAnswer": "radiant",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: radiant.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_111",
+    "title": "The athlete's _____ performance broke three world records.",
+    "description": "The athlete's _____ performance broke three world records.",
+    "question": "The athlete's _____ performance broke three world records.",
+    "options": [
+      "phenomenal",
+      "mediocre",
+      "average",
+      "poor"
+    ],
+    "answer": "phenomenal",
+    "answerKey": "A",
+    "correctAnswer": "phenomenal",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: phenomenal.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_113",
+    "title": "The CEO made a _____ decision that saved the company from bankruptcy.",
+    "description": "The CEO made a _____ decision that saved the company from bankruptcy.",
+    "question": "The CEO made a _____ decision that saved the company from bankruptcy.",
+    "options": [
+      "prudent",
+      "rash",
+      "hasty",
+      "impulsive"
+    ],
+    "answer": "prudent",
+    "answerKey": "A",
+    "correctAnswer": "prudent",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: prudent.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_114",
+    "title": "The new policy was met with _____ from the employees.",
+    "description": "The new policy was met with _____ from the employees.",
+    "question": "The new policy was met with _____ from the employees.",
+    "options": [
+      "resistance",
+      "acceptance",
+      "approval",
+      "enthusiasm"
+    ],
+    "answer": "resistance",
+    "answerKey": "A",
+    "correctAnswer": "resistance",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: resistance.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_115",
+    "title": "The students were _____ by the complexity of the math problem.",
+    "description": "The students were _____ by the complexity of the math problem.",
+    "question": "The students were _____ by the complexity of the math problem.",
+    "options": [
+      "baffled",
+      "inspired",
+      "motivated",
+      "excited"
+    ],
+    "answer": "baffled",
+    "answerKey": "A",
+    "correctAnswer": "baffled",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: baffled.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_116",
+    "title": "Despite his young age, he showed remarkable _____ in handling the crisis.",
+    "description": "Despite his young age, he showed remarkable _____ in handling the crisis.",
+    "question": "Despite his young age, he showed remarkable _____ in handling the crisis.",
+    "options": [
+      "maturity",
+      "immaturity",
+      "inexperience",
+      "naivety"
+    ],
+    "answer": "maturity",
+    "answerKey": "A",
+    "correctAnswer": "maturity",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: maturity.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_117",
+    "title": "The thunderstorm was so _____ that it caused widespread flooding.",
+    "description": "The thunderstorm was so _____ that it caused widespread flooding.",
+    "question": "The thunderstorm was so _____ that it caused widespread flooding.",
+    "options": [
+      "severe",
+      "mild",
+      "light",
+      "gentle"
+    ],
+    "answer": "severe",
+    "answerKey": "A",
+    "correctAnswer": "severe",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: severe.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_118",
+    "title": "The artist's work was _____ because it used entirely new techniques.",
+    "description": "The artist's work was _____ because it used entirely new techniques.",
+    "question": "The artist's work was _____ because it used entirely new techniques.",
+    "options": [
+      "innovative",
+      "traditional",
+      "conventional",
+      "classical"
+    ],
+    "answer": "innovative",
+    "answerKey": "A",
+    "correctAnswer": "innovative",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: innovative.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_119",
+    "title": "She had a _____ for solving puzzles and could finish them in minutes.",
+    "description": "She had a _____ for solving puzzles and could finish them in minutes.",
+    "question": "She had a _____ for solving puzzles and could finish them in minutes.",
+    "options": [
+      "knack",
+      "aversion",
+      "dislike",
+      "fear"
+    ],
+    "answer": "knack",
+    "answerKey": "A",
+    "correctAnswer": "knack",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: knack.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_120",
+    "title": "The _____ behavior of the child annoyed everyone at the restaurant.",
+    "description": "The _____ behavior of the child annoyed everyone at the restaurant.",
+    "question": "The _____ behavior of the child annoyed everyone at the restaurant.",
+    "options": [
+      "boisterous",
+      "quiet",
+      "shy",
+      "polite"
+    ],
+    "answer": "boisterous",
+    "answerKey": "A",
+    "correctAnswer": "boisterous",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: boisterous.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_121",
+    "title": "The peace talks were _____ after both parties failed to agree.",
+    "description": "The peace talks were _____ after both parties failed to agree.",
+    "question": "The peace talks were _____ after both parties failed to agree.",
+    "options": [
+      "abandoned",
+      "concluded",
+      "finalized",
+      "successful"
+    ],
+    "answer": "abandoned",
+    "answerKey": "A",
+    "correctAnswer": "abandoned",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: abandoned.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_122",
+    "title": "The documentary provided _____ insight into the lives of deep-sea creatures.",
+    "description": "The documentary provided _____ insight into the lives of deep-sea creatures.",
+    "question": "The documentary provided _____ insight into the lives of deep-sea creatures.",
+    "options": [
+      "fascinating",
+      "boring",
+      "dull",
+      "tedious"
+    ],
+    "answer": "fascinating",
+    "answerKey": "A",
+    "correctAnswer": "fascinating",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: fascinating.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_123",
+    "title": "The company was _____ by its competitors when it refused to innovate.",
+    "description": "The company was _____ by its competitors when it refused to innovate.",
+    "question": "The company was _____ by its competitors when it refused to innovate.",
+    "options": [
+      "overtaken",
+      "supported",
+      "helped",
+      "aided"
+    ],
+    "answer": "overtaken",
+    "answerKey": "A",
+    "correctAnswer": "overtaken",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: overtaken.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_124",
+    "title": "The politician's speech was _____, repeating the same points endlessly.",
+    "description": "The politician's speech was _____, repeating the same points endlessly.",
+    "question": "The politician's speech was _____, repeating the same points endlessly.",
+    "options": [
+      "redundant",
+      "concise",
+      "brief",
+      "clear"
+    ],
+    "answer": "redundant",
+    "answerKey": "A",
+    "correctAnswer": "redundant",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: redundant.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_126",
+    "title": "The _____ river flooded the surrounding fields after the heavy rains.",
+    "description": "The _____ river flooded the surrounding fields after the heavy rains.",
+    "question": "The _____ river flooded the surrounding fields after the heavy rains.",
+    "options": [
+      "swollen",
+      "shallow",
+      "narrow",
+      "calm"
+    ],
+    "answer": "swollen",
+    "answerKey": "A",
+    "correctAnswer": "swollen",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: swollen.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_127",
+    "title": "The manager's _____ attitude made it difficult to work under her.",
+    "description": "The manager's _____ attitude made it difficult to work under her.",
+    "question": "The manager's _____ attitude made it difficult to work under her.",
+    "options": [
+      "authoritarian",
+      "democratic",
+      "lenient",
+      "flexible"
+    ],
+    "answer": "authoritarian",
+    "answerKey": "A",
+    "correctAnswer": "authoritarian",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: authoritarian.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_128",
+    "title": "The patient showed _____ signs of recovery after the surgery.",
+    "description": "The patient showed _____ signs of recovery after the surgery.",
+    "question": "The patient showed _____ signs of recovery after the surgery.",
+    "options": [
+      "promising",
+      "discouraging",
+      "negative",
+      "worrying"
+    ],
+    "answer": "promising",
+    "answerKey": "A",
+    "correctAnswer": "promising",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: promising.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_129",
+    "title": "The _____ of the ancient ruins left archaeologists astonished.",
+    "description": "The _____ of the ancient ruins left archaeologists astonished.",
+    "question": "The _____ of the ancient ruins left archaeologists astonished.",
+    "options": [
+      "grandeur",
+      "simplicity",
+      "ordinariness",
+      "smallness"
+    ],
+    "answer": "grandeur",
+    "answerKey": "A",
+    "correctAnswer": "grandeur",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: grandeur.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_130",
+    "title": "She had such _____ opinions that no one could change her mind.",
+    "description": "She had such _____ opinions that no one could change her mind.",
+    "question": "She had such _____ opinions that no one could change her mind.",
+    "options": [
+      "entrenched",
+      "flexible",
+      "open",
+      "changing"
+    ],
+    "answer": "entrenched",
+    "answerKey": "A",
+    "correctAnswer": "entrenched",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: entrenched.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_131",
+    "title": "The _____ of the forest was disturbed by the construction work.",
+    "description": "The _____ of the forest was disturbed by the construction work.",
+    "question": "The _____ of the forest was disturbed by the construction work.",
+    "options": [
+      "tranquility",
+      "noise",
+      "chaos",
+      "turbulence"
+    ],
+    "answer": "tranquility",
+    "answerKey": "A",
+    "correctAnswer": "tranquility",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: tranquility.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_132",
+    "title": "His _____ remarks showed that he had given much thought to the problem.",
+    "description": "His _____ remarks showed that he had given much thought to the problem.",
+    "question": "His _____ remarks showed that he had given much thought to the problem.",
+    "options": [
+      "incisive",
+      "vague",
+      "unclear",
+      "shallow"
+    ],
+    "answer": "incisive",
+    "answerKey": "A",
+    "correctAnswer": "incisive",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: incisive.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_133",
+    "title": "The _____ athlete trained for six hours every day without fail.",
+    "description": "The _____ athlete trained for six hours every day without fail.",
+    "question": "The _____ athlete trained for six hours every day without fail.",
+    "options": [
+      "dedicated",
+      "lazy",
+      "casual",
+      "indifferent"
+    ],
+    "answer": "dedicated",
+    "answerKey": "A",
+    "correctAnswer": "dedicated",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: dedicated.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_134",
+    "title": "She was _____ in her approach and always followed the rules.",
+    "description": "She was _____ in her approach and always followed the rules.",
+    "question": "She was _____ in her approach and always followed the rules.",
+    "options": [
+      "methodical",
+      "chaotic",
+      "random",
+      "careless"
+    ],
+    "answer": "methodical",
+    "answerKey": "A",
+    "correctAnswer": "methodical",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: methodical.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_135",
+    "title": "The _____ child asked questions about everything he saw.",
+    "description": "The _____ child asked questions about everything he saw.",
+    "question": "The _____ child asked questions about everything he saw.",
+    "options": [
+      "inquisitive",
+      "disinterested",
+      "apathetic",
+      "bored"
+    ],
+    "answer": "inquisitive",
+    "answerKey": "A",
+    "correctAnswer": "inquisitive",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: inquisitive.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_136",
+    "title": "The _____ of the night sky filled the astronomer with wonder.",
+    "description": "The _____ of the night sky filled the astronomer with wonder.",
+    "question": "The _____ of the night sky filled the astronomer with wonder.",
+    "options": [
+      "vastness",
+      "smallness",
+      "narrowness",
+      "closeness"
+    ],
+    "answer": "vastness",
+    "answerKey": "A",
+    "correctAnswer": "vastness",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: vastness.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_137",
+    "title": "The teacher's _____ explanation helped even the weakest students understand.",
+    "description": "The teacher's _____ explanation helped even the weakest students understand.",
+    "question": "The teacher's _____ explanation helped even the weakest students understand.",
+    "options": [
+      "lucid",
+      "confusing",
+      "vague",
+      "unclear"
+    ],
+    "answer": "lucid",
+    "answerKey": "A",
+    "correctAnswer": "lucid",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: lucid.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_138",
+    "title": "The book was so _____ that she read it in one sitting.",
+    "description": "The book was so _____ that she read it in one sitting.",
+    "question": "The book was so _____ that she read it in one sitting.",
+    "options": [
+      "compelling",
+      "boring",
+      "dull",
+      "ordinary"
+    ],
+    "answer": "compelling",
+    "answerKey": "A",
+    "correctAnswer": "compelling",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: compelling.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_139",
+    "title": "He showed _____ courage in the face of overwhelming danger.",
+    "description": "He showed _____ courage in the face of overwhelming danger.",
+    "question": "He showed _____ courage in the face of overwhelming danger.",
+    "options": [
+      "extraordinary",
+      "average",
+      "ordinary",
+      "common"
+    ],
+    "answer": "extraordinary",
+    "answerKey": "A",
+    "correctAnswer": "extraordinary",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: extraordinary.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_140",
+    "title": "The economy was in _____ condition after years of poor management.",
+    "description": "The economy was in _____ condition after years of poor management.",
+    "question": "The economy was in _____ condition after years of poor management.",
+    "options": [
+      "dire",
+      "excellent",
+      "good",
+      "fine"
+    ],
+    "answer": "dire",
+    "answerKey": "A",
+    "correctAnswer": "dire",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: dire.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_141",
+    "title": "The speaker's _____ delivery kept the audience engaged throughout.",
+    "description": "The speaker's _____ delivery kept the audience engaged throughout.",
+    "question": "The speaker's _____ delivery kept the audience engaged throughout.",
+    "options": [
+      "dynamic",
+      "monotonous",
+      "dull",
+      "flat"
+    ],
+    "answer": "dynamic",
+    "answerKey": "A",
+    "correctAnswer": "dynamic",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: dynamic.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_142",
+    "title": "Her _____ for languages allowed her to learn three in two years.",
+    "description": "Her _____ for languages allowed her to learn three in two years.",
+    "question": "Her _____ for languages allowed her to learn three in two years.",
+    "options": [
+      "aptitude",
+      "dislike",
+      "inability",
+      "weakness"
+    ],
+    "answer": "aptitude",
+    "answerKey": "A",
+    "correctAnswer": "aptitude",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: aptitude.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_143",
+    "title": "The situation was so _____ that even the experts were puzzled.",
+    "description": "The situation was so _____ that even the experts were puzzled.",
+    "question": "The situation was so _____ that even the experts were puzzled.",
+    "options": [
+      "enigmatic",
+      "simple",
+      "clear",
+      "obvious"
+    ],
+    "answer": "enigmatic",
+    "answerKey": "A",
+    "correctAnswer": "enigmatic",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: enigmatic.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_144",
+    "title": "The negotiations reached a _____ when neither party would compromise.",
+    "description": "The negotiations reached a _____ when neither party would compromise.",
+    "question": "The negotiations reached a _____ when neither party would compromise.",
+    "options": [
+      "deadlock",
+      "agreement",
+      "resolution",
+      "conclusion"
+    ],
+    "answer": "deadlock",
+    "answerKey": "A",
+    "correctAnswer": "deadlock",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: deadlock.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_145",
+    "title": "The _____ evidence left no doubt about the suspect's guilt.",
+    "description": "The _____ evidence left no doubt about the suspect's guilt.",
+    "question": "The _____ evidence left no doubt about the suspect's guilt.",
+    "options": [
+      "overwhelming",
+      "scant",
+      "limited",
+      "weak"
+    ],
+    "answer": "overwhelming",
+    "answerKey": "A",
+    "correctAnswer": "overwhelming",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: overwhelming.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_146",
+    "title": "The scientist's _____ approach led to the discovery of a new element.",
+    "description": "The scientist's _____ approach led to the discovery of a new element.",
+    "question": "The scientist's _____ approach led to the discovery of a new element.",
+    "options": [
+      "systematic",
+      "random",
+      "haphazard",
+      "unsystematic"
+    ],
+    "answer": "systematic",
+    "answerKey": "A",
+    "correctAnswer": "systematic",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: systematic.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_147",
+    "title": "The new hospital wing was _____ to patients with chronic illnesses.",
+    "description": "The new hospital wing was _____ to patients with chronic illnesses.",
+    "question": "The new hospital wing was _____ to patients with chronic illnesses.",
+    "options": [
+      "dedicated",
+      "hostile",
+      "closed",
+      "unavailable"
+    ],
+    "answer": "dedicated",
+    "answerKey": "A",
+    "correctAnswer": "dedicated",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: dedicated.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_148",
+    "title": "Her _____ nature made her willing to help anyone in need.",
+    "description": "Her _____ nature made her willing to help anyone in need.",
+    "question": "Her _____ nature made her willing to help anyone in need.",
+    "options": [
+      "altruistic",
+      "selfish",
+      "greedy",
+      "self-centered"
+    ],
+    "answer": "altruistic",
+    "answerKey": "A",
+    "correctAnswer": "altruistic",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: altruistic.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_149",
+    "title": "The _____ of the painting technique made it impossible to reproduce.",
+    "description": "The _____ of the painting technique made it impossible to reproduce.",
+    "question": "The _____ of the painting technique made it impossible to reproduce.",
+    "options": [
+      "intricacy",
+      "simplicity",
+      "crudeness",
+      "roughness"
+    ],
+    "answer": "intricacy",
+    "answerKey": "A",
+    "correctAnswer": "intricacy",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: intricacy.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_150",
+    "title": "The explorer was known for his _____ spirit and love of adventure.",
+    "description": "The explorer was known for his _____ spirit and love of adventure.",
+    "question": "The explorer was known for his _____ spirit and love of adventure.",
+    "options": [
+      "intrepid",
+      "timid",
+      "cautious",
+      "fearful"
+    ],
+    "answer": "intrepid",
+    "answerKey": "A",
+    "correctAnswer": "intrepid",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: intrepid.",
+    "topic": "fill-in-the-blanks",
+    "topicName": "Fill in the Blanks",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

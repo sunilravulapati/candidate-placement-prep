@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_236",
+  "slug": "tcs-ver-236",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "What does 'under someone's thumb' mean?",
+  "description": "What does 'under someone's thumb' mean?",
+  "question": "What does 'under someone's thumb' mean?",
+  "options": [
+    "Controlled by someone",
+    "Help someone",
+    "Thumb-wrestle",
+    "Work independently"
+  ],
+  "optionsMap": {
+    "A": "Controlled by someone",
+    "B": "Help someone",
+    "C": "Thumb-wrestle",
+    "D": "Work independently"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Controlled by someone",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

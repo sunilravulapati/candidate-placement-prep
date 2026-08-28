@@ -1,317 +1,432 @@
 'use client';
 
-import { useState } from 'react';
-import { 
-  Trophy, 
-  CheckCircle2, 
-  Clock, 
-  BookOpen, 
-  Calendar,
+import {
+  Trophy,
   ChevronRight,
-  TrendingUp,
-  BrainCircuit,
   FileText,
   Video,
-  BarChart3,
   Brain,
   Code2,
-  MessageSquare,
   Sparkles,
-  Target
+  Target,
+  ArrowUpRight,
+  CheckCircle2,
+  Flame,
+  Activity,
+  CircleDot,
 } from 'lucide-react';
 import Link from 'next/link';
+
+const metrics = [
+  {
+    label: 'Placement readiness',
+    value: '78',
+    suffix: '%',
+    detail: '+2.5% this week',
+    icon: Trophy,
+    accent: 'emerald',
+    progress: 78,
+  },
+  {
+    label: 'Resume score',
+    value: '8.5',
+    suffix: '/10',
+    detail: 'Scanned 2 days ago',
+    icon: FileText,
+    accent: 'violet',
+    progress: 85,
+  },
+  {
+    label: 'DSA mastery',
+    value: '62',
+    suffix: '%',
+    detail: '45 problems solved',
+    icon: Code2,
+    accent: 'sky',
+    progress: 62,
+  },
+  {
+    label: 'Aptitude readiness',
+    value: '45',
+    suffix: '%',
+    detail: 'In active progress',
+    icon: Brain,
+    accent: 'fuchsia',
+    progress: 45,
+  },
+];
+
+const modules = [
+  {
+    href: '/aptitude',
+    title: 'Placement Aptitude',
+    description: 'Quant, verbal, and logical reasoning practice tests.',
+    icon: Brain,
+    accent: 'fuchsia',
+    stat: '45% completed',
+    meta: 'QA · VA · LR',
+  },
+  {
+    href: '/resume-ai',
+    title: 'Resume Intelligence',
+    description: 'AI scoring and ATS optimization tailored to your roles.',
+    icon: FileText,
+    accent: 'violet',
+    stat: 'Score: 8.5/10',
+    meta: 'Last scanned 2d ago',
+  },
+  {
+    href: '/dsa',
+    title: 'DSA Practice',
+    description: 'Curated coding problems for technical interview rounds.',
+    icon: Code2,
+    accent: 'sky',
+    stat: '62% mastery',
+    meta: 'Recently: Graphs',
+  },
+  {
+    href: '/mock-interviews',
+    title: 'Mock Interviews',
+    description: 'AI voice interviews for technical and HR rounds.',
+    icon: Video,
+    accent: 'emerald',
+    stat: 'Good standing',
+    meta: '2 interviews done',
+  },
+];
+
+const accentStyles: Record<
+  string,
+  {
+    icon: string;
+    iconBg: string;
+    progress: string;
+    hover: string;
+    badge: string;
+  }
+> = {
+  emerald: {
+    icon: 'text-emerald-300',
+    iconBg: 'border-emerald-400/20 bg-emerald-400/10',
+    progress: 'bg-emerald-400',
+    hover: 'group-hover:border-emerald-400/30',
+    badge: 'text-emerald-300 bg-emerald-400/10',
+  },
+  violet: {
+    icon: 'text-violet-300',
+    iconBg: 'border-violet-400/20 bg-violet-400/10',
+    progress: 'bg-violet-400',
+    hover: 'group-hover:border-violet-400/30',
+    badge: 'text-violet-300 bg-violet-400/10',
+  },
+  sky: {
+    icon: 'text-sky-300',
+    iconBg: 'border-sky-400/20 bg-sky-400/10',
+    progress: 'bg-sky-400',
+    hover: 'group-hover:border-sky-400/30',
+    badge: 'text-sky-300 bg-sky-400/10',
+  },
+  fuchsia: {
+    icon: 'text-fuchsia-300',
+    iconBg: 'border-fuchsia-400/20 bg-fuchsia-400/10',
+    progress: 'bg-fuchsia-400',
+    hover: 'group-hover:border-fuchsia-400/30',
+    badge: 'text-fuchsia-300 bg-fuchsia-400/10',
+  },
+};
 
 export default function Dashboard() {
   return (
     <div className="page-container">
-      {/* Welcome Banner */}
-      <div className="relative overflow-hidden bg-gradient-to-r from-violet-900/40 via-indigo-900/30 to-slate-900/20 border border-indigo-500/10 p-6 md:p-8 rounded-3xl backdrop-blur-md">
-        <div className="absolute -top-12 -right-12 w-48 h-48 bg-indigo-500/10 rounded-full blur-3xl"></div>
-        <div className="relative z-10 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-          <div>
-            <h1 className="text-2xl md:text-3xl font-extrabold text-white tracking-tight">
-              Welcome back, Candidate! 👋
+      <section className="relative isolate overflow-hidden rounded-[30px] border border-violet-400/20 bg-gradient-to-br from-violet-950/60 via-indigo-950/30 to-slate-950/40 p-6 shadow-2xl shadow-indigo-950/20 md:p-8">
+        <div className="absolute -right-16 -top-28 -z-10 h-80 w-80 rounded-full bg-violet-500/15 blur-3xl" />
+        <div className="absolute -bottom-36 left-1/3 -z-10 h-72 w-72 rounded-full bg-sky-500/10 blur-3xl" />
+        <div className="absolute inset-0 -z-10 bg-[linear-gradient(115deg,transparent_10%,rgba(255,255,255,0.04)_50%,transparent_75%)]" />
+        <div className="relative z-10 flex flex-col justify-between gap-7 lg:flex-row lg:items-center">
+          <div className="max-w-2xl">
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-violet-300/15 bg-violet-300/[0.08] px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.18em] text-violet-200/80">
+              <span className="h-1.5 w-1.5 rounded-full bg-emerald-300 shadow-lg shadow-emerald-300/50" />
+              Your placement command center
+            </div>
+            <h1 className="text-3xl font-extrabold tracking-tight text-white md:text-4xl">
+              Welcome back, Candidate.
             </h1>
-            <p className="text-slate-400 text-sm mt-1 max-w-xl leading-relaxed">
-              You are on track for your upcoming drives. Keep pushing your daily goals to improve your Overall Placement Readiness.
+            <p className="mt-3 max-w-xl text-sm leading-6 text-slate-300/75 md:text-[15px]">
+              You are building steady momentum. Focus on the next recommended
+              action to keep your readiness score moving forward.
             </p>
           </div>
-          <div className="flex gap-3">
-            <div className="bg-slate-900/50 border border-slate-800 text-slate-300 font-semibold text-xs px-4 py-2.5 rounded-xl flex items-center gap-2">
-              <Target className="w-4 h-4 text-emerald-400" />
-              <span>Daily Goal: 2/5</span>
+          <div className="flex flex-wrap gap-3">
+            <div className="rounded-2xl border border-white/10 bg-slate-950/35 px-4 py-3 backdrop-blur-sm">
+              <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-wider text-slate-500">
+                <Target className="h-3.5 w-3.5 text-emerald-300" /> Daily goal
+              </div>
+              <p className="mt-1 text-lg font-bold text-white">
+                2{' '}
+                <span className="text-sm font-medium text-slate-500">
+                  / 5 tasks
+                </span>
+              </p>
             </div>
-            <div className="bg-violet-600 hover:bg-violet-500 text-white font-semibold text-xs px-4 py-2.5 rounded-xl flex items-center gap-2 shadow-lg shadow-violet-600/20 transition-colors">
-              <span>Learning streak: 4 days</span>
-              <TrendingUp className="w-4 h-4 text-violet-200" />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Primary Metrics Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {/* Placement Readiness Score */}
-        <div className="glass-card p-5 rounded-2xl flex flex-col justify-between relative overflow-hidden group">
-          <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-          <div className="flex justify-between items-start mb-4">
-            <div className="bg-emerald-600/10 p-3 rounded-xl border border-emerald-500/20 text-emerald-400">
-              <Trophy className="w-5 h-5" />
-            </div>
-            <span className="text-xs font-bold text-emerald-400 bg-emerald-500/10 px-2 py-1 rounded-lg">+2.5% this week</span>
-          </div>
-          <div>
-            <p className="text-slate-400 text-xs font-medium uppercase tracking-wider mb-1">Placement Readiness</p>
-            <div className="flex items-baseline gap-2">
-              <h3 className="text-3xl font-bold text-slate-100">78%</h3>
+            <div className="rounded-2xl border border-violet-300/20 bg-violet-400/10 px-4 py-3 backdrop-blur-sm">
+              <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-wider text-violet-200/70">
+                <Flame className="h-3.5 w-3.5 text-orange-300" /> Learning
+                streak
+              </div>
+              <p className="mt-1 text-lg font-bold text-white">
+                4{' '}
+                <span className="text-sm font-medium text-violet-200/60">
+                  days
+                </span>
+              </p>
             </div>
           </div>
         </div>
+      </section>
 
-        {/* Resume Score */}
-        <div className="glass-card p-5 rounded-2xl flex flex-col justify-between relative overflow-hidden group">
-          <div className="absolute inset-0 bg-gradient-to-br from-violet-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-          <div className="flex justify-between items-start mb-4">
-            <div className="bg-violet-600/10 p-3 rounded-xl border border-violet-500/20 text-violet-400">
-              <FileText className="w-5 h-5" />
+      <section
+        className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4"
+        aria-label="Preparation metrics"
+      >
+        {metrics.map((metric) => {
+          const styles = accentStyles[metric.accent];
+          const Icon = metric.icon;
+          return (
+            <div
+              key={metric.label}
+              className="glass-card group overflow-hidden rounded-2xl p-5"
+            >
+              <div className="mb-6 flex items-start justify-between gap-3">
+                <div className={`rounded-xl border p-3 ${styles.iconBg}`}>
+                  <Icon className={`h-5 w-5 ${styles.icon}`} />
+                </div>
+                <span
+                  className={`rounded-lg px-2 py-1 text-[10px] font-bold ${styles.badge}`}
+                >
+                  {metric.detail}
+                </span>
+              </div>
+              <p className="eyebrow">{metric.label}</p>
+              <div className="mt-1 flex items-baseline gap-1">
+                <span className="text-3xl font-extrabold tracking-tight text-white">
+                  {metric.value}
+                </span>
+                <span className="text-sm font-bold text-slate-500">
+                  {metric.suffix}
+                </span>
+              </div>
+              <div className="mt-4 h-1.5 overflow-hidden rounded-full bg-slate-800/80">
+                <div
+                  className={`h-full rounded-full ${styles.progress}`}
+                  style={{ width: `${metric.progress}%` }}
+                />
+              </div>
             </div>
-            <span className="text-xs font-bold text-slate-500 bg-slate-800 px-2 py-1 rounded-lg">Last updated 2d ago</span>
-          </div>
-          <div>
-            <p className="text-slate-400 text-xs font-medium uppercase tracking-wider mb-1">Resume Score</p>
-            <div className="flex items-baseline gap-2">
-              <h3 className="text-3xl font-bold text-slate-100">8.5<span className="text-lg text-slate-500">/10</span></h3>
-            </div>
-          </div>
-        </div>
+          );
+        })}
+      </section>
 
-        {/* DSA Progress */}
-        <div className="glass-card p-5 rounded-2xl flex flex-col justify-between relative overflow-hidden group">
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-          <div className="flex justify-between items-start mb-4">
-            <div className="bg-blue-600/10 p-3 rounded-xl border border-blue-500/20 text-blue-400">
-              <Code2 className="w-5 h-5" />
-            </div>
-            <span className="text-xs font-bold text-slate-500 bg-slate-800 px-2 py-1 rounded-lg">45 solved</span>
-          </div>
-          <div>
-            <p className="text-slate-400 text-xs font-medium uppercase tracking-wider mb-1">DSA Mastery</p>
-            <div className="flex items-baseline gap-2">
-              <h3 className="text-3xl font-bold text-slate-100">62%</h3>
-            </div>
-            <div className="w-full bg-slate-800 h-1.5 rounded-full mt-3 overflow-hidden">
-              <div className="bg-blue-500 h-full rounded-full" style={{ width: '62%' }}></div>
-            </div>
-          </div>
-        </div>
-
-        {/* Aptitude & English */}
-        <div className="glass-card p-5 rounded-2xl flex flex-col justify-between relative overflow-hidden group">
-          <div className="absolute inset-0 bg-gradient-to-br from-fuchsia-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-          <div className="flex justify-between items-start mb-4">
-            <div className="bg-fuchsia-600/10 p-3 rounded-xl border border-fuchsia-500/20 text-fuchsia-400">
-              <Brain className="w-5 h-5" />
-            </div>
-            <span className="text-xs font-bold text-slate-500 bg-slate-800 px-2 py-1 rounded-lg">In Progress</span>
-          </div>
-          <div>
-            <p className="text-slate-400 text-xs font-medium uppercase tracking-wider mb-1">Aptitude Readiness</p>
-            <div className="flex items-baseline gap-2">
-              <h3 className="text-3xl font-bold text-slate-100">45%</h3>
-            </div>
-            <div className="w-full bg-slate-800 h-1.5 rounded-full mt-3 overflow-hidden">
-              <div className="bg-fuchsia-500 h-full rounded-full" style={{ width: '45%' }}></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Left Column: Activity & Recommendations */}
-        <div className="lg:col-span-2 space-y-6">
-          
-          {/* Recommended Next Action */}
-          <div className="glass-card p-6 rounded-2xl border border-indigo-500/20 bg-gradient-to-br from-indigo-900/20 to-slate-900/50">
-            <div className="flex items-start justify-between gap-4">
+      <div className="grid grid-cols-1 gap-6 xl:grid-cols-[minmax(0,1fr)_360px]">
+        <div className="space-y-6">
+          <section className="relative overflow-hidden rounded-2xl border border-indigo-400/20 bg-gradient-to-br from-indigo-950/55 to-slate-950/50 p-6 shadow-xl shadow-indigo-950/10 md:p-7">
+            <div className="absolute -right-20 -top-24 h-64 w-64 rounded-full bg-indigo-500/10 blur-3xl" />
+            <div className="relative flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
               <div className="flex gap-4">
-                <div className="bg-indigo-600/20 p-3 rounded-xl border border-indigo-500/30 flex-shrink-0">
-                  <Sparkles className="w-6 h-6 text-indigo-400" />
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-indigo-300/20 bg-indigo-400/10">
+                  <Sparkles className="h-6 w-6 text-indigo-200" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-slate-100 mb-1">Recommended for you today</h3>
-                  <p className="text-sm text-slate-400 mb-4 max-w-lg">
-                    Your mock interview score for System Design is lagging. We recommend taking a 15-minute quick mock session to improve your structural thinking.
+                  <div className="mb-2 flex flex-wrap items-center gap-2">
+                    <span className="eyebrow text-indigo-300/80">
+                      Recommended next
+                    </span>
+                    <span className="rounded-md bg-indigo-400/10 px-2 py-1 text-[10px] font-bold text-indigo-200">
+                      15 MIN
+                    </span>
+                  </div>
+                  <h2 className="text-xl font-bold text-white">
+                    Sharpen your system design thinking
+                  </h2>
+                  <p className="mt-2 max-w-xl text-sm leading-6 text-slate-300/70">
+                    Your recent mock interview shows an opportunity to improve
+                    structure and trade-off explanations. A short focused
+                    session can close the gap.
                   </p>
-                  <div className="flex gap-3">
-                    <Link href="/mock-interviews" className="bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-semibold px-5 py-2.5 rounded-xl transition-colors">
-                      Start Mock Interview
-                    </Link>
-                    <button className="bg-white/5 hover:bg-white/10 text-slate-300 border border-white/10 text-sm font-semibold px-5 py-2.5 rounded-xl transition-colors">
-                      Skip for now
-                    </button>
+                </div>
+              </div>
+              <Link
+                href="/mock-interviews"
+                className="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl bg-indigo-500 px-4 py-2.5 text-sm font-bold text-white shadow-lg shadow-indigo-500/20 transition hover:bg-indigo-400"
+              >
+                Start session <ArrowUpRight className="h-4 w-4" />
+              </Link>
+            </div>
+          </section>
+
+          <section>
+            <div className="mb-4 flex items-center justify-between">
+              <div>
+                <p className="eyebrow">Your toolkit</p>
+                <h2 className="mt-1 text-xl font-bold text-white">
+                  Platform modules
+                </h2>
+              </div>
+              <Link
+                href="/dashboard"
+                className="hidden items-center gap-1 text-xs font-semibold text-slate-500 transition hover:text-white sm:flex"
+              >
+                View overview <ChevronRight className="h-4 w-4" />
+              </Link>
+            </div>
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+              {modules.map((module) => {
+                const styles = accentStyles[module.accent];
+                const Icon = module.icon;
+                return (
+                  <Link
+                    key={module.title}
+                    href={module.href}
+                    className={`glass-card group rounded-2xl p-5 ${styles.hover}`}
+                  >
+                    <div className="mb-5 flex items-start justify-between">
+                      <div className={`rounded-xl border p-3 ${styles.iconBg}`}>
+                        <Icon className={`h-5 w-5 ${styles.icon}`} />
+                      </div>
+                      <ChevronRight className="h-5 w-5 text-slate-600 transition group-hover:translate-x-1 group-hover:text-slate-300" />
+                    </div>
+                    <h3 className="text-base font-bold text-white">
+                      {module.title}
+                    </h3>
+                    <p className="mt-1.5 min-h-10 text-sm leading-5 text-slate-400">
+                      {module.description}
+                    </p>
+                    <div className="mt-5 flex items-center justify-between gap-3 border-t border-white/[0.07] pt-4">
+                      <span className="text-[11px] font-semibold text-slate-500">
+                        {module.meta}
+                      </span>
+                      <span
+                        className={`text-[11px] font-bold capitalize ${styles.icon}`}
+                      >
+                        {module.stat}
+                      </span>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+          </section>
+        </div>
+
+        <aside className="space-y-6">
+          <section className="glass-card rounded-2xl p-5">
+            <div className="mb-5 flex items-center justify-between">
+              <div>
+                <p className="eyebrow">Stay prepared</p>
+                <h2 className="mt-1 text-base font-bold text-white">
+                  Upcoming drives
+                </h2>
+              </div>
+              <span className="rounded-lg bg-indigo-400/10 px-2 py-1 text-[10px] font-bold text-indigo-300">
+                3 ACTIVE
+              </span>
+            </div>
+            <div className="space-y-2.5">
+              {[
+                ['Google India', 'Software Engineer', 'Jul 15, 2026'],
+                ['Amazon SDE I', 'Systems Architect', 'Jul 22, 2026'],
+                ['Microsoft India', 'Cloud Engineer intern', 'Aug 02, 2026'],
+              ].map(([company, role, date]) => (
+                <div
+                  key={company}
+                  className="group flex items-center justify-between rounded-xl border border-slate-800/80 bg-slate-950/35 p-3.5 transition hover:border-indigo-400/25 hover:bg-slate-900/70"
+                >
+                  <div className="min-w-0">
+                    <h3 className="truncate text-xs font-bold text-slate-200">
+                      {company}
+                    </h3>
+                    <p className="mt-1 truncate text-[10px] text-slate-500">
+                      {role} · {date}
+                    </p>
+                  </div>
+                  <ChevronRight className="h-4 w-4 shrink-0 text-slate-700 transition group-hover:translate-x-0.5 group-hover:text-slate-300" />
+                </div>
+              ))}
+            </div>
+            <button className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl border border-slate-800 bg-slate-900/50 py-2.5 text-xs font-bold text-slate-400 transition hover:border-slate-700 hover:bg-slate-800 hover:text-white">
+              View all openings <ArrowUpRight className="h-3.5 w-3.5" />
+            </button>
+          </section>
+
+          <section className="glass-card rounded-2xl p-5">
+            <div className="mb-5 flex items-center justify-between">
+              <div>
+                <p className="eyebrow">Your momentum</p>
+                <h2 className="mt-1 text-base font-bold text-white">
+                  Recent activity
+                </h2>
+              </div>
+              <Activity className="h-4 w-4 text-slate-600" />
+            </div>
+            <div className="space-y-5">
+              {[
+                {
+                  title: 'Practiced quantitative aptitude',
+                  detail: '15 Probability questions completed',
+                  time: '2 hours ago',
+                  color: 'text-fuchsia-300',
+                  icon: CheckCircle2,
+                },
+                {
+                  title: 'Solved Two Sum',
+                  detail: 'Easy · Runtime 54ms',
+                  time: '5 hours ago',
+                  color: 'text-sky-300',
+                  icon: Code2,
+                },
+                {
+                  title: 'Resume scanned',
+                  detail: 'Score improved from 7.5 to 8.5',
+                  time: 'Yesterday',
+                  color: 'text-violet-300',
+                  icon: FileText,
+                },
+              ].map(({ title, detail, time, color, icon: Icon }) => (
+                <div key={String(title)} className="flex gap-3">
+                  <div
+                    className={`mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-white/[0.04] ${color}`}
+                  >
+                    <Icon className="h-3.5 w-3.5" />
+                  </div>
+                  <div className="min-w-0">
+                    <p className="text-xs font-bold text-slate-200">{title}</p>
+                    <p className="mt-1 text-[10px] leading-4 text-slate-500">
+                      {detail}
+                    </p>
+                    <p className="mt-1 text-[10px] font-semibold text-slate-600">
+                      {time}
+                    </p>
                   </div>
                 </div>
+              ))}
+            </div>
+          </section>
+
+          <div className="rounded-2xl border border-emerald-400/15 bg-emerald-400/[0.05] p-4">
+            <div className="flex items-center gap-3">
+              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-400/10">
+                <CircleDot className="h-4 w-4 text-emerald-300" />
+              </div>
+              <div>
+                <p className="text-xs font-bold text-emerald-100">
+                  System status: healthy
+                </p>
+                <p className="mt-0.5 text-[10px] text-emerald-200/50">
+                  All preparation services are online.
+                </p>
               </div>
             </div>
           </div>
-
-          {/* Module Grid */}
-          <h2 className="text-lg font-bold text-slate-100 pt-2">Platform Modules</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            
-            {/* Aptitude Module Card */}
-            <Link href="/aptitude" className="glass-card p-5 rounded-2xl group hover:bg-slate-900/80 transition-all border border-slate-800 hover:border-fuchsia-500/30 relative overflow-hidden">
-              <div className="flex justify-between items-start mb-4">
-                <div className="bg-fuchsia-600/10 p-3 rounded-xl border border-fuchsia-500/20 text-fuchsia-400 group-hover:scale-110 transition-transform">
-                  <Brain className="w-6 h-6" />
-                </div>
-                <ChevronRight className="w-5 h-5 text-slate-600 group-hover:text-fuchsia-400 group-hover:translate-x-1 transition-all" />
-              </div>
-              <h3 className="text-lg font-bold text-slate-100 mb-1">Placement Aptitude</h3>
-              <p className="text-sm text-slate-400 mb-4">Quant, Verbal, and Logical Reasoning practice tests.</p>
-              <div className="flex items-center justify-between mt-auto">
-                <div className="flex -space-x-2">
-                  <div className="w-6 h-6 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center text-[10px] text-slate-400">QA</div>
-                  <div className="w-6 h-6 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center text-[10px] text-slate-400">VA</div>
-                  <div className="w-6 h-6 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center text-[10px] text-slate-400">LR</div>
-                </div>
-                <span className="text-xs font-semibold text-fuchsia-400">45% Completed</span>
-              </div>
-            </Link>
-
-            {/* Resume AI Card */}
-            <Link href="/resume-ai" className="glass-card p-5 rounded-2xl group hover:bg-slate-900/80 transition-all border border-slate-800 hover:border-violet-500/30">
-              <div className="flex justify-between items-start mb-4">
-                <div className="bg-violet-600/10 p-3 rounded-xl border border-violet-500/20 text-violet-400 group-hover:scale-110 transition-transform">
-                  <FileText className="w-6 h-6" />
-                </div>
-                <ChevronRight className="w-5 h-5 text-slate-600 group-hover:text-violet-400 group-hover:translate-x-1 transition-all" />
-              </div>
-              <h3 className="text-lg font-bold text-slate-100 mb-1">Resume Intelligence</h3>
-              <p className="text-sm text-slate-400 mb-4">AI scoring and ATS optimization tailored to roles.</p>
-              <div className="flex items-center justify-between">
-                <span className="text-xs text-slate-500">Last scanned: 2d ago</span>
-                <span className="text-xs font-semibold text-violet-400">Score: 8.5/10</span>
-              </div>
-            </Link>
-
-            {/* DSA Card */}
-            <Link href="/questions" className="glass-card p-5 rounded-2xl group hover:bg-slate-900/80 transition-all border border-slate-800 hover:border-blue-500/30">
-              <div className="flex justify-between items-start mb-4">
-                <div className="bg-blue-600/10 p-3 rounded-xl border border-blue-500/20 text-blue-400 group-hover:scale-110 transition-transform">
-                  <Code2 className="w-6 h-6" />
-                </div>
-                <ChevronRight className="w-5 h-5 text-slate-600 group-hover:text-blue-400 group-hover:translate-x-1 transition-all" />
-              </div>
-              <h3 className="text-lg font-bold text-slate-100 mb-1">DSA Practice</h3>
-              <p className="text-sm text-slate-400 mb-4">Curated coding problems for technical rounds.</p>
-              <div className="flex items-center justify-between">
-                <span className="text-xs text-slate-500">Recently: Graphs</span>
-                <span className="text-xs font-semibold text-blue-400">62% Mastery</span>
-              </div>
-            </Link>
-
-            {/* Mock Interviews Card */}
-            <Link href="/mock-interviews" className="glass-card p-5 rounded-2xl group hover:bg-slate-900/80 transition-all border border-slate-800 hover:border-emerald-500/30">
-              <div className="flex justify-between items-start mb-4">
-                <div className="bg-emerald-600/10 p-3 rounded-xl border border-emerald-500/20 text-emerald-400 group-hover:scale-110 transition-transform">
-                  <Video className="w-6 h-6" />
-                </div>
-                <ChevronRight className="w-5 h-5 text-slate-600 group-hover:text-emerald-400 group-hover:translate-x-1 transition-all" />
-              </div>
-              <h3 className="text-lg font-bold text-slate-100 mb-1">Mock Interviews</h3>
-              <p className="text-sm text-slate-400 mb-4">AI voice interviews for Tech and HR rounds.</p>
-              <div className="flex items-center justify-between">
-                <span className="text-xs text-slate-500">2 Interviews Done</span>
-                <span className="text-xs font-semibold text-emerald-400">Good Standing</span>
-              </div>
-            </Link>
-
-          </div>
-        </div>
-
-        {/* Right Column: Drives & Recent Activity */}
-        <div className="space-y-6">
-          {/* Upcoming Interview Drives */}
-          <div className="glass-card p-6 rounded-2xl space-y-4">
-            <div className="flex justify-between items-center">
-              <h3 className="text-sm font-bold text-slate-200 uppercase tracking-wider flex items-center gap-2">
-                <Calendar className="w-4 h-4 text-indigo-400" />
-                Upcoming Drives
-              </h3>
-              <span className="text-[10px] text-indigo-400 font-bold bg-indigo-500/10 px-2 py-0.5 rounded-full">3 ACTIVE</span>
-            </div>
-
-            <div className="space-y-3.5">
-              <div className="group flex items-center justify-between p-3 rounded-xl bg-slate-950/40 hover:bg-slate-950/80 border border-slate-900 hover:border-indigo-500/30 transition-all cursor-pointer">
-                <div>
-                  <h4 className="text-xs font-bold text-slate-200">Google India</h4>
-                  <p className="text-[10px] text-slate-400 mt-0.5">Software Engineer • July 15, 2026</p>
-                </div>
-                <ChevronRight className="w-4 h-4 text-slate-600 group-hover:text-slate-400 transition-colors" />
-              </div>
-
-              <div className="group flex items-center justify-between p-3 rounded-xl bg-slate-950/40 hover:bg-slate-950/80 border border-slate-900 hover:border-indigo-500/30 transition-all cursor-pointer">
-                <div>
-                  <h4 className="text-xs font-bold text-slate-200">Amazon SDE I</h4>
-                  <p className="text-[10px] text-slate-400 mt-0.5">Systems Architect • July 22, 2026</p>
-                </div>
-                <ChevronRight className="w-4 h-4 text-slate-600 group-hover:text-slate-400 transition-colors" />
-              </div>
-
-              <div className="group flex items-center justify-between p-3 rounded-xl bg-slate-950/40 hover:bg-slate-950/80 border border-slate-900 hover:border-indigo-500/30 transition-all cursor-pointer">
-                <div>
-                  <h4 className="text-xs font-bold text-slate-200">Microsoft India</h4>
-                  <p className="text-[10px] text-slate-400 mt-0.5">Cloud Engineer intern • Aug 02, 2026</p>
-                </div>
-                <ChevronRight className="w-4 h-4 text-slate-600 group-hover:text-slate-400 transition-colors" />
-              </div>
-            </div>
-            
-            <button className="w-full bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 font-semibold text-xs py-2.5 rounded-xl transition-all">
-              View All Openings
-            </button>
-          </div>
-
-          {/* Recent Activity */}
-          <div className="glass-card p-6 rounded-2xl space-y-4">
-            <h3 className="text-sm font-bold text-slate-200 uppercase tracking-wider flex items-center gap-2">
-              <Clock className="w-4 h-4 text-slate-400" />
-              Recent Activity
-            </h3>
-            
-            <div className="relative pl-4 space-y-6 before:absolute before:inset-y-0 before:left-[7px] before:w-[2px] before:bg-slate-800">
-              
-              <div className="relative">
-                <div className="absolute -left-[21px] top-1 w-3 h-3 bg-fuchsia-500 rounded-full border-2 border-[#030712] ring-2 ring-fuchsia-500/20"></div>
-                <div>
-                  <p className="text-xs font-bold text-slate-200">Practiced Quantitative Aptitude</p>
-                  <p className="text-[10px] text-slate-400 mt-0.5">Completed 15 questions on Probability</p>
-                  <p className="text-[10px] text-slate-500 mt-1">2 hours ago</p>
-                </div>
-              </div>
-              
-              <div className="relative">
-                <div className="absolute -left-[21px] top-1 w-3 h-3 bg-blue-500 rounded-full border-2 border-[#030712] ring-2 ring-blue-500/20"></div>
-                <div>
-                  <p className="text-xs font-bold text-slate-200">Solved Two Sum (DSA)</p>
-                  <p className="text-[10px] text-slate-400 mt-0.5">Difficulty: Easy • Runtime: 54ms</p>
-                  <p className="text-[10px] text-slate-500 mt-1">5 hours ago</p>
-                </div>
-              </div>
-
-              <div className="relative">
-                <div className="absolute -left-[21px] top-1 w-3 h-3 bg-violet-500 rounded-full border-2 border-[#030712] ring-2 ring-violet-500/20"></div>
-                <div>
-                  <p className="text-xs font-bold text-slate-200">Resume Scanned</p>
-                  <p className="text-[10px] text-slate-400 mt-0.5">Score improved from 7.5 to 8.5</p>
-                  <p className="text-[10px] text-slate-500 mt-1">Yesterday</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
+        </aside>
       </div>
     </div>
   );

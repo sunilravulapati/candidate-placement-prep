@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_091",
+  "slug": "tcs-log-091",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "direction-sense",
+  "topicName": "Direction Sense",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Starting West, turn right, then turn right again. Which direction?",
+  "description": "Starting West, turn right, then turn right again. Which direction?",
+  "question": "Starting West, turn right, then turn right again. Which direction?",
+  "options": [
+    "East",
+    "West",
+    "North",
+    "South"
+  ],
+  "optionsMap": {
+    "A": "East",
+    "B": "West",
+    "C": "North",
+    "D": "South"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "East",
+  "tags": [
+    "logical",
+    "direction-sense"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

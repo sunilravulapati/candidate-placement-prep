@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_583",
+  "slug": "tcs-apt-583",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Area of rhombus with diagonals 12 and 8?",
+  "description": "Area of rhombus with diagonals 12 and 8?",
+  "question": "Area of rhombus with diagonals 12 and 8?",
+  "options": [
+    "48",
+    "96",
+    "24",
+    "60"
+  ],
+  "optionsMap": {
+    "A": "48",
+    "B": "96",
+    "C": "24",
+    "D": "60"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "48",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

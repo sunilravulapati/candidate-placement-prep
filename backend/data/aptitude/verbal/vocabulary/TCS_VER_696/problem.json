@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_696",
+  "slug": "tcs-ver-696",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Fill blank: The discovery __ our understanding of the universe.",
+  "description": "Fill blank: The discovery __ our understanding of the universe.",
+  "question": "Fill blank: The discovery __ our understanding of the universe.",
+  "options": [
+    "transformed",
+    "reduced",
+    "limited",
+    "decreased"
+  ],
+  "optionsMap": {
+    "A": "transformed",
+    "B": "reduced",
+    "C": "limited",
+    "D": "decreased"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "transformed",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

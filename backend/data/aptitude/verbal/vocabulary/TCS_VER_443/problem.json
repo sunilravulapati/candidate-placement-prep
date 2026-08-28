@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_443",
+  "slug": "tcs-ver-443",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "One word substitution: Murder of one's mother",
+  "description": "One word substitution: Murder of one's mother",
+  "question": "One word substitution: Murder of one's mother",
+  "options": [
+    "Matricide",
+    "Patricide",
+    "Fratricide",
+    "Filicide"
+  ],
+  "optionsMap": {
+    "A": "Matricide",
+    "B": "Patricide",
+    "C": "Fratricide",
+    "D": "Filicide"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Matricide",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

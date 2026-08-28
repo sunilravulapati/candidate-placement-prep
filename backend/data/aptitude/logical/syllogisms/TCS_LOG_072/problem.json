@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_072",
+  "slug": "tcs-log-072",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "syllogisms",
+  "topicName": "Syllogisms",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Some mountains are rivers. All rivers are oceans. Conclusions: (I) Some mount...",
+  "description": "Some mountains are rivers. All rivers are oceans. Conclusions: (I) Some mountains are oceans. (II) All oceans are rivers.",
+  "question": "Some mountains are rivers. All rivers are oceans. Conclusions: (I) Some mountains are oceans. (II) All oceans are rivers.",
+  "options": [
+    "Only I follows",
+    "Both follow",
+    "Only II follows",
+    "Neither follows"
+  ],
+  "optionsMap": {
+    "A": "Only I follows",
+    "B": "Both follow",
+    "C": "Only II follows",
+    "D": "Neither follows"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Only I follows",
+  "tags": [
+    "logical",
+    "syllogisms"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

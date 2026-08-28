@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_374",
+  "slug": "tcs-ver-374",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "cloze-test",
+  "topicName": "Cloze Test",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "The city had grown rapidly. Skyscrapers now dominated the skyline where rice ...",
+  "description": "The city had grown rapidly. Skyscrapers now dominated the skyline where rice fields once _____ (2) stretched endlessly. SELECT WORD FOR BLANK (2):",
+  "question": "The city had grown rapidly. Skyscrapers now dominated the skyline where rice fields once _____ (2) stretched endlessly. SELECT WORD FOR BLANK (2):",
+  "options": [
+    "had",
+    "would",
+    "were",
+    "get"
+  ],
+  "optionsMap": {
+    "A": "had",
+    "B": "would",
+    "C": "were",
+    "D": "get"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "had",
+  "tags": [
+    "verbal",
+    "cloze-test"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

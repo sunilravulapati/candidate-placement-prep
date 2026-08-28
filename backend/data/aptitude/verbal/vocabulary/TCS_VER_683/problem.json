@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_683",
+  "slug": "tcs-ver-683",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Idiom: 'Bark up the wrong tree' means?",
+  "description": "Idiom: 'Bark up the wrong tree' means?",
+  "question": "Idiom: 'Bark up the wrong tree' means?",
+  "options": [
+    "Pursue the wrong course",
+    "Bark at dogs",
+    "Look in wrong place",
+    "Argue unnecessarily"
+  ],
+  "optionsMap": {
+    "A": "Pursue the wrong course",
+    "B": "Bark at dogs",
+    "C": "Look in wrong place",
+    "D": "Argue unnecessarily"
+  },
+  "answer": "C",
+  "answerKey": "C",
+  "correctAnswer": "Look in wrong place",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

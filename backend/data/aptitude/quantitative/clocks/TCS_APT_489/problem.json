@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_489",
+  "slug": "tcs-apt-489",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "clocks",
+  "topicName": "Clocks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "How many times in a day do clock hands form a right angle?",
+  "description": "How many times in a day do clock hands form a right angle?",
+  "question": "How many times in a day do clock hands form a right angle?",
+  "options": [
+    "44",
+    "48",
+    "22",
+    "24"
+  ],
+  "optionsMap": {
+    "A": "44",
+    "B": "48",
+    "C": "22",
+    "D": "24"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "44",
+  "tags": [
+    "quantitative",
+    "clocks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

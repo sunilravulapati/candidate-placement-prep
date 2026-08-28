@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_400",
+  "slug": "tcs-apt-400",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Perimeter of a right triangle is 40cm with hypotenuse 17cm. Other two sides?",
+  "description": "Perimeter of a right triangle is 40cm with hypotenuse 17cm. Other two sides?",
+  "question": "Perimeter of a right triangle is 40cm with hypotenuse 17cm. Other two sides?",
+  "options": [
+    "7cm and 16cm",
+    "8cm and 15cm",
+    "9cm and 14cm",
+    "10cm and 13cm"
+  ],
+  "optionsMap": {
+    "A": "7cm and 16cm",
+    "B": "8cm and 15cm",
+    "C": "9cm and 14cm",
+    "D": "10cm and 13cm"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "8cm and 15cm",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

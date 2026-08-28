@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_005",
+  "slug": "tcs-apt-005",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "percentages",
+  "topicName": "Percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A price is first increased by 10% and then decreased by 10%. The net effect is:",
+  "description": "A price is first increased by 10% and then decreased by 10%. The net effect is:",
+  "question": "A price is first increased by 10% and then decreased by 10%. The net effect is:",
+  "options": [
+    "1% decrease",
+    "No change",
+    "1% increase",
+    "2% decrease"
+  ],
+  "optionsMap": {
+    "A": "1% decrease",
+    "B": "No change",
+    "C": "1% increase",
+    "D": "2% decrease"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1% decrease",
+  "tags": [
+    "quantitative",
+    "percentages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_213",
+  "slug": "tcs-log-213",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "input-output",
+  "topicName": "Input-Output",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Input: 26 15 43 7 31 18. If even numbers are halved and odd numbers are multi...",
+  "description": "Input: 26 15 43 7 31 18. If even numbers are halved and odd numbers are multiplied by 3. Output is:",
+  "question": "Input: 26 15 43 7 31 18. If even numbers are halved and odd numbers are multiplied by 3. Output is:",
+  "options": [
+    "13 45 21.5 21 93 9",
+    "52 45 86 21 93 36",
+    "13 45 21.5 21 93 9",
+    "13 45 22 21 93 9"
+  ],
+  "optionsMap": {
+    "A": "13 45 21.5 21 93 9",
+    "B": "52 45 86 21 93 36",
+    "C": "13 45 21.5 21 93 9",
+    "D": "13 45 22 21 93 9"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "13 45 21.5 21 93 9",
+  "tags": [
+    "logical",
+    "input-output"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

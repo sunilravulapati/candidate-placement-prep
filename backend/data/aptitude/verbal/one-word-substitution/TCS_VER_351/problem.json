@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_351",
+  "slug": "tcs-ver-351",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "one-word-substitution",
+  "topicName": "One Word Substitution",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Find the one word substitution for: The first public speech delivered by a pe...",
+  "description": "Find the one word substitution for: The first public speech delivered by a person",
+  "question": "Find the one word substitution for: The first public speech delivered by a person",
+  "options": [
+    "Maiden speech",
+    "Swan song",
+    "Inaugural address",
+    "Debut"
+  ],
+  "optionsMap": {
+    "A": "Maiden speech",
+    "B": "Swan song",
+    "C": "Inaugural address",
+    "D": "Debut"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Maiden speech",
+  "tags": [
+    "verbal",
+    "one-word-substitution"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

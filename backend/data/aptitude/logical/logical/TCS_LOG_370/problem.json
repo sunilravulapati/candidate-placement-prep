@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_370",
+  "slug": "tcs-log-370",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If FRIEND is coded 1234, FIEND is?",
+  "description": "If FRIEND is coded 1234, FIEND is?",
+  "question": "If FRIEND is coded 1234, FIEND is?",
+  "options": [
+    "12234",
+    "12034",
+    "12340",
+    "1234"
+  ],
+  "optionsMap": {
+    "A": "12234",
+    "B": "12034",
+    "C": "12340",
+    "D": "1234"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "12234",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

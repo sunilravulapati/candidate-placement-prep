@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_617",
+  "slug": "tcs-log-617",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "P is Q's father. Q is R's husband. S is Q's son. P is S's?",
+  "description": "P is Q's father. Q is R's husband. S is Q's son. P is S's?",
+  "question": "P is Q's father. Q is R's husband. S is Q's son. P is S's?",
+  "options": [
+    "Grandfather",
+    "Father",
+    "Uncle",
+    "Brother"
+  ],
+  "optionsMap": {
+    "A": "Grandfather",
+    "B": "Father",
+    "C": "Uncle",
+    "D": "Brother"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Grandfather",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_493",
+  "slug": "tcs-ver-493",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Choose the correctly formed sentence:",
+  "description": "Choose the correctly formed sentence:",
+  "question": "Choose the correctly formed sentence:",
+  "options": [
+    "Neither he nor she are going.",
+    "Neither he nor she is going.",
+    "Neither he nor she were going.",
+    "Neither he nor she have gone."
+  ],
+  "optionsMap": {
+    "A": "Neither he nor she are going.",
+    "B": "Neither he nor she is going.",
+    "C": "Neither he nor she were going.",
+    "D": "Neither he nor she have gone."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Neither he nor she is going.",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

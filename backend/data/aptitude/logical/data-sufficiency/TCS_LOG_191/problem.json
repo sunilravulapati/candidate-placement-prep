@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_191",
+  "slug": "tcs-log-191",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "data-sufficiency",
+  "topicName": "Data Sufficiency",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Is x > 0? (I) x2 = 4 (II) x + 1 > 0",
+  "description": "Is x > 0? (I) x2 = 4 (II) x + 1 > 0",
+  "question": "Is x > 0? (I) x2 = 4 (II) x + 1 > 0",
+  "options": [
+    "Statement II alone is sufficient",
+    "Statement I alone is sufficient",
+    "Both together are sufficient",
+    "Neither is sufficient"
+  ],
+  "optionsMap": {
+    "A": "Statement II alone is sufficient",
+    "B": "Statement I alone is sufficient",
+    "C": "Both together are sufficient",
+    "D": "Neither is sufficient"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Statement II alone is sufficient",
+  "tags": [
+    "logical",
+    "data-sufficiency"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_138",
+  "slug": "tcs-apt-138",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "mensuration",
+  "topicName": "Mensuration",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Area of equilateral triangle with side 6 cm.",
+  "description": "Area of equilateral triangle with side 6 cm.",
+  "question": "Area of equilateral triangle with side 6 cm.",
+  "options": [
+    "9√3 cm2",
+    "6√3 cm2",
+    "18 cm2",
+    "12 cm2"
+  ],
+  "optionsMap": {
+    "A": "9√3 cm2",
+    "B": "6√3 cm2",
+    "C": "18 cm2",
+    "D": "12 cm2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "9√3 cm2",
+  "tags": [
+    "quantitative",
+    "mensuration"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

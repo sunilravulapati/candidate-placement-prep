@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_379",
+  "slug": "tcs-ver-379",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "cloze-test",
+  "topicName": "Cloze Test",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Reading fiction has been shown to _____ (1) empathy. When readers _____ (2) t...",
+  "description": "Reading fiction has been shown to _____ (1) empathy. When readers _____ (2) themselves in the lives of characters, they develop a deeper understanding of perspectives different from their _____ (3). SELECT WORD FOR BLANK (1):",
+  "question": "Reading fiction has been shown to _____ (1) empathy. When readers _____ (2) themselves in the lives of characters, they develop a deeper understanding of perspectives different from their _____ (3). SELECT WORD FOR BLANK (1):",
+  "options": [
+    "enhance",
+    "reduce",
+    "damage",
+    "weaken"
+  ],
+  "optionsMap": {
+    "A": "enhance",
+    "B": "reduce",
+    "C": "damage",
+    "D": "weaken"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "enhance",
+  "tags": [
+    "verbal",
+    "cloze-test"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

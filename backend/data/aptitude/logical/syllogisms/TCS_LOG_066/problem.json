@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_066",
+  "slug": "tcs-log-066",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "syllogisms",
+  "topicName": "Syllogisms",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "All books are copies. Some copies are files. Conclusions: (I) Some books are ...",
+  "description": "All books are copies. Some copies are files. Conclusions: (I) Some books are files. (II) Some files are books.",
+  "question": "All books are copies. Some copies are files. Conclusions: (I) Some books are files. (II) Some files are books.",
+  "options": [
+    "Neither follows",
+    "Only I follows",
+    "Only II follows",
+    "Both follow"
+  ],
+  "optionsMap": {
+    "A": "Neither follows",
+    "B": "Only I follows",
+    "C": "Only II follows",
+    "D": "Both follow"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Neither follows",
+  "tags": [
+    "logical",
+    "syllogisms"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

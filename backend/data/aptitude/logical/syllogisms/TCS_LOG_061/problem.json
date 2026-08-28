@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_061",
+  "slug": "tcs-log-061",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "syllogisms",
+  "topicName": "Syllogisms",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "All dogs are animals. All animals are mammals. Conclusions: (I) All dogs are ...",
+  "description": "All dogs are animals. All animals are mammals. Conclusions: (I) All dogs are mammals. (II) Some mammals are dogs.",
+  "question": "All dogs are animals. All animals are mammals. Conclusions: (I) All dogs are mammals. (II) Some mammals are dogs.",
+  "options": [
+    "Both I and II follow",
+    "Only I follows",
+    "Only II follows",
+    "Neither follows"
+  ],
+  "optionsMap": {
+    "A": "Both I and II follow",
+    "B": "Only I follows",
+    "C": "Only II follows",
+    "D": "Neither follows"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Both I and II follow",
+  "tags": [
+    "logical",
+    "syllogisms"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

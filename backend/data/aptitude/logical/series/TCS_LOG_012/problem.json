@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_012",
+  "slug": "tcs-log-012",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "series",
+  "topicName": "Series",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Number series: 144, 121, 100, 81, ___",
+  "description": "Number series: 144, 121, 100, 81, ___",
+  "question": "Number series: 144, 121, 100, 81, ___",
+  "options": [
+    "64",
+    "49",
+    "72",
+    "56"
+  ],
+  "optionsMap": {
+    "A": "64",
+    "B": "49",
+    "C": "72",
+    "D": "56"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "64",
+  "tags": [
+    "logical",
+    "series"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

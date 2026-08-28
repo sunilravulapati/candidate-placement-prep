@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_055",
+  "slug": "tcs-apt-055",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "compound-interest",
+  "topicName": "Compound Interest",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "At what rate of CI will Rs.1000 become Rs.1331 in 3 years?",
+  "description": "At what rate of CI will Rs.1000 become Rs.1331 in 3 years?",
+  "question": "At what rate of CI will Rs.1000 become Rs.1331 in 3 years?",
+  "options": [
+    "10%",
+    "11%",
+    "12%",
+    "9%"
+  ],
+  "optionsMap": {
+    "A": "10%",
+    "B": "11%",
+    "C": "12%",
+    "D": "9%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "10%",
+  "tags": [
+    "quantitative",
+    "compound-interest"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

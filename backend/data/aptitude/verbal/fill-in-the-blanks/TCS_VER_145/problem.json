@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_145",
+  "slug": "tcs-ver-145",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The _____ evidence left no doubt about the suspect's guilt.",
+  "description": "The _____ evidence left no doubt about the suspect's guilt.",
+  "question": "The _____ evidence left no doubt about the suspect's guilt.",
+  "options": [
+    "overwhelming",
+    "scant",
+    "limited",
+    "weak"
+  ],
+  "optionsMap": {
+    "A": "overwhelming",
+    "B": "scant",
+    "C": "limited",
+    "D": "weak"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "overwhelming",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

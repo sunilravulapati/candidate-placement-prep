@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_261",
+  "slug": "tcs-log-261",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Analogy: Sun : Day :: Moon : ?",
+  "description": "Analogy: Sun : Day :: Moon : ?",
+  "question": "Analogy: Sun : Day :: Moon : ?",
+  "options": [
+    "Night",
+    "Stars",
+    "Sky",
+    "Cloud"
+  ],
+  "optionsMap": {
+    "A": "Night",
+    "B": "Stars",
+    "C": "Sky",
+    "D": "Cloud"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Night",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

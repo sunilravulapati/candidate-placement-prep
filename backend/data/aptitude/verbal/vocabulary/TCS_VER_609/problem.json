@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_609",
+  "slug": "tcs-ver-609",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: UNIFORM",
+  "description": "Choose the word most similar in meaning to: UNIFORM",
+  "question": "Choose the word most similar in meaning to: UNIFORM",
+  "options": [
+    "Consistent",
+    "Varying",
+    "Inconsistent",
+    "Irregular"
+  ],
+  "optionsMap": {
+    "A": "Consistent",
+    "B": "Varying",
+    "C": "Inconsistent",
+    "D": "Irregular"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Consistent",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "TCS_LOG_085",
+    "title": "In a row of 20, Mohan is 8th from left and Sohan is 14th from left. How many ...",
+    "description": "In a row of 20, Mohan is 8th from left and Sohan is 14th from left. How many people are between them?",
+    "question": "In a row of 20, Mohan is 8th from left and Sohan is 14th from left. How many people are between them?",
+    "options": [
+      "5",
+      "6",
+      "4",
+      "7"
+    ],
+    "answer": "5",
+    "answerKey": "A",
+    "correctAnswer": "5",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 5.",
+    "topic": "seating-arrangement",
+    "topicName": "Seating Arrangement",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_076",
+    "title": "5 people A,B,C,D,E sit in a row. A is 2nd from left, D is next to A. Who is 3...",
+    "description": "5 people A,B,C,D,E sit in a row. A is 2nd from left, D is next to A. Who is 3rd if B is at extreme right and C is next to B?",
+    "question": "5 people A,B,C,D,E sit in a row. A is 2nd from left, D is next to A. Who is 3rd if B is at extreme right and C is next to B?",
+    "options": [
+      "D",
+      "C",
+      "E",
+      "A"
+    ],
+    "answer": "D",
+    "answerKey": "A",
+    "correctAnswer": "D",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: D.",
+    "topic": "seating-arrangement",
+    "topicName": "Seating Arrangement",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_077",
+    "title": "6 people sit in a circle. A is between B and C. D is between E and F. B is op...",
+    "description": "6 people sit in a circle. A is between B and C. D is between E and F. B is opposite D. Who is opposite A?",
+    "question": "6 people sit in a circle. A is between B and C. D is between E and F. B is opposite D. Who is opposite A?",
+    "options": [
+      "E",
+      "F",
+      "C",
+      "B"
+    ],
+    "answer": "E",
+    "answerKey": "A",
+    "correctAnswer": "E",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: E.",
+    "topic": "seating-arrangement",
+    "topicName": "Seating Arrangement",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_078",
+    "title": "P,Q,R,S sit in a row. P is not next to Q. R is next to S. If Q is 2nd from le...",
+    "description": "P,Q,R,S sit in a row. P is not next to Q. R is next to S. If Q is 2nd from left, where is P?",
+    "question": "P,Q,R,S sit in a row. P is not next to Q. R is next to S. If Q is 2nd from left, where is P?",
+    "options": [
+      "4th from left",
+      "1st from left",
+      "3rd from left",
+      "2nd from right"
+    ],
+    "answer": "4th from left",
+    "answerKey": "A",
+    "correctAnswer": "4th from left",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 4th from left.",
+    "topic": "seating-arrangement",
+    "topicName": "Seating Arrangement",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_080",
+    "title": "A is to the left of B. C is to the right of D. B and D are at the same positi...",
+    "description": "A is to the left of B. C is to the right of D. B and D are at the same position. Who is 2nd from right: A,B,C,D?",
+    "question": "A is to the left of B. C is to the right of D. B and D are at the same position. Who is 2nd from right: A,B,C,D?",
+    "options": [
+      "C",
+      "B",
+      "A",
+      "D"
+    ],
+    "answer": "C",
+    "answerKey": "A",
+    "correctAnswer": "C",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: C.",
+    "topic": "seating-arrangement",
+    "topicName": "Seating Arrangement",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_081",
+    "title": "6 students sit in a row facing north. A is at one end. F is between D and E. ...",
+    "description": "6 students sit in a row facing north. A is at one end. F is between D and E. B is to the immediate right of A. C is between B and D. Who is in the middle?",
+    "question": "6 students sit in a row facing north. A is at one end. F is between D and E. B is to the immediate right of A. C is between B and D. Who is in the middle?",
+    "options": [
+      "C or D",
+      "B or C",
+      "D or E",
+      "A or B"
+    ],
+    "answer": "C or D",
+    "answerKey": "A",
+    "correctAnswer": "C or D",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: C or D.",
+    "topic": "seating-arrangement",
+    "topicName": "Seating Arrangement",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_083",
+    "title": "A,B,C,D,E sit in a row. B is to the right of E but left of C. A is at extreme...",
+    "description": "A,B,C,D,E sit in a row. B is to the right of E but left of C. A is at extreme left. D is not next to A. Middle position is:",
+    "question": "A,B,C,D,E sit in a row. B is to the right of E but left of C. A is at extreme left. D is not next to A. Middle position is:",
+    "options": [
+      "B",
+      "C",
+      "E",
+      "D"
+    ],
+    "answer": "B",
+    "answerKey": "A",
+    "correctAnswer": "B",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: B.",
+    "topic": "seating-arrangement",
+    "topicName": "Seating Arrangement",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_084",
+    "title": "5 boxes are stacked. Red is below yellow. Blue is above green. Green is above...",
+    "description": "5 boxes are stacked. Red is below yellow. Blue is above green. Green is above yellow. Black is at top. Order from top?",
+    "question": "5 boxes are stacked. Red is below yellow. Blue is above green. Green is above yellow. Black is at top. Order from top?",
+    "options": [
+      "Black, Blue, Green, Yellow, Red",
+      "Black, Green, Blue, Yellow, Red",
+      "Blue, Black, Green, Yellow, Red",
+      "Black, Blue, Yellow, Green, Red"
+    ],
+    "answer": "Black, Blue, Green, Yellow, Red",
+    "answerKey": "A",
+    "correctAnswer": "Black, Blue, Green, Yellow, Red",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Black, Blue, Green, Yellow, Red.",
+    "topic": "seating-arrangement",
+    "topicName": "Seating Arrangement",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_079",
+    "title": "In a row of 10, X is 4th from left and Y is 7th from right. How many people a...",
+    "description": "In a row of 10, X is 4th from left and Y is 7th from right. How many people are between X and Y?",
+    "question": "In a row of 10, X is 4th from left and Y is 7th from right. How many people are between X and Y?",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "answer": "3",
+    "answerKey": "B",
+    "correctAnswer": "3",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: 3.",
+    "topic": "seating-arrangement",
+    "topicName": "Seating Arrangement",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_082",
+    "title": "In a circular arrangement of 8 people, if 4 people between A and B going cloc...",
+    "description": "In a circular arrangement of 8 people, if 4 people between A and B going clockwise, how many are there going counter-clockwise?",
+    "question": "In a circular arrangement of 8 people, if 4 people between A and B going clockwise, how many are there going counter-clockwise?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "2"
+    ],
+    "answer": "3",
+    "answerKey": "A",
+    "correctAnswer": "3",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 3.",
+    "topic": "seating-arrangement",
+    "topicName": "Seating Arrangement",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

@@ -3,6 +3,7 @@ import type { RawExecutionOutput } from './VerdictEngine';
 
 const LANGUAGE_ID_MAP: Record<string, number> = {
   javascript: 63, // Node.js 12.14.0
+  typescript: 74, // TypeScript 3.7.4
   python: 71,     // Python 3.8.1
   java: 62,       // Java (OpenJDK 13.0.1)
   cpp: 54,        // C++ (GCC 9.2.0)
@@ -12,113 +13,38 @@ function delay(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-function wrapCodeForExecution(code: string, language: string): string {
-  const lang = language.toLowerCase();
-
-  // C++ main function wrapper if missing
-  if (lang === 'cpp' && !code.includes('int main(') && !code.includes('int main (')) {
-    const hasStdInclude = code.includes('#include');
-    const headerPrefix = hasStdInclude ? '' : '#include <iostream>\n#include <vector>\n#include <string>\n#include <cctype>\nusing namespace std;\n\n';
-    
-    const methodName = code.includes('twoSum(') ? 'twoSum' : 'solver';
-
-    return `${headerPrefix}${code}
-
-int main() {
-    Solution sol;
-    string s1, s2;
-    if (cin >> s1) {
-        cin >> s2;
-        vector<int> nums;
-        string current = "";
-        for (char c : s1) {
-            if (isdigit(c) || c == '-') {
-                current += c;
-            } else if (!current.empty()) {
-                nums.push_back(stoi(current));
-                current = "";
-            }
-        }
-        if (!current.empty()) nums.push_back(stoi(current));
-
-        int target = 0;
-        if (!s2.empty()) {
-            string tStr = "";
-            for (char c : s2) {
-                if (isdigit(c) || c == '-') tStr += c;
-            }
-            if (!tStr.empty()) target = stoi(tStr);
-        }
-
-        auto res = sol.${methodName}(nums, target);
-        cout << "[";
-        for (size_t i = 0; i < res.size(); i++) {
-            cout << res[i] << (i + 1 == res.size() ? "" : ",");
-        }
-        cout << "]" << endl;
-    } else {
-        vector<int> nums = {2, 7, 11, 15};
-        auto res = sol.${methodName}(nums, 9);
-        cout << "[";
-        for (size_t i = 0; i < res.size(); i++) {
-            cout << res[i] << (i + 1 == res.size() ? "" : ",");
-        }
-        cout << "]" << endl;
-    }
-    return 0;
-}
-`;
-  }
-
-  // Java main function wrapper if missing
-  if (lang === 'java' && !code.includes('public static void main')) {
-    if (code.includes('class Solution')) {
-      return code.replace(
-        /class\s+Solution\s*\{/,
-        'class Solution {\n    public static void main(String[] args) {\n        Solution sol = new Solution();\n    }'
-      );
-    }
-  }
-
-  // Python wrapper if missing
-  if (lang === 'python' && !code.includes('if __name__')) {
-    return `${code}\n\nif __name__ == '__main__':\n    sol = Solution()\n`;
-  }
-
-  return code;
-}
-
 export class Judge0ExecutionProvider {
   readonly name = 'Judge0';
 
   private get endpoint(): string {
-    return process.env.NEXT_PUBLIC_JUDGE0_ENDPOINT ?? 'https://judge0-ce.p.rapidapi.com';
+    const raw = process.env.NEXT_PUBLIC_JUDGE0_ENDPOINT || 'http://127.0.0.1:2358';
+    return raw.replace('localhost', '127.0.0.1');
   }
 
   private get headers(): Record<string, string> {
     const h: Record<string, string> = { 'Content-Type': 'application/json' };
     const apiKey = process.env.NEXT_PUBLIC_JUDGE0_API_KEY;
-    if (apiKey) {
+    if (apiKey && apiKey !== 'your_rapidapi_judge0_key' && this.endpoint.includes('rapidapi.com')) {
       h['X-RapidAPI-Key'] = apiKey;
       h['X-RapidAPI-Host'] = 'judge0-ce.p.rapidapi.com';
     }
     return h;
   }
 
-  /** Check if Judge0 is configured (has endpoint or API key) */
+  /** Check if Judge0 is configured (self-hosted endpoint or valid API key) */
   isConfigured(): boolean {
     const apiKey = process.env.NEXT_PUBLIC_JUDGE0_API_KEY;
-    const endpoint = process.env.NEXT_PUBLIC_JUDGE0_ENDPOINT;
-    if (endpoint?.includes('rapidapi.com') && !apiKey) {
+    const endpoint = this.endpoint;
+    if (endpoint.includes('rapidapi.com') && (!apiKey || apiKey === 'your_rapidapi_judge0_key')) {
       return false;
     }
-    return Boolean(endpoint || apiKey);
+    return true;
   }
 
   async executeRaw(code: string, language: string, stdin = ''): Promise<RawExecutionOutput> {
     if (!this.isConfigured()) {
       throw new Error(
-        'Judge0 configuration error: NEXT_PUBLIC_JUDGE0_API_KEY or valid NEXT_PUBLIC_JUDGE0_ENDPOINT is missing. Please set NEXT_PUBLIC_JUDGE0_API_KEY or switch provider.'
+        'Judge0 configuration error: NEXT_PUBLIC_JUDGE0_ENDPOINT is missing or invalid. Please check your self-hosted Judge0 setup.'
       );
     }
 
@@ -127,8 +53,7 @@ export class Judge0ExecutionProvider {
       throw new Error(`Judge0: Unsupported language "${language}"`);
     }
 
-    const executableCode = wrapCodeForExecution(code, language);
-    const token = await this.submit(executableCode, languageId, stdin);
+    const token = await this.submit(code, languageId, stdin);
     const raw = await this.poll(token);
 
     const statusId = raw.status?.id ?? raw.status_id;
@@ -175,10 +100,20 @@ export class Judge0ExecutionProvider {
       }
     );
     if (!response.ok) {
-      throw new Error(`Judge0 submit failed with HTTP ${response.status}: ${response.statusText}`);
+      const errText = await response.text().catch(() => '');
+      throw new Error(`Judge0 submit failed with HTTP ${response.status}: ${errText || response.statusText}`);
     }
-    const data = await response.json();
-    if (!data.token) throw new Error('Failed to obtain submission token from Judge0');
+    const text = await response.text();
+    if (!text || !text.trim()) {
+      throw new Error('Judge0 returned empty response on submission creation');
+    }
+    let data: any;
+    try {
+      data = JSON.parse(text);
+    } catch {
+      throw new Error(`Judge0 returned invalid JSON response on submission: ${text.slice(0, 100)}`);
+    }
+    if (!data?.token) throw new Error('Failed to obtain submission token from Judge0');
     return data.token;
   }
 
@@ -188,9 +123,24 @@ export class Judge0ExecutionProvider {
         `${this.endpoint}/submissions/${token}?base64_encoded=false&fields=stdout,stderr,status_id,status,time,memory,compile_output`,
         { headers: this.headers }
       );
-      const data = await resp.json();
-      const statusObj = data.status as { id?: number } | undefined;
-      const statusId = statusObj?.id ?? (data.status_id as number | undefined);
+      if (!resp.ok) {
+        const errText = await resp.text().catch(() => '');
+        throw new Error(`Judge0 poll failed with HTTP ${resp.status}: ${errText || resp.statusText}`);
+      }
+      const text = await resp.text();
+      if (!text || !text.trim()) {
+        await delay(500);
+        continue;
+      }
+      let data: any;
+      try {
+        data = JSON.parse(text);
+      } catch {
+        await delay(500);
+        continue;
+      }
+      const statusObj = data?.status as { id?: number } | undefined;
+      const statusId = statusObj?.id ?? (data?.status_id as number | undefined);
       if (typeof statusId === 'number' && statusId >= 3) return data;
       await delay(500);
     }

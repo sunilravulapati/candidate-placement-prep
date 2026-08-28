@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_173",
+  "slug": "tcs-ver-173",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Identify the grammatically correct sentence:",
+  "description": "Identify the grammatically correct sentence:",
+  "question": "Identify the grammatically correct sentence:",
+  "options": [
+    "The team are playing good today.",
+    "The team is playing well today.",
+    "The team is playing good today.",
+    "The team are playing well today."
+  ],
+  "optionsMap": {
+    "A": "The team are playing good today.",
+    "B": "The team is playing well today.",
+    "C": "The team is playing good today.",
+    "D": "The team are playing well today."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "The team is playing well today.",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

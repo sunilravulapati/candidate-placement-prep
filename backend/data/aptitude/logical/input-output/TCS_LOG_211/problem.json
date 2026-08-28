@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_211",
+  "slug": "tcs-log-211",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "input-output",
+  "topicName": "Input-Output",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Machine step pattern - Input: 'bold girl smart work' → Step1: 'girl bold smar...",
+  "description": "Machine step pattern - Input: 'bold girl smart work' → Step1: 'girl bold smart work' → Step2: 'girl bold work smart' → What is Step3?",
+  "question": "Machine step pattern - Input: 'bold girl smart work' → Step1: 'girl bold smart work' → Step2: 'girl bold work smart' → What is Step3?",
+  "options": [
+    "girl bold work smart (already arranged)",
+    "girl smart bold work",
+    "girl work bold smart",
+    "smart girl bold work"
+  ],
+  "optionsMap": {
+    "A": "girl bold work smart (already arranged)",
+    "B": "girl smart bold work",
+    "C": "girl work bold smart",
+    "D": "smart girl bold work"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "girl bold work smart (already arranged)",
+  "tags": [
+    "logical",
+    "input-output"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

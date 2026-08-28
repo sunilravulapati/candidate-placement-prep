@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_070",
+  "slug": "tcs-log-070",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "syllogisms",
+  "topicName": "Syllogisms",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "No fish is a mammal. All whales are mammals. Conclusions: (I) No whale is a f...",
+  "description": "No fish is a mammal. All whales are mammals. Conclusions: (I) No whale is a fish. (II) Some mammals are whales.",
+  "question": "No fish is a mammal. All whales are mammals. Conclusions: (I) No whale is a fish. (II) Some mammals are whales.",
+  "options": [
+    "Both I and II follow",
+    "Only I follows",
+    "Only II follows",
+    "Neither follows"
+  ],
+  "optionsMap": {
+    "A": "Both I and II follow",
+    "B": "Only I follows",
+    "C": "Only II follows",
+    "D": "Neither follows"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Both I and II follow",
+  "tags": [
+    "logical",
+    "syllogisms"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

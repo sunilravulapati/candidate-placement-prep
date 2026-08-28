@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_065",
+  "slug": "tcs-log-065",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "syllogisms",
+  "topicName": "Syllogisms",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "All roses are flowers. Some flowers are plants. Conclusions: (I) Some roses a...",
+  "description": "All roses are flowers. Some flowers are plants. Conclusions: (I) Some roses are plants. (II) All plants are flowers.",
+  "question": "All roses are flowers. Some flowers are plants. Conclusions: (I) Some roses are plants. (II) All plants are flowers.",
+  "options": [
+    "Neither follows",
+    "Only I follows",
+    "Only II follows",
+    "Both follow"
+  ],
+  "optionsMap": {
+    "A": "Neither follows",
+    "B": "Only I follows",
+    "C": "Only II follows",
+    "D": "Both follow"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Neither follows",
+  "tags": [
+    "logical",
+    "syllogisms"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

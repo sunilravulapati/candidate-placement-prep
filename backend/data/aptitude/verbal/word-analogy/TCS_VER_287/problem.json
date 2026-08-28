@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_287",
+  "slug": "tcs-ver-287",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "word-analogy",
+  "topicName": "Word Analogy",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Complete the analogy: Chronometer : Time :: Seismograph : ?",
+  "description": "Complete the analogy: Chronometer : Time :: Seismograph : ?",
+  "question": "Complete the analogy: Chronometer : Time :: Seismograph : ?",
+  "options": [
+    "Earthquakes",
+    "Rainfall",
+    "Wind speed",
+    "Sea depth"
+  ],
+  "optionsMap": {
+    "A": "Earthquakes",
+    "B": "Rainfall",
+    "C": "Wind speed",
+    "D": "Sea depth"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Earthquakes",
+  "tags": [
+    "verbal",
+    "word-analogy"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

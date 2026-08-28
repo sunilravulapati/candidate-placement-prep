@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_314",
+  "slug": "tcs-log-314",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Coding: If MACHINE = 19, then ENGINE = ?",
+  "description": "Coding: If MACHINE = 19, then ENGINE = ?",
+  "question": "Coding: If MACHINE = 19, then ENGINE = ?",
+  "options": [
+    "14",
+    "13",
+    "15",
+    "16"
+  ],
+  "optionsMap": {
+    "A": "14",
+    "B": "13",
+    "C": "15",
+    "D": "16"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "14",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

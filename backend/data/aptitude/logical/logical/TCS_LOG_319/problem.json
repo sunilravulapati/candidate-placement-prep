@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_319",
+  "slug": "tcs-log-319",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number series: 1, 8, 27, 64, ?",
+  "description": "Number series: 1, 8, 27, 64, ?",
+  "question": "Number series: 1, 8, 27, 64, ?",
+  "options": [
+    "125",
+    "100",
+    "144",
+    "216"
+  ],
+  "optionsMap": {
+    "A": "125",
+    "B": "100",
+    "C": "144",
+    "D": "216"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "125",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

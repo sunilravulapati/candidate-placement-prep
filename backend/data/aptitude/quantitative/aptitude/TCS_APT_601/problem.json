@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_601",
+  "slug": "tcs-apt-601",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Circle circumference 44cm. Radius (π=22/7)?",
+  "description": "Circle circumference 44cm. Radius (π=22/7)?",
+  "question": "Circle circumference 44cm. Radius (π=22/7)?",
+  "options": [
+    "7cm",
+    "14cm",
+    "3.5cm",
+    "21cm"
+  ],
+  "optionsMap": {
+    "A": "7cm",
+    "B": "14cm",
+    "C": "3.5cm",
+    "D": "21cm"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "7cm",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_459",
+  "slug": "tcs-log-459",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "3 friends in circle. A left of B. B left of C. Who is right of C?",
+  "description": "3 friends in circle. A left of B. B left of C. Who is right of C?",
+  "question": "3 friends in circle. A left of B. B left of C. Who is right of C?",
+  "options": [
+    "A",
+    "B",
+    "C",
+    "Cannot say"
+  ],
+  "optionsMap": {
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "D": "Cannot say"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "A",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

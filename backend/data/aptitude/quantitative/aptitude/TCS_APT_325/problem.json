@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_325",
+  "slug": "tcs-apt-325",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Probability of getting even number on a die.",
+  "description": "Probability of getting even number on a die.",
+  "question": "Probability of getting even number on a die.",
+  "options": [
+    "1/2",
+    "1/3",
+    "2/3",
+    "1/6"
+  ],
+  "optionsMap": {
+    "A": "1/2",
+    "B": "1/3",
+    "C": "2/3",
+    "D": "1/6"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1/2",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_431",
+  "slug": "tcs-apt-431",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "speed-and-distance",
+  "topicName": "Speed and Distance",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A car covers first 100 km at 50 km/h and next 100 km at 100 km/h. Average speed?",
+  "description": "A car covers first 100 km at 50 km/h and next 100 km at 100 km/h. Average speed?",
+  "question": "A car covers first 100 km at 50 km/h and next 100 km at 100 km/h. Average speed?",
+  "options": [
+    "66.67 km/h",
+    "75 km/h",
+    "70 km/h",
+    "80 km/h"
+  ],
+  "optionsMap": {
+    "A": "66.67 km/h",
+    "B": "75 km/h",
+    "C": "70 km/h",
+    "D": "80 km/h"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "66.67 km/h",
+  "tags": [
+    "quantitative",
+    "speed-and-distance"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_252",
+  "slug": "tcs-ver-252",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "sentence-improvement",
+  "topicName": "Sentence Improvement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Improve the underlined part of the sentence: 'She could not help but cry on h...",
+  "description": "Improve the underlined part of the sentence: 'She could not help but cry on hearing the news.'",
+  "question": "Improve the underlined part of the sentence: 'She could not help but cry on hearing the news.'",
+  "options": [
+    "help but crying",
+    "help to cry",
+    "help cried",
+    "No improvement"
+  ],
+  "optionsMap": {
+    "A": "help but crying",
+    "B": "help to cry",
+    "C": "help cried",
+    "D": "No improvement"
+  },
+  "answer": "D",
+  "answerKey": "D",
+  "correctAnswer": "No improvement",
+  "tags": [
+    "verbal",
+    "sentence-improvement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

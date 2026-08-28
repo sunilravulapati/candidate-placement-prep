@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_218",
+  "slug": "tcs-apt-218",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A shopkeeper marks a price 40% above cost and gives 10% discount. What is the...",
+  "description": "A shopkeeper marks a price 40% above cost and gives 10% discount. What is the profit %?",
+  "question": "A shopkeeper marks a price 40% above cost and gives 10% discount. What is the profit %?",
+  "options": [
+    "26%",
+    "30%",
+    "24%",
+    "28%"
+  ],
+  "optionsMap": {
+    "A": "26%",
+    "B": "30%",
+    "C": "24%",
+    "D": "28%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "26%",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

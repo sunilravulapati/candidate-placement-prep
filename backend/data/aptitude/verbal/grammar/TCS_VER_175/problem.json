@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_175",
+  "slug": "tcs-ver-175",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Which sentence uses the correct form of the verb?",
+  "description": "Which sentence uses the correct form of the verb?",
+  "question": "Which sentence uses the correct form of the verb?",
+  "options": [
+    "He has went to the market.",
+    "He have gone to the market.",
+    "He has gone to the market.",
+    "He have went to the market."
+  ],
+  "optionsMap": {
+    "A": "He has went to the market.",
+    "B": "He have gone to the market.",
+    "C": "He has gone to the market.",
+    "D": "He have went to the market."
+  },
+  "answer": "C",
+  "answerKey": "C",
+  "correctAnswer": "He has gone to the market.",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

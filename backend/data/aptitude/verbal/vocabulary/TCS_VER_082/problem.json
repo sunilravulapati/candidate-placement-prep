@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_082",
+  "slug": "tcs-ver-082",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most OPPOSITE in meaning to: FASTIDIOUS",
+  "description": "Choose the word most OPPOSITE in meaning to: FASTIDIOUS",
+  "question": "Choose the word most OPPOSITE in meaning to: FASTIDIOUS",
+  "options": [
+    "Lenient",
+    "Fussy",
+    "Picky",
+    "Strict"
+  ],
+  "optionsMap": {
+    "A": "Lenient",
+    "B": "Fussy",
+    "C": "Picky",
+    "D": "Strict"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Lenient",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

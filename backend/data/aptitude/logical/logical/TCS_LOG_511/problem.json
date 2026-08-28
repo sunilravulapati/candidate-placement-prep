@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_511",
+  "slug": "tcs-log-511",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Blood rel: A has two children B and C. D is B's daughter. E is D's uncle. How...",
+  "description": "Blood rel: A has two children B and C. D is B's daughter. E is D's uncle. How is E related to C?",
+  "question": "Blood rel: A has two children B and C. D is B's daughter. E is D's uncle. How is E related to C?",
+  "options": [
+    "Brother",
+    "Son",
+    "Father",
+    "Nephew"
+  ],
+  "optionsMap": {
+    "A": "Brother",
+    "B": "Son",
+    "C": "Father",
+    "D": "Nephew"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Brother",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

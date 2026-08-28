@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_053",
+  "slug": "tcs-log-053",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "blood-relations",
+  "topicName": "Blood Relations",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A woman pointing to a photo says 'This man's son is my son's father.' Who is ...",
+  "description": "A woman pointing to a photo says 'This man's son is my son's father.' Who is the man in the photo to the woman?",
+  "question": "A woman pointing to a photo says 'This man's son is my son's father.' Who is the man in the photo to the woman?",
+  "options": [
+    "Father-in-law",
+    "Father",
+    "Uncle",
+    "Husband"
+  ],
+  "optionsMap": {
+    "A": "Father-in-law",
+    "B": "Father",
+    "C": "Uncle",
+    "D": "Husband"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Father-in-law",
+  "tags": [
+    "logical",
+    "blood-relations"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

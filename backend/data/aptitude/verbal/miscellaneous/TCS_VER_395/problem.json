@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_395",
+  "slug": "tcs-ver-395",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "miscellaneous",
+  "topicName": "Miscellaneous",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which is the correct plural of 'criterion'?",
+  "description": "Which is the correct plural of 'criterion'?",
+  "question": "Which is the correct plural of 'criterion'?",
+  "options": [
+    "Criterions",
+    "Criteria",
+    "Criterias",
+    "Criteriones"
+  ],
+  "optionsMap": {
+    "A": "Criterions",
+    "B": "Criteria",
+    "C": "Criterias",
+    "D": "Criteriones"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Criteria",
+  "tags": [
+    "verbal",
+    "miscellaneous"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

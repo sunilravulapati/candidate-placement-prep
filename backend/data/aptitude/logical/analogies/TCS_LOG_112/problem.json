@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_112",
+  "slug": "tcs-log-112",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "analogies",
+  "topicName": "Analogies",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Marathon : Stamina :: Sprint : ?",
+  "description": "Marathon : Stamina :: Sprint : ?",
+  "question": "Marathon : Stamina :: Sprint : ?",
+  "options": [
+    "Speed",
+    "Endurance",
+    "Strength",
+    "Flexibility"
+  ],
+  "optionsMap": {
+    "A": "Speed",
+    "B": "Endurance",
+    "C": "Strength",
+    "D": "Flexibility"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Speed",
+  "tags": [
+    "logical",
+    "analogies"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

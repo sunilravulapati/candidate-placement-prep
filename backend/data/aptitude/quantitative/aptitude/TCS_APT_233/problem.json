@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_233",
+  "slug": "tcs-apt-233",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Two workers A and B complete a job. A takes 18 days, B takes 9 days. Working ...",
+  "description": "Two workers A and B complete a job. A takes 18 days, B takes 9 days. Working together?",
+  "question": "Two workers A and B complete a job. A takes 18 days, B takes 9 days. Working together?",
+  "options": [
+    "6 days",
+    "5 days",
+    "4 days",
+    "7 days"
+  ],
+  "optionsMap": {
+    "A": "6 days",
+    "B": "5 days",
+    "C": "4 days",
+    "D": "7 days"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "6 days",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

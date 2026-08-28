@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_600",
+  "slug": "tcs-apt-600",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Isoceles triangle with equal sides 10cm and base 12cm. Area?",
+  "description": "Isoceles triangle with equal sides 10cm and base 12cm. Area?",
+  "question": "Isoceles triangle with equal sides 10cm and base 12cm. Area?",
+  "options": [
+    "48 cm2",
+    "60 cm2",
+    "40 cm2",
+    "36 cm2"
+  ],
+  "optionsMap": {
+    "A": "48 cm2",
+    "B": "60 cm2",
+    "C": "40 cm2",
+    "D": "36 cm2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "48 cm2",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

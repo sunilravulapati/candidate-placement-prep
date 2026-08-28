@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_184",
+  "slug": "tcs-apt-184",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "mixtures",
+  "topicName": "Mixtures",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A mixture of milk and water in ratio 3:1. To make ratio 3:2, how much water s...",
+  "description": "A mixture of milk and water in ratio 3:1. To make ratio 3:2, how much water should be added to 20L?",
+  "question": "A mixture of milk and water in ratio 3:1. To make ratio 3:2, how much water should be added to 20L?",
+  "options": [
+    "4 L",
+    "5 L",
+    "6 L",
+    "3 L"
+  ],
+  "optionsMap": {
+    "A": "4 L",
+    "B": "5 L",
+    "C": "6 L",
+    "D": "3 L"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "5 L",
+  "tags": [
+    "quantitative",
+    "mixtures"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

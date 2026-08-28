@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_310",
+  "slug": "tcs-log-310",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Puzzle: A is taller than B. C is taller than A. D is shorter than B. Tallest?",
+  "description": "Puzzle: A is taller than B. C is taller than A. D is shorter than B. Tallest?",
+  "question": "Puzzle: A is taller than B. C is taller than A. D is shorter than B. Tallest?",
+  "options": [
+    "C",
+    "A",
+    "B",
+    "D"
+  ],
+  "optionsMap": {
+    "A": "C",
+    "B": "A",
+    "C": "B",
+    "D": "D"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "C",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

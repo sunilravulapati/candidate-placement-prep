@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_373",
+  "slug": "tcs-ver-373",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "cloze-test",
+  "topicName": "Cloze Test",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The city had grown rapidly over the past decade. Skyscrapers now _____ (1) th...",
+  "description": "The city had grown rapidly over the past decade. Skyscrapers now _____ (1) the skyline where rice fields once _____ (2). The transformation was _____ (3), but it came with the cost of displacing thousands of farmers. SELECT WORD FOR BLANK (1):",
+  "question": "The city had grown rapidly over the past decade. Skyscrapers now _____ (1) the skyline where rice fields once _____ (2). The transformation was _____ (3), but it came with the cost of displacing thousands of farmers. SELECT WORD FOR BLANK (1):",
+  "options": [
+    "dominated",
+    "decorated",
+    "disturbed",
+    "blocked"
+  ],
+  "optionsMap": {
+    "A": "dominated",
+    "B": "decorated",
+    "C": "disturbed",
+    "D": "blocked"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "dominated",
+  "tags": [
+    "verbal",
+    "cloze-test"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

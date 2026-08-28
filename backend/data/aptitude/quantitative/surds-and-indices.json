@@ -1,0 +1,182 @@
+[
+  {
+    "id": "TCS_APT_519",
+    "title": "Simplify: (23)2 = ?",
+    "description": "Simplify: (23)2 = ?",
+    "question": "Simplify: (23)2 = ?",
+    "options": [
+      "64",
+      "32",
+      "16",
+      "128"
+    ],
+    "answer": "64",
+    "answerKey": "A",
+    "correctAnswer": "64",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 64.",
+    "topic": "surds-and-indices",
+    "topicName": "Surds and Indices",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_520",
+    "title": "x0 = ? (for x ≠ 0)",
+    "description": "x0 = ? (for x ≠ 0)",
+    "question": "x0 = ? (for x ≠ 0)",
+    "options": [
+      "1",
+      "0",
+      "x",
+      "Undefined"
+    ],
+    "answer": "1",
+    "answerKey": "A",
+    "correctAnswer": "1",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 1.",
+    "topic": "surds-and-indices",
+    "topicName": "Surds and Indices",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_523",
+    "title": "What is 2^(-3)?",
+    "description": "What is 2^(-3)?",
+    "question": "What is 2^(-3)?",
+    "options": [
+      "1/8",
+      "−8",
+      "8",
+      "−1/8"
+    ],
+    "answer": "1/8",
+    "answerKey": "A",
+    "correctAnswer": "1/8",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 1/8.",
+    "topic": "surds-and-indices",
+    "topicName": "Surds and Indices",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_524",
+    "title": "If 4^x = 128, find x.",
+    "description": "If 4^x = 128, find x.",
+    "question": "If 4^x = 128, find x.",
+    "options": [
+      "3.5",
+      "4",
+      "3",
+      "2.5"
+    ],
+    "answer": "3.5",
+    "answerKey": "A",
+    "correctAnswer": "3.5",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 3.5.",
+    "topic": "surds-and-indices",
+    "topicName": "Surds and Indices",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_521",
+    "title": "x^(m/n) = ?",
+    "description": "x^(m/n) = ?",
+    "question": "x^(m/n) = ?",
+    "options": [
+      "n√(xm)",
+      "xm × xn",
+      "xm/xn",
+      "xm+n"
+    ],
+    "answer": "n√(xm)",
+    "answerKey": "A",
+    "correctAnswer": "n√(xm)",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: n√(xm).",
+    "topic": "surds-and-indices",
+    "topicName": "Surds and Indices",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_525",
+    "title": "Rationalize 1/√5:",
+    "description": "Rationalize 1/√5:",
+    "question": "Rationalize 1/√5:",
+    "options": [
+      "√5/5",
+      "1/5",
+      "5/√5",
+      "√5"
+    ],
+    "answer": "√5/5",
+    "answerKey": "A",
+    "correctAnswer": "√5/5",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: √5/5.",
+    "topic": "surds-and-indices",
+    "topicName": "Surds and Indices",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_672",
+  "slug": "tcs-ver-672",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "One word: One who cannot read or write",
+  "description": "One word: One who cannot read or write",
+  "question": "One word: One who cannot read or write",
+  "options": [
+    "Illiterate",
+    "Ignorant",
+    "Uneducated",
+    "Unlearned"
+  ],
+  "optionsMap": {
+    "A": "Illiterate",
+    "B": "Ignorant",
+    "C": "Uneducated",
+    "D": "Unlearned"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Illiterate",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

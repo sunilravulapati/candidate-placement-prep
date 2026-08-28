@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_176",
+  "slug": "tcs-apt-176",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "hcf-and-lcm",
+  "topicName": "HCF and LCM",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Product of HCF and LCM of 15 and 25 is:",
+  "description": "Product of HCF and LCM of 15 and 25 is:",
+  "question": "Product of HCF and LCM of 15 and 25 is:",
+  "options": [
+    "375",
+    "250",
+    "125",
+    "500"
+  ],
+  "optionsMap": {
+    "A": "375",
+    "B": "250",
+    "C": "125",
+    "D": "500"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "375",
+  "tags": [
+    "quantitative",
+    "hcf-and-lcm"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

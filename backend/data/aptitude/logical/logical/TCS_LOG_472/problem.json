@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_472",
+  "slug": "tcs-log-472",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Analogy: Flower:Fragrance :: Sun:?",
+  "description": "Analogy: Flower:Fragrance :: Sun:?",
+  "question": "Analogy: Flower:Fragrance :: Sun:?",
+  "options": [
+    "Light",
+    "Heat",
+    "Energy",
+    "Warmth"
+  ],
+  "optionsMap": {
+    "A": "Light",
+    "B": "Heat",
+    "C": "Energy",
+    "D": "Warmth"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Light",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

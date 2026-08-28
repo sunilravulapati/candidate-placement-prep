@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_698",
+  "slug": "tcs-ver-698",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Fill blank: The manager __ the team to finish by Friday.",
+  "description": "Fill blank: The manager __ the team to finish by Friday.",
+  "question": "Fill blank: The manager __ the team to finish by Friday.",
+  "options": [
+    "urged",
+    "stopped",
+    "discouraged",
+    "prevented"
+  ],
+  "optionsMap": {
+    "A": "urged",
+    "B": "stopped",
+    "C": "discouraged",
+    "D": "prevented"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "urged",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

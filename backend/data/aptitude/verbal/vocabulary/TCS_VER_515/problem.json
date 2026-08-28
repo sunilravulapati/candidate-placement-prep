@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_515",
+  "slug": "tcs-ver-515",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Choose the synonym of IMPETUOUS",
+  "description": "Choose the synonym of IMPETUOUS",
+  "question": "Choose the synonym of IMPETUOUS",
+  "options": [
+    "Hasty",
+    "Careful",
+    "Slow",
+    "Thoughtful"
+  ],
+  "optionsMap": {
+    "A": "Hasty",
+    "B": "Careful",
+    "C": "Slow",
+    "D": "Thoughtful"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Hasty",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

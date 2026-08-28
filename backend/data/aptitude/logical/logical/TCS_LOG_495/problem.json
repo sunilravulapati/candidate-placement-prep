@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_495",
+  "slug": "tcs-log-495",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number: 2000, 1000, 500, 250, __?",
+  "description": "Number: 2000, 1000, 500, 250, __?",
+  "question": "Number: 2000, 1000, 500, 250, __?",
+  "options": [
+    "125",
+    "200",
+    "100",
+    "150"
+  ],
+  "optionsMap": {
+    "A": "125",
+    "B": "200",
+    "C": "100",
+    "D": "150"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "125",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

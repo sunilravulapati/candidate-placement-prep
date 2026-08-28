@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_089",
+  "slug": "tcs-log-089",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "direction-sense",
+  "topicName": "Direction Sense",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Ram walks 5m North, turns left 3m, turns left 5m, turns right 2m. How far fro...",
+  "description": "Ram walks 5m North, turns left 3m, turns left 5m, turns right 2m. How far from start, facing which direction?",
+  "question": "Ram walks 5m North, turns left 3m, turns left 5m, turns right 2m. How far from start, facing which direction?",
+  "options": [
+    "5m East",
+    "5m West",
+    "3m East",
+    "2m East"
+  ],
+  "optionsMap": {
+    "A": "5m East",
+    "B": "5m West",
+    "C": "3m East",
+    "D": "2m East"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "5m East",
+  "tags": [
+    "logical",
+    "direction-sense"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -8,7 +8,7 @@ import {
   Cpu, User2, Building2, Briefcase, Clock, BarChart3,
   BookOpen, Globe, FileText, ChevronDown, Play, Loader2, X
 } from 'lucide-react';
-import { startInterviewAction, listPersonasAction } from '@backend/features/mockInterview/actions';
+import { startInterviewAction, listPersonasAction, listInterviewTemplatesAction } from '@backend/features/mockInterview/actions';
 import { listResumesAction } from '@backend/features/resume/actions';
 
 type Persona = Awaited<ReturnType<typeof listPersonasAction>>[number];
@@ -76,6 +76,24 @@ export default function StartInterviewForm({
       .then(([p, r]) => { setPersonas(p); setResumes(r); })
       .catch(console.error);
   }, []);
+
+  useEffect(() => {
+    if (!prefillTemplateId) return;
+    listInterviewTemplatesAction()
+      .then((templates) => {
+        const match = templates.find((t) => t.id === prefillTemplateId);
+        if (match) {
+          if (match.type) setType(match.type);
+          if (match.difficulty) setDifficulty(match.difficulty);
+          if (match.experienceLevel) setExperience(match.experienceLevel);
+          if (match.durationMinutes) setDuration(match.durationMinutes);
+          if (match.topics?.length) setTopics(match.topics);
+          if (match.companyStyle) setCompany(match.companyStyle);
+          if (match.persona?.id) setPersonaId(match.persona.id);
+        }
+      })
+      .catch(console.error);
+  }, [prefillTemplateId]);
 
   const suggestedTopics = COMMON_TOPICS[type] || COMMON_TOPICS.CUSTOM;
 

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_190",
+  "slug": "tcs-ver-190",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Identify the sentence with correct word order:",
+  "description": "Identify the sentence with correct word order:",
+  "question": "Identify the sentence with correct word order:",
+  "options": [
+    "She only told him the truth.",
+    "Only she told him the truth.",
+    "She told only him the truth.",
+    "She told him only the truth."
+  ],
+  "optionsMap": {
+    "A": "She only told him the truth.",
+    "B": "Only she told him the truth.",
+    "C": "She told only him the truth.",
+    "D": "She told him only the truth."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Only she told him the truth.",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

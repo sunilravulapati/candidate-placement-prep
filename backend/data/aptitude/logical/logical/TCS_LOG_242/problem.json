@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_242",
+  "slug": "tcs-log-242",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number series: 3, 9, 27, 81, ?",
+  "description": "Number series: 3, 9, 27, 81, ?",
+  "question": "Number series: 3, 9, 27, 81, ?",
+  "options": [
+    "243",
+    "162",
+    "324",
+    "81"
+  ],
+  "optionsMap": {
+    "A": "243",
+    "B": "162",
+    "C": "324",
+    "D": "81"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "243",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

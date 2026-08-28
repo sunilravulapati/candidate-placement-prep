@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_080",
+  "slug": "tcs-log-080",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "seating-arrangement",
+  "topicName": "Seating Arrangement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A is to the left of B. C is to the right of D. B and D are at the same positi...",
+  "description": "A is to the left of B. C is to the right of D. B and D are at the same position. Who is 2nd from right: A,B,C,D?",
+  "question": "A is to the left of B. C is to the right of D. B and D are at the same position. Who is 2nd from right: A,B,C,D?",
+  "options": [
+    "C",
+    "B",
+    "A",
+    "D"
+  ],
+  "optionsMap": {
+    "A": "C",
+    "B": "B",
+    "C": "A",
+    "D": "D"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "C",
+  "tags": [
+    "logical",
+    "seating-arrangement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

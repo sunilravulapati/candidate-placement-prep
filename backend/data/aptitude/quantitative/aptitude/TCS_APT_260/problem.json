@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_260",
+  "slug": "tcs-apt-260",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The average of consecutive integers from 10 to 20 is?",
+  "description": "The average of consecutive integers from 10 to 20 is?",
+  "question": "The average of consecutive integers from 10 to 20 is?",
+  "options": [
+    "15",
+    "14",
+    "16",
+    "17"
+  ],
+  "optionsMap": {
+    "A": "15",
+    "B": "14",
+    "C": "16",
+    "D": "17"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "15",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

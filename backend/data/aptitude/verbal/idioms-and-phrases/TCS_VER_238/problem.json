@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_238",
+  "slug": "tcs-ver-238",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "What does 'wear your heart on your sleeve' mean?",
+  "description": "What does 'wear your heart on your sleeve' mean?",
+  "question": "What does 'wear your heart on your sleeve' mean?",
+  "options": [
+    "Express emotions openly",
+    "Have heart problems",
+    "Be fashionable",
+    "Hide feelings"
+  ],
+  "optionsMap": {
+    "A": "Express emotions openly",
+    "B": "Have heart problems",
+    "C": "Be fashionable",
+    "D": "Hide feelings"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Express emotions openly",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

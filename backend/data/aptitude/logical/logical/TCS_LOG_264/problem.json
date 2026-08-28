@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_264",
+  "slug": "tcs-log-264",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Analogy: Water : Thirst :: Food : ?",
+  "description": "Analogy: Water : Thirst :: Food : ?",
+  "question": "Analogy: Water : Thirst :: Food : ?",
+  "options": [
+    "Hunger",
+    "Eat",
+    "Cook",
+    "Taste"
+  ],
+  "optionsMap": {
+    "A": "Hunger",
+    "B": "Eat",
+    "C": "Cook",
+    "D": "Taste"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Hunger",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

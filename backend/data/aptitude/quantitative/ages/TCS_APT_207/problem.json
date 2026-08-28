@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_207",
+  "slug": "tcs-apt-207",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "ages",
+  "topicName": "Ages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A mother is 30 years older than her daughter. In 5 years, mother will be 3 ti...",
+  "description": "A mother is 30 years older than her daughter. In 5 years, mother will be 3 times daughter's age. Find daughter's current age.",
+  "question": "A mother is 30 years older than her daughter. In 5 years, mother will be 3 times daughter's age. Find daughter's current age.",
+  "options": [
+    "10",
+    "8",
+    "12",
+    "15"
+  ],
+  "optionsMap": {
+    "A": "10",
+    "B": "8",
+    "C": "12",
+    "D": "15"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "10",
+  "tags": [
+    "quantitative",
+    "ages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

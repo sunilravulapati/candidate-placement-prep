@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_294",
+  "slug": "tcs-log-294",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Clock: At what time between 4 and 5 are hands opposite?",
+  "description": "Clock: At what time between 4 and 5 are hands opposite?",
+  "question": "Clock: At what time between 4 and 5 are hands opposite?",
+  "options": [
+    "4:54:32",
+    "4:50",
+    "5:00",
+    "4:45"
+  ],
+  "optionsMap": {
+    "A": "4:54:32",
+    "B": "4:50",
+    "C": "5:00",
+    "D": "4:45"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "4:54:32",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -2,11 +2,15 @@
   "id": "minimum-window-substring",
   "schemaVersion": "2.0",
   "contentVersion": "1.1",
-  "importVersion": "64-column-sheet",
-  "lastReviewed": "2026-07-26",
-  "lastModified": "2026-07-26",
+  "importVersion": "stdin-converted-master-v1",
+  "lastReviewed": "2026-08-28",
+  "lastModified": "2026-08-28",
   "author": "PrepGenie Content Team",
   "reviewStatus": "published",
+  "stdinStatus": "OK",
+  "executionStatus": "V1_READY",
+  "isV2Pending": false,
+  "stdinFormatNotes": "Visible Stdin Input 1: s: raw line (no quotes); t: raw line (no quotes)\nVisible Stdin Input 2: s: raw line (no quotes); t: raw line (no quotes)\nVisible Stdin Input 3: s: raw line (no quotes); t: raw line (no quotes)\nHidden Stdin Input 1: s: raw line (no quotes); t: raw line (no quotes)\nHidden Stdin Input 2: s: raw line (no quotes); t: raw line (no quotes)\nHidden Stdin Input 3: s: raw line (no quotes); t: raw line (no quotes)\nHidden Stdin Input 4: s: raw line (no quotes); t: raw line (no quotes)\nHidden Stdin Input 5: s: raw line (no quotes); t: raw line (no quotes)",
   "questionNo": 25,
   "slug": "minimum-window-substring",
   "title": "Minimum Window Substring",
@@ -38,6 +42,8 @@
     "Core DSA Track -> Sliding Window Module"
   ],
   "description": "Find the smallest window containing all characters of a target string.",
+  "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers",
+  "outputFormat": "Standard output stream containing the computed result.",
   "whyLearnThis": "Advanced hard-level problem testing deep problem-solving skills, optimal state management, and algorithmic rigor.",
   "recognitionClues": "Look for array/string traversal where sliding window properties or sliding boundaries reduce time complexity.",
   "prerequisites": "Mastery of sliding window, dynamic programming, advanced graph/tree traversal",
@@ -65,24 +71,25 @@
     "Goldman Sachs"
   ],
   "constraints": [
-    "1 <= input.length <= 10^5",
-    "-10^9 <= input[i] <= 10^9"
+    "1 <= input length <= 10^5",
+    "Standard execution time limit: 2.0s",
+    "Standard memory limit: 256MB"
   ],
   "examples": [
     {
-      "input": "\"babad\"",
-      "output": "\"bab\"",
-      "explanation": "Sample test 1 for Minimum Window Substring"
+      "input": "s = \"ADOBECODEBANC\", t = \"ABC\"",
+      "output": "\"BANC\"",
+      "explanation": "canonical minimum window. Expected output: \"BANC\""
     },
     {
-      "input": "\"cbbd\"",
-      "output": "\"bb\"",
-      "explanation": "Sample test 2 for Minimum Window Substring"
-    },
-    {
-      "input": "\"a\"",
+      "input": "s = \"a\", t = \"a\"",
       "output": "\"a\"",
-      "explanation": "Sample test 3 for Minimum Window Substring"
+      "explanation": "single exact match. Expected output: \"a\""
+    },
+    {
+      "input": "s = \"a\", t = \"aa\"",
+      "output": "\"\"",
+      "explanation": "missing multiplicity. Expected output: \"\""
     }
   ],
   "hints": [
@@ -112,22 +119,17 @@
       "url": "https://leetcode.com/problems/minimum-window-substring/"
     }
   ],
-  "inputTemplates": {
-    "python": "# --- 25. Minimum Window Substring (sliding-window) ---\ndef solution(inputs):\n    # Function implementation\n    pass\n\nif __name__ == \"__main__\":\n    import sys\n    # Sample Input: adjust according to problem requirements\n    raw_input = sys.stdin.read().splitlines() if not sys.stdin.isatty() else [\"sample_input_1\", \"sample_input_2\"]\n    print(f\"Input: {raw_input}\")\n    # result = solution(raw_input)\n    # print(f\"Output: {result}\")\n",
-    "cpp": "// --- 25. Minimum Window Substring (sliding-window) ---\n#include <iostream>\n#include <vector>\n#include <string>\n#include <sstream>\nusing namespace std;\n\nclass Solution {\npublic:\n    void solve() {\n        // Implement driver and input logic\n    }\n};\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    Solution sol;\n    sol.solve();\n    return 0;\n}\n",
-    "java": "// --- 25. Minimum Window Substring (sliding-window) ---\nimport java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        // Parse input here\n        System.out.println(\"Ready for input: \" + \"Minimum Window Substring\");\n    }\n}\n",
-    "javascript": "// --- 25. Minimum Window Substring (sliding-window) ---\nconst fs = require('fs');\n\nfunction solve(input) {\n  // Implement standard logic\n  return input;\n}\n\nconst input = fs.readFileSync('/dev/stdin', 'utf-8').trim().split('\\n');\nconsole.log(solve(input));\n",
-    "typescript": "// --- 25. Minimum Window Substring (sliding-window) ---\nimport * as fs from 'fs';\n\nfunction solveTS(inputData: string[]): any {\n  // Implement TypeScript logic\n  return inputData;\n}\n\nconst rawData: string[] = fs.readFileSync(0, 'utf-8').trim().split('\\n');\nconsole.log(solveTS(rawData));\n"
-  },
   "inputHelper": {
-    "inputFormat": "Input Format for Minimum Window Substring:\nStandard competitive programming stdin input stream.",
-    "sampleInput": "\"babad\"",
-    "codeTemplates": {
-      "python": "# --- 25. Minimum Window Substring (sliding-window) ---\ndef solution(inputs):\n    # Function implementation\n    pass\n\nif __name__ == \"__main__\":\n    import sys\n    # Sample Input: adjust according to problem requirements\n    raw_input = sys.stdin.read().splitlines() if not sys.stdin.isatty() else [\"sample_input_1\", \"sample_input_2\"]\n    print(f\"Input: {raw_input}\")\n    # result = solution(raw_input)\n    # print(f\"Output: {result}\")\n",
-      "cpp": "// --- 25. Minimum Window Substring (sliding-window) ---\n#include <iostream>\n#include <vector>\n#include <string>\n#include <sstream>\nusing namespace std;\n\nclass Solution {\npublic:\n    void solve() {\n        // Implement driver and input logic\n    }\n};\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    Solution sol;\n    sol.solve();\n    return 0;\n}\n",
-      "java": "// --- 25. Minimum Window Substring (sliding-window) ---\nimport java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        // Parse input here\n        System.out.println(\"Ready for input: \" + \"Minimum Window Substring\");\n    }\n}\n",
-      "javascript": "// --- 25. Minimum Window Substring (sliding-window) ---\nconst fs = require('fs');\n\nfunction solve(input) {\n  // Implement standard logic\n  return input;\n}\n\nconst input = fs.readFileSync('/dev/stdin', 'utf-8').trim().split('\\n');\nconsole.log(solve(input));\n",
-      "typescript": "// --- 25. Minimum Window Substring (sliding-window) ---\nimport * as fs from 'fs';\n\nfunction solveTS(inputData: string[]): any {\n  // Implement TypeScript logic\n  return inputData;\n}\n\nconst rawData: string[] = fs.readFileSync(0, 'utf-8').trim().split('\\n');\nconsole.log(solveTS(rawData));\n"
+    "mode": "auto",
+    "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers",
+    "sampleInput": "ADOBECODEBANC\nABC",
+    "instructions": "Read input from standard input (stdin) and print output to standard output (stdout).",
+    "snippets": {
+      "cpp": "// Read array length then elements\nint n;\nif (cin >> n) {\n    vector<int> nums(n);\n    for (int i = 0; i < n; i++) {\n        cin >> nums[i];\n    }\n    // Solve problem with nums\n}",
+      "python": "# Read array length and space-separated elements\nimport sys\n\ninput_data = sys.stdin.read().split()\nif input_data:\n    n = int(input_data[0])\n    nums = [int(x) for x in input_data[1:n+1]]\n    # Solve problem with nums",
+      "java": "import java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        if (sc.hasNextInt()) {\n            int n = sc.nextInt();\n            int[] nums = new int[n];\n            for (int i = 0; i < n; i++) {\n                nums[i] = sc.nextInt();\n            }\n            // Solve problem with nums\n        }\n    }\n}",
+      "javascript": "const fs = require('fs');\n\nconst input = fs.readFileSync(0, 'utf8').trim().split(/\\s+/);\nif (input.length > 0 && input[0] !== '') {\n    const n = parseInt(input[0], 10);\n    const nums = input.slice(1, n + 1).map(Number);\n    // Solve problem with nums\n}",
+      "typescript": "import * as fs from 'fs';\n\nconst input = fs.readFileSync(0, 'utf8').trim().split(/\\s+/);\nif (input.length > 0 && input[0] !== '') {\n    const n = parseInt(input[0], 10);\n    const nums: number[] = input.slice(1, n + 1).map(Number);\n    // Solve problem with nums\n}"
     }
   },
   "referenceSolutions": {
@@ -138,44 +140,11 @@
     "typescript": "function minimumWindowSubstring(nums: number[], target: number): number {\n    let left = 0, right = nums.length - 1;\n    while (left <= right) {\n        let mid = Math.floor((left + right) / 2);\n        if (nums[mid] === target) return mid;\n        else if (nums[mid] < target) left = mid + 1;\n        else right = mid - 1;\n    }\n    return -1;\n};"
   },
   "starterCode": {
-    "cpp": "class Solution {\npublic:\n    int minimumWindowSubstring(vector<int>& nums, int target) {\n        \n    }\n};",
-    "python": "class Solution:\n    def minimumWindowSubstring(self, nums: list[int], target: int) -> int:\n        pass",
-    "java": "class Solution {\n    public int minimumWindowSubstring(int[] nums, int target) {\n        \n    }\n}",
-    "javascript": "var minimumWindowSubstring = function(nums, target) {\n    \n};",
-    "typescript": "function minimumWindowSubstring(nums: number[], target: number): number {\n    \n};"
-  },
-  "starterMetadata": {
-    "functionName": "minimumWindowSubstring",
-    "className": "Solution",
-    "returnType": "int",
-    "parameters": [
-      {
-        "name": "nums",
-        "type": "array<int>"
-      }
-    ],
-    "problemType": "FUNCTION"
-  },
-  "executionMetadata": {
-    "problemType": "FUNCTION",
-    "inputType": [
-      "array<int>"
-    ],
-    "outputType": "int",
-    "comparator": "EXACT",
-    "timeLimit": 2,
-    "memoryLimit": 256,
-    "expectedComplexity": {
-      "time": "O(N log N) or O(N)",
-      "space": "O(N)"
-    }
-  },
-  "driverMetadata": {
-    "driver": "DEFAULT",
-    "inputSerializers": [
-      "ARRAY_INT"
-    ],
-    "outputSerializer": "INT"
+    "cpp": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    // Read input according to the Input Format\n    // Write solution here\n    return 0;\n}",
+    "python": "def main():\n    # Read input according to the Input Format\n    # Write solution here\n    pass\n\nif __name__ == \"__main__\":\n    main()",
+    "java": "import java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        // Read input according to the Input Format\n        // Write solution here\n    }\n}",
+    "javascript": "const fs = require(\"fs\");\n\nfunction main() {\n    const input = fs.readFileSync(0, \"utf-8\").trim();\n    if (!input) return;\n    // Read input according to the Input Format\n    // Write solution here\n}\n\nmain();",
+    "typescript": "import * as fs from \"fs\";\n\nfunction main() {\n    const input = fs.readFileSync(0, \"utf-8\").trim();\n    if (!input) return;\n    // Read input according to the Input Format\n    // Write solution here\n}\n\nmain();"
   },
   "relationships": {
     "prerequisites": [],
@@ -193,60 +162,84 @@
     {
       "id": "sample-1",
       "classification": "sample",
-      "input": "\"babad\"",
-      "expectedOutput": "\"bab\"",
-      "explanation": "Sample test 1 for Minimum Window Substring"
+      "displayInput": "s = \"ADOBECODEBANC\", t = \"ABC\"",
+      "input": "ADOBECODEBANC\nABC",
+      "stdin": "ADOBECODEBANC\nABC",
+      "expectedOutput": "\"BANC\"",
+      "explanation": "canonical minimum window. Expected output: \"BANC\"",
+      "serializationStatus": "compatible"
     },
     {
       "id": "sample-2",
       "classification": "sample",
-      "input": "\"cbbd\"",
-      "expectedOutput": "\"bb\"",
-      "explanation": "Sample test 2 for Minimum Window Substring"
+      "displayInput": "s = \"a\", t = \"a\"",
+      "input": "a\na",
+      "stdin": "a\na",
+      "expectedOutput": "\"a\"",
+      "explanation": "single exact match. Expected output: \"a\"",
+      "serializationStatus": "compatible"
     },
     {
       "id": "sample-3",
       "classification": "sample",
-      "input": "\"a\"",
-      "expectedOutput": "\"a\"",
-      "explanation": "Sample test 3 for Minimum Window Substring"
+      "displayInput": "s = \"a\", t = \"aa\"",
+      "input": "a\naa",
+      "stdin": "a\naa",
+      "expectedOutput": "\"\"",
+      "explanation": "missing multiplicity. Expected output: \"\"",
+      "serializationStatus": "compatible"
     }
   ],
   "hiddenTests": [
     {
-      "id": "edge-1",
-      "classification": "edge",
-      "input": "\"\"",
+      "id": "hidden-1",
+      "classification": "hidden",
+      "displayInput": "s = \"aaflslflsldkalskaaa\", t = \"aaa\"",
+      "input": "aaflslflsldkalskaaa\naaa",
+      "stdin": "aaflslflsldkalskaaa\naaa",
+      "expectedOutput": "\"aaa\"",
+      "explanation": "repeated target character",
+      "serializationStatus": "compatible"
+    },
+    {
+      "id": "hidden-2",
+      "classification": "hidden",
+      "displayInput": "s = \"ab\", t = \"b\"",
+      "input": "ab\nb",
+      "stdin": "ab\nb",
+      "expectedOutput": "\"b\"",
+      "explanation": "window at end",
+      "serializationStatus": "compatible"
+    },
+    {
+      "id": "hidden-3",
+      "classification": "hidden",
+      "displayInput": "s = \"xyz\", t = \"aa\"",
+      "input": "xyz\naa",
+      "stdin": "xyz\naa",
       "expectedOutput": "\"\"",
-      "explanation": "Empty string boundary"
+      "explanation": "target absent",
+      "serializationStatus": "compatible"
     },
     {
-      "id": "corner-2",
-      "classification": "corner",
-      "input": "\"aaaaa\"",
-      "expectedOutput": "\"aaaaa\"",
-      "explanation": "All identical characters"
+      "id": "hidden-4",
+      "classification": "hidden",
+      "displayInput": "s = \"bdab\", t = \"ab\"",
+      "input": "bdab\nab",
+      "stdin": "bdab\nab",
+      "expectedOutput": "\"ab\"",
+      "explanation": "short window at end",
+      "serializationStatus": "compatible"
     },
     {
-      "id": "stress-3",
-      "classification": "stress",
-      "input": "\"abcdefghijklmnopqrstuvwxyz\"",
-      "expectedOutput": "1",
-      "explanation": "All distinct characters"
-    },
-    {
-      "id": "duplicates-4",
-      "classification": "duplicates",
-      "input": "\"abacaba\"",
-      "expectedOutput": "\"abacaba\"",
-      "explanation": "Symmetric palindrome string"
-    },
-    {
-      "id": "performance-5",
-      "classification": "performance",
-      "input": "\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"",
-      "expectedOutput": "...",
-      "explanation": "Performance test"
+      "id": "hidden-5",
+      "classification": "hidden",
+      "displayInput": "s = \"this is a test\", t = \"t a\"",
+      "input": "this is a test\nt a",
+      "stdin": "this is a test\nt a",
+      "expectedOutput": "\"t a\"",
+      "explanation": "spaces treated as characters",
+      "serializationStatus": "compatible"
     }
   ]
 }

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_578",
+  "slug": "tcs-ver-578",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: SOPHISTRY",
+  "description": "Choose the word most similar in meaning to: SOPHISTRY",
+  "question": "Choose the word most similar in meaning to: SOPHISTRY",
+  "options": [
+    "Clever but misleading argument",
+    "Genuine logic",
+    "Sound reasoning",
+    "Honest debate"
+  ],
+  "optionsMap": {
+    "A": "Clever but misleading argument",
+    "B": "Genuine logic",
+    "C": "Sound reasoning",
+    "D": "Honest debate"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Clever but misleading argument",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

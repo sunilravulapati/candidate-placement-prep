@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_109",
+  "slug": "tcs-log-109",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "analogies",
+  "topicName": "Analogies",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Moon : Orbit :: Earth : ?",
+  "description": "Moon : Orbit :: Earth : ?",
+  "question": "Moon : Orbit :: Earth : ?",
+  "options": [
+    "Rotate",
+    "Shine",
+    "Reflect",
+    "Orbit"
+  ],
+  "optionsMap": {
+    "A": "Rotate",
+    "B": "Shine",
+    "C": "Reflect",
+    "D": "Orbit"
+  },
+  "answer": "D",
+  "answerKey": "D",
+  "correctAnswer": "Orbit",
+  "tags": [
+    "logical",
+    "analogies"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

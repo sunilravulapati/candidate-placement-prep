@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_290",
+  "slug": "tcs-ver-290",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "word-analogy",
+  "topicName": "Word Analogy",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Complete the analogy: Stalactite : Ceiling :: Stalagmite : ?",
+  "description": "Complete the analogy: Stalactite : Ceiling :: Stalagmite : ?",
+  "question": "Complete the analogy: Stalactite : Ceiling :: Stalagmite : ?",
+  "options": [
+    "Floor",
+    "Wall",
+    "Roof",
+    "Door"
+  ],
+  "optionsMap": {
+    "A": "Floor",
+    "B": "Wall",
+    "C": "Roof",
+    "D": "Door"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Floor",
+  "tags": [
+    "verbal",
+    "word-analogy"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

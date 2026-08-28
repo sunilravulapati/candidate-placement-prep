@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int minStackDesign(vector<int>& nums) {
+    int minStack(vector<int>& nums) {
         int n = nums.size();
         vector<int> dp(n + 1, 0);
         for (int i = 1; i <= n; ++i) {

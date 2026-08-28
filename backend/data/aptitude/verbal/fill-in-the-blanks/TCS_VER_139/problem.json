@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_139",
+  "slug": "tcs-ver-139",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "He showed _____ courage in the face of overwhelming danger.",
+  "description": "He showed _____ courage in the face of overwhelming danger.",
+  "question": "He showed _____ courage in the face of overwhelming danger.",
+  "options": [
+    "extraordinary",
+    "average",
+    "ordinary",
+    "common"
+  ],
+  "optionsMap": {
+    "A": "extraordinary",
+    "B": "average",
+    "C": "ordinary",
+    "D": "common"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "extraordinary",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

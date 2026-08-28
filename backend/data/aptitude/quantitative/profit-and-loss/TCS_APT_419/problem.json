@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_419",
+  "slug": "tcs-apt-419",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "profit-and-loss",
+  "topicName": "Profit and Loss",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A man buys two articles for Rs.480 each. He sells one at 25% profit and other...",
+  "description": "A man buys two articles for Rs.480 each. He sells one at 25% profit and other at 25% loss. Net result?",
+  "question": "A man buys two articles for Rs.480 each. He sells one at 25% profit and other at 25% loss. Net result?",
+  "options": [
+    "Neither profit nor loss",
+    "25% profit",
+    "25% loss",
+    "6.25% loss"
+  ],
+  "optionsMap": {
+    "A": "Neither profit nor loss",
+    "B": "25% profit",
+    "C": "25% loss",
+    "D": "6.25% loss"
+  },
+  "answer": "D",
+  "answerKey": "D",
+  "correctAnswer": "6.25% loss",
+  "tags": [
+    "quantitative",
+    "profit-and-loss"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

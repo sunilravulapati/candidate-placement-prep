@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_523",
+  "slug": "tcs-apt-523",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "surds-and-indices",
+  "topicName": "Surds and Indices",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "What is 2^(-3)?",
+  "description": "What is 2^(-3)?",
+  "question": "What is 2^(-3)?",
+  "options": [
+    "1/8",
+    "−8",
+    "8",
+    "−1/8"
+  ],
+  "optionsMap": {
+    "A": "1/8",
+    "B": "−8",
+    "C": "8",
+    "D": "−1/8"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1/8",
+  "tags": [
+    "quantitative",
+    "surds-and-indices"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

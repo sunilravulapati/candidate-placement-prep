@@ -1,0 +1,662 @@
+[
+  {
+    "id": "TCS_VER_384",
+    "title": "Choose the word correctly spelt:",
+    "description": "Choose the word correctly spelt:",
+    "question": "Choose the word correctly spelt:",
+    "options": [
+      "Accomodation",
+      "Accommodation",
+      "Acommodation",
+      "Acomodation"
+    ],
+    "answer": "Accommodation",
+    "answerKey": "B",
+    "correctAnswer": "Accommodation",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (B) is the correct answer: Accommodation.",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_397",
+    "title": "What is the noun form of 'describe'?",
+    "description": "What is the noun form of 'describe'?",
+    "question": "What is the noun form of 'describe'?",
+    "options": [
+      "Descriptive",
+      "Describing",
+      "Description",
+      "Describation"
+    ],
+    "answer": "Description",
+    "answerKey": "C",
+    "correctAnswer": "Description",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (C) is the correct answer: Description.",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_398",
+    "title": "What is the adjective form of 'nation'?",
+    "description": "What is the adjective form of 'nation'?",
+    "question": "What is the adjective form of 'nation'?",
+    "options": [
+      "Nationwide",
+      "National",
+      "Nationally",
+      "Nationalize"
+    ],
+    "answer": "National",
+    "answerKey": "B",
+    "correctAnswer": "National",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (B) is the correct answer: National.",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_401",
+    "title": "Choose the correct preposition: 'She was absent _____ the meeting.'",
+    "description": "Choose the correct preposition: 'She was absent _____ the meeting.'",
+    "question": "Choose the correct preposition: 'She was absent _____ the meeting.'",
+    "options": [
+      "from",
+      "at",
+      "in",
+      "on"
+    ],
+    "answer": "from",
+    "answerKey": "A",
+    "correctAnswer": "from",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: from.",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_402",
+    "title": "Choose the correct preposition: 'He is addicted _____ gaming.'",
+    "description": "Choose the correct preposition: 'He is addicted _____ gaming.'",
+    "question": "Choose the correct preposition: 'He is addicted _____ gaming.'",
+    "options": [
+      "to",
+      "for",
+      "with",
+      "from"
+    ],
+    "answer": "to",
+    "answerKey": "A",
+    "correctAnswer": "to",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: to.",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_404",
+    "title": "Which sentence uses 'affect' correctly?",
+    "description": "Which sentence uses 'affect' correctly?",
+    "question": "Which sentence uses 'affect' correctly?",
+    "options": [
+      "The rain effected our plans.",
+      "The rain affected our plans.",
+      "The rain had a big affect on us.",
+      "He was unaffect by the news."
+    ],
+    "answer": "The rain affected our plans.",
+    "answerKey": "B",
+    "correctAnswer": "The rain affected our plans.",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (B) is the correct answer: The rain affected our plans..",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_410",
+    "title": "Which is the correct passive of 'They built the bridge in 1990'?",
+    "description": "Which is the correct passive of 'They built the bridge in 1990'?",
+    "question": "Which is the correct passive of 'They built the bridge in 1990'?",
+    "options": [
+      "The bridge was built in 1990.",
+      "The bridge is built in 1990.",
+      "The bridge has been built in 1990.",
+      "The bridge was build in 1990."
+    ],
+    "answer": "The bridge was built in 1990.",
+    "answerKey": "A",
+    "correctAnswer": "The bridge was built in 1990.",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: The bridge was built in 1990..",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_411",
+    "title": "Which sentence uses the gerund correctly?",
+    "description": "Which sentence uses the gerund correctly?",
+    "question": "Which sentence uses the gerund correctly?",
+    "options": [
+      "She enjoys to swim.",
+      "She enjoys swimming.",
+      "She enjoys for swimming.",
+      "She enjoys swims."
+    ],
+    "answer": "She enjoys swimming.",
+    "answerKey": "B",
+    "correctAnswer": "She enjoys swimming.",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (B) is the correct answer: She enjoys swimming..",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_400",
+    "title": "Choose the correct preposition: 'He died _____ cancer.'",
+    "description": "Choose the correct preposition: 'He died _____ cancer.'",
+    "question": "Choose the correct preposition: 'He died _____ cancer.'",
+    "options": [
+      "from",
+      "of",
+      "with",
+      "by"
+    ],
+    "answer": "of",
+    "answerKey": "B",
+    "correctAnswer": "of",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: of.",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_407",
+    "title": "Which is the correct reported speech for: He said, 'I am happy'?",
+    "description": "Which is the correct reported speech for: He said, 'I am happy'?",
+    "question": "Which is the correct reported speech for: He said, 'I am happy'?",
+    "options": [
+      "He said that he is happy.",
+      "He said that he was happy.",
+      "He said that I am happy.",
+      "He told he was happy."
+    ],
+    "answer": "He said that he was happy.",
+    "answerKey": "B",
+    "correctAnswer": "He said that he was happy.",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: He said that he was happy..",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_412",
+    "title": "Choose the correct sentence with 'either...or':",
+    "description": "Choose the correct sentence with 'either...or':",
+    "question": "Choose the correct sentence with 'either...or':",
+    "options": [
+      "Either the manager or the employees has to decide.",
+      "Either the manager or the employees have to decide.",
+      "Either the managers or the employee have to decide.",
+      "Either the manager nor the employees have to decide."
+    ],
+    "answer": "Either the manager or the employees have to decide.",
+    "answerKey": "B",
+    "correctAnswer": "Either the manager or the employees have to decide.",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: Either the manager or the employees have to decide..",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_389",
+    "title": "Choose the correctly spelt word:",
+    "description": "Choose the correctly spelt word:",
+    "question": "Choose the correctly spelt word:",
+    "options": [
+      "Mischievous",
+      "Mischievious",
+      "Mischivous",
+      "Mischeivous"
+    ],
+    "answer": "Mischievous",
+    "answerKey": "A",
+    "correctAnswer": "Mischievous",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Mischievous.",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_394",
+    "title": "Which word is the PLURAL of 'phenomenon'?",
+    "description": "Which word is the PLURAL of 'phenomenon'?",
+    "question": "Which word is the PLURAL of 'phenomenon'?",
+    "options": [
+      "Phenomenons",
+      "Phenomena",
+      "Phenomenas",
+      "Phenomenes"
+    ],
+    "answer": "Phenomena",
+    "answerKey": "B",
+    "correctAnswer": "Phenomena",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: Phenomena.",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_395",
+    "title": "Which is the correct plural of 'criterion'?",
+    "description": "Which is the correct plural of 'criterion'?",
+    "question": "Which is the correct plural of 'criterion'?",
+    "options": [
+      "Criterions",
+      "Criteria",
+      "Criterias",
+      "Criteriones"
+    ],
+    "answer": "Criteria",
+    "answerKey": "B",
+    "correctAnswer": "Criteria",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: Criteria.",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_396",
+    "title": "Which word correctly fills: 'He _____ me to take the job.'",
+    "description": "Which word correctly fills: 'He _____ me to take the job.'",
+    "question": "Which word correctly fills: 'He _____ me to take the job.'",
+    "options": [
+      "advised",
+      "suggested",
+      "recommended",
+      "told"
+    ],
+    "answer": "advised",
+    "answerKey": "A",
+    "correctAnswer": "advised",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: advised.",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_399",
+    "title": "Choose the correct preposition: 'She is good _____ mathematics.'",
+    "description": "Choose the correct preposition: 'She is good _____ mathematics.'",
+    "question": "Choose the correct preposition: 'She is good _____ mathematics.'",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "with"
+    ],
+    "answer": "at",
+    "answerKey": "B",
+    "correctAnswer": "at",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: at.",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_403",
+    "title": "Which sentence uses 'since' correctly?",
+    "description": "Which sentence uses 'since' correctly?",
+    "question": "Which sentence uses 'since' correctly?",
+    "options": [
+      "He has worked here since two years.",
+      "He has worked here since 2020.",
+      "He is working since yesterday.",
+      "He worked since Monday."
+    ],
+    "answer": "He has worked here since 2020.",
+    "answerKey": "B",
+    "correctAnswer": "He has worked here since 2020.",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: He has worked here since 2020..",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_405",
+    "title": "Which sentence uses 'principal' correctly?",
+    "description": "Which sentence uses 'principal' correctly?",
+    "question": "Which sentence uses 'principal' correctly?",
+    "options": [
+      "She was the principle reason for success.",
+      "The principal of the school arrived.",
+      "We must follow the principals.",
+      "He abided by a principle reason."
+    ],
+    "answer": "The principal of the school arrived.",
+    "answerKey": "B",
+    "correctAnswer": "The principal of the school arrived.",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: The principal of the school arrived..",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_406",
+    "title": "Choose the correctly structured conditional sentence:",
+    "description": "Choose the correctly structured conditional sentence:",
+    "question": "Choose the correctly structured conditional sentence:",
+    "options": [
+      "If she studies, she will pass.",
+      "If she studies, she would pass.",
+      "If she study, she will pass.",
+      "If she studied, she will pass."
+    ],
+    "answer": "If she studies, she will pass.",
+    "answerKey": "A",
+    "correctAnswer": "If she studies, she will pass.",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: If she studies, she will pass..",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_408",
+    "title": "Which sentence correctly uses 'hardly'?",
+    "description": "Which sentence correctly uses 'hardly'?",
+    "question": "Which sentence correctly uses 'hardly'?",
+    "options": [
+      "She hardly ever lies.",
+      "She ever hardly lies.",
+      "She lies hardly ever.",
+      "She hardly lies ever."
+    ],
+    "answer": "She hardly ever lies.",
+    "answerKey": "A",
+    "correctAnswer": "She hardly ever lies.",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: She hardly ever lies..",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_409",
+    "title": "Choose the correct form: 'The team _____ won the match.'",
+    "description": "Choose the correct form: 'The team _____ won the match.'",
+    "question": "Choose the correct form: 'The team _____ won the match.'",
+    "options": [
+      "has",
+      "have",
+      "had",
+      "will have"
+    ],
+    "answer": "has",
+    "answerKey": "A",
+    "correctAnswer": "has",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: has.",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_413",
+    "title": "Which sentence is in the pluperfect (past perfect) tense?",
+    "description": "Which sentence is in the pluperfect (past perfect) tense?",
+    "question": "Which sentence is in the pluperfect (past perfect) tense?",
+    "options": [
+      "She had finished the work before he arrived.",
+      "She finished the work before he arrived.",
+      "She has finished the work before he arrived.",
+      "She was finishing the work when he arrived."
+    ],
+    "answer": "She had finished the work before he arrived.",
+    "answerKey": "A",
+    "correctAnswer": "She had finished the work before he arrived.",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: She had finished the work before he arrived..",
+    "topic": "miscellaneous",
+    "topicName": "Miscellaneous",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

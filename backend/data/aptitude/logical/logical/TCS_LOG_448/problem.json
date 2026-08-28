@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_448",
+  "slug": "tcs-log-448",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Coding: PENCIL in reverse?",
+  "description": "Coding: PENCIL in reverse?",
+  "question": "Coding: PENCIL in reverse?",
+  "options": [
+    "LICNEP",
+    "LICPNE",
+    "LINCEP",
+    "PECLNI"
+  ],
+  "optionsMap": {
+    "A": "LICNEP",
+    "B": "LICPNE",
+    "C": "LINCEP",
+    "D": "PECLNI"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "LICNEP",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

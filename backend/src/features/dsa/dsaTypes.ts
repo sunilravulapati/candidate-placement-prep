@@ -1,6 +1,4 @@
-// backend/src/features/dsa/dsaTypes.ts
-
-import { StarterMetadata, ExecutionMetadata, DriverMetadata } from './canonicalTypes';
+import type { StarterMetadata, ExecutionMetadata, DriverMetadata } from './canonicalTypes.ts';
 
 export type DSADifficulty = 'EASY' | 'MEDIUM' | 'HARD';
 export type ReviewStatus = 'draft' | 'reviewed' | 'verified' | 'published';
@@ -17,9 +15,12 @@ export interface TestCaseSpec {
   id?: string;
   classification?: TestClassification;
   input: string;
+  stdin?: string;
   displayInput?: string;
+  logicalInput?: any;
   expectedOutput: string;
   explanation?: string;
+  serializationStatus?: 'compatible' | 'manual_required' | 'failed';
 }
 
 export interface ResourceLink {

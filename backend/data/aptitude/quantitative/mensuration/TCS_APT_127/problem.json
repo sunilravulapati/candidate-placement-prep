@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_127",
+  "slug": "tcs-apt-127",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "mensuration",
+  "topicName": "Mensuration",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Volume of a cube with side 4 cm.",
+  "description": "Volume of a cube with side 4 cm.",
+  "question": "Volume of a cube with side 4 cm.",
+  "options": [
+    "64 cm3",
+    "32 cm3",
+    "48 cm3",
+    "16 cm3"
+  ],
+  "optionsMap": {
+    "A": "64 cm3",
+    "B": "32 cm3",
+    "C": "48 cm3",
+    "D": "16 cm3"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "64 cm3",
+  "tags": [
+    "quantitative",
+    "mensuration"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

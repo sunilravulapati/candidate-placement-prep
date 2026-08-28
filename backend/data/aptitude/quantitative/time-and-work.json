@@ -1,0 +1,512 @@
+[
+  {
+    "id": "TCS_APT_074",
+    "title": "A can do a piece of work in 10 days and B in 15 days. How long will they take...",
+    "description": "A can do a piece of work in 10 days and B in 15 days. How long will they take working together?",
+    "question": "A can do a piece of work in 10 days and B in 15 days. How long will they take working together?",
+    "options": [
+      "6 days",
+      "5 days",
+      "7 days",
+      "8 days"
+    ],
+    "answer": "6 days",
+    "answerKey": "A",
+    "correctAnswer": "6 days",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 6 days.",
+    "topic": "time-and-work",
+    "topicName": "Time and Work",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_084",
+    "title": "A can complete 40% of a task in 8 days. At the same rate, how many days to co...",
+    "description": "A can complete 40% of a task in 8 days. At the same rate, how many days to complete the whole task?",
+    "question": "A can complete 40% of a task in 8 days. At the same rate, how many days to complete the whole task?",
+    "options": [
+      "20 days",
+      "15 days",
+      "25 days",
+      "18 days"
+    ],
+    "answer": "20 days",
+    "answerKey": "A",
+    "correctAnswer": "20 days",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 20 days.",
+    "topic": "time-and-work",
+    "topicName": "Time and Work",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_080",
+    "title": "A and B can do a work in 6 days, B and C in 8 days, A and C in 12 days. In ho...",
+    "description": "A and B can do a work in 6 days, B and C in 8 days, A and C in 12 days. In how many days can all three do it together?",
+    "question": "A and B can do a work in 6 days, B and C in 8 days, A and C in 12 days. In how many days can all three do it together?",
+    "options": [
+      "16/3 days",
+      "6 days",
+      "5 days",
+      "8 days"
+    ],
+    "answer": "16/3 days",
+    "answerKey": "A",
+    "correctAnswer": "16/3 days",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 16/3 days.",
+    "topic": "time-and-work",
+    "topicName": "Time and Work",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_081",
+    "title": "Pipe A fills a tank in 40 minutes and Pipe B empties it in 50 minutes. If bot...",
+    "description": "Pipe A fills a tank in 40 minutes and Pipe B empties it in 50 minutes. If both are open simultaneously, when will the tank be full?",
+    "question": "Pipe A fills a tank in 40 minutes and Pipe B empties it in 50 minutes. If both are open simultaneously, when will the tank be full?",
+    "options": [
+      "200 minutes",
+      "180 minutes",
+      "160 minutes",
+      "240 minutes"
+    ],
+    "answer": "200 minutes",
+    "answerKey": "A",
+    "correctAnswer": "200 minutes",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 200 minutes.",
+    "topic": "time-and-work",
+    "topicName": "Time and Work",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_082",
+    "title": "20 men can complete a job in 30 days. After 10 days, 5 more men join. How man...",
+    "description": "20 men can complete a job in 30 days. After 10 days, 5 more men join. How many more days are needed?",
+    "question": "20 men can complete a job in 30 days. After 10 days, 5 more men join. How many more days are needed?",
+    "options": [
+      "16 days",
+      "18 days",
+      "20 days",
+      "15 days"
+    ],
+    "answer": "16 days",
+    "answerKey": "A",
+    "correctAnswer": "16 days",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 16 days.",
+    "topic": "time-and-work",
+    "topicName": "Time and Work",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_086",
+    "title": "Three workers A, B, C finish a job in 10, 12, and 15 days respectively. Worki...",
+    "description": "Three workers A, B, C finish a job in 10, 12, and 15 days respectively. Working together, they complete the job in:",
+    "question": "Three workers A, B, C finish a job in 10, 12, and 15 days respectively. Working together, they complete the job in:",
+    "options": [
+      "4 days",
+      "5 days",
+      "3 days",
+      "6 days"
+    ],
+    "answer": "4 days",
+    "answerKey": "A",
+    "correctAnswer": "4 days",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 4 days.",
+    "topic": "time-and-work",
+    "topicName": "Time and Work",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_087",
+    "title": "A does half as much work as B in 3/4 of the time. If together they take 18 da...",
+    "description": "A does half as much work as B in 3/4 of the time. If together they take 18 days, how long does B take alone?",
+    "question": "A does half as much work as B in 3/4 of the time. If together they take 18 days, how long does B take alone?",
+    "options": [
+      "30 days",
+      "24 days",
+      "40 days",
+      "36 days"
+    ],
+    "answer": "30 days",
+    "answerKey": "A",
+    "correctAnswer": "30 days",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 30 days.",
+    "topic": "time-and-work",
+    "topicName": "Time and Work",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_088",
+    "title": "Pipe A fills in 6 hours, Pipe B fills in 8 hours. Both open and leakage drain...",
+    "description": "Pipe A fills in 6 hours, Pipe B fills in 8 hours. Both open and leakage drains in 24 hours. Time to fill:",
+    "question": "Pipe A fills in 6 hours, Pipe B fills in 8 hours. Both open and leakage drains in 24 hours. Time to fill:",
+    "options": [
+      "4.8 hours",
+      "5 hours",
+      "6 hours",
+      "4 hours"
+    ],
+    "answer": "4.8 hours",
+    "answerKey": "A",
+    "correctAnswer": "4.8 hours",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 4.8 hours.",
+    "topic": "time-and-work",
+    "topicName": "Time and Work",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_437",
+    "title": "A and B can do a work in 6 and 12 days. With help of C they finish in 4 days....",
+    "description": "A and B can do a work in 6 and 12 days. With help of C they finish in 4 days. C alone?",
+    "question": "A and B can do a work in 6 and 12 days. With help of C they finish in 4 days. C alone?",
+    "options": [
+      "12 days",
+      "8 days",
+      "16 days",
+      "10 days"
+    ],
+    "answer": "12 days",
+    "answerKey": "A",
+    "correctAnswer": "12 days",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 12 days.",
+    "topic": "time-and-work",
+    "topicName": "Time and Work",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_438",
+    "title": "A does 1/4 of work in 5 days. B does 1/2 of remaining work in 10 days. Togeth...",
+    "description": "A does 1/4 of work in 5 days. B does 1/2 of remaining work in 10 days. Together they finish in:",
+    "question": "A does 1/4 of work in 5 days. B does 1/2 of remaining work in 10 days. Together they finish in:",
+    "options": [
+      "13.33 days",
+      "15 days",
+      "12 days",
+      "18 days"
+    ],
+    "answer": "13.33 days",
+    "answerKey": "A",
+    "correctAnswer": "13.33 days",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 13.33 days.",
+    "topic": "time-and-work",
+    "topicName": "Time and Work",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_439",
+    "title": "40 workers can build a wall in 18 days. 10 workers leave after 6 days. How ma...",
+    "description": "40 workers can build a wall in 18 days. 10 workers leave after 6 days. How many more days needed?",
+    "question": "40 workers can build a wall in 18 days. 10 workers leave after 6 days. How many more days needed?",
+    "options": [
+      "24 days",
+      "20 days",
+      "22 days",
+      "18 days"
+    ],
+    "answer": "24 days",
+    "answerKey": "A",
+    "correctAnswer": "24 days",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 24 days.",
+    "topic": "time-and-work",
+    "topicName": "Time and Work",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_440",
+    "title": "If 18 pumps can raise 2170 tonnes of water in 10 days working 7 hours a day, ...",
+    "description": "If 18 pumps can raise 2170 tonnes of water in 10 days working 7 hours a day, how many pumps needed to raise 1736 tonnes in 8 days working 9 hours?",
+    "question": "If 18 pumps can raise 2170 tonnes of water in 10 days working 7 hours a day, how many pumps needed to raise 1736 tonnes in 8 days working 9 hours?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "8"
+    ],
+    "answer": "10",
+    "answerKey": "A",
+    "correctAnswer": "10",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 10.",
+    "topic": "time-and-work",
+    "topicName": "Time and Work",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_441",
+    "title": "A taps fills tank in 6 hrs, B in 4 hrs. Both opened, after 1 hr A closed. Tot...",
+    "description": "A taps fills tank in 6 hrs, B in 4 hrs. Both opened, after 1 hr A closed. Total time to fill?",
+    "question": "A taps fills tank in 6 hrs, B in 4 hrs. Both opened, after 1 hr A closed. Total time to fill?",
+    "options": [
+      "3.5 hrs",
+      "2.5 hrs",
+      "4 hrs",
+      "3 hrs"
+    ],
+    "answer": "3.5 hrs",
+    "answerKey": "A",
+    "correctAnswer": "3.5 hrs",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 3.5 hrs.",
+    "topic": "time-and-work",
+    "topicName": "Time and Work",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_442",
+    "title": "A woman can do work in 16 days. A man does twice as fast. Together in a team ...",
+    "description": "A woman can do work in 16 days. A man does twice as fast. Together in a team of 1 man 1 woman, days needed:",
+    "question": "A woman can do work in 16 days. A man does twice as fast. Together in a team of 1 man 1 woman, days needed:",
+    "options": [
+      "16/3 days",
+      "6 days",
+      "4 days",
+      "8 days"
+    ],
+    "answer": "16/3 days",
+    "answerKey": "A",
+    "correctAnswer": "16/3 days",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 16/3 days.",
+    "topic": "time-and-work",
+    "topicName": "Time and Work",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_075",
+    "title": "A can do a job in 12 days and B in 18 days. If A works alone for 4 days, how ...",
+    "description": "A can do a job in 12 days and B in 18 days. If A works alone for 4 days, how many more days will B need to finish?",
+    "question": "A can do a job in 12 days and B in 18 days. If A works alone for 4 days, how many more days will B need to finish?",
+    "options": [
+      "10",
+      "12",
+      "8",
+      "14"
+    ],
+    "answer": "10",
+    "answerKey": "A",
+    "correctAnswer": "10",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10.",
+    "topic": "time-and-work",
+    "topicName": "Time and Work",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_076",
+    "title": "A and B together complete a work in 8 days. A alone does it in 12 days. In ho...",
+    "description": "A and B together complete a work in 8 days. A alone does it in 12 days. In how many days can B alone do it?",
+    "question": "A and B together complete a work in 8 days. A alone does it in 12 days. In how many days can B alone do it?",
+    "options": [
+      "24 days",
+      "18 days",
+      "20 days",
+      "30 days"
+    ],
+    "answer": "24 days",
+    "answerKey": "A",
+    "correctAnswer": "24 days",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 24 days.",
+    "topic": "time-and-work",
+    "topicName": "Time and Work",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_085",
+    "title": "A and B together can do a piece of work in 12 days. B alone takes 20 days. Ho...",
+    "description": "A and B together can do a piece of work in 12 days. B alone takes 20 days. How many days does A alone take?",
+    "question": "A and B together can do a piece of work in 12 days. B alone takes 20 days. How many days does A alone take?",
+    "options": [
+      "30 days",
+      "24 days",
+      "25 days",
+      "28 days"
+    ],
+    "answer": "30 days",
+    "answerKey": "A",
+    "correctAnswer": "30 days",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 30 days.",
+    "topic": "time-and-work",
+    "topicName": "Time and Work",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

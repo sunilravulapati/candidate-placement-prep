@@ -1,0 +1,302 @@
+[
+  {
+    "id": "TCS_LOG_232",
+    "title": "Matrix: Row 1: 1, 2, 3. Row 2: 4, 5, 6. Row 3: 7, 8, ?",
+    "description": "Matrix: Row 1: 1, 2, 3. Row 2: 4, 5, 6. Row 3: 7, 8, ?",
+    "question": "Matrix: Row 1: 1, 2, 3. Row 2: 4, 5, 6. Row 3: 7, 8, ?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": "9",
+    "answerKey": "A",
+    "correctAnswer": "9",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 9.",
+    "topic": "matrix-reasoning",
+    "topicName": "Matrix Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_234",
+    "title": "Matrix: Row 1: A1, B2, C3. Row 2: D4, E5, F6. Row 3: G7, H8, ?",
+    "description": "Matrix: Row 1: A1, B2, C3. Row 2: D4, E5, F6. Row 3: G7, H8, ?",
+    "question": "Matrix: Row 1: A1, B2, C3. Row 2: D4, E5, F6. Row 3: G7, H8, ?",
+    "options": [
+      "I9",
+      "I8",
+      "J9",
+      "H9"
+    ],
+    "answer": "I9",
+    "answerKey": "A",
+    "correctAnswer": "I9",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: I9.",
+    "topic": "matrix-reasoning",
+    "topicName": "Matrix Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_236",
+    "title": "Matrix: 1 4 9 / 16 25 36 / 49 64 ?",
+    "description": "Matrix: 1 4 9 / 16 25 36 / 49 64 ?",
+    "question": "Matrix: 1 4 9 / 16 25 36 / 49 64 ?",
+    "options": [
+      "81",
+      "64",
+      "100",
+      "72"
+    ],
+    "answer": "81",
+    "answerKey": "A",
+    "correctAnswer": "81",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 81.",
+    "topic": "matrix-reasoning",
+    "topicName": "Matrix Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_238",
+    "title": "Matrix: 3 6 9 / 12 15 18 / 21 24 ? (arithmetic progression)",
+    "description": "Matrix: 3 6 9 / 12 15 18 / 21 24 ? (arithmetic progression)",
+    "question": "Matrix: 3 6 9 / 12 15 18 / 21 24 ? (arithmetic progression)",
+    "options": [
+      "27",
+      "25",
+      "30",
+      "28"
+    ],
+    "answer": "27",
+    "answerKey": "A",
+    "correctAnswer": "27",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 27.",
+    "topic": "matrix-reasoning",
+    "topicName": "Matrix Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_239",
+    "title": "Row 1: △ ○ □. Row 2: ○ □ △. Row 3: □ △ ?",
+    "description": "Row 1: △ ○ □. Row 2: ○ □ △. Row 3: □ △ ?",
+    "question": "Row 1: △ ○ □. Row 2: ○ □ △. Row 3: □ △ ?",
+    "options": [
+      "○",
+      "△",
+      "□",
+      "●"
+    ],
+    "answer": "○",
+    "answerKey": "A",
+    "correctAnswer": "○",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: ○.",
+    "topic": "matrix-reasoning",
+    "topicName": "Matrix Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_235",
+    "title": "Each column sums to 15. Column 1: 2, 5, 8. Column 2: 9, 4, 2. Missing in Colu...",
+    "description": "Each column sums to 15. Column 1: 2, 5, 8. Column 2: 9, 4, 2. Missing in Column 3, Row 2: Row1=4,?=,Row3=6.",
+    "question": "Each column sums to 15. Column 1: 2, 5, 8. Column 2: 9, 4, 2. Missing in Column 3, Row 2: Row1=4,?=,Row3=6.",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "3"
+    ],
+    "answer": "5",
+    "answerKey": "A",
+    "correctAnswer": "5",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 5.",
+    "topic": "matrix-reasoning",
+    "topicName": "Matrix Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_240",
+    "title": "Matrix values: diagonals sum to 15. Main diagonal: 5, ?, 3. Middle element?",
+    "description": "Matrix values: diagonals sum to 15. Main diagonal: 5, ?, 3. Middle element?",
+    "question": "Matrix values: diagonals sum to 15. Main diagonal: 5, ?, 3. Middle element?",
+    "options": [
+      "7",
+      "6",
+      "8",
+      "4"
+    ],
+    "answer": "7",
+    "answerKey": "A",
+    "correctAnswer": "7",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 7.",
+    "topic": "matrix-reasoning",
+    "topicName": "Matrix Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_231",
+    "title": "Matrix pattern: Row 1: 2, 4, 8. Row 2: 3, 9, 27. Row 3: 4, 16, ?",
+    "description": "Matrix pattern: Row 1: 2, 4, 8. Row 2: 3, 9, 27. Row 3: 4, 16, ?",
+    "question": "Matrix pattern: Row 1: 2, 4, 8. Row 2: 3, 9, 27. Row 3: 4, 16, ?",
+    "options": [
+      "64",
+      "32",
+      "256",
+      "128"
+    ],
+    "answer": "64",
+    "answerKey": "A",
+    "correctAnswer": "64",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 64.",
+    "topic": "matrix-reasoning",
+    "topicName": "Matrix Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_233",
+    "title": "Each row sums to same value. Row 1: 5, 3, 8. Row 2: 7, 4, 5. Row 3: 6, ?, 5",
+    "description": "Each row sums to same value. Row 1: 5, 3, 8. Row 2: 7, 4, 5. Row 3: 6, ?, 5",
+    "question": "Each row sums to same value. Row 1: 5, 3, 8. Row 2: 7, 4, 5. Row 3: 6, ?, 5",
+    "options": [
+      "5",
+      "4",
+      "7",
+      "6"
+    ],
+    "answer": "5",
+    "answerKey": "A",
+    "correctAnswer": "5",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 5.",
+    "topic": "matrix-reasoning",
+    "topicName": "Matrix Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_237",
+    "title": "Pattern: each element = row × column. Row 3, Col 4 = ?",
+    "description": "Pattern: each element = row × column. Row 3, Col 4 = ?",
+    "question": "Pattern: each element = row × column. Row 3, Col 4 = ?",
+    "options": [
+      "12",
+      "9",
+      "16",
+      "6"
+    ],
+    "answer": "12",
+    "answerKey": "A",
+    "correctAnswer": "12",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 12.",
+    "topic": "matrix-reasoning",
+    "topicName": "Matrix Reasoning",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

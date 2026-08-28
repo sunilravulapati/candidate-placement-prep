@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_202",
+  "slug": "tcs-log-202",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "critical-reasoning",
+  "topicName": "Critical Reasoning",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Argument: 'Sales of ice cream rise when drowning accidents increase. Therefor...",
+  "description": "Argument: 'Sales of ice cream rise when drowning accidents increase. Therefore, eating ice cream causes drowning.' The flaw is:",
+  "question": "Argument: 'Sales of ice cream rise when drowning accidents increase. Therefore, eating ice cream causes drowning.' The flaw is:",
+  "options": [
+    "Correlation is mistaken for causation",
+    "The sample size is too small",
+    "The argument is circular",
+    "The conclusion is irrelevant"
+  ],
+  "optionsMap": {
+    "A": "Correlation is mistaken for causation",
+    "B": "The sample size is too small",
+    "C": "The argument is circular",
+    "D": "The conclusion is irrelevant"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Correlation is mistaken for causation",
+  "tags": [
+    "logical",
+    "critical-reasoning"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

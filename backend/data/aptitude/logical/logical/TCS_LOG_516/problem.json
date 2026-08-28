@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_516",
+  "slug": "tcs-log-516",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Analogy: Author:Novel :: Choreographer:?",
+  "description": "Analogy: Author:Novel :: Choreographer:?",
+  "question": "Analogy: Author:Novel :: Choreographer:?",
+  "options": [
+    "Dance",
+    "Music",
+    "Painting",
+    "Poetry"
+  ],
+  "optionsMap": {
+    "A": "Dance",
+    "B": "Music",
+    "C": "Painting",
+    "D": "Poetry"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Dance",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

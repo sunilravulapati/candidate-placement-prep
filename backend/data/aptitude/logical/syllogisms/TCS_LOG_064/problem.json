@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_064",
+  "slug": "tcs-log-064",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "syllogisms",
+  "topicName": "Syllogisms",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Some cats are dogs. All dogs are horses. Conclusions: (I) Some cats are horse...",
+  "description": "Some cats are dogs. All dogs are horses. Conclusions: (I) Some cats are horses. (II) All horses are dogs.",
+  "question": "Some cats are dogs. All dogs are horses. Conclusions: (I) Some cats are horses. (II) All horses are dogs.",
+  "options": [
+    "Only I follows",
+    "Only II follows",
+    "Both follow",
+    "Neither follows"
+  ],
+  "optionsMap": {
+    "A": "Only I follows",
+    "B": "Only II follows",
+    "C": "Both follow",
+    "D": "Neither follows"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Only I follows",
+  "tags": [
+    "logical",
+    "syllogisms"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

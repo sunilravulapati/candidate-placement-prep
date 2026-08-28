@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_392",
+  "slug": "tcs-log-392",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which does not fit: Mercury, Venus, Earth, Moon",
+  "description": "Which does not fit: Mercury, Venus, Earth, Moon",
+  "question": "Which does not fit: Mercury, Venus, Earth, Moon",
+  "options": [
+    "Moon",
+    "Mercury",
+    "Venus",
+    "Earth"
+  ],
+  "optionsMap": {
+    "A": "Moon",
+    "B": "Mercury",
+    "C": "Venus",
+    "D": "Earth"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Moon",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

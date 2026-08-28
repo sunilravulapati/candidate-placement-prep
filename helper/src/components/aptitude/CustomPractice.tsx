@@ -31,35 +31,78 @@ const CATEGORY_ICONS = {
 };
 
 const CATEGORY_LABELS = {
-  quantitative: 'Quantitative Aptitude',
   logical: 'Logical Reasoning',
+  quantitative: 'Numerical Ability',
   verbal: 'Verbal Ability',
-  di: 'Data Interpretation',
 };
 
-// Hardcoded available topics mapping corresponding to files created
 const TOPIC_DETAILS = {
+  logical: [
+    { id: 'analogies', name: 'Analogies' },
+    { id: 'blood-relations', name: 'Blood Relations' },
+    { id: 'coding-decoding', name: 'Coding-Decoding' },
+    { id: 'direction-sense', name: 'Direction Sense' },
+    { id: 'syllogisms', name: 'Syllogisms' },
+    { id: 'seating-arrangement', name: 'Seating Arrangement' },
+    { id: 'puzzles', name: 'Puzzles' },
+    { id: 'series', name: 'Series' },
+    { id: 'statement-and-assumptions', name: 'Statement & Assumptions' },
+    { id: 'statement-and-conclusions', name: 'Statement & Conclusions' },
+    { id: 'critical-reasoning', name: 'Critical Reasoning' },
+    { id: 'cubes-and-dice', name: 'Cubes and Dice' },
+    { id: 'data-sufficiency', name: 'Data Sufficiency' },
+    { id: 'input-output', name: 'Input-Output' },
+    { id: 'matrix-reasoning', name: 'Matrix Reasoning' },
+    { id: 'venn-diagrams', name: 'Venn Diagrams' },
+    { id: 'cause-and-effect', name: 'Cause and Effect' },
+    { id: 'classification', name: 'Classification' },
+    { id: 'logical', name: 'Logical Deduction' },
+  ],
   quantitative: [
     { id: 'percentages', name: 'Percentages' },
-    { id: 'profit-loss', name: 'Profit & Loss' },
-    { id: 'time-work', name: 'Time & Work' },
-  ],
-  logical: [
-    { id: 'blood-relations', name: 'Blood Relations' },
-    { id: 'puzzles', name: 'Puzzles' },
+    { id: 'profit-and-loss', name: 'Profit and Loss' },
+    { id: 'time-and-work', name: 'Time and Work' },
+    { id: 'speed-and-distance', name: 'Time, Speed and Distance' },
+    { id: 'probability', name: 'Probability' },
+    { id: 'permutation-and-combination', name: 'Permutation & Combination' },
+    { id: 'hcf-and-lcm', name: 'HCF and LCM' },
+    { id: 'ratio-and-proportion', name: 'Ratio and Proportion' },
+    { id: 'simple-interest', name: 'Simple Interest' },
+    { id: 'compound-interest', name: 'Compound Interest' },
+    { id: 'pipes-and-cisterns', name: 'Pipes & Cisterns' },
+    { id: 'averages', name: 'Averages' },
+    { id: 'mixtures', name: 'Mixtures & Alligations' },
+    { id: 'ages', name: 'Ages' },
+    { id: 'number-systems', name: 'Number Systems' },
+    { id: 'number-series', name: 'Number Series' },
+    { id: 'algebra', name: 'Algebra' },
+    { id: 'mensuration', name: 'Mensuration' },
+    { id: 'logarithms', name: 'Logarithms' },
+    { id: 'surds-and-indices', name: 'Surds and Indices' },
+    { id: 'boats-and-streams', name: 'Boats and Streams' },
+    { id: 'calendars', name: 'Calendars' },
+    { id: 'clocks', name: 'Clocks' },
+    { id: 'data-interpretation', name: 'Data Interpretation' },
+    { id: 'aptitude', name: 'General Aptitude' },
   ],
   verbal: [
     { id: 'vocabulary', name: 'Vocabulary' },
+    { id: 'grammar', name: 'Grammar' },
+    { id: 'error-spotting', name: 'Error Spotting' },
+    { id: 'fill-in-the-blanks', name: 'Fill in the Blanks' },
+    { id: 'para-jumbles', name: 'Para Jumbles' },
     { id: 'reading-comprehension', name: 'Reading Comprehension' },
-  ],
-  di: [
-    { id: 'pie-chart', name: 'Pie Charts' },
-    { id: 'tables', name: 'Tables' },
+    { id: 'sentence-improvement', name: 'Sentence Improvement' },
+    { id: 'one-word-substitution', name: 'One Word Substitution' },
+    { id: 'idioms-and-phrases', name: 'Idioms and Phrases' },
+    { id: 'cloze-test', name: 'Cloze Test' },
+    { id: 'word-analogy', name: 'Word Analogy' },
+    { id: 'miscellaneous', name: 'Miscellaneous Verbal' },
   ],
 };
 
 export default function CustomPractice({ onBack, onStartSession }: CustomPracticeProps) {
-  const [selectedTopics, setSelectedTopics] = useState<string[]>(['percentages']);
+  const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
   const [difficulty, setDifficulty] = useState<'EASY' | 'MEDIUM' | 'HARD' | 'MIXED'>('MIXED');
   const [questionCount, setQuestionCount] = useState<number>(5);
   const [timeLimitOption, setTimeLimitOption] = useState<string>('unlimited');
@@ -332,7 +375,49 @@ export default function CustomPractice({ onBack, onStartSession }: CustomPractic
                       className="bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs text-white focus:outline-none focus:border-slate-700 w-24 shadow-inner"
                       placeholder="Minutes"
                     />
-                    <span className="text-slate-400 text-xs">Minutes</span>
+                  </div>
+                )}
+              </div>
+
+              {/* Selected Topics Preview */}
+              <div className="space-y-2 pt-2 border-t border-slate-800/80">
+                <div className="flex justify-between items-center text-xs">
+                  <span className="font-bold text-slate-400 uppercase tracking-wider">
+                    Selected Topics ({selectedTopics.length})
+                  </span>
+                  {selectedTopics.length > 0 && (
+                    <button
+                      type="button"
+                      onClick={() => setSelectedTopics([])}
+                      className="text-[11px] text-fuchsia-400 hover:text-fuchsia-300 font-semibold"
+                    >
+                      Clear All
+                    </button>
+                  )}
+                </div>
+                {selectedTopics.length === 0 ? (
+                  <p className="text-[11px] text-slate-500 italic">No topics selected yet. Click topics on the left to include them.</p>
+                ) : (
+                  <div className="flex flex-wrap gap-1.5 max-h-32 overflow-y-auto pr-1">
+                    {selectedTopics.map((tId) => {
+                      let tName = tId;
+                      for (const cat of Object.keys(TOPIC_DETAILS) as Array<keyof typeof TOPIC_DETAILS>) {
+                        const match = TOPIC_DETAILS[cat].find((t) => t.id === tId);
+                        if (match) {
+                          tName = match.name;
+                          break;
+                        }
+                      }
+                      return (
+                        <span
+                          key={tId}
+                          onClick={() => toggleTopic(tId)}
+                          className="inline-flex items-center gap-1 text-[11px] font-semibold bg-fuchsia-500/10 border border-fuchsia-500/30 text-fuchsia-300 px-2 py-0.5 rounded-lg cursor-pointer hover:bg-fuchsia-500/20 transition-colors"
+                        >
+                          {tName} <span className="text-[10px] text-fuchsia-400 font-bold">×</span>
+                        </span>
+                      );
+                    })}
                   </div>
                 )}
               </div>
@@ -340,16 +425,18 @@ export default function CustomPractice({ onBack, onStartSession }: CustomPractic
 
             <button
               onClick={handleStart}
-              disabled={loading}
+              disabled={loading || selectedTopics.length === 0}
               className={cn(
                 'w-full py-4 mt-6 rounded-2xl font-bold flex items-center justify-center gap-2 text-sm transition-all shadow-md active:scale-[0.98]',
-                loading
+                loading || selectedTopics.length === 0
                   ? 'bg-slate-800 text-slate-500 cursor-not-allowed border border-slate-800'
                   : 'bg-white text-black hover:bg-slate-200 hover:shadow-lg'
               )}
             >
               {loading ? (
                 <>Generating Session...</>
+              ) : selectedTopics.length === 0 ? (
+                <>Select at least 1 topic</>
               ) : (
                 <>
                   Start Custom Session <Play className="w-4 h-4 fill-current text-black" />

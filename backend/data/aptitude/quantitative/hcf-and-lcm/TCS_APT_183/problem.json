@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_183",
+  "slug": "tcs-apt-183",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "hcf-and-lcm",
+  "topicName": "HCF and LCM",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Two bells ring every 18 and 24 minutes. If they ring together at 9 AM, when w...",
+  "description": "Two bells ring every 18 and 24 minutes. If they ring together at 9 AM, when will they next ring together?",
+  "question": "Two bells ring every 18 and 24 minutes. If they ring together at 9 AM, when will they next ring together?",
+  "options": [
+    "10:12 AM",
+    "9:42 AM",
+    "10:00 AM",
+    "9:48 AM"
+  ],
+  "optionsMap": {
+    "A": "10:12 AM",
+    "B": "9:42 AM",
+    "C": "10:00 AM",
+    "D": "9:48 AM"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "10:12 AM",
+  "tags": [
+    "quantitative",
+    "hcf-and-lcm"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

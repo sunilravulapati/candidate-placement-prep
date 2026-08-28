@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_267",
+  "slug": "tcs-log-267",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Coding: If CAT=3120, then DOG=?",
+  "description": "Coding: If CAT=3120, then DOG=?",
+  "question": "Coding: If CAT=3120, then DOG=?",
+  "options": [
+    "4157",
+    "4167",
+    "3267",
+    "4267"
+  ],
+  "optionsMap": {
+    "A": "4157",
+    "B": "4167",
+    "C": "3267",
+    "D": "4267"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "4157",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

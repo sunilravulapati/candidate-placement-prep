@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_299",
+  "slug": "tcs-log-299",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Mirror image: Clock shows 4:30 in mirror. Actual time?",
+  "description": "Mirror image: Clock shows 4:30 in mirror. Actual time?",
+  "question": "Mirror image: Clock shows 4:30 in mirror. Actual time?",
+  "options": [
+    "7:30",
+    "8:30",
+    "9:30",
+    "10:30"
+  ],
+  "optionsMap": {
+    "A": "7:30",
+    "B": "8:30",
+    "C": "9:30",
+    "D": "10:30"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "7:30",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

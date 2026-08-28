@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_349",
+  "slug": "tcs-ver-349",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "one-word-substitution",
+  "topicName": "One Word Substitution",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Find the one word substitution for: One who believes in no god",
+  "description": "Find the one word substitution for: One who believes in no god",
+  "question": "Find the one word substitution for: One who believes in no god",
+  "options": [
+    "Atheist",
+    "Agnostic",
+    "Theist",
+    "Deist"
+  ],
+  "optionsMap": {
+    "A": "Atheist",
+    "B": "Agnostic",
+    "C": "Theist",
+    "D": "Deist"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Atheist",
+  "tags": [
+    "verbal",
+    "one-word-substitution"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_053",
+  "slug": "tcs-apt-053",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "compound-interest",
+  "topicName": "Compound Interest",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Find the amount on Rs.2000 at 10% p.a. compounded annually for 3 years.",
+  "description": "Find the amount on Rs.2000 at 10% p.a. compounded annually for 3 years.",
+  "question": "Find the amount on Rs.2000 at 10% p.a. compounded annually for 3 years.",
+  "options": [
+    "Rs.2662",
+    "Rs.2600",
+    "Rs.2700",
+    "Rs.2640"
+  ],
+  "optionsMap": {
+    "A": "Rs.2662",
+    "B": "Rs.2600",
+    "C": "Rs.2700",
+    "D": "Rs.2640"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.2662",
+  "tags": [
+    "quantitative",
+    "compound-interest"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

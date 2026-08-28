@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_207",
+  "slug": "tcs-ver-207",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "para-jumbles",
+  "topicName": "Para Jumbles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "P: The Amazon rainforest is often called the lungs of the Earth. Q: It produc...",
+  "description": "P: The Amazon rainforest is often called the lungs of the Earth. Q: It produces approximately 20% of the world's oxygen. R: Rapid deforestation threatens not only wildlife but global climate stability. S: Protecting it must be a global priority. Arrange in logical order:",
+  "question": "P: The Amazon rainforest is often called the lungs of the Earth. Q: It produces approximately 20% of the world's oxygen. R: Rapid deforestation threatens not only wildlife but global climate stability. S: Protecting it must be a global priority. Arrange in logical order:",
+  "options": [
+    "P-Q-R-S",
+    "R-P-Q-S",
+    "Q-P-R-S",
+    "P-R-Q-S"
+  ],
+  "optionsMap": {
+    "A": "P-Q-R-S",
+    "B": "R-P-Q-S",
+    "C": "Q-P-R-S",
+    "D": "P-R-Q-S"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "P-Q-R-S",
+  "tags": [
+    "verbal",
+    "para-jumbles"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

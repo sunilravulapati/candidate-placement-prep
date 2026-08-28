@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_479",
+  "slug": "tcs-log-479",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If Jan 1 Mon, Oct 1 is?",
+  "description": "If Jan 1 Mon, Oct 1 is?",
+  "question": "If Jan 1 Mon, Oct 1 is?",
+  "options": [
+    "Tuesday",
+    "Wednesday",
+    "Monday",
+    "Thursday"
+  ],
+  "optionsMap": {
+    "A": "Tuesday",
+    "B": "Wednesday",
+    "C": "Monday",
+    "D": "Thursday"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Tuesday",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

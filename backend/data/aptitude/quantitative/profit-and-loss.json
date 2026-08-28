@@ -1,0 +1,632 @@
+[
+  {
+    "id": "TCS_APT_021",
+    "title": "A trader buys an article for Rs.400 and sells it for Rs.500. What is his prof...",
+    "description": "A trader buys an article for Rs.400 and sells it for Rs.500. What is his profit percentage?",
+    "question": "A trader buys an article for Rs.400 and sells it for Rs.500. What is his profit percentage?",
+    "options": [
+      "25%",
+      "20%",
+      "30%",
+      "15%"
+    ],
+    "answer": "25%",
+    "answerKey": "A",
+    "correctAnswer": "25%",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 25%.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_022",
+    "title": "A shopkeeper sells an article for Rs.720 at a loss of 10%. What is the cost p...",
+    "description": "A shopkeeper sells an article for Rs.720 at a loss of 10%. What is the cost price?",
+    "question": "A shopkeeper sells an article for Rs.720 at a loss of 10%. What is the cost price?",
+    "options": [
+      "Rs.800",
+      "Rs.900",
+      "Rs.700",
+      "Rs.750"
+    ],
+    "answer": "Rs.800",
+    "answerKey": "A",
+    "correctAnswer": "Rs.800",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Rs.800.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_024",
+    "title": "If cost price is Rs.500 and selling price is Rs.450, what is the loss percent...",
+    "description": "If cost price is Rs.500 and selling price is Rs.450, what is the loss percentage?",
+    "question": "If cost price is Rs.500 and selling price is Rs.450, what is the loss percentage?",
+    "options": [
+      "10%",
+      "8%",
+      "12%",
+      "15%"
+    ],
+    "answer": "10%",
+    "answerKey": "A",
+    "correctAnswer": "10%",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 10%.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_032",
+    "title": "If 5% loss is incurred on selling at Rs.285, what is the cost price?",
+    "description": "If 5% loss is incurred on selling at Rs.285, what is the cost price?",
+    "question": "If 5% loss is incurred on selling at Rs.285, what is the cost price?",
+    "options": [
+      "Rs.300",
+      "Rs.280",
+      "Rs.320",
+      "Rs.310"
+    ],
+    "answer": "Rs.300",
+    "answerKey": "A",
+    "correctAnswer": "Rs.300",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Rs.300.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_033",
+    "title": "A retailer purchased 50 kg of rice at Rs.22/kg and sold it at Rs.25/kg. What ...",
+    "description": "A retailer purchased 50 kg of rice at Rs.22/kg and sold it at Rs.25/kg. What is the profit?",
+    "question": "A retailer purchased 50 kg of rice at Rs.22/kg and sold it at Rs.25/kg. What is the profit?",
+    "options": [
+      "Rs.150",
+      "Rs.200",
+      "Rs.100",
+      "Rs.250"
+    ],
+    "answer": "Rs.150",
+    "answerKey": "A",
+    "correctAnswer": "Rs.150",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Rs.150.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_034",
+    "title": "A person bought 20 items at Rs.5 each and sold them all at Rs.6 each. What is...",
+    "description": "A person bought 20 items at Rs.5 each and sold them all at Rs.6 each. What is the total profit?",
+    "question": "A person bought 20 items at Rs.5 each and sold them all at Rs.6 each. What is the total profit?",
+    "options": [
+      "Rs.20",
+      "Rs.15",
+      "Rs.25",
+      "Rs.10"
+    ],
+    "answer": "Rs.20",
+    "answerKey": "A",
+    "correctAnswer": "Rs.20",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Rs.20.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_036",
+    "title": "A chair is sold at a loss of 8% for Rs.920. Find the cost price.",
+    "description": "A chair is sold at a loss of 8% for Rs.920. Find the cost price.",
+    "question": "A chair is sold at a loss of 8% for Rs.920. Find the cost price.",
+    "options": [
+      "Rs.1000",
+      "Rs.1100",
+      "Rs.900",
+      "Rs.1050"
+    ],
+    "answer": "Rs.1000",
+    "answerKey": "A",
+    "correctAnswer": "Rs.1000",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Rs.1000.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_025",
+    "title": "A man sells two items each at Rs.990. He gains 10% on one and loses 10% on th...",
+    "description": "A man sells two items each at Rs.990. He gains 10% on one and loses 10% on the other. What is the overall result?",
+    "question": "A man sells two items each at Rs.990. He gains 10% on one and loses 10% on the other. What is the overall result?",
+    "options": [
+      "1% loss",
+      "No profit no loss",
+      "1% gain",
+      "0.5% loss"
+    ],
+    "answer": "1% loss",
+    "answerKey": "A",
+    "correctAnswer": "1% loss",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 1% loss.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_028",
+    "title": "By selling 24 pens for Rs.120, a man gains 20%. How many pens should be sold ...",
+    "description": "By selling 24 pens for Rs.120, a man gains 20%. How many pens should be sold for Rs.120 to gain 60%?",
+    "question": "By selling 24 pens for Rs.120, a man gains 20%. How many pens should be sold for Rs.120 to gain 60%?",
+    "options": [
+      "18",
+      "20",
+      "16",
+      "14"
+    ],
+    "answer": "18",
+    "answerKey": "A",
+    "correctAnswer": "18",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 18.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_029",
+    "title": "A trader has a false weight that is 10% less than the standard. What is his a...",
+    "description": "A trader has a false weight that is 10% less than the standard. What is his actual profit percentage if he sells at cost price?",
+    "question": "A trader has a false weight that is 10% less than the standard. What is his actual profit percentage if he sells at cost price?",
+    "options": [
+      "11.1%",
+      "10%",
+      "12%",
+      "9%"
+    ],
+    "answer": "11.1%",
+    "answerKey": "A",
+    "correctAnswer": "11.1%",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 11.1%.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_030",
+    "title": "A person sells 36 oranges for Rs.100 and gains 8%. How many oranges did he bu...",
+    "description": "A person sells 36 oranges for Rs.100 and gains 8%. How many oranges did he buy for Rs.100?",
+    "question": "A person sells 36 oranges for Rs.100 and gains 8%. How many oranges did he buy for Rs.100?",
+    "options": [
+      "38.88",
+      "40",
+      "35",
+      "37"
+    ],
+    "answer": "35",
+    "answerKey": "C",
+    "correctAnswer": "35",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (C) is the correct answer: 35.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_039",
+    "title": "A sells a bicycle to B at 20% profit. B sells it to C at 25% profit. If C pai...",
+    "description": "A sells a bicycle to B at 20% profit. B sells it to C at 25% profit. If C paid Rs.3000, what did A pay?",
+    "question": "A sells a bicycle to B at 20% profit. B sells it to C at 25% profit. If C paid Rs.3000, what did A pay?",
+    "options": [
+      "Rs.2000",
+      "Rs.2400",
+      "Rs.1800",
+      "Rs.2200"
+    ],
+    "answer": "Rs.2000",
+    "answerKey": "A",
+    "correctAnswer": "Rs.2000",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Rs.2000.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_414",
+    "title": "A shopkeeper marks up by 40% and gives 15% discount. His profit%?",
+    "description": "A shopkeeper marks up by 40% and gives 15% discount. His profit%?",
+    "question": "A shopkeeper marks up by 40% and gives 15% discount. His profit%?",
+    "options": [
+      "19%",
+      "20%",
+      "18%",
+      "25%"
+    ],
+    "answer": "19%",
+    "answerKey": "A",
+    "correctAnswer": "19%",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 19%.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_417",
+    "title": "A dishonest dealer sells at cost price but uses 900g instead of 1kg. Profit%?",
+    "description": "A dishonest dealer sells at cost price but uses 900g instead of 1kg. Profit%?",
+    "question": "A dishonest dealer sells at cost price but uses 900g instead of 1kg. Profit%?",
+    "options": [
+      "11.11%",
+      "10%",
+      "9%",
+      "12%"
+    ],
+    "answer": "11.11%",
+    "answerKey": "A",
+    "correctAnswer": "11.11%",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 11.11%.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_418",
+    "title": "If 20% loss on selling price equals Rs.50, what is the selling price?",
+    "description": "If 20% loss on selling price equals Rs.50, what is the selling price?",
+    "question": "If 20% loss on selling price equals Rs.50, what is the selling price?",
+    "options": [
+      "Rs.250",
+      "Rs.200",
+      "Rs.300",
+      "Rs.150"
+    ],
+    "answer": "Rs.250",
+    "answerKey": "A",
+    "correctAnswer": "Rs.250",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Rs.250.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_419",
+    "title": "A man buys two articles for Rs.480 each. He sells one at 25% profit and other...",
+    "description": "A man buys two articles for Rs.480 each. He sells one at 25% profit and other at 25% loss. Net result?",
+    "question": "A man buys two articles for Rs.480 each. He sells one at 25% profit and other at 25% loss. Net result?",
+    "options": [
+      "Neither profit nor loss",
+      "25% profit",
+      "25% loss",
+      "6.25% loss"
+    ],
+    "answer": "6.25% loss",
+    "answerKey": "D",
+    "correctAnswer": "6.25% loss",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (D) is the correct answer: 6.25% loss.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_421",
+    "title": "After allowing a 12% discount on marked price, a shopkeeper still gains 10%. ...",
+    "description": "After allowing a 12% discount on marked price, a shopkeeper still gains 10%. Marked price is what % of CP?",
+    "question": "After allowing a 12% discount on marked price, a shopkeeper still gains 10%. Marked price is what % of CP?",
+    "options": [
+      "125%",
+      "120%",
+      "130%",
+      "115%"
+    ],
+    "answer": "125%",
+    "answerKey": "A",
+    "correctAnswer": "125%",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 125%.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_023",
+    "title": "An article is sold at a gain of 15%. If the selling price is Rs.460, find the...",
+    "description": "An article is sold at a gain of 15%. If the selling price is Rs.460, find the cost price.",
+    "question": "An article is sold at a gain of 15%. If the selling price is Rs.460, find the cost price.",
+    "options": [
+      "Rs.400",
+      "Rs.380",
+      "Rs.420",
+      "Rs.440"
+    ],
+    "answer": "Rs.400",
+    "answerKey": "A",
+    "correctAnswer": "Rs.400",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Rs.400.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_027",
+    "title": "If a book is sold at Rs.252 and there is a gain of 5%, what is the cost price?",
+    "description": "If a book is sold at Rs.252 and there is a gain of 5%, what is the cost price?",
+    "question": "If a book is sold at Rs.252 and there is a gain of 5%, what is the cost price?",
+    "options": [
+      "Rs.240",
+      "Rs.200",
+      "Rs.220",
+      "Rs.260"
+    ],
+    "answer": "Rs.240",
+    "answerKey": "A",
+    "correctAnswer": "Rs.240",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Rs.240.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_031",
+    "title": "By selling an article for Rs.144, a loss of 10% is incurred. To get a profit ...",
+    "description": "By selling an article for Rs.144, a loss of 10% is incurred. To get a profit of 10%, what should be the selling price?",
+    "question": "By selling an article for Rs.144, a loss of 10% is incurred. To get a profit of 10%, what should be the selling price?",
+    "options": [
+      "Rs.176",
+      "Rs.180",
+      "Rs.170",
+      "Rs.184"
+    ],
+    "answer": "Rs.176",
+    "answerKey": "A",
+    "correctAnswer": "Rs.176",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Rs.176.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_038",
+    "title": "A man gains 20% by selling at Rs.720. If he wants a 25% gain, the selling pri...",
+    "description": "A man gains 20% by selling at Rs.720. If he wants a 25% gain, the selling price should be:",
+    "question": "A man gains 20% by selling at Rs.720. If he wants a 25% gain, the selling price should be:",
+    "options": [
+      "Rs.750",
+      "Rs.760",
+      "Rs.740",
+      "Rs.780"
+    ],
+    "answer": "Rs.750",
+    "answerKey": "A",
+    "correctAnswer": "Rs.750",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Rs.750.",
+    "topic": "profit-and-loss",
+    "topicName": "Profit and Loss",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

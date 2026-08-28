@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_279",
+  "slug": "tcs-ver-279",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "word-analogy",
+  "topicName": "Word Analogy",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Complete the analogy: Acrophobia : Heights :: Claustrophobia : ?",
+  "description": "Complete the analogy: Acrophobia : Heights :: Claustrophobia : ?",
+  "question": "Complete the analogy: Acrophobia : Heights :: Claustrophobia : ?",
+  "options": [
+    "Confined spaces",
+    "Water",
+    "Darkness",
+    "Crowds"
+  ],
+  "optionsMap": {
+    "A": "Confined spaces",
+    "B": "Water",
+    "C": "Darkness",
+    "D": "Crowds"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Confined spaces",
+  "tags": [
+    "verbal",
+    "word-analogy"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_335",
+  "slug": "tcs-apt-335",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If a number is multiplied by 2 and 10 added, result is 30. The number is?",
+  "description": "If a number is multiplied by 2 and 10 added, result is 30. The number is?",
+  "question": "If a number is multiplied by 2 and 10 added, result is 30. The number is?",
+  "options": [
+    "10",
+    "15",
+    "12",
+    "8"
+  ],
+  "optionsMap": {
+    "A": "10",
+    "B": "15",
+    "C": "12",
+    "D": "8"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "10",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

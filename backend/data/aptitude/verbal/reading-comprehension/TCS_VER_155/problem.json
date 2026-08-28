@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_155",
+  "slug": "tcs-ver-155",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th c...",
+  "description": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: Where did the Industrial Revolution begin?",
+  "question": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: Where did the Industrial Revolution begin?",
+  "options": [
+    "Britain",
+    "France",
+    "Germany",
+    "United States"
+  ],
+  "optionsMap": {
+    "A": "Britain",
+    "B": "France",
+    "C": "Germany",
+    "D": "United States"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Britain",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

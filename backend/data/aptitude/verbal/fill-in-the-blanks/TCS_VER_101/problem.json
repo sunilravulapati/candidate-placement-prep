@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_101",
+  "slug": "tcs-ver-101",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The professor's lecture was so _____ that many students fell asleep.",
+  "description": "The professor's lecture was so _____ that many students fell asleep.",
+  "question": "The professor's lecture was so _____ that many students fell asleep.",
+  "options": [
+    "tedious",
+    "engaging",
+    "stimulating",
+    "thrilling"
+  ],
+  "optionsMap": {
+    "A": "tedious",
+    "B": "engaging",
+    "C": "stimulating",
+    "D": "thrilling"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "tedious",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

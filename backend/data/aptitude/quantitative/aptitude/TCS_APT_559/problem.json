@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_559",
+  "slug": "tcs-apt-559",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Sum of first 100 natural numbers?",
+  "description": "Sum of first 100 natural numbers?",
+  "question": "Sum of first 100 natural numbers?",
+  "options": [
+    "5050",
+    "5000",
+    "4950",
+    "5100"
+  ],
+  "optionsMap": {
+    "A": "5050",
+    "B": "5000",
+    "C": "4950",
+    "D": "5100"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "5050",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

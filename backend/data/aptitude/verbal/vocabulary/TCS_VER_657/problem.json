@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_657",
+  "slug": "tcs-ver-657",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the synonym of LISTLESS",
+  "description": "Choose the synonym of LISTLESS",
+  "question": "Choose the synonym of LISTLESS",
+  "options": [
+    "Lacking energy",
+    "Energetic",
+    "Lively",
+    "Active"
+  ],
+  "optionsMap": {
+    "A": "Lacking energy",
+    "B": "Energetic",
+    "C": "Lively",
+    "D": "Active"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Lacking energy",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

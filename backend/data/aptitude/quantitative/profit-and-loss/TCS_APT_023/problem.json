@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_023",
+  "slug": "tcs-apt-023",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "profit-and-loss",
+  "topicName": "Profit and Loss",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "An article is sold at a gain of 15%. If the selling price is Rs.460, find the...",
+  "description": "An article is sold at a gain of 15%. If the selling price is Rs.460, find the cost price.",
+  "question": "An article is sold at a gain of 15%. If the selling price is Rs.460, find the cost price.",
+  "options": [
+    "Rs.400",
+    "Rs.380",
+    "Rs.420",
+    "Rs.440"
+  ],
+  "optionsMap": {
+    "A": "Rs.400",
+    "B": "Rs.380",
+    "C": "Rs.420",
+    "D": "Rs.440"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.400",
+  "tags": [
+    "quantitative",
+    "profit-and-loss"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_014",
+  "slug": "tcs-log-014",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "series",
+  "topicName": "Series",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Number series: 1, 3, 7, 13, 21, ___",
+  "description": "Number series: 1, 3, 7, 13, 21, ___",
+  "question": "Number series: 1, 3, 7, 13, 21, ___",
+  "options": [
+    "31",
+    "29",
+    "33",
+    "27"
+  ],
+  "optionsMap": {
+    "A": "31",
+    "B": "29",
+    "C": "33",
+    "D": "27"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "31",
+  "tags": [
+    "logical",
+    "series"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

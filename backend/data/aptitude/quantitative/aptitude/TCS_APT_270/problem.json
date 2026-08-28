@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_270",
+  "slug": "tcs-apt-270",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Perimeter of a square is 48m. Find its area.",
+  "description": "Perimeter of a square is 48m. Find its area.",
+  "question": "Perimeter of a square is 48m. Find its area.",
+  "options": [
+    "144 m2",
+    "100 m2",
+    "121 m2",
+    "169 m2"
+  ],
+  "optionsMap": {
+    "A": "144 m2",
+    "B": "100 m2",
+    "C": "121 m2",
+    "D": "169 m2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "144 m2",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

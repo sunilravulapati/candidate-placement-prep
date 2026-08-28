@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_610",
+  "slug": "tcs-ver-610",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: UNSCRUPULOUS",
+  "description": "Choose the word most similar in meaning to: UNSCRUPULOUS",
+  "question": "Choose the word most similar in meaning to: UNSCRUPULOUS",
+  "options": [
+    "Without moral principles",
+    "Highly principled",
+    "Strictly honest",
+    "Morally upright"
+  ],
+  "optionsMap": {
+    "A": "Without moral principles",
+    "B": "Highly principled",
+    "C": "Strictly honest",
+    "D": "Morally upright"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Without moral principles",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

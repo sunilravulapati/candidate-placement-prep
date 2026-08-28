@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_243",
+  "slug": "tcs-apt-243",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A trader has a 20% loss. If cost is Rs 500, what is selling price?",
+  "description": "A trader has a 20% loss. If cost is Rs 500, what is selling price?",
+  "question": "A trader has a 20% loss. If cost is Rs 500, what is selling price?",
+  "options": [
+    "400",
+    "450",
+    "350",
+    "420"
+  ],
+  "optionsMap": {
+    "A": "400",
+    "B": "450",
+    "C": "350",
+    "D": "420"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "400",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

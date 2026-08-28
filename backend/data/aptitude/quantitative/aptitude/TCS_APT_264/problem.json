@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_264",
+  "slug": "tcs-apt-264",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A milkman mixes water and milk in ratio 1:3. If mixture is 40L, how many litr...",
+  "description": "A milkman mixes water and milk in ratio 1:3. If mixture is 40L, how many litres of milk?",
+  "question": "A milkman mixes water and milk in ratio 1:3. If mixture is 40L, how many litres of milk?",
+  "options": [
+    "30",
+    "20",
+    "25",
+    "35"
+  ],
+  "optionsMap": {
+    "A": "30",
+    "B": "20",
+    "C": "25",
+    "D": "35"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "30",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

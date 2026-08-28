@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_181",
+  "slug": "tcs-ver-181",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the sentence with correct use of 'fewer' and 'less':",
+  "description": "Choose the sentence with correct use of 'fewer' and 'less':",
+  "question": "Choose the sentence with correct use of 'fewer' and 'less':",
+  "options": [
+    "Less people attended the event this year.",
+    "Fewer people attended the event this year.",
+    "Less peoples attended the event this year.",
+    "Fewer amount of people attended."
+  ],
+  "optionsMap": {
+    "A": "Less people attended the event this year.",
+    "B": "Fewer people attended the event this year.",
+    "C": "Less peoples attended the event this year.",
+    "D": "Fewer amount of people attended."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Fewer people attended the event this year.",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_085",
+  "slug": "tcs-log-085",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "seating-arrangement",
+  "topicName": "Seating Arrangement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "In a row of 20, Mohan is 8th from left and Sohan is 14th from left. How many ...",
+  "description": "In a row of 20, Mohan is 8th from left and Sohan is 14th from left. How many people are between them?",
+  "question": "In a row of 20, Mohan is 8th from left and Sohan is 14th from left. How many people are between them?",
+  "options": [
+    "5",
+    "6",
+    "4",
+    "7"
+  ],
+  "optionsMap": {
+    "A": "5",
+    "B": "6",
+    "C": "4",
+    "D": "7"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "5",
+  "tags": [
+    "logical",
+    "seating-arrangement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

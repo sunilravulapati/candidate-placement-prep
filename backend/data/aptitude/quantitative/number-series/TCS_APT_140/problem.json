@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_140",
+  "slug": "tcs-apt-140",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "number-series",
+  "topicName": "Number Series",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Find the next: 1, 4, 9, 16, 25, ___",
+  "description": "Find the next: 1, 4, 9, 16, 25, ___",
+  "question": "Find the next: 1, 4, 9, 16, 25, ___",
+  "options": [
+    "36",
+    "30",
+    "49",
+    "42"
+  ],
+  "optionsMap": {
+    "A": "36",
+    "B": "30",
+    "C": "49",
+    "D": "42"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "36",
+  "tags": [
+    "quantitative",
+    "number-series"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

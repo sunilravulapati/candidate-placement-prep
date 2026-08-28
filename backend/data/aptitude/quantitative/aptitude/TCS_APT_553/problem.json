@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_553",
+  "slug": "tcs-apt-553",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Probability of drawing ace from 52 cards?",
+  "description": "Probability of drawing ace from 52 cards?",
+  "question": "Probability of drawing ace from 52 cards?",
+  "options": [
+    "1/13",
+    "4/52",
+    "1/52",
+    "1/26"
+  ],
+  "optionsMap": {
+    "A": "1/13",
+    "B": "4/52",
+    "C": "1/52",
+    "D": "1/26"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1/13",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_520",
+  "slug": "tcs-ver-520",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the synonym of EMINENT",
+  "description": "Choose the synonym of EMINENT",
+  "question": "Choose the synonym of EMINENT",
+  "options": [
+    "Prominent",
+    "Unknown",
+    "Ordinary",
+    "Common"
+  ],
+  "optionsMap": {
+    "A": "Prominent",
+    "B": "Unknown",
+    "C": "Ordinary",
+    "D": "Common"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Prominent",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

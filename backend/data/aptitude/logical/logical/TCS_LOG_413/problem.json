@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_413",
+  "slug": "tcs-log-413",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Floor puzzle: A lives above B, below C, D lives above C. Order top to bottom?",
+  "description": "Floor puzzle: A lives above B, below C, D lives above C. Order top to bottom?",
+  "question": "Floor puzzle: A lives above B, below C, D lives above C. Order top to bottom?",
+  "options": [
+    "D,C,A,B",
+    "C,D,A,B",
+    "D,C,B,A",
+    "A,C,D,B"
+  ],
+  "optionsMap": {
+    "A": "D,C,A,B",
+    "B": "C,D,A,B",
+    "C": "D,C,B,A",
+    "D": "A,C,D,B"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "D,C,A,B",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

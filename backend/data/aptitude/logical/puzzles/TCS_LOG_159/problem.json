@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_159",
+  "slug": "tcs-log-159",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "puzzles",
+  "topicName": "Puzzles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "If you have a 3-litre jug and a 5-litre jug, how do you measure exactly 4 lit...",
+  "description": "If you have a 3-litre jug and a 5-litre jug, how do you measure exactly 4 litres?",
+  "question": "If you have a 3-litre jug and a 5-litre jug, how do you measure exactly 4 litres?",
+  "options": [
+    "Fill 5L, pour into 3L, empty 3L, pour remainder (2L) from 5L into 3L, fill 5L, pour 1L into 3L, leaving 4L in 5L.",
+    "Fill 3L jug twice into 5L jug",
+    "Fill 5L and remove 1L",
+    "Cannot be done"
+  ],
+  "optionsMap": {
+    "A": "Fill 5L, pour into 3L, empty 3L, pour remainder (2L) from 5L into 3L, fill 5L, pour 1L into 3L, leaving 4L in 5L.",
+    "B": "Fill 3L jug twice into 5L jug",
+    "C": "Fill 5L and remove 1L",
+    "D": "Cannot be done"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Fill 5L, pour into 3L, empty 3L, pour remainder (2L) from 5L into 3L, fill 5L, pour 1L into 3L, leaving 4L in 5L.",
+  "tags": [
+    "logical",
+    "puzzles"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

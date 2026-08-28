@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_189",
+  "slug": "tcs-ver-189",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which is the correctly formed question?",
+  "description": "Which is the correctly formed question?",
+  "question": "Which is the correctly formed question?",
+  "options": [
+    "Do you know where does he live?",
+    "Do you know where he lives?",
+    "Do you know where he is living?",
+    "Do you know where is he living?"
+  ],
+  "optionsMap": {
+    "A": "Do you know where does he live?",
+    "B": "Do you know where he lives?",
+    "C": "Do you know where he is living?",
+    "D": "Do you know where is he living?"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Do you know where he lives?",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

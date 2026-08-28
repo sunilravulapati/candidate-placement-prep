@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_462",
+  "slug": "tcs-ver-462",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "What does the word CONTEMPLATE mean?",
+  "description": "What does the word CONTEMPLATE mean?",
+  "question": "What does the word CONTEMPLATE mean?",
+  "options": [
+    "Think deeply about",
+    "Avoid thinking",
+    "Act impulsively",
+    "Dismiss"
+  ],
+  "optionsMap": {
+    "A": "Think deeply about",
+    "B": "Avoid thinking",
+    "C": "Act impulsively",
+    "D": "Dismiss"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Think deeply about",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

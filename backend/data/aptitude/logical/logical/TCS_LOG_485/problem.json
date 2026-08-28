@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_485",
+  "slug": "tcs-log-485",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Syllogism: Some cats are white. All white things are small. Conclusion?",
+  "description": "Syllogism: Some cats are white. All white things are small. Conclusion?",
+  "question": "Syllogism: Some cats are white. All white things are small. Conclusion?",
+  "options": [
+    "Some cats are small",
+    "All cats are small",
+    "No cat is small",
+    "Cannot say"
+  ],
+  "optionsMap": {
+    "A": "Some cats are small",
+    "B": "All cats are small",
+    "C": "No cat is small",
+    "D": "Cannot say"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Some cats are small",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

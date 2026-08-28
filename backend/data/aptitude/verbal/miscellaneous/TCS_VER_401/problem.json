@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_401",
+  "slug": "tcs-ver-401",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "miscellaneous",
+  "topicName": "Miscellaneous",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Choose the correct preposition: 'She was absent _____ the meeting.'",
+  "description": "Choose the correct preposition: 'She was absent _____ the meeting.'",
+  "question": "Choose the correct preposition: 'She was absent _____ the meeting.'",
+  "options": [
+    "from",
+    "at",
+    "in",
+    "on"
+  ],
+  "optionsMap": {
+    "A": "from",
+    "B": "at",
+    "C": "in",
+    "D": "on"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "from",
+  "tags": [
+    "verbal",
+    "miscellaneous"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

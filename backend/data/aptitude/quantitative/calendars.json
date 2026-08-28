@@ -1,0 +1,212 @@
+[
+  {
+    "id": "TCS_APT_195",
+    "title": "If 15th August 1947 was Friday, what day was 14th August 1947?",
+    "description": "If 15th August 1947 was Friday, what day was 14th August 1947?",
+    "question": "If 15th August 1947 was Friday, what day was 14th August 1947?",
+    "options": [
+      "Thursday",
+      "Saturday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "answer": "Thursday",
+    "answerKey": "A",
+    "correctAnswer": "Thursday",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Thursday.",
+    "topic": "calendars",
+    "topicName": "Calendars",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_193",
+    "title": "January 1, 2000 was Saturday. What day was January 1, 2001?",
+    "description": "January 1, 2000 was Saturday. What day was January 1, 2001?",
+    "question": "January 1, 2000 was Saturday. What day was January 1, 2001?",
+    "options": [
+      "Monday",
+      "Sunday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "answer": "Monday",
+    "answerKey": "A",
+    "correctAnswer": "Monday",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Monday.",
+    "topic": "calendars",
+    "topicName": "Calendars",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_194",
+    "title": "How many odd days are there in 100 years?",
+    "description": "How many odd days are there in 100 years?",
+    "question": "How many odd days are there in 100 years?",
+    "options": [
+      "5",
+      "1",
+      "3",
+      "7"
+    ],
+    "answer": "5",
+    "answerKey": "A",
+    "correctAnswer": "5",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 5.",
+    "topic": "calendars",
+    "topicName": "Calendars",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_196",
+    "title": "What day of week was 1st January 2020?",
+    "description": "What day of week was 1st January 2020?",
+    "question": "What day of week was 1st January 2020?",
+    "options": [
+      "Wednesday",
+      "Thursday",
+      "Tuesday",
+      "Friday"
+    ],
+    "answer": "Wednesday",
+    "answerKey": "A",
+    "correctAnswer": "Wednesday",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Wednesday.",
+    "topic": "calendars",
+    "topicName": "Calendars",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_198",
+    "title": "A month has exactly 5 Sundays. If the month starts on Sunday, the month has:",
+    "description": "A month has exactly 5 Sundays. If the month starts on Sunday, the month has:",
+    "question": "A month has exactly 5 Sundays. If the month starts on Sunday, the month has:",
+    "options": [
+      "31 days",
+      "28 days",
+      "30 days",
+      "Can be 30 or 31"
+    ],
+    "answer": "Can be 30 or 31",
+    "answerKey": "D",
+    "correctAnswer": "Can be 30 or 31",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (D) is the correct answer: Can be 30 or 31.",
+    "topic": "calendars",
+    "topicName": "Calendars",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_491",
+    "title": "January 1, 2024 was Monday. What day was March 1, 2024?",
+    "description": "January 1, 2024 was Monday. What day was March 1, 2024?",
+    "question": "January 1, 2024 was Monday. What day was March 1, 2024?",
+    "options": [
+      "Friday",
+      "Thursday",
+      "Saturday",
+      "Wednesday"
+    ],
+    "answer": "Friday",
+    "answerKey": "A",
+    "correctAnswer": "Friday",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Friday.",
+    "topic": "calendars",
+    "topicName": "Calendars",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_492",
+    "title": "Which year between 1990 and 2000 had the same calendar as 1990?",
+    "description": "Which year between 1990 and 2000 had the same calendar as 1990?",
+    "question": "Which year between 1990 and 2000 had the same calendar as 1990?",
+    "options": [
+      "1996",
+      "1995",
+      "1997",
+      "1998"
+    ],
+    "answer": "1996",
+    "answerKey": "A",
+    "correctAnswer": "1996",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 1996.",
+    "topic": "calendars",
+    "topicName": "Calendars",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

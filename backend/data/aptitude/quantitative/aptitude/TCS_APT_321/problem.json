@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_321",
+  "slug": "tcs-apt-321",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Probability of getting head on tossing a fair coin.",
+  "description": "Probability of getting head on tossing a fair coin.",
+  "question": "Probability of getting head on tossing a fair coin.",
+  "options": [
+    "1/2",
+    "1/3",
+    "1/4",
+    "2/3"
+  ],
+  "optionsMap": {
+    "A": "1/2",
+    "B": "1/3",
+    "C": "1/4",
+    "D": "2/3"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1/2",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

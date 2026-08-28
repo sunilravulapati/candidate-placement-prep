@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_307",
+  "slug": "tcs-log-307",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Ranking: A is 12th from left, B is 20th from right. If they swap, A is 18th f...",
+  "description": "Ranking: A is 12th from left, B is 20th from right. If they swap, A is 18th from left. Total?",
+  "question": "Ranking: A is 12th from left, B is 20th from right. If they swap, A is 18th from left. Total?",
+  "options": [
+    "37",
+    "38",
+    "35",
+    "40"
+  ],
+  "optionsMap": {
+    "A": "37",
+    "B": "38",
+    "C": "35",
+    "D": "40"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "37",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_210",
+  "slug": "tcs-apt-210",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "boats-and-streams",
+  "topicName": "Boats and Streams",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A man rows 18 km downstream in 2h and 12 km upstream in 3h. Speed of current?",
+  "description": "A man rows 18 km downstream in 2h and 12 km upstream in 3h. Speed of current?",
+  "question": "A man rows 18 km downstream in 2h and 12 km upstream in 3h. Speed of current?",
+  "options": [
+    "1.5 km/h",
+    "2 km/h",
+    "1 km/h",
+    "3 km/h"
+  ],
+  "optionsMap": {
+    "A": "1.5 km/h",
+    "B": "2 km/h",
+    "C": "1 km/h",
+    "D": "3 km/h"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1.5 km/h",
+  "tags": [
+    "quantitative",
+    "boats-and-streams"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

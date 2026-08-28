@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_345",
+  "slug": "tcs-log-345",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Data sufficiency: Is x>y? I: x=y+2. II: x+y=10. Which statement is sufficient?",
+  "description": "Data sufficiency: Is x>y? I: x=y+2. II: x+y=10. Which statement is sufficient?",
+  "question": "Data sufficiency: Is x>y? I: x=y+2. II: x+y=10. Which statement is sufficient?",
+  "options": [
+    "Statement I alone",
+    "Statement II alone",
+    "Both together",
+    "Neither"
+  ],
+  "optionsMap": {
+    "A": "Statement I alone",
+    "B": "Statement II alone",
+    "C": "Both together",
+    "D": "Neither"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Statement I alone",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

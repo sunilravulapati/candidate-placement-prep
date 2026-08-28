@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_378",
+  "slug": "tcs-log-378",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If P>Q, Q>R, R>S, then which is always true?",
+  "description": "If P>Q, Q>R, R>S, then which is always true?",
+  "question": "If P>Q, Q>R, R>S, then which is always true?",
+  "options": [
+    "P>S",
+    "S>P",
+    "P=S",
+    "P<S"
+  ],
+  "optionsMap": {
+    "A": "P>S",
+    "B": "S>P",
+    "C": "P=S",
+    "D": "P<S"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "P>S",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_361",
+  "slug": "tcs-ver-361",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, enc...",
+  "description": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: What does biodiversity encompass?",
+  "question": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: What does biodiversity encompass?",
+  "options": [
+    "Only animal species",
+    "Only plant species",
+    "Variety of all life forms including plants, animals, fungi, and microorganisms",
+    "Only microorganisms"
+  ],
+  "optionsMap": {
+    "A": "Only animal species",
+    "B": "Only plant species",
+    "C": "Variety of all life forms including plants, animals, fungi, and microorganisms",
+    "D": "Only microorganisms"
+  },
+  "answer": "C",
+  "answerKey": "C",
+  "correctAnswer": "Variety of all life forms including plants, animals, fungi, and microorganisms",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

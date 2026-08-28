@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_029",
+  "slug": "tcs-apt-029",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "profit-and-loss",
+  "topicName": "Profit and Loss",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A trader has a false weight that is 10% less than the standard. What is his a...",
+  "description": "A trader has a false weight that is 10% less than the standard. What is his actual profit percentage if he sells at cost price?",
+  "question": "A trader has a false weight that is 10% less than the standard. What is his actual profit percentage if he sells at cost price?",
+  "options": [
+    "11.1%",
+    "10%",
+    "12%",
+    "9%"
+  ],
+  "optionsMap": {
+    "A": "11.1%",
+    "B": "10%",
+    "C": "12%",
+    "D": "9%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "11.1%",
+  "tags": [
+    "quantitative",
+    "profit-and-loss"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

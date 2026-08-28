@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_263",
+  "slug": "tcs-log-263",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Analogy: Cricket : Bat :: Hockey : ?",
+  "description": "Analogy: Cricket : Bat :: Hockey : ?",
+  "question": "Analogy: Cricket : Bat :: Hockey : ?",
+  "options": [
+    "Stick",
+    "Ball",
+    "Net",
+    "Court"
+  ],
+  "optionsMap": {
+    "A": "Stick",
+    "B": "Ball",
+    "C": "Net",
+    "D": "Court"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Stick",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

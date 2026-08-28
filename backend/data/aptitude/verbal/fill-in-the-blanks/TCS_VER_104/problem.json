@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_104",
+  "slug": "tcs-ver-104",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "His _____ remarks offended many people in the audience.",
+  "description": "His _____ remarks offended many people in the audience.",
+  "question": "His _____ remarks offended many people in the audience.",
+  "options": [
+    "derogatory",
+    "kind",
+    "polite",
+    "flattering"
+  ],
+  "optionsMap": {
+    "A": "derogatory",
+    "B": "kind",
+    "C": "polite",
+    "D": "flattering"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "derogatory",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

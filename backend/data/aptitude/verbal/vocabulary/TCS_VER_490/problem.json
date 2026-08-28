@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_490",
+  "slug": "tcs-ver-490",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "What does 'laconic' mean?",
+  "description": "What does 'laconic' mean?",
+  "question": "What does 'laconic' mean?",
+  "options": [
+    "Using very few words",
+    "Being talkative",
+    "Speaking loudly",
+    "Writing extensively"
+  ],
+  "optionsMap": {
+    "A": "Using very few words",
+    "B": "Being talkative",
+    "C": "Speaking loudly",
+    "D": "Writing extensively"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Using very few words",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

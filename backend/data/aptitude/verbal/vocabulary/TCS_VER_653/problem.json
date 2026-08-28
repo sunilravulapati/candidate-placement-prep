@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_653",
+  "slug": "tcs-ver-653",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the synonym of LANGUID",
+  "description": "Choose the synonym of LANGUID",
+  "question": "Choose the synonym of LANGUID",
+  "options": [
+    "Weak and listless",
+    "Strong",
+    "Energetic",
+    "Lively"
+  ],
+  "optionsMap": {
+    "A": "Weak and listless",
+    "B": "Strong",
+    "C": "Energetic",
+    "D": "Lively"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Weak and listless",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

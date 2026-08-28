@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_418",
+  "slug": "tcs-apt-418",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "profit-and-loss",
+  "topicName": "Profit and Loss",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "If 20% loss on selling price equals Rs.50, what is the selling price?",
+  "description": "If 20% loss on selling price equals Rs.50, what is the selling price?",
+  "question": "If 20% loss on selling price equals Rs.50, what is the selling price?",
+  "options": [
+    "Rs.250",
+    "Rs.200",
+    "Rs.300",
+    "Rs.150"
+  ],
+  "optionsMap": {
+    "A": "Rs.250",
+    "B": "Rs.200",
+    "C": "Rs.300",
+    "D": "Rs.150"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.250",
+  "tags": [
+    "quantitative",
+    "profit-and-loss"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_022",
+  "slug": "tcs-log-022",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "series",
+  "topicName": "Series",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Number series: 100, 95, 85, 70, 50, ___",
+  "description": "Number series: 100, 95, 85, 70, 50, ___",
+  "question": "Number series: 100, 95, 85, 70, 50, ___",
+  "options": [
+    "25",
+    "30",
+    "20",
+    "35"
+  ],
+  "optionsMap": {
+    "A": "25",
+    "B": "30",
+    "C": "20",
+    "D": "35"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "25",
+  "tags": [
+    "logical",
+    "series"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

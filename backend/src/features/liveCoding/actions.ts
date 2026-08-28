@@ -4,10 +4,12 @@ import {
   CodingProblemRepository,
   CodingSessionRepository,
   CodingSubmissionRepository,
+  getUserProblemStatuses,
+  resolveStatus,
 } from './repository';
 import { LiveCodingService } from './service';
 import { requireSessionUser, getSessionUser } from '../../auth/session';
-import type { CodingDifficulty, SubmissionRecord, WorkspaceProblem } from './types';
+import type { CodingDifficulty, ProblemStatus, SubmissionRecord, WorkspaceProblem } from './types';
 import { loadProblemBySlug } from '../dsa/problemLoader';
 
 // ── Helpers ────────────────────────────────────────────────────────────────────
@@ -136,6 +138,19 @@ export async function getPaginatedProblemsAction(params: {
 }
 
 export async function getProblemBySlugAction(slug: string): Promise<WorkspaceProblem | null> {
+  const user = await getSessionUser();
+  const effectiveUserId = user?.id || 'user_demo';
+  let userStatus: ProblemStatus = 'NOT_STARTED';
+  let isBookmarked = false;
+
+  try {
+    const { solved, attempted, bookmarked } = await getUserProblemStatuses(effectiveUserId);
+    userStatus = resolveStatus(slug, solved, attempted, bookmarked);
+    isBookmarked = bookmarked.has(slug);
+  } catch {
+    // non-blocking
+  }
+
   const bundle = loadProblemBySlug(slug);
   if (bundle) {
     const meta = bundle.metadata;
@@ -193,12 +208,21 @@ export async function getProblemBySlugAction(slug: string): Promise<WorkspacePro
       starterMetadata: meta.starterMetadata,
       executionMetadata: meta.executionMetadata,
       driverMetadata: meta.driverMetadata,
+      status: userStatus,
+      isBookmarked,
+      isSolved: userStatus === 'SOLVED',
     } as any;
   }
 
   if (!slug || slug.trim().length === 0) return null;
   const problem = await CodingProblemRepository.getProblemBySlug(slug);
-  return toWorkspaceProblem(problem);
+  const wsProb = toWorkspaceProblem(problem);
+  if (wsProb) {
+    wsProb.status = userStatus;
+    (wsProb as any).isBookmarked = isBookmarked;
+    (wsProb as any).isSolved = userStatus === 'SOLVED';
+  }
+  return wsProb;
 }
 
 export async function getProblemNavigationAction(slug: string) {
@@ -226,18 +250,20 @@ export async function getDashboardDataAction() {
  * Actual code execution happens client-side via ExecutionProvider (Judge0 or mock).
  * This action persists the result and updates progress/stats.
  */
-export async function recordSubmissionAction(payload: any): Promise<{ success: boolean }> {
+export async function recordSubmissionAction(payload: any): Promise<{ success: boolean; isSolved: boolean; status: string }> {
   try {
     const user = await getSessionUser();
-    if (user && payload && typeof payload === 'object' && payload.problemSlug) {
+    const userId = user?.id || 'user_demo';
+
+    if (payload && typeof payload === 'object' && payload.problemSlug) {
       const session = payload.sessionId
-        ? await CodingSessionRepository.getSessionById(payload.sessionId, user.id)
-        : await CodingSessionRepository.getOrCreateSession(user.id, payload.problemSlug, payload.language || 'javascript');
+        ? await CodingSessionRepository.getSessionById(payload.sessionId, userId)
+        : await CodingSessionRepository.getOrCreateSession(userId, payload.problemSlug, payload.language || 'javascript');
 
       if (session) {
         await CodingSubmissionRepository.createSubmission({
           sessionId: session.id,
-          userId: user.id,
+          userId: userId,
           codeSnapshot: payload.codeSnapshot || payload.code || '',
           language: payload.language || 'javascript',
           status: payload.status || 'ACCEPTED',
@@ -254,14 +280,21 @@ export async function recordSubmissionAction(payload: any): Promise<{ success: b
             code: payload.codeSnapshot || payload.code || '',
             language: payload.language || 'javascript',
           });
-          await LiveCodingService.recalculateProgress(user.id);
         }
+
+        await LiveCodingService.recalculateProgress(userId);
+
+        return {
+          success: true,
+          isSolved: payload.status === 'ACCEPTED',
+          status: payload.status,
+        };
       }
     }
-  } catch {
-    // Return success gracefully
+  } catch (err) {
+    console.error('Error in recordSubmissionAction:', err);
   }
-  return { success: true };
+  return { success: true, isSolved: payload?.status === 'ACCEPTED', status: payload?.status || 'UNKNOWN' };
 }
 
 /**

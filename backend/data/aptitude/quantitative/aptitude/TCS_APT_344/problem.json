@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_344",
+  "slug": "tcs-apt-344",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What is the HCF of 72 and 108?",
+  "description": "What is the HCF of 72 and 108?",
+  "question": "What is the HCF of 72 and 108?",
+  "options": [
+    "36",
+    "18",
+    "24",
+    "12"
+  ],
+  "optionsMap": {
+    "A": "36",
+    "B": "18",
+    "C": "24",
+    "D": "12"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "36",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_290",
+  "slug": "tcs-apt-290",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If A is 40% of B and B is 25% of C, what % is A of C?",
+  "description": "If A is 40% of B and B is 25% of C, what % is A of C?",
+  "question": "If A is 40% of B and B is 25% of C, what % is A of C?",
+  "options": [
+    "10%",
+    "5%",
+    "15%",
+    "20%"
+  ],
+  "optionsMap": {
+    "A": "10%",
+    "B": "5%",
+    "C": "15%",
+    "D": "20%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "10%",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

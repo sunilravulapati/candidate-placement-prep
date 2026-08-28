@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_382",
+  "slug": "tcs-log-382",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Distance: A and B are 100km apart. Trains start simultaneously at 40km/h and ...",
+  "description": "Distance: A and B are 100km apart. Trains start simultaneously at 40km/h and 60km/h. Meet after?",
+  "question": "Distance: A and B are 100km apart. Trains start simultaneously at 40km/h and 60km/h. Meet after?",
+  "options": [
+    "1h",
+    "2h",
+    "1.5h",
+    "0.5h"
+  ],
+  "optionsMap": {
+    "A": "1h",
+    "B": "2h",
+    "C": "1.5h",
+    "D": "0.5h"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1h",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

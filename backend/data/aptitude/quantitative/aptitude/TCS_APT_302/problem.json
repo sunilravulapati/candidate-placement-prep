@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_302",
+  "slug": "tcs-apt-302",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A and B invest Rs 3000 and Rs 5000. Profit at end of year is Rs 1600. B's share?",
+  "description": "A and B invest Rs 3000 and Rs 5000. Profit at end of year is Rs 1600. B's share?",
+  "question": "A and B invest Rs 3000 and Rs 5000. Profit at end of year is Rs 1600. B's share?",
+  "options": [
+    "1000",
+    "800",
+    "600",
+    "1200"
+  ],
+  "optionsMap": {
+    "A": "1000",
+    "B": "800",
+    "C": "600",
+    "D": "1200"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1000",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

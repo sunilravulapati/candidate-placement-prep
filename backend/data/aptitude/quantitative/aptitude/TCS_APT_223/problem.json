@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_223",
+  "slug": "tcs-apt-223",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If A:B = 2:3 and B:C = 4:5, find A:C.",
+  "description": "If A:B = 2:3 and B:C = 4:5, find A:C.",
+  "question": "If A:B = 2:3 and B:C = 4:5, find A:C.",
+  "options": [
+    "8:15",
+    "2:5",
+    "4:9",
+    "6:10"
+  ],
+  "optionsMap": {
+    "A": "8:15",
+    "B": "2:5",
+    "C": "4:9",
+    "D": "6:10"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "8:15",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

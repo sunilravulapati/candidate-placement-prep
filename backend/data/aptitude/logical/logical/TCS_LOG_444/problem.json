@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_444",
+  "slug": "tcs-log-444",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number: Find missing: 5,__,17,26,37?",
+  "description": "Number: Find missing: 5,__,17,26,37?",
+  "question": "Number: Find missing: 5,__,17,26,37?",
+  "options": [
+    "10",
+    "9",
+    "11",
+    "12"
+  ],
+  "optionsMap": {
+    "A": "10",
+    "B": "9",
+    "C": "11",
+    "D": "12"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "10",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

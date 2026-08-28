@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_036",
+  "slug": "tcs-apt-036",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "profit-and-loss",
+  "topicName": "Profit and Loss",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "A chair is sold at a loss of 8% for Rs.920. Find the cost price.",
+  "description": "A chair is sold at a loss of 8% for Rs.920. Find the cost price.",
+  "question": "A chair is sold at a loss of 8% for Rs.920. Find the cost price.",
+  "options": [
+    "Rs.1000",
+    "Rs.1100",
+    "Rs.900",
+    "Rs.1050"
+  ],
+  "optionsMap": {
+    "A": "Rs.1000",
+    "B": "Rs.1100",
+    "C": "Rs.900",
+    "D": "Rs.1050"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.1000",
+  "tags": [
+    "quantitative",
+    "profit-and-loss"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

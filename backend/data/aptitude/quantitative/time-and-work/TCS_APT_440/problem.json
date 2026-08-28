@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_440",
+  "slug": "tcs-apt-440",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "time-and-work",
+  "topicName": "Time and Work",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "If 18 pumps can raise 2170 tonnes of water in 10 days working 7 hours a day, ...",
+  "description": "If 18 pumps can raise 2170 tonnes of water in 10 days working 7 hours a day, how many pumps needed to raise 1736 tonnes in 8 days working 9 hours?",
+  "question": "If 18 pumps can raise 2170 tonnes of water in 10 days working 7 hours a day, how many pumps needed to raise 1736 tonnes in 8 days working 9 hours?",
+  "options": [
+    "10",
+    "12",
+    "14",
+    "8"
+  ],
+  "optionsMap": {
+    "A": "10",
+    "B": "12",
+    "C": "14",
+    "D": "8"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "10",
+  "tags": [
+    "quantitative",
+    "time-and-work"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

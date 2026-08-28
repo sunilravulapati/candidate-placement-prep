@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_607",
+  "slug": "tcs-apt-607",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "P(at least one head) in 3 tosses?",
+  "description": "P(at least one head) in 3 tosses?",
+  "question": "P(at least one head) in 3 tosses?",
+  "options": [
+    "7/8",
+    "1/2",
+    "3/4",
+    "1/8"
+  ],
+  "optionsMap": {
+    "A": "7/8",
+    "B": "1/2",
+    "C": "3/4",
+    "D": "1/8"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "7/8",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

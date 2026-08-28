@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_308",
+  "slug": "tcs-apt-308",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Two trains run toward each other at 60 km/h and 90 km/h. Distance 300 km. Tim...",
+  "description": "Two trains run toward each other at 60 km/h and 90 km/h. Distance 300 km. Time to meet?",
+  "question": "Two trains run toward each other at 60 km/h and 90 km/h. Distance 300 km. Time to meet?",
+  "options": [
+    "2h",
+    "3h",
+    "1.5h",
+    "2.5h"
+  ],
+  "optionsMap": {
+    "A": "2h",
+    "B": "3h",
+    "C": "1.5h",
+    "D": "2.5h"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "2h",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

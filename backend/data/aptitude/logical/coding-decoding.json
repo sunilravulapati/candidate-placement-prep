@@ -1,0 +1,542 @@
+[
+  {
+    "id": "TCS_LOG_028",
+    "title": "If FRIEND is coded as HUMKBP, how is CANDLE coded?",
+    "description": "If FRIEND is coded as HUMKBP, how is CANDLE coded?",
+    "question": "If FRIEND is coded as HUMKBP, how is CANDLE coded?",
+    "options": [
+      "ECODFG",
+      "DCPFMH",
+      "EBNFMH",
+      "ECPFNH"
+    ],
+    "answer": "DCPFMH",
+    "answerKey": "B",
+    "correctAnswer": "DCPFMH",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: DCPFMH.",
+    "topic": "coding-decoding",
+    "topicName": "Coding-Decoding",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_029",
+    "title": "If PAPER is coded as SDSHU, how is PENCIL coded?",
+    "description": "If PAPER is coded as SDSHU, how is PENCIL coded?",
+    "question": "If PAPER is coded as SDSHU, how is PENCIL coded?",
+    "options": [
+      "SHQFLO",
+      "THQFLO",
+      "SHRFLO",
+      "SHQELO"
+    ],
+    "answer": "SHQFLO",
+    "answerKey": "A",
+    "correctAnswer": "SHQFLO",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: SHQFLO.",
+    "topic": "coding-decoding",
+    "topicName": "Coding-Decoding",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_030",
+    "title": "If LAPTOP = 23 and KEYBOARD = 31, what does the code represent?",
+    "description": "If LAPTOP = 23 and KEYBOARD = 31, what does the code represent?",
+    "question": "If LAPTOP = 23 and KEYBOARD = 31, what does the code represent?",
+    "options": [
+      "Sum of positions of letters",
+      "Number of letters × 2",
+      "Sum of alternate letters",
+      "Product of vowels"
+    ],
+    "answer": "Sum of positions of letters",
+    "answerKey": "A",
+    "correctAnswer": "Sum of positions of letters",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Sum of positions of letters.",
+    "topic": "coding-decoding",
+    "topicName": "Coding-Decoding",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_031",
+    "title": "If in a code, 'go for win' means 135, 'for the game' means 259, 'win the matc...",
+    "description": "If in a code, 'go for win' means 135, 'for the game' means 259, 'win the match' means 167, then 'game' is coded as:",
+    "question": "If in a code, 'go for win' means 135, 'for the game' means 259, 'win the match' means 167, then 'game' is coded as:",
+    "options": [
+      "9",
+      "5",
+      "2",
+      "3"
+    ],
+    "answer": "9",
+    "answerKey": "A",
+    "correctAnswer": "9",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 9.",
+    "topic": "coding-decoding",
+    "topicName": "Coding-Decoding",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_032",
+    "title": "If MONEY = 57637, what is 6357?",
+    "description": "If MONEY = 57637, what is 6357?",
+    "question": "If MONEY = 57637, what is 6357?",
+    "options": [
+      "YENOM",
+      "YEON",
+      "YENM",
+      "NOME"
+    ],
+    "answer": "YEON",
+    "answerKey": "B",
+    "correctAnswer": "YEON",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: YEON.",
+    "topic": "coding-decoding",
+    "topicName": "Coding-Decoding",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_033",
+    "title": "If '1' means '+', '2' means '−', '3' means '×', '4' means '÷', what is 8 3 6 ...",
+    "description": "If '1' means '+', '2' means '−', '3' means '×', '4' means '÷', what is 8 3 6 1 4 2 2?",
+    "question": "If '1' means '+', '2' means '−', '3' means '×', '4' means '÷', what is 8 3 6 1 4 2 2?",
+    "options": [
+      "50",
+      "46",
+      "52",
+      "48"
+    ],
+    "answer": "50",
+    "answerKey": "A",
+    "correctAnswer": "50",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 50.",
+    "topic": "coding-decoding",
+    "topicName": "Coding-Decoding",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_034",
+    "title": "In a code TREE = 3556, RIDE = 5465, then TIRE = ?",
+    "description": "In a code TREE = 3556, RIDE = 5465, then TIRE = ?",
+    "question": "In a code TREE = 3556, RIDE = 5465, then TIRE = ?",
+    "options": [
+      "3465",
+      "3456",
+      "4365",
+      "3546"
+    ],
+    "answer": "3465",
+    "answerKey": "A",
+    "correctAnswer": "3465",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 3465.",
+    "topic": "coding-decoding",
+    "topicName": "Coding-Decoding",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_036",
+    "title": "If blue = 4, green = 5, red = 3, yellow = 6, what does pink = ?",
+    "description": "If blue = 4, green = 5, red = 3, yellow = 6, what does pink = ?",
+    "question": "If blue = 4, green = 5, red = 3, yellow = 6, what does pink = ?",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "answer": "4",
+    "answerKey": "A",
+    "correctAnswer": "4",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 4.",
+    "topic": "coding-decoding",
+    "topicName": "Coding-Decoding",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_038",
+    "title": "CLOUD is coded as DNPVF. What is STORM?",
+    "description": "CLOUD is coded as DNPVF. What is STORM?",
+    "question": "CLOUD is coded as DNPVF. What is STORM?",
+    "options": [
+      "TUPSO",
+      "TUSQP",
+      "TUPQS",
+      "TUPSQ"
+    ],
+    "answer": "TUPSO",
+    "answerKey": "A",
+    "correctAnswer": "TUPSO",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: TUPSO.",
+    "topic": "coding-decoding",
+    "topicName": "Coding-Decoding",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_040",
+    "title": "In a certain code, 15789 represents EGKOT and 2346 represents ALQM. What is M...",
+    "description": "In a certain code, 15789 represents EGKOT and 2346 represents ALQM. What is METAL?",
+    "question": "In a certain code, 15789 represents EGKOT and 2346 represents ALQM. What is METAL?",
+    "options": [
+      "23974",
+      "23947",
+      "32974",
+      "29374"
+    ],
+    "answer": "23974",
+    "answerKey": "A",
+    "correctAnswer": "23974",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 23974.",
+    "topic": "coding-decoding",
+    "topicName": "Coding-Decoding",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_041",
+    "title": "If EARTH is coded as 51962, MARS is coded as ?",
+    "description": "If EARTH is coded as 51962, MARS is coded as ?",
+    "question": "If EARTH is coded as 51962, MARS is coded as ?",
+    "options": [
+      "3194",
+      "3196",
+      "3192",
+      "3198"
+    ],
+    "answer": "3192",
+    "answerKey": "C",
+    "correctAnswer": "3192",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (C) is the correct answer: 3192.",
+    "topic": "coding-decoding",
+    "topicName": "Coding-Decoding",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_043",
+    "title": "Mirror code: each letter is replaced by its mirror (A↔Z, B↔Y...). CODE = ?",
+    "description": "Mirror code: each letter is replaced by its mirror (A↔Z, B↔Y...). CODE = ?",
+    "question": "Mirror code: each letter is replaced by its mirror (A↔Z, B↔Y...). CODE = ?",
+    "options": [
+      "XLWV",
+      "XLDV",
+      "XLWU",
+      "XLDW"
+    ],
+    "answer": "XLWV",
+    "answerKey": "A",
+    "correctAnswer": "XLWV",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: XLWV.",
+    "topic": "coding-decoding",
+    "topicName": "Coding-Decoding",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_045",
+    "title": "If NORTH is coded as UQHMA, then SOUTH is coded as ?",
+    "description": "If NORTH is coded as UQHMA, then SOUTH is coded as ?",
+    "question": "If NORTH is coded as UQHMA, then SOUTH is coded as ?",
+    "options": [
+      "ZQHMA",
+      "ZQHNA",
+      "YQHNA",
+      "YQHMA"
+    ],
+    "answer": "ZQHMA",
+    "answerKey": "A",
+    "correctAnswer": "ZQHMA",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: ZQHMA.",
+    "topic": "coding-decoding",
+    "topicName": "Coding-Decoding",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_026",
+    "title": "In a code, APPLE = 12234. What is 12241?",
+    "description": "In a code, APPLE = 12234. What is 12241?",
+    "question": "In a code, APPLE = 12234. What is 12241?",
+    "options": [
+      "APPLA",
+      "APPLY",
+      "APPEA",
+      "APPEL"
+    ],
+    "answer": "APPLY",
+    "answerKey": "B",
+    "correctAnswer": "APPLY",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: APPLY.",
+    "topic": "coding-decoding",
+    "topicName": "Coding-Decoding",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_035",
+    "title": "If P = 16, R = 18, then PRINT = ?",
+    "description": "If P = 16, R = 18, then PRINT = ?",
+    "question": "If P = 16, R = 18, then PRINT = ?",
+    "options": [
+      "75",
+      "73",
+      "71",
+      "77"
+    ],
+    "answer": "73",
+    "answerKey": "B",
+    "correctAnswer": "73",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: 73.",
+    "topic": "coding-decoding",
+    "topicName": "Coding-Decoding",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_037",
+    "title": "Code: A=2, B=4, C=6,... What is ACE?",
+    "description": "Code: A=2, B=4, C=6,... What is ACE?",
+    "question": "Code: A=2, B=4, C=6,... What is ACE?",
+    "options": [
+      "24",
+      "28",
+      "26",
+      "30"
+    ],
+    "answer": "28",
+    "answerKey": "B",
+    "correctAnswer": "28",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: 28.",
+    "topic": "coding-decoding",
+    "topicName": "Coding-Decoding",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_039",
+    "title": "If SAND = 19-1-14-4, then GOLD = ?",
+    "description": "If SAND = 19-1-14-4, then GOLD = ?",
+    "question": "If SAND = 19-1-14-4, then GOLD = ?",
+    "options": [
+      "7-15-12-4",
+      "8-15-12-5",
+      "7-16-12-4",
+      "8-14-12-4"
+    ],
+    "answer": "7-15-12-4",
+    "answerKey": "A",
+    "correctAnswer": "7-15-12-4",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 7-15-12-4.",
+    "topic": "coding-decoding",
+    "topicName": "Coding-Decoding",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_044",
+    "title": "If TABLE = 20-1-2-12-5 (position), CHAIR = ?",
+    "description": "If TABLE = 20-1-2-12-5 (position), CHAIR = ?",
+    "question": "If TABLE = 20-1-2-12-5 (position), CHAIR = ?",
+    "options": [
+      "3-8-1-9-18",
+      "3-9-1-8-18",
+      "3-8-2-9-18",
+      "4-8-1-9-18"
+    ],
+    "answer": "3-8-1-9-18",
+    "answerKey": "A",
+    "correctAnswer": "3-8-1-9-18",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 3-8-1-9-18.",
+    "topic": "coding-decoding",
+    "topicName": "Coding-Decoding",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

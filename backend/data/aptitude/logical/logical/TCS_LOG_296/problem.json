@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_296",
+  "slug": "tcs-log-296",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Input-Output: If input is CHAIR → CRIHA, then output of TABLE is?",
+  "description": "Input-Output: If input is CHAIR → CRIHA, then output of TABLE is?",
+  "question": "Input-Output: If input is CHAIR → CRIHA, then output of TABLE is?",
+  "options": [
+    "TLEBA",
+    "BATLER",
+    "LETAB",
+    "TLABE"
+  ],
+  "optionsMap": {
+    "A": "TLEBA",
+    "B": "BATLER",
+    "C": "LETAB",
+    "D": "TLABE"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "TLEBA",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

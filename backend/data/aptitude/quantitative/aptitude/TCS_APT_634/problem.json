@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_634",
+  "slug": "tcs-apt-634",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "SI: P=1300, R=8%, T=2 years. Interest?",
+  "description": "SI: P=1300, R=8%, T=2 years. Interest?",
+  "question": "SI: P=1300, R=8%, T=2 years. Interest?",
+  "options": [
+    "208",
+    "39",
+    "500",
+    "100"
+  ],
+  "optionsMap": {
+    "A": "208",
+    "B": "39",
+    "C": "500",
+    "D": "100"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "208",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

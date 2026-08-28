@@ -2,57 +2,81 @@
   {
     "id": "sample-1",
     "classification": "sample",
-    "input": "\"babad\"",
-    "expectedOutput": "\"bab\"",
-    "explanation": "Sample test 1 for Design Add and Search Words Data Structure"
+    "displayInput": "ops = [\"addWord\",\"addWord\",\"search\",\"search\",\"search\",\"search\"], args = [[\"bad\"],[\"dad\"],[\"pad\"],[\"bad\"],[\".ad\"],[\"b..\"]]",
+    "input": "6\naddWord 1 bad\naddWord 1 dad\nsearch 1 pad\nsearch 1 bad\nsearch 1 .ad\n\"search 1 b..\"",
+    "stdin": "6\naddWord 1 bad\naddWord 1 dad\nsearch 1 pad\nsearch 1 bad\nsearch 1 .ad\n\"search 1 b..\"",
+    "expectedOutput": "[null,null,false,true,true,true]",
+    "explanation": "wildcard searches. Expected output: [null,null,false,true,true,true]",
+    "serializationStatus": "manual_required"
   },
   {
     "id": "sample-2",
     "classification": "sample",
-    "input": "\"cbbd\"",
-    "expectedOutput": "\"bb\"",
-    "explanation": "Sample test 2 for Design Add and Search Words Data Structure"
+    "displayInput": "ops = [\"addWord\",\"search\",\"search\"], args = [[\"a\"],[\"a\"],[\".\"]]",
+    "input": "3\naddWord 1 a\nsearch 1 a\nsearch 1 .",
+    "stdin": "3\naddWord 1 a\nsearch 1 a\nsearch 1 .",
+    "expectedOutput": "[null,true,true]",
+    "explanation": "single-character wildcard. Expected output: [null,true,true]",
+    "serializationStatus": "manual_required"
   },
   {
     "id": "sample-3",
     "classification": "sample",
-    "input": "\"a\"",
-    "expectedOutput": "\"a\"",
-    "explanation": "Sample test 3 for Design Add and Search Words Data Structure"
+    "displayInput": "ops = [\"search\"], args = [[\".\"]]",
+    "input": "1\nsearch 1 .",
+    "stdin": "1\nsearch 1 .",
+    "expectedOutput": "[false]",
+    "explanation": "empty dictionary. Expected output: [false]",
+    "serializationStatus": "manual_required"
   },
   {
-    "id": "edge-1",
-    "classification": "edge",
-    "input": "\"\"",
-    "expectedOutput": "\"\"",
-    "explanation": "Empty string boundary"
+    "id": "hidden-1",
+    "classification": "hidden",
+    "displayInput": "ops = [\"addWord\",\"search\",\"search\"], args = [[\"at\"],[\"a.\"],[\".t\"]]",
+    "input": "3\naddWord 1 at\nsearch 1 a.\nsearch 1 .t",
+    "stdin": "3\naddWord 1 at\nsearch 1 a.\nsearch 1 .t",
+    "expectedOutput": "[null,true,true]",
+    "explanation": "wildcard at each position",
+    "serializationStatus": "manual_required"
   },
   {
-    "id": "corner-2",
-    "classification": "corner",
-    "input": "\"aaaaa\"",
-    "expectedOutput": "\"aaaaa\"",
-    "explanation": "All identical characters"
+    "id": "hidden-2",
+    "classification": "hidden",
+    "displayInput": "ops = [\"addWord\",\"search\",\"search\"], args = [[\"hello\"],[\"he.lo\"],[\"hello.\"]]",
+    "input": "3\naddWord 1 hello\nsearch 1 he.lo\nsearch 1 hello.",
+    "stdin": "3\naddWord 1 hello\nsearch 1 he.lo\nsearch 1 hello.",
+    "expectedOutput": "[null,true,false]",
+    "explanation": "wildcard length must match",
+    "serializationStatus": "manual_required"
   },
   {
-    "id": "stress-3",
-    "classification": "stress",
-    "input": "\"abcdefghijklmnopqrstuvwxyz\"",
-    "expectedOutput": "1",
-    "explanation": "All distinct characters"
+    "id": "hidden-3",
+    "classification": "hidden",
+    "displayInput": "ops = [\"addWord\",\"addWord\",\"search\"], args = [[\"cat\"],[\"car\"],[\"ca.\"]]",
+    "input": "3\naddWord 1 cat\naddWord 1 car\nsearch 1 ca.",
+    "stdin": "3\naddWord 1 cat\naddWord 1 car\nsearch 1 ca.",
+    "expectedOutput": "[null,null,true]",
+    "explanation": "common prefix alternatives",
+    "serializationStatus": "manual_required"
   },
   {
-    "id": "duplicates-4",
-    "classification": "duplicates",
-    "input": "\"abacaba\"",
-    "expectedOutput": "\"abacaba\"",
-    "explanation": "Symmetric palindrome string"
+    "id": "hidden-4",
+    "classification": "hidden",
+    "displayInput": "ops = [\"addWord\",\"search\",\"search\"], args = [[\"bad\"],[\"b..\"],[\"...\" ]]",
+    "input": "3\naddWord 1 bad\n\"search 1 b..\"\n\"search 1 ...\"",
+    "stdin": "3\naddWord 1 bad\n\"search 1 b..\"\n\"search 1 ...\"",
+    "expectedOutput": "[null,true,true]",
+    "explanation": "all-position wildcard",
+    "serializationStatus": "manual_required"
   },
   {
-    "id": "performance-5",
-    "classification": "performance",
-    "input": "\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"",
-    "expectedOutput": "...",
-    "explanation": "Performance test"
+    "id": "hidden-5",
+    "classification": "hidden",
+    "displayInput": "ops = [\"addWord\",\"search\"], args = [[\"z\"],[\"z\"]]",
+    "input": "2\naddWord 1 z\nsearch 1 z",
+    "stdin": "2\naddWord 1 z\nsearch 1 z",
+    "expectedOutput": "[null,true]",
+    "explanation": "literal single word",
+    "serializationStatus": "manual_required"
   }
 ]

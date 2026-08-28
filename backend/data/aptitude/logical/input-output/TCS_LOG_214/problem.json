@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_214",
+  "slug": "tcs-log-214",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "input-output",
+  "topicName": "Input-Output",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Shift cipher: each letter moves +3 positions. Encode 'CAT':",
+  "description": "Shift cipher: each letter moves +3 positions. Encode 'CAT':",
+  "question": "Shift cipher: each letter moves +3 positions. Encode 'CAT':",
+  "options": [
+    "FDW",
+    "DFW",
+    "FDX",
+    "ECV"
+  ],
+  "optionsMap": {
+    "A": "FDW",
+    "B": "DFW",
+    "C": "FDX",
+    "D": "ECV"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "FDW",
+  "tags": [
+    "logical",
+    "input-output"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

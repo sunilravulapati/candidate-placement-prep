@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_639",
+  "slug": "tcs-log-639",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Walk S 4km, turn left 3km. Distance from start?",
+  "description": "Walk S 4km, turn left 3km. Distance from start?",
+  "question": "Walk S 4km, turn left 3km. Distance from start?",
+  "options": [
+    "5km",
+    "7km",
+    "4km",
+    "3km"
+  ],
+  "optionsMap": {
+    "A": "5km",
+    "B": "7km",
+    "C": "4km",
+    "D": "3km"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "5km",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

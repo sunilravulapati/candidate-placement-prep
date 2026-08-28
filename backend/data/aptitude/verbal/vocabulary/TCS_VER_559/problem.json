@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_559",
+  "slug": "tcs-ver-559",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: QUIXOTIC",
+  "description": "Choose the word most similar in meaning to: QUIXOTIC",
+  "question": "Choose the word most similar in meaning to: QUIXOTIC",
+  "options": [
+    "Unrealistically idealistic",
+    "Practical",
+    "Realistic",
+    "Pragmatic"
+  ],
+  "optionsMap": {
+    "A": "Unrealistically idealistic",
+    "B": "Practical",
+    "C": "Realistic",
+    "D": "Pragmatic"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Unrealistically idealistic",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

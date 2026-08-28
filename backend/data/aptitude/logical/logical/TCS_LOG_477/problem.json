@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_477",
+  "slug": "tcs-log-477",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Analogy: Novelist:Fiction :: Journalist:?",
+  "description": "Analogy: Novelist:Fiction :: Journalist:?",
+  "question": "Analogy: Novelist:Fiction :: Journalist:?",
+  "options": [
+    "News",
+    "Paper",
+    "Ink",
+    "Printer"
+  ],
+  "optionsMap": {
+    "A": "News",
+    "B": "Paper",
+    "C": "Ink",
+    "D": "Printer"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "News",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

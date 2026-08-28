@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_152",
+  "slug": "tcs-log-152",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "statement-and-assumptions",
+  "topicName": "Statement and Assumptions",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Statement: 'Children should be taught moral values from a young age.' Assumpt...",
+  "description": "Statement: 'Children should be taught moral values from a young age.' Assumption I: Children can learn moral values. Assumption II: Moral values cannot be taught to adults.",
+  "question": "Statement: 'Children should be taught moral values from a young age.' Assumption I: Children can learn moral values. Assumption II: Moral values cannot be taught to adults.",
+  "options": [
+    "Only I is implicit",
+    "Only II is implicit",
+    "Both are implicit",
+    "Neither is implicit"
+  ],
+  "optionsMap": {
+    "A": "Only I is implicit",
+    "B": "Only II is implicit",
+    "C": "Both are implicit",
+    "D": "Neither is implicit"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Only I is implicit",
+  "tags": [
+    "logical",
+    "statement-and-assumptions"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

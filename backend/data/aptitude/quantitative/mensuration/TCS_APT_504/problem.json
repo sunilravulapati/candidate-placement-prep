@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_504",
+  "slug": "tcs-apt-504",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "mensuration",
+  "topicName": "Mensuration",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "The sum of interior angles of a hexagon is:",
+  "description": "The sum of interior angles of a hexagon is:",
+  "question": "The sum of interior angles of a hexagon is:",
+  "options": [
+    "720°",
+    "540°",
+    "630°",
+    "810°"
+  ],
+  "optionsMap": {
+    "A": "720°",
+    "B": "540°",
+    "C": "630°",
+    "D": "810°"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "720°",
+  "tags": [
+    "quantitative",
+    "mensuration"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

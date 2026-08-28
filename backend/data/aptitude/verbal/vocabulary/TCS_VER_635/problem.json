@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_635",
+  "slug": "tcs-ver-635",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of STRINGENT",
+  "description": "Choose the antonym of STRINGENT",
+  "question": "Choose the antonym of STRINGENT",
+  "options": [
+    "Lenient",
+    "Strict",
+    "Rigid",
+    "Harsh"
+  ],
+  "optionsMap": {
+    "A": "Lenient",
+    "B": "Strict",
+    "C": "Rigid",
+    "D": "Harsh"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Lenient",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

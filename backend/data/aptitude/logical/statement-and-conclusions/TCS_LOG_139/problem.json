@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_139",
+  "slug": "tcs-log-139",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "statement-and-conclusions",
+  "topicName": "Statement and Conclusions",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Statement: Some doctors are teachers. All teachers are graduates. Conclusion ...",
+  "description": "Statement: Some doctors are teachers. All teachers are graduates. Conclusion I: Some doctors are graduates. Conclusion II: All graduates are teachers.",
+  "question": "Statement: Some doctors are teachers. All teachers are graduates. Conclusion I: Some doctors are graduates. Conclusion II: All graduates are teachers.",
+  "options": [
+    "Only I follows",
+    "Only II follows",
+    "Both follow",
+    "Neither follows"
+  ],
+  "optionsMap": {
+    "A": "Only I follows",
+    "B": "Only II follows",
+    "C": "Both follow",
+    "D": "Neither follows"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Only I follows",
+  "tags": [
+    "logical",
+    "statement-and-conclusions"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

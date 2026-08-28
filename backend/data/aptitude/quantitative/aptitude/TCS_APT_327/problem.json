@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_327",
+  "slug": "tcs-apt-327",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Out of 100 students, 60 passed in Maths, 48 in Science, 36 in both. Failed in...",
+  "description": "Out of 100 students, 60 passed in Maths, 48 in Science, 36 in both. Failed in both?",
+  "question": "Out of 100 students, 60 passed in Maths, 48 in Science, 36 in both. Failed in both?",
+  "options": [
+    "28",
+    "32",
+    "24",
+    "40"
+  ],
+  "optionsMap": {
+    "A": "28",
+    "B": "32",
+    "C": "24",
+    "D": "40"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "28",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

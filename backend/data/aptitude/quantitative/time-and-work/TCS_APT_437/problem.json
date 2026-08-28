@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_437",
+  "slug": "tcs-apt-437",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "time-and-work",
+  "topicName": "Time and Work",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A and B can do a work in 6 and 12 days. With help of C they finish in 4 days....",
+  "description": "A and B can do a work in 6 and 12 days. With help of C they finish in 4 days. C alone?",
+  "question": "A and B can do a work in 6 and 12 days. With help of C they finish in 4 days. C alone?",
+  "options": [
+    "12 days",
+    "8 days",
+    "16 days",
+    "10 days"
+  ],
+  "optionsMap": {
+    "A": "12 days",
+    "B": "8 days",
+    "C": "16 days",
+    "D": "10 days"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "12 days",
+  "tags": [
+    "quantitative",
+    "time-and-work"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

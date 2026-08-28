@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_392",
+  "slug": "tcs-apt-392",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "When 5 is added to 3 times a number, result is 14. The number is?",
+  "description": "When 5 is added to 3 times a number, result is 14. The number is?",
+  "question": "When 5 is added to 3 times a number, result is 14. The number is?",
+  "options": [
+    "3",
+    "4",
+    "5",
+    "2"
+  ],
+  "optionsMap": {
+    "A": "3",
+    "B": "4",
+    "C": "5",
+    "D": "2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "3",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

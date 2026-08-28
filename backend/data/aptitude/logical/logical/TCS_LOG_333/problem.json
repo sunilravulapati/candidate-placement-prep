@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_333",
+  "slug": "tcs-log-333",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Logical sequence: J, F, M, A, M, J, J, A, S, O, ?",
+  "description": "Logical sequence: J, F, M, A, M, J, J, A, S, O, ?",
+  "question": "Logical sequence: J, F, M, A, M, J, J, A, S, O, ?",
+  "options": [
+    "N",
+    "D",
+    "Nov",
+    "Oct"
+  ],
+  "optionsMap": {
+    "A": "N",
+    "B": "D",
+    "C": "Nov",
+    "D": "Oct"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "N",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

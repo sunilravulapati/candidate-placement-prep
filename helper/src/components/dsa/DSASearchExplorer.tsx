@@ -105,28 +105,30 @@ export default function DSASearchExplorer({ initialSearchIndex }: DSASearchExplo
   return (
     <div className="space-y-6 font-sans">
       {/* Search Bar & Filter Controls */}
-      <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl space-y-4">
+      <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-5 shadow-xl space-y-4">
         <div className="flex flex-col md:flex-row items-center gap-3">
-          {/* Main Input */}
+          {/* Main Input with '/' Prefix Indicator */}
           <div className="relative flex-1 w-full">
-            <Search className="w-4 h-4 text-slate-400 absolute left-4 top-1/2 -translate-y-1/2" />
+            <span className="font-mono text-slate-500 text-sm absolute left-4 top-1/2 -translate-y-1/2">
+              /
+            </span>
             <input
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search by Title, Pattern, Technique, Company, Data Structure, Keywords (e.g. 'Kadane', 'Stack', 'Amazon', 'Sliding Window')..."
-              className="w-full bg-slate-950 border border-slate-800 focus:border-violet-500 rounded-xl pl-11 pr-4 py-2.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none transition-colors font-mono"
+              placeholder="search topics, patterns, keywords..."
+              className="w-full bg-slate-950 border border-slate-800 focus:border-violet-500 rounded-xl pl-9 pr-4 py-2.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none transition-colors font-mono"
             />
           </div>
 
           {/* Filter Dropdowns */}
-          <div className="flex items-center gap-2 w-full md:w-auto text-xs">
+          <div className="flex items-center gap-2 w-full md:w-auto text-xs font-mono">
             <select
               value={selectedTopic}
               onChange={(e) => setSelectedTopic(e.target.value)}
-              className="bg-slate-950 border border-slate-800 text-slate-300 font-semibold px-3 py-2.5 rounded-xl focus:outline-none focus:border-violet-500 capitalize"
+              className="bg-slate-950 border border-slate-800 text-slate-300 font-mono text-xs px-3 py-2.5 rounded-xl focus:outline-none focus:border-violet-500 capitalize"
             >
-              <option value="ALL">All Topics ({uniqueTopics.length})</option>
+              <option value="ALL">All topics ({uniqueTopics.length})</option>
               {uniqueTopics.map((top) => (
                 <option key={top} value={top}>
                   {top.replace(/-/g, ' ')}
@@ -137,9 +139,9 @@ export default function DSASearchExplorer({ initialSearchIndex }: DSASearchExplo
             <select
               value={selectedDifficulty}
               onChange={(e) => setSelectedDifficulty(e.target.value)}
-              className="bg-slate-950 border border-slate-800 text-slate-300 font-semibold px-3 py-2.5 rounded-xl focus:outline-none focus:border-violet-500 font-mono"
+              className="bg-slate-950 border border-slate-800 text-slate-300 font-mono text-xs px-3 py-2.5 rounded-xl focus:outline-none focus:border-violet-500"
             >
-              <option value="ALL">All Difficulties</option>
+              <option value="ALL">All difficulties</option>
               <option value="EASY">Easy</option>
               <option value="MEDIUM">Medium</option>
               <option value="HARD">Hard</option>
@@ -150,9 +152,9 @@ export default function DSASearchExplorer({ initialSearchIndex }: DSASearchExplo
         {/* Results Counter Bar */}
         <div className="flex items-center justify-between text-xs text-slate-400 font-mono pt-1">
           <span>
-            Found <strong className="text-violet-400">{filteredProblems.length}</strong> problems matching criteria
+            found <strong className="text-violet-400">{filteredProblems.length}</strong> matching criteria
           </span>
-          {query && (
+          {(query || selectedDifficulty !== 'ALL' || selectedTopic !== 'ALL') && (
             <button
               onClick={() => {
                 setQuery('');
@@ -161,7 +163,7 @@ export default function DSASearchExplorer({ initialSearchIndex }: DSASearchExplo
               }}
               className="text-slate-400 hover:text-slate-200 underline text-[11px]"
             >
-              Clear Search
+              clear search
             </button>
           )}
         </div>
@@ -169,7 +171,7 @@ export default function DSASearchExplorer({ initialSearchIndex }: DSASearchExplo
 
       {/* Filtered Search Results Grid / Table */}
       {query || selectedDifficulty !== 'ALL' || selectedTopic !== 'ALL' ? (
-        <div className="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-xl">
+        <div className="bg-slate-900/90 border border-slate-800 rounded-2xl overflow-hidden shadow-xl">
           <table className="w-full text-left text-xs text-slate-300">
             <thead className="bg-slate-950 border-b border-slate-800 text-slate-400 uppercase font-mono text-[10px]">
               <tr>
@@ -225,7 +227,7 @@ export default function DSASearchExplorer({ initialSearchIndex }: DSASearchExplo
                       <td className="px-6 py-4 text-right">
                         <Link
                           href={`/dsa/workspace/${prob.slug}`}
-                          className="text-violet-400 hover:text-violet-300 font-bold inline-flex items-center space-x-1"
+                          className="text-violet-400 hover:text-violet-300 font-mono text-xs font-bold inline-flex items-center space-x-1"
                         >
                           <span>Solve</span>
                           <ChevronRight className="w-3.5 h-3.5" />

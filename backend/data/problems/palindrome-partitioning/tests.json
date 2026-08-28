@@ -2,57 +2,81 @@
   {
     "id": "sample-1",
     "classification": "sample",
-    "input": "\"babad\"",
-    "expectedOutput": "\"bab\"",
-    "explanation": "Sample test 1 for Palindrome Partitioning"
+    "displayInput": "s = \"aab\"",
+    "input": "aab",
+    "stdin": "aab",
+    "expectedOutput": "[[\"a\",\"a\",\"b\"],[\"aa\",\"b\"]]",
+    "explanation": "two palindrome partitions. Expected output: [[\"a\",\"a\",\"b\"],[\"aa\",\"b\"]]",
+    "serializationStatus": "compatible"
   },
   {
     "id": "sample-2",
     "classification": "sample",
-    "input": "\"cbbd\"",
-    "expectedOutput": "\"bb\"",
-    "explanation": "Sample test 2 for Palindrome Partitioning"
+    "displayInput": "s = \"a\"",
+    "input": "a",
+    "stdin": "a",
+    "expectedOutput": "[[\"a\"]]",
+    "explanation": "single character. Expected output: [[\"a\"]]",
+    "serializationStatus": "compatible"
   },
   {
     "id": "sample-3",
     "classification": "sample",
-    "input": "\"a\"",
-    "expectedOutput": "\"a\"",
-    "explanation": "Sample test 3 for Palindrome Partitioning"
+    "displayInput": "s = \"efe\"",
+    "input": "efe",
+    "stdin": "efe",
+    "expectedOutput": "[[\"e\",\"f\",\"e\"],[\"efe\"]]",
+    "explanation": "whole palindrome and singles. Expected output: [[\"e\",\"f\",\"e\"],[\"efe\"]]",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "edge-1",
-    "classification": "edge",
-    "input": "\"\"",
-    "expectedOutput": "\"\"",
-    "explanation": "Empty string boundary"
+    "id": "hidden-1",
+    "classification": "hidden",
+    "displayInput": "s = \"aaa\"",
+    "input": "aaa",
+    "stdin": "aaa",
+    "expectedOutput": "[[\"a\",\"a\",\"a\"],[\"a\",\"aa\"],[\"aa\",\"a\"],[\"aaa\"]]",
+    "explanation": "all palindrome partitions",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "corner-2",
-    "classification": "corner",
-    "input": "\"aaaaa\"",
-    "expectedOutput": "\"aaaaa\"",
-    "explanation": "All identical characters"
+    "id": "hidden-2",
+    "classification": "hidden",
+    "displayInput": "s = \"abc\"",
+    "input": "abc",
+    "stdin": "abc",
+    "expectedOutput": "[[\"a\",\"b\",\"c\"]]",
+    "explanation": "no multi-character palindrome",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "stress-3",
-    "classification": "stress",
-    "input": "\"abcdefghijklmnopqrstuvwxyz\"",
-    "expectedOutput": "1",
-    "explanation": "All distinct characters"
+    "id": "hidden-3",
+    "classification": "hidden",
+    "displayInput": "s = \"abba\"",
+    "input": "abba",
+    "stdin": "abba",
+    "expectedOutput": "[[\"a\",\"b\",\"b\",\"a\"],[\"a\",\"bb\",\"a\"],[\"abba\"]]",
+    "explanation": "even palindrome",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "duplicates-4",
-    "classification": "duplicates",
-    "input": "\"abacaba\"",
-    "expectedOutput": "\"abacaba\"",
-    "explanation": "Symmetric palindrome string"
+    "id": "hidden-4",
+    "classification": "hidden",
+    "displayInput": "s = \"racecar\"",
+    "input": "racecar",
+    "stdin": "racecar",
+    "expectedOutput": "[[\"r\",\"a\",\"c\",\"e\",\"c\",\"a\",\"r\"],[\"r\",\"a\",\"c\",\"e\",\"cac\",\"a\",\"r\"],[\"r\",\"a\",\"cec\",\"a\",\"r\"],[\"r\",\"a\",\"cec\",\"ar\"],[\"r\",\"aceca\",\"r\"],[\"racecar\"]]",
+    "explanation": "multiple palindromic cuts",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "performance-5",
-    "classification": "performance",
-    "input": "\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"",
-    "expectedOutput": "...",
-    "explanation": "Performance test"
+    "id": "hidden-5",
+    "classification": "hidden",
+    "displayInput": "s = \"\"",
+    "input": "\\n",
+    "stdin": "\\n",
+    "expectedOutput": "[[]]",
+    "explanation": "empty string",
+    "serializationStatus": "compatible"
   }
 ]

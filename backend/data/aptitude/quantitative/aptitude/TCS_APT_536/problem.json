@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_536",
+  "slug": "tcs-apt-536",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "25 workers in 16 days. 20 workers do same work in?",
+  "description": "25 workers in 16 days. 20 workers do same work in?",
+  "question": "25 workers in 16 days. 20 workers do same work in?",
+  "options": [
+    "20 days",
+    "18 days",
+    "24 days",
+    "15 days"
+  ],
+  "optionsMap": {
+    "A": "20 days",
+    "B": "18 days",
+    "C": "24 days",
+    "D": "15 days"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "20 days",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

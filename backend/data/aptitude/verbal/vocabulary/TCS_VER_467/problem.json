@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_467",
+  "slug": "tcs-ver-467",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the correctly formed question tag: 'You will help me, ___?'",
+  "description": "Choose the correctly formed question tag: 'You will help me, ___?'",
+  "question": "Choose the correctly formed question tag: 'You will help me, ___?'",
+  "options": [
+    "won't you",
+    "will you",
+    "would you",
+    "shall you"
+  ],
+  "optionsMap": {
+    "A": "won't you",
+    "B": "will you",
+    "C": "would you",
+    "D": "shall you"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "won't you",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

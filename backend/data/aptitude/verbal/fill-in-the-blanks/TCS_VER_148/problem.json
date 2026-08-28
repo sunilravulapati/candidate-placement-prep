@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_148",
+  "slug": "tcs-ver-148",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Her _____ nature made her willing to help anyone in need.",
+  "description": "Her _____ nature made her willing to help anyone in need.",
+  "question": "Her _____ nature made her willing to help anyone in need.",
+  "options": [
+    "altruistic",
+    "selfish",
+    "greedy",
+    "self-centered"
+  ],
+  "optionsMap": {
+    "A": "altruistic",
+    "B": "selfish",
+    "C": "greedy",
+    "D": "self-centered"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "altruistic",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_174",
+  "slug": "tcs-ver-174",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Choose the correctly punctuated sentence:",
+  "description": "Choose the correctly punctuated sentence:",
+  "question": "Choose the correctly punctuated sentence:",
+  "options": [
+    "Its a beautiful day, isn't it?",
+    "It's a beautiful day isn't it?",
+    "It's a beautiful day, isn't it?",
+    "Its a beautiful day isn't it?"
+  ],
+  "optionsMap": {
+    "A": "Its a beautiful day, isn't it?",
+    "B": "It's a beautiful day isn't it?",
+    "C": "It's a beautiful day, isn't it?",
+    "D": "Its a beautiful day isn't it?"
+  },
+  "answer": "C",
+  "answerKey": "C",
+  "correctAnswer": "It's a beautiful day, isn't it?",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

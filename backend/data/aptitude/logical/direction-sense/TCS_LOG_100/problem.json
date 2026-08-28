@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_100",
+  "slug": "tcs-log-100",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "direction-sense",
+  "topicName": "Direction Sense",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Ravi walks 12m North, 5m East, and turns South. He walks 3m. How far is he fr...",
+  "description": "Ravi walks 12m North, 5m East, and turns South. He walks 3m. How far is he from start?",
+  "question": "Ravi walks 12m North, 5m East, and turns South. He walks 3m. How far is he from start?",
+  "options": [
+    "13m (approx)",
+    "14m",
+    "12m",
+    "15m"
+  ],
+  "optionsMap": {
+    "A": "13m (approx)",
+    "B": "14m",
+    "C": "12m",
+    "D": "15m"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "13m (approx)",
+  "tags": [
+    "logical",
+    "direction-sense"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

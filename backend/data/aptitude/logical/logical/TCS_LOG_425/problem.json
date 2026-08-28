@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_425",
+  "slug": "tcs-log-425",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Odd one out: Mango, Apple, Banana, Carrot?",
+  "description": "Odd one out: Mango, Apple, Banana, Carrot?",
+  "question": "Odd one out: Mango, Apple, Banana, Carrot?",
+  "options": [
+    "Carrot",
+    "Mango",
+    "Apple",
+    "Banana"
+  ],
+  "optionsMap": {
+    "A": "Carrot",
+    "B": "Mango",
+    "C": "Apple",
+    "D": "Banana"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Carrot",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

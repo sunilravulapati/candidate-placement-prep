@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_530",
+  "slug": "tcs-ver-530",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: OBSTINATE",
+  "description": "Choose the word most similar in meaning to: OBSTINATE",
+  "question": "Choose the word most similar in meaning to: OBSTINATE",
+  "options": [
+    "Stubborn",
+    "Flexible",
+    "Cooperative",
+    "Agreeable"
+  ],
+  "optionsMap": {
+    "A": "Stubborn",
+    "B": "Flexible",
+    "C": "Cooperative",
+    "D": "Agreeable"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Stubborn",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

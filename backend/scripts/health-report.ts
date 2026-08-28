@@ -48,7 +48,7 @@ export function generateHealthReport() {
     .slice(0, 10);
 
   console.log('\n📊 DSA REPOSITORY METRICS');
-  console.log(`- Total Problems:         ${dsaValidation.scanned}`);
+  console.log(`- Total Problems:         ${dsaValidation.totalScanned}`);
   console.log(`- Topics Covered:         ${indexSummary.topicsCount}`);
   console.log(`- Companies Covered:      ${indexSummary.companiesCount}`);
   console.log(`- Learning Paths:         ${indexSummary.learningPathsCount}`);
@@ -72,14 +72,15 @@ export function generateHealthReport() {
   }
 
   console.log('\n⚠️ ACTIONABLE MISSING METRICS');
-  console.log(`- Missing Solutions:      ${dsaValidation.missingSolutions}`);
-  console.log(`- Missing Editorials:     ${dsaValidation.missingEditorials}`);
-  console.log(`- Missing Hints:          ${dsaValidation.missingHints}`);
-  console.log(`- Missing Examples:       ${dsaValidation.missingExamples}`);
-  console.log(`- Missing Constraints:    ${dsaValidation.missingConstraints}`);
-  console.log(`- Missing Companies:      ${dsaValidation.missingCompanies}`);
-  console.log(`- Missing Relationships:  ${missingRelationships}`);
-  console.log(`- Missing Hidden Tests:   ${dsaValidation.missingHiddenTests}`);
+  console.log(`- Missing Metadata:       ${dsaValidation.totalScanned - dsaValidation.metadataValidCount}`);
+  console.log(`- Missing Visible Tests:  ${dsaValidation.totalScanned - dsaValidation.visibleTestsPassCount}`);
+  console.log(`- Duplicate Tests:        ${dsaValidation.duplicateCount}`);
+  console.log(`- Broken Relationships:   ${dsaValidation.brokenRelationshipsCount}`);
+  console.log(`- Missing C++ Solutions:  ${dsaValidation.totalScanned - dsaValidation.solutionsCount.cpp}`);
+  console.log(`- Missing Py Solutions:   ${dsaValidation.totalScanned - dsaValidation.solutionsCount.python}`);
+  console.log(`- Missing Java Solutions: ${dsaValidation.totalScanned - dsaValidation.solutionsCount.java}`);
+  console.log(`- Missing JS Solutions:   ${dsaValidation.totalScanned - dsaValidation.solutionsCount.javascript}`);
+  console.log(`- Missing TS Solutions:   ${dsaValidation.totalScanned - dsaValidation.solutionsCount.typescript}`);
 
   // 2. Aptitude Repository Stats
   const aptValidation = validateAptitudeRepository();

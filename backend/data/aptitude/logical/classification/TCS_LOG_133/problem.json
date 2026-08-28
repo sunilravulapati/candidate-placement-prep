@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_133",
+  "slug": "tcs-log-133",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "classification",
+  "topicName": "Classification",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Find the odd one: Keyboard, Mouse, Monitor, CPU, Printer, Scanner",
+  "description": "Find the odd one: Keyboard, Mouse, Monitor, CPU, Printer, Scanner",
+  "question": "Find the odd one: Keyboard, Mouse, Monitor, CPU, Printer, Scanner",
+  "options": [
+    "Printer or Scanner",
+    "Keyboard",
+    "Mouse",
+    "Monitor"
+  ],
+  "optionsMap": {
+    "A": "Printer or Scanner",
+    "B": "Keyboard",
+    "C": "Mouse",
+    "D": "Monitor"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Printer or Scanner",
+  "tags": [
+    "logical",
+    "classification"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

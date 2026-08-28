@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_291",
+  "slug": "tcs-apt-291",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "In an election, candidate A gets 55% votes. Winning margin is 2000 votes. Tot...",
+  "description": "In an election, candidate A gets 55% votes. Winning margin is 2000 votes. Total votes?",
+  "question": "In an election, candidate A gets 55% votes. Winning margin is 2000 votes. Total votes?",
+  "options": [
+    "20000",
+    "10000",
+    "15000",
+    "25000"
+  ],
+  "optionsMap": {
+    "A": "20000",
+    "B": "10000",
+    "C": "15000",
+    "D": "25000"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "20000",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

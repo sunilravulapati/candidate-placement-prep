@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_082",
+  "slug": "tcs-apt-082",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "time-and-work",
+  "topicName": "Time and Work",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "20 men can complete a job in 30 days. After 10 days, 5 more men join. How man...",
+  "description": "20 men can complete a job in 30 days. After 10 days, 5 more men join. How many more days are needed?",
+  "question": "20 men can complete a job in 30 days. After 10 days, 5 more men join. How many more days are needed?",
+  "options": [
+    "16 days",
+    "18 days",
+    "20 days",
+    "15 days"
+  ],
+  "optionsMap": {
+    "A": "16 days",
+    "B": "18 days",
+    "C": "20 days",
+    "D": "15 days"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "16 days",
+  "tags": [
+    "quantitative",
+    "time-and-work"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

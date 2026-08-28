@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_523",
+  "slug": "tcs-ver-523",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: MELANCHOLY",
+  "description": "Choose the word most similar in meaning to: MELANCHOLY",
+  "question": "Choose the word most similar in meaning to: MELANCHOLY",
+  "options": [
+    "Sadness",
+    "Happiness",
+    "Excitement",
+    "Joy"
+  ],
+  "optionsMap": {
+    "A": "Sadness",
+    "B": "Happiness",
+    "C": "Excitement",
+    "D": "Joy"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Sadness",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_312",
+  "slug": "tcs-log-312",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Coding-Decoding: KNIFE coded as MPKHG. FORK coded as?",
+  "description": "Coding-Decoding: KNIFE coded as MPKHG. FORK coded as?",
+  "question": "Coding-Decoding: KNIFE coded as MPKHG. FORK coded as?",
+  "options": [
+    "HQTM",
+    "IQTM",
+    "HQSM",
+    "GQTM"
+  ],
+  "optionsMap": {
+    "A": "HQTM",
+    "B": "IQTM",
+    "C": "HQSM",
+    "D": "GQTM"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "HQTM",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

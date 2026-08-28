@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_322",
+  "slug": "tcs-ver-322",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "error-spotting",
+  "topicName": "Error Spotting",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Spot the error: (A)They discussed (B)about the (C)plan for (D)the new project.",
+  "description": "Spot the error: (A)They discussed (B)about the (C)plan for (D)the new project.",
+  "question": "Spot the error: (A)They discussed (B)about the (C)plan for (D)the new project.",
+  "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "optionsMap": {
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "D": "D"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "B",
+  "tags": [
+    "verbal",
+    "error-spotting"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

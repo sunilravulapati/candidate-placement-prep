@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_204",
+  "slug": "tcs-ver-204",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "para-jumbles",
+  "topicName": "Para Jumbles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "P: Education is the foundation of any civilized society. Q: It enables indivi...",
+  "description": "P: Education is the foundation of any civilized society. Q: It enables individuals to think critically and contribute meaningfully. R: Governments must therefore prioritize funding for public schools. S: Without educated citizens, democracy itself is at risk. Arrange in logical order:",
+  "question": "P: Education is the foundation of any civilized society. Q: It enables individuals to think critically and contribute meaningfully. R: Governments must therefore prioritize funding for public schools. S: Without educated citizens, democracy itself is at risk. Arrange in logical order:",
+  "options": [
+    "P-Q-S-R",
+    "Q-P-S-R",
+    "P-S-Q-R",
+    "R-P-Q-S"
+  ],
+  "optionsMap": {
+    "A": "P-Q-S-R",
+    "B": "Q-P-S-R",
+    "C": "P-S-Q-R",
+    "D": "R-P-Q-S"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "P-Q-S-R",
+  "tags": [
+    "verbal",
+    "para-jumbles"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

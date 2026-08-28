@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_247",
+  "slug": "tcs-apt-247",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The product of two numbers is 120. HCF is 4. Find LCM.",
+  "description": "The product of two numbers is 120. HCF is 4. Find LCM.",
+  "question": "The product of two numbers is 120. HCF is 4. Find LCM.",
+  "options": [
+    "30",
+    "40",
+    "20",
+    "50"
+  ],
+  "optionsMap": {
+    "A": "30",
+    "B": "40",
+    "C": "20",
+    "D": "50"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "30",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

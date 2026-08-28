@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_350",
+  "slug": "tcs-log-350",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Spatial reasoning: A cube painted red on all faces and cut into 27 equal cube...",
+  "description": "Spatial reasoning: A cube painted red on all faces and cut into 27 equal cubes. How many have paint on exactly 2 faces?",
+  "question": "Spatial reasoning: A cube painted red on all faces and cut into 27 equal cubes. How many have paint on exactly 2 faces?",
+  "options": [
+    "12",
+    "8",
+    "6",
+    "24"
+  ],
+  "optionsMap": {
+    "A": "12",
+    "B": "8",
+    "C": "6",
+    "D": "24"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "12",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_497",
+  "slug": "tcs-log-497",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Blood rel: M is N's father. N is O's daughter. P is O's son. How is M related...",
+  "description": "Blood rel: M is N's father. N is O's daughter. P is O's son. How is M related to P?",
+  "question": "Blood rel: M is N's father. N is O's daughter. P is O's son. How is M related to P?",
+  "options": [
+    "Grandfather",
+    "Father",
+    "Uncle",
+    "Cousin"
+  ],
+  "optionsMap": {
+    "A": "Grandfather",
+    "B": "Father",
+    "C": "Uncle",
+    "D": "Cousin"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Grandfather",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

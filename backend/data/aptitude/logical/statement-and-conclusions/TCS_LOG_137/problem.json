@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_137",
+  "slug": "tcs-log-137",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "statement-and-conclusions",
+  "topicName": "Statement and Conclusions",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Statement: All birds can fly. Penguins are birds. Conclusion: Penguins can fly.",
+  "description": "Statement: All birds can fly. Penguins are birds. Conclusion: Penguins can fly.",
+  "question": "Statement: All birds can fly. Penguins are birds. Conclusion: Penguins can fly.",
+  "options": [
+    "Conclusion follows (logically)",
+    "Conclusion does not follow (factually)",
+    "Cannot be determined",
+    "Both A and B"
+  ],
+  "optionsMap": {
+    "A": "Conclusion follows (logically)",
+    "B": "Conclusion does not follow (factually)",
+    "C": "Cannot be determined",
+    "D": "Both A and B"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Conclusion follows (logically)",
+  "tags": [
+    "logical",
+    "statement-and-conclusions"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

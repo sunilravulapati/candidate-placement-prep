@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_476",
+  "slug": "tcs-log-476",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number: __,3,8,15,24,35?",
+  "description": "Number: __,3,8,15,24,35?",
+  "question": "Number: __,3,8,15,24,35?",
+  "options": [
+    "0",
+    "1",
+    "2",
+    "-1"
+  ],
+  "optionsMap": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "-1"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "0",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_367",
+  "slug": "tcs-log-367",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Seating: 8 people in circle. A sits 3 left of B and 5 right of B. People betw...",
+  "description": "Seating: 8 people in circle. A sits 3 left of B and 5 right of B. People between them on other side?",
+  "question": "Seating: 8 people in circle. A sits 3 left of B and 5 right of B. People between them on other side?",
+  "options": [
+    "4",
+    "3",
+    "2",
+    "5"
+  ],
+  "optionsMap": {
+    "A": "4",
+    "B": "3",
+    "C": "2",
+    "D": "5"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "4",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

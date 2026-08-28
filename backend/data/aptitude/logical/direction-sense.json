@@ -1,0 +1,422 @@
+[
+  {
+    "id": "TCS_LOG_086",
+    "title": "A walks 10m North, turns right walks 5m, turns right walks 10m. Distance from...",
+    "description": "A walks 10m North, turns right walks 5m, turns right walks 10m. Distance from start?",
+    "question": "A walks 10m North, turns right walks 5m, turns right walks 10m. Distance from start?",
+    "options": [
+      "5m East",
+      "5m West",
+      "10m East",
+      "5m North"
+    ],
+    "answer": "5m East",
+    "answerKey": "A",
+    "correctAnswer": "5m East",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 5m East.",
+    "topic": "direction-sense",
+    "topicName": "Direction Sense",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_090",
+    "title": "After turning clockwise 90° from South, where am I facing?",
+    "description": "After turning clockwise 90° from South, where am I facing?",
+    "question": "After turning clockwise 90° from South, where am I facing?",
+    "options": [
+      "West",
+      "East",
+      "North",
+      "South"
+    ],
+    "answer": "West",
+    "answerKey": "A",
+    "correctAnswer": "West",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: West.",
+    "topic": "direction-sense",
+    "topicName": "Direction Sense",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_091",
+    "title": "Starting West, turn right, then turn right again. Which direction?",
+    "description": "Starting West, turn right, then turn right again. Which direction?",
+    "question": "Starting West, turn right, then turn right again. Which direction?",
+    "options": [
+      "East",
+      "West",
+      "North",
+      "South"
+    ],
+    "answer": "East",
+    "answerKey": "A",
+    "correctAnswer": "East",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: East.",
+    "topic": "direction-sense",
+    "topicName": "Direction Sense",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_092",
+    "title": "A walks 3km North, 4km East, 3km South, and 4km West. He is now:",
+    "description": "A walks 3km North, 4km East, 3km South, and 4km West. He is now:",
+    "question": "A walks 3km North, 4km East, 3km South, and 4km West. He is now:",
+    "options": [
+      "At starting point",
+      "4km East",
+      "4km West",
+      "3km North"
+    ],
+    "answer": "At starting point",
+    "answerKey": "A",
+    "correctAnswer": "At starting point",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: At starting point.",
+    "topic": "direction-sense",
+    "topicName": "Direction Sense",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_095",
+    "title": "In a city, roads run North-South and East-West. If you face North and turn le...",
+    "description": "In a city, roads run North-South and East-West. If you face North and turn left, you face:",
+    "question": "In a city, roads run North-South and East-West. If you face North and turn left, you face:",
+    "options": [
+      "West",
+      "East",
+      "South",
+      "North"
+    ],
+    "answer": "West",
+    "answerKey": "A",
+    "correctAnswer": "West",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: West.",
+    "topic": "direction-sense",
+    "topicName": "Direction Sense",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_097",
+    "title": "P walks 10m North, Q starts at same point and walks 10m South. How far apart ...",
+    "description": "P walks 10m North, Q starts at same point and walks 10m South. How far apart are they?",
+    "question": "P walks 10m North, Q starts at same point and walks 10m South. How far apart are they?",
+    "options": [
+      "20 m",
+      "10 m",
+      "0 m",
+      "15 m"
+    ],
+    "answer": "20 m",
+    "answerKey": "A",
+    "correctAnswer": "20 m",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 20 m.",
+    "topic": "direction-sense",
+    "topicName": "Direction Sense",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_098",
+    "title": "From home I walk 5m East, 5m North, 5m West, and 5m South. Where am I?",
+    "description": "From home I walk 5m East, 5m North, 5m West, and 5m South. Where am I?",
+    "question": "From home I walk 5m East, 5m North, 5m West, and 5m South. Where am I?",
+    "options": [
+      "At home",
+      "5m North",
+      "5m East",
+      "5m South"
+    ],
+    "answer": "At home",
+    "answerKey": "A",
+    "correctAnswer": "At home",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: At home.",
+    "topic": "direction-sense",
+    "topicName": "Direction Sense",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_089",
+    "title": "Ram walks 5m North, turns left 3m, turns left 5m, turns right 2m. How far fro...",
+    "description": "Ram walks 5m North, turns left 3m, turns left 5m, turns right 2m. How far from start, facing which direction?",
+    "question": "Ram walks 5m North, turns left 3m, turns left 5m, turns right 2m. How far from start, facing which direction?",
+    "options": [
+      "5m East",
+      "5m West",
+      "3m East",
+      "2m East"
+    ],
+    "answer": "5m East",
+    "answerKey": "A",
+    "correctAnswer": "5m East",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 5m East.",
+    "topic": "direction-sense",
+    "topicName": "Direction Sense",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_099",
+    "title": "A man faces West. He turns 45° clockwise, then 180° anti-clockwise. Where doe...",
+    "description": "A man faces West. He turns 45° clockwise, then 180° anti-clockwise. Where does he face?",
+    "question": "A man faces West. He turns 45° clockwise, then 180° anti-clockwise. Where does he face?",
+    "options": [
+      "Southeast",
+      "Northwest",
+      "Northeast",
+      "Southwest"
+    ],
+    "answer": "Southeast",
+    "answerKey": "A",
+    "correctAnswer": "Southeast",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Southeast.",
+    "topic": "direction-sense",
+    "topicName": "Direction Sense",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_100",
+    "title": "Ravi walks 12m North, 5m East, and turns South. He walks 3m. How far is he fr...",
+    "description": "Ravi walks 12m North, 5m East, and turns South. He walks 3m. How far is he from start?",
+    "question": "Ravi walks 12m North, 5m East, and turns South. He walks 3m. How far is he from start?",
+    "options": [
+      "13m (approx)",
+      "14m",
+      "12m",
+      "15m"
+    ],
+    "answer": "13m (approx)",
+    "answerKey": "A",
+    "correctAnswer": "13m (approx)",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 13m (approx).",
+    "topic": "direction-sense",
+    "topicName": "Direction Sense",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_087",
+    "title": "Starting North, turn right thrice. Which direction am I facing?",
+    "description": "Starting North, turn right thrice. Which direction am I facing?",
+    "question": "Starting North, turn right thrice. Which direction am I facing?",
+    "options": [
+      "West",
+      "North",
+      "East",
+      "South"
+    ],
+    "answer": "West",
+    "answerKey": "A",
+    "correctAnswer": "West",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: West.",
+    "topic": "direction-sense",
+    "topicName": "Direction Sense",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_088",
+    "title": "A goes 6 km East, then 8 km South. How far from starting point?",
+    "description": "A goes 6 km East, then 8 km South. How far from starting point?",
+    "question": "A goes 6 km East, then 8 km South. How far from starting point?",
+    "options": [
+      "10 km",
+      "14 km",
+      "12 km",
+      "8 km"
+    ],
+    "answer": "10 km",
+    "answerKey": "A",
+    "correctAnswer": "10 km",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10 km.",
+    "topic": "direction-sense",
+    "topicName": "Direction Sense",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_094",
+    "title": "A walks 20m South, turns left 10m, turns left 20m, turns left 10m. He is now:",
+    "description": "A walks 20m South, turns left 10m, turns left 20m, turns left 10m. He is now:",
+    "question": "A walks 20m South, turns left 10m, turns left 20m, turns left 10m. He is now:",
+    "options": [
+      "At start",
+      "20m North",
+      "10m South",
+      "20m East"
+    ],
+    "answer": "At start",
+    "answerKey": "A",
+    "correctAnswer": "At start",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: At start.",
+    "topic": "direction-sense",
+    "topicName": "Direction Sense",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_096",
+    "title": "A town map: School is 3km East of Library. Hospital is 4km North of School. H...",
+    "description": "A town map: School is 3km East of Library. Hospital is 4km North of School. How far is Hospital from Library?",
+    "question": "A town map: School is 3km East of Library. Hospital is 4km North of School. How far is Hospital from Library?",
+    "options": [
+      "5 km",
+      "7 km",
+      "4 km",
+      "6 km"
+    ],
+    "answer": "5 km",
+    "answerKey": "A",
+    "correctAnswer": "5 km",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 5 km.",
+    "topic": "direction-sense",
+    "topicName": "Direction Sense",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

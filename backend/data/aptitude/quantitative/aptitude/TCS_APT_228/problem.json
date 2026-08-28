@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_228",
+  "slug": "tcs-apt-228",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A train 200m long crosses a 300m bridge at 50 km/h. Time taken?",
+  "description": "A train 200m long crosses a 300m bridge at 50 km/h. Time taken?",
+  "question": "A train 200m long crosses a 300m bridge at 50 km/h. Time taken?",
+  "options": [
+    "36 sec",
+    "40 sec",
+    "30 sec",
+    "24 sec"
+  ],
+  "optionsMap": {
+    "A": "36 sec",
+    "B": "40 sec",
+    "C": "30 sec",
+    "D": "24 sec"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "36 sec",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

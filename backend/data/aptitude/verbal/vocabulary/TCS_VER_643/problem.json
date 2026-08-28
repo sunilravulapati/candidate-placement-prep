@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_643",
+  "slug": "tcs-ver-643",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of QUERULOUS",
+  "description": "Choose the antonym of QUERULOUS",
+  "question": "Choose the antonym of QUERULOUS",
+  "options": [
+    "Content",
+    "Complaining",
+    "Grumbling",
+    "Whining"
+  ],
+  "optionsMap": {
+    "A": "Content",
+    "B": "Complaining",
+    "C": "Grumbling",
+    "D": "Whining"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Content",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

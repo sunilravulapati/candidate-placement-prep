@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_142",
+  "slug": "tcs-apt-142",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "number-series",
+  "topicName": "Number Series",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Find the next: 1, 1, 2, 3, 5, 8, ___",
+  "description": "Find the next: 1, 1, 2, 3, 5, 8, ___",
+  "question": "Find the next: 1, 1, 2, 3, 5, 8, ___",
+  "options": [
+    "13",
+    "11",
+    "14",
+    "10"
+  ],
+  "optionsMap": {
+    "A": "13",
+    "B": "11",
+    "C": "14",
+    "D": "10"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "13",
+  "tags": [
+    "quantitative",
+    "number-series"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_215",
+  "slug": "tcs-ver-215",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What does 'hit the nail on the head' mean?",
+  "description": "What does 'hit the nail on the head' mean?",
+  "question": "What does 'hit the nail on the head' mean?",
+  "options": [
+    "Describe something accurately",
+    "Cause physical harm",
+    "Make a mistake",
+    "Build something"
+  ],
+  "optionsMap": {
+    "A": "Describe something accurately",
+    "B": "Cause physical harm",
+    "C": "Make a mistake",
+    "D": "Build something"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Describe something accurately",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

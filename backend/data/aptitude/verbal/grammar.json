@@ -1,0 +1,752 @@
+[
+  {
+    "id": "TCS_VER_174",
+    "title": "Choose the correctly punctuated sentence:",
+    "description": "Choose the correctly punctuated sentence:",
+    "question": "Choose the correctly punctuated sentence:",
+    "options": [
+      "Its a beautiful day, isn't it?",
+      "It's a beautiful day isn't it?",
+      "It's a beautiful day, isn't it?",
+      "Its a beautiful day isn't it?"
+    ],
+    "answer": "It's a beautiful day, isn't it?",
+    "answerKey": "C",
+    "correctAnswer": "It's a beautiful day, isn't it?",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (C) is the correct answer: It's a beautiful day, isn't it?.",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_175",
+    "title": "Which sentence uses the correct form of the verb?",
+    "description": "Which sentence uses the correct form of the verb?",
+    "question": "Which sentence uses the correct form of the verb?",
+    "options": [
+      "He has went to the market.",
+      "He have gone to the market.",
+      "He has gone to the market.",
+      "He have went to the market."
+    ],
+    "answer": "He has gone to the market.",
+    "answerKey": "C",
+    "correctAnswer": "He has gone to the market.",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (C) is the correct answer: He has gone to the market..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_179",
+    "title": "Which sentence uses the apostrophe correctly?",
+    "description": "Which sentence uses the apostrophe correctly?",
+    "question": "Which sentence uses the apostrophe correctly?",
+    "options": [
+      "The childrens' toys were scattered.",
+      "The children's toys were scattered.",
+      "The childrens toys' were scattered.",
+      "The children toys were scattered."
+    ],
+    "answer": "The children's toys were scattered.",
+    "answerKey": "B",
+    "correctAnswer": "The children's toys were scattered.",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (B) is the correct answer: The children's toys were scattered..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_182",
+    "title": "Identify the passive voice sentence:",
+    "description": "Identify the passive voice sentence:",
+    "question": "Identify the passive voice sentence:",
+    "options": [
+      "She writes a letter.",
+      "A letter is written by her.",
+      "She is writing a letter.",
+      "She wrote a letter."
+    ],
+    "answer": "A letter is written by her.",
+    "answerKey": "B",
+    "correctAnswer": "A letter is written by her.",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (B) is the correct answer: A letter is written by her..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_191",
+    "title": "Choose the correctly written sentence:",
+    "description": "Choose the correctly written sentence:",
+    "question": "Choose the correctly written sentence:",
+    "options": [
+      "The boys' bicycle is red.",
+      "The boys bicycle is red.",
+      "The boy's bicycles is red.",
+      "The boys bicycles is red."
+    ],
+    "answer": "The boys' bicycle is red.",
+    "answerKey": "A",
+    "correctAnswer": "The boys' bicycle is red.",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: The boys' bicycle is red..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_198",
+    "title": "Identify the correct use of articles:",
+    "description": "Identify the correct use of articles:",
+    "question": "Identify the correct use of articles:",
+    "options": [
+      "She is best student in the class.",
+      "She is the best student in the class.",
+      "She is a best student in class.",
+      "She is best student in a class."
+    ],
+    "answer": "She is the best student in the class.",
+    "answerKey": "B",
+    "correctAnswer": "She is the best student in the class.",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (B) is the correct answer: She is the best student in the class..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_177",
+    "title": "Choose the sentence that is grammatically correct:",
+    "description": "Choose the sentence that is grammatically correct:",
+    "question": "Choose the sentence that is grammatically correct:",
+    "options": [
+      "Between you and I, this is wrong.",
+      "Between you and me, this is wrong.",
+      "Between you and I, this is right.",
+      "Between me and you, this is wrong."
+    ],
+    "answer": "Between you and me, this is wrong.",
+    "answerKey": "B",
+    "correctAnswer": "Between you and me, this is wrong.",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: Between you and me, this is wrong..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_180",
+    "title": "Identify the sentence that is grammatically correct:",
+    "description": "Identify the sentence that is grammatically correct:",
+    "question": "Identify the sentence that is grammatically correct:",
+    "options": [
+      "Neither the manager nor the employees was informed.",
+      "Neither the manager nor the employees were informed.",
+      "Neither the manager nor the employees has been informed.",
+      "Neither the manager nor employees is informed."
+    ],
+    "answer": "Neither the manager nor the employees were informed.",
+    "answerKey": "B",
+    "correctAnswer": "Neither the manager nor the employees were informed.",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: Neither the manager nor the employees were informed..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_184",
+    "title": "Which sentence contains a dangling modifier?",
+    "description": "Which sentence contains a dangling modifier?",
+    "question": "Which sentence contains a dangling modifier?",
+    "options": [
+      "Walking to school, the rain started.",
+      "While walking to school, I got wet in the rain.",
+      "Walking to school, she got wet in the rain.",
+      "She was walking to school when it rained."
+    ],
+    "answer": "Walking to school, the rain started.",
+    "answerKey": "A",
+    "correctAnswer": "Walking to school, the rain started.",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Walking to school, the rain started..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_185",
+    "title": "Choose the grammatically correct sentence:",
+    "description": "Choose the grammatically correct sentence:",
+    "question": "Choose the grammatically correct sentence:",
+    "options": [
+      "I wish I was taller than him.",
+      "I wish I were taller than him.",
+      "I wish I am taller than him.",
+      "I wish I be taller than him."
+    ],
+    "answer": "I wish I were taller than him.",
+    "answerKey": "B",
+    "correctAnswer": "I wish I were taller than him.",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: I wish I were taller than him..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_187",
+    "title": "Identify the sentence with correct parallel structure:",
+    "description": "Identify the sentence with correct parallel structure:",
+    "question": "Identify the sentence with correct parallel structure:",
+    "options": [
+      "She likes reading, to swim, and jogging.",
+      "She likes reading, swimming, and jogging.",
+      "She likes to read, swim, and jogging.",
+      "She likes to read, swimming, and to jog."
+    ],
+    "answer": "She likes reading, swimming, and jogging.",
+    "answerKey": "B",
+    "correctAnswer": "She likes reading, swimming, and jogging.",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: She likes reading, swimming, and jogging..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_188",
+    "title": "Choose the correct sentence:",
+    "description": "Choose the correct sentence:",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "The data is being analyzed by the scientist.",
+      "The data are being analyzed by the scientists.",
+      "The scientist is analyzing the datas.",
+      "The scientist analyze the data."
+    ],
+    "answer": "The data are being analyzed by the scientists.",
+    "answerKey": "B",
+    "correctAnswer": "The data are being analyzed by the scientists.",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: The data are being analyzed by the scientists..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_190",
+    "title": "Identify the sentence with correct word order:",
+    "description": "Identify the sentence with correct word order:",
+    "question": "Identify the sentence with correct word order:",
+    "options": [
+      "She only told him the truth.",
+      "Only she told him the truth.",
+      "She told only him the truth.",
+      "She told him only the truth."
+    ],
+    "answer": "Only she told him the truth.",
+    "answerKey": "B",
+    "correctAnswer": "Only she told him the truth.",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: Only she told him the truth..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_192",
+    "title": "Identify the sentence with correct use of 'who' and 'whom':",
+    "description": "Identify the sentence with correct use of 'who' and 'whom':",
+    "question": "Identify the sentence with correct use of 'who' and 'whom':",
+    "options": [
+      "Who did you speak to?",
+      "Whom did you speak to?",
+      "To who did you speak?",
+      "Whom spoke to you?"
+    ],
+    "answer": "Whom did you speak to?",
+    "answerKey": "B",
+    "correctAnswer": "Whom did you speak to?",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: Whom did you speak to?.",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_193",
+    "title": "Choose the grammatically correct option:",
+    "description": "Choose the grammatically correct option:",
+    "question": "Choose the grammatically correct option:",
+    "options": [
+      "Each of the students have submitted their forms.",
+      "Each of the students has submitted his or her form.",
+      "Each of the student has submitted their form.",
+      "Each students has submitted their forms."
+    ],
+    "answer": "Each of the students has submitted his or her form.",
+    "answerKey": "B",
+    "correctAnswer": "Each of the students has submitted his or her form.",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: Each of the students has submitted his or her form..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_194",
+    "title": "Which sentence correctly uses a semicolon?",
+    "description": "Which sentence correctly uses a semicolon?",
+    "question": "Which sentence correctly uses a semicolon?",
+    "options": [
+      "She was tired; but she kept working.",
+      "She was tired; however, she kept working.",
+      "She was tired; and she kept working.",
+      "She was tired; yet, she kept working."
+    ],
+    "answer": "She was tired; however, she kept working.",
+    "answerKey": "B",
+    "correctAnswer": "She was tired; however, she kept working.",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: She was tired; however, she kept working..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_195",
+    "title": "Choose the sentence that uses the correct comparative form:",
+    "description": "Choose the sentence that uses the correct comparative form:",
+    "question": "Choose the sentence that uses the correct comparative form:",
+    "options": [
+      "This is the most unique solution.",
+      "This is a more unique solution.",
+      "This is a unique solution.",
+      "This is the uniquest solution."
+    ],
+    "answer": "This is a unique solution.",
+    "answerKey": "C",
+    "correctAnswer": "This is a unique solution.",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (C) is the correct answer: This is a unique solution..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_199",
+    "title": "Choose the sentence with correct pronoun reference:",
+    "description": "Choose the sentence with correct pronoun reference:",
+    "question": "Choose the sentence with correct pronoun reference:",
+    "options": [
+      "The teacher told the student that he was wrong.",
+      "The teacher told the student, 'You are wrong.'",
+      "He was told by the teacher he was wrong.",
+      "The teacher told him he was wrong to student."
+    ],
+    "answer": "The teacher told the student, 'You are wrong.'",
+    "answerKey": "B",
+    "correctAnswer": "The teacher told the student, 'You are wrong.'",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: The teacher told the student, 'You are wrong.'.",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_171",
+    "title": "Identify the correct sentence:",
+    "description": "Identify the correct sentence:",
+    "question": "Identify the correct sentence:",
+    "options": [
+      "Neither of the boys have done their homework.",
+      "Neither of the boys has done his homework.",
+      "Neither of the boys has done their homeworks.",
+      "Neither of the boys have done his homework."
+    ],
+    "answer": "Neither of the boys has done his homework.",
+    "answerKey": "B",
+    "correctAnswer": "Neither of the boys has done his homework.",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: Neither of the boys has done his homework..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_173",
+    "title": "Identify the grammatically correct sentence:",
+    "description": "Identify the grammatically correct sentence:",
+    "question": "Identify the grammatically correct sentence:",
+    "options": [
+      "The team are playing good today.",
+      "The team is playing well today.",
+      "The team is playing good today.",
+      "The team are playing well today."
+    ],
+    "answer": "The team is playing well today.",
+    "answerKey": "B",
+    "correctAnswer": "The team is playing well today.",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: The team is playing well today..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_176",
+    "title": "Identify the sentence with correct subject-verb agreement:",
+    "description": "Identify the sentence with correct subject-verb agreement:",
+    "question": "Identify the sentence with correct subject-verb agreement:",
+    "options": [
+      "A number of students was absent today.",
+      "A number of students were absent today.",
+      "The number of students were absent today.",
+      "A number of student was absent."
+    ],
+    "answer": "A number of students were absent today.",
+    "answerKey": "B",
+    "correctAnswer": "A number of students were absent today.",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: A number of students were absent today..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_181",
+    "title": "Choose the sentence with correct use of 'fewer' and 'less':",
+    "description": "Choose the sentence with correct use of 'fewer' and 'less':",
+    "question": "Choose the sentence with correct use of 'fewer' and 'less':",
+    "options": [
+      "Less people attended the event this year.",
+      "Fewer people attended the event this year.",
+      "Less peoples attended the event this year.",
+      "Fewer amount of people attended."
+    ],
+    "answer": "Fewer people attended the event this year.",
+    "answerKey": "B",
+    "correctAnswer": "Fewer people attended the event this year.",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: Fewer people attended the event this year..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_186",
+    "title": "Which sentence uses the correct tense?",
+    "description": "Which sentence uses the correct tense?",
+    "question": "Which sentence uses the correct tense?",
+    "options": [
+      "If it will rain, we will cancel the match.",
+      "If it rains, we will cancel the match.",
+      "If it rained, we will cancel the match.",
+      "If it rains, we cancel the match."
+    ],
+    "answer": "If it rains, we will cancel the match.",
+    "answerKey": "B",
+    "correctAnswer": "If it rains, we will cancel the match.",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: If it rains, we will cancel the match..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_189",
+    "title": "Which is the correctly formed question?",
+    "description": "Which is the correctly formed question?",
+    "question": "Which is the correctly formed question?",
+    "options": [
+      "Do you know where does he live?",
+      "Do you know where he lives?",
+      "Do you know where he is living?",
+      "Do you know where is he living?"
+    ],
+    "answer": "Do you know where he lives?",
+    "answerKey": "B",
+    "correctAnswer": "Do you know where he lives?",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: Do you know where he lives?.",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_197",
+    "title": "Which sentence is in the future perfect tense?",
+    "description": "Which sentence is in the future perfect tense?",
+    "question": "Which sentence is in the future perfect tense?",
+    "options": [
+      "She will complete the project.",
+      "She will have completed the project by tomorrow.",
+      "She is completing the project.",
+      "She has completed the project."
+    ],
+    "answer": "She will have completed the project by tomorrow.",
+    "answerKey": "B",
+    "correctAnswer": "She will have completed the project by tomorrow.",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: She will have completed the project by tomorrow..",
+    "topic": "grammar",
+    "topicName": "Grammar",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

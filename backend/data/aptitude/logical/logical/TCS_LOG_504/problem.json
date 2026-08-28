@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_504",
+  "slug": "tcs-log-504",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Calendar: If Apr 1 is Thursday, then May 1 is?",
+  "description": "Calendar: If Apr 1 is Thursday, then May 1 is?",
+  "question": "Calendar: If Apr 1 is Thursday, then May 1 is?",
+  "options": [
+    "Saturday",
+    "Sunday",
+    "Friday",
+    "Monday"
+  ],
+  "optionsMap": {
+    "A": "Saturday",
+    "B": "Sunday",
+    "C": "Friday",
+    "D": "Monday"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Saturday",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

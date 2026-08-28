@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_510",
+  "slug": "tcs-ver-510",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What is the antonym of 'meticulous'?",
+  "description": "What is the antonym of 'meticulous'?",
+  "question": "What is the antonym of 'meticulous'?",
+  "options": [
+    "Careless",
+    "Careful",
+    "Thorough",
+    "Precise"
+  ],
+  "optionsMap": {
+    "A": "Careless",
+    "B": "Careful",
+    "C": "Thorough",
+    "D": "Precise"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Careless",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_694",
+  "slug": "tcs-ver-694",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Fill blank: The project was __ by the lack of funding.",
+  "description": "Fill blank: The project was __ by the lack of funding.",
+  "question": "Fill blank: The project was __ by the lack of funding.",
+  "options": [
+    "hampered",
+    "helped",
+    "improved",
+    "expanded"
+  ],
+  "optionsMap": {
+    "A": "hampered",
+    "B": "helped",
+    "C": "improved",
+    "D": "expanded"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "hampered",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

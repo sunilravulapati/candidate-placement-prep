@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_108",
+  "slug": "tcs-log-108",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "analogies",
+  "topicName": "Analogies",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Library : Books :: Gallery : ?",
+  "description": "Library : Books :: Gallery : ?",
+  "question": "Library : Books :: Gallery : ?",
+  "options": [
+    "Paintings",
+    "Sculptures",
+    "Films",
+    "Plays"
+  ],
+  "optionsMap": {
+    "A": "Paintings",
+    "B": "Sculptures",
+    "C": "Films",
+    "D": "Plays"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Paintings",
+  "tags": [
+    "logical",
+    "analogies"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

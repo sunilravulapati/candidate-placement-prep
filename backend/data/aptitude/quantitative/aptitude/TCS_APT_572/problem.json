@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_572",
+  "slug": "tcs-apt-572",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If A is B's 1.2 times, B is C's 0.8 times, A:C = ?",
+  "description": "If A is B's 1.2 times, B is C's 0.8 times, A:C = ?",
+  "question": "If A is B's 1.2 times, B is C's 0.8 times, A:C = ?",
+  "options": [
+    "0.96",
+    "1.5",
+    "0.8",
+    "1.2"
+  ],
+  "optionsMap": {
+    "A": "0.96",
+    "B": "1.5",
+    "C": "0.8",
+    "D": "1.2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "0.96",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

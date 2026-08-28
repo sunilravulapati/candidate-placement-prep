@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_500",
+  "slug": "tcs-ver-500",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What is the synonym of 'garrulous'?",
+  "description": "What is the synonym of 'garrulous'?",
+  "question": "What is the synonym of 'garrulous'?",
+  "options": [
+    "Talkative",
+    "Silent",
+    "Reserved",
+    "Quiet"
+  ],
+  "optionsMap": {
+    "A": "Talkative",
+    "B": "Silent",
+    "C": "Reserved",
+    "D": "Quiet"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Talkative",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

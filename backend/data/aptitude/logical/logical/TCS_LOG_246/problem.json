@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_246",
+  "slug": "tcs-log-246",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Letter series: Z, X, V, T, ?",
+  "description": "Letter series: Z, X, V, T, ?",
+  "question": "Letter series: Z, X, V, T, ?",
+  "options": [
+    "R",
+    "S",
+    "Q",
+    "P"
+  ],
+  "optionsMap": {
+    "A": "R",
+    "B": "S",
+    "C": "Q",
+    "D": "P"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "R",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

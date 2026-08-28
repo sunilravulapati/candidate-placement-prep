@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_086",
+  "slug": "tcs-apt-086",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "time-and-work",
+  "topicName": "Time and Work",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Three workers A, B, C finish a job in 10, 12, and 15 days respectively. Worki...",
+  "description": "Three workers A, B, C finish a job in 10, 12, and 15 days respectively. Working together, they complete the job in:",
+  "question": "Three workers A, B, C finish a job in 10, 12, and 15 days respectively. Working together, they complete the job in:",
+  "options": [
+    "4 days",
+    "5 days",
+    "3 days",
+    "6 days"
+  ],
+  "optionsMap": {
+    "A": "4 days",
+    "B": "5 days",
+    "C": "3 days",
+    "D": "6 days"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "4 days",
+  "tags": [
+    "quantitative",
+    "time-and-work"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

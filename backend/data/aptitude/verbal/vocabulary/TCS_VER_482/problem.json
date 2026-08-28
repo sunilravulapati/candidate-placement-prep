@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_482",
+  "slug": "tcs-ver-482",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the meaning of 'in the same boat':",
+  "description": "Choose the meaning of 'in the same boat':",
+  "question": "Choose the meaning of 'in the same boat':",
+  "options": [
+    "In the same difficult situation",
+    "On a boat",
+    "Working together",
+    "Sharing resources"
+  ],
+  "optionsMap": {
+    "A": "In the same difficult situation",
+    "B": "On a boat",
+    "C": "Working together",
+    "D": "Sharing resources"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "In the same difficult situation",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_302",
+  "slug": "tcs-log-302",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Venn diagram: In 100 students, 60 play cricket, 50 play football, 30 play bot...",
+  "description": "Venn diagram: In 100 students, 60 play cricket, 50 play football, 30 play both. Neither?",
+  "question": "Venn diagram: In 100 students, 60 play cricket, 50 play football, 30 play both. Neither?",
+  "options": [
+    "20",
+    "10",
+    "30",
+    "40"
+  ],
+  "optionsMap": {
+    "A": "20",
+    "B": "10",
+    "C": "30",
+    "D": "40"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "20",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_384",
+  "slug": "tcs-ver-384",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "miscellaneous",
+  "topicName": "Miscellaneous",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Choose the word correctly spelt:",
+  "description": "Choose the word correctly spelt:",
+  "question": "Choose the word correctly spelt:",
+  "options": [
+    "Accomodation",
+    "Accommodation",
+    "Acommodation",
+    "Acomodation"
+  ],
+  "optionsMap": {
+    "A": "Accomodation",
+    "B": "Accommodation",
+    "C": "Acommodation",
+    "D": "Acomodation"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Accommodation",
+  "tags": [
+    "verbal",
+    "miscellaneous"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

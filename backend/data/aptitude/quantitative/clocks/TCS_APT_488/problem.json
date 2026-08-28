@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_488",
+  "slug": "tcs-apt-488",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "clocks",
+  "topicName": "Clocks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "At what time between 4 and 5 o'clock are clock hands coincident?",
+  "description": "At what time between 4 and 5 o'clock are clock hands coincident?",
+  "question": "At what time between 4 and 5 o'clock are clock hands coincident?",
+  "options": [
+    "4:21.8 min",
+    "4:20 min",
+    "4:22 min",
+    "4:23 min"
+  ],
+  "optionsMap": {
+    "A": "4:21.8 min",
+    "B": "4:20 min",
+    "C": "4:22 min",
+    "D": "4:23 min"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "4:21.8 min",
+  "tags": [
+    "quantitative",
+    "clocks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

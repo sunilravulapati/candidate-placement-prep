@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_367",
+  "slug": "tcs-apt-367",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A man rows downstream at 12 km/h and upstream at 8 km/h. Speed of current?",
+  "description": "A man rows downstream at 12 km/h and upstream at 8 km/h. Speed of current?",
+  "question": "A man rows downstream at 12 km/h and upstream at 8 km/h. Speed of current?",
+  "options": [
+    "2 km/h",
+    "3 km/h",
+    "4 km/h",
+    "1 km/h"
+  ],
+  "optionsMap": {
+    "A": "2 km/h",
+    "B": "3 km/h",
+    "C": "4 km/h",
+    "D": "1 km/h"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "2 km/h",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

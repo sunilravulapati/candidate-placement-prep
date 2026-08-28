@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_183",
+  "slug": "tcs-log-183",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "cubes-and-dice",
+  "topicName": "Cubes and Dice",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "On a standard dice, opposite faces add up to 7. If 3 is on top and 4 faces yo...",
+  "description": "On a standard dice, opposite faces add up to 7. If 3 is on top and 4 faces you, which number is at the bottom?",
+  "question": "On a standard dice, opposite faces add up to 7. If 3 is on top and 4 faces you, which number is at the bottom?",
+  "options": [
+    "4",
+    "3",
+    "5",
+    "6"
+  ],
+  "optionsMap": {
+    "A": "4",
+    "B": "3",
+    "C": "5",
+    "D": "6"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "4",
+  "tags": [
+    "logical",
+    "cubes-and-dice"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

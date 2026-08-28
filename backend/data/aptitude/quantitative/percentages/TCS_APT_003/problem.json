@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_003",
+  "slug": "tcs-apt-003",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "percentages",
+  "topicName": "Percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A number is increased by 20% and then decreased by 20%. What is the net change?",
+  "description": "A number is increased by 20% and then decreased by 20%. What is the net change?",
+  "question": "A number is increased by 20% and then decreased by 20%. What is the net change?",
+  "options": [
+    "4% decrease",
+    "No change",
+    "4% increase",
+    "2% decrease"
+  ],
+  "optionsMap": {
+    "A": "4% decrease",
+    "B": "No change",
+    "C": "4% increase",
+    "D": "2% decrease"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "4% decrease",
+  "tags": [
+    "quantitative",
+    "percentages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

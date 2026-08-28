@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_337",
+  "slug": "tcs-ver-337",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "one-word-substitution",
+  "topicName": "One Word Substitution",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Find the one word substitution for: A person who is unable to sleep",
+  "description": "Find the one word substitution for: A person who is unable to sleep",
+  "question": "Find the one word substitution for: A person who is unable to sleep",
+  "options": [
+    "Insomniac",
+    "Somnambulant",
+    "Lethargic",
+    "Hypnotic"
+  ],
+  "optionsMap": {
+    "A": "Insomniac",
+    "B": "Somnambulant",
+    "C": "Lethargic",
+    "D": "Hypnotic"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Insomniac",
+  "tags": [
+    "verbal",
+    "one-word-substitution"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

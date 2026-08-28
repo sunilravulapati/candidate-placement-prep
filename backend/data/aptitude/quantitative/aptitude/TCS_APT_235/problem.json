@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_235",
+  "slug": "tcs-apt-235",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find compound interest on Rs 10000 at 10% p.a. for 2 years.",
+  "description": "Find compound interest on Rs 10000 at 10% p.a. for 2 years.",
+  "question": "Find compound interest on Rs 10000 at 10% p.a. for 2 years.",
+  "options": [
+    "2100",
+    "2000",
+    "1900",
+    "2200"
+  ],
+  "optionsMap": {
+    "A": "2100",
+    "B": "2000",
+    "C": "1900",
+    "D": "2200"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "2100",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

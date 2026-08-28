@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_460",
+  "slug": "tcs-log-460",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number series: 0,5,14,27,44,__?",
+  "description": "Number series: 0,5,14,27,44,__?",
+  "question": "Number series: 0,5,14,27,44,__?",
+  "options": [
+    "65",
+    "60",
+    "70",
+    "55"
+  ],
+  "optionsMap": {
+    "A": "65",
+    "B": "60",
+    "C": "70",
+    "D": "55"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "65",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

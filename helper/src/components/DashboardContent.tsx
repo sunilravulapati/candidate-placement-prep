@@ -13,15 +13,15 @@ export default function DashboardContent({
 
   if (isWorkspace) {
     return (
-      <main className="flex-1 min-w-0 w-full h-full min-h-0 overflow-hidden flex flex-col bg-[#030712]">
+      <main className="flex h-full min-h-0 w-full min-w-0 flex-1 flex-col overflow-hidden bg-[#070b14]">
         {children}
       </main>
     );
   }
 
   return (
-    <main className="flex-1 min-w-0 w-full h-full min-h-0 overflow-y-auto bg-[#030712]">
-      <div className="max-w-7xl mx-auto p-4 md:p-6 lg:p-8 space-y-6 w-full pb-12">
+    <main className="min-h-0 w-full min-w-0 flex-1 overflow-y-auto bg-transparent">
+      <div className="mx-auto w-full max-w-[1480px] px-4 py-5 sm:px-6 sm:py-7 lg:px-9 lg:py-9">
         {children}
       </div>
     </main>

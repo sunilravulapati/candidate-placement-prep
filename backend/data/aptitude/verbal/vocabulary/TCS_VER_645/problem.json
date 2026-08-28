@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_645",
+  "slug": "tcs-ver-645",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of POIGNANT",
+  "description": "Choose the antonym of POIGNANT",
+  "question": "Choose the antonym of POIGNANT",
+  "options": [
+    "Trivial",
+    "Touching",
+    "Moving",
+    "Emotional"
+  ],
+  "optionsMap": {
+    "A": "Trivial",
+    "B": "Touching",
+    "C": "Moving",
+    "D": "Emotional"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Trivial",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

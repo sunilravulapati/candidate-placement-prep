@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_294",
+  "slug": "tcs-apt-294",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A cistern can be filled by pipes A and B in 6h and 8h. Opened together. Time ...",
+  "description": "A cistern can be filled by pipes A and B in 6h and 8h. Opened together. Time to fill 3/4 tank?",
+  "question": "A cistern can be filled by pipes A and B in 6h and 8h. Opened together. Time to fill 3/4 tank?",
+  "options": [
+    "3h 26min",
+    "2h 24min",
+    "4h",
+    "2h"
+  ],
+  "optionsMap": {
+    "A": "3h 26min",
+    "B": "2h 24min",
+    "C": "4h",
+    "D": "2h"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "3h 26min",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

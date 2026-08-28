@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_125",
+  "slug": "tcs-apt-125",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "mensuration",
+  "topicName": "Mensuration",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Perimeter of a square with side 9 cm.",
+  "description": "Perimeter of a square with side 9 cm.",
+  "question": "Perimeter of a square with side 9 cm.",
+  "options": [
+    "36 cm",
+    "40 cm",
+    "32 cm",
+    "27 cm"
+  ],
+  "optionsMap": {
+    "A": "36 cm",
+    "B": "40 cm",
+    "C": "32 cm",
+    "D": "27 cm"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "36 cm",
+  "tags": [
+    "quantitative",
+    "mensuration"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_164",
+  "slug": "tcs-ver-164",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "PASSAGE: Climate change is one of the most pressing challenges facing humanit...",
+  "description": "PASSAGE: Climate change is one of the most pressing challenges facing humanity. Rising global temperatures, driven primarily by g... Q: Which of the following is mentioned as a mitigation pathway?",
+  "question": "PASSAGE: Climate change is one of the most pressing challenges facing humanity. Rising global temperatures, driven primarily by g... Q: Which of the following is mentioned as a mitigation pathway?",
+  "options": [
+    "Carbon capture technologies",
+    "Burning more coal",
+    "Increasing deforestation",
+    "Reducing renewable energy"
+  ],
+  "optionsMap": {
+    "A": "Carbon capture technologies",
+    "B": "Burning more coal",
+    "C": "Increasing deforestation",
+    "D": "Reducing renewable energy"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Carbon capture technologies",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_188",
+  "slug": "tcs-apt-188",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "mixtures",
+  "topicName": "Mixtures",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Two varieties of rice, Rs.8/kg and Rs.12/kg, are mixed in ratio 3:2. Selling ...",
+  "description": "Two varieties of rice, Rs.8/kg and Rs.12/kg, are mixed in ratio 3:2. Selling price for 20% profit:",
+  "question": "Two varieties of rice, Rs.8/kg and Rs.12/kg, are mixed in ratio 3:2. Selling price for 20% profit:",
+  "options": [
+    "Rs.11.52/kg",
+    "Rs.12/kg",
+    "Rs.10.5/kg",
+    "Rs.13/kg"
+  ],
+  "optionsMap": {
+    "A": "Rs.11.52/kg",
+    "B": "Rs.12/kg",
+    "C": "Rs.10.5/kg",
+    "D": "Rs.13/kg"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.11.52/kg",
+  "tags": [
+    "quantitative",
+    "mixtures"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

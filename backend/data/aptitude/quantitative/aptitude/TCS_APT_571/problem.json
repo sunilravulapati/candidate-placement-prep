@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_571",
+  "slug": "tcs-apt-571",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Rs 1200 shared among A:B:C = 2:3:5. C's share?",
+  "description": "Rs 1200 shared among A:B:C = 2:3:5. C's share?",
+  "question": "Rs 1200 shared among A:B:C = 2:3:5. C's share?",
+  "options": [
+    "600",
+    "480",
+    "360",
+    "240"
+  ],
+  "optionsMap": {
+    "A": "600",
+    "B": "480",
+    "C": "360",
+    "D": "240"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "600",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

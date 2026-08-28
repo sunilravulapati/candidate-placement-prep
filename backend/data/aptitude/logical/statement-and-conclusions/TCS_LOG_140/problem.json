@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_140",
+  "slug": "tcs-log-140",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "statement-and-conclusions",
+  "topicName": "Statement and Conclusions",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Statement: All tables are furniture. All furniture is wood. Conclusion: All t...",
+  "description": "Statement: All tables are furniture. All furniture is wood. Conclusion: All tables are wood.",
+  "question": "Statement: All tables are furniture. All furniture is wood. Conclusion: All tables are wood.",
+  "options": [
+    "Conclusion follows",
+    "Conclusion does not follow",
+    "Partially follows",
+    "Cannot say"
+  ],
+  "optionsMap": {
+    "A": "Conclusion follows",
+    "B": "Conclusion does not follow",
+    "C": "Partially follows",
+    "D": "Cannot say"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Conclusion follows",
+  "tags": [
+    "logical",
+    "statement-and-conclusions"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

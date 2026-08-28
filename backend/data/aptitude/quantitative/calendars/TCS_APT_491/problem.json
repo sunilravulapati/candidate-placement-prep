@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_491",
+  "slug": "tcs-apt-491",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "calendars",
+  "topicName": "Calendars",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "January 1, 2024 was Monday. What day was March 1, 2024?",
+  "description": "January 1, 2024 was Monday. What day was March 1, 2024?",
+  "question": "January 1, 2024 was Monday. What day was March 1, 2024?",
+  "options": [
+    "Friday",
+    "Thursday",
+    "Saturday",
+    "Wednesday"
+  ],
+  "optionsMap": {
+    "A": "Friday",
+    "B": "Thursday",
+    "C": "Saturday",
+    "D": "Wednesday"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Friday",
+  "tags": [
+    "quantitative",
+    "calendars"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

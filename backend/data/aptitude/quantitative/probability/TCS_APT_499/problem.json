@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_499",
+  "slug": "tcs-apt-499",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "probability",
+  "topicName": "Probability",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Probability that a randomly chosen 2-digit number is divisible by 7?",
+  "description": "Probability that a randomly chosen 2-digit number is divisible by 7?",
+  "question": "Probability that a randomly chosen 2-digit number is divisible by 7?",
+  "options": [
+    "13/90",
+    "12/90",
+    "14/90",
+    "10/90"
+  ],
+  "optionsMap": {
+    "A": "13/90",
+    "B": "12/90",
+    "C": "14/90",
+    "D": "10/90"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "13/90",
+  "tags": [
+    "quantitative",
+    "probability"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

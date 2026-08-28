@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_275",
+  "slug": "tcs-apt-275",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A cone has radius 7cm and height 24cm. Find slant height.",
+  "description": "A cone has radius 7cm and height 24cm. Find slant height.",
+  "question": "A cone has radius 7cm and height 24cm. Find slant height.",
+  "options": [
+    "25cm",
+    "26cm",
+    "20cm",
+    "28cm"
+  ],
+  "optionsMap": {
+    "A": "25cm",
+    "B": "26cm",
+    "C": "20cm",
+    "D": "28cm"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "25cm",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

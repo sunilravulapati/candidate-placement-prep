@@ -1,4 +1,4 @@
-import type { TestCaseSpec } from './dsaTypes';
+import type { TestCaseSpec } from './dsaTypes.ts';
 
 function splitTopLevel(input: string, separator: string): string[] {
   const parts: string[] = [];
@@ -145,9 +145,75 @@ export function normalizeTestInput(rawInput: string): string {
   return normalizedLines.join('\n');
 }
 
+export function parseLogicalInput(rawInput: string): Record<string, any> | null {
+  if (!rawInput || typeof rawInput !== 'string') return null;
+  const trimmed = rawInput.trim();
+  if (trimmed.length === 0) return null;
+
+  try {
+    const parts = splitTopLevel(trimmed, ',');
+    const result: Record<string, any> = {};
+    let hasNamed = false;
+
+    for (const part of parts) {
+      const match = part.match(/^\s*([A-Za-z_][A-Za-z0-9_]*)\s*=\s*([\s\S]*)$/);
+      if (match) {
+        hasNamed = true;
+        const key = match[1].trim();
+        const rawVal = match[2].trim();
+        try {
+          result[key] = JSON.parse(rawVal);
+        } catch {
+          // If JSON parse fails, try normalizing single quotes or unquoted string
+          if (/^'.*'$/.test(rawVal)) {
+            result[key] = rawVal.slice(1, -1);
+          } else if (rawVal === 'true') {
+            result[key] = true;
+          } else if (rawVal === 'false') {
+            result[key] = false;
+          } else if (rawVal === 'null') {
+            result[key] = null;
+          } else if (!isNaN(Number(rawVal))) {
+            result[key] = Number(rawVal);
+          } else {
+            result[key] = rawVal;
+          }
+        }
+      }
+    }
+
+    if (hasNamed) return result;
+  } catch {
+    // Return null if parsing fails
+  }
+
+  return null;
+}
+
+export function serializeV1TestCase(rawInput: string, rawOutput: string, id = 'test-1', classification: TestCaseSpec['classification'] = 'sample', explanation = ''): TestCaseSpec {
+  const displayInput = String(rawInput ?? '').trim();
+  const expectedOutput = String(rawOutput ?? '').trim();
+  const logicalInput = parseLogicalInput(displayInput);
+  const stdin = normalizeTestInput(displayInput);
+
+  const status: TestCaseSpec['serializationStatus'] = stdin.length > 0 ? 'compatible' : 'manual_required';
+
+  return {
+    id,
+    classification,
+    displayInput,
+    logicalInput: logicalInput || undefined,
+    input: stdin,
+    stdin,
+    expectedOutput,
+    explanation: explanation || undefined,
+    serializationStatus: status,
+  };
+}
+
 export function normalizeTestCases(testCases: TestCaseSpec[] = []): TestCaseSpec[] {
   return testCases.map((testCase) => ({
     ...testCase,
-    input: normalizeTestInput(testCase.input),
+    input: normalizeTestInput(testCase.input || testCase.stdin || testCase.displayInput || ''),
   }));
 }

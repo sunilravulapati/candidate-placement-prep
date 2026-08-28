@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_170",
+  "slug": "tcs-ver-170",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "PASSAGE: The human brain is arguably the most complex structure in the known ...",
+  "description": "PASSAGE: The human brain is arguably the most complex structure in the known universe. Comprising approximately 86 billion neuron... Q: Which old notion does neuroplasticity challenge?",
+  "question": "PASSAGE: The human brain is arguably the most complex structure in the known universe. Comprising approximately 86 billion neuron... Q: Which old notion does neuroplasticity challenge?",
+  "options": [
+    "That the brain is fixed after childhood",
+    "That the brain grows throughout life",
+    "That neurons multiply continuously",
+    "That synapses are temporary"
+  ],
+  "optionsMap": {
+    "A": "That the brain is fixed after childhood",
+    "B": "That the brain grows throughout life",
+    "C": "That neurons multiply continuously",
+    "D": "That synapses are temporary"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "That the brain is fixed after childhood",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_143",
+  "slug": "tcs-ver-143",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The situation was so _____ that even the experts were puzzled.",
+  "description": "The situation was so _____ that even the experts were puzzled.",
+  "question": "The situation was so _____ that even the experts were puzzled.",
+  "options": [
+    "enigmatic",
+    "simple",
+    "clear",
+    "obvious"
+  ],
+  "optionsMap": {
+    "A": "enigmatic",
+    "B": "simple",
+    "C": "clear",
+    "D": "obvious"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "enigmatic",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_329",
+  "slug": "tcs-apt-329",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A number when divided by 6 leaves remainder 5. The same number when divided b...",
+  "description": "A number when divided by 6 leaves remainder 5. The same number when divided by 3 leaves?",
+  "question": "A number when divided by 6 leaves remainder 5. The same number when divided by 3 leaves?",
+  "options": [
+    "2",
+    "1",
+    "0",
+    "3"
+  ],
+  "optionsMap": {
+    "A": "2",
+    "B": "1",
+    "C": "0",
+    "D": "3"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "2",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

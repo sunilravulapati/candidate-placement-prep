@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_412",
+  "slug": "tcs-apt-412",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "percentages",
+  "topicName": "Percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A man spends 75% of his income. If his income increases by 20% and he still s...",
+  "description": "A man spends 75% of his income. If his income increases by 20% and he still spends the same amount, what % of new income does he save?",
+  "question": "A man spends 75% of his income. If his income increases by 20% and he still spends the same amount, what % of new income does he save?",
+  "options": [
+    "37.5%",
+    "30%",
+    "25%",
+    "40%"
+  ],
+  "optionsMap": {
+    "A": "37.5%",
+    "B": "30%",
+    "C": "25%",
+    "D": "40%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "37.5%",
+  "tags": [
+    "quantitative",
+    "percentages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

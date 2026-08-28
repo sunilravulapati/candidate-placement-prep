@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_365",
+  "slug": "tcs-apt-365",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "How many 3-digit numbers are divisible by both 4 and 6?",
+  "description": "How many 3-digit numbers are divisible by both 4 and 6?",
+  "question": "How many 3-digit numbers are divisible by both 4 and 6?",
+  "options": [
+    "75",
+    "50",
+    "40",
+    "60"
+  ],
+  "optionsMap": {
+    "A": "75",
+    "B": "50",
+    "C": "40",
+    "D": "60"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "75",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

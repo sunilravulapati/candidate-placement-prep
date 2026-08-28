@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_379",
+  "slug": "tcs-log-379",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Data: P≠Q, Q<R, R≤P. Which is true?",
+  "description": "Data: P≠Q, Q<R, R≤P. Which is true?",
+  "question": "Data: P≠Q, Q<R, R≤P. Which is true?",
+  "options": [
+    "P≥Q",
+    "Q≥R",
+    "R>P",
+    "Cannot say"
+  ],
+  "optionsMap": {
+    "A": "P≥Q",
+    "B": "Q≥R",
+    "C": "R>P",
+    "D": "Cannot say"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "P≥Q",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

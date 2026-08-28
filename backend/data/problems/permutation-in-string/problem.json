@@ -2,11 +2,15 @@
   "id": "permutation-in-string",
   "schemaVersion": "2.0",
   "contentVersion": "1.1",
-  "importVersion": "64-column-sheet",
-  "lastReviewed": "2026-07-26",
-  "lastModified": "2026-07-26",
+  "importVersion": "stdin-converted-master-v1",
+  "lastReviewed": "2026-08-28",
+  "lastModified": "2026-08-28",
   "author": "PrepGenie Content Team",
   "reviewStatus": "published",
+  "stdinStatus": "OK",
+  "executionStatus": "V1_READY",
+  "isV2Pending": false,
+  "stdinFormatNotes": "Visible Stdin Input 1: s1: raw line (no quotes); s2: raw line (no quotes)\nVisible Stdin Input 2: s1: raw line (no quotes); s2: raw line (no quotes)\nVisible Stdin Input 3: s1: raw line (no quotes); s2: raw line (no quotes)\nHidden Stdin Input 1: s1: raw line (no quotes); s2: raw line (no quotes)\nHidden Stdin Input 2: s1: raw line (no quotes); s2: raw line (no quotes)\nHidden Stdin Input 3: s1: raw line (no quotes); s2: raw line (no quotes)\nHidden Stdin Input 4: s1: raw line (no quotes); s2: raw line (no quotes)\nHidden Stdin Input 5: s1: raw line (no quotes); s2: raw line (no quotes)",
   "questionNo": 24,
   "slug": "permutation-in-string",
   "title": "Permutation in String",
@@ -38,6 +42,8 @@
     "Core DSA Track -> Sliding Window Module"
   ],
   "description": "Check if a string's permutation exists as a substring of another.",
+  "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers",
+  "outputFormat": "Standard output stream containing the computed result.",
   "whyLearnThis": "High frequency medium-level interview question for testing algorithm design and sliding window proficiency.",
   "recognitionClues": "Look for array/string traversal where sliding window properties or sliding boundaries reduce time complexity.",
   "prerequisites": "Sliding Window fundamentals, recursion, or hashing",
@@ -65,24 +71,25 @@
     "Goldman Sachs"
   ],
   "constraints": [
-    "1 <= input.length <= 10^5",
-    "-10^9 <= input[i] <= 10^9"
+    "1 <= input length <= 10^5",
+    "Standard execution time limit: 2.0s",
+    "Standard memory limit: 256MB"
   ],
   "examples": [
     {
-      "input": "\"babad\"",
-      "output": "\"bab\"",
-      "explanation": "Sample test 1 for Permutation in String"
+      "input": "s1 = \"ab\", s2 = \"eidbaooo\"",
+      "output": "true",
+      "explanation": "permutation occurs. Expected output: true"
     },
     {
-      "input": "\"cbbd\"",
-      "output": "\"bb\"",
-      "explanation": "Sample test 2 for Permutation in String"
+      "input": "s1 = \"ab\", s2 = \"eidboaoo\"",
+      "output": "false",
+      "explanation": "no permutation occurs. Expected output: false"
     },
     {
-      "input": "\"a\"",
-      "output": "\"a\"",
-      "explanation": "Sample test 3 for Permutation in String"
+      "input": "s1 = \"\", s2 = \"abc\"",
+      "output": "true",
+      "explanation": "empty pattern. Expected output: true"
     }
   ],
   "hints": [
@@ -112,22 +119,17 @@
       "url": "https://leetcode.com/problems/permutation-in-string/"
     }
   ],
-  "inputTemplates": {
-    "python": "# --- 24. Permutation in String (sliding-window) ---\ndef solution(inputs):\n    # Function implementation\n    pass\n\nif __name__ == \"__main__\":\n    import sys\n    # Sample Input: adjust according to problem requirements\n    raw_input = sys.stdin.read().splitlines() if not sys.stdin.isatty() else [\"sample_input_1\", \"sample_input_2\"]\n    print(f\"Input: {raw_input}\")\n    # result = solution(raw_input)\n    # print(f\"Output: {result}\")\n",
-    "cpp": "// --- 24. Permutation in String (sliding-window) ---\n#include <iostream>\n#include <vector>\n#include <string>\n#include <sstream>\nusing namespace std;\n\nclass Solution {\npublic:\n    void solve() {\n        // Implement driver and input logic\n    }\n};\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    Solution sol;\n    sol.solve();\n    return 0;\n}\n",
-    "java": "// --- 24. Permutation in String (sliding-window) ---\nimport java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        // Parse input here\n        System.out.println(\"Ready for input: \" + \"Permutation in String\");\n    }\n}\n",
-    "javascript": "// --- 24. Permutation in String (sliding-window) ---\nconst fs = require('fs');\n\nfunction solve(input) {\n  // Implement standard logic\n  return input;\n}\n\nconst input = fs.readFileSync('/dev/stdin', 'utf-8').trim().split('\\n');\nconsole.log(solve(input));\n",
-    "typescript": "// --- 24. Permutation in String (sliding-window) ---\nimport * as fs from 'fs';\n\nfunction solveTS(inputData: string[]): any {\n  // Implement TypeScript logic\n  return inputData;\n}\n\nconst rawData: string[] = fs.readFileSync(0, 'utf-8').trim().split('\\n');\nconsole.log(solveTS(rawData));\n"
-  },
   "inputHelper": {
-    "inputFormat": "Input Format for Permutation in String:\nStandard competitive programming stdin input stream.",
-    "sampleInput": "\"babad\"",
-    "codeTemplates": {
-      "python": "# --- 24. Permutation in String (sliding-window) ---\ndef solution(inputs):\n    # Function implementation\n    pass\n\nif __name__ == \"__main__\":\n    import sys\n    # Sample Input: adjust according to problem requirements\n    raw_input = sys.stdin.read().splitlines() if not sys.stdin.isatty() else [\"sample_input_1\", \"sample_input_2\"]\n    print(f\"Input: {raw_input}\")\n    # result = solution(raw_input)\n    # print(f\"Output: {result}\")\n",
-      "cpp": "// --- 24. Permutation in String (sliding-window) ---\n#include <iostream>\n#include <vector>\n#include <string>\n#include <sstream>\nusing namespace std;\n\nclass Solution {\npublic:\n    void solve() {\n        // Implement driver and input logic\n    }\n};\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    Solution sol;\n    sol.solve();\n    return 0;\n}\n",
-      "java": "// --- 24. Permutation in String (sliding-window) ---\nimport java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        // Parse input here\n        System.out.println(\"Ready for input: \" + \"Permutation in String\");\n    }\n}\n",
-      "javascript": "// --- 24. Permutation in String (sliding-window) ---\nconst fs = require('fs');\n\nfunction solve(input) {\n  // Implement standard logic\n  return input;\n}\n\nconst input = fs.readFileSync('/dev/stdin', 'utf-8').trim().split('\\n');\nconsole.log(solve(input));\n",
-      "typescript": "// --- 24. Permutation in String (sliding-window) ---\nimport * as fs from 'fs';\n\nfunction solveTS(inputData: string[]): any {\n  // Implement TypeScript logic\n  return inputData;\n}\n\nconst rawData: string[] = fs.readFileSync(0, 'utf-8').trim().split('\\n');\nconsole.log(solveTS(rawData));\n"
+    "mode": "auto",
+    "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers",
+    "sampleInput": "ab\neidbaooo",
+    "instructions": "Read input from standard input (stdin) and print output to standard output (stdout).",
+    "snippets": {
+      "cpp": "// Read array length then elements\nint n;\nif (cin >> n) {\n    vector<int> nums(n);\n    for (int i = 0; i < n; i++) {\n        cin >> nums[i];\n    }\n    // Solve problem with nums\n}",
+      "python": "# Read array length and space-separated elements\nimport sys\n\ninput_data = sys.stdin.read().split()\nif input_data:\n    n = int(input_data[0])\n    nums = [int(x) for x in input_data[1:n+1]]\n    # Solve problem with nums",
+      "java": "import java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        if (sc.hasNextInt()) {\n            int n = sc.nextInt();\n            int[] nums = new int[n];\n            for (int i = 0; i < n; i++) {\n                nums[i] = sc.nextInt();\n            }\n            // Solve problem with nums\n        }\n    }\n}",
+      "javascript": "const fs = require('fs');\n\nconst input = fs.readFileSync(0, 'utf8').trim().split(/\\s+/);\nif (input.length > 0 && input[0] !== '') {\n    const n = parseInt(input[0], 10);\n    const nums = input.slice(1, n + 1).map(Number);\n    // Solve problem with nums\n}",
+      "typescript": "import * as fs from 'fs';\n\nconst input = fs.readFileSync(0, 'utf8').trim().split(/\\s+/);\nif (input.length > 0 && input[0] !== '') {\n    const n = parseInt(input[0], 10);\n    const nums: number[] = input.slice(1, n + 1).map(Number);\n    // Solve problem with nums\n}"
     }
   },
   "referenceSolutions": {
@@ -138,44 +140,11 @@
     "typescript": "function permutationInString(nums: number[], target: number): number {\n    let left = 0, right = nums.length - 1;\n    while (left <= right) {\n        let mid = Math.floor((left + right) / 2);\n        if (nums[mid] === target) return mid;\n        else if (nums[mid] < target) left = mid + 1;\n        else right = mid - 1;\n    }\n    return -1;\n};"
   },
   "starterCode": {
-    "cpp": "class Solution {\npublic:\n    int permutationInString(vector<int>& nums, int target) {\n        \n    }\n};",
-    "python": "class Solution:\n    def permutationInString(self, nums: list[int], target: int) -> int:\n        pass",
-    "java": "class Solution {\n    public int permutationInString(int[] nums, int target) {\n        \n    }\n}",
-    "javascript": "var permutationInString = function(nums, target) {\n    \n};",
-    "typescript": "function permutationInString(nums: number[], target: number): number {\n    \n};"
-  },
-  "starterMetadata": {
-    "functionName": "permutationInString",
-    "className": "Solution",
-    "returnType": "int",
-    "parameters": [
-      {
-        "name": "nums",
-        "type": "array<int>"
-      }
-    ],
-    "problemType": "FUNCTION"
-  },
-  "executionMetadata": {
-    "problemType": "FUNCTION",
-    "inputType": [
-      "array<int>"
-    ],
-    "outputType": "int",
-    "comparator": "EXACT",
-    "timeLimit": 2,
-    "memoryLimit": 256,
-    "expectedComplexity": {
-      "time": "O(N) or O(N log N)",
-      "space": "O(N) or O(1)"
-    }
-  },
-  "driverMetadata": {
-    "driver": "DEFAULT",
-    "inputSerializers": [
-      "ARRAY_INT"
-    ],
-    "outputSerializer": "INT"
+    "cpp": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    // Read input according to the Input Format\n    // Write solution here\n    return 0;\n}",
+    "python": "def main():\n    # Read input according to the Input Format\n    # Write solution here\n    pass\n\nif __name__ == \"__main__\":\n    main()",
+    "java": "import java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        // Read input according to the Input Format\n        // Write solution here\n    }\n}",
+    "javascript": "const fs = require(\"fs\");\n\nfunction main() {\n    const input = fs.readFileSync(0, \"utf-8\").trim();\n    if (!input) return;\n    // Read input according to the Input Format\n    // Write solution here\n}\n\nmain();",
+    "typescript": "import * as fs from \"fs\";\n\nfunction main() {\n    const input = fs.readFileSync(0, \"utf-8\").trim();\n    if (!input) return;\n    // Read input according to the Input Format\n    // Write solution here\n}\n\nmain();"
   },
   "relationships": {
     "prerequisites": [],
@@ -193,60 +162,84 @@
     {
       "id": "sample-1",
       "classification": "sample",
-      "input": "\"babad\"",
-      "expectedOutput": "\"bab\"",
-      "explanation": "Sample test 1 for Permutation in String"
+      "displayInput": "s1 = \"ab\", s2 = \"eidbaooo\"",
+      "input": "ab\neidbaooo",
+      "stdin": "ab\neidbaooo",
+      "expectedOutput": "true",
+      "explanation": "permutation occurs. Expected output: true",
+      "serializationStatus": "compatible"
     },
     {
       "id": "sample-2",
       "classification": "sample",
-      "input": "\"cbbd\"",
-      "expectedOutput": "\"bb\"",
-      "explanation": "Sample test 2 for Permutation in String"
+      "displayInput": "s1 = \"ab\", s2 = \"eidboaoo\"",
+      "input": "ab\neidboaoo",
+      "stdin": "ab\neidboaoo",
+      "expectedOutput": "false",
+      "explanation": "no permutation occurs. Expected output: false",
+      "serializationStatus": "compatible"
     },
     {
       "id": "sample-3",
       "classification": "sample",
-      "input": "\"a\"",
-      "expectedOutput": "\"a\"",
-      "explanation": "Sample test 3 for Permutation in String"
+      "displayInput": "s1 = \"\", s2 = \"abc\"",
+      "input": "abc",
+      "stdin": "abc",
+      "expectedOutput": "true",
+      "explanation": "empty pattern. Expected output: true",
+      "serializationStatus": "compatible"
     }
   ],
   "hiddenTests": [
     {
-      "id": "edge-1",
-      "classification": "edge",
-      "input": "\"\"",
-      "expectedOutput": "\"\"",
-      "explanation": "Empty string boundary"
+      "id": "hidden-1",
+      "classification": "hidden",
+      "displayInput": "s1 = \"a\", s2 = \"a\"",
+      "input": "a\na",
+      "stdin": "a\na",
+      "expectedOutput": "true",
+      "explanation": "single match",
+      "serializationStatus": "compatible"
     },
     {
-      "id": "corner-2",
-      "classification": "corner",
-      "input": "\"aaaaa\"",
-      "expectedOutput": "\"aaaaa\"",
-      "explanation": "All identical characters"
+      "id": "hidden-2",
+      "classification": "hidden",
+      "displayInput": "s1 = \"a\", s2 = \"b\"",
+      "input": "a\nb",
+      "stdin": "a\nb",
+      "expectedOutput": "false",
+      "explanation": "single mismatch",
+      "serializationStatus": "compatible"
     },
     {
-      "id": "stress-3",
-      "classification": "stress",
-      "input": "\"abcdefghijklmnopqrstuvwxyz\"",
-      "expectedOutput": "1",
-      "explanation": "All distinct characters"
+      "id": "hidden-3",
+      "classification": "hidden",
+      "displayInput": "s1 = \"abc\", s2 = \"bbbca\"",
+      "input": "abc\nbbbca",
+      "stdin": "abc\nbbbca",
+      "expectedOutput": "true",
+      "explanation": "match at the end",
+      "serializationStatus": "compatible"
     },
     {
-      "id": "duplicates-4",
-      "classification": "duplicates",
-      "input": "\"abacaba\"",
-      "expectedOutput": "\"abacaba\"",
-      "explanation": "Symmetric palindrome string"
+      "id": "hidden-4",
+      "classification": "hidden",
+      "displayInput": "s1 = \"abb\", s2 = \"eidbobaoo\"",
+      "input": "abb\neidbobaoo",
+      "stdin": "abb\neidbobaoo",
+      "expectedOutput": "false",
+      "explanation": "duplicate count is wrong",
+      "serializationStatus": "compatible"
     },
     {
-      "id": "performance-5",
-      "classification": "performance",
-      "input": "\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"",
-      "expectedOutput": "...",
-      "explanation": "Performance test"
+      "id": "hidden-5",
+      "classification": "hidden",
+      "displayInput": "s1 = \"xyz\", s2 = \"afzxyq\"",
+      "input": "xyz\nafzxyq",
+      "stdin": "xyz\nafzxyq",
+      "expectedOutput": "true",
+      "explanation": "match crosses window start",
+      "serializationStatus": "compatible"
     }
   ]
 }

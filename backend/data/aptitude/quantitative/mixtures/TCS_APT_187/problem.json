@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_187",
+  "slug": "tcs-apt-187",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "mixtures",
+  "topicName": "Mixtures",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A vessel contains 60L of juice. 12L is drawn and replaced with water, then 12...",
+  "description": "A vessel contains 60L of juice. 12L is drawn and replaced with water, then 12L again drawn and replaced. Final juice amount:",
+  "question": "A vessel contains 60L of juice. 12L is drawn and replaced with water, then 12L again drawn and replaced. Final juice amount:",
+  "options": [
+    "38.4 L",
+    "40 L",
+    "36 L",
+    "42 L"
+  ],
+  "optionsMap": {
+    "A": "38.4 L",
+    "B": "40 L",
+    "C": "36 L",
+    "D": "42 L"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "38.4 L",
+  "tags": [
+    "quantitative",
+    "mixtures"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

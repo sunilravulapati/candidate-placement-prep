@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_444",
+  "slug": "tcs-ver-444",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "One word substitution: A place where fish are kept",
+  "description": "One word substitution: A place where fish are kept",
+  "question": "One word substitution: A place where fish are kept",
+  "options": [
+    "Aquarium",
+    "Aviary",
+    "Apiary",
+    "Sanctuary"
+  ],
+  "optionsMap": {
+    "A": "Aquarium",
+    "B": "Aviary",
+    "C": "Apiary",
+    "D": "Sanctuary"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Aquarium",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

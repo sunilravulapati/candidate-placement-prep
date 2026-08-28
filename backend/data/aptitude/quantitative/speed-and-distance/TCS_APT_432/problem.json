@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_432",
+  "slug": "tcs-apt-432",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "speed-and-distance",
+  "topicName": "Speed and Distance",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Walking at 3/4 of normal speed, a person is late by 20 min. Normal time is:",
+  "description": "Walking at 3/4 of normal speed, a person is late by 20 min. Normal time is:",
+  "question": "Walking at 3/4 of normal speed, a person is late by 20 min. Normal time is:",
+  "options": [
+    "60 min",
+    "45 min",
+    "80 min",
+    "90 min"
+  ],
+  "optionsMap": {
+    "A": "60 min",
+    "B": "45 min",
+    "C": "80 min",
+    "D": "90 min"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "60 min",
+  "tags": [
+    "quantitative",
+    "speed-and-distance"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

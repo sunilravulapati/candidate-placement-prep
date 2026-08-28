@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_153",
+  "slug": "tcs-ver-153",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th c...",
+  "description": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: What social development emerged as a direct result of the Industrial Revolution?",
+  "question": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: What social development emerged as a direct result of the Industrial Revolution?",
+  "options": [
+    "A new working class",
+    "Decline of cities",
+    "Return to farming",
+    "Fewer social inequalities"
+  ],
+  "optionsMap": {
+    "A": "A new working class",
+    "B": "Decline of cities",
+    "C": "Return to farming",
+    "D": "Fewer social inequalities"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "A new working class",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_498",
+  "slug": "tcs-ver-498",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Which word means 'impossible to stop'?",
+  "description": "Which word means 'impossible to stop'?",
+  "question": "Which word means 'impossible to stop'?",
+  "options": [
+    "Inexorable",
+    "Possible",
+    "Preventable",
+    "Controllable"
+  ],
+  "optionsMap": {
+    "A": "Inexorable",
+    "B": "Possible",
+    "C": "Preventable",
+    "D": "Controllable"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Inexorable",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

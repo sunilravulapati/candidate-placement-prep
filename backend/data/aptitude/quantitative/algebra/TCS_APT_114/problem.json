@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_114",
+  "slug": "tcs-apt-114",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "algebra",
+  "topicName": "Algebra",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "If x + y = 12 and xy = 32, what is x2 + y2?",
+  "description": "If x + y = 12 and xy = 32, what is x2 + y2?",
+  "question": "If x + y = 12 and xy = 32, what is x2 + y2?",
+  "options": [
+    "80",
+    "64",
+    "96",
+    "100"
+  ],
+  "optionsMap": {
+    "A": "80",
+    "B": "64",
+    "C": "96",
+    "D": "100"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "80",
+  "tags": [
+    "quantitative",
+    "algebra"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

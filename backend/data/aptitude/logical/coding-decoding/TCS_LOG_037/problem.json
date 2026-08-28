@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_037",
+  "slug": "tcs-log-037",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "coding-decoding",
+  "topicName": "Coding-Decoding",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Code: A=2, B=4, C=6,... What is ACE?",
+  "description": "Code: A=2, B=4, C=6,... What is ACE?",
+  "question": "Code: A=2, B=4, C=6,... What is ACE?",
+  "options": [
+    "24",
+    "28",
+    "26",
+    "30"
+  ],
+  "optionsMap": {
+    "A": "24",
+    "B": "28",
+    "C": "26",
+    "D": "30"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "28",
+  "tags": [
+    "logical",
+    "coding-decoding"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

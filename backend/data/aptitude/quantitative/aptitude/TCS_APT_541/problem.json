@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_541",
+  "slug": "tcs-apt-541",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Ratio 5:8, sum 260. Smaller number?",
+  "description": "Ratio 5:8, sum 260. Smaller number?",
+  "question": "Ratio 5:8, sum 260. Smaller number?",
+  "options": [
+    "100",
+    "130",
+    "80",
+    "120"
+  ],
+  "optionsMap": {
+    "A": "100",
+    "B": "130",
+    "C": "80",
+    "D": "120"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "100",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

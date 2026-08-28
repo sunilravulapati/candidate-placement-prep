@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_102",
+  "slug": "tcs-ver-102",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "She showed great _____ by finishing the project despite all obstacles.",
+  "description": "She showed great _____ by finishing the project despite all obstacles.",
+  "question": "She showed great _____ by finishing the project despite all obstacles.",
+  "options": [
+    "perseverance",
+    "laziness",
+    "reluctance",
+    "hesitation"
+  ],
+  "optionsMap": {
+    "A": "perseverance",
+    "B": "laziness",
+    "C": "reluctance",
+    "D": "hesitation"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "perseverance",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

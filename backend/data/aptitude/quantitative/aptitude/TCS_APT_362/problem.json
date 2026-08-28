@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_362",
+  "slug": "tcs-apt-362",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What is the last digit of 7^75?",
+  "description": "What is the last digit of 7^75?",
+  "question": "What is the last digit of 7^75?",
+  "options": [
+    "7",
+    "3",
+    "1",
+    "9"
+  ],
+  "optionsMap": {
+    "A": "7",
+    "B": "3",
+    "C": "1",
+    "D": "9"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "7",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

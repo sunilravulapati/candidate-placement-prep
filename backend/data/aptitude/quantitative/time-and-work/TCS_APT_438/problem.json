@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_438",
+  "slug": "tcs-apt-438",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "time-and-work",
+  "topicName": "Time and Work",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A does 1/4 of work in 5 days. B does 1/2 of remaining work in 10 days. Togeth...",
+  "description": "A does 1/4 of work in 5 days. B does 1/2 of remaining work in 10 days. Together they finish in:",
+  "question": "A does 1/4 of work in 5 days. B does 1/2 of remaining work in 10 days. Together they finish in:",
+  "options": [
+    "13.33 days",
+    "15 days",
+    "12 days",
+    "18 days"
+  ],
+  "optionsMap": {
+    "A": "13.33 days",
+    "B": "15 days",
+    "C": "12 days",
+    "D": "18 days"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "13.33 days",
+  "tags": [
+    "quantitative",
+    "time-and-work"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

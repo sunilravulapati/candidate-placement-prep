@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_398",
+  "slug": "tcs-ver-398",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "miscellaneous",
+  "topicName": "Miscellaneous",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "What is the adjective form of 'nation'?",
+  "description": "What is the adjective form of 'nation'?",
+  "question": "What is the adjective form of 'nation'?",
+  "options": [
+    "Nationwide",
+    "National",
+    "Nationally",
+    "Nationalize"
+  ],
+  "optionsMap": {
+    "A": "Nationwide",
+    "B": "National",
+    "C": "Nationally",
+    "D": "Nationalize"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "National",
+  "tags": [
+    "verbal",
+    "miscellaneous"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

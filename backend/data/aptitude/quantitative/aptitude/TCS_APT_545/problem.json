@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_545",
+  "slug": "tcs-apt-545",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Pipes A fills in 8h, B in 12h. Together?",
+  "description": "Pipes A fills in 8h, B in 12h. Together?",
+  "question": "Pipes A fills in 8h, B in 12h. Together?",
+  "options": [
+    "4.8h",
+    "6h",
+    "4h",
+    "5h"
+  ],
+  "optionsMap": {
+    "A": "4.8h",
+    "B": "6h",
+    "C": "4h",
+    "D": "5h"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "4.8h",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

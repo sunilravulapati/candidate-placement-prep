@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_303",
+  "slug": "tcs-log-303",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Seating: A, B, C, D sit in a row. A not next to C. B is between A and C. Wher...",
+  "description": "Seating: A, B, C, D sit in a row. A not next to C. B is between A and C. Where is B?",
+  "question": "Seating: A, B, C, D sit in a row. A not next to C. B is between A and C. Where is B?",
+  "options": [
+    "2nd position",
+    "1st",
+    "3rd",
+    "4th"
+  ],
+  "optionsMap": {
+    "A": "2nd position",
+    "B": "1st",
+    "C": "3rd",
+    "D": "4th"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "2nd position",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

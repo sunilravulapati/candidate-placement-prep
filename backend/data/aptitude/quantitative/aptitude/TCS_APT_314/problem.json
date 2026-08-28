@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_314",
+  "slug": "tcs-apt-314",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If 3 is added to both numerator and denominator of 3/8, what is new fraction?",
+  "description": "If 3 is added to both numerator and denominator of 3/8, what is new fraction?",
+  "question": "If 3 is added to both numerator and denominator of 3/8, what is new fraction?",
+  "options": [
+    "6/11",
+    "7/12",
+    "4/9",
+    "5/10"
+  ],
+  "optionsMap": {
+    "A": "6/11",
+    "B": "7/12",
+    "C": "4/9",
+    "D": "5/10"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "6/11",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

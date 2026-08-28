@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_509",
+  "slug": "tcs-log-509",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Analogy: Smell:Nose :: Taste:?",
+  "description": "Analogy: Smell:Nose :: Taste:?",
+  "question": "Analogy: Smell:Nose :: Taste:?",
+  "options": [
+    "Tongue",
+    "Mouth",
+    "Teeth",
+    "Lips"
+  ],
+  "optionsMap": {
+    "A": "Tongue",
+    "B": "Mouth",
+    "C": "Teeth",
+    "D": "Lips"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Tongue",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

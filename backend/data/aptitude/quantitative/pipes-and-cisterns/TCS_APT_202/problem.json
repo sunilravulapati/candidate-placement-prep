@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_202",
+  "slug": "tcs-apt-202",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "pipes-and-cisterns",
+  "topicName": "Pipes and Cisterns",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A cistern has two inlets and one outlet. Inlets fill in 8 and 12 hours, outle...",
+  "description": "A cistern has two inlets and one outlet. Inlets fill in 8 and 12 hours, outlet drains in 6 hours. Time to fill when all open:",
+  "question": "A cistern has two inlets and one outlet. Inlets fill in 8 and 12 hours, outlet drains in 6 hours. Time to fill when all open:",
+  "options": [
+    "24 hours",
+    "12 hours",
+    "18 hours",
+    "16 hours"
+  ],
+  "optionsMap": {
+    "A": "24 hours",
+    "B": "12 hours",
+    "C": "18 hours",
+    "D": "16 hours"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "24 hours",
+  "tags": [
+    "quantitative",
+    "pipes-and-cisterns"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

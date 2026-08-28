@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_038",
+  "slug": "tcs-apt-038",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "profit-and-loss",
+  "topicName": "Profit and Loss",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A man gains 20% by selling at Rs.720. If he wants a 25% gain, the selling pri...",
+  "description": "A man gains 20% by selling at Rs.720. If he wants a 25% gain, the selling price should be:",
+  "question": "A man gains 20% by selling at Rs.720. If he wants a 25% gain, the selling price should be:",
+  "options": [
+    "Rs.750",
+    "Rs.760",
+    "Rs.740",
+    "Rs.780"
+  ],
+  "optionsMap": {
+    "A": "Rs.750",
+    "B": "Rs.760",
+    "C": "Rs.740",
+    "D": "Rs.780"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.750",
+  "tags": [
+    "quantitative",
+    "profit-and-loss"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

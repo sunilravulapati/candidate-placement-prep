@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_071",
+  "slug": "tcs-apt-071",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "speed-and-distance",
+  "topicName": "Speed and Distance",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "If a train covers 360 km at 80 km/h, how long does the journey take?",
+  "description": "If a train covers 360 km at 80 km/h, how long does the journey take?",
+  "question": "If a train covers 360 km at 80 km/h, how long does the journey take?",
+  "options": [
+    "4.5 hours",
+    "4 hours",
+    "5 hours",
+    "3.5 hours"
+  ],
+  "optionsMap": {
+    "A": "4.5 hours",
+    "B": "4 hours",
+    "C": "5 hours",
+    "D": "3.5 hours"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "4.5 hours",
+  "tags": [
+    "quantitative",
+    "speed-and-distance"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

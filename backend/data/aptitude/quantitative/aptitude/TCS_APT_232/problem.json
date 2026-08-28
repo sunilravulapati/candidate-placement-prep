@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_232",
+  "slug": "tcs-apt-232",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A does 1/4 work in 3 days, B does 1/3 work in 4 days. Together how many days ...",
+  "description": "A does 1/4 work in 3 days, B does 1/3 work in 4 days. Together how many days to finish?",
+  "question": "A does 1/4 work in 3 days, B does 1/3 work in 4 days. Together how many days to finish?",
+  "options": [
+    "about 5.5 days",
+    "6 days",
+    "7 days",
+    "4.5 days"
+  ],
+  "optionsMap": {
+    "A": "about 5.5 days",
+    "B": "6 days",
+    "C": "7 days",
+    "D": "4.5 days"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "about 5.5 days",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

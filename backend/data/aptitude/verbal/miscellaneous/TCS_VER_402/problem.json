@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_402",
+  "slug": "tcs-ver-402",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "miscellaneous",
+  "topicName": "Miscellaneous",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Choose the correct preposition: 'He is addicted _____ gaming.'",
+  "description": "Choose the correct preposition: 'He is addicted _____ gaming.'",
+  "question": "Choose the correct preposition: 'He is addicted _____ gaming.'",
+  "options": [
+    "to",
+    "for",
+    "with",
+    "from"
+  ],
+  "optionsMap": {
+    "A": "to",
+    "B": "for",
+    "C": "with",
+    "D": "from"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "to",
+  "tags": [
+    "verbal",
+    "miscellaneous"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

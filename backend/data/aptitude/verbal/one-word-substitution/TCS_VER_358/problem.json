@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_358",
+  "slug": "tcs-ver-358",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "one-word-substitution",
+  "topicName": "One Word Substitution",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Find the one word substitution for: One who is indifferent to pain or pleasure",
+  "description": "Find the one word substitution for: One who is indifferent to pain or pleasure",
+  "question": "Find the one word substitution for: One who is indifferent to pain or pleasure",
+  "options": [
+    "Stoic",
+    "Cynic",
+    "Hedonist",
+    "Purist"
+  ],
+  "optionsMap": {
+    "A": "Stoic",
+    "B": "Cynic",
+    "C": "Hedonist",
+    "D": "Purist"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Stoic",
+  "tags": [
+    "verbal",
+    "one-word-substitution"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

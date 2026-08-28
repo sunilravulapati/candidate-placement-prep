@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_057",
+  "slug": "tcs-ver-057",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most OPPOSITE in meaning to: GARRULOUS",
+  "description": "Choose the word most OPPOSITE in meaning to: GARRULOUS",
+  "question": "Choose the word most OPPOSITE in meaning to: GARRULOUS",
+  "options": [
+    "Quiet",
+    "Talkative",
+    "Chatty",
+    "Noisy"
+  ],
+  "optionsMap": {
+    "A": "Quiet",
+    "B": "Talkative",
+    "C": "Chatty",
+    "D": "Noisy"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Quiet",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

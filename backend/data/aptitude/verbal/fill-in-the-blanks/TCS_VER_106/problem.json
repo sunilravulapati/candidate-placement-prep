@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_106",
+  "slug": "tcs-ver-106",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "She was _____ about her diet, avoiding sugar and processed foods.",
+  "description": "She was _____ about her diet, avoiding sugar and processed foods.",
+  "question": "She was _____ about her diet, avoiding sugar and processed foods.",
+  "options": [
+    "meticulous",
+    "careless",
+    "relaxed",
+    "indifferent"
+  ],
+  "optionsMap": {
+    "A": "meticulous",
+    "B": "careless",
+    "C": "relaxed",
+    "D": "indifferent"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "meticulous",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

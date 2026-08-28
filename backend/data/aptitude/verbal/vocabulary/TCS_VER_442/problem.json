@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_442",
+  "slug": "tcs-ver-442",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "One word substitution: Fear of spiders",
+  "description": "One word substitution: Fear of spiders",
+  "question": "One word substitution: Fear of spiders",
+  "options": [
+    "Arachnophobia",
+    "Acrophobia",
+    "Xenophobia",
+    "Agoraphobia"
+  ],
+  "optionsMap": {
+    "A": "Arachnophobia",
+    "B": "Acrophobia",
+    "C": "Xenophobia",
+    "D": "Agoraphobia"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Arachnophobia",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

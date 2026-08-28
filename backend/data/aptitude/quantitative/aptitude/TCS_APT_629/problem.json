@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_629",
+  "slug": "tcs-apt-629",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Cost of building: material 60%, labour 30%, misc 10%=Rs 5000. Total cost?",
+  "description": "Cost of building: material 60%, labour 30%, misc 10%=Rs 5000. Total cost?",
+  "question": "Cost of building: material 60%, labour 30%, misc 10%=Rs 5000. Total cost?",
+  "options": [
+    "50000",
+    "45000",
+    "60000",
+    "55000"
+  ],
+  "optionsMap": {
+    "A": "50000",
+    "B": "45000",
+    "C": "60000",
+    "D": "55000"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "50000",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

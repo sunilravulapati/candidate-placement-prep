@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_420",
+  "slug": "tcs-ver-420",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Choose the antonym of: EPHEMERAL",
+  "description": "Choose the antonym of: EPHEMERAL",
+  "question": "Choose the antonym of: EPHEMERAL",
+  "options": [
+    "Permanent",
+    "Temporary",
+    "Brief",
+    "Short-lived"
+  ],
+  "optionsMap": {
+    "A": "Permanent",
+    "B": "Temporary",
+    "C": "Brief",
+    "D": "Short-lived"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Permanent",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

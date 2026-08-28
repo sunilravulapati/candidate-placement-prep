@@ -3,10 +3,14 @@
 import fs from 'fs';
 import path from 'path';
 
-interface AptitudeValidationSummary {
+export interface AptitudeValidationSummary {
   scanned: number;
   valid: number;
   invalid: number;
+  logicalCount: number;
+  numericalCount: number;
+  verbalCount: number;
+  duplicateCount: number;
   errorsByQuestion: Record<string, string[]>;
 }
 
@@ -26,8 +30,15 @@ export function validateAptitudeRepository(): AptitudeValidationSummary {
     scanned: 0,
     valid: 0,
     invalid: 0,
+    logicalCount: 0,
+    numericalCount: 0,
+    verbalCount: 0,
+    duplicateCount: 0,
     errorsByQuestion: {},
   };
+
+  const seenIds = new Set<string>();
+  const seenQuestionTexts = new Set<string>();
 
   for (const cat of VALID_CATEGORIES) {
     const catDir = path.join(aptitudeBase, cat);
@@ -53,20 +64,72 @@ export function validateAptitudeRepository(): AptitudeValidationSummary {
         } else {
           try {
             const raw = JSON.parse(fs.readFileSync(pPath, 'utf-8'));
-            if (!raw.id) qErrors.push('Missing id');
-            if (!raw.question || raw.question.trim().length === 0) qErrors.push('Missing question text');
-            if (!Array.isArray(raw.options) || raw.options.length < 2) qErrors.push('Must have at least 2 options');
-            if (!raw.answer) qErrors.push('Missing answer');
-            if (Array.isArray(raw.options) && raw.answer && !raw.options.includes(raw.answer)) {
-              qErrors.push(`Answer "${raw.answer}" is not present in options array`);
+            
+            // Unique ID check
+            if (!raw.id) {
+              qErrors.push('Missing id');
+            } else if (seenIds.has(raw.id)) {
+              qErrors.push(`Duplicate question id: ${raw.id}`);
+              summary.duplicateCount++;
+            } else {
+              seenIds.add(raw.id);
             }
+
+            // Question text
+            if (!raw.question || raw.question.trim().length === 0) {
+              qErrors.push('Missing question text');
+            } else {
+              const norm = raw.question.toLowerCase().replace(/[^a-z0-9]/g, '');
+              seenQuestionTexts.add(norm);
+            }
+
+            // HTML check
+            if (raw.question && /<[^>]+>/.test(raw.question)) {
+              qErrors.push('Question text contains HTML tags');
+            }
+
+            // Options: exactly 4
+            if (!Array.isArray(raw.options) || raw.options.length !== 4) {
+              qErrors.push(`Must have exactly 4 options (found ${raw.options?.length})`);
+            } else {
+              for (let i = 0; i < raw.options.length; i++) {
+                const opt = raw.options[i];
+                if (!opt || String(opt).trim().length === 0) {
+                  qErrors.push(`Option ${i + 1} is empty`);
+                }
+                if (/<[^>]+>/.test(String(opt))) {
+                  qErrors.push(`Option ${i + 1} contains HTML tags`);
+                }
+              }
+            }
+
+            // Answer normalization: A/B/C/D or valid text
+            const validAnswerKeys = ['A', 'B', 'C', 'D'];
+            const ansKey = raw.answerKey || (validAnswerKeys.includes(raw.answer) ? raw.answer : null);
+            const ansText = raw.correctAnswer || (Array.isArray(raw.options) && raw.options.includes(raw.answer) ? raw.answer : null);
+
+            if (!ansKey && !ansText) {
+              qErrors.push(`Answer "${raw.answer}" is neither a valid key (A/B/C/D) nor in options`);
+            }
+
+            // Difficulty: EASY / MEDIUM / HARD
             if (!raw.difficulty || !['EASY', 'MEDIUM', 'HARD'].includes(raw.difficulty.toUpperCase())) {
-              qErrors.push(`Invalid difficulty "${raw.difficulty}"`);
+              qErrors.push(`Invalid difficulty "${raw.difficulty}". Allowed: EASY, MEDIUM, HARD`);
             }
+
+            // Category
             if (!raw.category || !VALID_CATEGORIES.includes(raw.category)) {
               qErrors.push(`Invalid category "${raw.category}"`);
+            } else {
+              if (raw.category === 'logical') summary.logicalCount++;
+              else if (raw.category === 'quantitative') summary.numericalCount++;
+              else if (raw.category === 'verbal') summary.verbalCount++;
             }
-            if (!raw.topic) qErrors.push('Missing topic');
+
+            // Topic
+            if (!raw.topic) {
+              qErrors.push('Missing topic');
+            }
           } catch (err) {
             qErrors.push(`Failed parsing problem.json: ${(err as Error).message}`);
           }
@@ -91,24 +154,38 @@ export function validateAptitudeRepository(): AptitudeValidationSummary {
   return summary;
 }
 
+export function printAptitudeReport(summary: AptitudeValidationSummary) {
+  console.log(`====================================================`);
+  console.log(`               APTITUDE REPORT`);
+  console.log(`====================================================\n`);
+
+  console.log(`Total: ${summary.scanned}\n`);
+  console.log(`Logical:   ${summary.logicalCount}`);
+  console.log(`Numerical: ${summary.numericalCount}`);
+  console.log(`Verbal:    ${summary.verbalCount}\n`);
+
+  console.log(`Duplicates:   ${summary.duplicateCount}`);
+  console.log(`Invalid rows: ${summary.invalid}\n`);
+
+  if (summary.invalid > 0) {
+    console.error('✗ Validation failed for:');
+    for (const [id, errs] of Object.entries(summary.errorsByQuestion)) {
+      console.error(`\n✗ ${id}:`);
+      errs.forEach((e) => console.error(`  - ${e}`));
+    }
+  } else {
+    console.log('✓ All Aptitude questions validated successfully!');
+  }
+  console.log(`====================================================`);
+}
+
 if (require.main === module) {
   try {
     const res = validateAptitudeRepository();
-    console.log('─────────────────────────────────────────────────────────────');
-    console.log(`✓ ${res.scanned} Aptitude questions scanned`);
-    console.log(`✓ ${res.valid} valid`);
-    console.log(`${res.invalid} invalid`);
-    console.log('─────────────────────────────────────────────────────────────');
+    printAptitudeReport(res);
 
     if (res.invalid > 0) {
-      console.error('\n✗ Aptitude validation failed for:');
-      for (const [id, errs] of Object.entries(res.errorsByQuestion)) {
-        console.error(`\n✗ ${id}:`);
-        errs.forEach((e) => console.error(`  - ${e}`));
-      }
       process.exit(1);
-    } else {
-      console.log('\n✓ All Aptitude questions validated successfully!');
     }
   } catch (err) {
     console.error('Aptitude Validation Error:', (err as Error).message);

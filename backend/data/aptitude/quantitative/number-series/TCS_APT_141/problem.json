@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_141",
+  "slug": "tcs-apt-141",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "number-series",
+  "topicName": "Number Series",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find the next: 3, 6, 11, 18, 27, ___",
+  "description": "Find the next: 3, 6, 11, 18, 27, ___",
+  "question": "Find the next: 3, 6, 11, 18, 27, ___",
+  "options": [
+    "38",
+    "40",
+    "42",
+    "36"
+  ],
+  "optionsMap": {
+    "A": "38",
+    "B": "40",
+    "C": "42",
+    "D": "36"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "38",
+  "tags": [
+    "quantitative",
+    "number-series"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

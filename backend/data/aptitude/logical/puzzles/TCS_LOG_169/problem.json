@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_169",
+  "slug": "tcs-log-169",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "puzzles",
+  "topicName": "Puzzles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Without electricity, how could a man living alone read at night?",
+  "description": "Without electricity, how could a man living alone read at night?",
+  "question": "Without electricity, how could a man living alone read at night?",
+  "options": [
+    "He is blind and reads Braille",
+    "He uses a phone",
+    "He reads by moonlight",
+    "He lights a candle"
+  ],
+  "optionsMap": {
+    "A": "He is blind and reads Braille",
+    "B": "He uses a phone",
+    "C": "He reads by moonlight",
+    "D": "He lights a candle"
+  },
+  "answer": "D",
+  "answerKey": "D",
+  "correctAnswer": "He lights a candle",
+  "tags": [
+    "logical",
+    "puzzles"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

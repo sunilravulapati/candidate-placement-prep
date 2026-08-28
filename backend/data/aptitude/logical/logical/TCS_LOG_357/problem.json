@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_357",
+  "slug": "tcs-log-357",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number pattern: 120, 100, 82, 66, ?",
+  "description": "Number pattern: 120, 100, 82, 66, ?",
+  "question": "Number pattern: 120, 100, 82, 66, ?",
+  "options": [
+    "52",
+    "54",
+    "50",
+    "56"
+  ],
+  "optionsMap": {
+    "A": "52",
+    "B": "54",
+    "C": "50",
+    "D": "56"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "52",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

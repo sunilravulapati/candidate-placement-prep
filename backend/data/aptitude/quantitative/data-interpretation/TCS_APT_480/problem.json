@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_480",
+  "slug": "tcs-apt-480",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "data-interpretation",
+  "topicName": "Data Interpretation",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "A table shows sales: Jan=40, Feb=35, Mar=45, Apr=50. Average monthly sales?",
+  "description": "A table shows sales: Jan=40, Feb=35, Mar=45, Apr=50. Average monthly sales?",
+  "question": "A table shows sales: Jan=40, Feb=35, Mar=45, Apr=50. Average monthly sales?",
+  "options": [
+    "42.5",
+    "40",
+    "45",
+    "47.5"
+  ],
+  "optionsMap": {
+    "A": "42.5",
+    "B": "40",
+    "C": "45",
+    "D": "47.5"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "42.5",
+  "tags": [
+    "quantitative",
+    "data-interpretation"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

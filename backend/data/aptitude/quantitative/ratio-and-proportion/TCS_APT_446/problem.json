@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_446",
+  "slug": "tcs-apt-446",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "ratio-and-proportion",
+  "topicName": "Ratio and Proportion",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Milk and water in ratio 5:3. If 16L of mixture removed and 16L water added, r...",
+  "description": "Milk and water in ratio 5:3. If 16L of mixture removed and 16L water added, ratio becomes 3:5. Original quantity?",
+  "question": "Milk and water in ratio 5:3. If 16L of mixture removed and 16L water added, ratio becomes 3:5. Original quantity?",
+  "options": [
+    "40 L",
+    "32 L",
+    "48 L",
+    "50 L"
+  ],
+  "optionsMap": {
+    "A": "40 L",
+    "B": "32 L",
+    "C": "48 L",
+    "D": "50 L"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "40 L",
+  "tags": [
+    "quantitative",
+    "ratio-and-proportion"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

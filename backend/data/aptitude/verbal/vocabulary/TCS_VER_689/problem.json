@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_689",
+  "slug": "tcs-ver-689",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Idiom: 'Catch someone red-handed' means?",
+  "description": "Idiom: 'Catch someone red-handed' means?",
+  "question": "Idiom: 'Catch someone red-handed' means?",
+  "options": [
+    "Catch in the act",
+    "Catch with red paint",
+    "Arrest someone",
+    "Find a thief"
+  ],
+  "optionsMap": {
+    "A": "Catch in the act",
+    "B": "Catch with red paint",
+    "C": "Arrest someone",
+    "D": "Find a thief"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Catch in the act",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

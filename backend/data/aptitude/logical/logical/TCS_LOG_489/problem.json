@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_489",
+  "slug": "tcs-log-489",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Series: B,D,G,K,P,__?",
+  "description": "Series: B,D,G,K,P,__?",
+  "question": "Series: B,D,G,K,P,__?",
+  "options": [
+    "V",
+    "U",
+    "W",
+    "X"
+  ],
+  "optionsMap": {
+    "A": "V",
+    "B": "U",
+    "C": "W",
+    "D": "X"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "V",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_438",
+  "slug": "tcs-ver-438",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What does the idiom 'the last straw' mean?",
+  "description": "What does the idiom 'the last straw' mean?",
+  "question": "What does the idiom 'the last straw' mean?",
+  "options": [
+    "The final problem that causes failure",
+    "A piece of straw",
+    "A small problem",
+    "A drink"
+  ],
+  "optionsMap": {
+    "A": "The final problem that causes failure",
+    "B": "A piece of straw",
+    "C": "A small problem",
+    "D": "A drink"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "The final problem that causes failure",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

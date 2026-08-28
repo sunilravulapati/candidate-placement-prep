@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_513",
+  "slug": "tcs-log-513",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number: 100, 95, 85, 70, 50, __?",
+  "description": "Number: 100, 95, 85, 70, 50, __?",
+  "question": "Number: 100, 95, 85, 70, 50, __?",
+  "options": [
+    "25",
+    "30",
+    "20",
+    "35"
+  ],
+  "optionsMap": {
+    "A": "25",
+    "B": "30",
+    "C": "20",
+    "D": "35"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "25",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

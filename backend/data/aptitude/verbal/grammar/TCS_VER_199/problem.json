@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_199",
+  "slug": "tcs-ver-199",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Choose the sentence with correct pronoun reference:",
+  "description": "Choose the sentence with correct pronoun reference:",
+  "question": "Choose the sentence with correct pronoun reference:",
+  "options": [
+    "The teacher told the student that he was wrong.",
+    "The teacher told the student, 'You are wrong.'",
+    "He was told by the teacher he was wrong.",
+    "The teacher told him he was wrong to student."
+  ],
+  "optionsMap": {
+    "A": "The teacher told the student that he was wrong.",
+    "B": "The teacher told the student, 'You are wrong.'",
+    "C": "He was told by the teacher he was wrong.",
+    "D": "The teacher told him he was wrong to student."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "The teacher told the student, 'You are wrong.'",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_350",
+  "slug": "tcs-apt-350",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If the area of a square is 169 m2, find its perimeter.",
+  "description": "If the area of a square is 169 m2, find its perimeter.",
+  "question": "If the area of a square is 169 m2, find its perimeter.",
+  "options": [
+    "52m",
+    "48m",
+    "56m",
+    "44m"
+  ],
+  "optionsMap": {
+    "A": "52m",
+    "B": "48m",
+    "C": "56m",
+    "D": "44m"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "52m",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

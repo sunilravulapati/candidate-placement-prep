@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_304",
+  "slug": "tcs-log-304",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Seating: 5 people sit in circle. X sits left of Y and right of Z. P is right ...",
+  "description": "Seating: 5 people sit in circle. X sits left of Y and right of Z. P is right of Y. Who is between Z and P?",
+  "question": "Seating: 5 people sit in circle. X sits left of Y and right of Z. P is right of Y. Who is between Z and P?",
+  "options": [
+    "X",
+    "Y",
+    "Q",
+    "W"
+  ],
+  "optionsMap": {
+    "A": "X",
+    "B": "Y",
+    "C": "Q",
+    "D": "W"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "X",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

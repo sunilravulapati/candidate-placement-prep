@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_403",
+  "slug": "tcs-ver-403",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "miscellaneous",
+  "topicName": "Miscellaneous",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which sentence uses 'since' correctly?",
+  "description": "Which sentence uses 'since' correctly?",
+  "question": "Which sentence uses 'since' correctly?",
+  "options": [
+    "He has worked here since two years.",
+    "He has worked here since 2020.",
+    "He is working since yesterday.",
+    "He worked since Monday."
+  ],
+  "optionsMap": {
+    "A": "He has worked here since two years.",
+    "B": "He has worked here since 2020.",
+    "C": "He is working since yesterday.",
+    "D": "He worked since Monday."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "He has worked here since 2020.",
+  "tags": [
+    "verbal",
+    "miscellaneous"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

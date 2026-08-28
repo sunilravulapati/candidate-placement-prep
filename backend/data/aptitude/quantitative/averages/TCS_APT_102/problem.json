@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_102",
+  "slug": "tcs-apt-102",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "averages",
+  "topicName": "Averages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Average of 7 numbers is 8. If each number is multiplied by 3, the new average...",
+  "description": "Average of 7 numbers is 8. If each number is multiplied by 3, the new average is:",
+  "question": "Average of 7 numbers is 8. If each number is multiplied by 3, the new average is:",
+  "options": [
+    "24",
+    "21",
+    "18",
+    "27"
+  ],
+  "optionsMap": {
+    "A": "24",
+    "B": "21",
+    "C": "18",
+    "D": "27"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "24",
+  "tags": [
+    "quantitative",
+    "averages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

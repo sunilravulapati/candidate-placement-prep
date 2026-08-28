@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_301",
+  "slug": "tcs-apt-301",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "At 12% CI, what will Rs 5000 become after 2 years?",
+  "description": "At 12% CI, what will Rs 5000 become after 2 years?",
+  "question": "At 12% CI, what will Rs 5000 become after 2 years?",
+  "options": [
+    "6272",
+    "6000",
+    "5600",
+    "6500"
+  ],
+  "optionsMap": {
+    "A": "6272",
+    "B": "6000",
+    "C": "5600",
+    "D": "6500"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "6272",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

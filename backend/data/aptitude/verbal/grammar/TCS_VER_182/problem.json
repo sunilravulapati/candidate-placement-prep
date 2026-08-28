@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_182",
+  "slug": "tcs-ver-182",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Identify the passive voice sentence:",
+  "description": "Identify the passive voice sentence:",
+  "question": "Identify the passive voice sentence:",
+  "options": [
+    "She writes a letter.",
+    "A letter is written by her.",
+    "She is writing a letter.",
+    "She wrote a letter."
+  ],
+  "optionsMap": {
+    "A": "She writes a letter.",
+    "B": "A letter is written by her.",
+    "C": "She is writing a letter.",
+    "D": "She wrote a letter."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "A letter is written by her.",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

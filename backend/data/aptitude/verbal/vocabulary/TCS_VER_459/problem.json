@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_459",
+  "slug": "tcs-ver-459",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "What does the word CORROBORATE mean?",
+  "description": "What does the word CORROBORATE mean?",
+  "question": "What does the word CORROBORATE mean?",
+  "options": [
+    "Confirm or support",
+    "Contradict",
+    "Deny",
+    "Oppose"
+  ],
+  "optionsMap": {
+    "A": "Confirm or support",
+    "B": "Contradict",
+    "C": "Deny",
+    "D": "Oppose"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Confirm or support",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

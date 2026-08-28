@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_691",
+  "slug": "tcs-ver-691",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Fill blank: She was highly __ by the board for her contributions.",
+  "description": "Fill blank: She was highly __ by the board for her contributions.",
+  "question": "Fill blank: She was highly __ by the board for her contributions.",
+  "options": [
+    "commended",
+    "critical",
+    "rejected",
+    "ignored"
+  ],
+  "optionsMap": {
+    "A": "commended",
+    "B": "critical",
+    "C": "rejected",
+    "D": "ignored"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "commended",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

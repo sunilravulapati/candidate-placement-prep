@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_505",
+  "slug": "tcs-log-505",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Coding: TRAIN coded as 44. PLANE = ?",
+  "description": "Coding: TRAIN coded as 44. PLANE = ?",
+  "question": "Coding: TRAIN coded as 44. PLANE = ?",
+  "options": [
+    "43",
+    "42",
+    "45",
+    "40"
+  ],
+  "optionsMap": {
+    "A": "43",
+    "B": "42",
+    "C": "45",
+    "D": "40"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "43",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

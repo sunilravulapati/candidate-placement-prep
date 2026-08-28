@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_517",
+  "slug": "tcs-apt-517",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "logarithms",
+  "topicName": "Logarithms",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Change of base formula: loga(b) = ?",
+  "description": "Change of base formula: loga(b) = ?",
+  "question": "Change of base formula: loga(b) = ?",
+  "options": [
+    "log(b)/log(a)",
+    "log(a)/log(b)",
+    "log(a+b)",
+    "log(ab)"
+  ],
+  "optionsMap": {
+    "A": "log(b)/log(a)",
+    "B": "log(a)/log(b)",
+    "C": "log(a+b)",
+    "D": "log(ab)"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "log(b)/log(a)",
+  "tags": [
+    "quantitative",
+    "logarithms"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

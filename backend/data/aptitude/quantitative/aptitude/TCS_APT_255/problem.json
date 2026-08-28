@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_255",
+  "slug": "tcs-apt-255",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The sum of ages of A and B is 45 years. 5 years ago, A was twice as old as B....",
+  "description": "The sum of ages of A and B is 45 years. 5 years ago, A was twice as old as B. Find A's current age.",
+  "question": "The sum of ages of A and B is 45 years. 5 years ago, A was twice as old as B. Find A's current age.",
+  "options": [
+    "35",
+    "30",
+    "25",
+    "40"
+  ],
+  "optionsMap": {
+    "A": "35",
+    "B": "30",
+    "C": "25",
+    "D": "40"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "35",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

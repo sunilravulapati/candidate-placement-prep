@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_638",
+  "slug": "tcs-log-638",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Face W, turn right, turn right again. Now facing?",
+  "description": "Face W, turn right, turn right again. Now facing?",
+  "question": "Face W, turn right, turn right again. Now facing?",
+  "options": [
+    "East",
+    "West",
+    "South",
+    "North"
+  ],
+  "optionsMap": {
+    "A": "East",
+    "B": "West",
+    "C": "South",
+    "D": "North"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "East",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

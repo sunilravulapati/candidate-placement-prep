@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_679",
+  "slug": "tcs-ver-679",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "One word: Murder of one's own father",
+  "description": "One word: Murder of one's own father",
+  "question": "One word: Murder of one's own father",
+  "options": [
+    "Patricide",
+    "Matricide",
+    "Fratricide",
+    "Regicide"
+  ],
+  "optionsMap": {
+    "A": "Patricide",
+    "B": "Matricide",
+    "C": "Fratricide",
+    "D": "Regicide"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Patricide",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

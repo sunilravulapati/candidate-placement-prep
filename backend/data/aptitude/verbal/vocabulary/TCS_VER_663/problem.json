@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_663",
+  "slug": "tcs-ver-663",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of ALLEVIATE",
+  "description": "Choose the antonym of ALLEVIATE",
+  "question": "Choose the antonym of ALLEVIATE",
+  "options": [
+    "Aggravate",
+    "Ease",
+    "Reduce",
+    "Lessen"
+  ],
+  "optionsMap": {
+    "A": "Aggravate",
+    "B": "Ease",
+    "C": "Reduce",
+    "D": "Lessen"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Aggravate",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

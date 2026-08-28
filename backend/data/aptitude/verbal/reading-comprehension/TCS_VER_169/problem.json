@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_169",
+  "slug": "tcs-ver-169",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "PASSAGE: The human brain is arguably the most complex structure in the known ...",
+  "description": "PASSAGE: The human brain is arguably the most complex structure in the known universe. Comprising approximately 86 billion neuron... Q: What does the brain do during sleep according to the passage?",
+  "question": "PASSAGE: The human brain is arguably the most complex structure in the known universe. Comprising approximately 86 billion neuron... Q: What does the brain do during sleep according to the passage?",
+  "options": [
+    "Consolidates memories and removes metabolic waste",
+    "Completely shuts down",
+    "Only controls breathing",
+    "Stops all activity"
+  ],
+  "optionsMap": {
+    "A": "Consolidates memories and removes metabolic waste",
+    "B": "Completely shuts down",
+    "C": "Only controls breathing",
+    "D": "Stops all activity"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Consolidates memories and removes metabolic waste",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

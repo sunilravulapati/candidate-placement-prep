@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_117",
+  "slug": "tcs-log-117",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "analogies",
+  "topicName": "Analogies",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Vertebrae : Spine :: Ribs : ?",
+  "description": "Vertebrae : Spine :: Ribs : ?",
+  "question": "Vertebrae : Spine :: Ribs : ?",
+  "options": [
+    "Ribcage",
+    "Skull",
+    "Pelvis",
+    "Sternum"
+  ],
+  "optionsMap": {
+    "A": "Ribcage",
+    "B": "Skull",
+    "C": "Pelvis",
+    "D": "Sternum"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Skull",
+  "tags": [
+    "logical",
+    "analogies"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

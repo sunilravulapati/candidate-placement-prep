@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_177",
+  "slug": "tcs-log-177",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "cause-and-effect",
+  "topicName": "Cause and Effect",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Statement I: Many professionals are opting for remote work. Statement II: Off...",
+  "description": "Statement I: Many professionals are opting for remote work. Statement II: Office space rental rates in cities have fallen. Relation:",
+  "question": "Statement I: Many professionals are opting for remote work. Statement II: Office space rental rates in cities have fallen. Relation:",
+  "options": [
+    "I is cause, II is effect",
+    "II is cause, I is effect",
+    "Independent events",
+    "Both are effects of pandemic"
+  ],
+  "optionsMap": {
+    "A": "I is cause, II is effect",
+    "B": "II is cause, I is effect",
+    "C": "Independent events",
+    "D": "Both are effects of pandemic"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "I is cause, II is effect",
+  "tags": [
+    "logical",
+    "cause-and-effect"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

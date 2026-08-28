@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_121",
+  "slug": "tcs-apt-121",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "algebra",
+  "topicName": "Algebra",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Simplify (x2 − 4)/(x − 2).",
+  "description": "Simplify (x2 − 4)/(x − 2).",
+  "question": "Simplify (x2 − 4)/(x − 2).",
+  "options": [
+    "x + 2",
+    "x − 2",
+    "x2 + 2",
+    "2x"
+  ],
+  "optionsMap": {
+    "A": "x + 2",
+    "B": "x − 2",
+    "C": "x2 + 2",
+    "D": "2x"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "x + 2",
+  "tags": [
+    "quantitative",
+    "algebra"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

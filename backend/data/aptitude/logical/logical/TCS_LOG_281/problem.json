@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_281",
+  "slug": "tcs-log-281",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Syllogism: All cats are animals. All animals are living beings. Which is true?",
+  "description": "Syllogism: All cats are animals. All animals are living beings. Which is true?",
+  "question": "Syllogism: All cats are animals. All animals are living beings. Which is true?",
+  "options": [
+    "All cats are living beings",
+    "All living beings are cats",
+    "No cats are living",
+    "Some cats are not living"
+  ],
+  "optionsMap": {
+    "A": "All cats are living beings",
+    "B": "All living beings are cats",
+    "C": "No cats are living",
+    "D": "Some cats are not living"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "All cats are living beings",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

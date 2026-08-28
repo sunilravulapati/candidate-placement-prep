@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_428",
+  "slug": "tcs-apt-428",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "compound-interest",
+  "topicName": "Compound Interest",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "If the difference between SI and CI for 2 years at 10% is Rs.100, the princip...",
+  "description": "If the difference between SI and CI for 2 years at 10% is Rs.100, the principal is:",
+  "question": "If the difference between SI and CI for 2 years at 10% is Rs.100, the principal is:",
+  "options": [
+    "Rs.10000",
+    "Rs.8000",
+    "Rs.12000",
+    "Rs.9000"
+  ],
+  "optionsMap": {
+    "A": "Rs.10000",
+    "B": "Rs.8000",
+    "C": "Rs.12000",
+    "D": "Rs.9000"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.10000",
+  "tags": [
+    "quantitative",
+    "compound-interest"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_360",
+  "slug": "tcs-ver-360",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "one-word-substitution",
+  "topicName": "One Word Substitution",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Find the one word substitution for: One who repairs watches",
+  "description": "Find the one word substitution for: One who repairs watches",
+  "question": "Find the one word substitution for: One who repairs watches",
+  "options": [
+    "Horologist",
+    "Jeweller",
+    "Mechanic",
+    "Engineer"
+  ],
+  "optionsMap": {
+    "A": "Horologist",
+    "B": "Jeweller",
+    "C": "Mechanic",
+    "D": "Engineer"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Horologist",
+  "tags": [
+    "verbal",
+    "one-word-substitution"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

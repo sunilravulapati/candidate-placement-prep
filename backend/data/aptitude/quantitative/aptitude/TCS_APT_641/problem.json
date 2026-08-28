@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_641",
+  "slug": "tcs-apt-641",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Speed: 400+100m in 30s. Speed m/s?",
+  "description": "Speed: 400+100m in 30s. Speed m/s?",
+  "question": "Speed: 400+100m in 30s. Speed m/s?",
+  "options": [
+    "16.7",
+    "20",
+    "15",
+    "25"
+  ],
+  "optionsMap": {
+    "A": "16.7",
+    "B": "20",
+    "C": "15",
+    "D": "25"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "16.7",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

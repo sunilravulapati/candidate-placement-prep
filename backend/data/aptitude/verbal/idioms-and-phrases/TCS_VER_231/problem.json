@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_231",
+  "slug": "tcs-ver-231",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What does 'sit on the fence' mean?",
+  "description": "What does 'sit on the fence' mean?",
+  "question": "What does 'sit on the fence' mean?",
+  "options": [
+    "Refuse to take a side in a dispute",
+    "Rest outdoors",
+    "Guard a property",
+    "Climb a fence"
+  ],
+  "optionsMap": {
+    "A": "Refuse to take a side in a dispute",
+    "B": "Rest outdoors",
+    "C": "Guard a property",
+    "D": "Climb a fence"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Refuse to take a side in a dispute",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

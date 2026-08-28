@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_275",
+  "slug": "tcs-ver-275",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "word-analogy",
+  "topicName": "Word Analogy",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Complete the analogy: Author : Book :: Director : ?",
+  "description": "Complete the analogy: Author : Book :: Director : ?",
+  "question": "Complete the analogy: Author : Book :: Director : ?",
+  "options": [
+    "Film",
+    "Song",
+    "Building",
+    "Painting"
+  ],
+  "optionsMap": {
+    "A": "Film",
+    "B": "Song",
+    "C": "Building",
+    "D": "Painting"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Film",
+  "tags": [
+    "verbal",
+    "word-analogy"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

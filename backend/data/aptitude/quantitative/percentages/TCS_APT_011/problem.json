@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_011",
+  "slug": "tcs-apt-011",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "percentages",
+  "topicName": "Percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "In an examination, 70% of students passed in English and 65% in Maths. If 40%...",
+  "description": "In an examination, 70% of students passed in English and 65% in Maths. If 40% passed in both, what percentage failed in both?",
+  "question": "In an examination, 70% of students passed in English and 65% in Maths. If 40% passed in both, what percentage failed in both?",
+  "options": [
+    "5%",
+    "10%",
+    "15%",
+    "25%"
+  ],
+  "optionsMap": {
+    "A": "5%",
+    "B": "10%",
+    "C": "15%",
+    "D": "25%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "5%",
+  "tags": [
+    "quantitative",
+    "percentages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

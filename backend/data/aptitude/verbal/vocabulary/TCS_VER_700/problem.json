@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_700",
+  "slug": "tcs-ver-700",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Sentence correction: She insisted that he comes immediately.",
+  "description": "Sentence correction: She insisted that he comes immediately.",
+  "question": "Sentence correction: She insisted that he comes immediately.",
+  "options": [
+    "She insisted that he come immediately.",
+    "She insisted that he came immediately.",
+    "She insisted that he would come immediately.",
+    "No change"
+  ],
+  "optionsMap": {
+    "A": "She insisted that he come immediately.",
+    "B": "She insisted that he came immediately.",
+    "C": "She insisted that he would come immediately.",
+    "D": "No change"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "She insisted that he come immediately.",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

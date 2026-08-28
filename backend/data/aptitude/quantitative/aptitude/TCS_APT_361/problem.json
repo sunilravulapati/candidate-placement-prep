@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_361",
+  "slug": "tcs-apt-361",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "How many two-digit numbers are divisible by 7?",
+  "description": "How many two-digit numbers are divisible by 7?",
+  "question": "How many two-digit numbers are divisible by 7?",
+  "options": [
+    "13",
+    "12",
+    "11",
+    "14"
+  ],
+  "optionsMap": {
+    "A": "13",
+    "B": "12",
+    "C": "11",
+    "D": "14"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "13",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

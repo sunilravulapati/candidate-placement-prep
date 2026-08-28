@@ -2,57 +2,81 @@
   {
     "id": "sample-1",
     "classification": "sample",
-    "input": "\"babad\"",
-    "expectedOutput": "\"bab\"",
-    "explanation": "Sample test 1 for Word Search"
+    "displayInput": "board = [[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]], word = \"ABCCED\"",
+    "input": "3 4\nA B C E\nS F C S\nA D E E\nABCCED",
+    "stdin": "3 4\nA B C E\nS F C S\nA D E E\nABCCED",
+    "expectedOutput": "true",
+    "explanation": "word exists with turns. Expected output: true",
+    "serializationStatus": "compatible"
   },
   {
     "id": "sample-2",
     "classification": "sample",
-    "input": "\"cbbd\"",
-    "expectedOutput": "\"bb\"",
-    "explanation": "Sample test 2 for Word Search"
+    "displayInput": "board = [[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]], word = \"SEE\"",
+    "input": "3 4\nA B C E\nS F C S\nA D E E\nSEE",
+    "stdin": "3 4\nA B C E\nS F C S\nA D E E\nSEE",
+    "expectedOutput": "true",
+    "explanation": "word exists vertically. Expected output: true",
+    "serializationStatus": "compatible"
   },
   {
     "id": "sample-3",
     "classification": "sample",
-    "input": "\"a\"",
-    "expectedOutput": "\"a\"",
-    "explanation": "Sample test 3 for Word Search"
+    "displayInput": "board = [[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]], word = \"ABCB\"",
+    "input": "3 4\nA B C E\nS F C S\nA D E E\nABCB",
+    "stdin": "3 4\nA B C E\nS F C S\nA D E E\nABCB",
+    "expectedOutput": "false",
+    "explanation": "cell reuse would be required. Expected output: false",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "edge-1",
-    "classification": "edge",
-    "input": "\"\"",
-    "expectedOutput": "\"\"",
-    "explanation": "Empty string boundary"
+    "id": "hidden-1",
+    "classification": "hidden",
+    "displayInput": "board = [[\"A\"]], word = \"A\"",
+    "input": "1 1\nA\nA",
+    "stdin": "1 1\nA\nA",
+    "expectedOutput": "true",
+    "explanation": "single-cell match",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "corner-2",
-    "classification": "corner",
-    "input": "\"aaaaa\"",
-    "expectedOutput": "\"aaaaa\"",
-    "explanation": "All identical characters"
+    "id": "hidden-2",
+    "classification": "hidden",
+    "displayInput": "board = [[\"A\"]], word = \"B\"",
+    "input": "1 1\nA\nB",
+    "stdin": "1 1\nA\nB",
+    "expectedOutput": "false",
+    "explanation": "single-cell miss",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "stress-3",
-    "classification": "stress",
-    "input": "\"abcdefghijklmnopqrstuvwxyz\"",
-    "expectedOutput": "1",
-    "explanation": "All distinct characters"
+    "id": "hidden-3",
+    "classification": "hidden",
+    "displayInput": "board = [[\"A\",\"A\",\"A\"],[\"B\",\"B\",\"B\"]], word = \"AAAA\"",
+    "input": "2 3\nA A A\nB B B\nAAAA",
+    "stdin": "2 3\nA A A\nB B B\nAAAA",
+    "expectedOutput": "false",
+    "explanation": "insufficient distinct cells",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "duplicates-4",
-    "classification": "duplicates",
-    "input": "\"abacaba\"",
-    "expectedOutput": "\"abacaba\"",
-    "explanation": "Symmetric palindrome string"
+    "id": "hidden-4",
+    "classification": "hidden",
+    "displayInput": "board = [[\"C\",\"A\",\"A\"],[\"A\",\"A\",\"A\"],[\"B\",\"C\",\"D\"]], word = \"CAA\"",
+    "input": "3 3\nC A A\nA A A\nB C D\nCAA",
+    "stdin": "3 3\nC A A\nA A A\nB C D\nCAA",
+    "expectedOutput": "true",
+    "explanation": "multiple possible starts",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "performance-5",
-    "classification": "performance",
-    "input": "\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"",
-    "expectedOutput": "...",
-    "explanation": "Performance test"
+    "id": "hidden-5",
+    "classification": "hidden",
+    "displayInput": "board = [[\"X\",\"Y\"],[\"Z\",\"W\"]], word = \"XYZ\"",
+    "input": "2 2\nX Y\nZ W\nXYZ",
+    "stdin": "2 2\nX Y\nZ W\nXYZ",
+    "expectedOutput": "false",
+    "explanation": "non-adjacent continuation",
+    "serializationStatus": "compatible"
   }
 ]

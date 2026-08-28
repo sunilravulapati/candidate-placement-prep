@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_605",
+  "slug": "tcs-apt-605",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Probability: Randomly pick letter from ENGINEERING. P(N)?",
+  "description": "Probability: Randomly pick letter from ENGINEERING. P(N)?",
+  "question": "Probability: Randomly pick letter from ENGINEERING. P(N)?",
+  "options": [
+    "3/11",
+    "1/4",
+    "2/11",
+    "4/11"
+  ],
+  "optionsMap": {
+    "A": "3/11",
+    "B": "1/4",
+    "C": "2/11",
+    "D": "4/11"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "3/11",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

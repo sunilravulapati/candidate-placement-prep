@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_056",
+  "slug": "tcs-log-056",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "blood-relations",
+  "topicName": "Blood Relations",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If A's father's only son is B, and B's mother is C, then C is A's ___",
+  "description": "If A's father's only son is B, and B's mother is C, then C is A's ___",
+  "question": "If A's father's only son is B, and B's mother is C, then C is A's ___",
+  "options": [
+    "Mother",
+    "Aunt",
+    "Sister",
+    "Grandmother"
+  ],
+  "optionsMap": {
+    "A": "Mother",
+    "B": "Aunt",
+    "C": "Sister",
+    "D": "Grandmother"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Mother",
+  "tags": [
+    "logical",
+    "blood-relations"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

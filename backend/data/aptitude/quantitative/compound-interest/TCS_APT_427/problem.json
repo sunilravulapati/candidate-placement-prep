@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_427",
+  "slug": "tcs-apt-427",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "compound-interest",
+  "topicName": "Compound Interest",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "The effective annual rate of 12% compounded semi-annually is approximately:",
+  "description": "The effective annual rate of 12% compounded semi-annually is approximately:",
+  "question": "The effective annual rate of 12% compounded semi-annually is approximately:",
+  "options": [
+    "12.36%",
+    "12%",
+    "11.5%",
+    "13%"
+  ],
+  "optionsMap": {
+    "A": "12.36%",
+    "B": "12%",
+    "C": "11.5%",
+    "D": "13%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "12.36%",
+  "tags": [
+    "quantitative",
+    "compound-interest"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

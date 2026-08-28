@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_213",
+  "slug": "tcs-ver-213",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "What does 'burn the midnight oil' mean?",
+  "description": "What does 'burn the midnight oil' mean?",
+  "question": "What does 'burn the midnight oil' mean?",
+  "options": [
+    "Work or study late into the night",
+    "Light candles",
+    "Waste energy",
+    "Work during daytime"
+  ],
+  "optionsMap": {
+    "A": "Work or study late into the night",
+    "B": "Light candles",
+    "C": "Waste energy",
+    "D": "Work during daytime"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Work or study late into the night",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

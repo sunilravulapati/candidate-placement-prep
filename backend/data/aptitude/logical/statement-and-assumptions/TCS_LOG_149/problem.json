@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_149",
+  "slug": "tcs-log-149",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "statement-and-assumptions",
+  "topicName": "Statement and Assumptions",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Statement: 'Join our weekend workshop on public speaking.' Assumption I: Peop...",
+  "description": "Statement: 'Join our weekend workshop on public speaking.' Assumption I: People want to improve their speaking skills. Assumption II: Public speaking is a valuable skill.",
+  "question": "Statement: 'Join our weekend workshop on public speaking.' Assumption I: People want to improve their speaking skills. Assumption II: Public speaking is a valuable skill.",
+  "options": [
+    "Both are implicit",
+    "Only I is implicit",
+    "Only II is implicit",
+    "Neither is implicit"
+  ],
+  "optionsMap": {
+    "A": "Both are implicit",
+    "B": "Only I is implicit",
+    "C": "Only II is implicit",
+    "D": "Neither is implicit"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Both are implicit",
+  "tags": [
+    "logical",
+    "statement-and-assumptions"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_586",
+  "slug": "tcs-apt-586",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A bicycle costs Rs 2400. On 30% discount, SP?",
+  "description": "A bicycle costs Rs 2400. On 30% discount, SP?",
+  "question": "A bicycle costs Rs 2400. On 30% discount, SP?",
+  "options": [
+    "1680",
+    "1800",
+    "2000",
+    "1920"
+  ],
+  "optionsMap": {
+    "A": "1680",
+    "B": "1800",
+    "C": "2000",
+    "D": "1920"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1680",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

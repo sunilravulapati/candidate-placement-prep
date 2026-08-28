@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_573",
+  "slug": "tcs-ver-573",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: SARDONIC",
+  "description": "Choose the word most similar in meaning to: SARDONIC",
+  "question": "Choose the word most similar in meaning to: SARDONIC",
+  "options": [
+    "Grimly mocking",
+    "Genuinely kind",
+    "Warmly humorous",
+    "Sweetly amusing"
+  ],
+  "optionsMap": {
+    "A": "Grimly mocking",
+    "B": "Genuinely kind",
+    "C": "Warmly humorous",
+    "D": "Sweetly amusing"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Grimly mocking",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_096",
+  "slug": "tcs-log-096",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "direction-sense",
+  "topicName": "Direction Sense",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A town map: School is 3km East of Library. Hospital is 4km North of School. H...",
+  "description": "A town map: School is 3km East of Library. Hospital is 4km North of School. How far is Hospital from Library?",
+  "question": "A town map: School is 3km East of Library. Hospital is 4km North of School. How far is Hospital from Library?",
+  "options": [
+    "5 km",
+    "7 km",
+    "4 km",
+    "6 km"
+  ],
+  "optionsMap": {
+    "A": "5 km",
+    "B": "7 km",
+    "C": "4 km",
+    "D": "6 km"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "5 km",
+  "tags": [
+    "logical",
+    "direction-sense"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

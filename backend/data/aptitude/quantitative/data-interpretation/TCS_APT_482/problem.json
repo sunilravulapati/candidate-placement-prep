@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_482",
+  "slug": "tcs-apt-482",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "data-interpretation",
+  "topicName": "Data Interpretation",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Bar chart shows production: 2020=500, 2021=600, 2022=750. % increase from 202...",
+  "description": "Bar chart shows production: 2020=500, 2021=600, 2022=750. % increase from 2020 to 2022?",
+  "question": "Bar chart shows production: 2020=500, 2021=600, 2022=750. % increase from 2020 to 2022?",
+  "options": [
+    "50%",
+    "40%",
+    "60%",
+    "55%"
+  ],
+  "optionsMap": {
+    "A": "50%",
+    "B": "40%",
+    "C": "60%",
+    "D": "55%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "50%",
+  "tags": [
+    "quantitative",
+    "data-interpretation"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

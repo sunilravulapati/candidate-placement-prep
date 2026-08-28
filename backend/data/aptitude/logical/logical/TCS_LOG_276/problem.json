@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_276",
+  "slug": "tcs-log-276",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Direction: A person walks 5 km North, turns right, walks 3 km, turns right ag...",
+  "description": "Direction: A person walks 5 km North, turns right, walks 3 km, turns right again and walks 5 km. Which direction is he now?",
+  "question": "Direction: A person walks 5 km North, turns right, walks 3 km, turns right again and walks 5 km. Which direction is he now?",
+  "options": [
+    "South",
+    "East",
+    "West",
+    "North"
+  ],
+  "optionsMap": {
+    "A": "South",
+    "B": "East",
+    "C": "West",
+    "D": "North"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "South",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

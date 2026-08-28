@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_502",
+  "slug": "tcs-log-502",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Logical: If today is not Tuesday, it is Thursday. Today is not Thursday. Ther...",
+  "description": "Logical: If today is not Tuesday, it is Thursday. Today is not Thursday. Therefore?",
+  "question": "Logical: If today is not Tuesday, it is Thursday. Today is not Thursday. Therefore?",
+  "options": [
+    "Today is Tuesday",
+    "Today is Wednesday",
+    "Cannot say",
+    "Today is Monday"
+  ],
+  "optionsMap": {
+    "A": "Today is Tuesday",
+    "B": "Today is Wednesday",
+    "C": "Cannot say",
+    "D": "Today is Monday"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Today is Tuesday",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

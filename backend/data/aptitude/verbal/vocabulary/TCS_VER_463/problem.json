@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_463",
+  "slug": "tcs-ver-463",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Choose the sentence in active voice: 'A letter was written by her.'",
+  "description": "Choose the sentence in active voice: 'A letter was written by her.'",
+  "question": "Choose the sentence in active voice: 'A letter was written by her.'",
+  "options": [
+    "She wrote a letter.",
+    "A letter she wrote.",
+    "Letter was written.",
+    "She has written letters."
+  ],
+  "optionsMap": {
+    "A": "She wrote a letter.",
+    "B": "A letter she wrote.",
+    "C": "Letter was written.",
+    "D": "She has written letters."
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "She wrote a letter.",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

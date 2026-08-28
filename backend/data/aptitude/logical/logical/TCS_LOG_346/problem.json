@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_346",
+  "slug": "tcs-log-346",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Data sufficiency: What is value of x? I: 2x+y=10. II: x-y=2. Which is suffici...",
+  "description": "Data sufficiency: What is value of x? I: 2x+y=10. II: x-y=2. Which is sufficient?",
+  "question": "Data sufficiency: What is value of x? I: 2x+y=10. II: x-y=2. Which is sufficient?",
+  "options": [
+    "Both together",
+    "Neither",
+    "Statement I",
+    "Statement II"
+  ],
+  "optionsMap": {
+    "A": "Both together",
+    "B": "Neither",
+    "C": "Statement I",
+    "D": "Statement II"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Both together",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

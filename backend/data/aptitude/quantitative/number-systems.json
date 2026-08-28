@@ -1,0 +1,242 @@
+[
+  {
+    "id": "TCS_APT_476",
+    "title": "What is 1 + 2 + 3 + ... + 100?",
+    "description": "What is 1 + 2 + 3 + ... + 100?",
+    "question": "What is 1 + 2 + 3 + ... + 100?",
+    "options": [
+      "5050",
+      "4950",
+      "5000",
+      "5100"
+    ],
+    "answer": "5050",
+    "answerKey": "A",
+    "correctAnswer": "5050",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 5050.",
+    "topic": "number-systems",
+    "topicName": "Number Systems",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_470",
+    "title": "What is the HCF of (a2-b2) and (a3-b3)?",
+    "description": "What is the HCF of (a2-b2) and (a3-b3)?",
+    "question": "What is the HCF of (a2-b2) and (a3-b3)?",
+    "options": [
+      "a2-b2",
+      "a-b",
+      "a3-b3",
+      "a+b"
+    ],
+    "answer": "a2-b2",
+    "answerKey": "A",
+    "correctAnswer": "a2-b2",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: a2-b2.",
+    "topic": "number-systems",
+    "topicName": "Number Systems",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_472",
+    "title": "What is the remainder when 2^100 is divided by 3?",
+    "description": "What is the remainder when 2^100 is divided by 3?",
+    "question": "What is the remainder when 2^100 is divided by 3?",
+    "options": [
+      "1",
+      "2",
+      "0",
+      "Cannot determine"
+    ],
+    "answer": "1",
+    "answerKey": "A",
+    "correctAnswer": "1",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 1.",
+    "topic": "number-systems",
+    "topicName": "Number Systems",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_475",
+    "title": "Largest 5-digit number divisible by both 8 and 15?",
+    "description": "Largest 5-digit number divisible by both 8 and 15?",
+    "question": "Largest 5-digit number divisible by both 8 and 15?",
+    "options": [
+      "99960",
+      "99900",
+      "99840",
+      "99990"
+    ],
+    "answer": "99960",
+    "answerKey": "A",
+    "correctAnswer": "99960",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 99960.",
+    "topic": "number-systems",
+    "topicName": "Number Systems",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_479",
+    "title": "What is the LCM of 2^4 × 32 and 22 × 33?",
+    "description": "What is the LCM of 2^4 × 32 and 22 × 33?",
+    "question": "What is the LCM of 2^4 × 32 and 22 × 33?",
+    "options": [
+      "2^4 × 33",
+      "2^4 × 32",
+      "22 × 33",
+      "2^6 × 3^5"
+    ],
+    "answer": "2^4 × 33",
+    "answerKey": "A",
+    "correctAnswer": "2^4 × 33",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 2^4 × 33.",
+    "topic": "number-systems",
+    "topicName": "Number Systems",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_471",
+    "title": "Sum of digits of number divisible by 9: 7__4 (2-digit blank). Find blank.",
+    "description": "Sum of digits of number divisible by 9: 7__4 (2-digit blank). Find blank.",
+    "question": "Sum of digits of number divisible by 9: 7__4 (2-digit blank). Find blank.",
+    "options": [
+      "7",
+      "8",
+      "6",
+      "9"
+    ],
+    "answer": "8",
+    "answerKey": "B",
+    "correctAnswer": "8",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: 8.",
+    "topic": "number-systems",
+    "topicName": "Number Systems",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_473",
+    "title": "How many prime numbers exist between 1 and 50?",
+    "description": "How many prime numbers exist between 1 and 50?",
+    "question": "How many prime numbers exist between 1 and 50?",
+    "options": [
+      "15",
+      "12",
+      "10",
+      "18"
+    ],
+    "answer": "15",
+    "answerKey": "A",
+    "correctAnswer": "15",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 15.",
+    "topic": "number-systems",
+    "topicName": "Number Systems",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_477",
+    "title": "Sum of 12 + 22 + 32 + ... + 102?",
+    "description": "Sum of 12 + 22 + 32 + ... + 102?",
+    "question": "Sum of 12 + 22 + 32 + ... + 102?",
+    "options": [
+      "385",
+      "360",
+      "400",
+      "350"
+    ],
+    "answer": "385",
+    "answerKey": "A",
+    "correctAnswer": "385",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 385.",
+    "topic": "number-systems",
+    "topicName": "Number Systems",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

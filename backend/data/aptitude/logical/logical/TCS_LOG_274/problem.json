@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_274",
+  "slug": "tcs-log-274",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Blood relation: M is N's brother. N is O's mother. O is P's daughter. How is ...",
+  "description": "Blood relation: M is N's brother. N is O's mother. O is P's daughter. How is M related to O?",
+  "question": "Blood relation: M is N's brother. N is O's mother. O is P's daughter. How is M related to O?",
+  "options": [
+    "Uncle",
+    "Brother",
+    "Father",
+    "Nephew"
+  ],
+  "optionsMap": {
+    "A": "Uncle",
+    "B": "Brother",
+    "C": "Father",
+    "D": "Nephew"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Uncle",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

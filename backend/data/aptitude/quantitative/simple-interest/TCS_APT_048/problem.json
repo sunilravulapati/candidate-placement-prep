@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_048",
+  "slug": "tcs-apt-048",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "simple-interest",
+  "topicName": "Simple Interest",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "In what time will Rs.3000 yield Rs.900 as interest at 10% per annum?",
+  "description": "In what time will Rs.3000 yield Rs.900 as interest at 10% per annum?",
+  "question": "In what time will Rs.3000 yield Rs.900 as interest at 10% per annum?",
+  "options": [
+    "3 years",
+    "4 years",
+    "2.5 years",
+    "5 years"
+  ],
+  "optionsMap": {
+    "A": "3 years",
+    "B": "4 years",
+    "C": "2.5 years",
+    "D": "5 years"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "3 years",
+  "tags": [
+    "quantitative",
+    "simple-interest"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_403",
+  "slug": "tcs-log-403",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Series: ACE, FHJ, KMO, ?",
+  "description": "Series: ACE, FHJ, KMO, ?",
+  "question": "Series: ACE, FHJ, KMO, ?",
+  "options": [
+    "PRT",
+    "QSU",
+    "OQS",
+    "NPS"
+  ],
+  "optionsMap": {
+    "A": "PRT",
+    "B": "QSU",
+    "C": "OQS",
+    "D": "NPS"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "PRT",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

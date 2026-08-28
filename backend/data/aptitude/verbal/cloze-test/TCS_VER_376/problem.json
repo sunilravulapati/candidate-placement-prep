@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_376",
+  "slug": "tcs-ver-376",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "cloze-test",
+  "topicName": "Cloze Test",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Scientists have long held the idea that humans alone solve complex problems. ...",
+  "description": "Scientists have long held the idea that humans alone solve complex problems. Recent studies have _____ (2) that crows and elephants also exhibit remarkable intelligence. SELECT WORD FOR BLANK (2):",
+  "question": "Scientists have long held the idea that humans alone solve complex problems. Recent studies have _____ (2) that crows and elephants also exhibit remarkable intelligence. SELECT WORD FOR BLANK (2):",
+  "options": [
+    "demonstrated",
+    "hidden",
+    "denied",
+    "ignored"
+  ],
+  "optionsMap": {
+    "A": "demonstrated",
+    "B": "hidden",
+    "C": "denied",
+    "D": "ignored"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "demonstrated",
+  "tags": [
+    "verbal",
+    "cloze-test"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

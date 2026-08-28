@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_697",
+  "slug": "tcs-ver-697",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Fill blank: After years of struggle, he finally __ success.",
+  "description": "Fill blank: After years of struggle, he finally __ success.",
+  "question": "Fill blank: After years of struggle, he finally __ success.",
+  "options": [
+    "achieved",
+    "abandoned",
+    "avoided",
+    "missed"
+  ],
+  "optionsMap": {
+    "A": "achieved",
+    "B": "abandoned",
+    "C": "avoided",
+    "D": "missed"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "achieved",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

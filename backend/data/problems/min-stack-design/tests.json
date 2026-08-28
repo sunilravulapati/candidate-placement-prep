@@ -1,0 +1,82 @@
+[
+  {
+    "id": "sample-1",
+    "classification": "sample",
+    "displayInput": "ops = [\"push\",\"push\",\"getMin\",\"top\",\"pop\",\"getMin\"], args = [[-2],[0],[],[],[],[]]",
+    "input": "6\npush 1 -2\npush 1 0\ngetMin 0\ntop 0\npop 0\ngetMin 0",
+    "stdin": "6\npush 1 -2\npush 1 0\ngetMin 0\ntop 0\npop 0\ngetMin 0",
+    "expectedOutput": "[-2,0,null,-2,null,-2]",
+    "explanation": "minimum after pop. Expected output: [-2,0,null,-2,null,-2]",
+    "serializationStatus": "manual_required"
+  },
+  {
+    "id": "sample-2",
+    "classification": "sample",
+    "displayInput": "ops = [\"push\",\"push\",\"push\",\"getMin\",\"pop\",\"getMin\"], args = [[2],[2],[-1],[],[],[]]",
+    "input": "6\npush 1 2\npush 1 2\npush 1 -1\ngetMin 0\npop 0\ngetMin 0",
+    "stdin": "6\npush 1 2\npush 1 2\npush 1 -1\ngetMin 0\npop 0\ngetMin 0",
+    "expectedOutput": "[-1,null,2]",
+    "explanation": "duplicate minimum. Expected output: [-1,null,2]",
+    "serializationStatus": "manual_required"
+  },
+  {
+    "id": "sample-3",
+    "classification": "sample",
+    "displayInput": "ops = [\"push\",\"getMin\",\"top\"], args = [[5],[],[]]",
+    "input": "3\npush 1 5\ngetMin 0\ntop 0",
+    "stdin": "3\npush 1 5\ngetMin 0\ntop 0",
+    "expectedOutput": "[null,5]",
+    "explanation": "single value. Expected output: [null,5]",
+    "serializationStatus": "manual_required"
+  },
+  {
+    "id": "hidden-1",
+    "classification": "hidden",
+    "displayInput": "ops = [\"push\",\"push\",\"getMin\",\"pop\",\"top\"], args = [[3],[-1],[],[],[]]",
+    "input": "5\npush 1 3\npush 1 -1\ngetMin 0\npop 0\ntop 0",
+    "stdin": "5\npush 1 3\npush 1 -1\ngetMin 0\npop 0\ntop 0",
+    "expectedOutput": "[-1,null,3]",
+    "explanation": "negative minimum",
+    "serializationStatus": "manual_required"
+  },
+  {
+    "id": "hidden-2",
+    "classification": "hidden",
+    "displayInput": "ops = [\"push\",\"push\",\"pop\",\"getMin\"], args = [[1],[2],[],[]]",
+    "input": "4\npush 1 1\npush 1 2\npop 0\ngetMin 0",
+    "stdin": "4\npush 1 1\npush 1 2\npop 0\ngetMin 0",
+    "expectedOutput": "[null,1]",
+    "explanation": "restore previous minimum",
+    "serializationStatus": "manual_required"
+  },
+  {
+    "id": "hidden-3",
+    "classification": "hidden",
+    "displayInput": "ops = [\"push\",\"push\",\"push\",\"getMin\",\"pop\",\"pop\",\"getMin\"], args = [[4],[3],[5],[],[],[],[]]",
+    "input": "7\npush 1 4\npush 1 3\npush 1 5\ngetMin 0\npop 0\npop 0\ngetMin 0",
+    "stdin": "7\npush 1 4\npush 1 3\npush 1 5\ngetMin 0\npop 0\npop 0\ngetMin 0",
+    "expectedOutput": "[3,null,null,4]",
+    "explanation": "multiple pops",
+    "serializationStatus": "manual_required"
+  },
+  {
+    "id": "hidden-4",
+    "classification": "hidden",
+    "displayInput": "ops = [\"push\",\"top\",\"getMin\"], args = [[0],[],[]]",
+    "input": "3\npush 1 0\ntop 0\ngetMin 0",
+    "stdin": "3\npush 1 0\ntop 0\ngetMin 0",
+    "expectedOutput": "[0,0]",
+    "explanation": "zero value",
+    "serializationStatus": "manual_required"
+  },
+  {
+    "id": "hidden-5",
+    "classification": "hidden",
+    "displayInput": "ops = [\"push\",\"push\",\"getMin\"], args = [[-10],[-20],[]]",
+    "input": "3\npush 1 -10\npush 1 -20\ngetMin 0",
+    "stdin": "3\npush 1 -10\npush 1 -20\ngetMin 0",
+    "expectedOutput": "[-20]",
+    "explanation": "ordered negative values",
+    "serializationStatus": "manual_required"
+  }
+]

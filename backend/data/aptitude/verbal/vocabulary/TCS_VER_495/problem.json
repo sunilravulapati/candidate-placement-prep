@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_495",
+  "slug": "tcs-ver-495",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Which word means 'to intimidate'?",
+  "description": "Which word means 'to intimidate'?",
+  "question": "Which word means 'to intimidate'?",
+  "options": [
+    "Browbeat",
+    "Encourage",
+    "Support",
+    "Inspire"
+  ],
+  "optionsMap": {
+    "A": "Browbeat",
+    "B": "Encourage",
+    "C": "Support",
+    "D": "Inspire"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Browbeat",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_066",
+  "slug": "tcs-apt-066",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "speed-and-distance",
+  "topicName": "Speed and Distance",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A train 200m long passes a train 300m long going in the same direction at 60 ...",
+  "description": "A train 200m long passes a train 300m long going in the same direction at 60 km/h and 40 km/h. How long does it take?",
+  "question": "A train 200m long passes a train 300m long going in the same direction at 60 km/h and 40 km/h. How long does it take?",
+  "options": [
+    "90 seconds",
+    "100 seconds",
+    "80 seconds",
+    "120 seconds"
+  ],
+  "optionsMap": {
+    "A": "90 seconds",
+    "B": "100 seconds",
+    "C": "80 seconds",
+    "D": "120 seconds"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "90 seconds",
+  "tags": [
+    "quantitative",
+    "speed-and-distance"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_677",
+  "slug": "tcs-ver-677",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "One word: One who settles a dispute",
+  "description": "One word: One who settles a dispute",
+  "question": "One word: One who settles a dispute",
+  "options": [
+    "Arbitrator",
+    "Judge",
+    "Lawyer",
+    "Mediator"
+  ],
+  "optionsMap": {
+    "A": "Arbitrator",
+    "B": "Judge",
+    "C": "Lawyer",
+    "D": "Mediator"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Arbitrator",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

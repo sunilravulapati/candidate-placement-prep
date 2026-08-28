@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_614",
+  "slug": "tcs-ver-614",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: VENERABLE",
+  "description": "Choose the word most similar in meaning to: VENERABLE",
+  "question": "Choose the word most similar in meaning to: VENERABLE",
+  "options": [
+    "Respected due to age",
+    "Disrespected",
+    "Young",
+    "Inexperienced"
+  ],
+  "optionsMap": {
+    "A": "Respected due to age",
+    "B": "Disrespected",
+    "C": "Young",
+    "D": "Inexperienced"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Respected due to age",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

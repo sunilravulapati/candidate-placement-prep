@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_226",
+  "slug": "tcs-apt-226",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A car covers 120 km at 40 km/h and 180 km at 60 km/h. Find average speed.",
+  "description": "A car covers 120 km at 40 km/h and 180 km at 60 km/h. Find average speed.",
+  "question": "A car covers 120 km at 40 km/h and 180 km at 60 km/h. Find average speed.",
+  "options": [
+    "52 km/h",
+    "50 km/h",
+    "48 km/h",
+    "55 km/h"
+  ],
+  "optionsMap": {
+    "A": "52 km/h",
+    "B": "50 km/h",
+    "C": "48 km/h",
+    "D": "55 km/h"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "50 km/h",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

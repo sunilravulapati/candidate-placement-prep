@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_010",
+  "slug": "tcs-log-010",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "series",
+  "topicName": "Series",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Letter series: AZ, BY, CX, DW, ___",
+  "description": "Letter series: AZ, BY, CX, DW, ___",
+  "question": "Letter series: AZ, BY, CX, DW, ___",
+  "options": [
+    "EV",
+    "EU",
+    "FV",
+    "DU"
+  ],
+  "optionsMap": {
+    "A": "EV",
+    "B": "EU",
+    "C": "FV",
+    "D": "DU"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "EV",
+  "tags": [
+    "logical",
+    "series"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_330",
+  "slug": "tcs-apt-330",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The sum of digits of a two digit number is 11. If digits reversed, number dec...",
+  "description": "The sum of digits of a two digit number is 11. If digits reversed, number decreases by 27. Number?",
+  "question": "The sum of digits of a two digit number is 11. If digits reversed, number decreases by 27. Number?",
+  "options": [
+    "74",
+    "65",
+    "83",
+    "56"
+  ],
+  "optionsMap": {
+    "A": "74",
+    "B": "65",
+    "C": "83",
+    "D": "56"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "74",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

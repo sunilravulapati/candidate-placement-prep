@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_315",
+  "slug": "tcs-log-315",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Analogy: 8:64 :: 9:?",
+  "description": "Analogy: 8:64 :: 9:?",
+  "question": "Analogy: 8:64 :: 9:?",
+  "options": [
+    "81",
+    "72",
+    "63",
+    "90"
+  ],
+  "optionsMap": {
+    "A": "81",
+    "B": "72",
+    "C": "63",
+    "D": "90"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "81",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

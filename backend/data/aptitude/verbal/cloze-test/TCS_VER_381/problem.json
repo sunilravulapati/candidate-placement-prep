@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_381",
+  "slug": "tcs-ver-381",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "cloze-test",
+  "topicName": "Cloze Test",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Climate negotiations have repeatedly _____ (1) to produce binding commitments...",
+  "description": "Climate negotiations have repeatedly _____ (1) to produce binding commitments. While leaders acknowledge the _____ (2) of the crisis, domestic politics often _____ (3) international cooperation. SELECT WORD FOR BLANK (1):",
+  "question": "Climate negotiations have repeatedly _____ (1) to produce binding commitments. While leaders acknowledge the _____ (2) of the crisis, domestic politics often _____ (3) international cooperation. SELECT WORD FOR BLANK (1):",
+  "options": [
+    "failed",
+    "succeeded",
+    "managed",
+    "helped"
+  ],
+  "optionsMap": {
+    "A": "failed",
+    "B": "succeeded",
+    "C": "managed",
+    "D": "helped"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "failed",
+  "tags": [
+    "verbal",
+    "cloze-test"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_400",
+  "slug": "tcs-ver-400",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "miscellaneous",
+  "topicName": "Miscellaneous",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Choose the correct preposition: 'He died _____ cancer.'",
+  "description": "Choose the correct preposition: 'He died _____ cancer.'",
+  "question": "Choose the correct preposition: 'He died _____ cancer.'",
+  "options": [
+    "from",
+    "of",
+    "with",
+    "by"
+  ],
+  "optionsMap": {
+    "A": "from",
+    "B": "of",
+    "C": "with",
+    "D": "by"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "of",
+  "tags": [
+    "verbal",
+    "miscellaneous"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

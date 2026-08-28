@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_289",
+  "slug": "tcs-ver-289",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "word-analogy",
+  "topicName": "Word Analogy",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Complete the analogy: Parliament : Britain :: Congress : ?",
+  "description": "Complete the analogy: Parliament : Britain :: Congress : ?",
+  "question": "Complete the analogy: Parliament : Britain :: Congress : ?",
+  "options": [
+    "USA",
+    "India",
+    "France",
+    "Germany"
+  ],
+  "optionsMap": {
+    "A": "USA",
+    "B": "India",
+    "C": "France",
+    "D": "Germany"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "USA",
+  "tags": [
+    "verbal",
+    "word-analogy"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

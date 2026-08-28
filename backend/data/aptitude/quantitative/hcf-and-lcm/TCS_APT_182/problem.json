@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_182",
+  "slug": "tcs-apt-182",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "hcf-and-lcm",
+  "topicName": "HCF and LCM",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The least number exactly divisible by 12, 15, 18 is:",
+  "description": "The least number exactly divisible by 12, 15, 18 is:",
+  "question": "The least number exactly divisible by 12, 15, 18 is:",
+  "options": [
+    "180",
+    "120",
+    "90",
+    "150"
+  ],
+  "optionsMap": {
+    "A": "180",
+    "B": "120",
+    "C": "90",
+    "D": "150"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "180",
+  "tags": [
+    "quantitative",
+    "hcf-and-lcm"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

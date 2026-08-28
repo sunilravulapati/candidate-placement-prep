@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_481",
+  "slug": "tcs-apt-481",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "data-interpretation",
+  "topicName": "Data Interpretation",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "In a pie chart, if a sector represents 25%, its central angle is:",
+  "description": "In a pie chart, if a sector represents 25%, its central angle is:",
+  "question": "In a pie chart, if a sector represents 25%, its central angle is:",
+  "options": [
+    "90°",
+    "72°",
+    "45°",
+    "120°"
+  ],
+  "optionsMap": {
+    "A": "90°",
+    "B": "72°",
+    "C": "45°",
+    "D": "120°"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "90°",
+  "tags": [
+    "quantitative",
+    "data-interpretation"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

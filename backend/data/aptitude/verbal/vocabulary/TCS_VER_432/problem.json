@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_432",
+  "slug": "tcs-ver-432",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Choose the synonym of: VOCIFEROUS",
+  "description": "Choose the synonym of: VOCIFEROUS",
+  "question": "Choose the synonym of: VOCIFEROUS",
+  "options": [
+    "Loud and forceful",
+    "Quiet",
+    "Soft-spoken",
+    "Reserved"
+  ],
+  "optionsMap": {
+    "A": "Loud and forceful",
+    "B": "Quiet",
+    "C": "Soft-spoken",
+    "D": "Reserved"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Loud and forceful",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

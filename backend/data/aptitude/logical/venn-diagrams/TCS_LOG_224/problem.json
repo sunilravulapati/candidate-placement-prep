@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_224",
+  "slug": "tcs-log-224",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "venn-diagrams",
+  "topicName": "Venn Diagrams",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A survey found 80 people: 50 have cars, 30 have bikes, 10 have both. How many...",
+  "description": "A survey found 80 people: 50 have cars, 30 have bikes, 10 have both. How many have neither?",
+  "question": "A survey found 80 people: 50 have cars, 30 have bikes, 10 have both. How many have neither?",
+  "options": [
+    "10",
+    "15",
+    "20",
+    "5"
+  ],
+  "optionsMap": {
+    "A": "10",
+    "B": "15",
+    "C": "20",
+    "D": "5"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "10",
+  "tags": [
+    "logical",
+    "venn-diagrams"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_477",
+  "slug": "tcs-apt-477",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "number-systems",
+  "topicName": "Number Systems",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Sum of 12 + 22 + 32 + ... + 102?",
+  "description": "Sum of 12 + 22 + 32 + ... + 102?",
+  "question": "Sum of 12 + 22 + 32 + ... + 102?",
+  "options": [
+    "385",
+    "360",
+    "400",
+    "350"
+  ],
+  "optionsMap": {
+    "A": "385",
+    "B": "360",
+    "C": "400",
+    "D": "350"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "385",
+  "tags": [
+    "quantitative",
+    "number-systems"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

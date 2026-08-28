@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_160",
+  "slug": "tcs-ver-160",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwi...",
+  "description": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwide. Unlike traditional software that follows fixed i... Q: What does responsible AI development require according to experts?",
+  "question": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwide. Unlike traditional software that follows fixed i... Q: What does responsible AI development require according to experts?",
+  "options": [
+    "Transparent algorithms and diverse datasets",
+    "Unlimited computing power",
+    "More data collection",
+    "Less regulation"
+  ],
+  "optionsMap": {
+    "A": "Transparent algorithms and diverse datasets",
+    "B": "Unlimited computing power",
+    "C": "More data collection",
+    "D": "Less regulation"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Transparent algorithms and diverse datasets",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

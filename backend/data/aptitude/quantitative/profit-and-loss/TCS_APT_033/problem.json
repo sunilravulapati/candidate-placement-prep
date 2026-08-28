@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_033",
+  "slug": "tcs-apt-033",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "profit-and-loss",
+  "topicName": "Profit and Loss",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "A retailer purchased 50 kg of rice at Rs.22/kg and sold it at Rs.25/kg. What ...",
+  "description": "A retailer purchased 50 kg of rice at Rs.22/kg and sold it at Rs.25/kg. What is the profit?",
+  "question": "A retailer purchased 50 kg of rice at Rs.22/kg and sold it at Rs.25/kg. What is the profit?",
+  "options": [
+    "Rs.150",
+    "Rs.200",
+    "Rs.100",
+    "Rs.250"
+  ],
+  "optionsMap": {
+    "A": "Rs.150",
+    "B": "Rs.200",
+    "C": "Rs.100",
+    "D": "Rs.250"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.150",
+  "tags": [
+    "quantitative",
+    "profit-and-loss"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

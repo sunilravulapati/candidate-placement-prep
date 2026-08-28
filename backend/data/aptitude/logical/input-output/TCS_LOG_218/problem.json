@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_218",
+  "slug": "tcs-log-218",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "input-output",
+  "topicName": "Input-Output",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Step 1: Add positions of all letters. Step 2: Multiply by 2. CAT (3+1+20=24, ...",
+  "description": "Step 1: Add positions of all letters. Step 2: Multiply by 2. CAT (3+1+20=24, ×2=48). What is DOG?",
+  "question": "Step 1: Add positions of all letters. Step 2: Multiply by 2. CAT (3+1+20=24, ×2=48). What is DOG?",
+  "options": [
+    "60",
+    "56",
+    "52",
+    "72"
+  ],
+  "optionsMap": {
+    "A": "60",
+    "B": "56",
+    "C": "52",
+    "D": "72"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "56",
+  "tags": [
+    "logical",
+    "input-output"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

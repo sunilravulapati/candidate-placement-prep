@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_458",
+  "slug": "tcs-apt-458",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "algebra",
+  "topicName": "Algebra",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If f(x) = x2 - 1, find f(f(2)).",
+  "description": "If f(x) = x2 - 1, find f(f(2)).",
+  "question": "If f(x) = x2 - 1, find f(f(2)).",
+  "options": [
+    "8",
+    "7",
+    "9",
+    "6"
+  ],
+  "optionsMap": {
+    "A": "8",
+    "B": "7",
+    "C": "9",
+    "D": "6"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "8",
+  "tags": [
+    "quantitative",
+    "algebra"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

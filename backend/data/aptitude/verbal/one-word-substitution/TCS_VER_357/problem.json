@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_357",
+  "slug": "tcs-ver-357",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "one-word-substitution",
+  "topicName": "One Word Substitution",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Find the one word substitution for: Science of heredity",
+  "description": "Find the one word substitution for: Science of heredity",
+  "question": "Find the one word substitution for: Science of heredity",
+  "options": [
+    "Genetics",
+    "Genomics",
+    "Eugenics",
+    "Cytology"
+  ],
+  "optionsMap": {
+    "A": "Genetics",
+    "B": "Genomics",
+    "C": "Eugenics",
+    "D": "Cytology"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Genetics",
+  "tags": [
+    "verbal",
+    "one-word-substitution"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_115",
+  "slug": "tcs-log-115",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "analogies",
+  "topicName": "Analogies",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Antonym : Opposite :: Synonym : ?",
+  "description": "Antonym : Opposite :: Synonym : ?",
+  "question": "Antonym : Opposite :: Synonym : ?",
+  "options": [
+    "Similar",
+    "Same",
+    "Different",
+    "Contrasting"
+  ],
+  "optionsMap": {
+    "A": "Similar",
+    "B": "Same",
+    "C": "Different",
+    "D": "Contrasting"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Same",
+  "tags": [
+    "logical",
+    "analogies"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

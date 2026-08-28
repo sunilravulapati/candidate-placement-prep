@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_227",
+  "slug": "tcs-ver-227",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What does 'miss the boat' mean?",
+  "description": "What does 'miss the boat' mean?",
+  "question": "What does 'miss the boat' mean?",
+  "options": [
+    "Miss an opportunity",
+    "Be late for travel",
+    "Be confused",
+    "Fail an exam"
+  ],
+  "optionsMap": {
+    "A": "Miss an opportunity",
+    "B": "Be late for travel",
+    "C": "Be confused",
+    "D": "Fail an exam"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Miss an opportunity",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

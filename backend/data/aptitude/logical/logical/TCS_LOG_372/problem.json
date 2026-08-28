@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_372",
+  "slug": "tcs-log-372",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Statement: The more you read, the more you know. If John reads a lot, then?",
+  "description": "Statement: The more you read, the more you know. If John reads a lot, then?",
+  "question": "Statement: The more you read, the more you know. If John reads a lot, then?",
+  "options": [
+    "John knows a lot",
+    "John will be smart",
+    "Reading is hard",
+    "Cannot determine"
+  ],
+  "optionsMap": {
+    "A": "John knows a lot",
+    "B": "John will be smart",
+    "C": "Reading is hard",
+    "D": "Cannot determine"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "John knows a lot",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

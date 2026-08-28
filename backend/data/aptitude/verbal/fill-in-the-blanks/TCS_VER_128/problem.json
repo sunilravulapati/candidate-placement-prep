@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_128",
+  "slug": "tcs-ver-128",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The patient showed _____ signs of recovery after the surgery.",
+  "description": "The patient showed _____ signs of recovery after the surgery.",
+  "question": "The patient showed _____ signs of recovery after the surgery.",
+  "options": [
+    "promising",
+    "discouraging",
+    "negative",
+    "worrying"
+  ],
+  "optionsMap": {
+    "A": "promising",
+    "B": "discouraging",
+    "C": "negative",
+    "D": "worrying"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "promising",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

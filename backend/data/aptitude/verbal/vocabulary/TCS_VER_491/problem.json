@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_491",
+  "slug": "tcs-ver-491",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "What is the plural of 'radius'?",
+  "description": "What is the plural of 'radius'?",
+  "question": "What is the plural of 'radius'?",
+  "options": [
+    "Radiuses",
+    "Radii",
+    "Radiis",
+    "Radiums"
+  ],
+  "optionsMap": {
+    "A": "Radiuses",
+    "B": "Radii",
+    "C": "Radiis",
+    "D": "Radiums"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Radii",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

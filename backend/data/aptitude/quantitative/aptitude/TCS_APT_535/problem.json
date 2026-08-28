@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_535",
+  "slug": "tcs-apt-535",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A invested Rs 4000, B Rs 6000. Total profit Rs 5000. A's share?",
+  "description": "A invested Rs 4000, B Rs 6000. Total profit Rs 5000. A's share?",
+  "question": "A invested Rs 4000, B Rs 6000. Total profit Rs 5000. A's share?",
+  "options": [
+    "2000",
+    "2500",
+    "1500",
+    "3000"
+  ],
+  "optionsMap": {
+    "A": "2000",
+    "B": "2500",
+    "C": "1500",
+    "D": "3000"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "2000",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

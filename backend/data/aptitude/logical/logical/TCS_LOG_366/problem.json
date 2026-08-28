@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_366",
+  "slug": "tcs-log-366",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If the day before yesterday was Saturday, what day will be day after tomorrow?",
+  "description": "If the day before yesterday was Saturday, what day will be day after tomorrow?",
+  "question": "If the day before yesterday was Saturday, what day will be day after tomorrow?",
+  "options": [
+    "Wednesday",
+    "Thursday",
+    "Tuesday",
+    "Friday"
+  ],
+  "optionsMap": {
+    "A": "Wednesday",
+    "B": "Thursday",
+    "C": "Tuesday",
+    "D": "Friday"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Wednesday",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

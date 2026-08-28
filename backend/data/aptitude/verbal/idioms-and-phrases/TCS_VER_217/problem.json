@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_217",
+  "slug": "tcs-ver-217",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "What does 'once in a blue moon' mean?",
+  "description": "What does 'once in a blue moon' mean?",
+  "question": "What does 'once in a blue moon' mean?",
+  "options": [
+    "Very rarely",
+    "Every month",
+    "Very often",
+    "Never"
+  ],
+  "optionsMap": {
+    "A": "Very rarely",
+    "B": "Every month",
+    "C": "Very often",
+    "D": "Never"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Very rarely",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

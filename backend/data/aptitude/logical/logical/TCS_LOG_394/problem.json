@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_394",
+  "slug": "tcs-log-394",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which word does not fit: Bold, Italic, Underline, Font, Strike-through",
+  "description": "Which word does not fit: Bold, Italic, Underline, Font, Strike-through",
+  "question": "Which word does not fit: Bold, Italic, Underline, Font, Strike-through",
+  "options": [
+    "Font",
+    "Bold",
+    "Italic",
+    "Underline"
+  ],
+  "optionsMap": {
+    "A": "Font",
+    "B": "Bold",
+    "C": "Italic",
+    "D": "Underline"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Font",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

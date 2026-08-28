@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_087",
+  "slug": "tcs-apt-087",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "time-and-work",
+  "topicName": "Time and Work",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A does half as much work as B in 3/4 of the time. If together they take 18 da...",
+  "description": "A does half as much work as B in 3/4 of the time. If together they take 18 days, how long does B take alone?",
+  "question": "A does half as much work as B in 3/4 of the time. If together they take 18 days, how long does B take alone?",
+  "options": [
+    "30 days",
+    "24 days",
+    "40 days",
+    "36 days"
+  ],
+  "optionsMap": {
+    "A": "30 days",
+    "B": "24 days",
+    "C": "40 days",
+    "D": "36 days"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "30 days",
+  "tags": [
+    "quantitative",
+    "time-and-work"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

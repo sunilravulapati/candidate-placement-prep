@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_468",
+  "slug": "tcs-ver-468",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Choose the correct relative pronoun: 'The book _____ I read was excellent.'",
+  "description": "Choose the correct relative pronoun: 'The book _____ I read was excellent.'",
+  "question": "Choose the correct relative pronoun: 'The book _____ I read was excellent.'",
+  "options": [
+    "who",
+    "whose",
+    "which",
+    "whom"
+  ],
+  "optionsMap": {
+    "A": "who",
+    "B": "whose",
+    "C": "which",
+    "D": "whom"
+  },
+  "answer": "C",
+  "answerKey": "C",
+  "correctAnswer": "which",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

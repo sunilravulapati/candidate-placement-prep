@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_557",
+  "slug": "tcs-apt-557",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Profit % when CP=80, SP=100?",
+  "description": "Profit % when CP=80, SP=100?",
+  "question": "Profit % when CP=80, SP=100?",
+  "options": [
+    "25%",
+    "20%",
+    "15%",
+    "30%"
+  ],
+  "optionsMap": {
+    "A": "25%",
+    "B": "20%",
+    "C": "15%",
+    "D": "30%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "25%",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

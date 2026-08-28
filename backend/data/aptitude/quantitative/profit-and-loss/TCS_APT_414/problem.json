@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_414",
+  "slug": "tcs-apt-414",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "profit-and-loss",
+  "topicName": "Profit and Loss",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A shopkeeper marks up by 40% and gives 15% discount. His profit%?",
+  "description": "A shopkeeper marks up by 40% and gives 15% discount. His profit%?",
+  "question": "A shopkeeper marks up by 40% and gives 15% discount. His profit%?",
+  "options": [
+    "19%",
+    "20%",
+    "18%",
+    "25%"
+  ],
+  "optionsMap": {
+    "A": "19%",
+    "B": "20%",
+    "C": "18%",
+    "D": "25%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "19%",
+  "tags": [
+    "quantitative",
+    "profit-and-loss"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

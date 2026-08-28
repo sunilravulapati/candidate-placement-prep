@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_031",
+  "slug": "tcs-apt-031",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "profit-and-loss",
+  "topicName": "Profit and Loss",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "By selling an article for Rs.144, a loss of 10% is incurred. To get a profit ...",
+  "description": "By selling an article for Rs.144, a loss of 10% is incurred. To get a profit of 10%, what should be the selling price?",
+  "question": "By selling an article for Rs.144, a loss of 10% is incurred. To get a profit of 10%, what should be the selling price?",
+  "options": [
+    "Rs.176",
+    "Rs.180",
+    "Rs.170",
+    "Rs.184"
+  ],
+  "optionsMap": {
+    "A": "Rs.176",
+    "B": "Rs.180",
+    "C": "Rs.170",
+    "D": "Rs.184"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.176",
+  "tags": [
+    "quantitative",
+    "profit-and-loss"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

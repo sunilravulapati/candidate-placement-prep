@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_606",
+  "slug": "tcs-apt-606",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Compound event: P(A)=0.4, P(B)=0.6, independent. P(A∩B)?",
+  "description": "Compound event: P(A)=0.4, P(B)=0.6, independent. P(A∩B)?",
+  "question": "Compound event: P(A)=0.4, P(B)=0.6, independent. P(A∩B)?",
+  "options": [
+    "0.24",
+    "0.48",
+    "0.2",
+    "0.36"
+  ],
+  "optionsMap": {
+    "A": "0.24",
+    "B": "0.48",
+    "C": "0.2",
+    "D": "0.36"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "0.24",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_397",
+  "slug": "tcs-apt-397",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If ink costs Rs 5 per bottle and each bottle prints 200 sheets, cost per 1000...",
+  "description": "If ink costs Rs 5 per bottle and each bottle prints 200 sheets, cost per 1000 sheets of printing?",
+  "question": "If ink costs Rs 5 per bottle and each bottle prints 200 sheets, cost per 1000 sheets of printing?",
+  "options": [
+    "Rs 25",
+    "Rs 20",
+    "Rs 30",
+    "Rs 15"
+  ],
+  "optionsMap": {
+    "A": "Rs 25",
+    "B": "Rs 20",
+    "C": "Rs 30",
+    "D": "Rs 15"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs 25",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_509",
+  "slug": "tcs-ver-509",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What is the antonym of 'indolent'?",
+  "description": "What is the antonym of 'indolent'?",
+  "question": "What is the antonym of 'indolent'?",
+  "options": [
+    "Industrious",
+    "Lazy",
+    "Idle",
+    "Sluggish"
+  ],
+  "optionsMap": {
+    "A": "Industrious",
+    "B": "Lazy",
+    "C": "Idle",
+    "D": "Sluggish"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Industrious",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

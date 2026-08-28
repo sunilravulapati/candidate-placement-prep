@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_506",
+  "slug": "tcs-apt-506",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "mensuration",
+  "topicName": "Mensuration",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "The angle in a semicircle is always:",
+  "description": "The angle in a semicircle is always:",
+  "question": "The angle in a semicircle is always:",
+  "options": [
+    "90°",
+    "60°",
+    "180°",
+    "45°"
+  ],
+  "optionsMap": {
+    "A": "90°",
+    "B": "60°",
+    "C": "180°",
+    "D": "45°"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "90°",
+  "tags": [
+    "quantitative",
+    "mensuration"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

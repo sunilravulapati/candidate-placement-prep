@@ -1,5 +1,5 @@
 class Solution {
-    public int lruCacheDesign(int[] nums) {
+    public int lruCache(int[] nums) {
         int n = nums.length;
         int[] dp = new int[n + 1];
         for (int i = 1; i <= n; i++) {

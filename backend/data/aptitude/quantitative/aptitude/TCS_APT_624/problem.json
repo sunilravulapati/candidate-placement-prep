@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_624",
+  "slug": "tcs-apt-624",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A can do job in 15 days, does it for 5 days, leaves. B finishes in 8 days. B'...",
+  "description": "A can do job in 15 days, does it for 5 days, leaves. B finishes in 8 days. B's rate?",
+  "question": "A can do job in 15 days, does it for 5 days, leaves. B finishes in 8 days. B's rate?",
+  "options": [
+    "1/12 per day",
+    "1/10",
+    "1/8",
+    "1/15"
+  ],
+  "optionsMap": {
+    "A": "1/12 per day",
+    "B": "1/10",
+    "C": "1/8",
+    "D": "1/15"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1/12 per day",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

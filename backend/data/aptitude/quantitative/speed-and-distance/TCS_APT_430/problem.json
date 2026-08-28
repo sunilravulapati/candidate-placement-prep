@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_430",
+  "slug": "tcs-apt-430",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "speed-and-distance",
+  "topicName": "Speed and Distance",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Two trains 120m and 180m long approach each other at 60 and 90 km/h. Time to ...",
+  "description": "Two trains 120m and 180m long approach each other at 60 and 90 km/h. Time to cross:",
+  "question": "Two trains 120m and 180m long approach each other at 60 and 90 km/h. Time to cross:",
+  "options": [
+    "8 sec",
+    "6 sec",
+    "10 sec",
+    "12 sec"
+  ],
+  "optionsMap": {
+    "A": "8 sec",
+    "B": "6 sec",
+    "C": "10 sec",
+    "D": "12 sec"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "8 sec",
+  "tags": [
+    "quantitative",
+    "speed-and-distance"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

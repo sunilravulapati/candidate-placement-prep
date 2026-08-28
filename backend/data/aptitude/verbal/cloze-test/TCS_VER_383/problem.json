@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_383",
+  "slug": "tcs-ver-383",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "cloze-test",
+  "topicName": "Cloze Test",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Mental health awareness has grown _____ (1) in recent years. Society is slowl...",
+  "description": "Mental health awareness has grown _____ (1) in recent years. Society is slowly _____ (2) the stigma that once surrounded mental illness, making it easier for individuals to _____ (3) help. SELECT WORD FOR BLANK (1):",
+  "question": "Mental health awareness has grown _____ (1) in recent years. Society is slowly _____ (2) the stigma that once surrounded mental illness, making it easier for individuals to _____ (3) help. SELECT WORD FOR BLANK (1):",
+  "options": [
+    "considerably",
+    "negligibly",
+    "minimally",
+    "barely"
+  ],
+  "optionsMap": {
+    "A": "considerably",
+    "B": "negligibly",
+    "C": "minimally",
+    "D": "barely"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "considerably",
+  "tags": [
+    "verbal",
+    "cloze-test"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

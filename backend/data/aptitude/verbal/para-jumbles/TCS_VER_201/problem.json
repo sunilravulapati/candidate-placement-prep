@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_201",
+  "slug": "tcs-ver-201",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "para-jumbles",
+  "topicName": "Para Jumbles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "P: The internet has revolutionized communication. Q: Today, information can b...",
+  "description": "P: The internet has revolutionized communication. Q: Today, information can be shared globally in seconds. R: Before its invention, letters took weeks to travel between continents. S: This transformation has had both positive and negative consequences. Arrange P, Q, R, S in logical order:",
+  "question": "P: The internet has revolutionized communication. Q: Today, information can be shared globally in seconds. R: Before its invention, letters took weeks to travel between continents. S: This transformation has had both positive and negative consequences. Arrange P, Q, R, S in logical order:",
+  "options": [
+    "P-R-Q-S",
+    "R-P-Q-S",
+    "P-Q-R-S",
+    "Q-P-R-S"
+  ],
+  "optionsMap": {
+    "A": "P-R-Q-S",
+    "B": "R-P-Q-S",
+    "C": "P-Q-R-S",
+    "D": "Q-P-R-S"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "P-R-Q-S",
+  "tags": [
+    "verbal",
+    "para-jumbles"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

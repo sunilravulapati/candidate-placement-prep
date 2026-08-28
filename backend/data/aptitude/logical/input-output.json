@@ -1,0 +1,302 @@
+[
+  {
+    "id": "TCS_LOG_211",
+    "title": "Machine step pattern - Input: 'bold girl smart work' → Step1: 'girl bold smar...",
+    "description": "Machine step pattern - Input: 'bold girl smart work' → Step1: 'girl bold smart work' → Step2: 'girl bold work smart' → What is Step3?",
+    "question": "Machine step pattern - Input: 'bold girl smart work' → Step1: 'girl bold smart work' → Step2: 'girl bold work smart' → What is Step3?",
+    "options": [
+      "girl bold work smart (already arranged)",
+      "girl smart bold work",
+      "girl work bold smart",
+      "smart girl bold work"
+    ],
+    "answer": "girl bold work smart (already arranged)",
+    "answerKey": "A",
+    "correctAnswer": "girl bold work smart (already arranged)",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: girl bold work smart (already arranged).",
+    "topic": "input-output",
+    "topicName": "Input-Output",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_212",
+    "title": "In a step process, numbers are arranged in descending order. Input: 5 8 2 9 3...",
+    "description": "In a step process, numbers are arranged in descending order. Input: 5 8 2 9 3 1. Step 2 output is:",
+    "question": "In a step process, numbers are arranged in descending order. Input: 5 8 2 9 3 1. Step 2 output is:",
+    "options": [
+      "9 8 5 2 3 1",
+      "9 8 2 5 3 1",
+      "8 9 5 2 3 1",
+      "9 5 8 2 3 1"
+    ],
+    "answer": "9 8 5 2 3 1",
+    "answerKey": "A",
+    "correctAnswer": "9 8 5 2 3 1",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 9 8 5 2 3 1.",
+    "topic": "input-output",
+    "topicName": "Input-Output",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_213",
+    "title": "Input: 26 15 43 7 31 18. If even numbers are halved and odd numbers are multi...",
+    "description": "Input: 26 15 43 7 31 18. If even numbers are halved and odd numbers are multiplied by 3. Output is:",
+    "question": "Input: 26 15 43 7 31 18. If even numbers are halved and odd numbers are multiplied by 3. Output is:",
+    "options": [
+      "13 45 21.5 21 93 9",
+      "52 45 86 21 93 36",
+      "13 45 21.5 21 93 9",
+      "13 45 22 21 93 9"
+    ],
+    "answer": "13 45 21.5 21 93 9",
+    "answerKey": "A",
+    "correctAnswer": "13 45 21.5 21 93 9",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 13 45 21.5 21 93 9.",
+    "topic": "input-output",
+    "topicName": "Input-Output",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_215",
+    "title": "A machine reverses words and capitalizes first letter of each reversed word. ...",
+    "description": "A machine reverses words and capitalizes first letter of each reversed word. Input: 'hello world test'. Output:",
+    "question": "A machine reverses words and capitalizes first letter of each reversed word. Input: 'hello world test'. Output:",
+    "options": [
+      "Olleh Dlrow Tset",
+      "HELLO WORLD TEST",
+      "olleh dlrow tset",
+      "Hello World Test"
+    ],
+    "answer": "Olleh Dlrow Tset",
+    "answerKey": "A",
+    "correctAnswer": "Olleh Dlrow Tset",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Olleh Dlrow Tset.",
+    "topic": "input-output",
+    "topicName": "Input-Output",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_216",
+    "title": "Input: 84 25 63 12 45. Numbers sorted in ascending order, then each multiplie...",
+    "description": "Input: 84 25 63 12 45. Numbers sorted in ascending order, then each multiplied by 2. Final sequence:",
+    "question": "Input: 84 25 63 12 45. Numbers sorted in ascending order, then each multiplied by 2. Final sequence:",
+    "options": [
+      "24 50 84 90 126",
+      "24 50 90 84 126",
+      "24 50 84 126 90",
+      "50 24 84 90 126"
+    ],
+    "answer": "24 50 84 126 90",
+    "answerKey": "C",
+    "correctAnswer": "24 50 84 126 90",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (C) is the correct answer: 24 50 84 126 90.",
+    "topic": "input-output",
+    "topicName": "Input-Output",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_217",
+    "title": "In a code: A→D, B→E, C→F,... (shift +3). Decode 'GRR':",
+    "description": "In a code: A→D, B→E, C→F,... (shift +3). Decode 'GRR':",
+    "question": "In a code: A→D, B→E, C→F,... (shift +3). Decode 'GRR':",
+    "options": [
+      "DOO",
+      "DOP",
+      "DNA",
+      "EPP"
+    ],
+    "answer": "DOO",
+    "answerKey": "A",
+    "correctAnswer": "DOO",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: DOO.",
+    "topic": "input-output",
+    "topicName": "Input-Output",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_218",
+    "title": "Step 1: Add positions of all letters. Step 2: Multiply by 2. CAT (3+1+20=24, ...",
+    "description": "Step 1: Add positions of all letters. Step 2: Multiply by 2. CAT (3+1+20=24, ×2=48). What is DOG?",
+    "question": "Step 1: Add positions of all letters. Step 2: Multiply by 2. CAT (3+1+20=24, ×2=48). What is DOG?",
+    "options": [
+      "60",
+      "56",
+      "52",
+      "72"
+    ],
+    "answer": "56",
+    "answerKey": "B",
+    "correctAnswer": "56",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: 56.",
+    "topic": "input-output",
+    "topicName": "Input-Output",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_219",
+    "title": "A sorting machine arranges numbers: largest moves to end. After pass 1 on [3,...",
+    "description": "A sorting machine arranges numbers: largest moves to end. After pass 1 on [3,1,4,1,5,9]: result is:",
+    "question": "A sorting machine arranges numbers: largest moves to end. After pass 1 on [3,1,4,1,5,9]: result is:",
+    "options": [
+      "3 1 4 1 5 9",
+      "1 3 4 1 5 9",
+      "3 1 4 1 5 9",
+      "3 1 1 4 5 9"
+    ],
+    "answer": "3 1 4 1 5 9",
+    "answerKey": "A",
+    "correctAnswer": "3 1 4 1 5 9",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 3 1 4 1 5 9.",
+    "topic": "input-output",
+    "topicName": "Input-Output",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_220",
+    "title": "Input: RED GREEN BLUE. If all letters are reversed and only first 3 letters o...",
+    "description": "Input: RED GREEN BLUE. If all letters are reversed and only first 3 letters of each word taken. Output:",
+    "question": "Input: RED GREEN BLUE. If all letters are reversed and only first 3 letters of each word taken. Output:",
+    "options": [
+      "DER NER EUL",
+      "RED GRE BLU",
+      "DER EER ULB",
+      "EDR NEE EUL"
+    ],
+    "answer": "DER NER EUL",
+    "answerKey": "A",
+    "correctAnswer": "DER NER EUL",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: DER NER EUL.",
+    "topic": "input-output",
+    "topicName": "Input-Output",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_214",
+    "title": "Shift cipher: each letter moves +3 positions. Encode 'CAT':",
+    "description": "Shift cipher: each letter moves +3 positions. Encode 'CAT':",
+    "question": "Shift cipher: each letter moves +3 positions. Encode 'CAT':",
+    "options": [
+      "FDW",
+      "DFW",
+      "FDX",
+      "ECV"
+    ],
+    "answer": "FDW",
+    "answerKey": "A",
+    "correctAnswer": "FDW",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: FDW.",
+    "topic": "input-output",
+    "topicName": "Input-Output",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

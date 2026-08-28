@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_338",
+  "slug": "tcs-apt-338",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which is greatest: 3/5, 4/7, 5/9?",
+  "description": "Which is greatest: 3/5, 4/7, 5/9?",
+  "question": "Which is greatest: 3/5, 4/7, 5/9?",
+  "options": [
+    "3/5",
+    "4/7",
+    "5/9",
+    "All equal"
+  ],
+  "optionsMap": {
+    "A": "3/5",
+    "B": "4/7",
+    "C": "5/9",
+    "D": "All equal"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "3/5",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

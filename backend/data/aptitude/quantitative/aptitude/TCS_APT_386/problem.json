@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_386",
+  "slug": "tcs-apt-386",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Mode of: 2, 3, 4, 3, 5, 3, 6, 3, 7 is?",
+  "description": "Mode of: 2, 3, 4, 3, 5, 3, 6, 3, 7 is?",
+  "question": "Mode of: 2, 3, 4, 3, 5, 3, 6, 3, 7 is?",
+  "options": [
+    "3",
+    "4",
+    "2",
+    "5"
+  ],
+  "optionsMap": {
+    "A": "3",
+    "B": "4",
+    "C": "2",
+    "D": "5"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "3",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

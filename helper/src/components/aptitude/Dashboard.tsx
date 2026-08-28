@@ -67,16 +67,14 @@ export default function Dashboard({ onNavigate }: { onNavigate?: (tab: string) =
     return { solved, total };
   };
 
-  const quant = getCategoryProgressVal('quantitative');
   const logical = getCategoryProgressVal('logical');
+  const quant = getCategoryProgressVal('quantitative');
   const verbal = getCategoryProgressVal('verbal');
-  const di = getCategoryProgressVal('di');
 
   const progressItems = [
-    { label: 'Quantitative', value: quant.solved, total: quant.total || 1, color: 'bg-blue-400' },
-    { label: 'Logical Reasoning', value: logical.solved, total: logical.total || 1, color: 'bg-rose-450' },
-    { label: 'Verbal Ability', value: verbal.solved, total: verbal.total || 1, color: 'bg-emerald-400' },
-    { label: 'Data Interpretation', value: di.solved, total: di.total || 1, color: 'bg-amber-450' },
+    { label: 'Logical Reasoning', value: logical.solved, total: logical.total || 500, color: 'bg-rose-450' },
+    { label: 'Numerical Ability', value: quant.solved, total: quant.total || 500, color: 'bg-blue-400' },
+    { label: 'Verbal Ability', value: verbal.solved, total: verbal.total || 500, color: 'bg-emerald-400' },
   ];
 
   // Helper formatting for timing
@@ -163,7 +161,7 @@ export default function Dashboard({ onNavigate }: { onNavigate?: (tab: string) =
           {/* Skill Progress */}
           <ProgressCard
             title="Skill Progress"
-            ringProgress={stats.solvedCount > 0 ? Math.round((stats.solvedCount / (quant.total + logical.total + verbal.total + di.total)) * 100) : 0}
+            ringProgress={stats.solvedCount > 0 ? Math.round((stats.solvedCount / Math.max(1, quant.total + logical.total + verbal.total)) * 100) : 0}
             ringLabel={`${stats.solvedCount}`}
             ringSublabel="Questions Solved"
             ringColor="text-fuchsia-500"

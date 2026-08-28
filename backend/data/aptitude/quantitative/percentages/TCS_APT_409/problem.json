@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_409",
+  "slug": "tcs-apt-409",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "percentages",
+  "topicName": "Percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "A trader mixes 80L pure milk with 20L water. What % of the mixture is milk?",
+  "description": "A trader mixes 80L pure milk with 20L water. What % of the mixture is milk?",
+  "question": "A trader mixes 80L pure milk with 20L water. What % of the mixture is milk?",
+  "options": [
+    "80%",
+    "75%",
+    "85%",
+    "90%"
+  ],
+  "optionsMap": {
+    "A": "80%",
+    "B": "75%",
+    "C": "85%",
+    "D": "90%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "80%",
+  "tags": [
+    "quantitative",
+    "percentages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

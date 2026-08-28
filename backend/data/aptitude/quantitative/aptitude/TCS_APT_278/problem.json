@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_278",
+  "slug": "tcs-apt-278",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "x + y = 10, x - y = 2. Find x and y.",
+  "description": "x + y = 10, x - y = 2. Find x and y.",
+  "question": "x + y = 10, x - y = 2. Find x and y.",
+  "options": [
+    "x=6, y=4",
+    "x=4, y=6",
+    "x=7, y=3",
+    "x=5, y=5"
+  ],
+  "optionsMap": {
+    "A": "x=6, y=4",
+    "B": "x=4, y=6",
+    "C": "x=7, y=3",
+    "D": "x=5, y=5"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "x=6, y=4",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_260",
+  "slug": "tcs-ver-260",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "sentence-improvement",
+  "topicName": "Sentence Improvement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Improve the underlined part of the sentence: 'Due to his hard work, he succee...",
+  "description": "Improve the underlined part of the sentence: 'Due to his hard work, he succeeded.'",
+  "question": "Improve the underlined part of the sentence: 'Due to his hard work, he succeeded.'",
+  "options": [
+    "Owing to",
+    "Because of",
+    "No improvement",
+    "Both A and B"
+  ],
+  "optionsMap": {
+    "A": "Owing to",
+    "B": "Because of",
+    "C": "No improvement",
+    "D": "Both A and B"
+  },
+  "answer": "C",
+  "answerKey": "C",
+  "correctAnswer": "No improvement",
+  "tags": [
+    "verbal",
+    "sentence-improvement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

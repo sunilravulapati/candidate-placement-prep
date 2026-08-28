@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_377",
+  "slug": "tcs-ver-377",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "cloze-test",
+  "topicName": "Cloze Test",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The global economy is undergoing a major _____ (1). Automation and artificial...",
+  "description": "The global economy is undergoing a major _____ (1). Automation and artificial intelligence are _____ (2) traditional jobs, forcing workers to _____ (3) new skills to remain relevant. SELECT WORD FOR BLANK (1):",
+  "question": "The global economy is undergoing a major _____ (1). Automation and artificial intelligence are _____ (2) traditional jobs, forcing workers to _____ (3) new skills to remain relevant. SELECT WORD FOR BLANK (1):",
+  "options": [
+    "transition",
+    "failure",
+    "stagnation",
+    "decline"
+  ],
+  "optionsMap": {
+    "A": "transition",
+    "B": "failure",
+    "C": "stagnation",
+    "D": "decline"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "transition",
+  "tags": [
+    "verbal",
+    "cloze-test"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

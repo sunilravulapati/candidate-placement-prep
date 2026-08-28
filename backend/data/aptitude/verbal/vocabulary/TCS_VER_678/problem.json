@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_678",
+  "slug": "tcs-ver-678",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "One word: Study of races of mankind",
+  "description": "One word: Study of races of mankind",
+  "question": "One word: Study of races of mankind",
+  "options": [
+    "Ethnology",
+    "Anthropology",
+    "Sociology",
+    "Zoology"
+  ],
+  "optionsMap": {
+    "A": "Ethnology",
+    "B": "Anthropology",
+    "C": "Sociology",
+    "D": "Zoology"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Ethnology",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

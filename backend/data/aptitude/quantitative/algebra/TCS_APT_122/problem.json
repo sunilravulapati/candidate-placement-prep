@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_122",
+  "slug": "tcs-apt-122",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "algebra",
+  "topicName": "Algebra",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "If 3a = 4b, find the ratio a:b.",
+  "description": "If 3a = 4b, find the ratio a:b.",
+  "question": "If 3a = 4b, find the ratio a:b.",
+  "options": [
+    "4:3",
+    "3:4",
+    "1:1",
+    "2:3"
+  ],
+  "optionsMap": {
+    "A": "4:3",
+    "B": "3:4",
+    "C": "1:1",
+    "D": "2:3"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "4:3",
+  "tags": [
+    "quantitative",
+    "algebra"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

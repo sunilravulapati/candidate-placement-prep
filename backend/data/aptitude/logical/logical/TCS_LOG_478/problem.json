@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_478",
+  "slug": "tcs-log-478",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Ranking: 50 students. P is 25th from bottom. From top?",
+  "description": "Ranking: 50 students. P is 25th from bottom. From top?",
+  "question": "Ranking: 50 students. P is 25th from bottom. From top?",
+  "options": [
+    "26th",
+    "25th",
+    "27th",
+    "24th"
+  ],
+  "optionsMap": {
+    "A": "26th",
+    "B": "25th",
+    "C": "27th",
+    "D": "24th"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "26th",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

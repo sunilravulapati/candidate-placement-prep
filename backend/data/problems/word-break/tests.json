@@ -2,57 +2,81 @@
   {
     "id": "sample-1",
     "classification": "sample",
-    "input": "\"babad\"",
-    "expectedOutput": "\"bab\"",
-    "explanation": "Sample test 1 for Word Break"
+    "displayInput": "s = \"leetcode\", wordDict = [\"leet\",\"code\"]",
+    "input": "leetcode\n2\nleet code",
+    "stdin": "leetcode\n2\nleet code",
+    "expectedOutput": "true",
+    "explanation": "two-word segmentation. Expected output: true",
+    "serializationStatus": "compatible"
   },
   {
     "id": "sample-2",
     "classification": "sample",
-    "input": "\"cbbd\"",
-    "expectedOutput": "\"bb\"",
-    "explanation": "Sample test 2 for Word Break"
+    "displayInput": "s = \"applepenapple\", wordDict = [\"apple\",\"pen\"]",
+    "input": "applepenapple\n2\napple pen",
+    "stdin": "applepenapple\n2\napple pen",
+    "expectedOutput": "true",
+    "explanation": "repeated dictionary word. Expected output: true",
+    "serializationStatus": "compatible"
   },
   {
     "id": "sample-3",
     "classification": "sample",
-    "input": "\"a\"",
-    "expectedOutput": "\"a\"",
-    "explanation": "Sample test 3 for Word Break"
+    "displayInput": "s = \"catsandog\", wordDict = [\"cats\",\"dog\",\"sand\",\"and\",\"cat\"]",
+    "input": "catsandog\n5\ncats dog sand and cat",
+    "stdin": "catsandog\n5\ncats dog sand and cat",
+    "expectedOutput": "false",
+    "explanation": "near segmentation fails. Expected output: false",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "edge-1",
-    "classification": "edge",
-    "input": "\"\"",
-    "expectedOutput": "\"\"",
-    "explanation": "Empty string boundary"
+    "id": "hidden-1",
+    "classification": "hidden",
+    "displayInput": "s = \"\", wordDict = []",
+    "input": "0",
+    "stdin": "0",
+    "expectedOutput": "true",
+    "explanation": "empty string",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "corner-2",
-    "classification": "corner",
-    "input": "\"aaaaa\"",
-    "expectedOutput": "\"aaaaa\"",
-    "explanation": "All identical characters"
+    "id": "hidden-2",
+    "classification": "hidden",
+    "displayInput": "s = \"a\", wordDict = []",
+    "input": "a\n0",
+    "stdin": "a\n0",
+    "expectedOutput": "false",
+    "explanation": "no dictionary words",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "stress-3",
-    "classification": "stress",
-    "input": "\"abcdefghijklmnopqrstuvwxyz\"",
-    "expectedOutput": "1",
-    "explanation": "All distinct characters"
+    "id": "hidden-3",
+    "classification": "hidden",
+    "displayInput": "s = \"aaaaaaa\", wordDict = [\"aaaa\",\"aaa\"]",
+    "input": "aaaaaaa\n2\naaaa aaa",
+    "stdin": "aaaaaaa\n2\naaaa aaa",
+    "expectedOutput": "true",
+    "explanation": "overlapping segment lengths",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "duplicates-4",
-    "classification": "duplicates",
-    "input": "\"abacaba\"",
-    "expectedOutput": "\"abacaba\"",
-    "explanation": "Symmetric palindrome string"
+    "id": "hidden-4",
+    "classification": "hidden",
+    "displayInput": "s = \"cars\", wordDict = [\"car\",\"ca\",\"rs\"]",
+    "input": "cars\n3\ncar ca rs",
+    "stdin": "cars\n3\ncar ca rs",
+    "expectedOutput": "true",
+    "explanation": "two valid pieces",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "performance-5",
-    "classification": "performance",
-    "input": "\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"",
-    "expectedOutput": "...",
-    "explanation": "Performance test"
+    "id": "hidden-5",
+    "classification": "hidden",
+    "displayInput": "s = \"bookcase\", wordDict = [\"book\",\"case\",\"bookcase\"]",
+    "input": "bookcase\n3\nbook case bookcase",
+    "stdin": "bookcase\n3\nbook case bookcase",
+    "expectedOutput": "true",
+    "explanation": "whole word and pieces",
+    "serializationStatus": "compatible"
   }
 ]

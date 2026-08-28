@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_255",
+  "slug": "tcs-log-255",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find the odd one out: January, March, May, June",
+  "description": "Find the odd one out: January, March, May, June",
+  "question": "Find the odd one out: January, March, May, June",
+  "options": [
+    "June",
+    "January",
+    "March",
+    "May"
+  ],
+  "optionsMap": {
+    "A": "June",
+    "B": "January",
+    "C": "March",
+    "D": "May"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "June",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

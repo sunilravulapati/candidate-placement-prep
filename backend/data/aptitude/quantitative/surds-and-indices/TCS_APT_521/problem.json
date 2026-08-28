@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_521",
+  "slug": "tcs-apt-521",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "surds-and-indices",
+  "topicName": "Surds and Indices",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "x^(m/n) = ?",
+  "description": "x^(m/n) = ?",
+  "question": "x^(m/n) = ?",
+  "options": [
+    "n√(xm)",
+    "xm × xn",
+    "xm/xn",
+    "xm+n"
+  ],
+  "optionsMap": {
+    "A": "n√(xm)",
+    "B": "xm × xn",
+    "C": "xm/xn",
+    "D": "xm+n"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "n√(xm)",
+  "tags": [
+    "quantitative",
+    "surds-and-indices"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

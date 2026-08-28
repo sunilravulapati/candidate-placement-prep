@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_075",
+  "slug": "tcs-apt-075",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "time-and-work",
+  "topicName": "Time and Work",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A can do a job in 12 days and B in 18 days. If A works alone for 4 days, how ...",
+  "description": "A can do a job in 12 days and B in 18 days. If A works alone for 4 days, how many more days will B need to finish?",
+  "question": "A can do a job in 12 days and B in 18 days. If A works alone for 4 days, how many more days will B need to finish?",
+  "options": [
+    "10",
+    "12",
+    "8",
+    "14"
+  ],
+  "optionsMap": {
+    "A": "10",
+    "B": "12",
+    "C": "8",
+    "D": "14"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "10",
+  "tags": [
+    "quantitative",
+    "time-and-work"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

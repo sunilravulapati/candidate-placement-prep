@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_237",
+  "slug": "tcs-ver-237",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What does 'up in the air' mean?",
+  "description": "What does 'up in the air' mean?",
+  "question": "What does 'up in the air' mean?",
+  "options": [
+    "Uncertain or unresolved",
+    "Flying high",
+    "Excited",
+    "Confused about directions"
+  ],
+  "optionsMap": {
+    "A": "Uncertain or unresolved",
+    "B": "Flying high",
+    "C": "Excited",
+    "D": "Confused about directions"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Uncertain or unresolved",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

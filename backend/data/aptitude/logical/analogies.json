@@ -1,0 +1,542 @@
+[
+  {
+    "id": "TCS_LOG_102",
+    "title": "Brick : House :: Page : ?",
+    "description": "Brick : House :: Page : ?",
+    "question": "Brick : House :: Page : ?",
+    "options": [
+      "Book",
+      "Pen",
+      "Paper",
+      "Ink"
+    ],
+    "answer": "Book",
+    "answerKey": "A",
+    "correctAnswer": "Book",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Book.",
+    "topic": "analogies",
+    "topicName": "Analogies",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_103",
+    "title": "Smile : Happy :: Frown : ?",
+    "description": "Smile : Happy :: Frown : ?",
+    "question": "Smile : Happy :: Frown : ?",
+    "options": [
+      "Angry",
+      "Sad",
+      "Bored",
+      "Shocked"
+    ],
+    "answer": "Sad",
+    "answerKey": "B",
+    "correctAnswer": "Sad",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (B) is the correct answer: Sad.",
+    "topic": "analogies",
+    "topicName": "Analogies",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_105",
+    "title": "Biologist : Life :: Astronomer : ?",
+    "description": "Biologist : Life :: Astronomer : ?",
+    "question": "Biologist : Life :: Astronomer : ?",
+    "options": [
+      "Stars",
+      "Rocks",
+      "Water",
+      "Air"
+    ],
+    "answer": "Stars",
+    "answerKey": "A",
+    "correctAnswer": "Stars",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Stars.",
+    "topic": "analogies",
+    "topicName": "Analogies",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_106",
+    "title": "Scissors : Tailor :: Scalpel : ?",
+    "description": "Scissors : Tailor :: Scalpel : ?",
+    "question": "Scissors : Tailor :: Scalpel : ?",
+    "options": [
+      "Surgeon",
+      "Engineer",
+      "Teacher",
+      "Lawyer"
+    ],
+    "answer": "Surgeon",
+    "answerKey": "A",
+    "correctAnswer": "Surgeon",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Surgeon.",
+    "topic": "analogies",
+    "topicName": "Analogies",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_107",
+    "title": "Ruminant : Cow :: Carnivore : ?",
+    "description": "Ruminant : Cow :: Carnivore : ?",
+    "question": "Ruminant : Cow :: Carnivore : ?",
+    "options": [
+      "Lion",
+      "Deer",
+      "Elephant",
+      "Horse"
+    ],
+    "answer": "Lion",
+    "answerKey": "A",
+    "correctAnswer": "Lion",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Lion.",
+    "topic": "analogies",
+    "topicName": "Analogies",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_108",
+    "title": "Library : Books :: Gallery : ?",
+    "description": "Library : Books :: Gallery : ?",
+    "question": "Library : Books :: Gallery : ?",
+    "options": [
+      "Paintings",
+      "Sculptures",
+      "Films",
+      "Plays"
+    ],
+    "answer": "Paintings",
+    "answerKey": "A",
+    "correctAnswer": "Paintings",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Paintings.",
+    "topic": "analogies",
+    "topicName": "Analogies",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_112",
+    "title": "Marathon : Stamina :: Sprint : ?",
+    "description": "Marathon : Stamina :: Sprint : ?",
+    "question": "Marathon : Stamina :: Sprint : ?",
+    "options": [
+      "Speed",
+      "Endurance",
+      "Strength",
+      "Flexibility"
+    ],
+    "answer": "Speed",
+    "answerKey": "A",
+    "correctAnswer": "Speed",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Speed.",
+    "topic": "analogies",
+    "topicName": "Analogies",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_113",
+    "title": "Myopia : Eye :: Arthritis : ?",
+    "description": "Myopia : Eye :: Arthritis : ?",
+    "question": "Myopia : Eye :: Arthritis : ?",
+    "options": [
+      "Joints",
+      "Lungs",
+      "Heart",
+      "Brain"
+    ],
+    "answer": "Joints",
+    "answerKey": "A",
+    "correctAnswer": "Joints",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Joints.",
+    "topic": "analogies",
+    "topicName": "Analogies",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_114",
+    "title": "Ophthalmology : Eyes :: Cardiology : ?",
+    "description": "Ophthalmology : Eyes :: Cardiology : ?",
+    "question": "Ophthalmology : Eyes :: Cardiology : ?",
+    "options": [
+      "Heart",
+      "Lungs",
+      "Brain",
+      "Liver"
+    ],
+    "answer": "Heart",
+    "answerKey": "A",
+    "correctAnswer": "Heart",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Heart.",
+    "topic": "analogies",
+    "topicName": "Analogies",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_115",
+    "title": "Antonym : Opposite :: Synonym : ?",
+    "description": "Antonym : Opposite :: Synonym : ?",
+    "question": "Antonym : Opposite :: Synonym : ?",
+    "options": [
+      "Similar",
+      "Same",
+      "Different",
+      "Contrasting"
+    ],
+    "answer": "Same",
+    "answerKey": "B",
+    "correctAnswer": "Same",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (B) is the correct answer: Same.",
+    "topic": "analogies",
+    "topicName": "Analogies",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_120",
+    "title": "Telescope : Distant :: Microscope : ?",
+    "description": "Telescope : Distant :: Microscope : ?",
+    "question": "Telescope : Distant :: Microscope : ?",
+    "options": [
+      "Tiny",
+      "Huge",
+      "Bright",
+      "Moving"
+    ],
+    "answer": "Tiny",
+    "answerKey": "A",
+    "correctAnswer": "Tiny",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Tiny.",
+    "topic": "analogies",
+    "topicName": "Analogies",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_109",
+    "title": "Moon : Orbit :: Earth : ?",
+    "description": "Moon : Orbit :: Earth : ?",
+    "question": "Moon : Orbit :: Earth : ?",
+    "options": [
+      "Rotate",
+      "Shine",
+      "Reflect",
+      "Orbit"
+    ],
+    "answer": "Orbit",
+    "answerKey": "D",
+    "correctAnswer": "Orbit",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (D) is the correct answer: Orbit.",
+    "topic": "analogies",
+    "topicName": "Analogies",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_110",
+    "title": "Carbon : Diamond :: Sand : ?",
+    "description": "Carbon : Diamond :: Sand : ?",
+    "question": "Carbon : Diamond :: Sand : ?",
+    "options": [
+      "Glass",
+      "Brick",
+      "Metal",
+      "Stone"
+    ],
+    "answer": "Glass",
+    "answerKey": "A",
+    "correctAnswer": "Glass",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Glass.",
+    "topic": "analogies",
+    "topicName": "Analogies",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_118",
+    "title": "Malaria : Mosquito :: Plague : ?",
+    "description": "Malaria : Mosquito :: Plague : ?",
+    "question": "Malaria : Mosquito :: Plague : ?",
+    "options": [
+      "Rat flea",
+      "Housefly",
+      "Tsetse fly",
+      "Anopheles"
+    ],
+    "answer": "Rat flea",
+    "answerKey": "A",
+    "correctAnswer": "Rat flea",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Rat flea.",
+    "topic": "analogies",
+    "topicName": "Analogies",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_111",
+    "title": "Democracy : Republic :: Monarchy : ?",
+    "description": "Democracy : Republic :: Monarchy : ?",
+    "question": "Democracy : Republic :: Monarchy : ?",
+    "options": [
+      "Kingdom",
+      "Senate",
+      "Parliament",
+      "Committee"
+    ],
+    "answer": "Kingdom",
+    "answerKey": "A",
+    "correctAnswer": "Kingdom",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Kingdom.",
+    "topic": "analogies",
+    "topicName": "Analogies",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_116",
+    "title": "Chlorophyll : Green :: Carotene : ?",
+    "description": "Chlorophyll : Green :: Carotene : ?",
+    "question": "Chlorophyll : Green :: Carotene : ?",
+    "options": [
+      "Orange",
+      "Yellow",
+      "Red",
+      "Blue"
+    ],
+    "answer": "Orange",
+    "answerKey": "A",
+    "correctAnswer": "Orange",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Orange.",
+    "topic": "analogies",
+    "topicName": "Analogies",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_117",
+    "title": "Vertebrae : Spine :: Ribs : ?",
+    "description": "Vertebrae : Spine :: Ribs : ?",
+    "question": "Vertebrae : Spine :: Ribs : ?",
+    "options": [
+      "Ribcage",
+      "Skull",
+      "Pelvis",
+      "Sternum"
+    ],
+    "answer": "Skull",
+    "answerKey": "B",
+    "correctAnswer": "Skull",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: Skull.",
+    "topic": "analogies",
+    "topicName": "Analogies",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_119",
+    "title": "Neurology : Brain :: Nephrology : ?",
+    "description": "Neurology : Brain :: Nephrology : ?",
+    "question": "Neurology : Brain :: Nephrology : ?",
+    "options": [
+      "Kidneys",
+      "Bones",
+      "Heart",
+      "Lungs"
+    ],
+    "answer": "Kidneys",
+    "answerKey": "A",
+    "correctAnswer": "Kidneys",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Kidneys.",
+    "topic": "analogies",
+    "topicName": "Analogies",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

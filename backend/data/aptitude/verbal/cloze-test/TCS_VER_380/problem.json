@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_380",
+  "slug": "tcs-ver-380",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "cloze-test",
+  "topicName": "Cloze Test",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Reading fiction enhances empathy. When readers _____ (2) themselves in the li...",
+  "description": "Reading fiction enhances empathy. When readers _____ (2) themselves in the lives of characters, they understand different perspectives. SELECT WORD FOR BLANK (2):",
+  "question": "Reading fiction enhances empathy. When readers _____ (2) themselves in the lives of characters, they understand different perspectives. SELECT WORD FOR BLANK (2):",
+  "options": [
+    "immerse",
+    "isolate",
+    "distance",
+    "remove"
+  ],
+  "optionsMap": {
+    "A": "immerse",
+    "B": "isolate",
+    "C": "distance",
+    "D": "remove"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "immerse",
+  "tags": [
+    "verbal",
+    "cloze-test"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

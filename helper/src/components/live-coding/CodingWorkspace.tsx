@@ -117,6 +117,12 @@ export default function CodingWorkspace({
 
   // Tabs & panels
   const [activeBottomTab, setActiveBottomTab] = useState<BottomTab>('testcases');
+  const probSolvedFlag = Boolean((problem as any).isSolved || problem.status === 'SOLVED');
+  const [isSolved, setIsSolved] = useState<boolean>(probSolvedFlag);
+
+  useEffect(() => {
+    setIsSolved(probSolvedFlag);
+  }, [probSolvedFlag]);
 
   // Execution state
   const [isRunning, setIsRunning] = useState(false);
@@ -166,7 +172,7 @@ export default function CodingWorkspace({
       if (draft?.code && draft.code.trim().length > 0) {
         restoredCode = draft.code;
       } else {
-        restoredCode = getStarterTemplate(restoredLang, problem.starterCode, (problem as any).starterMetadata);
+        restoredCode = getStarterTemplate(restoredLang, problem.starterCode);
       }
 
       setLanguage(restoredLang);
@@ -221,7 +227,7 @@ export default function CodingWorkspace({
         const existingDraft = updated[newLang];
         const nextCode = existingDraft && existingDraft.trim().length > 0
           ? existingDraft
-          : getStarterTemplate(newLang, problem.starterCode, (problem as any).starterMetadata);
+          : getStarterTemplate(newLang, problem.starterCode);
 
         setLanguage(newLang);
         setCode(nextCode);
@@ -263,20 +269,36 @@ export default function CodingWorkspace({
       });
 
       let res: ExecutionResult;
+      const text = await resp.text();
+      let parsedJson: any = null;
+      if (text && text.trim()) {
+        try { parsedJson = JSON.parse(text); } catch {}
+      }
+
       if (!resp.ok) {
-        const text = await resp.text();
         res = {
           passed: false,
           stdout: '',
-          stderr: text.startsWith('{') ? (JSON.parse(text).stderr || 'Server error') : `Execution service error (${resp.status}): ${text.slice(0, 150)}`,
+          stderr: parsedJson?.stderr || (text ? `Execution service error (${resp.status}): ${text.slice(0, 150)}` : `Execution service error (${resp.status})`),
           compileOutput: '',
           executionTimeMs: 0,
           memoryBytes: 0,
           errorType: 'RUNTIME_ERROR',
           providerName: 'Execution Server',
         };
+      } else if (parsedJson) {
+        res = parsedJson;
       } else {
-        res = await resp.json();
+        res = {
+          passed: false,
+          stdout: '',
+          stderr: 'Execution service returned invalid response format.',
+          compileOutput: '',
+          executionTimeMs: 0,
+          memoryBytes: 0,
+          errorType: 'RUNTIME_ERROR',
+          providerName: 'Execution Server',
+        };
       }
 
       setExecutionResult(res);
@@ -330,20 +352,36 @@ export default function CodingWorkspace({
         }),
       });
 
+      const text = await resp.text();
+      let parsedJson: any = null;
+      if (text && text.trim()) {
+        try { parsedJson = JSON.parse(text); } catch {}
+      }
+
       if (!resp.ok) {
-        const text = await resp.text();
         finalResult = {
           passed: false,
           stdout: '',
-          stderr: text.startsWith('{') ? (JSON.parse(text).stderr || 'Server error') : `Execution service error (${resp.status}): ${text.slice(0, 150)}`,
+          stderr: parsedJson?.stderr || (text ? `Execution service error (${resp.status}): ${text.slice(0, 150)}` : `Execution service error (${resp.status})`),
           compileOutput: '',
           executionTimeMs: 0,
           memoryBytes: 0,
           errorType: 'RUNTIME_ERROR',
           providerName: 'Execution Server',
         };
+      } else if (parsedJson) {
+        finalResult = parsedJson;
       } else {
-        finalResult = await resp.json();
+        finalResult = {
+          passed: false,
+          stdout: '',
+          stderr: 'Execution service returned invalid response format.',
+          compileOutput: '',
+          executionTimeMs: 0,
+          memoryBytes: 0,
+          errorType: 'RUNTIME_ERROR',
+          providerName: 'Execution Server',
+        };
       }
       setExecutionResult(finalResult);
 
@@ -361,6 +399,7 @@ export default function CodingWorkspace({
       });
 
       if (finalResult.passed) {
+        setIsSolved(true);
         toast.success('Accepted! Solution passed all test cases.');
         setTimeout(() => setActiveBottomTab('review'), 1200);
       } else {
@@ -402,7 +441,9 @@ export default function CodingWorkspace({
 
   const isBusy = isRunning || isSubmitting;
   const verdictLabel = getVerdictLabel(executionResult);
-  const topicName = problem.topics[0]?.name ?? 'Problems';
+  const topicObj = problem.topics[0];
+  const topicName = topicObj?.name ?? (problem.primaryTopic ? problem.primaryTopic.replace(/-/g, ' ') : 'Problems');
+  const topicSlug = topicObj?.slug ?? (problem.primaryTopic ? problem.primaryTopic.toLowerCase() : 'arrays');
 
   return (
     <div className="flex-1 w-full h-full min-h-0 flex flex-col bg-[#030712] text-slate-200 overflow-hidden">
@@ -421,7 +462,7 @@ export default function CodingWorkspace({
           <nav className="hidden sm:flex items-center gap-1.5 text-xs text-slate-400 min-w-0">
             <Link href="/dsa" className="hover:text-slate-200 font-medium transition-colors whitespace-nowrap">DSA Studio</Link>
             <Breadcrumb className="w-3 h-3 text-slate-600 shrink-0" />
-            <Link href="/dsa/library" className="hover:text-slate-200 transition-colors whitespace-nowrap">{topicName}</Link>
+            <Link href={`/dsa/topics/${topicSlug}`} className="hover:text-slate-200 transition-colors whitespace-nowrap capitalize">{topicName}</Link>
             <Breadcrumb className="w-3 h-3 text-slate-600 shrink-0" />
             <span className="text-slate-100 font-semibold truncate">{problem.title}</span>
           </nav>
@@ -429,6 +470,11 @@ export default function CodingWorkspace({
           {/* Mobile Title */}
           <div className="flex sm:hidden items-center gap-2 min-w-0">
             <span className="font-semibold text-white truncate text-xs">{problem.title}</span>
+            {isSolved && (
+              <span className="px-2 py-0.5 rounded border text-[10px] font-bold font-mono text-emerald-400 bg-emerald-500/10 border-emerald-500/30 flex items-center gap-0.5">
+                <CheckCircle2 className="w-2.5 h-2.5" /> Solved
+              </span>
+            )}
             <span
               className={cn(
                 'text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded border shrink-0',
@@ -441,6 +487,11 @@ export default function CodingWorkspace({
         </div>
 
         <div className="hidden md:flex items-center gap-3 shrink-0">
+          {isSolved && (
+            <span className="px-2.5 py-0.5 rounded-full border text-[10px] font-bold font-mono text-emerald-400 bg-emerald-500/10 border-emerald-500/30 flex items-center gap-1 shadow-sm">
+              <CheckCircle2 className="w-3 h-3 text-emerald-400" /> Solved
+            </span>
+          )}
           <span
             className={cn(
               'text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full border shrink-0 font-mono',
@@ -536,7 +587,7 @@ export default function CodingWorkspace({
           {/* Left Panel: Question Details */}
           <Panel defaultSize={40} minSize={25}>
             <div className="h-full border-r border-slate-800/80 bg-[#030712]">
-              <MemoQuestionPanel problem={problem} />
+              <MemoQuestionPanel problem={{ ...problem, isSolved, status: isSolved ? 'SOLVED' : problem.status } as any} />
             </div>
           </Panel>
 
@@ -639,6 +690,10 @@ export default function CodingWorkspace({
                         result={executionResult}
                         isRunning={isRunning || isSubmitting}
                         language={language}
+                        expectedComplexity={{
+                          time: (problem as any).optimalTC || problem.timeComplexity,
+                          space: (problem as any).optimalSC || problem.spaceComplexity,
+                        }}
                       />
                     )}
 

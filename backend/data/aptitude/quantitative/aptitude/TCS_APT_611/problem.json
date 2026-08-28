@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_611",
+  "slug": "tcs-apt-611",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Convert fraction 3/20 to percentage?",
+  "description": "Convert fraction 3/20 to percentage?",
+  "question": "Convert fraction 3/20 to percentage?",
+  "options": [
+    "15%",
+    "1.5%",
+    "0.15%",
+    "150%"
+  ],
+  "optionsMap": {
+    "A": "15%",
+    "B": "1.5%",
+    "C": "0.15%",
+    "D": "150%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "15%",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

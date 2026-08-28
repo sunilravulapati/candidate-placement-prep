@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_437",
+  "slug": "tcs-ver-437",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "What does the idiom 'give the benefit of the doubt' mean?",
+  "description": "What does the idiom 'give the benefit of the doubt' mean?",
+  "question": "What does the idiom 'give the benefit of the doubt' mean?",
+  "options": [
+    "Trust someone despite uncertainty",
+    "Give a gift",
+    "Doubt someone",
+    "Prove guilt"
+  ],
+  "optionsMap": {
+    "A": "Trust someone despite uncertainty",
+    "B": "Give a gift",
+    "C": "Doubt someone",
+    "D": "Prove guilt"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Trust someone despite uncertainty",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

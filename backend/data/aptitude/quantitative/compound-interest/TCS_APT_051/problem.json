@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_051",
+  "slug": "tcs-apt-051",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "compound-interest",
+  "topicName": "Compound Interest",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "What is the difference between SI and CI on Rs.8000 at 5% for 2 years?",
+  "description": "What is the difference between SI and CI on Rs.8000 at 5% for 2 years?",
+  "question": "What is the difference between SI and CI on Rs.8000 at 5% for 2 years?",
+  "options": [
+    "Rs.20",
+    "Rs.10",
+    "Rs.25",
+    "Rs.30"
+  ],
+  "optionsMap": {
+    "A": "Rs.20",
+    "B": "Rs.10",
+    "C": "Rs.25",
+    "D": "Rs.30"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.20",
+  "tags": [
+    "quantitative",
+    "compound-interest"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

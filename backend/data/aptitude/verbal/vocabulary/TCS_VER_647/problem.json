@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_647",
+  "slug": "tcs-ver-647",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of PARSIMONIOUS",
+  "description": "Choose the antonym of PARSIMONIOUS",
+  "question": "Choose the antonym of PARSIMONIOUS",
+  "options": [
+    "Generous",
+    "Thrifty",
+    "Stingy",
+    "Miserly"
+  ],
+  "optionsMap": {
+    "A": "Generous",
+    "B": "Thrifty",
+    "C": "Stingy",
+    "D": "Miserly"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Generous",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_690",
+  "slug": "tcs-ver-690",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Fill blank: The jury __ its verdict after deliberation.",
+  "description": "Fill blank: The jury __ its verdict after deliberation.",
+  "question": "Fill blank: The jury __ its verdict after deliberation.",
+  "options": [
+    "delivered",
+    "making",
+    "take",
+    "gave"
+  ],
+  "optionsMap": {
+    "A": "delivered",
+    "B": "making",
+    "C": "take",
+    "D": "gave"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "delivered",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

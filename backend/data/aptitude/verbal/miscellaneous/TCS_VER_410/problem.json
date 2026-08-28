@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_410",
+  "slug": "tcs-ver-410",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "miscellaneous",
+  "topicName": "Miscellaneous",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Which is the correct passive of 'They built the bridge in 1990'?",
+  "description": "Which is the correct passive of 'They built the bridge in 1990'?",
+  "question": "Which is the correct passive of 'They built the bridge in 1990'?",
+  "options": [
+    "The bridge was built in 1990.",
+    "The bridge is built in 1990.",
+    "The bridge has been built in 1990.",
+    "The bridge was build in 1990."
+  ],
+  "optionsMap": {
+    "A": "The bridge was built in 1990.",
+    "B": "The bridge is built in 1990.",
+    "C": "The bridge has been built in 1990.",
+    "D": "The bridge was build in 1990."
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "The bridge was built in 1990.",
+  "tags": [
+    "verbal",
+    "miscellaneous"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

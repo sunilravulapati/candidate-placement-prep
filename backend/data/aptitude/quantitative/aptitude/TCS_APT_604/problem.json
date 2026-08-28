@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_604",
+  "slug": "tcs-apt-604",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Probability: 2 balls from 5 red 3 blue. Probability both red?",
+  "description": "Probability: 2 balls from 5 red 3 blue. Probability both red?",
+  "question": "Probability: 2 balls from 5 red 3 blue. Probability both red?",
+  "options": [
+    "5/14",
+    "2/7",
+    "10/56",
+    "1/3"
+  ],
+  "optionsMap": {
+    "A": "5/14",
+    "B": "2/7",
+    "C": "10/56",
+    "D": "1/3"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "5/14",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

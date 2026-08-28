@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_358",
+  "slug": "tcs-log-358",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Blood relation: Pointing to man, woman says he is son of only son of my grand...",
+  "description": "Blood relation: Pointing to man, woman says he is son of only son of my grandfather. How is she related?",
+  "question": "Blood relation: Pointing to man, woman says he is son of only son of my grandfather. How is she related?",
+  "options": [
+    "Sister",
+    "Cousin",
+    "Daughter",
+    "Aunt"
+  ],
+  "optionsMap": {
+    "A": "Sister",
+    "B": "Cousin",
+    "C": "Daughter",
+    "D": "Aunt"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Sister",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

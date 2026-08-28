@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_193",
+  "slug": "tcs-ver-193",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Choose the grammatically correct option:",
+  "description": "Choose the grammatically correct option:",
+  "question": "Choose the grammatically correct option:",
+  "options": [
+    "Each of the students have submitted their forms.",
+    "Each of the students has submitted his or her form.",
+    "Each of the student has submitted their form.",
+    "Each students has submitted their forms."
+  ],
+  "optionsMap": {
+    "A": "Each of the students have submitted their forms.",
+    "B": "Each of the students has submitted his or her form.",
+    "C": "Each of the student has submitted their form.",
+    "D": "Each students has submitted their forms."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Each of the students has submitted his or her form.",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

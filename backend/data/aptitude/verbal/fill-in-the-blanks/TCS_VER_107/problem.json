@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_107",
+  "slug": "tcs-ver-107",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The old building was in a state of complete _____; it had to be demolished.",
+  "description": "The old building was in a state of complete _____; it had to be demolished.",
+  "question": "The old building was in a state of complete _____; it had to be demolished.",
+  "options": [
+    "dilapidation",
+    "repair",
+    "restoration",
+    "perfection"
+  ],
+  "optionsMap": {
+    "A": "dilapidation",
+    "B": "repair",
+    "C": "restoration",
+    "D": "perfection"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "dilapidation",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

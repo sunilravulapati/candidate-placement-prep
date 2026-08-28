@@ -4,32 +4,32 @@
 Design a Least Recently Used cache with O(1) get/put.
 
 ## Why Learn This?
-High frequency medium-level interview question for testing algorithm design and design / misc proficiency.
+High frequency medium-level interview question for testing algorithm design and linked list proficiency.
 
 ## Recognition Clues
-Look for array/string traversal where design / misc properties or sliding boundaries reduce time complexity.
+Look for array/string traversal where linked list properties or sliding boundaries reduce time complexity.
 
 ## Prerequisites
-Design / Misc fundamentals, recursion, or hashing
+Linked List fundamentals, recursion, or hashing
 
 ## Concepts Used
-Design / Misc pattern optimization, search space reduction
+Linked List pattern optimization, search space reduction
 
 ## Intuition & Approach
 ### Intuition
 By maintaining optimal state or invariants during iteration, we avoid recomputing redundant subproblems.
 
 ### Approach
-Apply design / misc specific optimal traversal or data structure mapping to satisfy target time/space constraints.
+Apply linked list specific optimal traversal or data structure mapping to satisfy target time/space constraints.
 
 ## Step-by-Step Algorithm
-1. Initialize data structures (Array).
+1. Initialize data structures (Singly Linked List).
 2. Traverse input while updating current boundary or accumulator.
 3. Return result once target state is reached.
 
 ## Pseudocode
 ```text
-# Medium Design / Misc optimal pattern
+# Medium Linked List optimal pattern
 setup data structures
 while condition:
   update state
@@ -52,4 +52,4 @@ return optimal value
 Focus on invariant preservation and spatial optimization (in-place manipulation where applicable).
 
 ## Revision Notes
-Key Design / Misc question frequently asked in FAANG/Top Tech interview loops.
+Key Linked List question frequently asked in FAANG/Top Tech interview loops.

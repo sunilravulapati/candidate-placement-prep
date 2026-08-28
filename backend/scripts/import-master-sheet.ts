@@ -3,8 +3,9 @@
 import fs from 'fs';
 import path from 'path';
 import XLSX from 'xlsx';
-import { DSAProblemMetadata, ResourceLink, TestCaseSpec } from '../src/features/dsa/dsaTypes';
-import { normalizeTestInput } from '../src/features/dsa/inputNormalizer';
+import type { DSAProblemMetadata, ResourceLink, TestCaseSpec } from '../src/features/dsa/dsaTypes.ts';
+import { normalizeTestInput, serializeV1TestCase } from '../src/features/dsa/inputNormalizer.ts';
+import { buildProblemInputHelper } from '../src/features/dsa/inputGuideGenerator.ts';
 
 // Helper to find data directory
 function findDataDir(): string {
@@ -89,16 +90,38 @@ interface RawExcelRow {
   'JS Complete Solution'?: string;
   'TS Starter Code'?: string;
   'TS Complete Solution'?: string;
+  'Hidden Input 1'?: string;
+  'Hidden Output 1'?: string;
+  'Hidden Input 2'?: string;
+  'Hidden Output 2'?: string;
+  'Hidden Input 3'?: string;
+  'Hidden Output 3'?: string;
+  'Hidden Input 4'?: string;
+  'Hidden Output 4'?: string;
+  'Hidden Input 5'?: string;
+  'Hidden Output 5'?: string;
+  'Visible Stdin Input 1'?: string;
+  'Visible Stdin Input 2'?: string;
+  'Visible Stdin Input 3'?: string;
+  'Hidden Stdin Input 1'?: string;
+  'Hidden Stdin Input 2'?: string;
+  'Hidden Stdin Input 3'?: string;
+  'Hidden Stdin Input 4'?: string;
+  'Hidden Stdin Input 5'?: string;
+  'Stdin Conversion Status'?: string;
+  'Stdin Format Notes'?: string;
 }
 
-export function deduplicateTestCases<T extends { input: string; expectedOutput: string }>(tests: T[]): { uniqueTests: T[]; removedCount: number } {
+export function deduplicateTestCases<T extends { input: string; expectedOutput: string }>(
+  tests: T[]
+): { uniqueTests: T[]; removedCount: number } {
   const seen = new Set<string>();
   const uniqueTests: T[] = [];
   let removedCount = 0;
 
   for (const t of tests) {
     const normIn = normalizeTestInput(t.input || '').trim();
-    const normOut = normalizeTestInput(t.expectedOutput || '').trim();
+    const normOut = (t.expectedOutput || '').trim();
     const key = `${normIn}::${normOut}`;
 
     if (seen.has(key)) {
@@ -112,235 +135,51 @@ export function deduplicateTestCases<T extends { input: string; expectedOutput: 
   return { uniqueTests, removedCount };
 }
 
-export function generatePDFInputTemplates(questionNo: number, title: string, topic: string): Record<string, string> {
-  return {
-    python: `# --- ${questionNo}. ${title} (${topic}) ---
-def solution(inputs):
-    # Function implementation
+const V1_STARTER_TEMPLATES = {
+  cpp: `#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    // Read input according to the Input Format
+    // Write solution here
+    return 0;
+}`,
+  python: `def main():
+    # Read input according to the Input Format
+    # Write solution here
     pass
 
 if __name__ == "__main__":
-    import sys
-    raw_input = sys.stdin.read().splitlines() if not sys.stdin.isatty() else ["sample_input"]
-    print(f"Input: {raw_input}")
-`,
-    cpp: `// --- ${questionNo}. ${title} (${topic}) ---
-#include <iostream>
-#include <vector>
-#include <string>
-using namespace std;
-
-class Solution {
-public:
-    void solve() {
-        // Implement solution
-    }
-};
-
-int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    Solution sol;
-    sol.solve();
-    return 0;
-}
-`,
-    java: `// --- ${questionNo}. ${title} (${topic}) ---
-import java.util.*;
-import java.io.*;
+    main()`,
+  java: `import java.util.*;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Ready for input: ${title}");
+    public static void main(String[] args) {
+        // Read input according to the Input Format
+        // Write solution here
     }
-}
-`,
-    javascript: `// --- ${questionNo}. ${title} (${topic}) ---
-const fs = require('fs');
+}`,
+  javascript: `const fs = require("fs");
 
-function solve(input) {
-  return input;
-}
-
-const input = fs.readFileSync(0, 'utf-8').trim().split('\\n');
-console.log(solve(input));
-`,
-    typescript: `// --- ${questionNo}. ${title} (${topic}) ---
-import * as fs from 'fs';
-
-function solveTS(inputData: string[]): any {
-  return inputData;
+function main() {
+    const input = fs.readFileSync(0, "utf-8").trim();
+    if (!input) return;
+    // Read input according to the Input Format
+    // Write solution here
 }
 
-const rawData: string[] = fs.readFileSync(0, 'utf-8').trim().split('\\n');
-console.log(solveTS(rawData));
-`,
-  };
+main();`,
+  typescript: `import * as fs from "fs";
+
+function main() {
+    const input = fs.readFileSync(0, "utf-8").trim();
+    if (!input) return;
+    // Read input according to the Input Format
+    // Write solution here
 }
 
-function getProblemTestCases(slug: string, cleanTitle: string, topic: string) {
-  const dictionary: Record<string, { visible: any[]; hidden: any[] }> = {
-    'maximum-subarray': {
-      visible: [
-        { id: 'sample-1', classification: 'sample', input: 'nums = [-2,1,-3,4,-1,2,1,-5,4]', expectedOutput: '6', explanation: 'Subarray [4,-1,2,1] has the largest sum = 6.' },
-        { id: 'sample-2', classification: 'sample', input: 'nums = [1]', expectedOutput: '1', explanation: 'Subarray [1] has largest sum = 1.' },
-        { id: 'sample-3', classification: 'sample', input: 'nums = [5,4,-1,7,8]', expectedOutput: '23', explanation: 'Subarray [5,4,-1,7,8] has largest sum = 23.' },
-      ],
-      hidden: [
-        { id: 'edge-1', classification: 'edge', input: 'nums = [-1]', expectedOutput: '-1', explanation: 'Single negative number' },
-        { id: 'corner-2', classification: 'corner', input: 'nums = [-5,-2,-3,-1,-4]', expectedOutput: '-1', explanation: 'All negative numbers' },
-        { id: 'stress-3', classification: 'stress', input: 'nums = [1000, 2000, 3000]', expectedOutput: '6000', explanation: 'Large values' },
-        { id: 'duplicates-4', classification: 'duplicates', input: 'nums = [0,0,0,0]', expectedOutput: '0', explanation: 'Zero array' },
-        { id: 'performance-5', classification: 'performance', input: 'nums = [1..10000]', expectedOutput: '50005000', explanation: 'Large array performance' },
-      ],
-    },
-    'product-of-array-except-self': {
-      visible: [
-        { id: 'sample-1', classification: 'sample', input: 'nums = [1,2,3,4]', expectedOutput: '[24,12,8,6]', explanation: 'Product except self for [1,2,3,4]' },
-        { id: 'sample-2', classification: 'sample', input: 'nums = [-1,1,0,-3,3]', expectedOutput: '[0,0,9,0,0]', explanation: 'Contains zero' },
-        { id: 'sample-3', classification: 'sample', input: 'nums = [2,3,4,5]', expectedOutput: '[60,40,30,24]', explanation: 'All positive elements' },
-      ],
-      hidden: [
-        { id: 'edge-1', classification: 'edge', input: 'nums = [0,0]', expectedOutput: '[0,0]', explanation: 'Multiple zeros' },
-        { id: 'corner-2', classification: 'corner', input: 'nums = [1,-1]', expectedOutput: '[-1,1]', explanation: 'Two elements' },
-        { id: 'stress-3', classification: 'stress', input: 'nums = [2,2,2,2,2]', expectedOutput: '[16,16,16,16,16]', explanation: 'Identical elements' },
-        { id: 'duplicates-4', classification: 'duplicates', input: 'nums = [-2,-2,-2]', expectedOutput: '[4,4,4]', explanation: 'Negative duplicates' },
-        { id: 'performance-5', classification: 'performance', input: 'nums = [1..1000]', expectedOutput: '...', explanation: 'Stress test' },
-      ],
-    },
-    'max-consecutive-ones': {
-      visible: [
-        { id: 'sample-1', classification: 'sample', input: 'nums = [1,1,0,1,1,1]', expectedOutput: '3', explanation: 'First two and last three are 1s, max is 3.' },
-        { id: 'sample-2', classification: 'sample', input: 'nums = [1,0,1,1,0,1]', expectedOutput: '2', explanation: 'Max consecutive 1s is 2.' },
-        { id: 'sample-3', classification: 'sample', input: 'nums = [0,0,0]', expectedOutput: '0', explanation: 'No 1s in array.' },
-      ],
-      hidden: [
-        { id: 'edge-1', classification: 'edge', input: 'nums = [1]', expectedOutput: '1', explanation: 'Single one' },
-        { id: 'corner-2', classification: 'corner', input: 'nums = [0]', expectedOutput: '0', explanation: 'Single zero' },
-        { id: 'stress-3', classification: 'stress', input: 'nums = [1,1,1,1,1]', expectedOutput: '5', explanation: 'All ones' },
-        { id: 'duplicates-4', classification: 'duplicates', input: 'nums = [1,0,1,0,1]', expectedOutput: '1', explanation: 'Alternating ones and zeros' },
-        { id: 'performance-5', classification: 'performance', input: 'nums = [1..10000 ones]', expectedOutput: '10000', explanation: 'Large sequence' },
-      ],
-    },
-    'valid-anagram': {
-      visible: [
-        { id: 'sample-1', classification: 'sample', input: 's = "anagram", t = "nagaram"', expectedOutput: 'true', explanation: 'Both strings have identical character counts.' },
-        { id: 'sample-2', classification: 'sample', input: 's = "rat", t = "car"', expectedOutput: 'false', explanation: 'Character frequencies do not match.' },
-        { id: 'sample-3', classification: 'sample', input: 's = "a", t = "a"', expectedOutput: 'true', explanation: 'Single matching character.' },
-      ],
-      hidden: [
-        { id: 'edge-1', classification: 'edge', input: 's = "a", t = "b"', expectedOutput: 'false', explanation: 'Single different character' },
-        { id: 'corner-2', classification: 'corner', input: 's = "ab", t = "a"', expectedOutput: 'false', explanation: 'Different string lengths' },
-        { id: 'stress-3', classification: 'stress', input: 's = "a"*50000, t = "a"*50000', expectedOutput: 'true', explanation: 'Long strings' },
-        { id: 'duplicates-4', classification: 'duplicates', input: 's = "listen", t = "silent"', expectedOutput: 'true', explanation: 'Classic anagram' },
-        { id: 'performance-5', classification: 'performance', input: 's = "abcde", t = "edcba"', expectedOutput: 'true', explanation: 'Reversed string' },
-      ],
-    },
-    'two-sum': {
-      visible: [
-        { id: 'sample-1', classification: 'sample', input: 'nums = [2,7,11,15], target = 9', expectedOutput: '[0,1]', explanation: 'nums[0] + nums[1] == 9, return [0,1].' },
-        { id: 'sample-2', classification: 'sample', input: 'nums = [3,2,4], target = 6', expectedOutput: '[1,2]', explanation: 'nums[1] + nums[2] == 6, return [1,2].' },
-        { id: 'sample-3', classification: 'sample', input: 'nums = [3,3], target = 6', expectedOutput: '[0,1]', explanation: 'nums[0] + nums[1] == 6, return [0,1].' },
-      ],
-      hidden: [
-        { id: 'edge-1', classification: 'edge', input: 'nums = [-1,-2,-3,-4,-5], target = -8', expectedOutput: '[2,4]', explanation: 'Negative numbers' },
-        { id: 'corner-2', classification: 'corner', input: 'nums = [0,4,3,0], target = 0', expectedOutput: '[0,3]', explanation: 'Zeros in array' },
-        { id: 'stress-3', classification: 'stress', input: 'nums = [1000000,500000,500000], target = 1000000', expectedOutput: '[1,2]', explanation: 'Large values' },
-        { id: 'duplicates-4', classification: 'duplicates', input: 'nums = [5,5], target = 10', expectedOutput: '[0,1]', explanation: 'Duplicate target pair' },
-        { id: 'performance-5', classification: 'performance', input: 'nums = [1..10000], target = 19999', expectedOutput: '[9998,9999]', explanation: 'Large array search' },
-      ],
-    },
-    'binary-search': {
-      visible: [
-        { id: 'sample-1', classification: 'sample', input: 'nums = [-1,0,3,5,9,12], target = 9', expectedOutput: '4', explanation: 'Target 9 exists at index 4.' },
-        { id: 'sample-2', classification: 'sample', input: 'nums = [-1,0,3,5,9,12], target = 2', expectedOutput: '-1', explanation: 'Target 2 does not exist in nums.' },
-        { id: 'sample-3', classification: 'sample', input: 'nums = [5], target = 5', expectedOutput: '0', explanation: 'Single element match.' },
-      ],
-      hidden: [
-        { id: 'edge-1', classification: 'edge', input: 'nums = [5], target = -5', expectedOutput: '-1', explanation: 'Target outside single element array' },
-        { id: 'corner-2', classification: 'corner', input: 'nums = [2,5], target = 5', expectedOutput: '1', explanation: 'Match at right endpoint' },
-        { id: 'stress-3', classification: 'stress', input: 'nums = [-10,-5,0,5,10,15,20], target = -10', expectedOutput: '0', explanation: 'Match at left endpoint' },
-        { id: 'duplicates-4', classification: 'duplicates', input: 'nums = [1,3,5,7,9,11], target = 7', expectedOutput: '3', explanation: 'Middle element match' },
-        { id: 'performance-5', classification: 'performance', input: 'nums = [1..100000], target = 99999', expectedOutput: '99998', explanation: 'Large array logarithmic search' },
-      ],
-    },
-  };
-
-  if (dictionary[slug]) {
-    return dictionary[slug];
-  }
-
-  const isString = topic === 'strings' || slug.includes('string') || slug.includes('word') || slug.includes('anagram') || slug.includes('palindrome');
-  const isTree = topic === 'tree' || topic === 'bst' || slug.includes('tree') || slug.includes('bst');
-  const isList = topic === 'linked-list' || slug.includes('linked-list') || slug.includes('node');
-
-  if (isString) {
-    return {
-      visible: [
-        { id: 'sample-1', classification: 'sample', input: `s = "babad"`, expectedOutput: '"bab"', explanation: `Sample test 1 for ${cleanTitle}` },
-        { id: 'sample-2', classification: 'sample', input: `s = "cbbd"`, expectedOutput: '"bb"', explanation: `Sample test 2 for ${cleanTitle}` },
-        { id: 'sample-3', classification: 'sample', input: `s = "a"`, expectedOutput: '"a"', explanation: `Sample test 3 for ${cleanTitle}` },
-      ],
-      hidden: [
-        { id: 'edge-1', classification: 'edge', input: 's = ""', expectedOutput: '""', explanation: 'Empty string boundary' },
-        { id: 'corner-2', classification: 'corner', input: 's = "aaaaa"', expectedOutput: '"aaaaa"', explanation: 'All identical characters' },
-        { id: 'stress-3', classification: 'stress', input: 's = "abcdefghijklmnopqrstuvwxyz"', expectedOutput: '1', explanation: 'All distinct characters' },
-        { id: 'duplicates-4', classification: 'duplicates', input: 's = "abacaba"', expectedOutput: '"abacaba"', explanation: 'Symmetric palindrome string' },
-        { id: 'performance-5', classification: 'performance', input: 's = "a"*1000', expectedOutput: '...', explanation: 'Performance test' },
-      ],
-    };
-  }
-
-  if (isTree) {
-    return {
-      visible: [
-        { id: 'sample-1', classification: 'sample', input: 'root = [4,2,7,1,3,6,9]', expectedOutput: '[4,7,2,9,6,3,1]', explanation: `Sample test 1 for ${cleanTitle}` },
-        { id: 'sample-2', classification: 'sample', input: 'root = [2,1,3]', expectedOutput: '[2,3,1]', explanation: `Sample test 2 for ${cleanTitle}` },
-        { id: 'sample-3', classification: 'sample', input: 'root = []', expectedOutput: '[]', explanation: 'Empty tree' },
-      ],
-      hidden: [
-        { id: 'edge-1', classification: 'edge', input: 'root = [1]', expectedOutput: '[1]', explanation: 'Single root node' },
-        { id: 'corner-2', classification: 'corner', input: 'root = [1,2,null,3]', expectedOutput: '...', explanation: 'Skewed tree' },
-        { id: 'stress-3', classification: 'stress', input: 'root = [1..100]', expectedOutput: '...', explanation: 'Deep tree' },
-        { id: 'duplicates-4', classification: 'duplicates', input: 'root = [1,1,1]', expectedOutput: '[1,1,1]', explanation: 'Duplicate values' },
-        { id: 'performance-5', classification: 'performance', input: 'root = [1..1000]', expectedOutput: '...', explanation: 'Performance test' },
-      ],
-    };
-  }
-
-  if (isList) {
-    return {
-      visible: [
-        { id: 'sample-1', classification: 'sample', input: 'head = [1,2,3,4,5]', expectedOutput: '[5,4,3,2,1]', explanation: `Sample test 1 for ${cleanTitle}` },
-        { id: 'sample-2', classification: 'sample', input: 'head = [1,2]', expectedOutput: '[2,1]', explanation: `Sample test 2 for ${cleanTitle}` },
-        { id: 'sample-3', classification: 'sample', input: 'head = []', expectedOutput: '[]', explanation: 'Empty linked list' },
-      ],
-      hidden: [
-        { id: 'edge-1', classification: 'edge', input: 'head = [1]', expectedOutput: '[1]', explanation: 'Single node' },
-        { id: 'corner-2', classification: 'corner', input: 'head = [1,1,1,1]', expectedOutput: '[1,1,1,1]', explanation: 'Duplicate node values' },
-        { id: 'stress-3', classification: 'stress', input: 'head = [1..1000]', expectedOutput: '...', explanation: 'Long list' },
-        { id: 'duplicates-4', classification: 'duplicates', input: 'head = [-1,0,1]', expectedOutput: '[1,0,-1]', explanation: 'Negative values' },
-        { id: 'performance-5', classification: 'performance', input: 'head = [1..5000]', expectedOutput: '...', explanation: 'Performance test' },
-      ],
-    };
-  }
-
-  return {
-    visible: [
-      { id: 'sample-1', classification: 'sample', input: `nums = [1, 2, 3, 4, 5]`, expectedOutput: '15', explanation: `Sample test 1 for ${cleanTitle}` },
-      { id: 'sample-2', classification: 'sample', input: `nums = [10, 20, 30]`, expectedOutput: '60', explanation: `Sample test 2 for ${cleanTitle}` },
-      { id: 'sample-3', classification: 'sample', input: `nums = [0]`, expectedOutput: '0', explanation: `Sample test 3 for ${cleanTitle}` },
-    ],
-    hidden: [
-      { id: 'edge-1', classification: 'edge', input: 'nums = []', expectedOutput: '0', explanation: 'Empty array boundary' },
-      { id: 'corner-2', classification: 'corner', input: 'nums = [-10, -20]', expectedOutput: '-30', explanation: 'Negative numbers' },
-      { id: 'stress-3', classification: 'stress', input: 'nums = [1000, 2000, 3000]', expectedOutput: '6000', explanation: 'Large inputs' },
-      { id: 'duplicates-4', classification: 'duplicates', input: 'nums = [5, 5, 5, 5]', expectedOutput: '20', explanation: 'Duplicate values' },
-      { id: 'performance-5', classification: 'performance', input: 'nums = [1..10000]', expectedOutput: '...', explanation: 'Performance stress test' },
-    ],
-  };
-}
+main();`,
+};
 
 interface TopicCorrection {
   problemTitle: string;
@@ -352,24 +191,24 @@ interface TopicCorrection {
   confidence: number;
 }
 
-export function runMasterSheetPipeline() {
+export function runMasterSheetPipeline(sampleOnlyCount?: number) {
   console.log(`=============================================================`);
-  console.log(`🚀 PrepGenie DSA Master Sheet Import Pipeline (Schema v2.0)`);
+  console.log(`🚀 PrepGenie DSA Master Sheet Import Pipeline (DSA V1)`);
   console.log(`=============================================================`);
 
   // -------------------------------------------------------------------------
-  // PHASE 1: Read Excel
+  // PHASE 1: Read Converted Excel Sheet
   // -------------------------------------------------------------------------
   const excelCandidates = [
-    path.join(process.cwd(), 'DSA_Master_Sheet_64_Columns_Final_Solutions.xlsx'),
-    path.join(process.cwd(), '..', 'DSA_Master_Sheet_64_Columns_Final_Solutions.xlsx'),
-    path.join(process.cwd(), 'DSA_Master_Sheet_54_Columns.xlsx'),
-    path.join(process.cwd(), '..', 'DSA_Master_Sheet_54_Columns.xlsx'),
+    path.join(process.cwd(), 'DSA_Master_Sheet_Stdin_Converted.xlsx'),
+    path.join(process.cwd(), '..', 'DSA_Master_Sheet_Stdin_Converted.xlsx'),
+    path.join(process.cwd(), 'DSA_Master_Sheet_Repaired_Test_Cases.xlsx'),
+    path.join(process.cwd(), '..', 'DSA_Master_Sheet_Repaired_Test_Cases.xlsx'),
   ];
   const excelPath = excelCandidates.find((p) => fs.existsSync(p));
 
   if (!excelPath) {
-    console.error(`❌ Error: DSA_Master_Sheet_54_Columns.xlsx not found.`);
+    console.error(`❌ Error: Master Excel sheet (DSA_Master_Sheet_Stdin_Converted.xlsx) not found.`);
     return;
   }
 
@@ -385,18 +224,14 @@ export function runMasterSheetPipeline() {
   // Data directories setup
   const dataDir = findDataDir();
   const problemsDir = path.join(dataDir, 'problems');
-  const registriesDir = path.join(dataDir, 'registries');
-
   if (!fs.existsSync(problemsDir)) fs.mkdirSync(problemsDir, { recursive: true });
-  if (!fs.existsSync(registriesDir)) fs.mkdirSync(registriesDir, { recursive: true });
 
   // -------------------------------------------------------------------------
-  // PHASE 2 & 3: Topic Misclassification Resolver (Detect -> Log -> Confirm -> Apply)
+  // PHASE 2: Topic Misclassification Analysis & Resolution
   // -------------------------------------------------------------------------
-  console.log(`\n[Phase 2 & 3] Analyzing & Correcting Topic Misclassifications...`);
+  console.log(`\n[Phase 2] Analyzing & Resolving Primary vs Secondary Topics...`);
 
   const topicCorrections: TopicCorrection[] = [];
-
   const processedProblems: Array<{
     row: RawExcelRow;
     slug: string;
@@ -412,6 +247,10 @@ export function runMasterSheetPipeline() {
     if (!slug || slug.length < 2) {
       slug = slugify(rawTitle.replace(/\s*\([^)]*\)/g, ''));
     }
+    // Handle specific design duplicates in Excel
+    if (rawTitle.toLowerCase().includes('(design)') && (slug === 'lru-cache' || slug === 'min-stack')) {
+      slug = `${slug}-design`;
+    }
 
     const originalTopic = String(row['Primary Topic'] || 'Arrays').trim();
     const pattern = String(row['Pattern'] || '').trim();
@@ -419,41 +258,51 @@ export function runMasterSheetPipeline() {
     const patternLower = pattern.toLowerCase();
 
     let primaryTopic = slugify(originalTopic);
-    let secondaryTopics = (String(row['Secondary Topics'] || '')).split(',').map((s) => slugify(s.trim())).filter(Boolean);
+    let secondaryTopics = String(row['Secondary Topics'] || '')
+      .split(',')
+      .map((s) => slugify(s.trim()))
+      .filter(Boolean);
+
     let corrected = false;
     let reason = '';
     let confidence = 0;
     let suggestedTopic = primaryTopic;
 
-    // Explicit Rule 1: Largest Rectangle in Histogram
+    // Rule 1: Largest Rectangle in Histogram -> Primary: stack
     if (titleLower.includes('largest rectangle in histogram') || slug.includes('largest-rectangle-in-histogram')) {
       if (primaryTopic !== 'stack') {
         suggestedTopic = 'stack';
-        reason = 'Problem uses Monotonic Stack for boundary calculations, not Strings/Arrays';
+        if (!secondaryTopics.includes('arrays')) secondaryTopics.push('arrays');
+        if (!secondaryTopics.includes('monotonic-stack')) secondaryTopics.push('monotonic-stack');
+        reason = 'Problem uses Monotonic Stack for optimal boundary calculation';
         confidence = 0.98;
         corrected = true;
       }
     }
-    // Explicit Rule 2: Word Search
+    // Rule 2: Word Search -> Primary: backtracking
     else if (titleLower.includes('word search') || slug.includes('word-search')) {
       if (primaryTopic !== 'backtracking') {
         suggestedTopic = 'backtracking';
-        if (!secondaryTopics.includes('dfs') && !secondaryTopics.includes('graphs')) {
-          secondaryTopics.push('dfs');
-        }
-        reason = 'Grid traversal requires backtracking and DFS state reversal, not plain Arrays';
+        if (!secondaryTopics.includes('dfs')) secondaryTopics.push('dfs');
+        if (!secondaryTopics.includes('matrix')) secondaryTopics.push('matrix');
+        reason = 'Grid word search requires backtracking with DFS state reversal';
         confidence = 0.95;
         corrected = true;
       }
     }
-    // Explicit Rule 3: Best Time to Buy and Sell Stock I
-    else if (titleLower.includes('best time to buy and sell stock') && !titleLower.includes('ii') && !titleLower.includes('iii') && !titleLower.includes('iv')) {
+    // Rule 3: Best Time to Buy and Sell Stock I -> Primary: greedy
+    else if (
+      titleLower.includes('best time to buy and sell stock') &&
+      !titleLower.includes('ii') &&
+      !titleLower.includes('iii') &&
+      !titleLower.includes('iv') &&
+      !titleLower.includes('cooldown') &&
+      !titleLower.includes('transaction fee')
+    ) {
       if (primaryTopic !== 'greedy') {
         suggestedTopic = 'greedy';
-        if (!secondaryTopics.includes('dynamic-programming')) {
-          secondaryTopics.push('dynamic-programming');
-        }
-        reason = 'Single pass min-price tracking is Greedy O(N). DP is secondary approach';
+        if (!secondaryTopics.includes('dynamic-programming')) secondaryTopics.push('dynamic-programming');
+        reason = 'Single-pass min-price tracking is Greedy O(N). DP is secondary representation';
         confidence = 0.95;
         corrected = true;
       }
@@ -469,7 +318,7 @@ export function runMasterSheetPipeline() {
     } else if (patternLower.includes('kadane') || patternLower.includes('sliding window')) {
       if (primaryTopic === 'strings' && (titleLower.includes('subarray') || titleLower.includes('sum'))) {
         suggestedTopic = 'arrays';
-        reason = 'Subarray numeric problems belong to Arrays';
+        reason = 'Subarray numeric operations belong to Arrays';
         confidence = 0.90;
         corrected = true;
       }
@@ -498,92 +347,26 @@ export function runMasterSheetPipeline() {
     });
   }
 
-  console.log(`✓ Topic Correction Analysis Complete: ${topicCorrections.length} misclassifications corrected.`);
-  topicCorrections.forEach((c) => {
-    console.log(`  • ${c.problemTitle} [${c.slug}]: ${c.excelTopic} ➔ ${c.suggestedTopic} (${c.reason})`);
-  });
-
-  // Save Topic Correction Report
-  fs.writeFileSync(
-    path.join(dataDir, 'topic-corrections-report.json'),
-    JSON.stringify(topicCorrections, null, 2),
-    'utf-8'
-  );
+  console.log(`✓ Topic Analysis Complete: ${topicCorrections.length} refinements applied.`);
 
   // -------------------------------------------------------------------------
-  // PHASE 4: Registries Population
+  // PHASE 3: Import Problems, Test Cases, Reference Solutions & Dynamic Guides
   // -------------------------------------------------------------------------
-  console.log(`\n[Phase 4] Building Normalized Registries...`);
+  const problemsToProcess = sampleOnlyCount ? processedProblems.slice(0, sampleOnlyCount) : processedProblems;
+  console.log(`\n[Phase 3] Processing & Importing ${problemsToProcess.length} Problems...`);
 
-  const topicsMap = new Map<string, { id: string; name: string; slug: string; description: string }>();
-  const companiesMap = new Map<string, { id: string; name: string; slug: string }>();
-  const patternsMap = new Map<string, { id: string; name: string; slug: string }>();
-  const techniquesMap = new Map<string, { id: string; name: string; slug: string }>();
-  const learningPathsMap = new Map<string, { id: string; title: string; slug: string }>();
+  const masterSlugs = new Set<string>();
+  let importedCount = 0;
+  let v1ReadyCount = 0;
+  let v2PendingCount = 0;
+  let totalVisibleDedup = 0;
+  let totalHiddenDedup = 0;
 
-  for (const item of processedProblems) {
-    const row = item.row;
-    const topSlug = item.primaryTopic;
-    if (!topicsMap.has(topSlug)) {
-      topicsMap.set(topSlug, {
-        id: topSlug,
-        name: String(row['Primary Topic'] || topSlug).trim(),
-        slug: topSlug,
-        description: `Comprehensive problem set covering ${row['Primary Topic'] || topSlug} algorithmic patterns and concepts.`,
-      });
-    }
-
-    // Companies
-    const comps = String(row['Companies'] || '').split(',').map((c) => c.trim()).filter(Boolean);
-    for (const c of comps) {
-      const cSlug = slugify(c);
-      if (cSlug && !companiesMap.has(cSlug)) {
-        companiesMap.set(cSlug, { id: cSlug, name: c, slug: cSlug });
-      }
-    }
-
-    // Pattern
-    if (item.pattern) {
-      const pSlug = slugify(item.pattern);
-      if (pSlug && !patternsMap.has(pSlug)) {
-        patternsMap.set(pSlug, { id: pSlug, name: item.pattern, slug: pSlug });
-      }
-    }
-
-    // Technique
-    if (item.technique) {
-      const techSlug = slugify(item.technique);
-      if (techSlug && !techniquesMap.has(techSlug)) {
-        techniquesMap.set(techSlug, { id: techSlug, name: item.technique, slug: techSlug });
-      }
-    }
-
-    // Learning Path
-    const lp = String(row['Learning Path'] || 'Core DSA Track').trim();
-    const lpSlug = slugify(lp);
-    if (!learningPathsMap.has(lpSlug)) {
-      learningPathsMap.set(lpSlug, { id: lpSlug, title: lp, slug: lpSlug });
-    }
-  }
-
-  fs.writeFileSync(path.join(registriesDir, 'topics.json'), JSON.stringify(Array.from(topicsMap.values()), null, 2), 'utf-8');
-  fs.writeFileSync(path.join(registriesDir, 'companies.json'), JSON.stringify(Array.from(companiesMap.values()), null, 2), 'utf-8');
-  fs.writeFileSync(path.join(registriesDir, 'patterns.json'), JSON.stringify(Array.from(patternsMap.values()), null, 2), 'utf-8');
-  fs.writeFileSync(path.join(registriesDir, 'techniques.json'), JSON.stringify(Array.from(techniquesMap.values()), null, 2), 'utf-8');
-  fs.writeFileSync(path.join(registriesDir, 'learningPaths.json'), JSON.stringify(Array.from(learningPathsMap.values()), null, 2), 'utf-8');
-
-  console.log(`✓ Registries populated: ${topicsMap.size} Topics, ${companiesMap.size} Companies, ${patternsMap.size} Patterns, ${techniquesMap.size} Techniques.`);
-
-  // -------------------------------------------------------------------------
-  // PHASE 5: Metadata Generation (problem.json, tests.json, editorial.md, hints.md, reference.ts)
-  // -------------------------------------------------------------------------
-  console.log(`\n[Phase 5] Generating Metadata Files for 174 Problems...`);
-
-  let generatedCount = 0;
-
-  for (const item of processedProblems) {
+  for (const item of problemsToProcess) {
     const row = item.row;
     const slug = item.slug;
+    masterSlugs.add(slug);
+
     const folderPath = path.join(problemsDir, slug);
     if (!fs.existsSync(folderPath)) {
       fs.mkdirSync(folderPath, { recursive: true });
@@ -599,6 +382,18 @@ export function runMasterSheetPipeline() {
       ? 'HARD'
       : 'MEDIUM';
 
+    // Status: OK vs REVIEW
+    const stdinStatus = String(row['Stdin Conversion Status'] || 'OK').trim();
+    const isV2Pending = stdinStatus === 'REVIEW';
+    const executionStatus = isV2Pending ? 'V2_PENDING' : 'V1_READY';
+    const stdinFormatNotes = String(row['Stdin Format Notes'] || '').trim();
+
+    if (isV2Pending) {
+      v2PendingCount++;
+    } else {
+      v1ReadyCount++;
+    }
+
     // Parse resource links
     const resources: ResourceLink[] = [];
     const lcLink = String(row['LeetCode Link'] || '').trim();
@@ -610,7 +405,7 @@ export function runMasterSheetPipeline() {
       resources.push({ type: 'gfg', url: gfgLink });
     }
 
-    // Leetcode number
+    // Leetcode number if any
     let leetcodeNumber: number | undefined;
     if (lcLink) {
       const match = lcLink.match(/\/problems\/[^\/]+\/?(\d+)?/);
@@ -618,80 +413,169 @@ export function runMasterSheetPipeline() {
     }
 
     // Data structures & tags
-    const dsList = String(row['Data Structures Used'] || '').split(',').map((s) => s.trim()).filter(Boolean);
-    const tagList = String(row['Tags'] || '').split(',').map((s) => s.trim()).filter(Boolean);
-    const companyList = String(row['Companies'] || '').split(',').map((s) => s.trim()).filter(Boolean);
+    const dsList = String(row['Data Structures Used'] || '')
+      .split(',')
+      .map((s) => s.trim())
+      .filter(Boolean);
+    const tagList = String(row['Tags'] || '')
+      .split(',')
+      .map((s) => s.trim())
+      .filter(Boolean);
+    const companyList = String(row['Companies'] || '')
+      .split(',')
+      .map((s) => s.trim())
+      .filter(Boolean);
+    const keywords = Array.from(
+      new Set([...dsList, ...tagList, item.primaryTopic, item.pattern, item.technique])
+    ).filter(Boolean);
 
-    // Keywords
-    const keywords = Array.from(new Set([...dsList, ...tagList, item.primaryTopic, item.pattern, item.technique])).filter(Boolean);
+    // ─────────────────────────────────────────────────────────────────────────
+    // Extract Test Cases Directly from Converted Excel (Visible 1..3, Hidden 1..5)
+    // ─────────────────────────────────────────────────────────────────────────
+    const excelVisibleTests: TestCaseSpec[] = [];
+    for (let i = 1; i <= 3; i++) {
+      const stdinVal = row[`Visible Stdin Input ${i}` as keyof RawExcelRow];
+      const rawInVal = row[`Visible Input ${i}` as keyof RawExcelRow];
+      const inVal = stdinVal !== undefined && stdinVal !== null && String(stdinVal).trim().length > 0
+        ? stdinVal
+        : rawInVal;
+      const outVal = row[`Visible Output ${i}` as keyof RawExcelRow];
+      const expVal = row[`Visible Explanation ${i}` as keyof RawExcelRow];
 
-    // Domain-Specific Test Cases & PDF 5-Language Driver Templates
-    const curatedTests = getProblemTestCases(slug, cleanTitle, item.primaryTopic);
-    const rawVisibleTests = curatedTests.visible.map((tc) => ({
-      ...tc,
-      input: normalizeTestInput(tc.input),
-    }));
-    const rawHiddenTests = curatedTests.hidden.map((tc) => ({
-      ...tc,
-      input: normalizeTestInput(tc.input),
-    }));
-
-    // Deduplicate Visible & Hidden Test Cases (Preserving Excel / Curated order)
-    const visDedup = deduplicateTestCases(rawVisibleTests);
-    const hidDedup = deduplicateTestCases(rawHiddenTests);
-    const visibleTests = visDedup.uniqueTests;
-    const hiddenTests = hidDedup.uniqueTests;
-
-    if (visDedup.removedCount > 0 || hidDedup.removedCount > 0) {
-      console.log(`  [Deduplication] ${cleanTitle} (${slug}): Removed ${visDedup.removedCount} duplicate visible, ${hidDedup.removedCount} duplicate hidden test cases.`);
+      if (inVal !== undefined && inVal !== null && String(inVal).trim().length > 0) {
+        const testCase = serializeV1TestCase(
+          String(inVal).trim(),
+          outVal !== undefined && outVal !== null ? String(outVal).trim() : '',
+          `sample-${i}`,
+          'sample',
+          expVal ? String(expVal).trim() : `Sample test ${i} for ${cleanTitle}`
+        );
+        if (rawInVal) testCase.displayInput = String(rawInVal).trim();
+        if (isV2Pending) testCase.serializationStatus = 'manual_required';
+        excelVisibleTests.push(testCase);
+      }
     }
 
-    const qNo = typeof row['Question No.'] === 'number' ? row['Question No.'] : parseInt(String(row['Question No.'] || '0'), 10);
-    const pdfInputTemplates = generatePDFInputTemplates(qNo, cleanTitle, item.primaryTopic);
+    const excelHiddenTests: TestCaseSpec[] = [];
+    for (let i = 1; i <= 5; i++) {
+      const stdinVal = row[`Hidden Stdin Input ${i}` as keyof RawExcelRow];
+      const rawInVal = row[`Hidden Input ${i}` as keyof RawExcelRow];
+      const inVal = stdinVal !== undefined && stdinVal !== null && String(stdinVal).trim().length > 0
+        ? stdinVal
+        : rawInVal;
+      const outVal = row[`Hidden Output ${i}` as keyof RawExcelRow];
+      const purpVal = row[`Hidden Test Purpose ${i}` as keyof RawExcelRow];
 
-    // Starter code dictionary from Excel or default generators
-    const starterCode: Record<string, string> = {
-      cpp: String(row['C++ Starter Code'] || '').trim() || pdfInputTemplates.cpp,
-      python: String(row['Python Starter Code'] || '').trim() || pdfInputTemplates.python,
-      java: String(row['Java Starter Code'] || '').trim() || pdfInputTemplates.java,
-      javascript: String(row['JS Starter Code'] || '').trim() || pdfInputTemplates.javascript,
-      typescript: String(row['TS Starter Code'] || '').trim() || pdfInputTemplates.typescript,
-    };
+      if (inVal !== undefined && inVal !== null && String(inVal).trim().length > 0) {
+        const testCase = serializeV1TestCase(
+          String(inVal).trim(),
+          outVal !== undefined && outVal !== null ? String(outVal).trim() : '',
+          `hidden-${i}`,
+          'hidden',
+          purpVal ? String(purpVal).trim() : `Hidden test ${i} for ${cleanTitle}`
+        );
+        if (rawInVal) testCase.displayInput = String(rawInVal).trim();
+        if (isV2Pending) testCase.serializationStatus = 'manual_required';
+        excelHiddenTests.push(testCase);
+      }
+    }
 
-    // Reference solutions dictionary directly from Excel columns
+    // Deduplicate Visible tests first
+    const visDedup = deduplicateTestCases(excelVisibleTests);
+    const visibleTests = visDedup.uniqueTests;
+
+    // Deduplicate Hidden tests against visible tests and prior hidden tests
+    const seenTestKeys = new Set(visibleTests.map((t) => `${normalizeTestInput(t.input || '').trim()}::${(t.expectedOutput || '').trim()}`));
+    const hiddenTests: TestCaseSpec[] = [];
+    let hidRemovedCount = 0;
+
+    for (const ht of excelHiddenTests) {
+      const key = `${normalizeTestInput(ht.input || '').trim()}::${(ht.expectedOutput || '').trim()}`;
+      if (seenTestKeys.has(key)) {
+        hidRemovedCount++;
+      } else {
+        seenTestKeys.add(key);
+        hiddenTests.push(ht);
+      }
+    }
+
+    if (visDedup.removedCount > 0 || hidRemovedCount > 0) {
+      totalVisibleDedup += visDedup.removedCount;
+      totalHiddenDedup += hidRemovedCount;
+      console.log(
+        `  [Deduplication] ${slug}: Removed ${visDedup.removedCount} duplicate visible, ${hidRemovedCount} duplicate hidden test cases.`
+      );
+    }
+
+    // ─────────────────────────────────────────────────────────────────────────
+    // Reference Solutions: Verbatim Source of Truth from Excel Columns
+    // ─────────────────────────────────────────────────────────────────────────
     const cppSol = String(row['C++ Complete Solution'] || '').trim();
     const pySol = String(row['Python Complete Solution'] || '').trim();
     const javaSol = String(row['Java Complete Solution'] || '').trim();
     const jsSol = String(row['JS Complete Solution'] || '').trim();
     const tsSol = String(row['TS Complete Solution'] || '').trim();
 
+    const solutionsDir = path.join(folderPath, 'solutions');
+    if (!fs.existsSync(solutionsDir)) fs.mkdirSync(solutionsDir, { recursive: true });
+
     const referenceSolutions: Record<string, string> = {
-      cpp: cppSol || `// Reference solution for ${cleanTitle} (C++)\n// Pattern: ${item.pattern}\nint main() { return 0; }`,
-      python: pySol || `# Reference solution for ${cleanTitle} (Python)\n# Pattern: ${item.pattern}\ndef solution(): pass`,
-      java: javaSol || `// Reference solution for ${cleanTitle} (Java)\npublic class Solution {}`,
-      javascript: jsSol || `// Reference solution for ${cleanTitle} (JavaScript)\nfunction solve() {}`,
-      typescript: tsSol || `// Reference solution for ${cleanTitle} (TypeScript)\nfunction solve(): void {}`,
+      cpp: cppSol,
+      python: pySol,
+      java: javaSol,
+      javascript: jsSol,
+      typescript: tsSol,
     };
 
-    // Structured Input Helper Metadata
-    const inputHelper = {
-      inputFormat: `Input Format for ${cleanTitle}:\nStandard competitive programming stdin input stream.`,
-      sampleInput: visibleTests[0]?.input || 'Sample Input 1',
-      codeTemplates: pdfInputTemplates,
-    };
+    // Write solution files
+    if (referenceSolutions.cpp) fs.writeFileSync(path.join(solutionsDir, 'reference.cpp'), referenceSolutions.cpp, 'utf-8');
+    if (referenceSolutions.python) fs.writeFileSync(path.join(solutionsDir, 'reference.py'), referenceSolutions.python, 'utf-8');
+    if (referenceSolutions.java) fs.writeFileSync(path.join(solutionsDir, 'reference.java'), referenceSolutions.java, 'utf-8');
+    if (referenceSolutions.javascript) fs.writeFileSync(path.join(solutionsDir, 'reference.js'), referenceSolutions.javascript, 'utf-8');
+    if (referenceSolutions.typescript) fs.writeFileSync(path.join(solutionsDir, 'reference.ts'), referenceSolutions.typescript, 'utf-8');
 
-    // Build problem.json
-    const problemJson: DSAProblemMetadata & { inputHelper?: typeof inputHelper; referenceSolutions?: typeof referenceSolutions; starterCode?: typeof starterCode } = {
+    // ─────────────────────────────────────────────────────────────────────────
+    // Dynamic Input Guide (Problem-Specific Input Helper)
+    // ─────────────────────────────────────────────────────────────────────────
+    const sampleInputStr = visibleTests[0]?.input || (row['Visible Stdin Input 1'] ? String(row['Visible Stdin Input 1']).trim() : row['Visible Input 1'] ? String(row['Visible Input 1']).trim() : '');
+    const inputHelper = buildProblemInputHelper(
+      cleanTitle,
+      item.primaryTopic,
+      sampleInputStr,
+      dsList
+    );
+
+    // ─────────────────────────────────────────────────────────────────────────
+    // Construct problem.json
+    // ─────────────────────────────────────────────────────────────────────────
+    const problemJson: DSAProblemMetadata & {
+      inputHelper?: typeof inputHelper;
+      referenceSolutions?: typeof referenceSolutions;
+      starterCode?: typeof V1_STARTER_TEMPLATES;
+      inputFormat?: string;
+      outputFormat?: string;
+      stdinStatus?: string;
+      executionStatus?: string;
+      isV2Pending?: boolean;
+      stdinFormatNotes?: string;
+    } = {
       id: slug,
       schemaVersion: '2.0',
       contentVersion: '1.1',
-      importVersion: '64-column-sheet',
+      importVersion: 'stdin-converted-master-v1',
       lastReviewed: new Date().toISOString().split('T')[0],
       lastModified: new Date().toISOString().split('T')[0],
       author: 'PrepGenie Content Team',
-      reviewStatus: 'published',
+      reviewStatus: isV2Pending ? 'reviewed' : 'published',
+      stdinStatus,
+      executionStatus,
+      isV2Pending,
+      stdinFormatNotes,
 
-      questionNo: typeof row['Question No.'] === 'number' ? row['Question No.'] : parseInt(String(row['Question No.'] || '0'), 10),
+      questionNo:
+        typeof row['Question No.'] === 'number'
+          ? row['Question No.']
+          : parseInt(String(row['Question No.'] || '0'), 10),
       slug: slug,
       title: cleanTitle,
       difficulty: difficulty,
@@ -717,6 +601,8 @@ export function runMasterSheetPipeline() {
       learningPaths: [String(row['Learning Path'] || 'Core DSA Track').trim()],
 
       description: String(row['Description'] || `Solve ${cleanTitle} optimally.`).trim(),
+      inputFormat: inputHelper.inputFormat,
+      outputFormat: 'Standard output stream containing the computed result.',
       whyLearnThis: String(row['Why Learn This?'] || `Fundamental problem for mastering ${item.primaryTopic}.`).trim(),
       recognitionClues: String(row['Recognition Clues'] || `Look for problem patterns requiring ${item.pattern}.`).trim(),
       prerequisites: String(row['Prerequisites (Concepts)'] || 'Basic programming, Arrays, Loops').trim(),
@@ -726,12 +612,13 @@ export function runMasterSheetPipeline() {
       companies: companyList.length ? companyList : ['Amazon', 'Google', 'Microsoft'],
 
       constraints: [
-        '1 <= input.length <= 10^5',
-        '-10^9 <= input[i] <= 10^9',
+        '1 <= input length <= 10^5',
+        'Standard execution time limit: 2.0s',
+        'Standard memory limit: 256MB',
       ],
 
       examples: visibleTests.map((vt) => ({
-        input: vt.input,
+        input: vt.displayInput || vt.input,
         output: vt.expectedOutput,
         explanation: vt.explanation,
       })),
@@ -749,45 +636,17 @@ export function runMasterSheetPipeline() {
 
       approach: String(row['Approach'] || `Use ${item.pattern} with optimal time complexity ${row['Optimal TC'] || 'O(N)'}.`).trim(),
       intuition: String(row['Intuition'] || `Identify key invariants to reduce redundant calculations.`).trim(),
-      algorithm: String(row['Algorithm'] || `1. Initialize variables.\n2. Iterate through input.\n3. Return result.`).trim(),
-      pseudocode: String(row['Pseudocode'] || `// Pseudocode for ${cleanTitle}\nfunction solve(input):\n    return result`).trim(),
+      algorithm: String(row['Algorithm'] || `1. Read input from stdin.\n2. Apply ${item.pattern}.\n3. Print result to stdout.`).trim(),
+      pseudocode: String(row['Pseudocode'] || `// Solution for ${cleanTitle}\n// Read input -> Process -> Output`).trim(),
       commonMistakes: [String(row['Common Mistakes'] || 'Not handling empty inputs or boundary values.').trim()],
       edgeCases: [String(row['Edge Cases'] || 'Minimum input size, single element, negative values.').trim()],
       interviewTrick: String(row['Interview Trick'] || 'Focus on invariant preservation and spatial optimization.').trim(),
-      revisionNotes: String(row['Revision Notes'] || `Key ${item.primaryTopic} question frequently asked in top tech loops.`).trim(),
+      revisionNotes: String(row['Revision Notes'] || `Key ${item.primaryTopic} question frequently asked in technical interviews.`).trim(),
 
       resources: resources,
-      inputTemplates: pdfInputTemplates,
       inputHelper,
       referenceSolutions,
-      starterCode,
-
-      starterMetadata: {
-        functionName: slug.replace(/-([a-z])/g, (_, g) => g.toUpperCase()),
-        className: 'Solution',
-        returnType: 'int',
-        parameters: [{ name: 'nums', type: 'array<int>' }],
-        problemType: 'FUNCTION',
-      },
-
-      executionMetadata: {
-        problemType: 'FUNCTION',
-        inputType: ['array<int>'],
-        outputType: 'int',
-        comparator: 'EXACT',
-        timeLimit: 2,
-        memoryLimit: 256,
-        expectedComplexity: {
-          time: String(row['Optimal TC'] || 'O(N)').trim(),
-          space: String(row['Optimal SC'] || 'O(1)').trim(),
-        },
-      },
-
-      driverMetadata: {
-        driver: 'DEFAULT',
-        inputSerializers: ['ARRAY_INT'],
-        outputSerializer: 'INT',
-      },
+      starterCode: V1_STARTER_TEMPLATES,
 
       relationships: {
         prerequisites: [],
@@ -807,7 +666,7 @@ export function runMasterSheetPipeline() {
     const allTests = [...visibleTests, ...hiddenTests];
     fs.writeFileSync(path.join(folderPath, 'tests.json'), JSON.stringify(allTests, null, 2), 'utf-8');
 
-    // Save editorial.md (Template with Excel details)
+    // Save editorial.md
     const editorialMd = `# ${cleanTitle} — Editorial
 
 ## Overview
@@ -864,33 +723,50 @@ ${problemJson.revisionNotes}
     const hintsMd = problemJson.hints.join('\n---\n');
     fs.writeFileSync(path.join(folderPath, 'hints.md'), hintsMd, 'utf-8');
 
-    // Save solutions folder with 5 language reference files from Excel
-    const solutionsDir = path.join(folderPath, 'solutions');
-    if (!fs.existsSync(solutionsDir)) fs.mkdirSync(solutionsDir, { recursive: true });
-
-    fs.writeFileSync(path.join(solutionsDir, 'reference.cpp'), referenceSolutions.cpp, 'utf-8');
-    fs.writeFileSync(path.join(solutionsDir, 'reference.py'), referenceSolutions.python, 'utf-8');
-    fs.writeFileSync(path.join(solutionsDir, 'reference.java'), referenceSolutions.java, 'utf-8');
-    fs.writeFileSync(path.join(solutionsDir, 'reference.js'), referenceSolutions.javascript, 'utf-8');
-    fs.writeFileSync(path.join(solutionsDir, 'reference.ts'), referenceSolutions.typescript, 'utf-8');
-
-    generatedCount++;
+    importedCount++;
   }
 
-  console.log(`✓ Phase 5 complete: Generated metadata and solution files for ${generatedCount} problems.`);
+  // -------------------------------------------------------------------------
+  // PHASE 4: Clean up non-Excel problem folders
+  // -------------------------------------------------------------------------
+  if (!sampleOnlyCount) {
+    console.log(`\n[Phase 4] Reconciling problem directory with Master Excel sheet...`);
+    const existingFolders = fs.readdirSync(problemsDir).filter((f) => {
+      try {
+        return fs.statSync(path.join(problemsDir, f)).isDirectory();
+      } catch {
+        return false;
+      }
+    });
+
+    let removedExtraCount = 0;
+    for (const folder of existingFolders) {
+      if (!masterSlugs.has(folder)) {
+        const extraPath = path.join(problemsDir, folder);
+        try {
+          fs.rmSync(extraPath, { recursive: true, force: true });
+          removedExtraCount++;
+          console.log(`  • Removed obsolete non-master folder: ${folder}`);
+        } catch (err) {
+          console.warn(`  • Could not remove ${folder}: ${(err as Error).message}`);
+        }
+      }
+    }
+
+    console.log(`✓ Directory reconciliation complete: ${importedCount} master problems active (removed ${removedExtraCount} obsolete folders).`);
+  }
 
   // -------------------------------------------------------------------------
-  // PHASE 6: Static Search Index Generator (search-index.json)
+  // PHASE 5: Build derived search index cache (search-index.json)
   // -------------------------------------------------------------------------
-  console.log(`\n[Phase 6] Building Fast Static Search Index (search-index.json)...`);
-
+  console.log(`\n[Phase 5] Generating derived search index cache (search-index.json)...`);
   const searchIndexItems: any[] = [];
 
   for (const item of processedProblems) {
     const slug = item.slug;
     const jsonPath = path.join(problemsDir, slug, 'problem.json');
     if (fs.existsSync(jsonPath)) {
-      const prob: DSAProblemMetadata = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+      const prob: DSAProblemMetadata & { isV2Pending?: boolean; executionStatus?: string } = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
       searchIndexItems.push({
         slug: prob.slug,
         title: prob.title,
@@ -917,78 +793,30 @@ ${problemJson.revisionNotes}
         variants: prob.relationships?.variants || [],
         relatedProblems: prob.relationships?.related || [],
         resources: prob.resources || [],
+        executionStatus: prob.executionStatus || 'V1_READY',
+        isV2Pending: !!prob.isV2Pending,
       });
     }
   }
 
   fs.writeFileSync(path.join(dataDir, 'search-index.json'), JSON.stringify(searchIndexItems, null, 2), 'utf-8');
-  console.log(`✓ Phase 6 complete: Wrote static search index with ${searchIndexItems.length} entries to ${path.join(dataDir, 'search-index.json')}.`);
-
-  // -------------------------------------------------------------------------
-  // PHASE 7: Validation & Content Linter
-  // -------------------------------------------------------------------------
-  console.log(`\n[Phase 7] Executing Content Linter & Integrity Checks...`);
-
-  let lintErrors: string[] = [];
-  let lintWarnings: string[] = [];
-
-  for (const item of searchIndexItems) {
-    if (!item.title) lintErrors.push(`[${item.slug}] Missing title`);
-    if (!item.topic) lintErrors.push(`[${item.slug}] Missing primary topic`);
-    if (!item.difficulty) lintErrors.push(`[${item.slug}] Missing difficulty`);
-
-    // Content quality checks
-    if (!item.recognitionClues || item.recognitionClues.length < 10) {
-      lintWarnings.push(`[${item.slug}] Short or missing recognition clues`);
-    }
-    if (!item.interviewTrick) {
-      lintWarnings.push(`[${item.slug}] Missing interview trick`);
-    }
-  }
-
-  console.log(`✓ Linter Results: ${lintErrors.length} Errors, ${lintWarnings.length} Warnings.`);
-
-  // -------------------------------------------------------------------------
-  // PHASE 8: Repository Health & Analytics Report
-  // -------------------------------------------------------------------------
-  console.log(`\n[Phase 8] Generating Repository Health & Analytics Report...`);
-
-  const topicCounts: Record<string, number> = {};
-  const diffCounts: Record<string, number> = { EASY: 0, MEDIUM: 0, HARD: 0 };
-  const companyCounts: Record<string, number> = {};
-
-  for (const item of searchIndexItems) {
-    topicCounts[item.topic] = (topicCounts[item.topic] || 0) + 1;
-    diffCounts[item.difficulty] = (diffCounts[item.difficulty] || 0) + 1;
-    for (const c of item.companies) {
-      companyCounts[c] = (companyCounts[c] || 0) + 1;
-    }
-  }
-
-  const analyticsReport = {
-    generatedAt: new Date().toISOString(),
-    totalProblems: searchIndexItems.length,
-    difficultyDistribution: diffCounts,
-    topicDistribution: topicCounts,
-    companyCoverage: companyCounts,
-    topicCorrectionsCount: topicCorrections.length,
-    linterSummary: {
-      errorsCount: lintErrors.length,
-      warningsCount: lintWarnings.length,
-    },
-  };
-
-  fs.writeFileSync(path.join(dataDir, 'analytics-report.json'), JSON.stringify(analyticsReport, null, 2), 'utf-8');
 
   console.log(`=============================================================`);
-  console.log(`🎉 Master Sheet Pipeline Completed Successfully!`);
-  console.log(`  • Total Problems Imported: ${searchIndexItems.length}`);
-  console.log(`  • Topic Corrections Applied: ${topicCorrections.length}`);
-  console.log(`  • Easy: ${diffCounts.EASY} | Medium: ${diffCounts.MEDIUM} | Hard: ${diffCounts.HARD}`);
-  console.log(`  • Registries & Search Index Generated`);
+  console.log(`🎉 Master Sheet Import Pipeline Completed Successfully!`);
+  console.log(`  • Total Problems Imported: ${importedCount}`);
+  console.log(`  • V1 Ready Problems: ${v1ReadyCount}`);
+  console.log(`  • Review / V2 Pending: ${v2PendingCount}`);
+  console.log(`  • Total Visible Duplicates Removed: ${totalVisibleDedup}`);
+  console.log(`  • Total Hidden Duplicates Removed: ${totalHiddenDedup}`);
+  console.log(`  • Search Index Cached (${searchIndexItems.length} entries)`);
   console.log(`=============================================================`);
 }
 
 if (require.main === module) {
-  runMasterSheetPipeline();
+  try {
+    runMasterSheetPipeline();
+  } catch (err) {
+    console.error('Import pipeline error:', (err as Error).message);
+    process.exit(1);
+  }
 }

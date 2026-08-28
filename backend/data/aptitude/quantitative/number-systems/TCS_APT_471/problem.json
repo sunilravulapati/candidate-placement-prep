@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_471",
+  "slug": "tcs-apt-471",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "number-systems",
+  "topicName": "Number Systems",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Sum of digits of number divisible by 9: 7__4 (2-digit blank). Find blank.",
+  "description": "Sum of digits of number divisible by 9: 7__4 (2-digit blank). Find blank.",
+  "question": "Sum of digits of number divisible by 9: 7__4 (2-digit blank). Find blank.",
+  "options": [
+    "7",
+    "8",
+    "6",
+    "9"
+  ],
+  "optionsMap": {
+    "A": "7",
+    "B": "8",
+    "C": "6",
+    "D": "9"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "8",
+  "tags": [
+    "quantitative",
+    "number-systems"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

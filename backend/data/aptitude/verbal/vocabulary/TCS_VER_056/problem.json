@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_056",
+  "slug": "tcs-ver-056",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most OPPOSITE in meaning to: FEEBLE",
+  "description": "Choose the word most OPPOSITE in meaning to: FEEBLE",
+  "question": "Choose the word most OPPOSITE in meaning to: FEEBLE",
+  "options": [
+    "Strong",
+    "Weak",
+    "Frail",
+    "Fragile"
+  ],
+  "optionsMap": {
+    "A": "Strong",
+    "B": "Weak",
+    "C": "Frail",
+    "D": "Fragile"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Strong",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

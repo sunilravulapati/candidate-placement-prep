@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_476",
+  "slug": "tcs-apt-476",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "number-systems",
+  "topicName": "Number Systems",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "What is 1 + 2 + 3 + ... + 100?",
+  "description": "What is 1 + 2 + 3 + ... + 100?",
+  "question": "What is 1 + 2 + 3 + ... + 100?",
+  "options": [
+    "5050",
+    "4950",
+    "5000",
+    "5100"
+  ],
+  "optionsMap": {
+    "A": "5050",
+    "B": "4950",
+    "C": "5000",
+    "D": "5100"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "5050",
+  "tags": [
+    "quantitative",
+    "number-systems"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

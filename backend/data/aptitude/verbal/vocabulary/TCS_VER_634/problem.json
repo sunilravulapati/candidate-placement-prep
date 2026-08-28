@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_634",
+  "slug": "tcs-ver-634",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of TIMOROUS",
+  "description": "Choose the antonym of TIMOROUS",
+  "question": "Choose the antonym of TIMOROUS",
+  "options": [
+    "Brave",
+    "Fearful",
+    "Nervous",
+    "Timid"
+  ],
+  "optionsMap": {
+    "A": "Brave",
+    "B": "Fearful",
+    "C": "Nervous",
+    "D": "Timid"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Brave",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

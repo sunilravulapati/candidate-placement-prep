@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_195",
+  "slug": "tcs-ver-195",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Choose the sentence that uses the correct comparative form:",
+  "description": "Choose the sentence that uses the correct comparative form:",
+  "question": "Choose the sentence that uses the correct comparative form:",
+  "options": [
+    "This is the most unique solution.",
+    "This is a more unique solution.",
+    "This is a unique solution.",
+    "This is the uniquest solution."
+  ],
+  "optionsMap": {
+    "A": "This is the most unique solution.",
+    "B": "This is a more unique solution.",
+    "C": "This is a unique solution.",
+    "D": "This is the uniquest solution."
+  },
+  "answer": "C",
+  "answerKey": "C",
+  "correctAnswer": "This is a unique solution.",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_423",
+  "slug": "tcs-ver-423",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of: VERBOSE",
+  "description": "Choose the antonym of: VERBOSE",
+  "question": "Choose the antonym of: VERBOSE",
+  "options": [
+    "Concise",
+    "Wordy",
+    "Long-winded",
+    "Lengthy"
+  ],
+  "optionsMap": {
+    "A": "Concise",
+    "B": "Wordy",
+    "C": "Long-winded",
+    "D": "Lengthy"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Concise",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

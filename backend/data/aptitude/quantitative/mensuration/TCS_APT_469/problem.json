@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_469",
+  "slug": "tcs-apt-469",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "mensuration",
+  "topicName": "Mensuration",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Area of path 3.5m wide around a rectangular field 50×40m (path inside).",
+  "description": "Area of path 3.5m wide around a rectangular field 50×40m (path inside).",
+  "question": "Area of path 3.5m wide around a rectangular field 50×40m (path inside).",
+  "options": [
+    "623 m2",
+    "574 m2",
+    "651 m2",
+    "600 m2"
+  ],
+  "optionsMap": {
+    "A": "623 m2",
+    "B": "574 m2",
+    "C": "651 m2",
+    "D": "600 m2"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "574 m2",
+  "tags": [
+    "quantitative",
+    "mensuration"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

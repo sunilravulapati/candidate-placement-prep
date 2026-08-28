@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_351",
+  "slug": "tcs-log-351",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Spatial reasoning: Same cube, how many have 3 painted faces?",
+  "description": "Spatial reasoning: Same cube, how many have 3 painted faces?",
+  "question": "Spatial reasoning: Same cube, how many have 3 painted faces?",
+  "options": [
+    "8",
+    "12",
+    "6",
+    "4"
+  ],
+  "optionsMap": {
+    "A": "8",
+    "B": "12",
+    "C": "6",
+    "D": "4"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "8",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

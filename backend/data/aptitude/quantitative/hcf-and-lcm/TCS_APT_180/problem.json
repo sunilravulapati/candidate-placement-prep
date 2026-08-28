@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_180",
+  "slug": "tcs-apt-180",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "hcf-and-lcm",
+  "topicName": "HCF and LCM",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The HCF of two numbers is 12 and their LCM is 144. If one number is 48, find ...",
+  "description": "The HCF of two numbers is 12 and their LCM is 144. If one number is 48, find the other.",
+  "question": "The HCF of two numbers is 12 and their LCM is 144. If one number is 48, find the other.",
+  "options": [
+    "36",
+    "24",
+    "48",
+    "60"
+  ],
+  "optionsMap": {
+    "A": "36",
+    "B": "24",
+    "C": "48",
+    "D": "60"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "36",
+  "tags": [
+    "quantitative",
+    "hcf-and-lcm"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

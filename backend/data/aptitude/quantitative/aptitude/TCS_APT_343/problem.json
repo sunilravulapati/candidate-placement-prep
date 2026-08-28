@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_343",
+  "slug": "tcs-apt-343",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "How many prime numbers are between 1 and 30?",
+  "description": "How many prime numbers are between 1 and 30?",
+  "question": "How many prime numbers are between 1 and 30?",
+  "options": [
+    "10",
+    "8",
+    "11",
+    "9"
+  ],
+  "optionsMap": {
+    "A": "10",
+    "B": "8",
+    "C": "11",
+    "D": "9"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "10",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

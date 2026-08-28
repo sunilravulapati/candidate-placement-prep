@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_419",
+  "slug": "tcs-log-419",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Coding: If A=2, B=3... Z=27. FACE = ?",
+  "description": "Coding: If A=2, B=3... Z=27. FACE = ?",
+  "question": "Coding: If A=2, B=3... Z=27. FACE = ?",
+  "options": [
+    "27",
+    "28",
+    "26",
+    "29"
+  ],
+  "optionsMap": {
+    "A": "27",
+    "B": "28",
+    "C": "26",
+    "D": "29"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "27",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_171",
+  "slug": "tcs-ver-171",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Identify the correct sentence:",
+  "description": "Identify the correct sentence:",
+  "question": "Identify the correct sentence:",
+  "options": [
+    "Neither of the boys have done their homework.",
+    "Neither of the boys has done his homework.",
+    "Neither of the boys has done their homeworks.",
+    "Neither of the boys have done his homework."
+  ],
+  "optionsMap": {
+    "A": "Neither of the boys have done their homework.",
+    "B": "Neither of the boys has done his homework.",
+    "C": "Neither of the boys has done their homeworks.",
+    "D": "Neither of the boys have done his homework."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Neither of the boys has done his homework.",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

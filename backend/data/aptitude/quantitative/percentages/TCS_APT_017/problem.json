@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_017",
+  "slug": "tcs-apt-017",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "percentages",
+  "topicName": "Percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A salary is reduced by 20%. By what percentage must it be increased to restor...",
+  "description": "A salary is reduced by 20%. By what percentage must it be increased to restore it to original?",
+  "question": "A salary is reduced by 20%. By what percentage must it be increased to restore it to original?",
+  "options": [
+    "25%",
+    "20%",
+    "22%",
+    "24%"
+  ],
+  "optionsMap": {
+    "A": "25%",
+    "B": "20%",
+    "C": "22%",
+    "D": "24%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "25%",
+  "tags": [
+    "quantitative",
+    "percentages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_619",
+  "slug": "tcs-ver-619",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: VOCIFEROUS",
+  "description": "Choose the word most similar in meaning to: VOCIFEROUS",
+  "question": "Choose the word most similar in meaning to: VOCIFEROUS",
+  "options": [
+    "Loudly insistent",
+    "Quiet",
+    "Reserved",
+    "Silent"
+  ],
+  "optionsMap": {
+    "A": "Loudly insistent",
+    "B": "Quiet",
+    "C": "Reserved",
+    "D": "Silent"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Loudly insistent",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_205",
+  "slug": "tcs-ver-205",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "para-jumbles",
+  "topicName": "Para Jumbles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "P: Social media has connected people across the globe. Q: However, it has als...",
+  "description": "P: Social media has connected people across the globe. Q: However, it has also become a platform for misinformation and cyberbullying. R: Users must therefore develop digital literacy skills. S: The key is to use it responsibly and critically. Arrange in logical order:",
+  "question": "P: Social media has connected people across the globe. Q: However, it has also become a platform for misinformation and cyberbullying. R: Users must therefore develop digital literacy skills. S: The key is to use it responsibly and critically. Arrange in logical order:",
+  "options": [
+    "P-Q-R-S",
+    "Q-P-R-S",
+    "P-R-Q-S",
+    "Q-R-P-S"
+  ],
+  "optionsMap": {
+    "A": "P-Q-R-S",
+    "B": "Q-P-R-S",
+    "C": "P-R-Q-S",
+    "D": "Q-R-P-S"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "P-Q-R-S",
+  "tags": [
+    "verbal",
+    "para-jumbles"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

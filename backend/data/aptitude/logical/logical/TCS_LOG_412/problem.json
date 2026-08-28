@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_412",
+  "slug": "tcs-log-412",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If x=3, y=4, z=5. Value of x2+y2+z2?",
+  "description": "If x=3, y=4, z=5. Value of x2+y2+z2?",
+  "question": "If x=3, y=4, z=5. Value of x2+y2+z2?",
+  "options": [
+    "50",
+    "25",
+    "30",
+    "40"
+  ],
+  "optionsMap": {
+    "A": "50",
+    "B": "25",
+    "C": "30",
+    "D": "40"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "50",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

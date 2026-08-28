@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_151",
+  "slug": "tcs-log-151",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "statement-and-assumptions",
+  "topicName": "Statement and Assumptions",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Statement: 'The railway station has been closed due to maintenance.' Assumpti...",
+  "description": "Statement: 'The railway station has been closed due to maintenance.' Assumption I: Passengers know of an alternative. Assumption II: Maintenance requires closure.",
+  "question": "Statement: 'The railway station has been closed due to maintenance.' Assumption I: Passengers know of an alternative. Assumption II: Maintenance requires closure.",
+  "options": [
+    "Only II is implicit",
+    "Only I is implicit",
+    "Both are implicit",
+    "Neither is implicit"
+  ],
+  "optionsMap": {
+    "A": "Only II is implicit",
+    "B": "Only I is implicit",
+    "C": "Both are implicit",
+    "D": "Neither is implicit"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Only II is implicit",
+  "tags": [
+    "logical",
+    "statement-and-assumptions"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

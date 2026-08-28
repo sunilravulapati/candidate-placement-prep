@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_292",
+  "slug": "tcs-apt-292",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Population of a city is 80000. It increases by 10% in yr1 and decreases by 5%...",
+  "description": "Population of a city is 80000. It increases by 10% in yr1 and decreases by 5% in yr2. Final pop?",
+  "question": "Population of a city is 80000. It increases by 10% in yr1 and decreases by 5% in yr2. Final pop?",
+  "options": [
+    "83600",
+    "84000",
+    "86000",
+    "82000"
+  ],
+  "optionsMap": {
+    "A": "83600",
+    "B": "84000",
+    "C": "86000",
+    "D": "82000"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "83600",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

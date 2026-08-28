@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_686",
+  "slug": "tcs-ver-686",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Idiom: 'Break the ice' means?",
+  "description": "Idiom: 'Break the ice' means?",
+  "question": "Idiom: 'Break the ice' means?",
+  "options": [
+    "Initiate conversation",
+    "Break something",
+    "Start work",
+    "Remove obstacles"
+  ],
+  "optionsMap": {
+    "A": "Initiate conversation",
+    "B": "Break something",
+    "C": "Start work",
+    "D": "Remove obstacles"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Initiate conversation",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_327",
+  "slug": "tcs-ver-327",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "error-spotting",
+  "topicName": "Error Spotting",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Spot the error: (A)She is (B)my oldest (C)sister of (D)the two.",
+  "description": "Spot the error: (A)She is (B)my oldest (C)sister of (D)the two.",
+  "question": "Spot the error: (A)She is (B)my oldest (C)sister of (D)the two.",
+  "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "optionsMap": {
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "D": "D"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "B",
+  "tags": [
+    "verbal",
+    "error-spotting"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

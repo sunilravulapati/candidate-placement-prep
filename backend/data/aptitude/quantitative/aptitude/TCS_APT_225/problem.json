@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_225",
+  "slug": "tcs-apt-225",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Two trains of 100m and 150m run at 60 km/h and 90 km/h in opposite directions...",
+  "description": "Two trains of 100m and 150m run at 60 km/h and 90 km/h in opposite directions. Time to cross?",
+  "question": "Two trains of 100m and 150m run at 60 km/h and 90 km/h in opposite directions. Time to cross?",
+  "options": [
+    "6 sec",
+    "8 sec",
+    "10 sec",
+    "5 sec"
+  ],
+  "optionsMap": {
+    "A": "6 sec",
+    "B": "8 sec",
+    "C": "10 sec",
+    "D": "5 sec"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "6 sec",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

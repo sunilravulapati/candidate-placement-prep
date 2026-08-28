@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_378",
+  "slug": "tcs-apt-378",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A geometric series: 2, 6, 18, 54... Find 6th term.",
+  "description": "A geometric series: 2, 6, 18, 54... Find 6th term.",
+  "question": "A geometric series: 2, 6, 18, 54... Find 6th term.",
+  "options": [
+    "486",
+    "162",
+    "324",
+    "972"
+  ],
+  "optionsMap": {
+    "A": "486",
+    "B": "162",
+    "C": "324",
+    "D": "972"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "486",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

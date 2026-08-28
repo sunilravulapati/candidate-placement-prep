@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_234",
+  "slug": "tcs-ver-234",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What does 'throw in the towel' mean?",
+  "description": "What does 'throw in the towel' mean?",
+  "question": "What does 'throw in the towel' mean?",
+  "options": [
+    "Admit defeat or give up",
+    "Do laundry",
+    "Start a fight",
+    "Show respect"
+  ],
+  "optionsMap": {
+    "A": "Admit defeat or give up",
+    "B": "Do laundry",
+    "C": "Start a fight",
+    "D": "Show respect"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Admit defeat or give up",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

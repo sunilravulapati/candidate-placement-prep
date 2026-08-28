@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_300",
+  "slug": "tcs-apt-300",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What is the interest on Rs 12000 at 6.25% SI for 2.5 years?",
+  "description": "What is the interest on Rs 12000 at 6.25% SI for 2.5 years?",
+  "question": "What is the interest on Rs 12000 at 6.25% SI for 2.5 years?",
+  "options": [
+    "1875",
+    "1500",
+    "2000",
+    "1200"
+  ],
+  "optionsMap": {
+    "A": "1875",
+    "B": "1500",
+    "C": "2000",
+    "D": "1200"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1875",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

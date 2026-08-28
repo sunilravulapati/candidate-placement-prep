@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_096",
+  "slug": "tcs-ver-096",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most OPPOSITE in meaning to: TACITURN",
+  "description": "Choose the word most OPPOSITE in meaning to: TACITURN",
+  "question": "Choose the word most OPPOSITE in meaning to: TACITURN",
+  "options": [
+    "Talkative",
+    "Silent",
+    "Reserved",
+    "Quiet"
+  ],
+  "optionsMap": {
+    "A": "Talkative",
+    "B": "Silent",
+    "C": "Reserved",
+    "D": "Quiet"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Talkative",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

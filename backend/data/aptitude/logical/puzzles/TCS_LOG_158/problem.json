@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_158",
+  "slug": "tcs-log-158",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "puzzles",
+  "topicName": "Puzzles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A man has two coins totaling 30 paise. One is not a 10 paise coin. What are t...",
+  "description": "A man has two coins totaling 30 paise. One is not a 10 paise coin. What are the coins?",
+  "question": "A man has two coins totaling 30 paise. One is not a 10 paise coin. What are the coins?",
+  "options": [
+    "20 paise and 10 paise",
+    "25 paise and 5 paise",
+    "15 paise and 15 paise",
+    "20 paise and 20 paise"
+  ],
+  "optionsMap": {
+    "A": "20 paise and 10 paise",
+    "B": "25 paise and 5 paise",
+    "C": "15 paise and 15 paise",
+    "D": "20 paise and 20 paise"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "20 paise and 10 paise",
+  "tags": [
+    "logical",
+    "puzzles"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

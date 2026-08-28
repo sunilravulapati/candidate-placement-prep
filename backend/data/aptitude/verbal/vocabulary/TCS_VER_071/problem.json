@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_071",
+  "slug": "tcs-ver-071",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most OPPOSITE in meaning to: UNDERMINE",
+  "description": "Choose the word most OPPOSITE in meaning to: UNDERMINE",
+  "question": "Choose the word most OPPOSITE in meaning to: UNDERMINE",
+  "options": [
+    "Strengthen",
+    "Weaken",
+    "Sabotage",
+    "Erode"
+  ],
+  "optionsMap": {
+    "A": "Strengthen",
+    "B": "Weaken",
+    "C": "Sabotage",
+    "D": "Erode"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Strengthen",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_685",
+  "slug": "tcs-ver-685",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Idiom: 'Blow hot and cold' means?",
+  "description": "Idiom: 'Blow hot and cold' means?",
+  "question": "Idiom: 'Blow hot and cold' means?",
+  "options": [
+    "Vacillate",
+    "Temperature change",
+    "Weather change",
+    "Be indecisive"
+  ],
+  "optionsMap": {
+    "A": "Vacillate",
+    "B": "Temperature change",
+    "C": "Weather change",
+    "D": "Be indecisive"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Vacillate",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

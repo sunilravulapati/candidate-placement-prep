@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_284",
+  "slug": "tcs-apt-284",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If the sum of two numbers is 72 and one is twice the other, find the numbers.",
+  "description": "If the sum of two numbers is 72 and one is twice the other, find the numbers.",
+  "question": "If the sum of two numbers is 72 and one is twice the other, find the numbers.",
+  "options": [
+    "24 and 48",
+    "36 and 36",
+    "20 and 52",
+    "30 and 42"
+  ],
+  "optionsMap": {
+    "A": "24 and 48",
+    "B": "36 and 36",
+    "C": "20 and 52",
+    "D": "30 and 42"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "24 and 48",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_092",
+  "slug": "tcs-apt-092",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "ratio-and-proportion",
+  "topicName": "Ratio and Proportion",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "The ages of A and B are in ratio 4:5. Six years hence the ratio will be 5:6. ...",
+  "description": "The ages of A and B are in ratio 4:5. Six years hence the ratio will be 5:6. Find A's age.",
+  "question": "The ages of A and B are in ratio 4:5. Six years hence the ratio will be 5:6. Find A's age.",
+  "options": [
+    "24",
+    "20",
+    "28",
+    "30"
+  ],
+  "optionsMap": {
+    "A": "24",
+    "B": "20",
+    "C": "28",
+    "D": "30"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "24",
+  "tags": [
+    "quantitative",
+    "ratio-and-proportion"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

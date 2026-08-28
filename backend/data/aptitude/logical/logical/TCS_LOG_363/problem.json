@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_363",
+  "slug": "tcs-log-363",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Syllogism: No chairs are tables. All tables are wooden. Conclusion?",
+  "description": "Syllogism: No chairs are tables. All tables are wooden. Conclusion?",
+  "question": "Syllogism: No chairs are tables. All tables are wooden. Conclusion?",
+  "options": [
+    "No chair is wooden",
+    "Some chairs are wooden",
+    "All wooden are tables",
+    "Cannot conclude for chairs"
+  ],
+  "optionsMap": {
+    "A": "No chair is wooden",
+    "B": "Some chairs are wooden",
+    "C": "All wooden are tables",
+    "D": "Cannot conclude for chairs"
+  },
+  "answer": "D",
+  "answerKey": "D",
+  "correctAnswer": "Cannot conclude for chairs",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

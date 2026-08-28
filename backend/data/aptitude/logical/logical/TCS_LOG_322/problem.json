@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_322",
+  "slug": "tcs-log-322",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number series: 2, 3, 5, 7, 11, 13, ?",
+  "description": "Number series: 2, 3, 5, 7, 11, 13, ?",
+  "question": "Number series: 2, 3, 5, 7, 11, 13, ?",
+  "options": [
+    "17",
+    "15",
+    "19",
+    "16"
+  ],
+  "optionsMap": {
+    "A": "17",
+    "B": "15",
+    "C": "19",
+    "D": "16"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "17",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

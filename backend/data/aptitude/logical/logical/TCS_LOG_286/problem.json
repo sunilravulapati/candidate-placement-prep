@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_286",
+  "slug": "tcs-log-286",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Calendar: What day is 15 Aug 1947 if 1 Jan 1947 was Wednesday?",
+  "description": "Calendar: What day is 15 Aug 1947 if 1 Jan 1947 was Wednesday?",
+  "question": "Calendar: What day is 15 Aug 1947 if 1 Jan 1947 was Wednesday?",
+  "options": [
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+  ],
+  "optionsMap": {
+    "A": "Thursday",
+    "B": "Friday",
+    "C": "Saturday",
+    "D": "Sunday"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Friday",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

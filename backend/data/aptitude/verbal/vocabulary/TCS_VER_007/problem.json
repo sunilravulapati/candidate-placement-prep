@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_007",
+  "slug": "tcs-ver-007",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Choose the word most similar in meaning to: GREGARIOUS",
+  "description": "Choose the word most similar in meaning to: GREGARIOUS",
+  "question": "Choose the word most similar in meaning to: GREGARIOUS",
+  "options": [
+    "Sociable",
+    "Reclusive",
+    "Shy",
+    "Bland"
+  ],
+  "optionsMap": {
+    "A": "Sociable",
+    "B": "Reclusive",
+    "C": "Shy",
+    "D": "Bland"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Sociable",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

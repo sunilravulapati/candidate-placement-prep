@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_340",
+  "slug": "tcs-log-340",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Critical reasoning: If only honest people get promoted and X got promoted, th...",
+  "description": "Critical reasoning: If only honest people get promoted and X got promoted, then X is?",
+  "question": "Critical reasoning: If only honest people get promoted and X got promoted, then X is?",
+  "options": [
+    "Honest",
+    "Dishonest",
+    "Smart",
+    "Hard-working"
+  ],
+  "optionsMap": {
+    "A": "Honest",
+    "B": "Dishonest",
+    "C": "Smart",
+    "D": "Hard-working"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Honest",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

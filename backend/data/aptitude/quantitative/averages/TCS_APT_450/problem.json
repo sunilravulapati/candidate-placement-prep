@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_450",
+  "slug": "tcs-apt-450",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "averages",
+  "topicName": "Averages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A cricketer's average in 30 innings is 40. After 10 more innings average is 4...",
+  "description": "A cricketer's average in 30 innings is 40. After 10 more innings average is 42. Average in last 10 innings?",
+  "question": "A cricketer's average in 30 innings is 40. After 10 more innings average is 42. Average in last 10 innings?",
+  "options": [
+    "48",
+    "46",
+    "50",
+    "44"
+  ],
+  "optionsMap": {
+    "A": "48",
+    "B": "46",
+    "C": "50",
+    "D": "44"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "48",
+  "tags": [
+    "quantitative",
+    "averages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_539",
+  "slug": "tcs-apt-539",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Train 300m passes pole in 15s. Speed in km/h?",
+  "description": "Train 300m passes pole in 15s. Speed in km/h?",
+  "question": "Train 300m passes pole in 15s. Speed in km/h?",
+  "options": [
+    "72",
+    "80",
+    "60",
+    "90"
+  ],
+  "optionsMap": {
+    "A": "72",
+    "B": "80",
+    "C": "60",
+    "D": "90"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "72",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

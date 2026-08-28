@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_030",
+  "slug": "tcs-log-030",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "coding-decoding",
+  "topicName": "Coding-Decoding",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "If LAPTOP = 23 and KEYBOARD = 31, what does the code represent?",
+  "description": "If LAPTOP = 23 and KEYBOARD = 31, what does the code represent?",
+  "question": "If LAPTOP = 23 and KEYBOARD = 31, what does the code represent?",
+  "options": [
+    "Sum of positions of letters",
+    "Number of letters × 2",
+    "Sum of alternate letters",
+    "Product of vowels"
+  ],
+  "optionsMap": {
+    "A": "Sum of positions of letters",
+    "B": "Number of letters × 2",
+    "C": "Sum of alternate letters",
+    "D": "Product of vowels"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Sum of positions of letters",
+  "tags": [
+    "logical",
+    "coding-decoding"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

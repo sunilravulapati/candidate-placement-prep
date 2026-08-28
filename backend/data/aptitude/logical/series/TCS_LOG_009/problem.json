@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_009",
+  "slug": "tcs-log-009",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "series",
+  "topicName": "Series",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Mixed series: B2, D4, F6, H8, ___",
+  "description": "Mixed series: B2, D4, F6, H8, ___",
+  "question": "Mixed series: B2, D4, F6, H8, ___",
+  "options": [
+    "J10",
+    "I9",
+    "K10",
+    "J11"
+  ],
+  "optionsMap": {
+    "A": "J10",
+    "B": "I9",
+    "C": "K10",
+    "D": "J11"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "J10",
+  "tags": [
+    "logical",
+    "series"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

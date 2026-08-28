@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_039",
+  "slug": "tcs-apt-039",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "profit-and-loss",
+  "topicName": "Profit and Loss",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A sells a bicycle to B at 20% profit. B sells it to C at 25% profit. If C pai...",
+  "description": "A sells a bicycle to B at 20% profit. B sells it to C at 25% profit. If C paid Rs.3000, what did A pay?",
+  "question": "A sells a bicycle to B at 20% profit. B sells it to C at 25% profit. If C paid Rs.3000, what did A pay?",
+  "options": [
+    "Rs.2000",
+    "Rs.2400",
+    "Rs.1800",
+    "Rs.2200"
+  ],
+  "optionsMap": {
+    "A": "Rs.2000",
+    "B": "Rs.2400",
+    "C": "Rs.1800",
+    "D": "Rs.2200"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.2000",
+  "tags": [
+    "quantitative",
+    "profit-and-loss"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

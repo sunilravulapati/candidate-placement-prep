@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_050",
+  "slug": "tcs-apt-050",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "compound-interest",
+  "topicName": "Compound Interest",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find CI on Rs.5000 at 8% p.a. for 2 years compounded annually.",
+  "description": "Find CI on Rs.5000 at 8% p.a. for 2 years compounded annually.",
+  "question": "Find CI on Rs.5000 at 8% p.a. for 2 years compounded annually.",
+  "options": [
+    "Rs.832",
+    "Rs.800",
+    "Rs.850",
+    "Rs.900"
+  ],
+  "optionsMap": {
+    "A": "Rs.832",
+    "B": "Rs.800",
+    "C": "Rs.850",
+    "D": "Rs.900"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.832",
+  "tags": [
+    "quantitative",
+    "compound-interest"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

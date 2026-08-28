@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_371",
+  "slug": "tcs-log-371",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Coding: In a certain code 'sky is blue' = 315, 'blue is water' = 625, 'water ...",
+  "description": "Coding: In a certain code 'sky is blue' = 315, 'blue is water' = 625, 'water is life' = 472. What is code for 'blue'?",
+  "question": "Coding: In a certain code 'sky is blue' = 315, 'blue is water' = 625, 'water is life' = 472. What is code for 'blue'?",
+  "options": [
+    "5",
+    "2",
+    "3",
+    "6"
+  ],
+  "optionsMap": {
+    "A": "5",
+    "B": "2",
+    "C": "3",
+    "D": "6"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "5",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

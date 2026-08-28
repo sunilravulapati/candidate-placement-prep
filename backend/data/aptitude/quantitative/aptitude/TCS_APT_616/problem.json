@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_616",
+  "slug": "tcs-apt-616",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "External angle of regular polygon is 45°. Number of sides?",
+  "description": "External angle of regular polygon is 45°. Number of sides?",
+  "question": "External angle of regular polygon is 45°. Number of sides?",
+  "options": [
+    "8",
+    "6",
+    "9",
+    "10"
+  ],
+  "optionsMap": {
+    "A": "8",
+    "B": "6",
+    "C": "9",
+    "D": "10"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "8",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

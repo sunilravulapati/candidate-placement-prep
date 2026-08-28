@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_512",
+  "slug": "tcs-log-512",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Deduction: All computers need electricity. X needs electricity. X is?",
+  "description": "Deduction: All computers need electricity. X needs electricity. X is?",
+  "question": "Deduction: All computers need electricity. X needs electricity. X is?",
+  "options": [
+    "Not necessarily a computer",
+    "A computer",
+    "A machine",
+    "Cannot determine"
+  ],
+  "optionsMap": {
+    "A": "Not necessarily a computer",
+    "B": "A computer",
+    "C": "A machine",
+    "D": "Cannot determine"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Not necessarily a computer",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

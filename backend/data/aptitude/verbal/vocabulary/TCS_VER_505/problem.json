@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_505",
+  "slug": "tcs-ver-505",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "What is the antonym of 'cacophony'?",
+  "description": "What is the antonym of 'cacophony'?",
+  "question": "What is the antonym of 'cacophony'?",
+  "options": [
+    "Harmony",
+    "Noise",
+    "Discord",
+    "Chaos"
+  ],
+  "optionsMap": {
+    "A": "Harmony",
+    "B": "Noise",
+    "C": "Discord",
+    "D": "Chaos"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Harmony",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

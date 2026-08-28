@@ -1,0 +1,332 @@
+[
+  {
+    "id": "TCS_APT_154",
+    "title": "In how many ways can 5 people sit in a row?",
+    "description": "In how many ways can 5 people sit in a row?",
+    "question": "In how many ways can 5 people sit in a row?",
+    "options": [
+      "120",
+      "60",
+      "24",
+      "100"
+    ],
+    "answer": "120",
+    "answerKey": "A",
+    "correctAnswer": "120",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 120.",
+    "topic": "permutation-and-combination",
+    "topicName": "Permutation and Combination",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_163",
+    "title": "In how many ways can 6 books be arranged on a shelf?",
+    "description": "In how many ways can 6 books be arranged on a shelf?",
+    "question": "In how many ways can 6 books be arranged on a shelf?",
+    "options": [
+      "720",
+      "360",
+      "120",
+      "240"
+    ],
+    "answer": "720",
+    "answerKey": "A",
+    "correctAnswer": "720",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 720.",
+    "topic": "permutation-and-combination",
+    "topicName": "Permutation and Combination",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_157",
+    "title": "A committee of 4 is to be chosen from 7 men and 5 women. How many committees ...",
+    "description": "A committee of 4 is to be chosen from 7 men and 5 women. How many committees have exactly 2 women?",
+    "question": "A committee of 4 is to be chosen from 7 men and 5 women. How many committees have exactly 2 women?",
+    "options": [
+      "210",
+      "120",
+      "90",
+      "180"
+    ],
+    "answer": "210",
+    "answerKey": "A",
+    "correctAnswer": "210",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 210.",
+    "topic": "permutation-and-combination",
+    "topicName": "Permutation and Combination",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_158",
+    "title": "In how many ways can the letters of MISSISSIPPI be arranged?",
+    "description": "In how many ways can the letters of MISSISSIPPI be arranged?",
+    "question": "In how many ways can the letters of MISSISSIPPI be arranged?",
+    "options": [
+      "34650",
+      "25200",
+      "30030",
+      "40040"
+    ],
+    "answer": "34650",
+    "answerKey": "A",
+    "correctAnswer": "34650",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 34650.",
+    "topic": "permutation-and-combination",
+    "topicName": "Permutation and Combination",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_159",
+    "title": "How many ways can 10 players be divided into 2 teams of 5 each?",
+    "description": "How many ways can 10 players be divided into 2 teams of 5 each?",
+    "question": "How many ways can 10 players be divided into 2 teams of 5 each?",
+    "options": [
+      "126",
+      "252",
+      "63",
+      "504"
+    ],
+    "answer": "126",
+    "answerKey": "A",
+    "correctAnswer": "126",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 126.",
+    "topic": "permutation-and-combination",
+    "topicName": "Permutation and Combination",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_162",
+    "title": "A coin is tossed 5 times. How many outcomes have at least 3 heads?",
+    "description": "A coin is tossed 5 times. How many outcomes have at least 3 heads?",
+    "question": "A coin is tossed 5 times. How many outcomes have at least 3 heads?",
+    "options": [
+      "16",
+      "15",
+      "20",
+      "12"
+    ],
+    "answer": "16",
+    "answerKey": "A",
+    "correctAnswer": "16",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 16.",
+    "topic": "permutation-and-combination",
+    "topicName": "Permutation and Combination",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_493",
+    "title": "In how many ways can MATHS be arranged so M and S are never adjacent?",
+    "description": "In how many ways can MATHS be arranged so M and S are never adjacent?",
+    "question": "In how many ways can MATHS be arranged so M and S are never adjacent?",
+    "options": [
+      "36",
+      "48",
+      "60",
+      "72"
+    ],
+    "answer": "36",
+    "answerKey": "A",
+    "correctAnswer": "36",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 36.",
+    "topic": "permutation-and-combination",
+    "topicName": "Permutation and Combination",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_495",
+    "title": "How many 4-digit even numbers can be formed using 1,2,3,4,5 (no repetition)?",
+    "description": "How many 4-digit even numbers can be formed using 1,2,3,4,5 (no repetition)?",
+    "question": "How many 4-digit even numbers can be formed using 1,2,3,4,5 (no repetition)?",
+    "options": [
+      "48",
+      "60",
+      "36",
+      "72"
+    ],
+    "answer": "48",
+    "answerKey": "A",
+    "correctAnswer": "48",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 48.",
+    "topic": "permutation-and-combination",
+    "topicName": "Permutation and Combination",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_155",
+    "title": "In how many ways can 3 letters be chosen from A, B, C, D, E?",
+    "description": "In how many ways can 3 letters be chosen from A, B, C, D, E?",
+    "question": "In how many ways can 3 letters be chosen from A, B, C, D, E?",
+    "options": [
+      "10",
+      "20",
+      "60",
+      "15"
+    ],
+    "answer": "10",
+    "answerKey": "A",
+    "correctAnswer": "10",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10.",
+    "topic": "permutation-and-combination",
+    "topicName": "Permutation and Combination",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_494",
+    "title": "Number of ways to form a committee of 3 men and 2 women from 5 men and 4 women?",
+    "description": "Number of ways to form a committee of 3 men and 2 women from 5 men and 4 women?",
+    "question": "Number of ways to form a committee of 3 men and 2 women from 5 men and 4 women?",
+    "options": [
+      "60",
+      "80",
+      "90",
+      "120"
+    ],
+    "answer": "60",
+    "answerKey": "A",
+    "correctAnswer": "60",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 60.",
+    "topic": "permutation-and-combination",
+    "topicName": "Permutation and Combination",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_497",
+    "title": "Number of diagonals in a hexagon?",
+    "description": "Number of diagonals in a hexagon?",
+    "question": "Number of diagonals in a hexagon?",
+    "options": [
+      "9",
+      "12",
+      "6",
+      "15"
+    ],
+    "answer": "9",
+    "answerKey": "A",
+    "correctAnswer": "9",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 9.",
+    "topic": "permutation-and-combination",
+    "topicName": "Permutation and Combination",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

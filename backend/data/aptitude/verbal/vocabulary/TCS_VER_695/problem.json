@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_695",
+  "slug": "tcs-ver-695",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Fill blank: Her __ to detail made her work flawless.",
+  "description": "Fill blank: Her __ to detail made her work flawless.",
+  "question": "Fill blank: Her __ to detail made her work flawless.",
+  "options": [
+    "attention",
+    "ignorance",
+    "disregard",
+    "neglect"
+  ],
+  "optionsMap": {
+    "A": "attention",
+    "B": "ignorance",
+    "C": "disregard",
+    "D": "neglect"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "attention",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

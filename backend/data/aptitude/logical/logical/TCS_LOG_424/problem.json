@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_424",
+  "slug": "tcs-log-424",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Blood rel: A is B's brother. C is A's son. D is C's sister. D is B's?",
+  "description": "Blood rel: A is B's brother. C is A's son. D is C's sister. D is B's?",
+  "question": "Blood rel: A is B's brother. C is A's son. D is C's sister. D is B's?",
+  "options": [
+    "Niece",
+    "Nephew",
+    "Daughter",
+    "Cousin"
+  ],
+  "optionsMap": {
+    "A": "Niece",
+    "B": "Nephew",
+    "C": "Daughter",
+    "D": "Cousin"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Niece",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

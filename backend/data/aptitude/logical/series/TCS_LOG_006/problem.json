@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_006",
+  "slug": "tcs-log-006",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "series",
+  "topicName": "Series",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number series: 3, 5, 9, 17, ___",
+  "description": "Number series: 3, 5, 9, 17, ___",
+  "question": "Number series: 3, 5, 9, 17, ___",
+  "options": [
+    "33",
+    "31",
+    "29",
+    "35"
+  ],
+  "optionsMap": {
+    "A": "33",
+    "B": "31",
+    "C": "29",
+    "D": "35"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "33",
+  "tags": [
+    "logical",
+    "series"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

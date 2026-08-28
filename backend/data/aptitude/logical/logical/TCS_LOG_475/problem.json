@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_475",
+  "slug": "tcs-log-475",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Seating: 8 in row, D is exactly in middle. D's position from left?",
+  "description": "Seating: 8 in row, D is exactly in middle. D's position from left?",
+  "question": "Seating: 8 in row, D is exactly in middle. D's position from left?",
+  "options": [
+    "4th or 5th",
+    "4th",
+    "5th",
+    "Cannot say"
+  ],
+  "optionsMap": {
+    "A": "4th or 5th",
+    "B": "4th",
+    "C": "5th",
+    "D": "Cannot say"
+  },
+  "answer": "C",
+  "answerKey": "C",
+  "correctAnswer": "5th",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

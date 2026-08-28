@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_439",
+  "slug": "tcs-log-439",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Clock hands at 90° between 3-4pm at?",
+  "description": "Clock hands at 90° between 3-4pm at?",
+  "question": "Clock hands at 90° between 3-4pm at?",
+  "options": [
+    "3:32.72",
+    "3:30",
+    "3:15",
+    "3:45"
+  ],
+  "optionsMap": {
+    "A": "3:32.72",
+    "B": "3:30",
+    "C": "3:15",
+    "D": "3:45"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "3:32.72",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

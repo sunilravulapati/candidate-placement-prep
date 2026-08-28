@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_158",
+  "slug": "tcs-ver-158",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwi...",
+  "description": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwide. Unlike traditional software that follows fixed i... Q: What is deep learning primarily based on?",
+  "question": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwide. Unlike traditional software that follows fixed i... Q: What is deep learning primarily based on?",
+  "options": [
+    "Neural networks",
+    "Simple algorithms",
+    "Fixed rules",
+    "Manual coding"
+  ],
+  "optionsMap": {
+    "A": "Neural networks",
+    "B": "Simple algorithms",
+    "C": "Fixed rules",
+    "D": "Manual coding"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Neural networks",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

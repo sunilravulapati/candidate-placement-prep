@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_363",
+  "slug": "tcs-apt-363",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The price of a commodity rose by 25%. By what % must consumption decrease to ...",
+  "description": "The price of a commodity rose by 25%. By what % must consumption decrease to maintain expenditure?",
+  "question": "The price of a commodity rose by 25%. By what % must consumption decrease to maintain expenditure?",
+  "options": [
+    "20%",
+    "25%",
+    "15%",
+    "30%"
+  ],
+  "optionsMap": {
+    "A": "20%",
+    "B": "25%",
+    "C": "15%",
+    "D": "30%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "20%",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

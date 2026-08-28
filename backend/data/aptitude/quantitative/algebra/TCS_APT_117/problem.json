@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_117",
+  "slug": "tcs-apt-117",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "algebra",
+  "topicName": "Algebra",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "If a + b = 5 and ab = 6, find a3 + b3.",
+  "description": "If a + b = 5 and ab = 6, find a3 + b3.",
+  "question": "If a + b = 5 and ab = 6, find a3 + b3.",
+  "options": [
+    "35",
+    "30",
+    "25",
+    "45"
+  ],
+  "optionsMap": {
+    "A": "35",
+    "B": "30",
+    "C": "25",
+    "D": "45"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "35",
+  "tags": [
+    "quantitative",
+    "algebra"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

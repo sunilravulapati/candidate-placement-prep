@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_270",
+  "slug": "tcs-ver-270",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "sentence-improvement",
+  "topicName": "Sentence Improvement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Improve the underlined part of the sentence: 'He runs as fast as or even fast...",
+  "description": "Improve the underlined part of the sentence: 'He runs as fast as or even faster than his brother.'",
+  "question": "Improve the underlined part of the sentence: 'He runs as fast as or even faster than his brother.'",
+  "options": [
+    "as fast as or even faster",
+    "as fast or even faster than",
+    "faster or as fast as",
+    "No improvement"
+  ],
+  "optionsMap": {
+    "A": "as fast as or even faster",
+    "B": "as fast or even faster than",
+    "C": "faster or as fast as",
+    "D": "No improvement"
+  },
+  "answer": "D",
+  "answerKey": "D",
+  "correctAnswer": "No improvement",
+  "tags": [
+    "verbal",
+    "sentence-improvement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

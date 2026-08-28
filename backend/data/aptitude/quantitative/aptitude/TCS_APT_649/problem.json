@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_649",
+  "slug": "tcs-apt-649",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Compound interest Rs 3800 at 10% for 2 years?",
+  "description": "Compound interest Rs 3800 at 10% for 2 years?",
+  "question": "Compound interest Rs 3800 at 10% for 2 years?",
+  "options": [
+    "798",
+    "400",
+    "500",
+    "420"
+  ],
+  "optionsMap": {
+    "A": "798",
+    "B": "400",
+    "C": "500",
+    "D": "420"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "798",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

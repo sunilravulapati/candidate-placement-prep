@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_057",
+  "slug": "tcs-log-057",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "blood-relations",
+  "topicName": "Blood Relations",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A woman introduces a man as the son of the brother of her mother. How is the ...",
+  "description": "A woman introduces a man as the son of the brother of her mother. How is the man related to the woman?",
+  "question": "A woman introduces a man as the son of the brother of her mother. How is the man related to the woman?",
+  "options": [
+    "Cousin",
+    "Uncle",
+    "Nephew",
+    "Brother"
+  ],
+  "optionsMap": {
+    "A": "Cousin",
+    "B": "Uncle",
+    "C": "Nephew",
+    "D": "Brother"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Cousin",
+  "tags": [
+    "logical",
+    "blood-relations"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

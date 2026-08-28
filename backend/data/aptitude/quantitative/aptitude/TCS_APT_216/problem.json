@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_216",
+  "slug": "tcs-apt-216",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If 15% of a number is 45, what is 40% of that number?",
+  "description": "If 15% of a number is 45, what is 40% of that number?",
+  "question": "If 15% of a number is 45, what is 40% of that number?",
+  "options": [
+    "120",
+    "100",
+    "80",
+    "60"
+  ],
+  "optionsMap": {
+    "A": "120",
+    "B": "100",
+    "C": "80",
+    "D": "60"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "120",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

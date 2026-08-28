@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_004",
+  "slug": "tcs-apt-004",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "percentages",
+  "topicName": "Percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "If 60% of a number is 96, what is the number?",
+  "description": "If 60% of a number is 96, what is the number?",
+  "question": "If 60% of a number is 96, what is the number?",
+  "options": [
+    "160",
+    "140",
+    "180",
+    "120"
+  ],
+  "optionsMap": {
+    "A": "160",
+    "B": "140",
+    "C": "180",
+    "D": "120"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "160",
+  "tags": [
+    "quantitative",
+    "percentages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

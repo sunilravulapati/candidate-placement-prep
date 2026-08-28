@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_475",
+  "slug": "tcs-apt-475",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "number-systems",
+  "topicName": "Number Systems",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Largest 5-digit number divisible by both 8 and 15?",
+  "description": "Largest 5-digit number divisible by both 8 and 15?",
+  "question": "Largest 5-digit number divisible by both 8 and 15?",
+  "options": [
+    "99960",
+    "99900",
+    "99840",
+    "99990"
+  ],
+  "optionsMap": {
+    "A": "99960",
+    "B": "99900",
+    "C": "99840",
+    "D": "99990"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "99960",
+  "tags": [
+    "quantitative",
+    "number-systems"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

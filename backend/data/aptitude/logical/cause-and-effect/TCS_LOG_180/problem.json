@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_180",
+  "slug": "tcs-log-180",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "cause-and-effect",
+  "topicName": "Cause and Effect",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Statement I: Crime rates in the neighborhood fell. Statement II: Police patro...",
+  "description": "Statement I: Crime rates in the neighborhood fell. Statement II: Police patrol frequency in the area was increased. Relation:",
+  "question": "Statement I: Crime rates in the neighborhood fell. Statement II: Police patrol frequency in the area was increased. Relation:",
+  "options": [
+    "II is cause, I is effect",
+    "I is cause, II is effect",
+    "Both are independent",
+    "Cannot determine"
+  ],
+  "optionsMap": {
+    "A": "II is cause, I is effect",
+    "B": "I is cause, II is effect",
+    "C": "Both are independent",
+    "D": "Cannot determine"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "II is cause, I is effect",
+  "tags": [
+    "logical",
+    "cause-and-effect"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

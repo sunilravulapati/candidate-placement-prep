@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_492",
+  "slug": "tcs-ver-492",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What is the plural of 'datum'?",
+  "description": "What is the plural of 'datum'?",
+  "question": "What is the plural of 'datum'?",
+  "options": [
+    "Datums",
+    "Data",
+    "Datas",
+    "Datii"
+  ],
+  "optionsMap": {
+    "A": "Datums",
+    "B": "Data",
+    "C": "Datas",
+    "D": "Datii"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Data",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

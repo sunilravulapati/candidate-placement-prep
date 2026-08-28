@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_069",
+  "slug": "tcs-apt-069",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "speed-and-distance",
+  "topicName": "Speed and Distance",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Two cars start from the same point in opposite directions at 40 and 50 km/h. ...",
+  "description": "Two cars start from the same point in opposite directions at 40 and 50 km/h. After 3 hours, the distance between them is:",
+  "question": "Two cars start from the same point in opposite directions at 40 and 50 km/h. After 3 hours, the distance between them is:",
+  "options": [
+    "270 km",
+    "200 km",
+    "250 km",
+    "300 km"
+  ],
+  "optionsMap": {
+    "A": "270 km",
+    "B": "200 km",
+    "C": "250 km",
+    "D": "300 km"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "270 km",
+  "tags": [
+    "quantitative",
+    "speed-and-distance"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_227",
+  "slug": "tcs-log-227",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "venn-diagrams",
+  "topicName": "Venn Diagrams",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Sets: |A| = 40, |B| = 30, |A∪B| = 60. Find |A∩B|.",
+  "description": "Sets: |A| = 40, |B| = 30, |A∪B| = 60. Find |A∩B|.",
+  "question": "Sets: |A| = 40, |B| = 30, |A∪B| = 60. Find |A∩B|.",
+  "options": [
+    "10",
+    "15",
+    "20",
+    "25"
+  ],
+  "optionsMap": {
+    "A": "10",
+    "B": "15",
+    "C": "20",
+    "D": "25"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "10",
+  "tags": [
+    "logical",
+    "venn-diagrams"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

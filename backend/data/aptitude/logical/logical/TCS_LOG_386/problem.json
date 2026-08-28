@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_386",
+  "slug": "tcs-log-386",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Analogy: Author:Book :: Sculptor:?",
+  "description": "Analogy: Author:Book :: Sculptor:?",
+  "question": "Analogy: Author:Book :: Sculptor:?",
+  "options": [
+    "Statue",
+    "Paint",
+    "Drawing",
+    "Poem"
+  ],
+  "optionsMap": {
+    "A": "Statue",
+    "B": "Paint",
+    "C": "Drawing",
+    "D": "Poem"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Statue",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

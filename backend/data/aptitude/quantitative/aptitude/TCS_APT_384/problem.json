@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_384",
+  "slug": "tcs-apt-384",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The mean of 6 numbers is 15. Fifth is 18, sixth is 22. Mean of first four?",
+  "description": "The mean of 6 numbers is 15. Fifth is 18, sixth is 22. Mean of first four?",
+  "question": "The mean of 6 numbers is 15. Fifth is 18, sixth is 22. Mean of first four?",
+  "options": [
+    "12.5",
+    "11",
+    "13",
+    "14"
+  ],
+  "optionsMap": {
+    "A": "12.5",
+    "B": "11",
+    "C": "13",
+    "D": "14"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "12.5",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

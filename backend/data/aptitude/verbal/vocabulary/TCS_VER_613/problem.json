@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_613",
+  "slug": "tcs-ver-613",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: VEHEMENT",
+  "description": "Choose the word most similar in meaning to: VEHEMENT",
+  "question": "Choose the word most similar in meaning to: VEHEMENT",
+  "options": [
+    "Forceful",
+    "Weak",
+    "Mild",
+    "Gentle"
+  ],
+  "optionsMap": {
+    "A": "Forceful",
+    "B": "Weak",
+    "C": "Mild",
+    "D": "Gentle"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Forceful",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

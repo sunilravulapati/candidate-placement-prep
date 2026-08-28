@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_046",
+  "slug": "tcs-log-046",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "blood-relations",
+  "topicName": "Blood Relations",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A is the father of B. B is the sister of C. C is the son of D. What is D to A?",
+  "description": "A is the father of B. B is the sister of C. C is the son of D. What is D to A?",
+  "question": "A is the father of B. B is the sister of C. C is the son of D. What is D to A?",
+  "options": [
+    "Son-in-law",
+    "Daughter-in-law",
+    "Son",
+    "Daughter"
+  ],
+  "optionsMap": {
+    "A": "Son-in-law",
+    "B": "Daughter-in-law",
+    "C": "Son",
+    "D": "Daughter"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Son-in-law",
+  "tags": [
+    "logical",
+    "blood-relations"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

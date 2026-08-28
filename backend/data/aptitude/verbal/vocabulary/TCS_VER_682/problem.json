@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_682",
+  "slug": "tcs-ver-682",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Idiom: 'Back to square one' means?",
+  "description": "Idiom: 'Back to square one' means?",
+  "question": "Idiom: 'Back to square one' means?",
+  "options": [
+    "Starting over",
+    "Going back home",
+    "Returning to work",
+    "Revisiting a decision"
+  ],
+  "optionsMap": {
+    "A": "Starting over",
+    "B": "Going back home",
+    "C": "Returning to work",
+    "D": "Revisiting a decision"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Starting over",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

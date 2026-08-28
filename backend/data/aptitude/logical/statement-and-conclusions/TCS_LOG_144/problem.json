@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_144",
+  "slug": "tcs-log-144",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "statement-and-conclusions",
+  "topicName": "Statement and Conclusions",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Statement: Most criminals have a troubled childhood. John had a troubled chil...",
+  "description": "Statement: Most criminals have a troubled childhood. John had a troubled childhood. Conclusion: John will become a criminal.",
+  "question": "Statement: Most criminals have a troubled childhood. John had a troubled childhood. Conclusion: John will become a criminal.",
+  "options": [
+    "Conclusion does not follow",
+    "Conclusion follows",
+    "Partially follows",
+    "Cannot determine"
+  ],
+  "optionsMap": {
+    "A": "Conclusion does not follow",
+    "B": "Conclusion follows",
+    "C": "Partially follows",
+    "D": "Cannot determine"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Conclusion does not follow",
+  "tags": [
+    "logical",
+    "statement-and-conclusions"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

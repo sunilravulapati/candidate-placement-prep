@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_519",
+  "slug": "tcs-ver-519",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the synonym of OBSTINATE",
+  "description": "Choose the synonym of OBSTINATE",
+  "question": "Choose the synonym of OBSTINATE",
+  "options": [
+    "Stubborn",
+    "Flexible",
+    "Yielding",
+    "Agreeable"
+  ],
+  "optionsMap": {
+    "A": "Stubborn",
+    "B": "Flexible",
+    "C": "Yielding",
+    "D": "Agreeable"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Stubborn",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_058",
+  "slug": "tcs-log-058",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "blood-relations",
+  "topicName": "Blood Relations",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "If M is the daughter of N, N is the sister of P, P is the mother of Q, then M...",
+  "description": "If M is the daughter of N, N is the sister of P, P is the mother of Q, then M is Q's ___",
+  "question": "If M is the daughter of N, N is the sister of P, P is the mother of Q, then M is Q's ___",
+  "options": [
+    "Cousin",
+    "Niece",
+    "Aunt",
+    "Sister"
+  ],
+  "optionsMap": {
+    "A": "Cousin",
+    "B": "Niece",
+    "C": "Aunt",
+    "D": "Sister"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Cousin",
+  "tags": [
+    "logical",
+    "blood-relations"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

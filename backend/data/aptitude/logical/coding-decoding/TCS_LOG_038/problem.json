@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_038",
+  "slug": "tcs-log-038",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "coding-decoding",
+  "topicName": "Coding-Decoding",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "CLOUD is coded as DNPVF. What is STORM?",
+  "description": "CLOUD is coded as DNPVF. What is STORM?",
+  "question": "CLOUD is coded as DNPVF. What is STORM?",
+  "options": [
+    "TUPSO",
+    "TUSQP",
+    "TUPQS",
+    "TUPSQ"
+  ],
+  "optionsMap": {
+    "A": "TUPSO",
+    "B": "TUSQP",
+    "C": "TUPQS",
+    "D": "TUPSQ"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "TUPSO",
+  "tags": [
+    "logical",
+    "coding-decoding"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,422 @@
+[
+  {
+    "id": "TCS_VER_371",
+    "title": "Education is the most powerful _____ (1) one can use to change the world. It ...",
+    "description": "Education is the most powerful _____ (1) one can use to change the world. It empowers individuals, reduces poverty, and builds a foundation for a _____ (2) society. However, millions of children worldwide still lack _____ (3) to quality education. SELECT WORD FOR BLANK (1):",
+    "question": "Education is the most powerful _____ (1) one can use to change the world. It empowers individuals, reduces poverty, and builds a foundation for a _____ (2) society. However, millions of children worldwide still lack _____ (3) to quality education. SELECT WORD FOR BLANK (1):",
+    "options": [
+      "weapon",
+      "burden",
+      "problem",
+      "obstacle"
+    ],
+    "answer": "weapon",
+    "answerKey": "A",
+    "correctAnswer": "weapon",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: weapon.",
+    "topic": "cloze-test",
+    "topicName": "Cloze Test",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_372",
+    "title": "Education is the most powerful weapon one can use to change the world. It emp...",
+    "description": "Education is the most powerful weapon one can use to change the world. It empowers individuals, reduces poverty, and builds a foundation for a _____ (2) society. SELECT WORD FOR BLANK (2):",
+    "question": "Education is the most powerful weapon one can use to change the world. It empowers individuals, reduces poverty, and builds a foundation for a _____ (2) society. SELECT WORD FOR BLANK (2):",
+    "options": [
+      "prosperous",
+      "declining",
+      "stagnant",
+      "corrupted"
+    ],
+    "answer": "prosperous",
+    "answerKey": "A",
+    "correctAnswer": "prosperous",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: prosperous.",
+    "topic": "cloze-test",
+    "topicName": "Cloze Test",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_378",
+    "title": "The global economy is undergoing a major transition. Automation and AI are __...",
+    "description": "The global economy is undergoing a major transition. Automation and AI are _____ (2) traditional jobs, forcing workers to acquire new skills. SELECT WORD FOR BLANK (2):",
+    "question": "The global economy is undergoing a major transition. Automation and AI are _____ (2) traditional jobs, forcing workers to acquire new skills. SELECT WORD FOR BLANK (2):",
+    "options": [
+      "replacing",
+      "creating",
+      "preserving",
+      "protecting"
+    ],
+    "answer": "replacing",
+    "answerKey": "A",
+    "correctAnswer": "replacing",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: replacing.",
+    "topic": "cloze-test",
+    "topicName": "Cloze Test",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_374",
+    "title": "The city had grown rapidly. Skyscrapers now dominated the skyline where rice ...",
+    "description": "The city had grown rapidly. Skyscrapers now dominated the skyline where rice fields once _____ (2) stretched endlessly. SELECT WORD FOR BLANK (2):",
+    "question": "The city had grown rapidly. Skyscrapers now dominated the skyline where rice fields once _____ (2) stretched endlessly. SELECT WORD FOR BLANK (2):",
+    "options": [
+      "had",
+      "would",
+      "were",
+      "get"
+    ],
+    "answer": "had",
+    "answerKey": "A",
+    "correctAnswer": "had",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: had.",
+    "topic": "cloze-test",
+    "topicName": "Cloze Test",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_375",
+    "title": "Scientists have long _____ (1) the idea that humans are the only species capa...",
+    "description": "Scientists have long _____ (1) the idea that humans are the only species capable of complex problem-solving. Recent studies, however, have _____ (2) that crows, dolphins, and elephants also exhibit remarkable _____ (3). SELECT WORD FOR BLANK (1):",
+    "question": "Scientists have long _____ (1) the idea that humans are the only species capable of complex problem-solving. Recent studies, however, have _____ (2) that crows, dolphins, and elephants also exhibit remarkable _____ (3). SELECT WORD FOR BLANK (1):",
+    "options": [
+      "held",
+      "forgotten",
+      "abandoned",
+      "dismissed"
+    ],
+    "answer": "held",
+    "answerKey": "A",
+    "correctAnswer": "held",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: held.",
+    "topic": "cloze-test",
+    "topicName": "Cloze Test",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_381",
+    "title": "Climate negotiations have repeatedly _____ (1) to produce binding commitments...",
+    "description": "Climate negotiations have repeatedly _____ (1) to produce binding commitments. While leaders acknowledge the _____ (2) of the crisis, domestic politics often _____ (3) international cooperation. SELECT WORD FOR BLANK (1):",
+    "question": "Climate negotiations have repeatedly _____ (1) to produce binding commitments. While leaders acknowledge the _____ (2) of the crisis, domestic politics often _____ (3) international cooperation. SELECT WORD FOR BLANK (1):",
+    "options": [
+      "failed",
+      "succeeded",
+      "managed",
+      "helped"
+    ],
+    "answer": "failed",
+    "answerKey": "A",
+    "correctAnswer": "failed",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: failed.",
+    "topic": "cloze-test",
+    "topicName": "Cloze Test",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_382",
+    "title": "Climate negotiations have repeatedly failed. While leaders acknowledge the __...",
+    "description": "Climate negotiations have repeatedly failed. While leaders acknowledge the _____ (2) of the crisis, domestic politics obstructs cooperation. SELECT WORD FOR BLANK (2):",
+    "question": "Climate negotiations have repeatedly failed. While leaders acknowledge the _____ (2) of the crisis, domestic politics obstructs cooperation. SELECT WORD FOR BLANK (2):",
+    "options": [
+      "urgency",
+      "irrelevance",
+      "unimportance",
+      "insignificance"
+    ],
+    "answer": "urgency",
+    "answerKey": "A",
+    "correctAnswer": "urgency",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: urgency.",
+    "topic": "cloze-test",
+    "topicName": "Cloze Test",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_370",
+    "title": "In today's world, technology has become _____ of our lives. From smartphones ...",
+    "description": "In today's world, technology has become _____ of our lives. From smartphones to smart homes, devices are _____ (2) every aspect of human existence. While this brings tremendous convenience, it also raises concerns about privacy and mental health. SELECT WORD FOR BLANK (2):",
+    "question": "In today's world, technology has become _____ of our lives. From smartphones to smart homes, devices are _____ (2) every aspect of human existence. While this brings tremendous convenience, it also raises concerns about privacy and mental health. SELECT WORD FOR BLANK (2):",
+    "options": [
+      "transforming",
+      "destroying",
+      "ignoring",
+      "eliminating"
+    ],
+    "answer": "transforming",
+    "answerKey": "A",
+    "correctAnswer": "transforming",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: transforming.",
+    "topic": "cloze-test",
+    "topicName": "Cloze Test",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_373",
+    "title": "The city had grown rapidly over the past decade. Skyscrapers now _____ (1) th...",
+    "description": "The city had grown rapidly over the past decade. Skyscrapers now _____ (1) the skyline where rice fields once _____ (2). The transformation was _____ (3), but it came with the cost of displacing thousands of farmers. SELECT WORD FOR BLANK (1):",
+    "question": "The city had grown rapidly over the past decade. Skyscrapers now _____ (1) the skyline where rice fields once _____ (2). The transformation was _____ (3), but it came with the cost of displacing thousands of farmers. SELECT WORD FOR BLANK (1):",
+    "options": [
+      "dominated",
+      "decorated",
+      "disturbed",
+      "blocked"
+    ],
+    "answer": "dominated",
+    "answerKey": "A",
+    "correctAnswer": "dominated",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: dominated.",
+    "topic": "cloze-test",
+    "topicName": "Cloze Test",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_376",
+    "title": "Scientists have long held the idea that humans alone solve complex problems. ...",
+    "description": "Scientists have long held the idea that humans alone solve complex problems. Recent studies have _____ (2) that crows and elephants also exhibit remarkable intelligence. SELECT WORD FOR BLANK (2):",
+    "question": "Scientists have long held the idea that humans alone solve complex problems. Recent studies have _____ (2) that crows and elephants also exhibit remarkable intelligence. SELECT WORD FOR BLANK (2):",
+    "options": [
+      "demonstrated",
+      "hidden",
+      "denied",
+      "ignored"
+    ],
+    "answer": "demonstrated",
+    "answerKey": "A",
+    "correctAnswer": "demonstrated",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: demonstrated.",
+    "topic": "cloze-test",
+    "topicName": "Cloze Test",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_377",
+    "title": "The global economy is undergoing a major _____ (1). Automation and artificial...",
+    "description": "The global economy is undergoing a major _____ (1). Automation and artificial intelligence are _____ (2) traditional jobs, forcing workers to _____ (3) new skills to remain relevant. SELECT WORD FOR BLANK (1):",
+    "question": "The global economy is undergoing a major _____ (1). Automation and artificial intelligence are _____ (2) traditional jobs, forcing workers to _____ (3) new skills to remain relevant. SELECT WORD FOR BLANK (1):",
+    "options": [
+      "transition",
+      "failure",
+      "stagnation",
+      "decline"
+    ],
+    "answer": "transition",
+    "answerKey": "A",
+    "correctAnswer": "transition",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: transition.",
+    "topic": "cloze-test",
+    "topicName": "Cloze Test",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_379",
+    "title": "Reading fiction has been shown to _____ (1) empathy. When readers _____ (2) t...",
+    "description": "Reading fiction has been shown to _____ (1) empathy. When readers _____ (2) themselves in the lives of characters, they develop a deeper understanding of perspectives different from their _____ (3). SELECT WORD FOR BLANK (1):",
+    "question": "Reading fiction has been shown to _____ (1) empathy. When readers _____ (2) themselves in the lives of characters, they develop a deeper understanding of perspectives different from their _____ (3). SELECT WORD FOR BLANK (1):",
+    "options": [
+      "enhance",
+      "reduce",
+      "damage",
+      "weaken"
+    ],
+    "answer": "enhance",
+    "answerKey": "A",
+    "correctAnswer": "enhance",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: enhance.",
+    "topic": "cloze-test",
+    "topicName": "Cloze Test",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_380",
+    "title": "Reading fiction enhances empathy. When readers _____ (2) themselves in the li...",
+    "description": "Reading fiction enhances empathy. When readers _____ (2) themselves in the lives of characters, they understand different perspectives. SELECT WORD FOR BLANK (2):",
+    "question": "Reading fiction enhances empathy. When readers _____ (2) themselves in the lives of characters, they understand different perspectives. SELECT WORD FOR BLANK (2):",
+    "options": [
+      "immerse",
+      "isolate",
+      "distance",
+      "remove"
+    ],
+    "answer": "immerse",
+    "answerKey": "A",
+    "correctAnswer": "immerse",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: immerse.",
+    "topic": "cloze-test",
+    "topicName": "Cloze Test",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_383",
+    "title": "Mental health awareness has grown _____ (1) in recent years. Society is slowl...",
+    "description": "Mental health awareness has grown _____ (1) in recent years. Society is slowly _____ (2) the stigma that once surrounded mental illness, making it easier for individuals to _____ (3) help. SELECT WORD FOR BLANK (1):",
+    "question": "Mental health awareness has grown _____ (1) in recent years. Society is slowly _____ (2) the stigma that once surrounded mental illness, making it easier for individuals to _____ (3) help. SELECT WORD FOR BLANK (1):",
+    "options": [
+      "considerably",
+      "negligibly",
+      "minimally",
+      "barely"
+    ],
+    "answer": "considerably",
+    "answerKey": "A",
+    "correctAnswer": "considerably",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: considerably.",
+    "topic": "cloze-test",
+    "topicName": "Cloze Test",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

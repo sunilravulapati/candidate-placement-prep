@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_594",
+  "slug": "tcs-ver-594",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: SURREPTITIOUS",
+  "description": "Choose the word most similar in meaning to: SURREPTITIOUS",
+  "question": "Choose the word most similar in meaning to: SURREPTITIOUS",
+  "options": [
+    "Done secretly",
+    "Done openly",
+    "Publicly visible",
+    "Transparent"
+  ],
+  "optionsMap": {
+    "A": "Done secretly",
+    "B": "Done openly",
+    "C": "Publicly visible",
+    "D": "Transparent"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Done secretly",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -2,57 +2,81 @@
   {
     "id": "sample-1",
     "classification": "sample",
-    "input": "\"babad\"",
-    "expectedOutput": "\"bab\"",
-    "explanation": "Sample test 1 for Minimum Window Substring"
+    "displayInput": "s = \"ADOBECODEBANC\", t = \"ABC\"",
+    "input": "ADOBECODEBANC\nABC",
+    "stdin": "ADOBECODEBANC\nABC",
+    "expectedOutput": "\"BANC\"",
+    "explanation": "canonical minimum window. Expected output: \"BANC\"",
+    "serializationStatus": "compatible"
   },
   {
     "id": "sample-2",
     "classification": "sample",
-    "input": "\"cbbd\"",
-    "expectedOutput": "\"bb\"",
-    "explanation": "Sample test 2 for Minimum Window Substring"
+    "displayInput": "s = \"a\", t = \"a\"",
+    "input": "a\na",
+    "stdin": "a\na",
+    "expectedOutput": "\"a\"",
+    "explanation": "single exact match. Expected output: \"a\"",
+    "serializationStatus": "compatible"
   },
   {
     "id": "sample-3",
     "classification": "sample",
-    "input": "\"a\"",
-    "expectedOutput": "\"a\"",
-    "explanation": "Sample test 3 for Minimum Window Substring"
-  },
-  {
-    "id": "edge-1",
-    "classification": "edge",
-    "input": "\"\"",
+    "displayInput": "s = \"a\", t = \"aa\"",
+    "input": "a\naa",
+    "stdin": "a\naa",
     "expectedOutput": "\"\"",
-    "explanation": "Empty string boundary"
+    "explanation": "missing multiplicity. Expected output: \"\"",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "corner-2",
-    "classification": "corner",
-    "input": "\"aaaaa\"",
-    "expectedOutput": "\"aaaaa\"",
-    "explanation": "All identical characters"
+    "id": "hidden-1",
+    "classification": "hidden",
+    "displayInput": "s = \"aaflslflsldkalskaaa\", t = \"aaa\"",
+    "input": "aaflslflsldkalskaaa\naaa",
+    "stdin": "aaflslflsldkalskaaa\naaa",
+    "expectedOutput": "\"aaa\"",
+    "explanation": "repeated target character",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "stress-3",
-    "classification": "stress",
-    "input": "\"abcdefghijklmnopqrstuvwxyz\"",
-    "expectedOutput": "1",
-    "explanation": "All distinct characters"
+    "id": "hidden-2",
+    "classification": "hidden",
+    "displayInput": "s = \"ab\", t = \"b\"",
+    "input": "ab\nb",
+    "stdin": "ab\nb",
+    "expectedOutput": "\"b\"",
+    "explanation": "window at end",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "duplicates-4",
-    "classification": "duplicates",
-    "input": "\"abacaba\"",
-    "expectedOutput": "\"abacaba\"",
-    "explanation": "Symmetric palindrome string"
+    "id": "hidden-3",
+    "classification": "hidden",
+    "displayInput": "s = \"xyz\", t = \"aa\"",
+    "input": "xyz\naa",
+    "stdin": "xyz\naa",
+    "expectedOutput": "\"\"",
+    "explanation": "target absent",
+    "serializationStatus": "compatible"
   },
   {
-    "id": "performance-5",
-    "classification": "performance",
-    "input": "\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"",
-    "expectedOutput": "...",
-    "explanation": "Performance test"
+    "id": "hidden-4",
+    "classification": "hidden",
+    "displayInput": "s = \"bdab\", t = \"ab\"",
+    "input": "bdab\nab",
+    "stdin": "bdab\nab",
+    "expectedOutput": "\"ab\"",
+    "explanation": "short window at end",
+    "serializationStatus": "compatible"
+  },
+  {
+    "id": "hidden-5",
+    "classification": "hidden",
+    "displayInput": "s = \"this is a test\", t = \"t a\"",
+    "input": "this is a test\nt a",
+    "stdin": "this is a test\nt a",
+    "expectedOutput": "\"t a\"",
+    "explanation": "spaces treated as characters",
+    "serializationStatus": "compatible"
   }
 ]

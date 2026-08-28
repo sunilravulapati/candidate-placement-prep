@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_377",
+  "slug": "tcs-apt-377",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find the 10th term of the sequence 3, 7, 11, 15...",
+  "description": "Find the 10th term of the sequence 3, 7, 11, 15...",
+  "question": "Find the 10th term of the sequence 3, 7, 11, 15...",
+  "options": [
+    "39",
+    "40",
+    "38",
+    "42"
+  ],
+  "optionsMap": {
+    "A": "39",
+    "B": "40",
+    "C": "38",
+    "D": "42"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "39",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

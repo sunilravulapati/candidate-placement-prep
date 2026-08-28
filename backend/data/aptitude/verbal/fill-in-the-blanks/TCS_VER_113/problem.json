@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_113",
+  "slug": "tcs-ver-113",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The CEO made a _____ decision that saved the company from bankruptcy.",
+  "description": "The CEO made a _____ decision that saved the company from bankruptcy.",
+  "question": "The CEO made a _____ decision that saved the company from bankruptcy.",
+  "options": [
+    "prudent",
+    "rash",
+    "hasty",
+    "impulsive"
+  ],
+  "optionsMap": {
+    "A": "prudent",
+    "B": "rash",
+    "C": "hasty",
+    "D": "impulsive"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "prudent",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

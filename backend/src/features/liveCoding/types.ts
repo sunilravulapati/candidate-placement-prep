@@ -169,6 +169,9 @@ export interface WorkspaceProblem {
   timeComplexity?: string | null;
   spaceComplexity?: string | null;
   estimatedTime: number;
+  status?: ProblemStatus;
+  isBookmarked?: boolean;
+  isSolved?: boolean;
 }
 
 

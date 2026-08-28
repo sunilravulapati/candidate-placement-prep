@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_625",
+  "slug": "tcs-apt-625",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "2 numbers: product 192, sum 28. Numbers?",
+  "description": "2 numbers: product 192, sum 28. Numbers?",
+  "question": "2 numbers: product 192, sum 28. Numbers?",
+  "options": [
+    "16 and 12",
+    "14 and 14",
+    "20 and 8",
+    "24 and 4"
+  ],
+  "optionsMap": {
+    "A": "16 and 12",
+    "B": "14 and 14",
+    "C": "20 and 8",
+    "D": "24 and 4"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "16 and 12",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

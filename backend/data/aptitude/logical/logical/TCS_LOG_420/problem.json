@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_420",
+  "slug": "tcs-log-420",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Clock: At 3:00 angle between hands?",
+  "description": "Clock: At 3:00 angle between hands?",
+  "question": "Clock: At 3:00 angle between hands?",
+  "options": [
+    "90°",
+    "60°",
+    "45°",
+    "180°"
+  ],
+  "optionsMap": {
+    "A": "90°",
+    "B": "60°",
+    "C": "45°",
+    "D": "180°"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "90°",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

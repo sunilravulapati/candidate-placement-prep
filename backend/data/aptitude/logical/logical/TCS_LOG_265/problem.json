@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_265",
+  "slug": "tcs-log-265",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Analogy: Snake : Reptile :: Frog : ?",
+  "description": "Analogy: Snake : Reptile :: Frog : ?",
+  "question": "Analogy: Snake : Reptile :: Frog : ?",
+  "options": [
+    "Amphibian",
+    "Insect",
+    "Mammal",
+    "Bird"
+  ],
+  "optionsMap": {
+    "A": "Amphibian",
+    "B": "Insect",
+    "C": "Mammal",
+    "D": "Bird"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Amphibian",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

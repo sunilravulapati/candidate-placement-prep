@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_630",
+  "slug": "tcs-apt-630",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If 20 shirts cost Rs 4000 after 20% discount. Marked price per shirt?",
+  "description": "If 20 shirts cost Rs 4000 after 20% discount. Marked price per shirt?",
+  "question": "If 20 shirts cost Rs 4000 after 20% discount. Marked price per shirt?",
+  "options": [
+    "250",
+    "200",
+    "300",
+    "350"
+  ],
+  "optionsMap": {
+    "A": "250",
+    "B": "200",
+    "C": "300",
+    "D": "350"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "250",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

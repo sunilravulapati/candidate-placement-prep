@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_077",
+  "slug": "tcs-log-077",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "seating-arrangement",
+  "topicName": "Seating Arrangement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "6 people sit in a circle. A is between B and C. D is between E and F. B is op...",
+  "description": "6 people sit in a circle. A is between B and C. D is between E and F. B is opposite D. Who is opposite A?",
+  "question": "6 people sit in a circle. A is between B and C. D is between E and F. B is opposite D. Who is opposite A?",
+  "options": [
+    "E",
+    "F",
+    "C",
+    "B"
+  ],
+  "optionsMap": {
+    "A": "E",
+    "B": "F",
+    "C": "C",
+    "D": "B"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "E",
+  "tags": [
+    "logical",
+    "seating-arrangement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

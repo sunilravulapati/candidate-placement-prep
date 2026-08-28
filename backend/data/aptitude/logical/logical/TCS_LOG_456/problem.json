@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_456",
+  "slug": "tcs-log-456",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Statement: Birds lay eggs. Eagles are birds. Eagle A lays egg B. Conclusion?",
+  "description": "Statement: Birds lay eggs. Eagles are birds. Eagle A lays egg B. Conclusion?",
+  "question": "Statement: Birds lay eggs. Eagles are birds. Eagle A lays egg B. Conclusion?",
+  "options": [
+    "True",
+    "False",
+    "Cannot say",
+    "Partially"
+  ],
+  "optionsMap": {
+    "A": "True",
+    "B": "False",
+    "C": "Cannot say",
+    "D": "Partially"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "True",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

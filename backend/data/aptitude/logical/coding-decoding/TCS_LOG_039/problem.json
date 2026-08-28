@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_039",
+  "slug": "tcs-log-039",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "coding-decoding",
+  "topicName": "Coding-Decoding",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If SAND = 19-1-14-4, then GOLD = ?",
+  "description": "If SAND = 19-1-14-4, then GOLD = ?",
+  "question": "If SAND = 19-1-14-4, then GOLD = ?",
+  "options": [
+    "7-15-12-4",
+    "8-15-12-5",
+    "7-16-12-4",
+    "8-14-12-4"
+  ],
+  "optionsMap": {
+    "A": "7-15-12-4",
+    "B": "8-15-12-5",
+    "C": "7-16-12-4",
+    "D": "8-14-12-4"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "7-15-12-4",
+  "tags": [
+    "logical",
+    "coding-decoding"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

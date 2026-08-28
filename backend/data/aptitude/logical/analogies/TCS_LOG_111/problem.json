@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_111",
+  "slug": "tcs-log-111",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "analogies",
+  "topicName": "Analogies",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Democracy : Republic :: Monarchy : ?",
+  "description": "Democracy : Republic :: Monarchy : ?",
+  "question": "Democracy : Republic :: Monarchy : ?",
+  "options": [
+    "Kingdom",
+    "Senate",
+    "Parliament",
+    "Committee"
+  ],
+  "optionsMap": {
+    "A": "Kingdom",
+    "B": "Senate",
+    "C": "Parliament",
+    "D": "Committee"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Kingdom",
+  "tags": [
+    "logical",
+    "analogies"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

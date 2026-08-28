@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_400",
+  "slug": "tcs-log-400",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Statement: All students work hard. Ram is a student. Conclusion?",
+  "description": "Statement: All students work hard. Ram is a student. Conclusion?",
+  "question": "Statement: All students work hard. Ram is a student. Conclusion?",
+  "options": [
+    "Ram works hard",
+    "Ram is lazy",
+    "Students are smart",
+    "Cannot say"
+  ],
+  "optionsMap": {
+    "A": "Ram works hard",
+    "B": "Ram is lazy",
+    "C": "Students are smart",
+    "D": "Cannot say"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Ram works hard",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

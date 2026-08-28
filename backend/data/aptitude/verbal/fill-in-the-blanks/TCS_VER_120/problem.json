@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_120",
+  "slug": "tcs-ver-120",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The _____ behavior of the child annoyed everyone at the restaurant.",
+  "description": "The _____ behavior of the child annoyed everyone at the restaurant.",
+  "question": "The _____ behavior of the child annoyed everyone at the restaurant.",
+  "options": [
+    "boisterous",
+    "quiet",
+    "shy",
+    "polite"
+  ],
+  "optionsMap": {
+    "A": "boisterous",
+    "B": "quiet",
+    "C": "shy",
+    "D": "polite"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "boisterous",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

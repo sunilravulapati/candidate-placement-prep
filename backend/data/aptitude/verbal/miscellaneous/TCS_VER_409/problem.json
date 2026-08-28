@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_409",
+  "slug": "tcs-ver-409",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "miscellaneous",
+  "topicName": "Miscellaneous",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the correct form: 'The team _____ won the match.'",
+  "description": "Choose the correct form: 'The team _____ won the match.'",
+  "question": "Choose the correct form: 'The team _____ won the match.'",
+  "options": [
+    "has",
+    "have",
+    "had",
+    "will have"
+  ],
+  "optionsMap": {
+    "A": "has",
+    "B": "have",
+    "C": "had",
+    "D": "will have"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "has",
+  "tags": [
+    "verbal",
+    "miscellaneous"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

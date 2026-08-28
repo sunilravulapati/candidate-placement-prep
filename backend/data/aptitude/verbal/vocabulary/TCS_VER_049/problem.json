@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_049",
+  "slug": "tcs-ver-049",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: WHIMSICAL",
+  "description": "Choose the word most similar in meaning to: WHIMSICAL",
+  "question": "Choose the word most similar in meaning to: WHIMSICAL",
+  "options": [
+    "Fanciful",
+    "Serious",
+    "Logical",
+    "Practical"
+  ],
+  "optionsMap": {
+    "A": "Fanciful",
+    "B": "Serious",
+    "C": "Logical",
+    "D": "Practical"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Fanciful",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

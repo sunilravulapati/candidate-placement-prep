@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_336",
+  "slug": "tcs-log-336",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Statement-Assumption: Statement: Install fire extinguishers in offices. Assum...",
+  "description": "Statement-Assumption: Statement: Install fire extinguishers in offices. Assumption?",
+  "question": "Statement-Assumption: Statement: Install fire extinguishers in offices. Assumption?",
+  "options": [
+    "Offices catch fire frequently",
+    "No one can put out fire",
+    "Fire is dangerous in offices",
+    "Both A and C"
+  ],
+  "optionsMap": {
+    "A": "Offices catch fire frequently",
+    "B": "No one can put out fire",
+    "C": "Fire is dangerous in offices",
+    "D": "Both A and C"
+  },
+  "answer": "C",
+  "answerKey": "C",
+  "correctAnswer": "Fire is dangerous in offices",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

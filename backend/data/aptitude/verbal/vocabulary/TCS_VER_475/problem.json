@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_475",
+  "slug": "tcs-ver-475",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Which sentence uses 'lay' correctly?",
+  "description": "Which sentence uses 'lay' correctly?",
+  "question": "Which sentence uses 'lay' correctly?",
+  "options": [
+    "She laid the book on the table yesterday.",
+    "She lied the book on the table.",
+    "She lay the book on the table yesterday.",
+    "She has lay the book."
+  ],
+  "optionsMap": {
+    "A": "She laid the book on the table yesterday.",
+    "B": "She lied the book on the table.",
+    "C": "She lay the book on the table yesterday.",
+    "D": "She has lay the book."
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "She laid the book on the table yesterday.",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

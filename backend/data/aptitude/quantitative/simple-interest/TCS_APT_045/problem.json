@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_045",
+  "slug": "tcs-apt-045",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "simple-interest",
+  "topicName": "Simple Interest",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The SI on a certain sum for 2 years at 12% p.a. is Rs.1440. Find the sum.",
+  "description": "The SI on a certain sum for 2 years at 12% p.a. is Rs.1440. Find the sum.",
+  "question": "The SI on a certain sum for 2 years at 12% p.a. is Rs.1440. Find the sum.",
+  "options": [
+    "Rs.6000",
+    "Rs.5000",
+    "Rs.7000",
+    "Rs.4800"
+  ],
+  "optionsMap": {
+    "A": "Rs.6000",
+    "B": "Rs.5000",
+    "C": "Rs.7000",
+    "D": "Rs.4800"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.6000",
+  "tags": [
+    "quantitative",
+    "simple-interest"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

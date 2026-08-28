@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_468",
+  "slug": "tcs-apt-468",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "mensuration",
+  "topicName": "Mensuration",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A cylinder has same radius and height. If radius doubles, volume becomes:",
+  "description": "A cylinder has same radius and height. If radius doubles, volume becomes:",
+  "question": "A cylinder has same radius and height. If radius doubles, volume becomes:",
+  "options": [
+    "4 times",
+    "2 times",
+    "8 times",
+    "6 times"
+  ],
+  "optionsMap": {
+    "A": "4 times",
+    "B": "2 times",
+    "C": "8 times",
+    "D": "6 times"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "4 times",
+  "tags": [
+    "quantitative",
+    "mensuration"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

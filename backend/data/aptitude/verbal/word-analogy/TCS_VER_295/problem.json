@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_295",
+  "slug": "tcs-ver-295",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "word-analogy",
+  "topicName": "Word Analogy",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Complete the analogy: Ornithology : Birds :: Herpetology : ?",
+  "description": "Complete the analogy: Ornithology : Birds :: Herpetology : ?",
+  "question": "Complete the analogy: Ornithology : Birds :: Herpetology : ?",
+  "options": [
+    "Reptiles",
+    "Insects",
+    "Plants",
+    "Mammals"
+  ],
+  "optionsMap": {
+    "A": "Reptiles",
+    "B": "Insects",
+    "C": "Plants",
+    "D": "Mammals"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Reptiles",
+  "tags": [
+    "verbal",
+    "word-analogy"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

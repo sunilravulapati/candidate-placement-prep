@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_406",
+  "slug": "tcs-apt-406",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "percentages",
+  "topicName": "Percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A's salary is 20% less than B's. By what percent is B's salary more than A's?",
+  "description": "A's salary is 20% less than B's. By what percent is B's salary more than A's?",
+  "question": "A's salary is 20% less than B's. By what percent is B's salary more than A's?",
+  "options": [
+    "25%",
+    "20%",
+    "22%",
+    "15%"
+  ],
+  "optionsMap": {
+    "A": "25%",
+    "B": "20%",
+    "C": "22%",
+    "D": "15%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "25%",
+  "tags": [
+    "quantitative",
+    "percentages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

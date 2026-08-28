@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_354",
+  "slug": "tcs-ver-354",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "one-word-substitution",
+  "topicName": "One Word Substitution",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find the one word substitution for: Study of birds",
+  "description": "Find the one word substitution for: Study of birds",
+  "question": "Find the one word substitution for: Study of birds",
+  "options": [
+    "Ornithology",
+    "Entomology",
+    "Herpetology",
+    "Ichthyology"
+  ],
+  "optionsMap": {
+    "A": "Ornithology",
+    "B": "Entomology",
+    "C": "Herpetology",
+    "D": "Ichthyology"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Ornithology",
+  "tags": [
+    "verbal",
+    "one-word-substitution"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

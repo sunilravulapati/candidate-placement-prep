@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_699",
+  "slug": "tcs-ver-699",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Fill blank: The scientist __ a groundbreaking theory in the paper.",
+  "description": "Fill blank: The scientist __ a groundbreaking theory in the paper.",
+  "question": "Fill blank: The scientist __ a groundbreaking theory in the paper.",
+  "options": [
+    "proposed",
+    "disproved",
+    "rejected",
+    "withdrew"
+  ],
+  "optionsMap": {
+    "A": "proposed",
+    "B": "disproved",
+    "C": "rejected",
+    "D": "withdrew"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "proposed",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

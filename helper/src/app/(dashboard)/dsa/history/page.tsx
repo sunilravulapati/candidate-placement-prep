@@ -205,7 +205,7 @@ export default function SubmissionHistoryPage() {
               : 'Try a different filter or solve more problems.'}
           </p>
           <Link
-            href="/dsa/library"
+            href="/dsa"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-semibold transition-colors"
           >
             Browse Problems

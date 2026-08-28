@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_454",
+  "slug": "tcs-apt-454",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "algebra",
+  "topicName": "Algebra",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If a + b = 7 and a - b = 3, find a2 - b2",
+  "description": "If a + b = 7 and a - b = 3, find a2 - b2",
+  "question": "If a + b = 7 and a - b = 3, find a2 - b2",
+  "options": [
+    "21",
+    "18",
+    "15",
+    "24"
+  ],
+  "optionsMap": {
+    "A": "21",
+    "B": "18",
+    "C": "15",
+    "D": "24"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "21",
+  "tags": [
+    "quantitative",
+    "algebra"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

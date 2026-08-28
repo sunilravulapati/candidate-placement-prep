@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_007",
+  "slug": "tcs-log-007",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "series",
+  "topicName": "Series",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number series: 10, 9, 7, 4, ___",
+  "description": "Number series: 10, 9, 7, 4, ___",
+  "question": "Number series: 10, 9, 7, 4, ___",
+  "options": [
+    "0",
+    "−1",
+    "1",
+    "2"
+  ],
+  "optionsMap": {
+    "A": "0",
+    "B": "−1",
+    "C": "1",
+    "D": "2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "0",
+  "tags": [
+    "logical",
+    "series"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

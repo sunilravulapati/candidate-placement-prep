@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_185",
+  "slug": "tcs-apt-185",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "mixtures",
+  "topicName": "Mixtures",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A 40L mixture has 30% alcohol. How much water must be added to make alcohol 20%?",
+  "description": "A 40L mixture has 30% alcohol. How much water must be added to make alcohol 20%?",
+  "question": "A 40L mixture has 30% alcohol. How much water must be added to make alcohol 20%?",
+  "options": [
+    "20 L",
+    "25 L",
+    "15 L",
+    "10 L"
+  ],
+  "optionsMap": {
+    "A": "20 L",
+    "B": "25 L",
+    "C": "15 L",
+    "D": "10 L"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "20 L",
+  "tags": [
+    "quantitative",
+    "mixtures"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

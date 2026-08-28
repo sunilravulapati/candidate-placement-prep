@@ -83,7 +83,14 @@ export default function AptitudeModule() {
                 }}
               />
             )}
-            {activeTab === 'mock_tests' && <MockTests />}
+            {activeTab === 'mock_tests' && (
+              <MockTests 
+                onStartMockTest={(session) => {
+                  setSelectedSession(session);
+                  setViewState('workspace');
+                }}
+              />
+            )}
             {activeTab === 'analytics' && <Analytics />}
             {activeTab === 'history' && (
               <History 

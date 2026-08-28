@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_671",
+  "slug": "tcs-ver-671",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "One word: One who deals in stolen goods",
+  "description": "One word: One who deals in stolen goods",
+  "question": "One word: One who deals in stolen goods",
+  "options": [
+    "Fence",
+    "Thief",
+    "Robber",
+    "Burglar"
+  ],
+  "optionsMap": {
+    "A": "Fence",
+    "B": "Thief",
+    "C": "Robber",
+    "D": "Burglar"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Fence",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

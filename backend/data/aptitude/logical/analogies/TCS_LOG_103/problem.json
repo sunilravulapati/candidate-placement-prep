@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_103",
+  "slug": "tcs-log-103",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "analogies",
+  "topicName": "Analogies",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Smile : Happy :: Frown : ?",
+  "description": "Smile : Happy :: Frown : ?",
+  "question": "Smile : Happy :: Frown : ?",
+  "options": [
+    "Angry",
+    "Sad",
+    "Bored",
+    "Shocked"
+  ],
+  "optionsMap": {
+    "A": "Angry",
+    "B": "Sad",
+    "C": "Bored",
+    "D": "Shocked"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Sad",
+  "tags": [
+    "logical",
+    "analogies"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

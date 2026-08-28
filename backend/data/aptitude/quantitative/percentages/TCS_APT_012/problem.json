@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_012",
+  "slug": "tcs-apt-012",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "percentages",
+  "topicName": "Percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A number is first increased by 25% and then decreased by 25%. The net change is:",
+  "description": "A number is first increased by 25% and then decreased by 25%. The net change is:",
+  "question": "A number is first increased by 25% and then decreased by 25%. The net change is:",
+  "options": [
+    "6.25% decrease",
+    "No change",
+    "6.25% increase",
+    "0.25% increase"
+  ],
+  "optionsMap": {
+    "A": "6.25% decrease",
+    "B": "No change",
+    "C": "6.25% increase",
+    "D": "0.25% increase"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "6.25% decrease",
+  "tags": [
+    "quantitative",
+    "percentages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

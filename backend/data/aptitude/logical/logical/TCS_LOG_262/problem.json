@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_262",
+  "slug": "tcs-log-262",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Analogy: Earth : Planet :: India : ?",
+  "description": "Analogy: Earth : Planet :: India : ?",
+  "question": "Analogy: Earth : Planet :: India : ?",
+  "options": [
+    "Country",
+    "City",
+    "Continent",
+    "State"
+  ],
+  "optionsMap": {
+    "A": "Country",
+    "B": "City",
+    "C": "Continent",
+    "D": "State"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Country",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

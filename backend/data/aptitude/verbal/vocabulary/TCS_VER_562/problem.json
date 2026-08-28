@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_562",
+  "slug": "tcs-ver-562",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: RECALCITRANT",
+  "description": "Choose the word most similar in meaning to: RECALCITRANT",
+  "question": "Choose the word most similar in meaning to: RECALCITRANT",
+  "options": [
+    "Stubbornly disobedient",
+    "Obedient",
+    "Cooperative",
+    "Willing"
+  ],
+  "optionsMap": {
+    "A": "Stubbornly disobedient",
+    "B": "Obedient",
+    "C": "Cooperative",
+    "D": "Willing"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Stubbornly disobedient",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

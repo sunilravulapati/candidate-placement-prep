@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_311",
+  "slug": "tcs-log-311",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Puzzle: P earns more than Q. R earns less than P. S earns more than P. Who ea...",
+  "description": "Puzzle: P earns more than Q. R earns less than P. S earns more than P. Who earns least?",
+  "question": "Puzzle: P earns more than Q. R earns less than P. S earns more than P. Who earns least?",
+  "options": [
+    "Q",
+    "P",
+    "R",
+    "S"
+  ],
+  "optionsMap": {
+    "A": "Q",
+    "B": "P",
+    "C": "R",
+    "D": "S"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Q",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

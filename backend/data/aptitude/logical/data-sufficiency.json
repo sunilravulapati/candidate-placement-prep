@@ -1,0 +1,302 @@
+[
+  {
+    "id": "TCS_LOG_200",
+    "title": "How old is Priya? (I) Priya is 5 years older than Riya. (II) Riya is 20 years...",
+    "description": "How old is Priya? (I) Priya is 5 years older than Riya. (II) Riya is 20 years old.",
+    "question": "How old is Priya? (I) Priya is 5 years older than Riya. (II) Riya is 20 years old.",
+    "options": [
+      "Both together are sufficient",
+      "Only I",
+      "Only II",
+      "Neither"
+    ],
+    "answer": "Both together are sufficient",
+    "answerKey": "A",
+    "correctAnswer": "Both together are sufficient",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Both together are sufficient.",
+    "topic": "data-sufficiency",
+    "topicName": "Data Sufficiency",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_191",
+    "title": "Is x > 0? (I) x2 = 4 (II) x + 1 > 0",
+    "description": "Is x > 0? (I) x2 = 4 (II) x + 1 > 0",
+    "question": "Is x > 0? (I) x2 = 4 (II) x + 1 > 0",
+    "options": [
+      "Statement II alone is sufficient",
+      "Statement I alone is sufficient",
+      "Both together are sufficient",
+      "Neither is sufficient"
+    ],
+    "answer": "Statement II alone is sufficient",
+    "answerKey": "A",
+    "correctAnswer": "Statement II alone is sufficient",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Statement II alone is sufficient.",
+    "topic": "data-sufficiency",
+    "topicName": "Data Sufficiency",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_192",
+    "title": "What is the value of x? (I) 2x + y = 10 (II) x − y = 2",
+    "description": "What is the value of x? (I) 2x + y = 10 (II) x − y = 2",
+    "question": "What is the value of x? (I) 2x + y = 10 (II) x − y = 2",
+    "options": [
+      "Both together are sufficient",
+      "Statement I alone",
+      "Statement II alone",
+      "Neither"
+    ],
+    "answer": "Both together are sufficient",
+    "answerKey": "A",
+    "correctAnswer": "Both together are sufficient",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Both together are sufficient.",
+    "topic": "data-sufficiency",
+    "topicName": "Data Sufficiency",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_197",
+    "title": "What is the perimeter of a rectangle? (I) Length is 12 cm. (II) Area is 60 cm2.",
+    "description": "What is the perimeter of a rectangle? (I) Length is 12 cm. (II) Area is 60 cm2.",
+    "question": "What is the perimeter of a rectangle? (I) Length is 12 cm. (II) Area is 60 cm2.",
+    "options": [
+      "Both together are sufficient",
+      "Statement I alone",
+      "Statement II alone",
+      "Neither"
+    ],
+    "answer": "Both together are sufficient",
+    "answerKey": "A",
+    "correctAnswer": "Both together are sufficient",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Both together are sufficient.",
+    "topic": "data-sufficiency",
+    "topicName": "Data Sufficiency",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_199",
+    "title": "What is the distance from A to C? (I) Distance from A to B is 5 km. (II) Dist...",
+    "description": "What is the distance from A to C? (I) Distance from A to B is 5 km. (II) Distance from B to C is 7 km.",
+    "question": "What is the distance from A to C? (I) Distance from A to B is 5 km. (II) Distance from B to C is 7 km.",
+    "options": [
+      "Both statements together might not be sufficient without knowing if A, B, C are collinear",
+      "Both alone",
+      "Only II",
+      "Only I"
+    ],
+    "answer": "Both statements together might not be sufficient without knowing if A, B, C are collinear",
+    "answerKey": "A",
+    "correctAnswer": "Both statements together might not be sufficient without knowing if A, B, C are collinear",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Both statements together might not be sufficient without knowing if A, B, C are collinear.",
+    "topic": "data-sufficiency",
+    "topicName": "Data Sufficiency",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_193",
+    "title": "Is triangle ABC equilateral? (I) All sides are equal. (II) All angles are 60°.",
+    "description": "Is triangle ABC equilateral? (I) All sides are equal. (II) All angles are 60°.",
+    "question": "Is triangle ABC equilateral? (I) All sides are equal. (II) All angles are 60°.",
+    "options": [
+      "Either I or II alone is sufficient",
+      "Only I is sufficient",
+      "Only II is sufficient",
+      "Both together are needed"
+    ],
+    "answer": "Either I or II alone is sufficient",
+    "answerKey": "A",
+    "correctAnswer": "Either I or II alone is sufficient",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Either I or II alone is sufficient.",
+    "topic": "data-sufficiency",
+    "topicName": "Data Sufficiency",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_194",
+    "title": "What is the average age of A, B, C? (I) Average of A and B is 25. (II) C's ag...",
+    "description": "What is the average age of A, B, C? (I) Average of A and B is 25. (II) C's age is 28.",
+    "question": "What is the average age of A, B, C? (I) Average of A and B is 25. (II) C's age is 28.",
+    "options": [
+      "Both together are sufficient",
+      "Statement I alone",
+      "Statement II alone",
+      "Neither alone nor together"
+    ],
+    "answer": "Both together are sufficient",
+    "answerKey": "A",
+    "correctAnswer": "Both together are sufficient",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Both together are sufficient.",
+    "topic": "data-sufficiency",
+    "topicName": "Data Sufficiency",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_195",
+    "title": "Is n divisible by 6? (I) n is divisible by 2. (II) n is divisible by 3.",
+    "description": "Is n divisible by 6? (I) n is divisible by 2. (II) n is divisible by 3.",
+    "question": "Is n divisible by 6? (I) n is divisible by 2. (II) n is divisible by 3.",
+    "options": [
+      "Both together are sufficient",
+      "Statement I alone",
+      "Statement II alone",
+      "Neither"
+    ],
+    "answer": "Both together are sufficient",
+    "answerKey": "A",
+    "correctAnswer": "Both together are sufficient",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Both together are sufficient.",
+    "topic": "data-sufficiency",
+    "topicName": "Data Sufficiency",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_196",
+    "title": "What is the selling price? (I) Cost price is Rs.200. (II) Profit percentage i...",
+    "description": "What is the selling price? (I) Cost price is Rs.200. (II) Profit percentage is 25%.",
+    "question": "What is the selling price? (I) Cost price is Rs.200. (II) Profit percentage is 25%.",
+    "options": [
+      "Both together are sufficient",
+      "Statement I alone",
+      "Statement II alone",
+      "Neither"
+    ],
+    "answer": "Both together are sufficient",
+    "answerKey": "A",
+    "correctAnswer": "Both together are sufficient",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Both together are sufficient.",
+    "topic": "data-sufficiency",
+    "topicName": "Data Sufficiency",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_198",
+    "title": "Is x an odd number? (I) x is divisible by 3. (II) x is not divisible by 2.",
+    "description": "Is x an odd number? (I) x is divisible by 3. (II) x is not divisible by 2.",
+    "question": "Is x an odd number? (I) x is divisible by 3. (II) x is not divisible by 2.",
+    "options": [
+      "Statement II alone is sufficient",
+      "Statement I alone is sufficient",
+      "Both are needed",
+      "Neither is sufficient"
+    ],
+    "answer": "Statement II alone is sufficient",
+    "answerKey": "A",
+    "correctAnswer": "Statement II alone is sufficient",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Statement II alone is sufficient.",
+    "topic": "data-sufficiency",
+    "topicName": "Data Sufficiency",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

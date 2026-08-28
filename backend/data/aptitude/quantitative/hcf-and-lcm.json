@@ -1,0 +1,242 @@
+[
+  {
+    "id": "TCS_APT_174",
+    "title": "Find HCF of 36 and 48.",
+    "description": "Find HCF of 36 and 48.",
+    "question": "Find HCF of 36 and 48.",
+    "options": [
+      "12",
+      "6",
+      "24",
+      "18"
+    ],
+    "answer": "12",
+    "answerKey": "A",
+    "correctAnswer": "12",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 12.",
+    "topic": "hcf-and-lcm",
+    "topicName": "HCF and LCM",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_175",
+    "title": "Find LCM of 12 and 18.",
+    "description": "Find LCM of 12 and 18.",
+    "question": "Find LCM of 12 and 18.",
+    "options": [
+      "36",
+      "24",
+      "72",
+      "48"
+    ],
+    "answer": "36",
+    "answerKey": "A",
+    "correctAnswer": "36",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 36.",
+    "topic": "hcf-and-lcm",
+    "topicName": "HCF and LCM",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_181",
+    "title": "Find HCF of 0.12, 0.18, and 0.24.",
+    "description": "Find HCF of 0.12, 0.18, and 0.24.",
+    "question": "Find HCF of 0.12, 0.18, and 0.24.",
+    "options": [
+      "0.06",
+      "0.12",
+      "0.03",
+      "0.18"
+    ],
+    "answer": "0.06",
+    "answerKey": "A",
+    "correctAnswer": "0.06",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 0.06.",
+    "topic": "hcf-and-lcm",
+    "topicName": "HCF and LCM",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_183",
+    "title": "Two bells ring every 18 and 24 minutes. If they ring together at 9 AM, when w...",
+    "description": "Two bells ring every 18 and 24 minutes. If they ring together at 9 AM, when will they next ring together?",
+    "question": "Two bells ring every 18 and 24 minutes. If they ring together at 9 AM, when will they next ring together?",
+    "options": [
+      "10:12 AM",
+      "9:42 AM",
+      "10:00 AM",
+      "9:48 AM"
+    ],
+    "answer": "10:12 AM",
+    "answerKey": "A",
+    "correctAnswer": "10:12 AM",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 10:12 AM.",
+    "topic": "hcf-and-lcm",
+    "topicName": "HCF and LCM",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_176",
+    "title": "Product of HCF and LCM of 15 and 25 is:",
+    "description": "Product of HCF and LCM of 15 and 25 is:",
+    "question": "Product of HCF and LCM of 15 and 25 is:",
+    "options": [
+      "375",
+      "250",
+      "125",
+      "500"
+    ],
+    "answer": "375",
+    "answerKey": "A",
+    "correctAnswer": "375",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 375.",
+    "topic": "hcf-and-lcm",
+    "topicName": "HCF and LCM",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_179",
+    "title": "Three ropes of lengths 36m, 48m, and 60m are to be cut into equal pieces. Max...",
+    "description": "Three ropes of lengths 36m, 48m, and 60m are to be cut into equal pieces. Maximum piece length?",
+    "question": "Three ropes of lengths 36m, 48m, and 60m are to be cut into equal pieces. Maximum piece length?",
+    "options": [
+      "12m",
+      "6m",
+      "18m",
+      "24m"
+    ],
+    "answer": "12m",
+    "answerKey": "A",
+    "correctAnswer": "12m",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 12m.",
+    "topic": "hcf-and-lcm",
+    "topicName": "HCF and LCM",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_180",
+    "title": "The HCF of two numbers is 12 and their LCM is 144. If one number is 48, find ...",
+    "description": "The HCF of two numbers is 12 and their LCM is 144. If one number is 48, find the other.",
+    "question": "The HCF of two numbers is 12 and their LCM is 144. If one number is 48, find the other.",
+    "options": [
+      "36",
+      "24",
+      "48",
+      "60"
+    ],
+    "answer": "36",
+    "answerKey": "A",
+    "correctAnswer": "36",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 36.",
+    "topic": "hcf-and-lcm",
+    "topicName": "HCF and LCM",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_182",
+    "title": "The least number exactly divisible by 12, 15, 18 is:",
+    "description": "The least number exactly divisible by 12, 15, 18 is:",
+    "question": "The least number exactly divisible by 12, 15, 18 is:",
+    "options": [
+      "180",
+      "120",
+      "90",
+      "150"
+    ],
+    "answer": "180",
+    "answerKey": "A",
+    "correctAnswer": "180",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 180.",
+    "topic": "hcf-and-lcm",
+    "topicName": "HCF and LCM",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

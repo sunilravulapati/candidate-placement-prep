@@ -12,7 +12,8 @@ export async function POST(req: Request) {
       code,
       language,
       problemSlug,
-      executionMode = 'run',
+      executionMode = 'run', // 'run' | 'submit'
+      executionType = 'STANDARD_V1', // 'STANDARD_V1' (default) | 'FUNCTION_V2' | 'DESIGN_V2'
       input,
       testCases,
       sampleTests,
@@ -40,8 +41,10 @@ export async function POST(req: Request) {
       }
     }
 
+    // In V1 standard execution model, user writes complete program with main().
+    // V2 wrapper generation is isolated and only executed when executionType !== 'STANDARD_V1'.
     let executableCode = code;
-    if (metaToUse && execMetaToUse) {
+    if (executionType !== 'STANDARD_V1' && metaToUse && execMetaToUse) {
       try {
         executableCode = WrapperGenerator.generateWrapper(
           metaToUse,
@@ -51,10 +54,13 @@ export async function POST(req: Request) {
           driverMetaToUse
         );
       } catch (err) {
-        console.warn('Wrapper generation warning:', (err as Error).message);
+        console.warn('V2 wrapper generation warning:', (err as Error).message);
       }
     }
 
+    // ──────────────────────────────────────────────────────────────────────────
+    // RUN MODE: Executes VISIBLE test cases ONLY
+    // ──────────────────────────────────────────────────────────────────────────
     if (executionMode === 'run') {
       const visibleToRun = Array.isArray(sampleTests)
         ? sampleTests
@@ -87,7 +93,9 @@ export async function POST(req: Request) {
       });
     }
 
-    // SUBMIT MODE
+    // ──────────────────────────────────────────────────────────────────────────
+    // SUBMIT MODE: Executes VISIBLE + HIDDEN test cases
+    // ──────────────────────────────────────────────────────────────────────────
     const visibleToRun = probSampleTests || [];
     const hiddenToRun = probHiddenTests || [];
 
@@ -110,7 +118,7 @@ export async function POST(req: Request) {
     const visiblePassed = visibleCaseResults.filter((c) => c.passed).length;
     const hiddenPassed = hiddenCaseResults.filter((c) => c.passed).length;
 
-    // Secure Hidden Tests: NEVER expose hidden input, hidden output, or expected output
+    // Secure Hidden Tests: NEVER expose hidden input, expected output, or hidden test data
     const sanitizedHiddenResults = hiddenCaseResults.map((c, idx) => ({
       index: normVisible.length + idx + 1,
       passed: c.passed,
@@ -120,7 +128,10 @@ export async function POST(req: Request) {
       category: (hiddenToRun[idx] as any)?.classification || 'hidden',
     }));
 
-    const isAllPassed = visiblePassed === normVisible.length && hiddenPassed === normHidden.length;
+    const isAllPassed =
+      normVisible.length > 0 &&
+      visiblePassed === normVisible.length &&
+      (normHidden.length === 0 || hiddenPassed === normHidden.length);
 
     return NextResponse.json({
       ...rawResult,

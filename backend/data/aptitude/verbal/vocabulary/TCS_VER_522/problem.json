@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_522",
+  "slug": "tcs-ver-522",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: MAGNANIMOUS",
+  "description": "Choose the word most similar in meaning to: MAGNANIMOUS",
+  "question": "Choose the word most similar in meaning to: MAGNANIMOUS",
+  "options": [
+    "Generous",
+    "Selfish",
+    "Mean",
+    "Greedy"
+  ],
+  "optionsMap": {
+    "A": "Generous",
+    "B": "Selfish",
+    "C": "Mean",
+    "D": "Greedy"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Generous",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

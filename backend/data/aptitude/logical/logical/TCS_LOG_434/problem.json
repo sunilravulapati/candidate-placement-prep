@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_434",
+  "slug": "tcs-log-434",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Direction: Go South 5km, East 5km, North 5km. Where?",
+  "description": "Direction: Go South 5km, East 5km, North 5km. Where?",
+  "question": "Direction: Go South 5km, East 5km, North 5km. Where?",
+  "options": [
+    "5km East",
+    "5km West",
+    "Same spot",
+    "10km North"
+  ],
+  "optionsMap": {
+    "A": "5km East",
+    "B": "5km West",
+    "C": "Same spot",
+    "D": "10km North"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "5km East",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

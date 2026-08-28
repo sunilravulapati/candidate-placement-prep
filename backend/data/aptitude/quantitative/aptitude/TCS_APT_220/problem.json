@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_220",
+  "slug": "tcs-apt-220",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A student scored 72% in an exam. If full marks = 500, find the marks obtained.",
+  "description": "A student scored 72% in an exam. If full marks = 500, find the marks obtained.",
+  "question": "A student scored 72% in an exam. If full marks = 500, find the marks obtained.",
+  "options": [
+    "360",
+    "350",
+    "380",
+    "370"
+  ],
+  "optionsMap": {
+    "A": "360",
+    "B": "350",
+    "C": "380",
+    "D": "370"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "360",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

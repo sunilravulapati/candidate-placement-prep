@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_124",
+  "slug": "tcs-ver-124",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The politician's speech was _____, repeating the same points endlessly.",
+  "description": "The politician's speech was _____, repeating the same points endlessly.",
+  "question": "The politician's speech was _____, repeating the same points endlessly.",
+  "options": [
+    "redundant",
+    "concise",
+    "brief",
+    "clear"
+  ],
+  "optionsMap": {
+    "A": "redundant",
+    "B": "concise",
+    "C": "brief",
+    "D": "clear"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "redundant",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

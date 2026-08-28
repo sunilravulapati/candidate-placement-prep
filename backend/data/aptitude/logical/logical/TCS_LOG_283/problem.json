@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_283",
+  "slug": "tcs-log-283",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Syllogism: Some flowers are red. All red things are beautiful. Which is true?",
+  "description": "Syllogism: Some flowers are red. All red things are beautiful. Which is true?",
+  "question": "Syllogism: Some flowers are red. All red things are beautiful. Which is true?",
+  "options": [
+    "Some flowers are beautiful",
+    "All flowers are beautiful",
+    "No flowers are beautiful",
+    "Cannot determine"
+  ],
+  "optionsMap": {
+    "A": "Some flowers are beautiful",
+    "B": "All flowers are beautiful",
+    "C": "No flowers are beautiful",
+    "D": "Cannot determine"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Some flowers are beautiful",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

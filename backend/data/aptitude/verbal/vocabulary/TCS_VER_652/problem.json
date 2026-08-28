@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_652",
+  "slug": "tcs-ver-652",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the synonym of LABORIOUS",
+  "description": "Choose the synonym of LABORIOUS",
+  "question": "Choose the synonym of LABORIOUS",
+  "options": [
+    "Hard-working",
+    "Lazy",
+    "Easy",
+    "Simple"
+  ],
+  "optionsMap": {
+    "A": "Hard-working",
+    "B": "Lazy",
+    "C": "Easy",
+    "D": "Simple"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Hard-working",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

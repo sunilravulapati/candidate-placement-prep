@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_244",
+  "slug": "tcs-log-244",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number series: 5, 10, 20, 40, ?",
+  "description": "Number series: 5, 10, 20, 40, ?",
+  "question": "Number series: 5, 10, 20, 40, ?",
+  "options": [
+    "80",
+    "60",
+    "100",
+    "70"
+  ],
+  "optionsMap": {
+    "A": "80",
+    "B": "60",
+    "C": "100",
+    "D": "70"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "80",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

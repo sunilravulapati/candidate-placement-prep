@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_189",
+  "slug": "tcs-apt-189",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "clocks",
+  "topicName": "Clocks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "At 3:40, the angle between clock hands is:",
+  "description": "At 3:40, the angle between clock hands is:",
+  "question": "At 3:40, the angle between clock hands is:",
+  "options": [
+    "130°",
+    "140°",
+    "120°",
+    "150°"
+  ],
+  "optionsMap": {
+    "A": "130°",
+    "B": "140°",
+    "C": "120°",
+    "D": "150°"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "130°",
+  "tags": [
+    "quantitative",
+    "clocks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

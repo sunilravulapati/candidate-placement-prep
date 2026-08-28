@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_261",
+  "slug": "tcs-apt-261",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Average weight of 40 students is 55 kg. New student joins, avg becomes 55.1 k...",
+  "description": "Average weight of 40 students is 55 kg. New student joins, avg becomes 55.1 kg. New student's weight?",
+  "question": "Average weight of 40 students is 55 kg. New student joins, avg becomes 55.1 kg. New student's weight?",
+  "options": [
+    "59",
+    "61",
+    "63",
+    "55"
+  ],
+  "optionsMap": {
+    "A": "59",
+    "B": "61",
+    "C": "63",
+    "D": "55"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "59",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

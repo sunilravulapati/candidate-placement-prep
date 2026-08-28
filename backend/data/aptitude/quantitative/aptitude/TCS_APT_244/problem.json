@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_244",
+  "slug": "tcs-apt-244",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What is the LCM of 12, 18, and 24?",
+  "description": "What is the LCM of 12, 18, and 24?",
+  "question": "What is the LCM of 12, 18, and 24?",
+  "options": [
+    "72",
+    "36",
+    "48",
+    "60"
+  ],
+  "optionsMap": {
+    "A": "72",
+    "B": "36",
+    "C": "48",
+    "D": "60"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "72",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

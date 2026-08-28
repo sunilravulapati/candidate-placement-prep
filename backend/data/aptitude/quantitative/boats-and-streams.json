@@ -1,0 +1,152 @@
+[
+  {
+    "id": "TCS_APT_209",
+    "title": "A boat speed is 12 km/h, stream speed is 3 km/h. Speed upstream?",
+    "description": "A boat speed is 12 km/h, stream speed is 3 km/h. Speed upstream?",
+    "question": "A boat speed is 12 km/h, stream speed is 3 km/h. Speed upstream?",
+    "options": [
+      "9 km/h",
+      "15 km/h",
+      "10 km/h",
+      "8 km/h"
+    ],
+    "answer": "9 km/h",
+    "answerKey": "A",
+    "correctAnswer": "9 km/h",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 9 km/h.",
+    "topic": "boats-and-streams",
+    "topicName": "Boats and Streams",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_210",
+    "title": "A man rows 18 km downstream in 2h and 12 km upstream in 3h. Speed of current?",
+    "description": "A man rows 18 km downstream in 2h and 12 km upstream in 3h. Speed of current?",
+    "question": "A man rows 18 km downstream in 2h and 12 km upstream in 3h. Speed of current?",
+    "options": [
+      "1.5 km/h",
+      "2 km/h",
+      "1 km/h",
+      "3 km/h"
+    ],
+    "answer": "1.5 km/h",
+    "answerKey": "A",
+    "correctAnswer": "1.5 km/h",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 1.5 km/h.",
+    "topic": "boats-and-streams",
+    "topicName": "Boats and Streams",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_211",
+    "title": "A boat goes 30 km upstream in 5h and 30 km downstream in 3h. Find boat speed ...",
+    "description": "A boat goes 30 km upstream in 5h and 30 km downstream in 3h. Find boat speed in still water.",
+    "question": "A boat goes 30 km upstream in 5h and 30 km downstream in 3h. Find boat speed in still water.",
+    "options": [
+      "8 km/h",
+      "7 km/h",
+      "6 km/h",
+      "10 km/h"
+    ],
+    "answer": "8 km/h",
+    "answerKey": "A",
+    "correctAnswer": "8 km/h",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 8 km/h.",
+    "topic": "boats-and-streams",
+    "topicName": "Boats and Streams",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_213",
+    "title": "A person can row at 8 km/h in still water. River flows at 2 km/h. Time to row...",
+    "description": "A person can row at 8 km/h in still water. River flows at 2 km/h. Time to row 15 km downstream and return?",
+    "question": "A person can row at 8 km/h in still water. River flows at 2 km/h. Time to row 15 km downstream and return?",
+    "options": [
+      "4.5 hours",
+      "3.75 hours",
+      "4 hours",
+      "5 hours"
+    ],
+    "answer": "3.75 hours",
+    "answerKey": "B",
+    "correctAnswer": "3.75 hours",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: 3.75 hours.",
+    "topic": "boats-and-streams",
+    "topicName": "Boats and Streams",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_212",
+    "title": "Speed of boat in still water is 10 km/h and stream speed is 2 km/h. Time to c...",
+    "description": "Speed of boat in still water is 10 km/h and stream speed is 2 km/h. Time to cover 48 km downstream?",
+    "question": "Speed of boat in still water is 10 km/h and stream speed is 2 km/h. Time to cover 48 km downstream?",
+    "options": [
+      "4 hours",
+      "5 hours",
+      "6 hours",
+      "3 hours"
+    ],
+    "answer": "4 hours",
+    "answerKey": "A",
+    "correctAnswer": "4 hours",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 4 hours.",
+    "topic": "boats-and-streams",
+    "topicName": "Boats and Streams",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_181",
+  "slug": "tcs-apt-181",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "hcf-and-lcm",
+  "topicName": "HCF and LCM",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Find HCF of 0.12, 0.18, and 0.24.",
+  "description": "Find HCF of 0.12, 0.18, and 0.24.",
+  "question": "Find HCF of 0.12, 0.18, and 0.24.",
+  "options": [
+    "0.06",
+    "0.12",
+    "0.03",
+    "0.18"
+  ],
+  "optionsMap": {
+    "A": "0.06",
+    "B": "0.12",
+    "C": "0.03",
+    "D": "0.18"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "0.06",
+  "tags": [
+    "quantitative",
+    "hcf-and-lcm"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

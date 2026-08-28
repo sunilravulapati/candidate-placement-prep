@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_220",
+  "slug": "tcs-ver-220",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What does 'bite more than you can chew' mean?",
+  "description": "What does 'bite more than you can chew' mean?",
+  "question": "What does 'bite more than you can chew' mean?",
+  "options": [
+    "Take on more than you can handle",
+    "Eat excessively",
+    "Be greedy",
+    "Avoid responsibilities"
+  ],
+  "optionsMap": {
+    "A": "Take on more than you can handle",
+    "B": "Eat excessively",
+    "C": "Be greedy",
+    "D": "Avoid responsibilities"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Take on more than you can handle",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

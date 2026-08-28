@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_253",
+  "slug": "tcs-ver-253",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "sentence-improvement",
+  "topicName": "Sentence Improvement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Improve the underlined part of the sentence: 'Between the two options, the fi...",
+  "description": "Improve the underlined part of the sentence: 'Between the two options, the first is best.'",
+  "question": "Improve the underlined part of the sentence: 'Between the two options, the first is best.'",
+  "options": [
+    "first is better",
+    "first was better",
+    "first is the best",
+    "No improvement"
+  ],
+  "optionsMap": {
+    "A": "first is better",
+    "B": "first was better",
+    "C": "first is the best",
+    "D": "No improvement"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "first is better",
+  "tags": [
+    "verbal",
+    "sentence-improvement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

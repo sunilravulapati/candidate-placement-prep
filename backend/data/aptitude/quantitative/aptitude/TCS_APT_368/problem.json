@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_368",
+  "slug": "tcs-apt-368",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A sum of Rs 5000 is invested at 8% compound interest annually. Amount after 3...",
+  "description": "A sum of Rs 5000 is invested at 8% compound interest annually. Amount after 3 years?",
+  "question": "A sum of Rs 5000 is invested at 8% compound interest annually. Amount after 3 years?",
+  "options": [
+    "Rs 6298.56",
+    "Rs 6200",
+    "Rs 6500",
+    "Rs 6100"
+  ],
+  "optionsMap": {
+    "A": "Rs 6298.56",
+    "B": "Rs 6200",
+    "C": "Rs 6500",
+    "D": "Rs 6100"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs 6298.56",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_135",
+  "slug": "tcs-ver-135",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The _____ child asked questions about everything he saw.",
+  "description": "The _____ child asked questions about everything he saw.",
+  "question": "The _____ child asked questions about everything he saw.",
+  "options": [
+    "inquisitive",
+    "disinterested",
+    "apathetic",
+    "bored"
+  ],
+  "optionsMap": {
+    "A": "inquisitive",
+    "B": "disinterested",
+    "C": "apathetic",
+    "D": "bored"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "inquisitive",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

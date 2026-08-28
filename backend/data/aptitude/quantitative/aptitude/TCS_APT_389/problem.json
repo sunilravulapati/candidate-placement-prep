@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_389",
+  "slug": "tcs-apt-389",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Ratio of A's to B's salary is 5:4. If A gets Rs 5000 more, find B's salary if...",
+  "description": "Ratio of A's to B's salary is 5:4. If A gets Rs 5000 more, find B's salary if total = Rs 45000.",
+  "question": "Ratio of A's to B's salary is 5:4. If A gets Rs 5000 more, find B's salary if total = Rs 45000.",
+  "options": [
+    "Rs 20000",
+    "Rs 25000",
+    "Rs 18000",
+    "Rs 22000"
+  ],
+  "optionsMap": {
+    "A": "Rs 20000",
+    "B": "Rs 25000",
+    "C": "Rs 18000",
+    "D": "Rs 22000"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs 20000",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

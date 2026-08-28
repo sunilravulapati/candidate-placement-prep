@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_333",
+  "slug": "tcs-ver-333",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "one-word-substitution",
+  "topicName": "One Word Substitution",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Find the one word substitution for: A speech made by a person on the verge of...",
+  "description": "Find the one word substitution for: A speech made by a person on the verge of death",
+  "question": "Find the one word substitution for: A speech made by a person on the verge of death",
+  "options": [
+    "Epitaph",
+    "Elegy",
+    "Soliloquy",
+    "Swan song"
+  ],
+  "optionsMap": {
+    "A": "Epitaph",
+    "B": "Elegy",
+    "C": "Soliloquy",
+    "D": "Swan song"
+  },
+  "answer": "D",
+  "answerKey": "D",
+  "correctAnswer": "Swan song",
+  "tags": [
+    "verbal",
+    "one-word-substitution"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

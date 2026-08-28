@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_235",
+  "slug": "tcs-ver-235",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What does 'turn over a new leaf' mean?",
+  "description": "What does 'turn over a new leaf' mean?",
+  "question": "What does 'turn over a new leaf' mean?",
+  "options": [
+    "Make a fresh start and change behavior",
+    "Read a book",
+    "Change location",
+    "Garden work"
+  ],
+  "optionsMap": {
+    "A": "Make a fresh start and change behavior",
+    "B": "Read a book",
+    "C": "Change location",
+    "D": "Garden work"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Make a fresh start and change behavior",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

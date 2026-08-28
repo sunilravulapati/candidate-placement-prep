@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_423",
+  "slug": "tcs-apt-423",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "simple-interest",
+  "topicName": "Simple Interest",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Simple interest on a sum for 5 years at 12% p.a. is Rs.1800. The sum is:",
+  "description": "Simple interest on a sum for 5 years at 12% p.a. is Rs.1800. The sum is:",
+  "question": "Simple interest on a sum for 5 years at 12% p.a. is Rs.1800. The sum is:",
+  "options": [
+    "Rs.3000",
+    "Rs.2500",
+    "Rs.4000",
+    "Rs.3500"
+  ],
+  "optionsMap": {
+    "A": "Rs.3000",
+    "B": "Rs.2500",
+    "C": "Rs.4000",
+    "D": "Rs.3500"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.3000",
+  "tags": [
+    "quantitative",
+    "simple-interest"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

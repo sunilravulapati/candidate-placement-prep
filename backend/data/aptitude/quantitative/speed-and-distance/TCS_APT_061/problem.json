@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_061",
+  "slug": "tcs-apt-061",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "speed-and-distance",
+  "topicName": "Speed and Distance",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Two trains start from A and B, 300 km apart, toward each other at 50 km/h and...",
+  "description": "Two trains start from A and B, 300 km apart, toward each other at 50 km/h and 70 km/h. When do they meet?",
+  "question": "Two trains start from A and B, 300 km apart, toward each other at 50 km/h and 70 km/h. When do they meet?",
+  "options": [
+    "2.5 hours",
+    "3 hours",
+    "2 hours",
+    "4 hours"
+  ],
+  "optionsMap": {
+    "A": "2.5 hours",
+    "B": "3 hours",
+    "C": "2 hours",
+    "D": "4 hours"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "2.5 hours",
+  "tags": [
+    "quantitative",
+    "speed-and-distance"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

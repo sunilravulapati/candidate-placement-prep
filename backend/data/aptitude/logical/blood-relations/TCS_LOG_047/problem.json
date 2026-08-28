@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_047",
+  "slug": "tcs-log-047",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "blood-relations",
+  "topicName": "Blood Relations",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Pointing to a woman, a man says 'She is the sister of the father of my son.' ...",
+  "description": "Pointing to a woman, a man says 'She is the sister of the father of my son.' How is the woman related to the man?",
+  "question": "Pointing to a woman, a man says 'She is the sister of the father of my son.' How is the woman related to the man?",
+  "options": [
+    "Aunt",
+    "Sister",
+    "Mother",
+    "Cousin"
+  ],
+  "optionsMap": {
+    "A": "Aunt",
+    "B": "Sister",
+    "C": "Mother",
+    "D": "Cousin"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Aunt",
+  "tags": [
+    "logical",
+    "blood-relations"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

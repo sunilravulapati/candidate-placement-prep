@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_406",
+  "slug": "tcs-ver-406",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "miscellaneous",
+  "topicName": "Miscellaneous",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the correctly structured conditional sentence:",
+  "description": "Choose the correctly structured conditional sentence:",
+  "question": "Choose the correctly structured conditional sentence:",
+  "options": [
+    "If she studies, she will pass.",
+    "If she studies, she would pass.",
+    "If she study, she will pass.",
+    "If she studied, she will pass."
+  ],
+  "optionsMap": {
+    "A": "If she studies, she will pass.",
+    "B": "If she studies, she would pass.",
+    "C": "If she study, she will pass.",
+    "D": "If she studied, she will pass."
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "If she studies, she will pass.",
+  "tags": [
+    "verbal",
+    "miscellaneous"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

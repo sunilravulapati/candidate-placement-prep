@@ -1,87 +1,6302 @@
 [
   {
-    "id": "verbal_vocabulary_1",
-    "title": "Antonym Selection",
-    "description": "Choose the word that is most nearly OPPOSITE in meaning to the word: 'AMICABLE'",
+    "id": "TCS_VER_001",
+    "title": "Choose the word most similar in meaning to: ABUNDANT",
+    "description": "Choose the word most similar in meaning to: ABUNDANT",
+    "question": "Choose the word most similar in meaning to: ABUNDANT",
     "options": [
-      "Friendly",
-      "Hostile",
-      "Peaceful",
-      "Harmonious"
+      "Plentiful",
+      "Scarce",
+      "Hollow",
+      "Timid"
     ],
-    "correctAnswer": "Hostile",
+    "answer": "Plentiful",
+    "answerKey": "A",
+    "correctAnswer": "Plentiful",
     "difficulty": "EASY",
     "difficultyLabel": "Easy",
-    "explanation": "'Amicable' means having a spirit of friendliness and peaceable relations. The opposite is 'Hostile', which means unfriendly or antagonistic. 'Friendly', 'Peaceful', and 'Harmonious' are synonyms of amicable.",
+    "explanation": "Option (A) is the correct answer: Plentiful.",
     "topic": "vocabulary",
-    "category": "verbal"
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
   },
   {
-    "id": "verbal_vocabulary_2",
-    "title": "Synonym Selection",
-    "description": "Choose the word that is closest in meaning to the word: 'MITIGATE'",
+    "id": "TCS_VER_002",
+    "title": "Choose the word most similar in meaning to: BENEVOLENT",
+    "description": "Choose the word most similar in meaning to: BENEVOLENT",
+    "question": "Choose the word most similar in meaning to: BENEVOLENT",
     "options": [
-      "Aggravate",
-      "Alleviate",
-      "Intensify",
-      "Originate"
+      "Kind",
+      "Cruel",
+      "Lazy",
+      "Noisy"
     ],
-    "correctAnswer": "Alleviate",
-    "difficulty": "MEDIUM",
-    "difficultyLabel": "Easy-Medium",
-    "explanation": "'Mitigate' means to make less severe, serious, or painful. 'Alleviate' has the exact same meaning. 'Aggravate' and 'Intensify' are antonyms, while 'Originate' means to begin or start.",
+    "answer": "Kind",
+    "answerKey": "A",
+    "correctAnswer": "Kind",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Kind.",
     "topic": "vocabulary",
-    "category": "verbal"
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
   },
   {
-    "id": "verbal_vocabulary_3",
-    "title": "Word Analogy",
-    "description": "Complete the analogy: OSTRACIZE : Shun :: COALESCE : ______",
+    "id": "TCS_VER_003",
+    "title": "Choose the word most similar in meaning to: CANDID",
+    "description": "Choose the word most similar in meaning to: CANDID",
+    "question": "Choose the word most similar in meaning to: CANDID",
     "options": [
-      "Disperse",
-      "Separate",
-      "Blend",
-      "Analyze"
+      "Frank",
+      "Deceptive",
+      "Silent",
+      "Proud"
     ],
-    "correctAnswer": "Blend",
-    "difficulty": "MEDIUM",
-    "difficultyLabel": "Medium",
-    "explanation": "Ostracize and Shun are synonyms (both mean to exclude or reject from a group). Similarly, Coalesce means to come together and form one mass or whole, which is synonymous with 'Blend'. 'Disperse' and 'Separate' are antonyms of coalesce.",
+    "answer": "Frank",
+    "answerKey": "A",
+    "correctAnswer": "Frank",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Frank.",
     "topic": "vocabulary",
-    "category": "verbal"
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
   },
   {
-    "id": "verbal_vocabulary_4",
-    "title": "Contextual Fill-in",
-    "description": "The scientist's claims were met with extreme skepticism, as his experimental design was deemed _______ and lacked rigorous controls.",
+    "id": "TCS_VER_007",
+    "title": "Choose the word most similar in meaning to: GREGARIOUS",
+    "description": "Choose the word most similar in meaning to: GREGARIOUS",
+    "question": "Choose the word most similar in meaning to: GREGARIOUS",
     "options": [
-      "Meticulous",
-      "Flawed",
-      "Invulnerable",
-      "Exemplary"
+      "Sociable",
+      "Reclusive",
+      "Shy",
+      "Bland"
     ],
-    "correctAnswer": "Flawed",
-    "difficulty": "HARD",
-    "difficultyLabel": "Medium-Hard",
-    "explanation": "The sentence indicates that the scientist's claims were met with 'skepticism' and 'lacked rigorous controls'. Therefore, the blank should be filled with a negative word indicating a problem with the design. 'Flawed' fits this context perfectly. 'Meticulous', 'Invulnerable', and 'Exemplary' are positive terms and would not result in skepticism.",
+    "answer": "Sociable",
+    "answerKey": "A",
+    "correctAnswer": "Sociable",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Sociable.",
     "topic": "vocabulary",
-    "category": "verbal"
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
   },
   {
-    "id": "verbal_vocabulary_5",
-    "title": "Obscure Vocabulary",
-    "description": "Select the correct definition of the word: 'CACAPHONY'",
+    "id": "TCS_VER_018",
+    "title": "Choose the word most similar in meaning to: RESILIENT",
+    "description": "Choose the word most similar in meaning to: RESILIENT",
+    "question": "Choose the word most similar in meaning to: RESILIENT",
     "options": [
-      "A harsh, discordant mixture of sounds",
-      "A beautiful and harmonious melody",
-      "A state of quiet stillness or silence",
-      "The study of vocal pitch and pronunciation"
+      "Tough",
+      "Fragile",
+      "Weak",
+      "Brittle"
     ],
-    "correctAnswer": "A harsh, discordant mixture of sounds",
+    "answer": "Tough",
+    "answerKey": "A",
+    "correctAnswer": "Tough",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Tough.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_427",
+    "title": "Which is the correct comparative: good?",
+    "description": "Which is the correct comparative: good?",
+    "question": "Which is the correct comparative: good?",
+    "options": [
+      "gooder",
+      "more good",
+      "better",
+      "more better"
+    ],
+    "answer": "better",
+    "answerKey": "C",
+    "correctAnswer": "better",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (C) is the correct answer: better.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_428",
+    "title": "Which is the correct superlative: bad?",
+    "description": "Which is the correct superlative: bad?",
+    "question": "Which is the correct superlative: bad?",
+    "options": [
+      "most bad",
+      "worse",
+      "baddest",
+      "worst"
+    ],
+    "answer": "worst",
+    "answerKey": "D",
+    "correctAnswer": "worst",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (D) is the correct answer: worst.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_440",
+    "title": "One word substitution: A person who designs buildings",
+    "description": "One word substitution: A person who designs buildings",
+    "question": "One word substitution: A person who designs buildings",
+    "options": [
+      "Architect",
+      "Engineer",
+      "Surveyor",
+      "Planner"
+    ],
+    "answer": "Architect",
+    "answerKey": "A",
+    "correctAnswer": "Architect",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Architect.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_444",
+    "title": "One word substitution: A place where fish are kept",
+    "description": "One word substitution: A place where fish are kept",
+    "question": "One word substitution: A place where fish are kept",
+    "options": [
+      "Aquarium",
+      "Aviary",
+      "Apiary",
+      "Sanctuary"
+    ],
+    "answer": "Aquarium",
+    "answerKey": "A",
+    "correctAnswer": "Aquarium",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Aquarium.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_453",
+    "title": "Choose the correct word: The _____ results showed improvement.",
+    "description": "Choose the correct word: The _____ results showed improvement.",
+    "question": "Choose the correct word: The _____ results showed improvement.",
+    "options": [
+      "overall",
+      "overal",
+      "overul",
+      "overrall"
+    ],
+    "answer": "overall",
+    "answerKey": "A",
+    "correctAnswer": "overall",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: overall.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_462",
+    "title": "What does the word CONTEMPLATE mean?",
+    "description": "What does the word CONTEMPLATE mean?",
+    "question": "What does the word CONTEMPLATE mean?",
+    "options": [
+      "Think deeply about",
+      "Avoid thinking",
+      "Act impulsively",
+      "Dismiss"
+    ],
+    "answer": "Think deeply about",
+    "answerKey": "A",
+    "correctAnswer": "Think deeply about",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Think deeply about.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_463",
+    "title": "Choose the sentence in active voice: 'A letter was written by her.'",
+    "description": "Choose the sentence in active voice: 'A letter was written by her.'",
+    "question": "Choose the sentence in active voice: 'A letter was written by her.'",
+    "options": [
+      "She wrote a letter.",
+      "A letter she wrote.",
+      "Letter was written.",
+      "She has written letters."
+    ],
+    "answer": "She wrote a letter.",
+    "answerKey": "A",
+    "correctAnswer": "She wrote a letter.",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: She wrote a letter..",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_464",
+    "title": "Which word is a conjunction?",
+    "description": "Which word is a conjunction?",
+    "question": "Which word is a conjunction?",
+    "options": [
+      "Although",
+      "Beautiful",
+      "Quickly",
+      "Table"
+    ],
+    "answer": "Although",
+    "answerKey": "A",
+    "correctAnswer": "Although",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Although.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_465",
+    "title": "Choose the correctly formed question tag: 'She is intelligent, ___?'",
+    "description": "Choose the correctly formed question tag: 'She is intelligent, ___?'",
+    "question": "Choose the correctly formed question tag: 'She is intelligent, ___?'",
+    "options": [
+      "isn't she",
+      "is she",
+      "was she",
+      "wasn't she"
+    ],
+    "answer": "isn't she",
+    "answerKey": "A",
+    "correctAnswer": "isn't she",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: isn't she.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_468",
+    "title": "Choose the correct relative pronoun: 'The book _____ I read was excellent.'",
+    "description": "Choose the correct relative pronoun: 'The book _____ I read was excellent.'",
+    "question": "Choose the correct relative pronoun: 'The book _____ I read was excellent.'",
+    "options": [
+      "who",
+      "whose",
+      "which",
+      "whom"
+    ],
+    "answer": "which",
+    "answerKey": "C",
+    "correctAnswer": "which",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (C) is the correct answer: which.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_469",
+    "title": "Choose the correct relative pronoun: 'The man _____ called is my uncle.'",
+    "description": "Choose the correct relative pronoun: 'The man _____ called is my uncle.'",
+    "question": "Choose the correct relative pronoun: 'The man _____ called is my uncle.'",
+    "options": [
+      "which",
+      "that",
+      "who",
+      "whose"
+    ],
+    "answer": "who",
+    "answerKey": "C",
+    "correctAnswer": "who",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (C) is the correct answer: who.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_471",
+    "title": "Choose the word that is NOT a synonym of 'happy':",
+    "description": "Choose the word that is NOT a synonym of 'happy':",
+    "question": "Choose the word that is NOT a synonym of 'happy':",
+    "options": [
+      "Elated",
+      "Joyful",
+      "Content",
+      "Sullen"
+    ],
+    "answer": "Sullen",
+    "answerKey": "D",
+    "correctAnswer": "Sullen",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (D) is the correct answer: Sullen.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_472",
+    "title": "Which pair is antonyms?",
+    "description": "Which pair is antonyms?",
+    "question": "Which pair is antonyms?",
+    "options": [
+      "Happy - Glad",
+      "Hot - Cold",
+      "Quick - Fast",
+      "Sad - Unhappy"
+    ],
+    "answer": "Hot - Cold",
+    "answerKey": "B",
+    "correctAnswer": "Hot - Cold",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (B) is the correct answer: Hot - Cold.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_476",
+    "title": "Which sentence uses 'risen' correctly?",
+    "description": "Which sentence uses 'risen' correctly?",
+    "question": "Which sentence uses 'risen' correctly?",
+    "options": [
+      "The sun has risen.",
+      "The sun has rose.",
+      "The sun had rose.",
+      "The sun was risen."
+    ],
+    "answer": "The sun has risen.",
+    "answerKey": "A",
+    "correctAnswer": "The sun has risen.",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: The sun has risen..",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_479",
+    "title": "Choose the meaning of the phrase 'to get cold feet':",
+    "description": "Choose the meaning of the phrase 'to get cold feet':",
+    "question": "Choose the meaning of the phrase 'to get cold feet':",
+    "options": [
+      "To become nervous or afraid",
+      "To feel physically cold",
+      "To lose a competition",
+      "To stop working"
+    ],
+    "answer": "To become nervous or afraid",
+    "answerKey": "A",
+    "correctAnswer": "To become nervous or afraid",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: To become nervous or afraid.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_480",
+    "title": "Choose the meaning of the phrase 'kill two birds with one stone':",
+    "description": "Choose the meaning of the phrase 'kill two birds with one stone':",
+    "question": "Choose the meaning of the phrase 'kill two birds with one stone':",
+    "options": [
+      "Accomplish two things with one effort",
+      "Be violent",
+      "Be efficient",
+      "Waste time"
+    ],
+    "answer": "Accomplish two things with one effort",
+    "answerKey": "A",
+    "correctAnswer": "Accomplish two things with one effort",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Accomplish two things with one effort.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_483",
+    "title": "Which word is a homophone of 'knight'?",
+    "description": "Which word is a homophone of 'knight'?",
+    "question": "Which word is a homophone of 'knight'?",
+    "options": [
+      "Night",
+      "Knit",
+      "Knife",
+      "Know"
+    ],
+    "answer": "Night",
+    "answerKey": "A",
+    "correctAnswer": "Night",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Night.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_484",
+    "title": "Which word is a homophone of 'flower'?",
+    "description": "Which word is a homophone of 'flower'?",
+    "question": "Which word is a homophone of 'flower'?",
+    "options": [
+      "Flour",
+      "Floor",
+      "Flow",
+      "Flutter"
+    ],
+    "answer": "Flour",
+    "answerKey": "A",
+    "correctAnswer": "Flour",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Flour.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_487",
+    "title": "What is the adverb form of 'quick'?",
+    "description": "What is the adverb form of 'quick'?",
+    "question": "What is the adverb form of 'quick'?",
+    "options": [
+      "Quickly",
+      "Quickness",
+      "Quicken",
+      "Quickful"
+    ],
+    "answer": "Quickly",
+    "answerKey": "A",
+    "correctAnswer": "Quickly",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Quickly.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_488",
+    "title": "What is the noun form of 'happy'?",
+    "description": "What is the noun form of 'happy'?",
+    "question": "What is the noun form of 'happy'?",
+    "options": [
+      "Happiness",
+      "Happily",
+      "Happy",
+      "Happier"
+    ],
+    "answer": "Happiness",
+    "answerKey": "A",
+    "correctAnswer": "Happiness",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Happiness.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_511",
+    "title": "What is the antonym of 'concise'?",
+    "description": "What is the antonym of 'concise'?",
+    "question": "What is the antonym of 'concise'?",
+    "options": [
+      "Wordy",
+      "Brief",
+      "Short",
+      "Compact"
+    ],
+    "answer": "Wordy",
+    "answerKey": "A",
+    "correctAnswer": "Wordy",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Wordy.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_514",
+    "title": "Choose the synonym of TRANQUIL",
+    "description": "Choose the synonym of TRANQUIL",
+    "question": "Choose the synonym of TRANQUIL",
+    "options": [
+      "Peaceful",
+      "Noisy",
+      "Chaotic",
+      "Stormy"
+    ],
+    "answer": "Peaceful",
+    "answerKey": "A",
+    "correctAnswer": "Peaceful",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Peaceful.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_415",
+    "title": "Choose the synonym of: PERSPICACIOUS",
+    "description": "Choose the synonym of: PERSPICACIOUS",
+    "question": "Choose the synonym of: PERSPICACIOUS",
+    "options": [
+      "Having a ready insight",
+      "Dull-witted",
+      "Confused",
+      "Indifferent"
+    ],
+    "answer": "Having a ready insight",
+    "answerKey": "A",
+    "correctAnswer": "Having a ready insight",
     "difficulty": "HARD",
     "difficultyLabel": "Hard",
-    "explanation": "'Cacophony' (sometimes spelled cacaphony in question papers) refers to a harsh, jarring, and discordant mixture of sounds. The opposite is euphony (agreeable sound).",
+    "explanation": "Option (A) is the correct answer: Having a ready insight.",
     "topic": "vocabulary",
-    "category": "verbal"
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_418",
+    "title": "Choose the synonym of: OBSEQUIOUS",
+    "description": "Choose the synonym of: OBSEQUIOUS",
+    "question": "Choose the synonym of: OBSEQUIOUS",
+    "options": [
+      "Overly submissive",
+      "Rebellious",
+      "Confident",
+      "Independent"
+    ],
+    "answer": "Overly submissive",
+    "answerKey": "A",
+    "correctAnswer": "Overly submissive",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Overly submissive.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_419",
+    "title": "Choose the synonym of: SYCOPHANT",
+    "description": "Choose the synonym of: SYCOPHANT",
+    "question": "Choose the synonym of: SYCOPHANT",
+    "options": [
+      "A flatterer",
+      "A leader",
+      "A rebel",
+      "A philosopher"
+    ],
+    "answer": "A flatterer",
+    "answerKey": "A",
+    "correctAnswer": "A flatterer",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: A flatterer.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_420",
+    "title": "Choose the antonym of: EPHEMERAL",
+    "description": "Choose the antonym of: EPHEMERAL",
+    "question": "Choose the antonym of: EPHEMERAL",
+    "options": [
+      "Permanent",
+      "Temporary",
+      "Brief",
+      "Short-lived"
+    ],
+    "answer": "Permanent",
+    "answerKey": "A",
+    "correctAnswer": "Permanent",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Permanent.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_425",
+    "title": "Identify the correct sentence: The jury ___ still deliberating.",
+    "description": "Identify the correct sentence: The jury ___ still deliberating.",
+    "question": "Identify the correct sentence: The jury ___ still deliberating.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have been"
+    ],
+    "answer": "is",
+    "answerKey": "A",
+    "correctAnswer": "is",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: is.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_426",
+    "title": "Identify the correct sentence: Each of the players ___ given a trophy.",
+    "description": "Identify the correct sentence: Each of the players ___ given a trophy.",
+    "question": "Identify the correct sentence: Each of the players ___ given a trophy.",
+    "options": [
+      "was",
+      "were",
+      "have been",
+      "are"
+    ],
+    "answer": "was",
+    "answerKey": "A",
+    "correctAnswer": "was",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: was.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_429",
+    "title": "Choose the synonym of: AMELIORATE",
+    "description": "Choose the synonym of: AMELIORATE",
+    "question": "Choose the synonym of: AMELIORATE",
+    "options": [
+      "Improve",
+      "Worsen",
+      "Maintain",
+      "Change"
+    ],
+    "answer": "Improve",
+    "answerKey": "A",
+    "correctAnswer": "Improve",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Improve.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_430",
+    "title": "Choose the synonym of: RECALCITRANT",
+    "description": "Choose the synonym of: RECALCITRANT",
+    "question": "Choose the synonym of: RECALCITRANT",
+    "options": [
+      "Stubbornly disobedient",
+      "Cooperative",
+      "Obedient",
+      "Agreeable"
+    ],
+    "answer": "Stubbornly disobedient",
+    "answerKey": "A",
+    "correctAnswer": "Stubbornly disobedient",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Stubbornly disobedient.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_431",
+    "title": "Choose the synonym of: INIMICAL",
+    "description": "Choose the synonym of: INIMICAL",
+    "question": "Choose the synonym of: INIMICAL",
+    "options": [
+      "Hostile",
+      "Friendly",
+      "Warm",
+      "Helpful"
+    ],
+    "answer": "Hostile",
+    "answerKey": "A",
+    "correctAnswer": "Hostile",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Hostile.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_432",
+    "title": "Choose the synonym of: VOCIFEROUS",
+    "description": "Choose the synonym of: VOCIFEROUS",
+    "question": "Choose the synonym of: VOCIFEROUS",
+    "options": [
+      "Loud and forceful",
+      "Quiet",
+      "Soft-spoken",
+      "Reserved"
+    ],
+    "answer": "Loud and forceful",
+    "answerKey": "A",
+    "correctAnswer": "Loud and forceful",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Loud and forceful.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_433",
+    "title": "Choose the antonym of: PERNICIOUS",
+    "description": "Choose the antonym of: PERNICIOUS",
+    "question": "Choose the antonym of: PERNICIOUS",
+    "options": [
+      "Beneficial",
+      "Harmful",
+      "Destructive",
+      "Deadly"
+    ],
+    "answer": "Beneficial",
+    "answerKey": "A",
+    "correctAnswer": "Beneficial",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Beneficial.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_434",
+    "title": "Choose the antonym of: RETICENT",
+    "description": "Choose the antonym of: RETICENT",
+    "question": "Choose the antonym of: RETICENT",
+    "options": [
+      "Outspoken",
+      "Reserved",
+      "Quiet",
+      "Shy"
+    ],
+    "answer": "Outspoken",
+    "answerKey": "A",
+    "correctAnswer": "Outspoken",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Outspoken.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_435",
+    "title": "What does the idiom 'burning the candle at both ends' mean?",
+    "description": "What does the idiom 'burning the candle at both ends' mean?",
+    "question": "What does the idiom 'burning the candle at both ends' mean?",
+    "options": [
+      "Overworking and exhausting oneself",
+      "Being very productive",
+      "Wasting resources",
+      "Enjoying life"
+    ],
+    "answer": "Overworking and exhausting oneself",
+    "answerKey": "A",
+    "correctAnswer": "Overworking and exhausting oneself",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Overworking and exhausting oneself.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_437",
+    "title": "What does the idiom 'give the benefit of the doubt' mean?",
+    "description": "What does the idiom 'give the benefit of the doubt' mean?",
+    "question": "What does the idiom 'give the benefit of the doubt' mean?",
+    "options": [
+      "Trust someone despite uncertainty",
+      "Give a gift",
+      "Doubt someone",
+      "Prove guilt"
+    ],
+    "answer": "Trust someone despite uncertainty",
+    "answerKey": "A",
+    "correctAnswer": "Trust someone despite uncertainty",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Trust someone despite uncertainty.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_443",
+    "title": "One word substitution: Murder of one's mother",
+    "description": "One word substitution: Murder of one's mother",
+    "question": "One word substitution: Murder of one's mother",
+    "options": [
+      "Matricide",
+      "Patricide",
+      "Fratricide",
+      "Filicide"
+    ],
+    "answer": "Matricide",
+    "answerKey": "A",
+    "correctAnswer": "Matricide",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Matricide.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_445",
+    "title": "Spot the error: (A)She has (B)been working (C)on this project (D)from last year.",
+    "description": "Spot the error: (A)She has (B)been working (C)on this project (D)from last year.",
+    "question": "Spot the error: (A)She has (B)been working (C)on this project (D)from last year.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "D",
+    "answerKey": "D",
+    "correctAnswer": "D",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (D) is the correct answer: D.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_446",
+    "title": "Spot the error: (A)He is (B)one of (C)the honest men (D)I have ever met.",
+    "description": "Spot the error: (A)He is (B)one of (C)the honest men (D)I have ever met.",
+    "question": "Spot the error: (A)He is (B)one of (C)the honest men (D)I have ever met.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "answerKey": "C",
+    "correctAnswer": "C",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (C) is the correct answer: C.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_447",
+    "title": "Spot the error: (A)All what (B)he said (C)was absolutely (D)correct.",
+    "description": "Spot the error: (A)All what (B)he said (C)was absolutely (D)correct.",
+    "question": "Spot the error: (A)All what (B)he said (C)was absolutely (D)correct.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "A",
+    "answerKey": "A",
+    "correctAnswer": "A",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: A.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_448",
+    "title": "Spot the error: (A)Scarcely had (B)he finished (C)when the (D)teacher entered.",
+    "description": "Spot the error: (A)Scarcely had (B)he finished (C)when the (D)teacher entered.",
+    "question": "Spot the error: (A)Scarcely had (B)he finished (C)when the (D)teacher entered.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "D",
+    "answerKey": "D",
+    "correctAnswer": "D",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (D) is the correct answer: D.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_449",
+    "title": "Spot the error: (A)She is (B)married with (C)a wealthy (D)businessman.",
+    "description": "Spot the error: (A)She is (B)married with (C)a wealthy (D)businessman.",
+    "question": "Spot the error: (A)She is (B)married with (C)a wealthy (D)businessman.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "B",
+    "answerKey": "B",
+    "correctAnswer": "B",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: B.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_450",
+    "title": "Rearrange: P: The invention of the printing press Q: transformed the spread o...",
+    "description": "Rearrange: P: The invention of the printing press Q: transformed the spread of knowledge R: across Europe S: in the 15th century",
+    "question": "Rearrange: P: The invention of the printing press Q: transformed the spread of knowledge R: across Europe S: in the 15th century",
+    "options": [
+      "P-R-S-Q",
+      "P-Q-R-S",
+      "S-P-R-Q",
+      "P-S-Q-R"
+    ],
+    "answer": "P-Q-R-S",
+    "answerKey": "B",
+    "correctAnswer": "P-Q-R-S",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: P-Q-R-S.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_451",
+    "title": "Choose the correct form: He _____ here for five years by next June.",
+    "description": "Choose the correct form: He _____ here for five years by next June.",
+    "question": "Choose the correct form: He _____ here for five years by next June.",
+    "options": [
+      "will be working",
+      "will have been working",
+      "has been working",
+      "was working"
+    ],
+    "answer": "will have been working",
+    "answerKey": "B",
+    "correctAnswer": "will have been working",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: will have been working.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_458",
+    "title": "What does the word PRECIPITATE mean?",
+    "description": "What does the word PRECIPITATE mean?",
+    "question": "What does the word PRECIPITATE mean?",
+    "options": [
+      "Cause to happen suddenly",
+      "Move slowly",
+      "Delay",
+      "Prevent"
+    ],
+    "answer": "Cause to happen suddenly",
+    "answerKey": "A",
+    "correctAnswer": "Cause to happen suddenly",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Cause to happen suddenly.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_459",
+    "title": "What does the word CORROBORATE mean?",
+    "description": "What does the word CORROBORATE mean?",
+    "question": "What does the word CORROBORATE mean?",
+    "options": [
+      "Confirm or support",
+      "Contradict",
+      "Deny",
+      "Oppose"
+    ],
+    "answer": "Confirm or support",
+    "answerKey": "A",
+    "correctAnswer": "Confirm or support",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Confirm or support.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_461",
+    "title": "What does the word CIRCUMSPECT mean?",
+    "description": "What does the word CIRCUMSPECT mean?",
+    "question": "What does the word CIRCUMSPECT mean?",
+    "options": [
+      "Wary and cautious",
+      "Reckless",
+      "Bold",
+      "Careless"
+    ],
+    "answer": "Wary and cautious",
+    "answerKey": "A",
+    "correctAnswer": "Wary and cautious",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Wary and cautious.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_473",
+    "title": "Which sentence contains a split infinitive?",
+    "description": "Which sentence contains a split infinitive?",
+    "question": "Which sentence contains a split infinitive?",
+    "options": [
+      "She wants to quickly finish the work.",
+      "She quickly wants to finish the work.",
+      "She wants to finish the work quickly.",
+      "She quickly finishes the work."
+    ],
+    "answer": "She wants to quickly finish the work.",
+    "answerKey": "A",
+    "correctAnswer": "She wants to quickly finish the work.",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: She wants to quickly finish the work..",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_475",
+    "title": "Which sentence uses 'lay' correctly?",
+    "description": "Which sentence uses 'lay' correctly?",
+    "question": "Which sentence uses 'lay' correctly?",
+    "options": [
+      "She laid the book on the table yesterday.",
+      "She lied the book on the table.",
+      "She lay the book on the table yesterday.",
+      "She has lay the book."
+    ],
+    "answer": "She laid the book on the table yesterday.",
+    "answerKey": "A",
+    "correctAnswer": "She laid the book on the table yesterday.",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: She laid the book on the table yesterday..",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_477",
+    "title": "Choose the sentence with a misplaced modifier:",
+    "description": "Choose the sentence with a misplaced modifier:",
+    "question": "Choose the sentence with a misplaced modifier:",
+    "options": [
+      "He only eats vegetables on Mondays.",
+      "On Mondays, he eats only vegetables.",
+      "He eats only vegetables.",
+      "He eats vegetables only on Mondays."
+    ],
+    "answer": "He only eats vegetables on Mondays.",
+    "answerKey": "A",
+    "correctAnswer": "He only eats vegetables on Mondays.",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: He only eats vegetables on Mondays..",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_490",
+    "title": "What does 'laconic' mean?",
+    "description": "What does 'laconic' mean?",
+    "question": "What does 'laconic' mean?",
+    "options": [
+      "Using very few words",
+      "Being talkative",
+      "Speaking loudly",
+      "Writing extensively"
+    ],
+    "answer": "Using very few words",
+    "answerKey": "A",
+    "correctAnswer": "Using very few words",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Using very few words.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_491",
+    "title": "What is the plural of 'radius'?",
+    "description": "What is the plural of 'radius'?",
+    "question": "What is the plural of 'radius'?",
+    "options": [
+      "Radiuses",
+      "Radii",
+      "Radiis",
+      "Radiums"
+    ],
+    "answer": "Radii",
+    "answerKey": "B",
+    "correctAnswer": "Radii",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: Radii.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_493",
+    "title": "Choose the correctly formed sentence:",
+    "description": "Choose the correctly formed sentence:",
+    "question": "Choose the correctly formed sentence:",
+    "options": [
+      "Neither he nor she are going.",
+      "Neither he nor she is going.",
+      "Neither he nor she were going.",
+      "Neither he nor she have gone."
+    ],
+    "answer": "Neither he nor she is going.",
+    "answerKey": "B",
+    "correctAnswer": "Neither he nor she is going.",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: Neither he nor she is going..",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_494",
+    "title": "Which word means 'to make amends'?",
+    "description": "Which word means 'to make amends'?",
+    "question": "Which word means 'to make amends'?",
+    "options": [
+      "Atone",
+      "Pretend",
+      "Deny",
+      "Refuse"
+    ],
+    "answer": "Atone",
+    "answerKey": "A",
+    "correctAnswer": "Atone",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Atone.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_495",
+    "title": "Which word means 'to intimidate'?",
+    "description": "Which word means 'to intimidate'?",
+    "question": "Which word means 'to intimidate'?",
+    "options": [
+      "Browbeat",
+      "Encourage",
+      "Support",
+      "Inspire"
+    ],
+    "answer": "Browbeat",
+    "answerKey": "A",
+    "correctAnswer": "Browbeat",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Browbeat.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_497",
+    "title": "Which word means 'a great enthusiast'?",
+    "description": "Which word means 'a great enthusiast'?",
+    "question": "Which word means 'a great enthusiast'?",
+    "options": [
+      "Aficionado",
+      "Critic",
+      "Opponent",
+      "Skeptic"
+    ],
+    "answer": "Aficionado",
+    "answerKey": "A",
+    "correctAnswer": "Aficionado",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Aficionado.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_498",
+    "title": "Which word means 'impossible to stop'?",
+    "description": "Which word means 'impossible to stop'?",
+    "question": "Which word means 'impossible to stop'?",
+    "options": [
+      "Inexorable",
+      "Possible",
+      "Preventable",
+      "Controllable"
+    ],
+    "answer": "Inexorable",
+    "answerKey": "A",
+    "correctAnswer": "Inexorable",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Inexorable.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_499",
+    "title": "Which word means 'scholarly'?",
+    "description": "Which word means 'scholarly'?",
+    "question": "Which word means 'scholarly'?",
+    "options": [
+      "Erudite",
+      "Ignorant",
+      "Illiterate",
+      "Common"
+    ],
+    "answer": "Erudite",
+    "answerKey": "A",
+    "correctAnswer": "Erudite",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Erudite.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_501",
+    "title": "What is the synonym of 'sagacious'?",
+    "description": "What is the synonym of 'sagacious'?",
+    "question": "What is the synonym of 'sagacious'?",
+    "options": [
+      "Wise",
+      "Foolish",
+      "Reckless",
+      "Ignorant"
+    ],
+    "answer": "Wise",
+    "answerKey": "A",
+    "correctAnswer": "Wise",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Wise.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_502",
+    "title": "What is the antonym of 'alacrity'?",
+    "description": "What is the antonym of 'alacrity'?",
+    "question": "What is the antonym of 'alacrity'?",
+    "options": [
+      "Reluctance",
+      "Eagerness",
+      "Speed",
+      "Enthusiasm"
+    ],
+    "answer": "Reluctance",
+    "answerKey": "A",
+    "correctAnswer": "Reluctance",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Reluctance.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_505",
+    "title": "What is the antonym of 'cacophony'?",
+    "description": "What is the antonym of 'cacophony'?",
+    "question": "What is the antonym of 'cacophony'?",
+    "options": [
+      "Harmony",
+      "Noise",
+      "Discord",
+      "Chaos"
+    ],
+    "answer": "Harmony",
+    "answerKey": "A",
+    "correctAnswer": "Harmony",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Harmony.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_508",
+    "title": "What is the antonym of 'acrimonious'?",
+    "description": "What is the antonym of 'acrimonious'?",
+    "question": "What is the antonym of 'acrimonious'?",
+    "options": [
+      "Amicable",
+      "Bitter",
+      "Hostile",
+      "Angry"
+    ],
+    "answer": "Amicable",
+    "answerKey": "A",
+    "correctAnswer": "Amicable",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Amicable.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_515",
+    "title": "Choose the synonym of IMPETUOUS",
+    "description": "Choose the synonym of IMPETUOUS",
+    "question": "Choose the synonym of IMPETUOUS",
+    "options": [
+      "Hasty",
+      "Careful",
+      "Slow",
+      "Thoughtful"
+    ],
+    "answer": "Hasty",
+    "answerKey": "A",
+    "correctAnswer": "Hasty",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Hasty.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_516",
+    "title": "Choose the synonym of DIFFIDENT",
+    "description": "Choose the synonym of DIFFIDENT",
+    "question": "Choose the synonym of DIFFIDENT",
+    "options": [
+      "Shy",
+      "Confident",
+      "Bold",
+      "Assertive"
+    ],
+    "answer": "Shy",
+    "answerKey": "A",
+    "correctAnswer": "Shy",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Shy.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_021",
+    "title": "Choose the word most similar in meaning to: UBIQUITOUS",
+    "description": "Choose the word most similar in meaning to: UBIQUITOUS",
+    "question": "Choose the word most similar in meaning to: UBIQUITOUS",
+    "options": [
+      "Everywhere",
+      "Rare",
+      "Hidden",
+      "Missing"
+    ],
+    "answer": "Everywhere",
+    "answerKey": "A",
+    "correctAnswer": "Everywhere",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Everywhere.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_032",
+    "title": "Choose the word most similar in meaning to: FRUGAL",
+    "description": "Choose the word most similar in meaning to: FRUGAL",
+    "question": "Choose the word most similar in meaning to: FRUGAL",
+    "options": [
+      "Thrifty",
+      "Wasteful",
+      "Lavish",
+      "Extravagant"
+    ],
+    "answer": "Thrifty",
+    "answerKey": "A",
+    "correctAnswer": "Thrifty",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Thrifty.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_035",
+    "title": "Choose the word most similar in meaning to: INCESSANT",
+    "description": "Choose the word most similar in meaning to: INCESSANT",
+    "question": "Choose the word most similar in meaning to: INCESSANT",
+    "options": [
+      "Continuous",
+      "Occasional",
+      "Rare",
+      "Sporadic"
+    ],
+    "answer": "Continuous",
+    "answerKey": "A",
+    "correctAnswer": "Continuous",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Continuous.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_036",
+    "title": "Choose the word most similar in meaning to: JOCULAR",
+    "description": "Choose the word most similar in meaning to: JOCULAR",
+    "question": "Choose the word most similar in meaning to: JOCULAR",
+    "options": [
+      "Humorous",
+      "Serious",
+      "Dull",
+      "Sad"
+    ],
+    "answer": "Humorous",
+    "answerKey": "A",
+    "correctAnswer": "Humorous",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Humorous.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_037",
+    "title": "Choose the word most similar in meaning to: KINDLE",
+    "description": "Choose the word most similar in meaning to: KINDLE",
+    "question": "Choose the word most similar in meaning to: KINDLE",
+    "options": [
+      "Ignite",
+      "Extinguish",
+      "Dampen",
+      "Quench"
+    ],
+    "answer": "Ignite",
+    "answerKey": "A",
+    "correctAnswer": "Ignite",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Ignite.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_039",
+    "title": "Choose the word most similar in meaning to: METICULOUS",
+    "description": "Choose the word most similar in meaning to: METICULOUS",
+    "question": "Choose the word most similar in meaning to: METICULOUS",
+    "options": [
+      "Careful",
+      "Careless",
+      "Sloppy",
+      "Hasty"
+    ],
+    "answer": "Careful",
+    "answerKey": "A",
+    "correctAnswer": "Careful",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Careful.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_047",
+    "title": "Choose the word most similar in meaning to: UNYIELDING",
+    "description": "Choose the word most similar in meaning to: UNYIELDING",
+    "question": "Choose the word most similar in meaning to: UNYIELDING",
+    "options": [
+      "Stubborn",
+      "Flexible",
+      "Cooperative",
+      "Easy"
+    ],
+    "answer": "Stubborn",
+    "answerKey": "A",
+    "correctAnswer": "Stubborn",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Stubborn.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_049",
+    "title": "Choose the word most similar in meaning to: WHIMSICAL",
+    "description": "Choose the word most similar in meaning to: WHIMSICAL",
+    "question": "Choose the word most similar in meaning to: WHIMSICAL",
+    "options": [
+      "Fanciful",
+      "Serious",
+      "Logical",
+      "Practical"
+    ],
+    "answer": "Fanciful",
+    "answerKey": "A",
+    "correctAnswer": "Fanciful",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Fanciful.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_053",
+    "title": "Choose the word most OPPOSITE in meaning to: COVERT",
+    "description": "Choose the word most OPPOSITE in meaning to: COVERT",
+    "question": "Choose the word most OPPOSITE in meaning to: COVERT",
+    "options": [
+      "Open",
+      "Hidden",
+      "Secret",
+      "Sly"
+    ],
+    "answer": "Open",
+    "answerKey": "A",
+    "correctAnswer": "Open",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Open.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_055",
+    "title": "Choose the word most OPPOSITE in meaning to: EMBOLDEN",
+    "description": "Choose the word most OPPOSITE in meaning to: EMBOLDEN",
+    "question": "Choose the word most OPPOSITE in meaning to: EMBOLDEN",
+    "options": [
+      "Discourage",
+      "Inspire",
+      "Strengthen",
+      "Boost"
+    ],
+    "answer": "Discourage",
+    "answerKey": "A",
+    "correctAnswer": "Discourage",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Discourage.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_056",
+    "title": "Choose the word most OPPOSITE in meaning to: FEEBLE",
+    "description": "Choose the word most OPPOSITE in meaning to: FEEBLE",
+    "question": "Choose the word most OPPOSITE in meaning to: FEEBLE",
+    "options": [
+      "Strong",
+      "Weak",
+      "Frail",
+      "Fragile"
+    ],
+    "answer": "Strong",
+    "answerKey": "A",
+    "correctAnswer": "Strong",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Strong.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_057",
+    "title": "Choose the word most OPPOSITE in meaning to: GARRULOUS",
+    "description": "Choose the word most OPPOSITE in meaning to: GARRULOUS",
+    "question": "Choose the word most OPPOSITE in meaning to: GARRULOUS",
+    "options": [
+      "Quiet",
+      "Talkative",
+      "Chatty",
+      "Noisy"
+    ],
+    "answer": "Quiet",
+    "answerKey": "A",
+    "correctAnswer": "Quiet",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Quiet.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_058",
+    "title": "Choose the word most OPPOSITE in meaning to: HAUGHTY",
+    "description": "Choose the word most OPPOSITE in meaning to: HAUGHTY",
+    "question": "Choose the word most OPPOSITE in meaning to: HAUGHTY",
+    "options": [
+      "Humble",
+      "Proud",
+      "Arrogant",
+      "Vain"
+    ],
+    "answer": "Humble",
+    "answerKey": "A",
+    "correctAnswer": "Humble",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Humble.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_070",
+    "title": "Choose the word most OPPOSITE in meaning to: TRANQUIL",
+    "description": "Choose the word most OPPOSITE in meaning to: TRANQUIL",
+    "question": "Choose the word most OPPOSITE in meaning to: TRANQUIL",
+    "options": [
+      "Turbulent",
+      "Calm",
+      "Peaceful",
+      "Serene"
+    ],
+    "answer": "Turbulent",
+    "answerKey": "A",
+    "correctAnswer": "Turbulent",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Turbulent.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_071",
+    "title": "Choose the word most OPPOSITE in meaning to: UNDERMINE",
+    "description": "Choose the word most OPPOSITE in meaning to: UNDERMINE",
+    "question": "Choose the word most OPPOSITE in meaning to: UNDERMINE",
+    "options": [
+      "Strengthen",
+      "Weaken",
+      "Sabotage",
+      "Erode"
+    ],
+    "answer": "Strengthen",
+    "answerKey": "A",
+    "correctAnswer": "Strengthen",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Strengthen.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_074",
+    "title": "Choose the word most OPPOSITE in meaning to: XENOPHOBIA",
+    "description": "Choose the word most OPPOSITE in meaning to: XENOPHOBIA",
+    "question": "Choose the word most OPPOSITE in meaning to: XENOPHOBIA",
+    "options": [
+      "Tolerance",
+      "Fear",
+      "Hatred",
+      "Bias"
+    ],
+    "answer": "Tolerance",
+    "answerKey": "A",
+    "correctAnswer": "Tolerance",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Tolerance.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_080",
+    "title": "Choose the word most OPPOSITE in meaning to: DESOLATE",
+    "description": "Choose the word most OPPOSITE in meaning to: DESOLATE",
+    "question": "Choose the word most OPPOSITE in meaning to: DESOLATE",
+    "options": [
+      "Populated",
+      "Empty",
+      "Lonely",
+      "Barren"
+    ],
+    "answer": "Populated",
+    "answerKey": "A",
+    "correctAnswer": "Populated",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Populated.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_081",
+    "title": "Choose the word most OPPOSITE in meaning to: EXUBERANT",
+    "description": "Choose the word most OPPOSITE in meaning to: EXUBERANT",
+    "question": "Choose the word most OPPOSITE in meaning to: EXUBERANT",
+    "options": [
+      "Subdued",
+      "Lively",
+      "Vibrant",
+      "Joyful"
+    ],
+    "answer": "Subdued",
+    "answerKey": "A",
+    "correctAnswer": "Subdued",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Subdued.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_082",
+    "title": "Choose the word most OPPOSITE in meaning to: FASTIDIOUS",
+    "description": "Choose the word most OPPOSITE in meaning to: FASTIDIOUS",
+    "question": "Choose the word most OPPOSITE in meaning to: FASTIDIOUS",
+    "options": [
+      "Lenient",
+      "Fussy",
+      "Picky",
+      "Strict"
+    ],
+    "answer": "Lenient",
+    "answerKey": "A",
+    "correctAnswer": "Lenient",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Lenient.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_086",
+    "title": "Choose the word most OPPOSITE in meaning to: JUDICIOUS",
+    "description": "Choose the word most OPPOSITE in meaning to: JUDICIOUS",
+    "question": "Choose the word most OPPOSITE in meaning to: JUDICIOUS",
+    "options": [
+      "Reckless",
+      "Wise",
+      "Sensible",
+      "Prudent"
+    ],
+    "answer": "Reckless",
+    "answerKey": "A",
+    "correctAnswer": "Reckless",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Reckless.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_088",
+    "title": "Choose the word most OPPOSITE in meaning to: LISTLESS",
+    "description": "Choose the word most OPPOSITE in meaning to: LISTLESS",
+    "question": "Choose the word most OPPOSITE in meaning to: LISTLESS",
+    "options": [
+      "Energetic",
+      "Lazy",
+      "Dull",
+      "Tired"
+    ],
+    "answer": "Energetic",
+    "answerKey": "A",
+    "correctAnswer": "Energetic",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Energetic.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_089",
+    "title": "Choose the word most OPPOSITE in meaning to: MAGNANIMOUS",
+    "description": "Choose the word most OPPOSITE in meaning to: MAGNANIMOUS",
+    "question": "Choose the word most OPPOSITE in meaning to: MAGNANIMOUS",
+    "options": [
+      "Petty",
+      "Generous",
+      "Noble",
+      "Giving"
+    ],
+    "answer": "Petty",
+    "answerKey": "A",
+    "correctAnswer": "Petty",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Petty.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_090",
+    "title": "Choose the word most OPPOSITE in meaning to: NONCHALANT",
+    "description": "Choose the word most OPPOSITE in meaning to: NONCHALANT",
+    "question": "Choose the word most OPPOSITE in meaning to: NONCHALANT",
+    "options": [
+      "Anxious",
+      "Calm",
+      "Cool",
+      "Casual"
+    ],
+    "answer": "Anxious",
+    "answerKey": "A",
+    "correctAnswer": "Anxious",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Anxious.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_093",
+    "title": "Choose the word most OPPOSITE in meaning to: QUIXOTIC",
+    "description": "Choose the word most OPPOSITE in meaning to: QUIXOTIC",
+    "question": "Choose the word most OPPOSITE in meaning to: QUIXOTIC",
+    "options": [
+      "Realistic",
+      "Idealistic",
+      "Romantic",
+      "Fanciful"
+    ],
+    "answer": "Realistic",
+    "answerKey": "A",
+    "correctAnswer": "Realistic",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Realistic.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_096",
+    "title": "Choose the word most OPPOSITE in meaning to: TACITURN",
+    "description": "Choose the word most OPPOSITE in meaning to: TACITURN",
+    "question": "Choose the word most OPPOSITE in meaning to: TACITURN",
+    "options": [
+      "Talkative",
+      "Silent",
+      "Reserved",
+      "Quiet"
+    ],
+    "answer": "Talkative",
+    "answerKey": "A",
+    "correctAnswer": "Talkative",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Talkative.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_416",
+    "title": "Choose the synonym of: LOQUACIOUS",
+    "description": "Choose the synonym of: LOQUACIOUS",
+    "question": "Choose the synonym of: LOQUACIOUS",
+    "options": [
+      "Talkative",
+      "Silent",
+      "Reserved",
+      "Thoughtful"
+    ],
+    "answer": "Talkative",
+    "answerKey": "A",
+    "correctAnswer": "Talkative",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Talkative.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_421",
+    "title": "Choose the antonym of: MAGNANIMOUS",
+    "description": "Choose the antonym of: MAGNANIMOUS",
+    "question": "Choose the antonym of: MAGNANIMOUS",
+    "options": [
+      "Petty",
+      "Generous",
+      "Kind",
+      "Giving"
+    ],
+    "answer": "Petty",
+    "answerKey": "A",
+    "correctAnswer": "Petty",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Petty.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_423",
+    "title": "Choose the antonym of: VERBOSE",
+    "description": "Choose the antonym of: VERBOSE",
+    "question": "Choose the antonym of: VERBOSE",
+    "options": [
+      "Concise",
+      "Wordy",
+      "Long-winded",
+      "Lengthy"
+    ],
+    "answer": "Concise",
+    "answerKey": "A",
+    "correctAnswer": "Concise",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Concise.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_436",
+    "title": "What does the idiom 'face the music' mean?",
+    "description": "What does the idiom 'face the music' mean?",
+    "question": "What does the idiom 'face the music' mean?",
+    "options": [
+      "Accept the consequences of actions",
+      "Listen to music",
+      "Ignore problems",
+      "Run away"
+    ],
+    "answer": "Accept the consequences of actions",
+    "answerKey": "A",
+    "correctAnswer": "Accept the consequences of actions",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Accept the consequences of actions.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_438",
+    "title": "What does the idiom 'the last straw' mean?",
+    "description": "What does the idiom 'the last straw' mean?",
+    "question": "What does the idiom 'the last straw' mean?",
+    "options": [
+      "The final problem that causes failure",
+      "A piece of straw",
+      "A small problem",
+      "A drink"
+    ],
+    "answer": "The final problem that causes failure",
+    "answerKey": "A",
+    "correctAnswer": "The final problem that causes failure",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: The final problem that causes failure.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_439",
+    "title": "What does the idiom 'a blessing in disguise' mean?",
+    "description": "What does the idiom 'a blessing in disguise' mean?",
+    "question": "What does the idiom 'a blessing in disguise' mean?",
+    "options": [
+      "Something good that seemed bad at first",
+      "A hidden gift",
+      "A bad event",
+      "A disguise"
+    ],
+    "answer": "Something good that seemed bad at first",
+    "answerKey": "A",
+    "correctAnswer": "Something good that seemed bad at first",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Something good that seemed bad at first.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_441",
+    "title": "One word substitution: Study of the universe",
+    "description": "One word substitution: Study of the universe",
+    "question": "One word substitution: Study of the universe",
+    "options": [
+      "Cosmology",
+      "Geology",
+      "Astrology",
+      "Ecology"
+    ],
+    "answer": "Cosmology",
+    "answerKey": "A",
+    "correctAnswer": "Cosmology",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Cosmology.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_442",
+    "title": "One word substitution: Fear of spiders",
+    "description": "One word substitution: Fear of spiders",
+    "question": "One word substitution: Fear of spiders",
+    "options": [
+      "Arachnophobia",
+      "Acrophobia",
+      "Xenophobia",
+      "Agoraphobia"
+    ],
+    "answer": "Arachnophobia",
+    "answerKey": "A",
+    "correctAnswer": "Arachnophobia",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Arachnophobia.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_452",
+    "title": "Choose the correct preposition: I am looking forward _____ meeting you.",
+    "description": "Choose the correct preposition: I am looking forward _____ meeting you.",
+    "question": "Choose the correct preposition: I am looking forward _____ meeting you.",
+    "options": [
+      "for",
+      "at",
+      "to",
+      "about"
+    ],
+    "answer": "to",
+    "answerKey": "C",
+    "correctAnswer": "to",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (C) is the correct answer: to.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_454",
+    "title": "Choose the word with correct spelling:",
+    "description": "Choose the word with correct spelling:",
+    "question": "Choose the word with correct spelling:",
+    "options": [
+      "Priviledge",
+      "Privilege",
+      "Previliege",
+      "Privelege"
+    ],
+    "answer": "Privilege",
+    "answerKey": "B",
+    "correctAnswer": "Privilege",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: Privilege.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_460",
+    "title": "What does the word ALLEVIATE mean?",
+    "description": "What does the word ALLEVIATE mean?",
+    "question": "What does the word ALLEVIATE mean?",
+    "options": [
+      "Make less severe",
+      "Worsen",
+      "Intensify",
+      "Create"
+    ],
+    "answer": "Make less severe",
+    "answerKey": "A",
+    "correctAnswer": "Make less severe",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Make less severe.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_466",
+    "title": "Choose the correctly formed question tag: 'He hasn't called, ___?'",
+    "description": "Choose the correctly formed question tag: 'He hasn't called, ___?'",
+    "question": "Choose the correctly formed question tag: 'He hasn't called, ___?'",
+    "options": [
+      "has he",
+      "hasn't he",
+      "had he",
+      "does he"
+    ],
+    "answer": "has he",
+    "answerKey": "A",
+    "correctAnswer": "has he",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: has he.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_467",
+    "title": "Choose the correctly formed question tag: 'You will help me, ___?'",
+    "description": "Choose the correctly formed question tag: 'You will help me, ___?'",
+    "question": "Choose the correctly formed question tag: 'You will help me, ___?'",
+    "options": [
+      "won't you",
+      "will you",
+      "would you",
+      "shall you"
+    ],
+    "answer": "won't you",
+    "answerKey": "A",
+    "correctAnswer": "won't you",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: won't you.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_470",
+    "title": "Choose the correct sentence: Passive voice of 'He opens the door every day.'",
+    "description": "Choose the correct sentence: Passive voice of 'He opens the door every day.'",
+    "question": "Choose the correct sentence: Passive voice of 'He opens the door every day.'",
+    "options": [
+      "The door is opened by him every day.",
+      "The door was opened by him.",
+      "The door has been opened by him.",
+      "The door opens every day."
+    ],
+    "answer": "The door is opened by him every day.",
+    "answerKey": "A",
+    "correctAnswer": "The door is opened by him every day.",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: The door is opened by him every day..",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_474",
+    "title": "Choose the correct form: 'I _____ rather stay home than go out.'",
+    "description": "Choose the correct form: 'I _____ rather stay home than go out.'",
+    "question": "Choose the correct form: 'I _____ rather stay home than go out.'",
+    "options": [
+      "would",
+      "should",
+      "could",
+      "might"
+    ],
+    "answer": "would",
+    "answerKey": "A",
+    "correctAnswer": "would",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: would.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_478",
+    "title": "Choose the meaning of the phrase 'to bite the dust':",
+    "description": "Choose the meaning of the phrase 'to bite the dust':",
+    "question": "Choose the meaning of the phrase 'to bite the dust':",
+    "options": [
+      "To fail or be defeated",
+      "To eat soil",
+      "To fall asleep",
+      "To become tired"
+    ],
+    "answer": "To fail or be defeated",
+    "answerKey": "A",
+    "correctAnswer": "To fail or be defeated",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: To fail or be defeated.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_481",
+    "title": "Choose the meaning of 'at the drop of a hat':",
+    "description": "Choose the meaning of 'at the drop of a hat':",
+    "question": "Choose the meaning of 'at the drop of a hat':",
+    "options": [
+      "Immediately without delay",
+      "Accidentally",
+      "With great effort",
+      "Slowly"
+    ],
+    "answer": "Immediately without delay",
+    "answerKey": "A",
+    "correctAnswer": "Immediately without delay",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Immediately without delay.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_482",
+    "title": "Choose the meaning of 'in the same boat':",
+    "description": "Choose the meaning of 'in the same boat':",
+    "question": "Choose the meaning of 'in the same boat':",
+    "options": [
+      "In the same difficult situation",
+      "On a boat",
+      "Working together",
+      "Sharing resources"
+    ],
+    "answer": "In the same difficult situation",
+    "answerKey": "A",
+    "correctAnswer": "In the same difficult situation",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: In the same difficult situation.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_485",
+    "title": "Which word is a homophone of 'principal'?",
+    "description": "Which word is a homophone of 'principal'?",
+    "question": "Which word is a homophone of 'principal'?",
+    "options": [
+      "Principle",
+      "Principal",
+      "Pinacle",
+      "Prinkle"
+    ],
+    "answer": "Principal",
+    "answerKey": "B",
+    "correctAnswer": "Principal",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: Principal.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_486",
+    "title": "Which sentence uses the correct form of 'less' vs 'fewer'?",
+    "description": "Which sentence uses the correct form of 'less' vs 'fewer'?",
+    "question": "Which sentence uses the correct form of 'less' vs 'fewer'?",
+    "options": [
+      "There are less students today.",
+      "There are fewer students today.",
+      "There are more less students.",
+      "There are fewer amount."
+    ],
+    "answer": "There are fewer students today.",
+    "answerKey": "B",
+    "correctAnswer": "There are fewer students today.",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: There are fewer students today..",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_489",
+    "title": "What does 'verbose' mean?",
+    "description": "What does 'verbose' mean?",
+    "question": "What does 'verbose' mean?",
+    "options": [
+      "Using more words than necessary",
+      "Speaking clearly",
+      "Being silent",
+      "Communicating well"
+    ],
+    "answer": "Using more words than necessary",
+    "answerKey": "A",
+    "correctAnswer": "Using more words than necessary",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Using more words than necessary.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_492",
+    "title": "What is the plural of 'datum'?",
+    "description": "What is the plural of 'datum'?",
+    "question": "What is the plural of 'datum'?",
+    "options": [
+      "Datums",
+      "Data",
+      "Datas",
+      "Datii"
+    ],
+    "answer": "Data",
+    "answerKey": "B",
+    "correctAnswer": "Data",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: Data.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_496",
+    "title": "Which word means 'lasting for a very short time'?",
+    "description": "Which word means 'lasting for a very short time'?",
+    "question": "Which word means 'lasting for a very short time'?",
+    "options": [
+      "Fleeting",
+      "Permanent",
+      "Enduring",
+      "Lasting"
+    ],
+    "answer": "Fleeting",
+    "answerKey": "A",
+    "correctAnswer": "Fleeting",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Fleeting.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_500",
+    "title": "What is the synonym of 'garrulous'?",
+    "description": "What is the synonym of 'garrulous'?",
+    "question": "What is the synonym of 'garrulous'?",
+    "options": [
+      "Talkative",
+      "Silent",
+      "Reserved",
+      "Quiet"
+    ],
+    "answer": "Talkative",
+    "answerKey": "A",
+    "correctAnswer": "Talkative",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Talkative.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_503",
+    "title": "What is the antonym of 'copious'?",
+    "description": "What is the antonym of 'copious'?",
+    "question": "What is the antonym of 'copious'?",
+    "options": [
+      "Scarce",
+      "Plentiful",
+      "Abundant",
+      "Overflowing"
+    ],
+    "answer": "Scarce",
+    "answerKey": "A",
+    "correctAnswer": "Scarce",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Scarce.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_504",
+    "title": "What is the antonym of 'frugal'?",
+    "description": "What is the antonym of 'frugal'?",
+    "question": "What is the antonym of 'frugal'?",
+    "options": [
+      "Extravagant",
+      "Thrifty",
+      "Economical",
+      "Careful"
+    ],
+    "answer": "Extravagant",
+    "answerKey": "A",
+    "correctAnswer": "Extravagant",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Extravagant.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_506",
+    "title": "What is the antonym of 'lethargic'?",
+    "description": "What is the antonym of 'lethargic'?",
+    "question": "What is the antonym of 'lethargic'?",
+    "options": [
+      "Energetic",
+      "Tired",
+      "Slow",
+      "Dull"
+    ],
+    "answer": "Energetic",
+    "answerKey": "A",
+    "correctAnswer": "Energetic",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Energetic.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_507",
+    "title": "What is the antonym of 'jovial'?",
+    "description": "What is the antonym of 'jovial'?",
+    "question": "What is the antonym of 'jovial'?",
+    "options": [
+      "Melancholy",
+      "Happy",
+      "Cheerful",
+      "Playful"
+    ],
+    "answer": "Melancholy",
+    "answerKey": "A",
+    "correctAnswer": "Melancholy",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Melancholy.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_509",
+    "title": "What is the antonym of 'indolent'?",
+    "description": "What is the antonym of 'indolent'?",
+    "question": "What is the antonym of 'indolent'?",
+    "options": [
+      "Industrious",
+      "Lazy",
+      "Idle",
+      "Sluggish"
+    ],
+    "answer": "Industrious",
+    "answerKey": "A",
+    "correctAnswer": "Industrious",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Industrious.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_510",
+    "title": "What is the antonym of 'meticulous'?",
+    "description": "What is the antonym of 'meticulous'?",
+    "question": "What is the antonym of 'meticulous'?",
+    "options": [
+      "Careless",
+      "Careful",
+      "Thorough",
+      "Precise"
+    ],
+    "answer": "Careless",
+    "answerKey": "A",
+    "correctAnswer": "Careless",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Careless.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_512",
+    "title": "Choose the synonym of PLAUSIBLE",
+    "description": "Choose the synonym of PLAUSIBLE",
+    "question": "Choose the synonym of PLAUSIBLE",
+    "options": [
+      "Believable",
+      "Doubtful",
+      "Impossible",
+      "Strange"
+    ],
+    "answer": "Believable",
+    "answerKey": "A",
+    "correctAnswer": "Believable",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Believable.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_513",
+    "title": "Choose the synonym of ARDUOUS",
+    "description": "Choose the synonym of ARDUOUS",
+    "question": "Choose the synonym of ARDUOUS",
+    "options": [
+      "Difficult",
+      "Easy",
+      "Simple",
+      "Effortless"
+    ],
+    "answer": "Difficult",
+    "answerKey": "A",
+    "correctAnswer": "Difficult",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Difficult.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_518",
+    "title": "Choose the synonym of VIVACIOUS",
+    "description": "Choose the synonym of VIVACIOUS",
+    "question": "Choose the synonym of VIVACIOUS",
+    "options": [
+      "Lively",
+      "Dull",
+      "Sad",
+      "Tired"
+    ],
+    "answer": "Lively",
+    "answerKey": "A",
+    "correctAnswer": "Lively",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Lively.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_519",
+    "title": "Choose the synonym of OBSTINATE",
+    "description": "Choose the synonym of OBSTINATE",
+    "question": "Choose the synonym of OBSTINATE",
+    "options": [
+      "Stubborn",
+      "Flexible",
+      "Yielding",
+      "Agreeable"
+    ],
+    "answer": "Stubborn",
+    "answerKey": "A",
+    "correctAnswer": "Stubborn",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Stubborn.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_520",
+    "title": "Choose the synonym of EMINENT",
+    "description": "Choose the synonym of EMINENT",
+    "question": "Choose the synonym of EMINENT",
+    "options": [
+      "Prominent",
+      "Unknown",
+      "Ordinary",
+      "Common"
+    ],
+    "answer": "Prominent",
+    "answerKey": "A",
+    "correctAnswer": "Prominent",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Prominent.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_522",
+    "title": "Choose the word most similar in meaning to: MAGNANIMOUS",
+    "description": "Choose the word most similar in meaning to: MAGNANIMOUS",
+    "question": "Choose the word most similar in meaning to: MAGNANIMOUS",
+    "options": [
+      "Generous",
+      "Selfish",
+      "Mean",
+      "Greedy"
+    ],
+    "answer": "Generous",
+    "answerKey": "A",
+    "correctAnswer": "Generous",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Generous.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_523",
+    "title": "Choose the word most similar in meaning to: MELANCHOLY",
+    "description": "Choose the word most similar in meaning to: MELANCHOLY",
+    "question": "Choose the word most similar in meaning to: MELANCHOLY",
+    "options": [
+      "Sadness",
+      "Happiness",
+      "Excitement",
+      "Joy"
+    ],
+    "answer": "Sadness",
+    "answerKey": "A",
+    "correctAnswer": "Sadness",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Sadness.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_530",
+    "title": "Choose the word most similar in meaning to: OBSTINATE",
+    "description": "Choose the word most similar in meaning to: OBSTINATE",
+    "question": "Choose the word most similar in meaning to: OBSTINATE",
+    "options": [
+      "Stubborn",
+      "Flexible",
+      "Cooperative",
+      "Agreeable"
+    ],
+    "answer": "Stubborn",
+    "answerKey": "A",
+    "correctAnswer": "Stubborn",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Stubborn.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_536",
+    "title": "Choose the word most similar in meaning to: PARSIMONY",
+    "description": "Choose the word most similar in meaning to: PARSIMONY",
+    "question": "Choose the word most similar in meaning to: PARSIMONY",
+    "options": [
+      "Extreme thriftiness",
+      "Generosity",
+      "Extravagance",
+      "Lavishness"
+    ],
+    "answer": "Extreme thriftiness",
+    "answerKey": "A",
+    "correctAnswer": "Extreme thriftiness",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Extreme thriftiness.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_540",
+    "title": "Choose the word most similar in meaning to: PHLEGMATIC",
+    "description": "Choose the word most similar in meaning to: PHLEGMATIC",
+    "question": "Choose the word most similar in meaning to: PHLEGMATIC",
+    "options": [
+      "Calm",
+      "Excitable",
+      "Emotional",
+      "Passionate"
+    ],
+    "answer": "Calm",
+    "answerKey": "A",
+    "correctAnswer": "Calm",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Calm.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_543",
+    "title": "Choose the word most similar in meaning to: PLAUSIBLE",
+    "description": "Choose the word most similar in meaning to: PLAUSIBLE",
+    "question": "Choose the word most similar in meaning to: PLAUSIBLE",
+    "options": [
+      "Believable",
+      "Unbelievable",
+      "Impossible",
+      "False"
+    ],
+    "answer": "Believable",
+    "answerKey": "A",
+    "correctAnswer": "Believable",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Believable.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_552",
+    "title": "Choose the word most similar in meaning to: PROFOUND",
+    "description": "Choose the word most similar in meaning to: PROFOUND",
+    "question": "Choose the word most similar in meaning to: PROFOUND",
+    "options": [
+      "Deep",
+      "Shallow",
+      "Surface",
+      "Simple"
+    ],
+    "answer": "Deep",
+    "answerKey": "A",
+    "correctAnswer": "Deep",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Deep.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_559",
+    "title": "Choose the word most similar in meaning to: QUIXOTIC",
+    "description": "Choose the word most similar in meaning to: QUIXOTIC",
+    "question": "Choose the word most similar in meaning to: QUIXOTIC",
+    "options": [
+      "Unrealistically idealistic",
+      "Practical",
+      "Realistic",
+      "Pragmatic"
+    ],
+    "answer": "Unrealistically idealistic",
+    "answerKey": "A",
+    "correctAnswer": "Unrealistically idealistic",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Unrealistically idealistic.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_562",
+    "title": "Choose the word most similar in meaning to: RECALCITRANT",
+    "description": "Choose the word most similar in meaning to: RECALCITRANT",
+    "question": "Choose the word most similar in meaning to: RECALCITRANT",
+    "options": [
+      "Stubbornly disobedient",
+      "Obedient",
+      "Cooperative",
+      "Willing"
+    ],
+    "answer": "Stubbornly disobedient",
+    "answerKey": "A",
+    "correctAnswer": "Stubbornly disobedient",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Stubbornly disobedient.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_564",
+    "title": "Choose the word most similar in meaning to: REDOUBTABLE",
+    "description": "Choose the word most similar in meaning to: REDOUBTABLE",
+    "question": "Choose the word most similar in meaning to: REDOUBTABLE",
+    "options": [
+      "Inspiring fear",
+      "Weak",
+      "Harmless",
+      "Timid"
+    ],
+    "answer": "Inspiring fear",
+    "answerKey": "A",
+    "correctAnswer": "Inspiring fear",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Inspiring fear.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_566",
+    "title": "Choose the word most similar in meaning to: REPUDIATE",
+    "description": "Choose the word most similar in meaning to: REPUDIATE",
+    "question": "Choose the word most similar in meaning to: REPUDIATE",
+    "options": [
+      "Reject",
+      "Accept",
+      "Welcome",
+      "Embrace"
+    ],
+    "answer": "Reject",
+    "answerKey": "A",
+    "correctAnswer": "Reject",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Reject.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_572",
+    "title": "Choose the word most similar in meaning to: SANCTIMONIOUS",
+    "description": "Choose the word most similar in meaning to: SANCTIMONIOUS",
+    "question": "Choose the word most similar in meaning to: SANCTIMONIOUS",
+    "options": [
+      "Hypocritically pious",
+      "Genuinely humble",
+      "Sincerely devoted",
+      "Truly modest"
+    ],
+    "answer": "Hypocritically pious",
+    "answerKey": "A",
+    "correctAnswer": "Hypocritically pious",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Hypocritically pious.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_573",
+    "title": "Choose the word most similar in meaning to: SARDONIC",
+    "description": "Choose the word most similar in meaning to: SARDONIC",
+    "question": "Choose the word most similar in meaning to: SARDONIC",
+    "options": [
+      "Grimly mocking",
+      "Genuinely kind",
+      "Warmly humorous",
+      "Sweetly amusing"
+    ],
+    "answer": "Grimly mocking",
+    "answerKey": "A",
+    "correctAnswer": "Grimly mocking",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Grimly mocking.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_578",
+    "title": "Choose the word most similar in meaning to: SOPHISTRY",
+    "description": "Choose the word most similar in meaning to: SOPHISTRY",
+    "question": "Choose the word most similar in meaning to: SOPHISTRY",
+    "options": [
+      "Clever but misleading argument",
+      "Genuine logic",
+      "Sound reasoning",
+      "Honest debate"
+    ],
+    "answer": "Clever but misleading argument",
+    "answerKey": "A",
+    "correctAnswer": "Clever but misleading argument",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Clever but misleading argument.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_582",
+    "title": "Choose the word most similar in meaning to: STEADFAST",
+    "description": "Choose the word most similar in meaning to: STEADFAST",
+    "question": "Choose the word most similar in meaning to: STEADFAST",
+    "options": [
+      "Resolute",
+      "Wavering",
+      "Uncertain",
+      "Changeable"
+    ],
+    "answer": "Resolute",
+    "answerKey": "A",
+    "correctAnswer": "Resolute",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Resolute.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_585",
+    "title": "Choose the word most similar in meaning to: STUBBORN",
+    "description": "Choose the word most similar in meaning to: STUBBORN",
+    "question": "Choose the word most similar in meaning to: STUBBORN",
+    "options": [
+      "Obstinate",
+      "Flexible",
+      "Yielding",
+      "Compliant"
+    ],
+    "answer": "Obstinate",
+    "answerKey": "A",
+    "correctAnswer": "Obstinate",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Obstinate.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_587",
+    "title": "Choose the word most similar in meaning to: SUBDUED",
+    "description": "Choose the word most similar in meaning to: SUBDUED",
+    "question": "Choose the word most similar in meaning to: SUBDUED",
+    "options": [
+      "Quiet",
+      "Loud",
+      "Vibrant",
+      "Energetic"
+    ],
+    "answer": "Quiet",
+    "answerKey": "A",
+    "correctAnswer": "Quiet",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Quiet.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_589",
+    "title": "Choose the word most similar in meaning to: SUCCINCT",
+    "description": "Choose the word most similar in meaning to: SUCCINCT",
+    "question": "Choose the word most similar in meaning to: SUCCINCT",
+    "options": [
+      "Brief and clear",
+      "Long and wordy",
+      "Elaborate",
+      "Detailed"
+    ],
+    "answer": "Brief and clear",
+    "answerKey": "A",
+    "correctAnswer": "Brief and clear",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Brief and clear.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_591",
+    "title": "Choose the word most similar in meaning to: SUPERCILIOUS",
+    "description": "Choose the word most similar in meaning to: SUPERCILIOUS",
+    "question": "Choose the word most similar in meaning to: SUPERCILIOUS",
+    "options": [
+      "Condescending",
+      "Humble",
+      "Respectful",
+      "Modest"
+    ],
+    "answer": "Condescending",
+    "answerKey": "A",
+    "correctAnswer": "Condescending",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Condescending.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_592",
+    "title": "Choose the word most similar in meaning to: SUPPRESS",
+    "description": "Choose the word most similar in meaning to: SUPPRESS",
+    "question": "Choose the word most similar in meaning to: SUPPRESS",
+    "options": [
+      "Prevent",
+      "Encourage",
+      "Promote",
+      "Support"
+    ],
+    "answer": "Prevent",
+    "answerKey": "A",
+    "correctAnswer": "Prevent",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Prevent.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_594",
+    "title": "Choose the word most similar in meaning to: SURREPTITIOUS",
+    "description": "Choose the word most similar in meaning to: SURREPTITIOUS",
+    "question": "Choose the word most similar in meaning to: SURREPTITIOUS",
+    "options": [
+      "Done secretly",
+      "Done openly",
+      "Publicly visible",
+      "Transparent"
+    ],
+    "answer": "Done secretly",
+    "answerKey": "A",
+    "correctAnswer": "Done secretly",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Done secretly.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_606",
+    "title": "Choose the word most similar in meaning to: TYRANNICAL",
+    "description": "Choose the word most similar in meaning to: TYRANNICAL",
+    "question": "Choose the word most similar in meaning to: TYRANNICAL",
+    "options": [
+      "Oppressively cruel",
+      "Kindly gentle",
+      "Fairly democratic",
+      "Generously helpful"
+    ],
+    "answer": "Oppressively cruel",
+    "answerKey": "A",
+    "correctAnswer": "Oppressively cruel",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Oppressively cruel.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_608",
+    "title": "Choose the word most similar in meaning to: UNGRATEFUL",
+    "description": "Choose the word most similar in meaning to: UNGRATEFUL",
+    "question": "Choose the word most similar in meaning to: UNGRATEFUL",
+    "options": [
+      "Thankless",
+      "Appreciative",
+      "Grateful",
+      "Thankful"
+    ],
+    "answer": "Thankless",
+    "answerKey": "A",
+    "correctAnswer": "Thankless",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Thankless.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_609",
+    "title": "Choose the word most similar in meaning to: UNIFORM",
+    "description": "Choose the word most similar in meaning to: UNIFORM",
+    "question": "Choose the word most similar in meaning to: UNIFORM",
+    "options": [
+      "Consistent",
+      "Varying",
+      "Inconsistent",
+      "Irregular"
+    ],
+    "answer": "Consistent",
+    "answerKey": "A",
+    "correctAnswer": "Consistent",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Consistent.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_610",
+    "title": "Choose the word most similar in meaning to: UNSCRUPULOUS",
+    "description": "Choose the word most similar in meaning to: UNSCRUPULOUS",
+    "question": "Choose the word most similar in meaning to: UNSCRUPULOUS",
+    "options": [
+      "Without moral principles",
+      "Highly principled",
+      "Strictly honest",
+      "Morally upright"
+    ],
+    "answer": "Without moral principles",
+    "answerKey": "A",
+    "correctAnswer": "Without moral principles",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Without moral principles.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_613",
+    "title": "Choose the word most similar in meaning to: VEHEMENT",
+    "description": "Choose the word most similar in meaning to: VEHEMENT",
+    "question": "Choose the word most similar in meaning to: VEHEMENT",
+    "options": [
+      "Forceful",
+      "Weak",
+      "Mild",
+      "Gentle"
+    ],
+    "answer": "Forceful",
+    "answerKey": "A",
+    "correctAnswer": "Forceful",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Forceful.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_614",
+    "title": "Choose the word most similar in meaning to: VENERABLE",
+    "description": "Choose the word most similar in meaning to: VENERABLE",
+    "question": "Choose the word most similar in meaning to: VENERABLE",
+    "options": [
+      "Respected due to age",
+      "Disrespected",
+      "Young",
+      "Inexperienced"
+    ],
+    "answer": "Respected due to age",
+    "answerKey": "A",
+    "correctAnswer": "Respected due to age",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Respected due to age.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_619",
+    "title": "Choose the word most similar in meaning to: VOCIFEROUS",
+    "description": "Choose the word most similar in meaning to: VOCIFEROUS",
+    "question": "Choose the word most similar in meaning to: VOCIFEROUS",
+    "options": [
+      "Loudly insistent",
+      "Quiet",
+      "Reserved",
+      "Silent"
+    ],
+    "answer": "Loudly insistent",
+    "answerKey": "A",
+    "correctAnswer": "Loudly insistent",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Loudly insistent.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_631",
+    "title": "Choose the antonym of VOLATILE",
+    "description": "Choose the antonym of VOLATILE",
+    "question": "Choose the antonym of VOLATILE",
+    "options": [
+      "Stable",
+      "Changeable",
+      "Unpredictable",
+      "Erratic"
+    ],
+    "answer": "Stable",
+    "answerKey": "A",
+    "correctAnswer": "Stable",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Stable.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_633",
+    "title": "Choose the antonym of ZEALOUS",
+    "description": "Choose the antonym of ZEALOUS",
+    "question": "Choose the antonym of ZEALOUS",
+    "options": [
+      "Indifferent",
+      "Enthusiastic",
+      "Passionate",
+      "Eager"
+    ],
+    "answer": "Indifferent",
+    "answerKey": "A",
+    "correctAnswer": "Indifferent",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Indifferent.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_634",
+    "title": "Choose the antonym of TIMOROUS",
+    "description": "Choose the antonym of TIMOROUS",
+    "question": "Choose the antonym of TIMOROUS",
+    "options": [
+      "Brave",
+      "Fearful",
+      "Nervous",
+      "Timid"
+    ],
+    "answer": "Brave",
+    "answerKey": "A",
+    "correctAnswer": "Brave",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Brave.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_635",
+    "title": "Choose the antonym of STRINGENT",
+    "description": "Choose the antonym of STRINGENT",
+    "question": "Choose the antonym of STRINGENT",
+    "options": [
+      "Lenient",
+      "Strict",
+      "Rigid",
+      "Harsh"
+    ],
+    "answer": "Lenient",
+    "answerKey": "A",
+    "correctAnswer": "Lenient",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Lenient.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_637",
+    "title": "Choose the antonym of SPURIOUS",
+    "description": "Choose the antonym of SPURIOUS",
+    "question": "Choose the antonym of SPURIOUS",
+    "options": [
+      "Genuine",
+      "False",
+      "Fake",
+      "Counterfeit"
+    ],
+    "answer": "Genuine",
+    "answerKey": "A",
+    "correctAnswer": "Genuine",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Genuine.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_640",
+    "title": "Choose the antonym of SARDONIC",
+    "description": "Choose the antonym of SARDONIC",
+    "question": "Choose the antonym of SARDONIC",
+    "options": [
+      "Kind",
+      "Mocking",
+      "Cynical",
+      "Bitter"
+    ],
+    "answer": "Kind",
+    "answerKey": "A",
+    "correctAnswer": "Kind",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Kind.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_642",
+    "title": "Choose the antonym of RAPACIOUS",
+    "description": "Choose the antonym of RAPACIOUS",
+    "question": "Choose the antonym of RAPACIOUS",
+    "options": [
+      "Generous",
+      "Greedy",
+      "Selfish",
+      "Avaricious"
+    ],
+    "answer": "Generous",
+    "answerKey": "A",
+    "correctAnswer": "Generous",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Generous.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_643",
+    "title": "Choose the antonym of QUERULOUS",
+    "description": "Choose the antonym of QUERULOUS",
+    "question": "Choose the antonym of QUERULOUS",
+    "options": [
+      "Content",
+      "Complaining",
+      "Grumbling",
+      "Whining"
+    ],
+    "answer": "Content",
+    "answerKey": "A",
+    "correctAnswer": "Content",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Content.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_644",
+    "title": "Choose the antonym of PRUDENT",
+    "description": "Choose the antonym of PRUDENT",
+    "question": "Choose the antonym of PRUDENT",
+    "options": [
+      "Reckless",
+      "Wise",
+      "Careful",
+      "Cautious"
+    ],
+    "answer": "Reckless",
+    "answerKey": "A",
+    "correctAnswer": "Reckless",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Reckless.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_645",
+    "title": "Choose the antonym of POIGNANT",
+    "description": "Choose the antonym of POIGNANT",
+    "question": "Choose the antonym of POIGNANT",
+    "options": [
+      "Trivial",
+      "Touching",
+      "Moving",
+      "Emotional"
+    ],
+    "answer": "Trivial",
+    "answerKey": "A",
+    "correctAnswer": "Trivial",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Trivial.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_646",
+    "title": "Choose the antonym of PHLEGMATIC",
+    "description": "Choose the antonym of PHLEGMATIC",
+    "question": "Choose the antonym of PHLEGMATIC",
+    "options": [
+      "Excitable",
+      "Calm",
+      "Composed",
+      "Serene"
+    ],
+    "answer": "Excitable",
+    "answerKey": "A",
+    "correctAnswer": "Excitable",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Excitable.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_647",
+    "title": "Choose the antonym of PARSIMONIOUS",
+    "description": "Choose the antonym of PARSIMONIOUS",
+    "question": "Choose the antonym of PARSIMONIOUS",
+    "options": [
+      "Generous",
+      "Thrifty",
+      "Stingy",
+      "Miserly"
+    ],
+    "answer": "Generous",
+    "answerKey": "A",
+    "correctAnswer": "Generous",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Generous.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_649",
+    "title": "Choose the antonym of NEFARIOUS",
+    "description": "Choose the antonym of NEFARIOUS",
+    "question": "Choose the antonym of NEFARIOUS",
+    "options": [
+      "Virtuous",
+      "Wicked",
+      "Evil",
+      "Sinful"
+    ],
+    "answer": "Virtuous",
+    "answerKey": "A",
+    "correctAnswer": "Virtuous",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Virtuous.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_650",
+    "title": "Choose the synonym of JUBILANT",
+    "description": "Choose the synonym of JUBILANT",
+    "question": "Choose the synonym of JUBILANT",
+    "options": [
+      "Overjoyed",
+      "Sad",
+      "Angry",
+      "Tired"
+    ],
+    "answer": "Overjoyed",
+    "answerKey": "A",
+    "correctAnswer": "Overjoyed",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Overjoyed.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_652",
+    "title": "Choose the synonym of LABORIOUS",
+    "description": "Choose the synonym of LABORIOUS",
+    "question": "Choose the synonym of LABORIOUS",
+    "options": [
+      "Hard-working",
+      "Lazy",
+      "Easy",
+      "Simple"
+    ],
+    "answer": "Hard-working",
+    "answerKey": "A",
+    "correctAnswer": "Hard-working",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Hard-working.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_653",
+    "title": "Choose the synonym of LANGUID",
+    "description": "Choose the synonym of LANGUID",
+    "question": "Choose the synonym of LANGUID",
+    "options": [
+      "Weak and listless",
+      "Strong",
+      "Energetic",
+      "Lively"
+    ],
+    "answer": "Weak and listless",
+    "answerKey": "A",
+    "correctAnswer": "Weak and listless",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Weak and listless.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_657",
+    "title": "Choose the synonym of LISTLESS",
+    "description": "Choose the synonym of LISTLESS",
+    "question": "Choose the synonym of LISTLESS",
+    "options": [
+      "Lacking energy",
+      "Energetic",
+      "Lively",
+      "Active"
+    ],
+    "answer": "Lacking energy",
+    "answerKey": "A",
+    "correctAnswer": "Lacking energy",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Lacking energy.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_661",
+    "title": "Choose the antonym of ADULATION",
+    "description": "Choose the antonym of ADULATION",
+    "question": "Choose the antonym of ADULATION",
+    "options": [
+      "Contempt",
+      "Praise",
+      "Flattery",
+      "Admiration"
+    ],
+    "answer": "Contempt",
+    "answerKey": "A",
+    "correctAnswer": "Contempt",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Contempt.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_662",
+    "title": "Choose the antonym of ALACRITY",
+    "description": "Choose the antonym of ALACRITY",
+    "question": "Choose the antonym of ALACRITY",
+    "options": [
+      "Reluctance",
+      "Eagerness",
+      "Enthusiasm",
+      "Zeal"
+    ],
+    "answer": "Reluctance",
+    "answerKey": "A",
+    "correctAnswer": "Reluctance",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Reluctance.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_663",
+    "title": "Choose the antonym of ALLEVIATE",
+    "description": "Choose the antonym of ALLEVIATE",
+    "question": "Choose the antonym of ALLEVIATE",
+    "options": [
+      "Aggravate",
+      "Ease",
+      "Reduce",
+      "Lessen"
+    ],
+    "answer": "Aggravate",
+    "answerKey": "A",
+    "correctAnswer": "Aggravate",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Aggravate.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_664",
+    "title": "Choose the antonym of AMALGAMATE",
+    "description": "Choose the antonym of AMALGAMATE",
+    "question": "Choose the antonym of AMALGAMATE",
+    "options": [
+      "Separate",
+      "Combine",
+      "Mix",
+      "Merge"
+    ],
+    "answer": "Separate",
+    "answerKey": "A",
+    "correctAnswer": "Separate",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Separate.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_665",
+    "title": "Choose the antonym of AMBIGUOUS",
+    "description": "Choose the antonym of AMBIGUOUS",
+    "question": "Choose the antonym of AMBIGUOUS",
+    "options": [
+      "Clear",
+      "Vague",
+      "Unclear",
+      "Doubtful"
+    ],
+    "answer": "Clear",
+    "answerKey": "A",
+    "correctAnswer": "Clear",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Clear.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_668",
+    "title": "Choose the antonym of ARROGANCE",
+    "description": "Choose the antonym of ARROGANCE",
+    "question": "Choose the antonym of ARROGANCE",
+    "options": [
+      "Humility",
+      "Pride",
+      "Ego",
+      "Vanity"
+    ],
+    "answer": "Humility",
+    "answerKey": "A",
+    "correctAnswer": "Humility",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Humility.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_671",
+    "title": "One word: One who deals in stolen goods",
+    "description": "One word: One who deals in stolen goods",
+    "question": "One word: One who deals in stolen goods",
+    "options": [
+      "Fence",
+      "Thief",
+      "Robber",
+      "Burglar"
+    ],
+    "answer": "Fence",
+    "answerKey": "A",
+    "correctAnswer": "Fence",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Fence.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_672",
+    "title": "One word: One who cannot read or write",
+    "description": "One word: One who cannot read or write",
+    "question": "One word: One who cannot read or write",
+    "options": [
+      "Illiterate",
+      "Ignorant",
+      "Uneducated",
+      "Unlearned"
+    ],
+    "answer": "Illiterate",
+    "answerKey": "A",
+    "correctAnswer": "Illiterate",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Illiterate.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_673",
+    "title": "One word: A person who compiles a dictionary",
+    "description": "One word: A person who compiles a dictionary",
+    "question": "One word: A person who compiles a dictionary",
+    "options": [
+      "Lexicographer",
+      "Author",
+      "Editor",
+      "Publisher"
+    ],
+    "answer": "Lexicographer",
+    "answerKey": "A",
+    "correctAnswer": "Lexicographer",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Lexicographer.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_674",
+    "title": "One word: Science of studying the mind",
+    "description": "One word: Science of studying the mind",
+    "question": "One word: Science of studying the mind",
+    "options": [
+      "Psychology",
+      "Sociology",
+      "Anthropology",
+      "Physiology"
+    ],
+    "answer": "Psychology",
+    "answerKey": "A",
+    "correctAnswer": "Psychology",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Psychology.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_675",
+    "title": "One word: A person who loves mankind",
+    "description": "One word: A person who loves mankind",
+    "question": "One word: A person who loves mankind",
+    "options": [
+      "Philanthropist",
+      "Misanthrope",
+      "Altruist",
+      "Pacifist"
+    ],
+    "answer": "Philanthropist",
+    "answerKey": "A",
+    "correctAnswer": "Philanthropist",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Philanthropist.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_676",
+    "title": "One word: One who does not take alcohol",
+    "description": "One word: One who does not take alcohol",
+    "question": "One word: One who does not take alcohol",
+    "options": [
+      "Teetotaller",
+      "Abstainer",
+      "Non-drinker",
+      "Recusant"
+    ],
+    "answer": "Teetotaller",
+    "answerKey": "A",
+    "correctAnswer": "Teetotaller",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Teetotaller.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_677",
+    "title": "One word: One who settles a dispute",
+    "description": "One word: One who settles a dispute",
+    "question": "One word: One who settles a dispute",
+    "options": [
+      "Arbitrator",
+      "Judge",
+      "Lawyer",
+      "Mediator"
+    ],
+    "answer": "Arbitrator",
+    "answerKey": "A",
+    "correctAnswer": "Arbitrator",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Arbitrator.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_678",
+    "title": "One word: Study of races of mankind",
+    "description": "One word: Study of races of mankind",
+    "question": "One word: Study of races of mankind",
+    "options": [
+      "Ethnology",
+      "Anthropology",
+      "Sociology",
+      "Zoology"
+    ],
+    "answer": "Ethnology",
+    "answerKey": "A",
+    "correctAnswer": "Ethnology",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Ethnology.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_679",
+    "title": "One word: Murder of one's own father",
+    "description": "One word: Murder of one's own father",
+    "question": "One word: Murder of one's own father",
+    "options": [
+      "Patricide",
+      "Matricide",
+      "Fratricide",
+      "Regicide"
+    ],
+    "answer": "Patricide",
+    "answerKey": "A",
+    "correctAnswer": "Patricide",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Patricide.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_680",
+    "title": "Idiom: 'A blessing in disguise' means?",
+    "description": "Idiom: 'A blessing in disguise' means?",
+    "question": "Idiom: 'A blessing in disguise' means?",
+    "options": [
+      "Something seemingly bad that turns out good",
+      "A hidden curse",
+      "A double blessing",
+      "A religious event"
+    ],
+    "answer": "Something seemingly bad that turns out good",
+    "answerKey": "A",
+    "correctAnswer": "Something seemingly bad that turns out good",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Something seemingly bad that turns out good.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_681",
+    "title": "Idiom: 'At the drop of a hat' means?",
+    "description": "Idiom: 'At the drop of a hat' means?",
+    "question": "Idiom: 'At the drop of a hat' means?",
+    "options": [
+      "Immediately",
+      "Slowly",
+      "Reluctantly",
+      "After much thought"
+    ],
+    "answer": "Immediately",
+    "answerKey": "A",
+    "correctAnswer": "Immediately",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Immediately.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_682",
+    "title": "Idiom: 'Back to square one' means?",
+    "description": "Idiom: 'Back to square one' means?",
+    "question": "Idiom: 'Back to square one' means?",
+    "options": [
+      "Starting over",
+      "Going back home",
+      "Returning to work",
+      "Revisiting a decision"
+    ],
+    "answer": "Starting over",
+    "answerKey": "A",
+    "correctAnswer": "Starting over",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Starting over.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_683",
+    "title": "Idiom: 'Bark up the wrong tree' means?",
+    "description": "Idiom: 'Bark up the wrong tree' means?",
+    "question": "Idiom: 'Bark up the wrong tree' means?",
+    "options": [
+      "Pursue the wrong course",
+      "Bark at dogs",
+      "Look in wrong place",
+      "Argue unnecessarily"
+    ],
+    "answer": "Look in wrong place",
+    "answerKey": "C",
+    "correctAnswer": "Look in wrong place",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (C) is the correct answer: Look in wrong place.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_684",
+    "title": "Idiom: 'Bite the dust' means?",
+    "description": "Idiom: 'Bite the dust' means?",
+    "question": "Idiom: 'Bite the dust' means?",
+    "options": [
+      "Fail or die",
+      "Eat poorly",
+      "Work in dust",
+      "Be dirty"
+    ],
+    "answer": "Fail or die",
+    "answerKey": "A",
+    "correctAnswer": "Fail or die",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Fail or die.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_685",
+    "title": "Idiom: 'Blow hot and cold' means?",
+    "description": "Idiom: 'Blow hot and cold' means?",
+    "question": "Idiom: 'Blow hot and cold' means?",
+    "options": [
+      "Vacillate",
+      "Temperature change",
+      "Weather change",
+      "Be indecisive"
+    ],
+    "answer": "Vacillate",
+    "answerKey": "A",
+    "correctAnswer": "Vacillate",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Vacillate.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_686",
+    "title": "Idiom: 'Break the ice' means?",
+    "description": "Idiom: 'Break the ice' means?",
+    "question": "Idiom: 'Break the ice' means?",
+    "options": [
+      "Initiate conversation",
+      "Break something",
+      "Start work",
+      "Remove obstacles"
+    ],
+    "answer": "Initiate conversation",
+    "answerKey": "A",
+    "correctAnswer": "Initiate conversation",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Initiate conversation.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_687",
+    "title": "Idiom: 'Burn the midnight oil' means?",
+    "description": "Idiom: 'Burn the midnight oil' means?",
+    "question": "Idiom: 'Burn the midnight oil' means?",
+    "options": [
+      "Work late",
+      "Waste oil",
+      "Light candles",
+      "Start fires"
+    ],
+    "answer": "Work late",
+    "answerKey": "A",
+    "correctAnswer": "Work late",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Work late.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_688",
+    "title": "Idiom: 'Call a spade a spade' means?",
+    "description": "Idiom: 'Call a spade a spade' means?",
+    "question": "Idiom: 'Call a spade a spade' means?",
+    "options": [
+      "Speak bluntly",
+      "Garden work",
+      "Name tools",
+      "Be direct"
+    ],
+    "answer": "Speak bluntly",
+    "answerKey": "A",
+    "correctAnswer": "Speak bluntly",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Speak bluntly.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_689",
+    "title": "Idiom: 'Catch someone red-handed' means?",
+    "description": "Idiom: 'Catch someone red-handed' means?",
+    "question": "Idiom: 'Catch someone red-handed' means?",
+    "options": [
+      "Catch in the act",
+      "Catch with red paint",
+      "Arrest someone",
+      "Find a thief"
+    ],
+    "answer": "Catch in the act",
+    "answerKey": "A",
+    "correctAnswer": "Catch in the act",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Catch in the act.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_690",
+    "title": "Fill blank: The jury __ its verdict after deliberation.",
+    "description": "Fill blank: The jury __ its verdict after deliberation.",
+    "question": "Fill blank: The jury __ its verdict after deliberation.",
+    "options": [
+      "delivered",
+      "making",
+      "take",
+      "gave"
+    ],
+    "answer": "delivered",
+    "answerKey": "A",
+    "correctAnswer": "delivered",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: delivered.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_691",
+    "title": "Fill blank: She was highly __ by the board for her contributions.",
+    "description": "Fill blank: She was highly __ by the board for her contributions.",
+    "question": "Fill blank: She was highly __ by the board for her contributions.",
+    "options": [
+      "commended",
+      "critical",
+      "rejected",
+      "ignored"
+    ],
+    "answer": "commended",
+    "answerKey": "A",
+    "correctAnswer": "commended",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: commended.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_692",
+    "title": "Fill blank: The new policy __ several old regulations.",
+    "description": "Fill blank: The new policy __ several old regulations.",
+    "question": "Fill blank: The new policy __ several old regulations.",
+    "options": [
+      "superseded",
+      "created",
+      "maintained",
+      "supported"
+    ],
+    "answer": "superseded",
+    "answerKey": "A",
+    "correctAnswer": "superseded",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: superseded.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_693",
+    "title": "Fill blank: He spoke with such __ that everyone was moved.",
+    "description": "Fill blank: He spoke with such __ that everyone was moved.",
+    "question": "Fill blank: He spoke with such __ that everyone was moved.",
+    "options": [
+      "eloquence",
+      "loudness",
+      "rudeness",
+      "speed"
+    ],
+    "answer": "eloquence",
+    "answerKey": "A",
+    "correctAnswer": "eloquence",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: eloquence.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_694",
+    "title": "Fill blank: The project was __ by the lack of funding.",
+    "description": "Fill blank: The project was __ by the lack of funding.",
+    "question": "Fill blank: The project was __ by the lack of funding.",
+    "options": [
+      "hampered",
+      "helped",
+      "improved",
+      "expanded"
+    ],
+    "answer": "hampered",
+    "answerKey": "A",
+    "correctAnswer": "hampered",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: hampered.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_695",
+    "title": "Fill blank: Her __ to detail made her work flawless.",
+    "description": "Fill blank: Her __ to detail made her work flawless.",
+    "question": "Fill blank: Her __ to detail made her work flawless.",
+    "options": [
+      "attention",
+      "ignorance",
+      "disregard",
+      "neglect"
+    ],
+    "answer": "attention",
+    "answerKey": "A",
+    "correctAnswer": "attention",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: attention.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_696",
+    "title": "Fill blank: The discovery __ our understanding of the universe.",
+    "description": "Fill blank: The discovery __ our understanding of the universe.",
+    "question": "Fill blank: The discovery __ our understanding of the universe.",
+    "options": [
+      "transformed",
+      "reduced",
+      "limited",
+      "decreased"
+    ],
+    "answer": "transformed",
+    "answerKey": "A",
+    "correctAnswer": "transformed",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: transformed.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_697",
+    "title": "Fill blank: After years of struggle, he finally __ success.",
+    "description": "Fill blank: After years of struggle, he finally __ success.",
+    "question": "Fill blank: After years of struggle, he finally __ success.",
+    "options": [
+      "achieved",
+      "abandoned",
+      "avoided",
+      "missed"
+    ],
+    "answer": "achieved",
+    "answerKey": "A",
+    "correctAnswer": "achieved",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: achieved.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_698",
+    "title": "Fill blank: The manager __ the team to finish by Friday.",
+    "description": "Fill blank: The manager __ the team to finish by Friday.",
+    "question": "Fill blank: The manager __ the team to finish by Friday.",
+    "options": [
+      "urged",
+      "stopped",
+      "discouraged",
+      "prevented"
+    ],
+    "answer": "urged",
+    "answerKey": "A",
+    "correctAnswer": "urged",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: urged.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_699",
+    "title": "Fill blank: The scientist __ a groundbreaking theory in the paper.",
+    "description": "Fill blank: The scientist __ a groundbreaking theory in the paper.",
+    "question": "Fill blank: The scientist __ a groundbreaking theory in the paper.",
+    "options": [
+      "proposed",
+      "disproved",
+      "rejected",
+      "withdrew"
+    ],
+    "answer": "proposed",
+    "answerKey": "A",
+    "correctAnswer": "proposed",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: proposed.",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_700",
+    "title": "Sentence correction: She insisted that he comes immediately.",
+    "description": "Sentence correction: She insisted that he comes immediately.",
+    "question": "Sentence correction: She insisted that he comes immediately.",
+    "options": [
+      "She insisted that he come immediately.",
+      "She insisted that he came immediately.",
+      "She insisted that he would come immediately.",
+      "No change"
+    ],
+    "answer": "She insisted that he come immediately.",
+    "answerKey": "A",
+    "correctAnswer": "She insisted that he come immediately.",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: She insisted that he come immediately..",
+    "topic": "vocabulary",
+    "topicName": "Vocabulary",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
   }
 ]

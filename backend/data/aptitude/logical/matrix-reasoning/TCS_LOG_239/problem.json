@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_239",
+  "slug": "tcs-log-239",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "matrix-reasoning",
+  "topicName": "Matrix Reasoning",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Row 1: △ ○ □. Row 2: ○ □ △. Row 3: □ △ ?",
+  "description": "Row 1: △ ○ □. Row 2: ○ □ △. Row 3: □ △ ?",
+  "question": "Row 1: △ ○ □. Row 2: ○ □ △. Row 3: □ △ ?",
+  "options": [
+    "○",
+    "△",
+    "□",
+    "●"
+  ],
+  "optionsMap": {
+    "A": "○",
+    "B": "△",
+    "C": "□",
+    "D": "●"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "○",
+  "tags": [
+    "logical",
+    "matrix-reasoning"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

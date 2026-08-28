@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_451",
+  "slug": "tcs-ver-451",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Choose the correct form: He _____ here for five years by next June.",
+  "description": "Choose the correct form: He _____ here for five years by next June.",
+  "question": "Choose the correct form: He _____ here for five years by next June.",
+  "options": [
+    "will be working",
+    "will have been working",
+    "has been working",
+    "was working"
+  ],
+  "optionsMap": {
+    "A": "will be working",
+    "B": "will have been working",
+    "C": "has been working",
+    "D": "was working"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "will have been working",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

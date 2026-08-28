@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_487",
+  "slug": "tcs-ver-487",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "What is the adverb form of 'quick'?",
+  "description": "What is the adverb form of 'quick'?",
+  "question": "What is the adverb form of 'quick'?",
+  "options": [
+    "Quickly",
+    "Quickness",
+    "Quicken",
+    "Quickful"
+  ],
+  "optionsMap": {
+    "A": "Quickly",
+    "B": "Quickness",
+    "C": "Quicken",
+    "D": "Quickful"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Quickly",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_431",
+  "slug": "tcs-ver-431",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Choose the synonym of: INIMICAL",
+  "description": "Choose the synonym of: INIMICAL",
+  "question": "Choose the synonym of: INIMICAL",
+  "options": [
+    "Hostile",
+    "Friendly",
+    "Warm",
+    "Helpful"
+  ],
+  "optionsMap": {
+    "A": "Hostile",
+    "B": "Friendly",
+    "C": "Warm",
+    "D": "Helpful"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Hostile",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

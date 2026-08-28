@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_472",
+  "slug": "tcs-apt-472",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "number-systems",
+  "topicName": "Number Systems",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "What is the remainder when 2^100 is divided by 3?",
+  "description": "What is the remainder when 2^100 is divided by 3?",
+  "question": "What is the remainder when 2^100 is divided by 3?",
+  "options": [
+    "1",
+    "2",
+    "0",
+    "Cannot determine"
+  ],
+  "optionsMap": {
+    "A": "1",
+    "B": "2",
+    "C": "0",
+    "D": "Cannot determine"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1",
+  "tags": [
+    "quantitative",
+    "number-systems"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

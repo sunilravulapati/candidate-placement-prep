@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_126",
+  "slug": "tcs-apt-126",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "mensuration",
+  "topicName": "Mensuration",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Area of a triangle with base 10 cm and height 6 cm.",
+  "description": "Area of a triangle with base 10 cm and height 6 cm.",
+  "question": "Area of a triangle with base 10 cm and height 6 cm.",
+  "options": [
+    "30 cm2",
+    "60 cm2",
+    "20 cm2",
+    "40 cm2"
+  ],
+  "optionsMap": {
+    "A": "30 cm2",
+    "B": "60 cm2",
+    "C": "20 cm2",
+    "D": "40 cm2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "30 cm2",
+  "tags": [
+    "quantitative",
+    "mensuration"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

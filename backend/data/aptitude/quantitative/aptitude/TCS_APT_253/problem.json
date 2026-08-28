@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_253",
+  "slug": "tcs-apt-253",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find the value of (2^5 × 2^3) / 2^4.",
+  "description": "Find the value of (2^5 × 2^3) / 2^4.",
+  "question": "Find the value of (2^5 × 2^3) / 2^4.",
+  "options": [
+    "16",
+    "32",
+    "8",
+    "64"
+  ],
+  "optionsMap": {
+    "A": "16",
+    "B": "32",
+    "C": "8",
+    "D": "64"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "16",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_274",
+  "slug": "tcs-apt-274",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find diagonal of rectangle: length 8m, breadth 6m.",
+  "description": "Find diagonal of rectangle: length 8m, breadth 6m.",
+  "question": "Find diagonal of rectangle: length 8m, breadth 6m.",
+  "options": [
+    "10m",
+    "12m",
+    "8m",
+    "14m"
+  ],
+  "optionsMap": {
+    "A": "10m",
+    "B": "12m",
+    "C": "8m",
+    "D": "14m"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "10m",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

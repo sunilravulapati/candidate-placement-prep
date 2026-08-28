@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_455",
+  "slug": "tcs-apt-455",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "algebra",
+  "topicName": "Algebra",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Find the sum of roots of 2x2 - 8x + 6 = 0",
+  "description": "Find the sum of roots of 2x2 - 8x + 6 = 0",
+  "question": "Find the sum of roots of 2x2 - 8x + 6 = 0",
+  "options": [
+    "4",
+    "3",
+    "2",
+    "6"
+  ],
+  "optionsMap": {
+    "A": "4",
+    "B": "3",
+    "C": "2",
+    "D": "6"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "4",
+  "tags": [
+    "quantitative",
+    "algebra"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

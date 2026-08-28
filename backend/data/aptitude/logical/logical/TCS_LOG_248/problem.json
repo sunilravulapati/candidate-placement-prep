@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_248",
+  "slug": "tcs-log-248",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Letter series: B, D, F, H, ?",
+  "description": "Letter series: B, D, F, H, ?",
+  "question": "Letter series: B, D, F, H, ?",
+  "options": [
+    "J",
+    "I",
+    "K",
+    "L"
+  ],
+  "optionsMap": {
+    "A": "J",
+    "B": "I",
+    "C": "K",
+    "D": "L"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "J",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_109",
+  "slug": "tcs-apt-109",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "algebra",
+  "topicName": "Algebra",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "If 3x + 5 = 20, what is x?",
+  "description": "If 3x + 5 = 20, what is x?",
+  "question": "If 3x + 5 = 20, what is x?",
+  "options": [
+    "5",
+    "4",
+    "6",
+    "3"
+  ],
+  "optionsMap": {
+    "A": "5",
+    "B": "4",
+    "C": "6",
+    "D": "3"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "5",
+  "tags": [
+    "quantitative",
+    "algebra"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

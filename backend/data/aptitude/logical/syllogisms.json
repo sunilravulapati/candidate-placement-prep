@@ -1,0 +1,422 @@
+[
+  {
+    "id": "TCS_LOG_061",
+    "title": "All dogs are animals. All animals are mammals. Conclusions: (I) All dogs are ...",
+    "description": "All dogs are animals. All animals are mammals. Conclusions: (I) All dogs are mammals. (II) Some mammals are dogs.",
+    "question": "All dogs are animals. All animals are mammals. Conclusions: (I) All dogs are mammals. (II) Some mammals are dogs.",
+    "options": [
+      "Both I and II follow",
+      "Only I follows",
+      "Only II follows",
+      "Neither follows"
+    ],
+    "answer": "Both I and II follow",
+    "answerKey": "A",
+    "correctAnswer": "Both I and II follow",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Both I and II follow.",
+    "topic": "syllogisms",
+    "topicName": "Syllogisms",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_067",
+    "title": "All sparrows are birds. No bird is a reptile. Conclusions: (I) No sparrow is ...",
+    "description": "All sparrows are birds. No bird is a reptile. Conclusions: (I) No sparrow is a reptile. (II) Some birds are sparrows.",
+    "question": "All sparrows are birds. No bird is a reptile. Conclusions: (I) No sparrow is a reptile. (II) Some birds are sparrows.",
+    "options": [
+      "Both I and II follow",
+      "Only I follows",
+      "Only II follows",
+      "Neither follows"
+    ],
+    "answer": "Both I and II follow",
+    "answerKey": "A",
+    "correctAnswer": "Both I and II follow",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Both I and II follow.",
+    "topic": "syllogisms",
+    "topicName": "Syllogisms",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_069",
+    "title": "All metals are conductors. Copper is a metal. Conclusions: (I) Copper is a co...",
+    "description": "All metals are conductors. Copper is a metal. Conclusions: (I) Copper is a conductor. (II) All conductors are metals.",
+    "question": "All metals are conductors. Copper is a metal. Conclusions: (I) Copper is a conductor. (II) All conductors are metals.",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both follow",
+      "Neither follows"
+    ],
+    "answer": "Only I follows",
+    "answerKey": "A",
+    "correctAnswer": "Only I follows",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Only I follows.",
+    "topic": "syllogisms",
+    "topicName": "Syllogisms",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_062",
+    "title": "All pens are pencils. Some pencils are erasers. Conclusions: (I) Some pens ar...",
+    "description": "All pens are pencils. Some pencils are erasers. Conclusions: (I) Some pens are erasers. (II) All erasers are pens.",
+    "question": "All pens are pencils. Some pencils are erasers. Conclusions: (I) Some pens are erasers. (II) All erasers are pens.",
+    "options": [
+      "Neither I nor II follows",
+      "Only I follows",
+      "Only II follows",
+      "Both follow"
+    ],
+    "answer": "Neither I nor II follows",
+    "answerKey": "A",
+    "correctAnswer": "Neither I nor II follows",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Neither I nor II follows.",
+    "topic": "syllogisms",
+    "topicName": "Syllogisms",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_065",
+    "title": "All roses are flowers. Some flowers are plants. Conclusions: (I) Some roses a...",
+    "description": "All roses are flowers. Some flowers are plants. Conclusions: (I) Some roses are plants. (II) All plants are flowers.",
+    "question": "All roses are flowers. Some flowers are plants. Conclusions: (I) Some roses are plants. (II) All plants are flowers.",
+    "options": [
+      "Neither follows",
+      "Only I follows",
+      "Only II follows",
+      "Both follow"
+    ],
+    "answer": "Neither follows",
+    "answerKey": "A",
+    "correctAnswer": "Neither follows",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Neither follows.",
+    "topic": "syllogisms",
+    "topicName": "Syllogisms",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_066",
+    "title": "All books are copies. Some copies are files. Conclusions: (I) Some books are ...",
+    "description": "All books are copies. Some copies are files. Conclusions: (I) Some books are files. (II) Some files are books.",
+    "question": "All books are copies. Some copies are files. Conclusions: (I) Some books are files. (II) Some files are books.",
+    "options": [
+      "Neither follows",
+      "Only I follows",
+      "Only II follows",
+      "Both follow"
+    ],
+    "answer": "Neither follows",
+    "answerKey": "A",
+    "correctAnswer": "Neither follows",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Neither follows.",
+    "topic": "syllogisms",
+    "topicName": "Syllogisms",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_071",
+    "title": "All students are learners. Some learners are teachers. Conclusions: (I) Some ...",
+    "description": "All students are learners. Some learners are teachers. Conclusions: (I) Some students are teachers. (II) No teacher is a student.",
+    "question": "All students are learners. Some learners are teachers. Conclusions: (I) Some students are teachers. (II) No teacher is a student.",
+    "options": [
+      "Neither follows",
+      "Only I follows",
+      "Only II follows",
+      "Both follow"
+    ],
+    "answer": "Neither follows",
+    "answerKey": "A",
+    "correctAnswer": "Neither follows",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Neither follows.",
+    "topic": "syllogisms",
+    "topicName": "Syllogisms",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_074",
+    "title": "Some singers are dancers. Some dancers are actors. Conclusions: (I) Some sing...",
+    "description": "Some singers are dancers. Some dancers are actors. Conclusions: (I) Some singers are actors. (II) All actors are singers.",
+    "question": "Some singers are dancers. Some dancers are actors. Conclusions: (I) Some singers are actors. (II) All actors are singers.",
+    "options": [
+      "Neither follows",
+      "Only I follows",
+      "Only II follows",
+      "Both follow"
+    ],
+    "answer": "Neither follows",
+    "answerKey": "A",
+    "correctAnswer": "Neither follows",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Neither follows.",
+    "topic": "syllogisms",
+    "topicName": "Syllogisms",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_063",
+    "title": "No table is chair. All chairs are sofas. Conclusions: (I) No sofa is table. (...",
+    "description": "No table is chair. All chairs are sofas. Conclusions: (I) No sofa is table. (II) Some sofas are chairs.",
+    "question": "No table is chair. All chairs are sofas. Conclusions: (I) No sofa is table. (II) Some sofas are chairs.",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both follow",
+      "Neither follows"
+    ],
+    "answer": "Only II follows",
+    "answerKey": "A",
+    "correctAnswer": "Only II follows",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Only II follows.",
+    "topic": "syllogisms",
+    "topicName": "Syllogisms",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_064",
+    "title": "Some cats are dogs. All dogs are horses. Conclusions: (I) Some cats are horse...",
+    "description": "Some cats are dogs. All dogs are horses. Conclusions: (I) Some cats are horses. (II) All horses are dogs.",
+    "question": "Some cats are dogs. All dogs are horses. Conclusions: (I) Some cats are horses. (II) All horses are dogs.",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both follow",
+      "Neither follows"
+    ],
+    "answer": "Only I follows",
+    "answerKey": "A",
+    "correctAnswer": "Only I follows",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Only I follows.",
+    "topic": "syllogisms",
+    "topicName": "Syllogisms",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_068",
+    "title": "Some apples are mangoes. All mangoes are fruits. Conclusions: (I) All apples ...",
+    "description": "Some apples are mangoes. All mangoes are fruits. Conclusions: (I) All apples are fruits. (II) Some fruits are apples.",
+    "question": "Some apples are mangoes. All mangoes are fruits. Conclusions: (I) All apples are fruits. (II) Some fruits are apples.",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both follow",
+      "Neither follows"
+    ],
+    "answer": "Only II follows",
+    "answerKey": "A",
+    "correctAnswer": "Only II follows",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Only II follows.",
+    "topic": "syllogisms",
+    "topicName": "Syllogisms",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_070",
+    "title": "No fish is a mammal. All whales are mammals. Conclusions: (I) No whale is a f...",
+    "description": "No fish is a mammal. All whales are mammals. Conclusions: (I) No whale is a fish. (II) Some mammals are whales.",
+    "question": "No fish is a mammal. All whales are mammals. Conclusions: (I) No whale is a fish. (II) Some mammals are whales.",
+    "options": [
+      "Both I and II follow",
+      "Only I follows",
+      "Only II follows",
+      "Neither follows"
+    ],
+    "answer": "Both I and II follow",
+    "answerKey": "A",
+    "correctAnswer": "Both I and II follow",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Both I and II follow.",
+    "topic": "syllogisms",
+    "topicName": "Syllogisms",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_072",
+    "title": "Some mountains are rivers. All rivers are oceans. Conclusions: (I) Some mount...",
+    "description": "Some mountains are rivers. All rivers are oceans. Conclusions: (I) Some mountains are oceans. (II) All oceans are rivers.",
+    "question": "Some mountains are rivers. All rivers are oceans. Conclusions: (I) Some mountains are oceans. (II) All oceans are rivers.",
+    "options": [
+      "Only I follows",
+      "Both follow",
+      "Only II follows",
+      "Neither follows"
+    ],
+    "answer": "Only I follows",
+    "answerKey": "A",
+    "correctAnswer": "Only I follows",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Only I follows.",
+    "topic": "syllogisms",
+    "topicName": "Syllogisms",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_075",
+    "title": "All cars are vehicles. All buses are vehicles. Conclusions: (I) All cars are ...",
+    "description": "All cars are vehicles. All buses are vehicles. Conclusions: (I) All cars are buses. (II) Some vehicles are cars.",
+    "question": "All cars are vehicles. All buses are vehicles. Conclusions: (I) All cars are buses. (II) Some vehicles are cars.",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both follow",
+      "Neither follows"
+    ],
+    "answer": "Only II follows",
+    "answerKey": "A",
+    "correctAnswer": "Only II follows",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Only II follows.",
+    "topic": "syllogisms",
+    "topicName": "Syllogisms",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

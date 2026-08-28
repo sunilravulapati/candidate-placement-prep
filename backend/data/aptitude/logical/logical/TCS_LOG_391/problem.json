@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_391",
+  "slug": "tcs-log-391",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which does not fit: Pen, Pencil, Chalk, Eraser",
+  "description": "Which does not fit: Pen, Pencil, Chalk, Eraser",
+  "question": "Which does not fit: Pen, Pencil, Chalk, Eraser",
+  "options": [
+    "Eraser",
+    "Pen",
+    "Chalk",
+    "Pencil"
+  ],
+  "optionsMap": {
+    "A": "Eraser",
+    "B": "Pen",
+    "C": "Chalk",
+    "D": "Pencil"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Eraser",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

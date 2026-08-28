@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_055",
+  "slug": "tcs-log-055",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "blood-relations",
+  "topicName": "Blood Relations",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Rahul's mother is the only daughter of Monika's father. How is Monika's husba...",
+  "description": "Rahul's mother is the only daughter of Monika's father. How is Monika's husband related to Rahul?",
+  "question": "Rahul's mother is the only daughter of Monika's father. How is Monika's husband related to Rahul?",
+  "options": [
+    "Maternal uncle",
+    "Father",
+    "Grandfather",
+    "Uncle"
+  ],
+  "optionsMap": {
+    "A": "Maternal uncle",
+    "B": "Father",
+    "C": "Grandfather",
+    "D": "Uncle"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Maternal uncle",
+  "tags": [
+    "logical",
+    "blood-relations"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_193",
+  "slug": "tcs-apt-193",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "calendars",
+  "topicName": "Calendars",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "January 1, 2000 was Saturday. What day was January 1, 2001?",
+  "description": "January 1, 2000 was Saturday. What day was January 1, 2001?",
+  "question": "January 1, 2000 was Saturday. What day was January 1, 2001?",
+  "options": [
+    "Monday",
+    "Sunday",
+    "Tuesday",
+    "Wednesday"
+  ],
+  "optionsMap": {
+    "A": "Monday",
+    "B": "Sunday",
+    "C": "Tuesday",
+    "D": "Wednesday"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Monday",
+  "tags": [
+    "quantitative",
+    "calendars"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

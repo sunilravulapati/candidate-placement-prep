@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_138",
+  "slug": "tcs-ver-138",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The book was so _____ that she read it in one sitting.",
+  "description": "The book was so _____ that she read it in one sitting.",
+  "question": "The book was so _____ that she read it in one sitting.",
+  "options": [
+    "compelling",
+    "boring",
+    "dull",
+    "ordinary"
+  ],
+  "optionsMap": {
+    "A": "compelling",
+    "B": "boring",
+    "C": "dull",
+    "D": "ordinary"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "compelling",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

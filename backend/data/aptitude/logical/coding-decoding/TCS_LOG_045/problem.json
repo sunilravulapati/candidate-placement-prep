@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_045",
+  "slug": "tcs-log-045",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "coding-decoding",
+  "topicName": "Coding-Decoding",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "If NORTH is coded as UQHMA, then SOUTH is coded as ?",
+  "description": "If NORTH is coded as UQHMA, then SOUTH is coded as ?",
+  "question": "If NORTH is coded as UQHMA, then SOUTH is coded as ?",
+  "options": [
+    "ZQHMA",
+    "ZQHNA",
+    "YQHNA",
+    "YQHMA"
+  ],
+  "optionsMap": {
+    "A": "ZQHMA",
+    "B": "ZQHNA",
+    "C": "YQHNA",
+    "D": "YQHMA"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "ZQHMA",
+  "tags": [
+    "logical",
+    "coding-decoding"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

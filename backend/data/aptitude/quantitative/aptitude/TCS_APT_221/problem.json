@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_221",
+  "slug": "tcs-apt-221",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Two numbers are in ratio 3:5. If their sum is 160, find the smaller number.",
+  "description": "Two numbers are in ratio 3:5. If their sum is 160, find the smaller number.",
+  "question": "Two numbers are in ratio 3:5. If their sum is 160, find the smaller number.",
+  "options": [
+    "60",
+    "80",
+    "50",
+    "70"
+  ],
+  "optionsMap": {
+    "A": "60",
+    "B": "80",
+    "C": "50",
+    "D": "70"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "60",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

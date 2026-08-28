@@ -1,0 +1,602 @@
+[
+  {
+    "id": "TCS_APT_124",
+    "title": "Area of a rectangle with length 12 cm and breadth 8 cm.",
+    "description": "Area of a rectangle with length 12 cm and breadth 8 cm.",
+    "question": "Area of a rectangle with length 12 cm and breadth 8 cm.",
+    "options": [
+      "96 cm2",
+      "80 cm2",
+      "72 cm2",
+      "100 cm2"
+    ],
+    "answer": "96 cm2",
+    "answerKey": "A",
+    "correctAnswer": "96 cm2",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 96 cm2.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_125",
+    "title": "Perimeter of a square with side 9 cm.",
+    "description": "Perimeter of a square with side 9 cm.",
+    "question": "Perimeter of a square with side 9 cm.",
+    "options": [
+      "36 cm",
+      "40 cm",
+      "32 cm",
+      "27 cm"
+    ],
+    "answer": "36 cm",
+    "answerKey": "A",
+    "correctAnswer": "36 cm",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 36 cm.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_126",
+    "title": "Area of a triangle with base 10 cm and height 6 cm.",
+    "description": "Area of a triangle with base 10 cm and height 6 cm.",
+    "question": "Area of a triangle with base 10 cm and height 6 cm.",
+    "options": [
+      "30 cm2",
+      "60 cm2",
+      "20 cm2",
+      "40 cm2"
+    ],
+    "answer": "30 cm2",
+    "answerKey": "A",
+    "correctAnswer": "30 cm2",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 30 cm2.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_127",
+    "title": "Volume of a cube with side 4 cm.",
+    "description": "Volume of a cube with side 4 cm.",
+    "question": "Volume of a cube with side 4 cm.",
+    "options": [
+      "64 cm3",
+      "32 cm3",
+      "48 cm3",
+      "16 cm3"
+    ],
+    "answer": "64 cm3",
+    "answerKey": "A",
+    "correctAnswer": "64 cm3",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 64 cm3.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_132",
+    "title": "Diagonal of a rectangle 8 × 6 cm.",
+    "description": "Diagonal of a rectangle 8 × 6 cm.",
+    "question": "Diagonal of a rectangle 8 × 6 cm.",
+    "options": [
+      "10 cm",
+      "12 cm",
+      "8 cm",
+      "14 cm"
+    ],
+    "answer": "10 cm",
+    "answerKey": "A",
+    "correctAnswer": "10 cm",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 10 cm.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_465",
+    "title": "Area of rhombus with diagonals 10cm and 24cm.",
+    "description": "Area of rhombus with diagonals 10cm and 24cm.",
+    "question": "Area of rhombus with diagonals 10cm and 24cm.",
+    "options": [
+      "120 cm2",
+      "100 cm2",
+      "140 cm2",
+      "150 cm2"
+    ],
+    "answer": "120 cm2",
+    "answerKey": "A",
+    "correctAnswer": "120 cm2",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 120 cm2.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_466",
+    "title": "Total surface area of cube with side 5cm.",
+    "description": "Total surface area of cube with side 5cm.",
+    "question": "Total surface area of cube with side 5cm.",
+    "options": [
+      "150 cm2",
+      "125 cm2",
+      "100 cm2",
+      "175 cm2"
+    ],
+    "answer": "150 cm2",
+    "answerKey": "A",
+    "correctAnswer": "150 cm2",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 150 cm2.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_503",
+    "title": "In a right triangle, if hypotenuse = 13 and one leg = 5, the other leg is:",
+    "description": "In a right triangle, if hypotenuse = 13 and one leg = 5, the other leg is:",
+    "question": "In a right triangle, if hypotenuse = 13 and one leg = 5, the other leg is:",
+    "options": [
+      "12",
+      "10",
+      "11",
+      "8"
+    ],
+    "answer": "12",
+    "answerKey": "A",
+    "correctAnswer": "12",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 12.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_504",
+    "title": "The sum of interior angles of a hexagon is:",
+    "description": "The sum of interior angles of a hexagon is:",
+    "question": "The sum of interior angles of a hexagon is:",
+    "options": [
+      "720°",
+      "540°",
+      "630°",
+      "810°"
+    ],
+    "answer": "720°",
+    "answerKey": "A",
+    "correctAnswer": "720°",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 720°.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_505",
+    "title": "If a triangle has sides 3, 4, 5 - its area is:",
+    "description": "If a triangle has sides 3, 4, 5 - its area is:",
+    "question": "If a triangle has sides 3, 4, 5 - its area is:",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": "6",
+    "answerKey": "A",
+    "correctAnswer": "6",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 6.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_506",
+    "title": "The angle in a semicircle is always:",
+    "description": "The angle in a semicircle is always:",
+    "question": "The angle in a semicircle is always:",
+    "options": [
+      "90°",
+      "60°",
+      "180°",
+      "45°"
+    ],
+    "answer": "90°",
+    "answerKey": "A",
+    "correctAnswer": "90°",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 90°.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_138",
+    "title": "Area of equilateral triangle with side 6 cm.",
+    "description": "Area of equilateral triangle with side 6 cm.",
+    "question": "Area of equilateral triangle with side 6 cm.",
+    "options": [
+      "9√3 cm2",
+      "6√3 cm2",
+      "18 cm2",
+      "12 cm2"
+    ],
+    "answer": "9√3 cm2",
+    "answerKey": "A",
+    "correctAnswer": "9√3 cm2",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 9√3 cm2.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_469",
+    "title": "Area of path 3.5m wide around a rectangular field 50×40m (path inside).",
+    "description": "Area of path 3.5m wide around a rectangular field 50×40m (path inside).",
+    "question": "Area of path 3.5m wide around a rectangular field 50×40m (path inside).",
+    "options": [
+      "623 m2",
+      "574 m2",
+      "651 m2",
+      "600 m2"
+    ],
+    "answer": "574 m2",
+    "answerKey": "B",
+    "correctAnswer": "574 m2",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: 574 m2.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_507",
+    "title": "If the perimeter of a square equals the circumference of a circle (π=22/7), r...",
+    "description": "If the perimeter of a square equals the circumference of a circle (π=22/7), ratio of areas (square:circle)?",
+    "question": "If the perimeter of a square equals the circumference of a circle (π=22/7), ratio of areas (square:circle)?",
+    "options": [
+      "11:14",
+      "22:7",
+      "7:11",
+      "14:11"
+    ],
+    "answer": "11:14",
+    "answerKey": "A",
+    "correctAnswer": "11:14",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 11:14.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_508",
+    "title": "Volume of hemisphere with radius 6cm (π=3.14)?",
+    "description": "Volume of hemisphere with radius 6cm (π=3.14)?",
+    "question": "Volume of hemisphere with radius 6cm (π=3.14)?",
+    "options": [
+      "452.16 cm3",
+      "400 cm3",
+      "500 cm3",
+      "600 cm3"
+    ],
+    "answer": "452.16 cm3",
+    "answerKey": "A",
+    "correctAnswer": "452.16 cm3",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 452.16 cm3.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_131",
+    "title": "A room 5m × 4m × 3m. Area of 4 walls is:",
+    "description": "A room 5m × 4m × 3m. Area of 4 walls is:",
+    "question": "A room 5m × 4m × 3m. Area of 4 walls is:",
+    "options": [
+      "54 m2",
+      "60 m2",
+      "48 m2",
+      "70 m2"
+    ],
+    "answer": "54 m2",
+    "answerKey": "A",
+    "correctAnswer": "54 m2",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 54 m2.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_133",
+    "title": "If the radius of a circle is doubled, its area becomes:",
+    "description": "If the radius of a circle is doubled, its area becomes:",
+    "question": "If the radius of a circle is doubled, its area becomes:",
+    "options": [
+      "4 times",
+      "2 times",
+      "8 times",
+      "3 times"
+    ],
+    "answer": "4 times",
+    "answerKey": "A",
+    "correctAnswer": "4 times",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 4 times.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_462",
+    "title": "Area of trapezium with parallel sides 8cm and 12cm, height 5cm?",
+    "description": "Area of trapezium with parallel sides 8cm and 12cm, height 5cm?",
+    "question": "Area of trapezium with parallel sides 8cm and 12cm, height 5cm?",
+    "options": [
+      "50 cm2",
+      "40 cm2",
+      "60 cm2",
+      "45 cm2"
+    ],
+    "answer": "50 cm2",
+    "answerKey": "A",
+    "correctAnswer": "50 cm2",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 50 cm2.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_467",
+    "title": "If side of square is increased by 10%, area increases by:",
+    "description": "If side of square is increased by 10%, area increases by:",
+    "question": "If side of square is increased by 10%, area increases by:",
+    "options": [
+      "21%",
+      "20%",
+      "22%",
+      "10%"
+    ],
+    "answer": "21%",
+    "answerKey": "A",
+    "correctAnswer": "21%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 21%.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_468",
+    "title": "A cylinder has same radius and height. If radius doubles, volume becomes:",
+    "description": "A cylinder has same radius and height. If radius doubles, volume becomes:",
+    "question": "A cylinder has same radius and height. If radius doubles, volume becomes:",
+    "options": [
+      "4 times",
+      "2 times",
+      "8 times",
+      "6 times"
+    ],
+    "answer": "4 times",
+    "answerKey": "A",
+    "correctAnswer": "4 times",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 4 times.",
+    "topic": "mensuration",
+    "topicName": "Mensuration",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

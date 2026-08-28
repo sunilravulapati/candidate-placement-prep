@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_204",
+  "slug": "tcs-apt-204",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "ages",
+  "topicName": "Ages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Father is 4 times son's age. In 20 years, father will be twice son's age. Fin...",
+  "description": "Father is 4 times son's age. In 20 years, father will be twice son's age. Find son's current age.",
+  "question": "Father is 4 times son's age. In 20 years, father will be twice son's age. Find son's current age.",
+  "options": [
+    "10",
+    "15",
+    "12",
+    "8"
+  ],
+  "optionsMap": {
+    "A": "10",
+    "B": "15",
+    "C": "12",
+    "D": "8"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "10",
+  "tags": [
+    "quantitative",
+    "ages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

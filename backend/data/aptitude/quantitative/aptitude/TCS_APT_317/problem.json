@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_317",
+  "slug": "tcs-apt-317",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What is the sum of first 10 odd numbers?",
+  "description": "What is the sum of first 10 odd numbers?",
+  "question": "What is the sum of first 10 odd numbers?",
+  "options": [
+    "100",
+    "90",
+    "81",
+    "121"
+  ],
+  "optionsMap": {
+    "A": "100",
+    "B": "90",
+    "C": "81",
+    "D": "121"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "100",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

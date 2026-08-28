@@ -32,14 +32,13 @@ const CATEGORY_ICONS = {
 };
 
 const CATEGORIES = [
-  { id: 'quantitative', label: 'Quantitative Aptitude' },
   { id: 'logical', label: 'Logical Reasoning' },
+  { id: 'quantitative', label: 'Numerical Ability' },
   { id: 'verbal', label: 'Verbal Ability' },
-  { id: 'di', label: 'Data Interpretation' },
 ] as const;
 
 export default function QuestionLibrary({ onStartCustomPractice, onStartTopicPractice }: QuestionLibraryProps) {
-  const [activeTab, setActiveTab] = useState<'quantitative' | 'logical' | 'verbal' | 'di'>('quantitative');
+  const [activeTab, setActiveTab] = useState<'logical' | 'quantitative' | 'verbal'>('logical');
   const [searchQuery, setSearchQuery] = useState('');
   const [topicsData, setTopicsData] = useState<any>(null);
   const [loading, setLoading] = useState(true);

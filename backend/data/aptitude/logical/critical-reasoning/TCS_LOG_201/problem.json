@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_201",
+  "slug": "tcs-log-201",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "critical-reasoning",
+  "topicName": "Critical Reasoning",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Argument: 'The crime rate in cities with CCTV cameras is lower than in cities...",
+  "description": "Argument: 'The crime rate in cities with CCTV cameras is lower than in cities without. Therefore, CCTV cameras reduce crime.' The assumption is:",
+  "question": "Argument: 'The crime rate in cities with CCTV cameras is lower than in cities without. Therefore, CCTV cameras reduce crime.' The assumption is:",
+  "options": [
+    "CCTV cameras are the only difference between the two groups of cities",
+    "Cities are identical in all other respects",
+    "CCTV cameras record all crime",
+    "Police in CCTV cities work harder"
+  ],
+  "optionsMap": {
+    "A": "CCTV cameras are the only difference between the two groups of cities",
+    "B": "Cities are identical in all other respects",
+    "C": "CCTV cameras record all crime",
+    "D": "Police in CCTV cities work harder"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Cities are identical in all other respects",
+  "tags": [
+    "logical",
+    "critical-reasoning"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_289",
+  "slug": "tcs-apt-289",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What sum at 5% SI gives Rs 150 interest in 2 years?",
+  "description": "What sum at 5% SI gives Rs 150 interest in 2 years?",
+  "question": "What sum at 5% SI gives Rs 150 interest in 2 years?",
+  "options": [
+    "1500",
+    "1200",
+    "1000",
+    "1800"
+  ],
+  "optionsMap": {
+    "A": "1500",
+    "B": "1200",
+    "C": "1000",
+    "D": "1800"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1500",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

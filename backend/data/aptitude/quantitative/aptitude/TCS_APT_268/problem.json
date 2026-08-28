@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_268",
+  "slug": "tcs-apt-268",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find area of a rectangle: length 12m, breadth 8m.",
+  "description": "Find area of a rectangle: length 12m, breadth 8m.",
+  "question": "Find area of a rectangle: length 12m, breadth 8m.",
+  "options": [
+    "96 m2",
+    "80 m2",
+    "100 m2",
+    "72 m2"
+  ],
+  "optionsMap": {
+    "A": "96 m2",
+    "B": "80 m2",
+    "C": "100 m2",
+    "D": "72 m2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "96 m2",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -9,14 +9,6 @@ import {
 } from '@/features/live-coding/language-config';
 import { cn } from '@/lib/cn';
 
-const LANG_ICONS: Record<SupportedLanguage, string> = {
-  cpp: '⚙',
-  java: '☕',
-  python: '🐍',
-  javascript: '⬡',
-  typescript: '🔷',
-};
-
 interface LanguageSelectorProps {
   value: SupportedLanguage;
   onChange: (lang: SupportedLanguage) => void;
@@ -34,11 +26,11 @@ export default function LanguageSelector({
         value={value}
         onChange={(e) => onChange(e.target.value as SupportedLanguage)}
         aria-label="Select language"
-        className="appearance-none bg-slate-800 text-slate-200 text-sm rounded-lg pl-3 pr-8 py-1.5 border border-slate-700 outline-none focus:border-indigo-500 transition-colors cursor-pointer hover:border-slate-600 hover:bg-slate-700"
+        className="appearance-none bg-slate-800 text-slate-200 text-sm rounded-lg pl-3 pr-8 py-1.5 border border-slate-700 outline-none focus:border-indigo-500 transition-colors cursor-pointer hover:border-slate-600 hover:bg-slate-700 font-medium"
       >
         {SUPPORTED_LANGUAGES.map((lang) => (
           <option key={lang} value={lang}>
-            {LANG_ICONS[lang]}  {LANGUAGE_CONFIG[lang].label}
+            {LANGUAGE_CONFIG[lang].label}
           </option>
         ))}
       </select>

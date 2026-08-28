@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_025",
+  "slug": "tcs-log-025",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "series",
+  "topicName": "Series",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Number series: 1, 8, 27, 64, 125, 216, ___",
+  "description": "Number series: 1, 8, 27, 64, 125, 216, ___",
+  "question": "Number series: 1, 8, 27, 64, 125, 216, ___",
+  "options": [
+    "343",
+    "256",
+    "300",
+    "400"
+  ],
+  "optionsMap": {
+    "A": "343",
+    "B": "256",
+    "C": "300",
+    "D": "400"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "343",
+  "tags": [
+    "logical",
+    "series"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

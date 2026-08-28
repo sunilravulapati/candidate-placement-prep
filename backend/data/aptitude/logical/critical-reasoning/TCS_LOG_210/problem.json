@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_210",
+  "slug": "tcs-log-210",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "critical-reasoning",
+  "topicName": "Critical Reasoning",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which conclusion follows from: 'No honest person is wealthy. Some politicians...",
+  "description": "Which conclusion follows from: 'No honest person is wealthy. Some politicians are wealthy.'?",
+  "question": "Which conclusion follows from: 'No honest person is wealthy. Some politicians are wealthy.'?",
+  "options": [
+    "Some politicians are not honest",
+    "All politicians are dishonest",
+    "No politician is honest",
+    "Wealthy people are dishonest"
+  ],
+  "optionsMap": {
+    "A": "Some politicians are not honest",
+    "B": "All politicians are dishonest",
+    "C": "No politician is honest",
+    "D": "Wealthy people are dishonest"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Some politicians are not honest",
+  "tags": [
+    "logical",
+    "critical-reasoning"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

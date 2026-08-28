@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_643",
+  "slug": "tcs-apt-643",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Two numbers: sum=32, product=135. Larger?",
+  "description": "Two numbers: sum=32, product=135. Larger?",
+  "question": "Two numbers: sum=32, product=135. Larger?",
+  "options": [
+    "18",
+    "16",
+    "12",
+    "8"
+  ],
+  "optionsMap": {
+    "A": "18",
+    "B": "16",
+    "C": "12",
+    "D": "8"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "18",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

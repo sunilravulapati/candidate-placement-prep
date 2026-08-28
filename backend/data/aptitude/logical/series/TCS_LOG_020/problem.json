@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_020",
+  "slug": "tcs-log-020",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "series",
+  "topicName": "Series",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Number series: 0, 1, 1, 2, 3, 5, 8, ___",
+  "description": "Number series: 0, 1, 1, 2, 3, 5, 8, ___",
+  "question": "Number series: 0, 1, 1, 2, 3, 5, 8, ___",
+  "options": [
+    "13",
+    "11",
+    "14",
+    "10"
+  ],
+  "optionsMap": {
+    "A": "13",
+    "B": "11",
+    "C": "14",
+    "D": "10"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "13",
+  "tags": [
+    "logical",
+    "series"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

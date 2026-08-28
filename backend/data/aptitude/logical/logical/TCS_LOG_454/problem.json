@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_454",
+  "slug": "tcs-log-454",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Figure: Dot inside circle inside square. Which shape is outermost?",
+  "description": "Figure: Dot inside circle inside square. Which shape is outermost?",
+  "question": "Figure: Dot inside circle inside square. Which shape is outermost?",
+  "options": [
+    "Square",
+    "Circle",
+    "Triangle",
+    "Dot"
+  ],
+  "optionsMap": {
+    "A": "Square",
+    "B": "Circle",
+    "C": "Triangle",
+    "D": "Dot"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Square",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

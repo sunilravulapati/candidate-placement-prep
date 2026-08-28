@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_053",
+  "slug": "tcs-ver-053",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most OPPOSITE in meaning to: COVERT",
+  "description": "Choose the word most OPPOSITE in meaning to: COVERT",
+  "question": "Choose the word most OPPOSITE in meaning to: COVERT",
+  "options": [
+    "Open",
+    "Hidden",
+    "Secret",
+    "Sly"
+  ],
+  "optionsMap": {
+    "A": "Open",
+    "B": "Hidden",
+    "C": "Secret",
+    "D": "Sly"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Open",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

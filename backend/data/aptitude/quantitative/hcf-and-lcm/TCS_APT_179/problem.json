@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_179",
+  "slug": "tcs-apt-179",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "hcf-and-lcm",
+  "topicName": "HCF and LCM",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Three ropes of lengths 36m, 48m, and 60m are to be cut into equal pieces. Max...",
+  "description": "Three ropes of lengths 36m, 48m, and 60m are to be cut into equal pieces. Maximum piece length?",
+  "question": "Three ropes of lengths 36m, 48m, and 60m are to be cut into equal pieces. Maximum piece length?",
+  "options": [
+    "12m",
+    "6m",
+    "18m",
+    "24m"
+  ],
+  "optionsMap": {
+    "A": "12m",
+    "B": "6m",
+    "C": "18m",
+    "D": "24m"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "12m",
+  "tags": [
+    "quantitative",
+    "hcf-and-lcm"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

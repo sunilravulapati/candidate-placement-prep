@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_491",
+  "slug": "tcs-log-491",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Analogy: Stethoscope:Doctor :: Trowel:?",
+  "description": "Analogy: Stethoscope:Doctor :: Trowel:?",
+  "question": "Analogy: Stethoscope:Doctor :: Trowel:?",
+  "options": [
+    "Mason",
+    "Painter",
+    "Carpenter",
+    "Plumber"
+  ],
+  "optionsMap": {
+    "A": "Mason",
+    "B": "Painter",
+    "C": "Carpenter",
+    "D": "Plumber"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Mason",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

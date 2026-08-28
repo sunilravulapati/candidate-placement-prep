@@ -1,0 +1,302 @@
+[
+  {
+    "id": "TCS_VER_202",
+    "title": "P: Exercise is essential for maintaining good health. Q: Even a 30-minute dai...",
+    "description": "P: Exercise is essential for maintaining good health. Q: Even a 30-minute daily walk can significantly reduce the risk of chronic diseases. R: Many people, however, lead sedentary lifestyles due to desk jobs. S: It strengthens the heart, improves mood, and increases longevity. Arrange in logical order:",
+    "question": "P: Exercise is essential for maintaining good health. Q: Even a 30-minute daily walk can significantly reduce the risk of chronic diseases. R: Many people, however, lead sedentary lifestyles due to desk jobs. S: It strengthens the heart, improves mood, and increases longevity. Arrange in logical order:",
+    "options": [
+      "P-S-R-Q",
+      "R-P-S-Q",
+      "P-Q-S-R",
+      "S-R-P-Q"
+    ],
+    "answer": "P-S-R-Q",
+    "answerKey": "A",
+    "correctAnswer": "P-S-R-Q",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: P-S-R-Q.",
+    "topic": "para-jumbles",
+    "topicName": "Para Jumbles",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_204",
+    "title": "P: Education is the foundation of any civilized society. Q: It enables indivi...",
+    "description": "P: Education is the foundation of any civilized society. Q: It enables individuals to think critically and contribute meaningfully. R: Governments must therefore prioritize funding for public schools. S: Without educated citizens, democracy itself is at risk. Arrange in logical order:",
+    "question": "P: Education is the foundation of any civilized society. Q: It enables individuals to think critically and contribute meaningfully. R: Governments must therefore prioritize funding for public schools. S: Without educated citizens, democracy itself is at risk. Arrange in logical order:",
+    "options": [
+      "P-Q-S-R",
+      "Q-P-S-R",
+      "P-S-Q-R",
+      "R-P-Q-S"
+    ],
+    "answer": "P-Q-S-R",
+    "answerKey": "A",
+    "correctAnswer": "P-Q-S-R",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: P-Q-S-R.",
+    "topic": "para-jumbles",
+    "topicName": "Para Jumbles",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_207",
+    "title": "P: The Amazon rainforest is often called the lungs of the Earth. Q: It produc...",
+    "description": "P: The Amazon rainforest is often called the lungs of the Earth. Q: It produces approximately 20% of the world's oxygen. R: Rapid deforestation threatens not only wildlife but global climate stability. S: Protecting it must be a global priority. Arrange in logical order:",
+    "question": "P: The Amazon rainforest is often called the lungs of the Earth. Q: It produces approximately 20% of the world's oxygen. R: Rapid deforestation threatens not only wildlife but global climate stability. S: Protecting it must be a global priority. Arrange in logical order:",
+    "options": [
+      "P-Q-R-S",
+      "R-P-Q-S",
+      "Q-P-R-S",
+      "P-R-Q-S"
+    ],
+    "answer": "P-Q-R-S",
+    "answerKey": "A",
+    "correctAnswer": "P-Q-R-S",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: P-Q-R-S.",
+    "topic": "para-jumbles",
+    "topicName": "Para Jumbles",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_208",
+    "title": "P: Space exploration has yielded tremendous scientific knowledge. Q: Satellit...",
+    "description": "P: Space exploration has yielded tremendous scientific knowledge. Q: Satellites now provide global navigation, weather forecasting, and communication. R: Despite the enormous costs involved, the benefits are undeniable. S: Future missions aim to establish human settlements on Mars. Arrange in logical order:",
+    "question": "P: Space exploration has yielded tremendous scientific knowledge. Q: Satellites now provide global navigation, weather forecasting, and communication. R: Despite the enormous costs involved, the benefits are undeniable. S: Future missions aim to establish human settlements on Mars. Arrange in logical order:",
+    "options": [
+      "P-Q-R-S",
+      "Q-P-R-S",
+      "R-P-Q-S",
+      "P-R-S-Q"
+    ],
+    "answer": "P-Q-R-S",
+    "answerKey": "A",
+    "correctAnswer": "P-Q-R-S",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: P-Q-R-S.",
+    "topic": "para-jumbles",
+    "topicName": "Para Jumbles",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_209",
+    "title": "P: Reading regularly enhances vocabulary and critical thinking. Q: It also re...",
+    "description": "P: Reading regularly enhances vocabulary and critical thinking. Q: It also reduces stress by providing an escape from daily pressures. R: Children who read from a young age develop stronger academic skills. S: Encouraging a reading habit is one of the greatest gifts parents can give. Arrange in logical order:",
+    "question": "P: Reading regularly enhances vocabulary and critical thinking. Q: It also reduces stress by providing an escape from daily pressures. R: Children who read from a young age develop stronger academic skills. S: Encouraging a reading habit is one of the greatest gifts parents can give. Arrange in logical order:",
+    "options": [
+      "R-P-Q-S",
+      "P-Q-R-S",
+      "S-P-Q-R",
+      "Q-R-P-S"
+    ],
+    "answer": "P-Q-R-S",
+    "answerKey": "B",
+    "correctAnswer": "P-Q-R-S",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: P-Q-R-S.",
+    "topic": "para-jumbles",
+    "topicName": "Para Jumbles",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_201",
+    "title": "P: The internet has revolutionized communication. Q: Today, information can b...",
+    "description": "P: The internet has revolutionized communication. Q: Today, information can be shared globally in seconds. R: Before its invention, letters took weeks to travel between continents. S: This transformation has had both positive and negative consequences. Arrange P, Q, R, S in logical order:",
+    "question": "P: The internet has revolutionized communication. Q: Today, information can be shared globally in seconds. R: Before its invention, letters took weeks to travel between continents. S: This transformation has had both positive and negative consequences. Arrange P, Q, R, S in logical order:",
+    "options": [
+      "P-R-Q-S",
+      "R-P-Q-S",
+      "P-Q-R-S",
+      "Q-P-R-S"
+    ],
+    "answer": "P-R-Q-S",
+    "answerKey": "A",
+    "correctAnswer": "P-R-Q-S",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: P-R-Q-S.",
+    "topic": "para-jumbles",
+    "topicName": "Para Jumbles",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_203",
+    "title": "P: Water is the most precious resource on Earth. Q: Without it, no life can s...",
+    "description": "P: Water is the most precious resource on Earth. Q: Without it, no life can survive. R: Yet, billions of people lack access to clean drinking water. S: Conservation and responsible usage are therefore critical. Arrange in logical order:",
+    "question": "P: Water is the most precious resource on Earth. Q: Without it, no life can survive. R: Yet, billions of people lack access to clean drinking water. S: Conservation and responsible usage are therefore critical. Arrange in logical order:",
+    "options": [
+      "P-Q-R-S",
+      "R-P-Q-S",
+      "Q-P-R-S",
+      "P-R-Q-S"
+    ],
+    "answer": "P-Q-R-S",
+    "answerKey": "A",
+    "correctAnswer": "P-Q-R-S",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: P-Q-R-S.",
+    "topic": "para-jumbles",
+    "topicName": "Para Jumbles",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_205",
+    "title": "P: Social media has connected people across the globe. Q: However, it has als...",
+    "description": "P: Social media has connected people across the globe. Q: However, it has also become a platform for misinformation and cyberbullying. R: Users must therefore develop digital literacy skills. S: The key is to use it responsibly and critically. Arrange in logical order:",
+    "question": "P: Social media has connected people across the globe. Q: However, it has also become a platform for misinformation and cyberbullying. R: Users must therefore develop digital literacy skills. S: The key is to use it responsibly and critically. Arrange in logical order:",
+    "options": [
+      "P-Q-R-S",
+      "Q-P-R-S",
+      "P-R-Q-S",
+      "Q-R-P-S"
+    ],
+    "answer": "P-Q-R-S",
+    "answerKey": "A",
+    "correctAnswer": "P-Q-R-S",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: P-Q-R-S.",
+    "topic": "para-jumbles",
+    "topicName": "Para Jumbles",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_206",
+    "title": "P: Meditation has been practiced for thousands of years. Q: Modern science no...",
+    "description": "P: Meditation has been practiced for thousands of years. Q: Modern science now confirms its benefits for mental health. R: It reduces stress, improves focus, and promotes emotional well-being. S: Even a few minutes of daily meditation can make a noticeable difference. Arrange in logical order:",
+    "question": "P: Meditation has been practiced for thousands of years. Q: Modern science now confirms its benefits for mental health. R: It reduces stress, improves focus, and promotes emotional well-being. S: Even a few minutes of daily meditation can make a noticeable difference. Arrange in logical order:",
+    "options": [
+      "P-Q-R-S",
+      "Q-P-R-S",
+      "R-P-Q-S",
+      "S-Q-P-R"
+    ],
+    "answer": "P-Q-R-S",
+    "answerKey": "A",
+    "correctAnswer": "P-Q-R-S",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: P-Q-R-S.",
+    "topic": "para-jumbles",
+    "topicName": "Para Jumbles",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_210",
+    "title": "P: Plastic pollution is a growing environmental crisis. Q: Millions of tons o...",
+    "description": "P: Plastic pollution is a growing environmental crisis. Q: Millions of tons of plastic waste end up in oceans each year. R: Marine animals mistake plastic debris for food, often fatally. S: Reducing single-use plastic is an urgent global necessity. Arrange in logical order:",
+    "question": "P: Plastic pollution is a growing environmental crisis. Q: Millions of tons of plastic waste end up in oceans each year. R: Marine animals mistake plastic debris for food, often fatally. S: Reducing single-use plastic is an urgent global necessity. Arrange in logical order:",
+    "options": [
+      "P-Q-R-S",
+      "Q-P-R-S",
+      "R-P-Q-S",
+      "P-R-Q-S"
+    ],
+    "answer": "P-Q-R-S",
+    "answerKey": "A",
+    "correctAnswer": "P-Q-R-S",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: P-Q-R-S.",
+    "topic": "para-jumbles",
+    "topicName": "Para Jumbles",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

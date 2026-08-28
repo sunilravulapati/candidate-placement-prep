@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_465",
+  "slug": "tcs-apt-465",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "mensuration",
+  "topicName": "Mensuration",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Area of rhombus with diagonals 10cm and 24cm.",
+  "description": "Area of rhombus with diagonals 10cm and 24cm.",
+  "question": "Area of rhombus with diagonals 10cm and 24cm.",
+  "options": [
+    "120 cm2",
+    "100 cm2",
+    "140 cm2",
+    "150 cm2"
+  ],
+  "optionsMap": {
+    "A": "120 cm2",
+    "B": "100 cm2",
+    "C": "140 cm2",
+    "D": "150 cm2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "120 cm2",
+  "tags": [
+    "quantitative",
+    "mensuration"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

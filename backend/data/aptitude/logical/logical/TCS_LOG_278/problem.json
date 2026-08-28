@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_278",
+  "slug": "tcs-log-278",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Direction: X walks 10m East, 6m South, 3m East, 4m North. Where is X from start?",
+  "description": "Direction: X walks 10m East, 6m South, 3m East, 4m North. Where is X from start?",
+  "question": "Direction: X walks 10m East, 6m South, 3m East, 4m North. Where is X from start?",
+  "options": [
+    "13m East, 2m South",
+    "13m East, 2m North",
+    "10m East",
+    "14m East"
+  ],
+  "optionsMap": {
+    "A": "13m East, 2m South",
+    "B": "13m East, 2m North",
+    "C": "10m East",
+    "D": "14m East"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "13m East, 2m South",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

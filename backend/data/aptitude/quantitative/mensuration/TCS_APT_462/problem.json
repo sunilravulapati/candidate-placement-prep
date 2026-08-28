@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_462",
+  "slug": "tcs-apt-462",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "mensuration",
+  "topicName": "Mensuration",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Area of trapezium with parallel sides 8cm and 12cm, height 5cm?",
+  "description": "Area of trapezium with parallel sides 8cm and 12cm, height 5cm?",
+  "question": "Area of trapezium with parallel sides 8cm and 12cm, height 5cm?",
+  "options": [
+    "50 cm2",
+    "40 cm2",
+    "60 cm2",
+    "45 cm2"
+  ],
+  "optionsMap": {
+    "A": "50 cm2",
+    "B": "40 cm2",
+    "C": "60 cm2",
+    "D": "45 cm2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "50 cm2",
+  "tags": [
+    "quantitative",
+    "mensuration"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

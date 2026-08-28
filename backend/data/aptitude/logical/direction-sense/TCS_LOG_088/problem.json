@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_088",
+  "slug": "tcs-log-088",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "direction-sense",
+  "topicName": "Direction Sense",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A goes 6 km East, then 8 km South. How far from starting point?",
+  "description": "A goes 6 km East, then 8 km South. How far from starting point?",
+  "question": "A goes 6 km East, then 8 km South. How far from starting point?",
+  "options": [
+    "10 km",
+    "14 km",
+    "12 km",
+    "8 km"
+  ],
+  "optionsMap": {
+    "A": "10 km",
+    "B": "14 km",
+    "C": "12 km",
+    "D": "8 km"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "10 km",
+  "tags": [
+    "logical",
+    "direction-sense"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_203",
+  "slug": "tcs-log-203",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "critical-reasoning",
+  "topicName": "Critical Reasoning",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A company policy states: 'Employees with perfect attendance get a bonus.' Ram...",
+  "description": "A company policy states: 'Employees with perfect attendance get a bonus.' Ram received a bonus. What can we conclude?",
+  "question": "A company policy states: 'Employees with perfect attendance get a bonus.' Ram received a bonus. What can we conclude?",
+  "options": [
+    "Ram may or may not have perfect attendance",
+    "Ram has perfect attendance",
+    "Ram has partial attendance",
+    "Cannot conclude anything"
+  ],
+  "optionsMap": {
+    "A": "Ram may or may not have perfect attendance",
+    "B": "Ram has perfect attendance",
+    "C": "Ram has partial attendance",
+    "D": "Cannot conclude anything"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Ram may or may not have perfect attendance",
+  "tags": [
+    "logical",
+    "critical-reasoning"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

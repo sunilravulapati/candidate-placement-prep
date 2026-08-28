@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_405",
+  "slug": "tcs-log-405",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "In a group: 12 like A, 18 like B, 8 like both. How many like at least one?",
+  "description": "In a group: 12 like A, 18 like B, 8 like both. How many like at least one?",
+  "question": "In a group: 12 like A, 18 like B, 8 like both. How many like at least one?",
+  "options": [
+    "22",
+    "26",
+    "30",
+    "20"
+  ],
+  "optionsMap": {
+    "A": "22",
+    "B": "26",
+    "C": "30",
+    "D": "20"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "22",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

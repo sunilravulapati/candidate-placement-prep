@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_273",
+  "slug": "tcs-apt-273",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Area of a triangle with base 10m and height 6m.",
+  "description": "Area of a triangle with base 10m and height 6m.",
+  "question": "Area of a triangle with base 10m and height 6m.",
+  "options": [
+    "30 m2",
+    "60 m2",
+    "50 m2",
+    "25 m2"
+  ],
+  "optionsMap": {
+    "A": "30 m2",
+    "B": "60 m2",
+    "C": "50 m2",
+    "D": "25 m2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "30 m2",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

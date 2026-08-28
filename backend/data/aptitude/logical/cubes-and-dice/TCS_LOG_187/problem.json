@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_187",
+  "slug": "tcs-log-187",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "cubes-and-dice",
+  "topicName": "Cubes and Dice",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "A rectangular block 2×3×4 is cut into 1×1×1 unit cubes. How many unit cubes a...",
+  "description": "A rectangular block 2×3×4 is cut into 1×1×1 unit cubes. How many unit cubes are there?",
+  "question": "A rectangular block 2×3×4 is cut into 1×1×1 unit cubes. How many unit cubes are there?",
+  "options": [
+    "24",
+    "12",
+    "36",
+    "16"
+  ],
+  "optionsMap": {
+    "A": "24",
+    "B": "12",
+    "C": "36",
+    "D": "16"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "24",
+  "tags": [
+    "logical",
+    "cubes-and-dice"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

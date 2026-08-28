@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_373",
+  "slug": "tcs-apt-373",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A shopkeeper has 100kg sugar. He sells it at 20% profit at Rs 18/kg. His cost...",
+  "description": "A shopkeeper has 100kg sugar. He sells it at 20% profit at Rs 18/kg. His cost price per kg?",
+  "question": "A shopkeeper has 100kg sugar. He sells it at 20% profit at Rs 18/kg. His cost price per kg?",
+  "options": [
+    "Rs 15",
+    "Rs 12",
+    "Rs 14",
+    "Rs 16"
+  ],
+  "optionsMap": {
+    "A": "Rs 15",
+    "B": "Rs 12",
+    "C": "Rs 14",
+    "D": "Rs 16"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs 15",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

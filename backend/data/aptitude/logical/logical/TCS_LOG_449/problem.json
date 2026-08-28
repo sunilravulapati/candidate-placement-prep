@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_449",
+  "slug": "tcs-log-449",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Odd one out: Cricket, Football, Chess, Basketball",
+  "description": "Odd one out: Cricket, Football, Chess, Basketball",
+  "question": "Odd one out: Cricket, Football, Chess, Basketball",
+  "options": [
+    "Chess",
+    "Cricket",
+    "Football",
+    "Basketball"
+  ],
+  "optionsMap": {
+    "A": "Chess",
+    "B": "Cricket",
+    "C": "Football",
+    "D": "Basketball"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Chess",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

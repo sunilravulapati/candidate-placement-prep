@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_439",
+  "slug": "tcs-apt-439",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "time-and-work",
+  "topicName": "Time and Work",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "40 workers can build a wall in 18 days. 10 workers leave after 6 days. How ma...",
+  "description": "40 workers can build a wall in 18 days. 10 workers leave after 6 days. How many more days needed?",
+  "question": "40 workers can build a wall in 18 days. 10 workers leave after 6 days. How many more days needed?",
+  "options": [
+    "24 days",
+    "20 days",
+    "22 days",
+    "18 days"
+  ],
+  "optionsMap": {
+    "A": "24 days",
+    "B": "20 days",
+    "C": "22 days",
+    "D": "18 days"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "24 days",
+  "tags": [
+    "quantitative",
+    "time-and-work"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

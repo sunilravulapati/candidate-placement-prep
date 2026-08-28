@@ -1,0 +1,512 @@
+[
+  {
+    "id": "TCS_APT_069",
+    "title": "Two cars start from the same point in opposite directions at 40 and 50 km/h. ...",
+    "description": "Two cars start from the same point in opposite directions at 40 and 50 km/h. After 3 hours, the distance between them is:",
+    "question": "Two cars start from the same point in opposite directions at 40 and 50 km/h. After 3 hours, the distance between them is:",
+    "options": [
+      "270 km",
+      "200 km",
+      "250 km",
+      "300 km"
+    ],
+    "answer": "270 km",
+    "answerKey": "A",
+    "correctAnswer": "270 km",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 270 km.",
+    "topic": "speed-and-distance",
+    "topicName": "Speed and Distance",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_071",
+    "title": "If a train covers 360 km at 80 km/h, how long does the journey take?",
+    "description": "If a train covers 360 km at 80 km/h, how long does the journey take?",
+    "question": "If a train covers 360 km at 80 km/h, how long does the journey take?",
+    "options": [
+      "4.5 hours",
+      "4 hours",
+      "5 hours",
+      "3.5 hours"
+    ],
+    "answer": "4.5 hours",
+    "answerKey": "A",
+    "correctAnswer": "4.5 hours",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 4.5 hours.",
+    "topic": "speed-and-distance",
+    "topicName": "Speed and Distance",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_065",
+    "title": "A man covers 4/5 of his journey at 40 km/h and the rest at 60 km/h. What is h...",
+    "description": "A man covers 4/5 of his journey at 40 km/h and the rest at 60 km/h. What is his average speed?",
+    "question": "A man covers 4/5 of his journey at 40 km/h and the rest at 60 km/h. What is his average speed?",
+    "options": [
+      "43.6 km/h",
+      "45 km/h",
+      "42 km/h",
+      "50 km/h"
+    ],
+    "answer": "43.6 km/h",
+    "answerKey": "A",
+    "correctAnswer": "43.6 km/h",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 43.6 km/h.",
+    "topic": "speed-and-distance",
+    "topicName": "Speed and Distance",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_066",
+    "title": "A train 200m long passes a train 300m long going in the same direction at 60 ...",
+    "description": "A train 200m long passes a train 300m long going in the same direction at 60 km/h and 40 km/h. How long does it take?",
+    "question": "A train 200m long passes a train 300m long going in the same direction at 60 km/h and 40 km/h. How long does it take?",
+    "options": [
+      "90 seconds",
+      "100 seconds",
+      "80 seconds",
+      "120 seconds"
+    ],
+    "answer": "90 seconds",
+    "answerKey": "A",
+    "correctAnswer": "90 seconds",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 90 seconds.",
+    "topic": "speed-and-distance",
+    "topicName": "Speed and Distance",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_430",
+    "title": "Two trains 120m and 180m long approach each other at 60 and 90 km/h. Time to ...",
+    "description": "Two trains 120m and 180m long approach each other at 60 and 90 km/h. Time to cross:",
+    "question": "Two trains 120m and 180m long approach each other at 60 and 90 km/h. Time to cross:",
+    "options": [
+      "8 sec",
+      "6 sec",
+      "10 sec",
+      "12 sec"
+    ],
+    "answer": "8 sec",
+    "answerKey": "A",
+    "correctAnswer": "8 sec",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 8 sec.",
+    "topic": "speed-and-distance",
+    "topicName": "Speed and Distance",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_431",
+    "title": "A car covers first 100 km at 50 km/h and next 100 km at 100 km/h. Average speed?",
+    "description": "A car covers first 100 km at 50 km/h and next 100 km at 100 km/h. Average speed?",
+    "question": "A car covers first 100 km at 50 km/h and next 100 km at 100 km/h. Average speed?",
+    "options": [
+      "66.67 km/h",
+      "75 km/h",
+      "70 km/h",
+      "80 km/h"
+    ],
+    "answer": "66.67 km/h",
+    "answerKey": "A",
+    "correctAnswer": "66.67 km/h",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 66.67 km/h.",
+    "topic": "speed-and-distance",
+    "topicName": "Speed and Distance",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_432",
+    "title": "Walking at 3/4 of normal speed, a person is late by 20 min. Normal time is:",
+    "description": "Walking at 3/4 of normal speed, a person is late by 20 min. Normal time is:",
+    "question": "Walking at 3/4 of normal speed, a person is late by 20 min. Normal time is:",
+    "options": [
+      "60 min",
+      "45 min",
+      "80 min",
+      "90 min"
+    ],
+    "answer": "60 min",
+    "answerKey": "A",
+    "correctAnswer": "60 min",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 60 min.",
+    "topic": "speed-and-distance",
+    "topicName": "Speed and Distance",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_433",
+    "title": "A boat covers 30 km upstream in 6h and 30 km downstream in 3h. Boat speed in ...",
+    "description": "A boat covers 30 km upstream in 6h and 30 km downstream in 3h. Boat speed in still water?",
+    "question": "A boat covers 30 km upstream in 6h and 30 km downstream in 3h. Boat speed in still water?",
+    "options": [
+      "7.5 km/h",
+      "8 km/h",
+      "6 km/h",
+      "10 km/h"
+    ],
+    "answer": "7.5 km/h",
+    "answerKey": "A",
+    "correctAnswer": "7.5 km/h",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 7.5 km/h.",
+    "topic": "speed-and-distance",
+    "topicName": "Speed and Distance",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_436",
+    "title": "A man rows 10 km upstream in 100 min and downstream in 40 min. Speed of current?",
+    "description": "A man rows 10 km upstream in 100 min and downstream in 40 min. Speed of current?",
+    "question": "A man rows 10 km upstream in 100 min and downstream in 40 min. Speed of current?",
+    "options": [
+      "2.25 km/h",
+      "3 km/h",
+      "1.5 km/h",
+      "2.5 km/h"
+    ],
+    "answer": "2.25 km/h",
+    "answerKey": "A",
+    "correctAnswer": "2.25 km/h",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 2.25 km/h.",
+    "topic": "speed-and-distance",
+    "topicName": "Speed and Distance",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_061",
+    "title": "Two trains start from A and B, 300 km apart, toward each other at 50 km/h and...",
+    "description": "Two trains start from A and B, 300 km apart, toward each other at 50 km/h and 70 km/h. When do they meet?",
+    "question": "Two trains start from A and B, 300 km apart, toward each other at 50 km/h and 70 km/h. When do they meet?",
+    "options": [
+      "2.5 hours",
+      "3 hours",
+      "2 hours",
+      "4 hours"
+    ],
+    "answer": "2.5 hours",
+    "answerKey": "A",
+    "correctAnswer": "2.5 hours",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 2.5 hours.",
+    "topic": "speed-and-distance",
+    "topicName": "Speed and Distance",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_063",
+    "title": "A train 150m long passes a pole in 15 seconds. Its speed in km/h is:",
+    "description": "A train 150m long passes a pole in 15 seconds. Its speed in km/h is:",
+    "question": "A train 150m long passes a pole in 15 seconds. Its speed in km/h is:",
+    "options": [
+      "36",
+      "30",
+      "40",
+      "45"
+    ],
+    "answer": "36",
+    "answerKey": "A",
+    "correctAnswer": "36",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 36.",
+    "topic": "speed-and-distance",
+    "topicName": "Speed and Distance",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_067",
+    "title": "Sound travels at 332 m/s. If lightning is seen 3 seconds before thunder, how ...",
+    "description": "Sound travels at 332 m/s. If lightning is seen 3 seconds before thunder, how far away is the lightning?",
+    "question": "Sound travels at 332 m/s. If lightning is seen 3 seconds before thunder, how far away is the lightning?",
+    "options": [
+      "0.996 km",
+      "1 km",
+      "1.5 km",
+      "0.5 km"
+    ],
+    "answer": "0.996 km",
+    "answerKey": "A",
+    "correctAnswer": "0.996 km",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 0.996 km.",
+    "topic": "speed-and-distance",
+    "topicName": "Speed and Distance",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_068",
+    "title": "A thief is 100m ahead of a policeman. Both run, thief at 8 km/h and policeman...",
+    "description": "A thief is 100m ahead of a policeman. Both run, thief at 8 km/h and policeman at 10 km/h. When will the policeman catch the thief?",
+    "question": "A thief is 100m ahead of a policeman. Both run, thief at 8 km/h and policeman at 10 km/h. When will the policeman catch the thief?",
+    "options": [
+      "3 minutes",
+      "2 minutes",
+      "5 minutes",
+      "4 minutes"
+    ],
+    "answer": "3 minutes",
+    "answerKey": "A",
+    "correctAnswer": "3 minutes",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 3 minutes.",
+    "topic": "speed-and-distance",
+    "topicName": "Speed and Distance",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_070",
+    "title": "A boat travels 24 km upstream in 6 hours and 24 km downstream in 4 hours. Wha...",
+    "description": "A boat travels 24 km upstream in 6 hours and 24 km downstream in 4 hours. What is the speed of the stream?",
+    "question": "A boat travels 24 km upstream in 6 hours and 24 km downstream in 4 hours. What is the speed of the stream?",
+    "options": [
+      "2 km/h",
+      "1 km/h",
+      "3 km/h",
+      "4 km/h"
+    ],
+    "answer": "2 km/h",
+    "answerKey": "A",
+    "correctAnswer": "2 km/h",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 2 km/h.",
+    "topic": "speed-and-distance",
+    "topicName": "Speed and Distance",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_072",
+    "title": "A cyclist completes a tour of 600 km in 8 days. If he cycles 10 hours a day, ...",
+    "description": "A cyclist completes a tour of 600 km in 8 days. If he cycles 10 hours a day, what is his average speed?",
+    "question": "A cyclist completes a tour of 600 km in 8 days. If he cycles 10 hours a day, what is his average speed?",
+    "options": [
+      "7.5 km/h",
+      "6 km/h",
+      "8 km/h",
+      "10 km/h"
+    ],
+    "answer": "7.5 km/h",
+    "answerKey": "A",
+    "correctAnswer": "7.5 km/h",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 7.5 km/h.",
+    "topic": "speed-and-distance",
+    "topicName": "Speed and Distance",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_073",
+    "title": "Two persons A and B start at the same time from P and Q, 45 km apart, toward ...",
+    "description": "Two persons A and B start at the same time from P and Q, 45 km apart, toward each other. A walks at 3 km/h and B at 2 km/h. When do they meet?",
+    "question": "Two persons A and B start at the same time from P and Q, 45 km apart, toward each other. A walks at 3 km/h and B at 2 km/h. When do they meet?",
+    "options": [
+      "9 hours",
+      "10 hours",
+      "8 hours",
+      "12 hours"
+    ],
+    "answer": "9 hours",
+    "answerKey": "A",
+    "correctAnswer": "9 hours",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 9 hours.",
+    "topic": "speed-and-distance",
+    "topicName": "Speed and Distance",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_435",
+    "title": "Two cities A and B are 300 km apart. A train from A travels at 70 km/h and an...",
+    "description": "Two cities A and B are 300 km apart. A train from A travels at 70 km/h and another from B at 80 km/h toward each other. They meet after:",
+    "question": "Two cities A and B are 300 km apart. A train from A travels at 70 km/h and another from B at 80 km/h toward each other. They meet after:",
+    "options": [
+      "2 hrs",
+      "2.5 hrs",
+      "3 hrs",
+      "1.5 hrs"
+    ],
+    "answer": "2 hrs",
+    "answerKey": "A",
+    "correctAnswer": "2 hrs",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 2 hrs.",
+    "topic": "speed-and-distance",
+    "topicName": "Speed and Distance",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

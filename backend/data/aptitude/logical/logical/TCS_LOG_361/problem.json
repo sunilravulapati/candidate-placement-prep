@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_361",
+  "slug": "tcs-log-361",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Direction: Walk 4 km West, turn 90° left, walk 3 km. Then 90° right, walk 4 k...",
+  "description": "Direction: Walk 4 km West, turn 90° left, walk 3 km. Then 90° right, walk 4 km East. Where?",
+  "question": "Direction: Walk 4 km West, turn 90° left, walk 3 km. Then 90° right, walk 4 km East. Where?",
+  "options": [
+    "3km North of start",
+    "3km South",
+    "Same place",
+    "6km West"
+  ],
+  "optionsMap": {
+    "A": "3km North of start",
+    "B": "3km South",
+    "C": "Same place",
+    "D": "6km West"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "3km North of start",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

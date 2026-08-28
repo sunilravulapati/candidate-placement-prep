@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_496",
+  "slug": "tcs-log-496",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Coding: IF=J.F., OF=P.F. GO=?",
+  "description": "Coding: IF=J.F., OF=P.F. GO=?",
+  "question": "Coding: IF=J.F., OF=P.F. GO=?",
+  "options": [
+    "H.P.",
+    "I.P.",
+    "H.O.",
+    "J.P."
+  ],
+  "optionsMap": {
+    "A": "H.P.",
+    "B": "I.P.",
+    "C": "H.O.",
+    "D": "J.P."
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "H.P.",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

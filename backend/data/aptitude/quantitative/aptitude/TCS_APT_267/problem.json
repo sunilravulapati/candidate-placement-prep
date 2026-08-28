@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_267",
+  "slug": "tcs-apt-267",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A container has 20L milk. 4L removed and replaced with water. Repeated twice....",
+  "description": "A container has 20L milk. 4L removed and replaced with water. Repeated twice. Milk remaining?",
+  "question": "A container has 20L milk. 4L removed and replaced with water. Repeated twice. Milk remaining?",
+  "options": [
+    "12.8L",
+    "13.6L",
+    "11.2L",
+    "14.4L"
+  ],
+  "optionsMap": {
+    "A": "12.8L",
+    "B": "13.6L",
+    "C": "11.2L",
+    "D": "14.4L"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "12.8L",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

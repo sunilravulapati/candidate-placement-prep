@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_263",
+  "slug": "tcs-ver-263",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "sentence-improvement",
+  "topicName": "Sentence Improvement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Improve the underlined part of the sentence: 'She insisted that he should pay...",
+  "description": "Improve the underlined part of the sentence: 'She insisted that he should pay the fine.'",
+  "question": "Improve the underlined part of the sentence: 'She insisted that he should pay the fine.'",
+  "options": [
+    "insisted on his paying",
+    "insisted for him to pay",
+    "insisted him paying",
+    "No improvement"
+  ],
+  "optionsMap": {
+    "A": "insisted on his paying",
+    "B": "insisted for him to pay",
+    "C": "insisted him paying",
+    "D": "No improvement"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "insisted on his paying",
+  "tags": [
+    "verbal",
+    "sentence-improvement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

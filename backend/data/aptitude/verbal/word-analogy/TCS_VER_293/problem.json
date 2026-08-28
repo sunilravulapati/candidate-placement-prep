@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_293",
+  "slug": "tcs-ver-293",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "word-analogy",
+  "topicName": "Word Analogy",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Complete the analogy: Stethoscope : Heartbeat :: Sphygmomanometer : ?",
+  "description": "Complete the analogy: Stethoscope : Heartbeat :: Sphygmomanometer : ?",
+  "question": "Complete the analogy: Stethoscope : Heartbeat :: Sphygmomanometer : ?",
+  "options": [
+    "Blood pressure",
+    "Sugar level",
+    "Oxygen level",
+    "Temperature"
+  ],
+  "optionsMap": {
+    "A": "Blood pressure",
+    "B": "Sugar level",
+    "C": "Oxygen level",
+    "D": "Temperature"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Blood pressure",
+  "tags": [
+    "verbal",
+    "word-analogy"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

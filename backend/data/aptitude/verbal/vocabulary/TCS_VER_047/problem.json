@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_047",
+  "slug": "tcs-ver-047",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: UNYIELDING",
+  "description": "Choose the word most similar in meaning to: UNYIELDING",
+  "question": "Choose the word most similar in meaning to: UNYIELDING",
+  "options": [
+    "Stubborn",
+    "Flexible",
+    "Cooperative",
+    "Easy"
+  ],
+  "optionsMap": {
+    "A": "Stubborn",
+    "B": "Flexible",
+    "C": "Cooperative",
+    "D": "Easy"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Stubborn",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

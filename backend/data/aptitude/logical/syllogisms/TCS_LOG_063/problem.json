@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_063",
+  "slug": "tcs-log-063",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "syllogisms",
+  "topicName": "Syllogisms",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "No table is chair. All chairs are sofas. Conclusions: (I) No sofa is table. (...",
+  "description": "No table is chair. All chairs are sofas. Conclusions: (I) No sofa is table. (II) Some sofas are chairs.",
+  "question": "No table is chair. All chairs are sofas. Conclusions: (I) No sofa is table. (II) Some sofas are chairs.",
+  "options": [
+    "Only II follows",
+    "Only I follows",
+    "Both follow",
+    "Neither follows"
+  ],
+  "optionsMap": {
+    "A": "Only II follows",
+    "B": "Only I follows",
+    "C": "Both follow",
+    "D": "Neither follows"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Only II follows",
+  "tags": [
+    "logical",
+    "syllogisms"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

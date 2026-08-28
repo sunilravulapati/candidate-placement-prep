@@ -1,0 +1,302 @@
+[
+  {
+    "id": "TCS_LOG_187",
+    "title": "A rectangular block 2×3×4 is cut into 1×1×1 unit cubes. How many unit cubes a...",
+    "description": "A rectangular block 2×3×4 is cut into 1×1×1 unit cubes. How many unit cubes are there?",
+    "question": "A rectangular block 2×3×4 is cut into 1×1×1 unit cubes. How many unit cubes are there?",
+    "options": [
+      "24",
+      "12",
+      "36",
+      "16"
+    ],
+    "answer": "24",
+    "answerKey": "A",
+    "correctAnswer": "24",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 24.",
+    "topic": "cubes-and-dice",
+    "topicName": "Cubes and Dice",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_181",
+    "title": "A cube is painted red on all faces and cut into 64 smaller cubes. How many sm...",
+    "description": "A cube is painted red on all faces and cut into 64 smaller cubes. How many small cubes have no painted face?",
+    "question": "A cube is painted red on all faces and cut into 64 smaller cubes. How many small cubes have no painted face?",
+    "options": [
+      "8",
+      "16",
+      "24",
+      "32"
+    ],
+    "answer": "8",
+    "answerKey": "A",
+    "correctAnswer": "8",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 8.",
+    "topic": "cubes-and-dice",
+    "topicName": "Cubes and Dice",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_182",
+    "title": "A cube is painted and cut into 27 smaller cubes. How many have exactly 1 pain...",
+    "description": "A cube is painted and cut into 27 smaller cubes. How many have exactly 1 painted face?",
+    "question": "A cube is painted and cut into 27 smaller cubes. How many have exactly 1 painted face?",
+    "options": [
+      "6",
+      "12",
+      "8",
+      "24"
+    ],
+    "answer": "6",
+    "answerKey": "A",
+    "correctAnswer": "6",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 6.",
+    "topic": "cubes-and-dice",
+    "topicName": "Cubes and Dice",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_184",
+    "title": "A cube is cut into 125 smaller cubes. How many have exactly 3 painted faces?",
+    "description": "A cube is cut into 125 smaller cubes. How many have exactly 3 painted faces?",
+    "question": "A cube is cut into 125 smaller cubes. How many have exactly 3 painted faces?",
+    "options": [
+      "8",
+      "12",
+      "4",
+      "6"
+    ],
+    "answer": "8",
+    "answerKey": "A",
+    "correctAnswer": "8",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 8.",
+    "topic": "cubes-and-dice",
+    "topicName": "Cubes and Dice",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_188",
+    "title": "A cube is painted on all faces and cut into 216 smaller cubes. How many have ...",
+    "description": "A cube is painted on all faces and cut into 216 smaller cubes. How many have no paint?",
+    "question": "A cube is painted on all faces and cut into 216 smaller cubes. How many have no paint?",
+    "options": [
+      "64",
+      "125",
+      "100",
+      "150"
+    ],
+    "answer": "64",
+    "answerKey": "A",
+    "correctAnswer": "64",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 64.",
+    "topic": "cubes-and-dice",
+    "topicName": "Cubes and Dice",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_189",
+    "title": "Opposite faces of a die: 1-6, 2-5, 3-4. Die placed with 1 on top, 2 facing fr...",
+    "description": "Opposite faces of a die: 1-6, 2-5, 3-4. Die placed with 1 on top, 2 facing front. What is on right?",
+    "question": "Opposite faces of a die: 1-6, 2-5, 3-4. Die placed with 1 on top, 2 facing front. What is on right?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "3",
+    "answerKey": "A",
+    "correctAnswer": "3",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 3.",
+    "topic": "cubes-and-dice",
+    "topicName": "Cubes and Dice",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_190",
+    "title": "A 3×3×3 cube is painted on all faces and cut into 27 unit cubes. How many hav...",
+    "description": "A 3×3×3 cube is painted on all faces and cut into 27 unit cubes. How many have paint on exactly 2 faces?",
+    "question": "A 3×3×3 cube is painted on all faces and cut into 27 unit cubes. How many have paint on exactly 2 faces?",
+    "options": [
+      "12",
+      "6",
+      "8",
+      "24"
+    ],
+    "answer": "12",
+    "answerKey": "A",
+    "correctAnswer": "12",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 12.",
+    "topic": "cubes-and-dice",
+    "topicName": "Cubes and Dice",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_183",
+    "title": "On a standard dice, opposite faces add up to 7. If 3 is on top and 4 faces yo...",
+    "description": "On a standard dice, opposite faces add up to 7. If 3 is on top and 4 faces you, which number is at the bottom?",
+    "question": "On a standard dice, opposite faces add up to 7. If 3 is on top and 4 faces you, which number is at the bottom?",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "answer": "4",
+    "answerKey": "A",
+    "correctAnswer": "4",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 4.",
+    "topic": "cubes-and-dice",
+    "topicName": "Cubes and Dice",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_185",
+    "title": "A die shows 2 on top and 3 facing you. What is at the bottom?",
+    "description": "A die shows 2 on top and 3 facing you. What is at the bottom?",
+    "question": "A die shows 2 on top and 3 facing you. What is at the bottom?",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "1"
+    ],
+    "answer": "5",
+    "answerKey": "A",
+    "correctAnswer": "5",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 5.",
+    "topic": "cubes-and-dice",
+    "topicName": "Cubes and Dice",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_186",
+    "title": "A cube is painted red on all sides and cut into 8 equal smaller cubes. How ma...",
+    "description": "A cube is painted red on all sides and cut into 8 equal smaller cubes. How many small cubes have exactly 3 painted faces?",
+    "question": "A cube is painted red on all sides and cut into 8 equal smaller cubes. How many small cubes have exactly 3 painted faces?",
+    "options": [
+      "8",
+      "4",
+      "6",
+      "0"
+    ],
+    "answer": "8",
+    "answerKey": "A",
+    "correctAnswer": "8",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 8.",
+    "topic": "cubes-and-dice",
+    "topicName": "Cubes and Dice",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

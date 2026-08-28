@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_002",
+  "slug": "tcs-ver-002",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Choose the word most similar in meaning to: BENEVOLENT",
+  "description": "Choose the word most similar in meaning to: BENEVOLENT",
+  "question": "Choose the word most similar in meaning to: BENEVOLENT",
+  "options": [
+    "Kind",
+    "Cruel",
+    "Lazy",
+    "Noisy"
+  ],
+  "optionsMap": {
+    "A": "Kind",
+    "B": "Cruel",
+    "C": "Lazy",
+    "D": "Noisy"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Kind",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

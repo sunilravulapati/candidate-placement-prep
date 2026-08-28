@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_272",
+  "slug": "tcs-log-272",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Blood relation: X is Y's sister. Y is Z's mother. How is X related to Z?",
+  "description": "Blood relation: X is Y's sister. Y is Z's mother. How is X related to Z?",
+  "question": "Blood relation: X is Y's sister. Y is Z's mother. How is X related to Z?",
+  "options": [
+    "Aunt",
+    "Sister",
+    "Mother",
+    "Niece"
+  ],
+  "optionsMap": {
+    "A": "Aunt",
+    "B": "Sister",
+    "C": "Mother",
+    "D": "Niece"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Aunt",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

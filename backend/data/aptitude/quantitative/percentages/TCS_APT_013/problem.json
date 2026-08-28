@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_013",
+  "slug": "tcs-apt-013",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "percentages",
+  "topicName": "Percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If 25% of x is 75, then what is 40% of x?",
+  "description": "If 25% of x is 75, then what is 40% of x?",
+  "question": "If 25% of x is 75, then what is 40% of x?",
+  "options": [
+    "120",
+    "100",
+    "150",
+    "110"
+  ],
+  "optionsMap": {
+    "A": "120",
+    "B": "100",
+    "C": "150",
+    "D": "110"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "120",
+  "tags": [
+    "quantitative",
+    "percentages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

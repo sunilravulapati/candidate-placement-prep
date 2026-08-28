@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_627",
+  "slug": "tcs-apt-627",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A and B alternate, A starts. A can do in 10, B in 15. After 5 days how much d...",
+  "description": "A and B alternate, A starts. A can do in 10, B in 15. After 5 days how much done?",
+  "question": "A and B alternate, A starts. A can do in 10, B in 15. After 5 days how much done?",
+  "options": [
+    "7/15",
+    "1/2",
+    "8/15",
+    "5/12"
+  ],
+  "optionsMap": {
+    "A": "7/15",
+    "B": "1/2",
+    "C": "8/15",
+    "D": "5/12"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "7/15",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

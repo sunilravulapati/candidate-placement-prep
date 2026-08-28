@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_279",
+  "slug": "tcs-log-279",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Direction: Ram starts North, turns right, walks 2km, turns right, walks 3km. ...",
+  "description": "Direction: Ram starts North, turns right, walks 2km, turns right, walks 3km. Which direction to start?",
+  "question": "Direction: Ram starts North, turns right, walks 2km, turns right, walks 3km. Which direction to start?",
+  "options": [
+    "South West",
+    "North East",
+    "South East",
+    "North West"
+  ],
+  "optionsMap": {
+    "A": "South West",
+    "B": "North East",
+    "C": "South East",
+    "D": "North West"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "South West",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

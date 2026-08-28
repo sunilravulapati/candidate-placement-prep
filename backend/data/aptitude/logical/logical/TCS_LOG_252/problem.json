@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_252",
+  "slug": "tcs-log-252",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find the odd one out: Triangle, Circle, Square, Cube",
+  "description": "Find the odd one out: Triangle, Circle, Square, Cube",
+  "question": "Find the odd one out: Triangle, Circle, Square, Cube",
+  "options": [
+    "Cube",
+    "Triangle",
+    "Circle",
+    "Square"
+  ],
+  "optionsMap": {
+    "A": "Cube",
+    "B": "Triangle",
+    "C": "Circle",
+    "D": "Square"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Cube",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

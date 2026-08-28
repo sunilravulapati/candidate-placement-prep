@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_506",
+  "slug": "tcs-ver-506",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What is the antonym of 'lethargic'?",
+  "description": "What is the antonym of 'lethargic'?",
+  "question": "What is the antonym of 'lethargic'?",
+  "options": [
+    "Energetic",
+    "Tired",
+    "Slow",
+    "Dull"
+  ],
+  "optionsMap": {
+    "A": "Energetic",
+    "B": "Tired",
+    "C": "Slow",
+    "D": "Dull"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Energetic",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

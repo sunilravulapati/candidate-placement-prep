@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_649",
+  "slug": "tcs-ver-649",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of NEFARIOUS",
+  "description": "Choose the antonym of NEFARIOUS",
+  "question": "Choose the antonym of NEFARIOUS",
+  "options": [
+    "Virtuous",
+    "Wicked",
+    "Evil",
+    "Sinful"
+  ],
+  "optionsMap": {
+    "A": "Virtuous",
+    "B": "Wicked",
+    "C": "Evil",
+    "D": "Sinful"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Virtuous",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

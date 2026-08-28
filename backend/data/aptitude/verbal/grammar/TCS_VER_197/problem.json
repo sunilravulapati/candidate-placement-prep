@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_197",
+  "slug": "tcs-ver-197",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which sentence is in the future perfect tense?",
+  "description": "Which sentence is in the future perfect tense?",
+  "question": "Which sentence is in the future perfect tense?",
+  "options": [
+    "She will complete the project.",
+    "She will have completed the project by tomorrow.",
+    "She is completing the project.",
+    "She has completed the project."
+  ],
+  "optionsMap": {
+    "A": "She will complete the project.",
+    "B": "She will have completed the project by tomorrow.",
+    "C": "She is completing the project.",
+    "D": "She has completed the project."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "She will have completed the project by tomorrow.",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

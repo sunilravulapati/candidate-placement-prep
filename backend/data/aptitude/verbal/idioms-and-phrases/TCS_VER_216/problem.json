@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_216",
+  "slug": "tcs-ver-216",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What does 'let the cat out of the bag' mean?",
+  "description": "What does 'let the cat out of the bag' mean?",
+  "question": "What does 'let the cat out of the bag' mean?",
+  "options": [
+    "Accidentally reveal a secret",
+    "Release an animal",
+    "Cause confusion",
+    "Make noise"
+  ],
+  "optionsMap": {
+    "A": "Accidentally reveal a secret",
+    "B": "Release an animal",
+    "C": "Cause confusion",
+    "D": "Make noise"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Accidentally reveal a secret",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

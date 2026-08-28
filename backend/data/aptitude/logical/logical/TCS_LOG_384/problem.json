@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_384",
+  "slug": "tcs-log-384",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Conditional: If it rains, the match is cancelled. Match was not cancelled. Th...",
+  "description": "Conditional: If it rains, the match is cancelled. Match was not cancelled. Therefore?",
+  "question": "Conditional: If it rains, the match is cancelled. Match was not cancelled. Therefore?",
+  "options": [
+    "It did not rain",
+    "It rained",
+    "Match was played",
+    "Cannot say"
+  ],
+  "optionsMap": {
+    "A": "It did not rain",
+    "B": "It rained",
+    "C": "Match was played",
+    "D": "Cannot say"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "It did not rain",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_239",
+  "slug": "tcs-apt-239",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The cost price of an article is Rs 200. It is sold at a profit of 15%. Find s...",
+  "description": "The cost price of an article is Rs 200. It is sold at a profit of 15%. Find selling price.",
+  "question": "The cost price of an article is Rs 200. It is sold at a profit of 15%. Find selling price.",
+  "options": [
+    "230",
+    "240",
+    "220",
+    "250"
+  ],
+  "optionsMap": {
+    "A": "230",
+    "B": "240",
+    "C": "220",
+    "D": "250"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "230",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

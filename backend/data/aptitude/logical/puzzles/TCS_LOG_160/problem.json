@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_160",
+  "slug": "tcs-log-160",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "puzzles",
+  "topicName": "Puzzles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "If a rooster lays an egg on the peak of a roof, which way does it roll?",
+  "description": "If a rooster lays an egg on the peak of a roof, which way does it roll?",
+  "question": "If a rooster lays an egg on the peak of a roof, which way does it roll?",
+  "options": [
+    "Roosters don't lay eggs",
+    "It rolls left",
+    "It rolls right",
+    "It stays put"
+  ],
+  "optionsMap": {
+    "A": "Roosters don't lay eggs",
+    "B": "It rolls left",
+    "C": "It rolls right",
+    "D": "It stays put"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Roosters don't lay eggs",
+  "tags": [
+    "logical",
+    "puzzles"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

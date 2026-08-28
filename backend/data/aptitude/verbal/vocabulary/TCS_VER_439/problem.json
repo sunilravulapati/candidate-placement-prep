@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_439",
+  "slug": "tcs-ver-439",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What does the idiom 'a blessing in disguise' mean?",
+  "description": "What does the idiom 'a blessing in disguise' mean?",
+  "question": "What does the idiom 'a blessing in disguise' mean?",
+  "options": [
+    "Something good that seemed bad at first",
+    "A hidden gift",
+    "A bad event",
+    "A disguise"
+  ],
+  "optionsMap": {
+    "A": "Something good that seemed bad at first",
+    "B": "A hidden gift",
+    "C": "A bad event",
+    "D": "A disguise"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Something good that seemed bad at first",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

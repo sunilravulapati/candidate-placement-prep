@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_263",
+  "slug": "tcs-apt-263",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "In what ratio must rice at Rs 12/kg be mixed with rice at Rs 16/kg to get mix...",
+  "description": "In what ratio must rice at Rs 12/kg be mixed with rice at Rs 16/kg to get mixture at Rs 14/kg?",
+  "question": "In what ratio must rice at Rs 12/kg be mixed with rice at Rs 16/kg to get mixture at Rs 14/kg?",
+  "options": [
+    "1:1",
+    "2:1",
+    "1:2",
+    "3:1"
+  ],
+  "optionsMap": {
+    "A": "1:1",
+    "B": "2:1",
+    "C": "1:2",
+    "D": "3:1"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1:1",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

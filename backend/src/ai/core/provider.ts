@@ -179,6 +179,22 @@ export async function callGroqRaw(
         );
       }
 
+      // Check for Model Not Found (404) -> Fallback to groq/compound-mini
+      const errStr = String(err);
+      const isModelNotFound =
+        (err as any)?.status === 404 ||
+        (err as any)?.code === 'model_not_found' ||
+        errStr.includes('model_not_found') ||
+        errStr.includes('does not exist');
+
+      if (isModelNotFound && requestBody.model !== 'groq/compound-mini') {
+        console.warn(
+          `[provider] Requested model "${requestBody.model}" not accessible. Falling back to "groq/compound-mini"…`
+        );
+        requestBody.model = 'groq/compound-mini';
+        continue;
+      }
+
       // Check for rate limit (retryable)
       if (isRetryableError(err) && attempt < maxRetries) {
         const delayMs = 1500 * Math.pow(2, attempt); // 1.5s, 3s, 6s …

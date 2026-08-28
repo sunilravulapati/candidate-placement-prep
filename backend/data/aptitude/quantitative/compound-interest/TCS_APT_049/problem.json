@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_049",
+  "slug": "tcs-apt-049",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "compound-interest",
+  "topicName": "Compound Interest",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Compound interest on Rs.1000 at 10% p.a. for 2 years (compounded annually) is:",
+  "description": "Compound interest on Rs.1000 at 10% p.a. for 2 years (compounded annually) is:",
+  "question": "Compound interest on Rs.1000 at 10% p.a. for 2 years (compounded annually) is:",
+  "options": [
+    "Rs.210",
+    "Rs.200",
+    "Rs.250",
+    "Rs.220"
+  ],
+  "optionsMap": {
+    "A": "Rs.210",
+    "B": "Rs.200",
+    "C": "Rs.250",
+    "D": "Rs.220"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.210",
+  "tags": [
+    "quantitative",
+    "compound-interest"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

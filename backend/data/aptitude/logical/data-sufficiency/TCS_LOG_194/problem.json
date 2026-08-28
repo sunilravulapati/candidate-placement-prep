@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_194",
+  "slug": "tcs-log-194",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "data-sufficiency",
+  "topicName": "Data Sufficiency",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What is the average age of A, B, C? (I) Average of A and B is 25. (II) C's ag...",
+  "description": "What is the average age of A, B, C? (I) Average of A and B is 25. (II) C's age is 28.",
+  "question": "What is the average age of A, B, C? (I) Average of A and B is 25. (II) C's age is 28.",
+  "options": [
+    "Both together are sufficient",
+    "Statement I alone",
+    "Statement II alone",
+    "Neither alone nor together"
+  ],
+  "optionsMap": {
+    "A": "Both together are sufficient",
+    "B": "Statement I alone",
+    "C": "Statement II alone",
+    "D": "Neither alone nor together"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Both together are sufficient",
+  "tags": [
+    "logical",
+    "data-sufficiency"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

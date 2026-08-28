@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_254",
+  "slug": "tcs-ver-254",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "sentence-improvement",
+  "topicName": "Sentence Improvement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Improve the underlined part of the sentence: 'He told me the place where did ...",
+  "description": "Improve the underlined part of the sentence: 'He told me the place where did he stay.'",
+  "question": "Improve the underlined part of the sentence: 'He told me the place where did he stay.'",
+  "options": [
+    "where he stayed",
+    "where he was stay",
+    "where was he staying",
+    "No improvement"
+  ],
+  "optionsMap": {
+    "A": "where he stayed",
+    "B": "where he was stay",
+    "C": "where was he staying",
+    "D": "No improvement"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "where he stayed",
+  "tags": [
+    "verbal",
+    "sentence-improvement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

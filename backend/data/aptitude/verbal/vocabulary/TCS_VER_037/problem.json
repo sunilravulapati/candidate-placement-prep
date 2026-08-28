@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_037",
+  "slug": "tcs-ver-037",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: KINDLE",
+  "description": "Choose the word most similar in meaning to: KINDLE",
+  "question": "Choose the word most similar in meaning to: KINDLE",
+  "options": [
+    "Ignite",
+    "Extinguish",
+    "Dampen",
+    "Quench"
+  ],
+  "optionsMap": {
+    "A": "Ignite",
+    "B": "Extinguish",
+    "C": "Dampen",
+    "D": "Quench"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Ignite",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

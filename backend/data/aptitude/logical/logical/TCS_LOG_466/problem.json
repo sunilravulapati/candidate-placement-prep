@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_466",
+  "slug": "tcs-log-466",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Venn: Set A={1,2,3,4}, B={3,4,5,6}. A∩B?",
+  "description": "Venn: Set A={1,2,3,4}, B={3,4,5,6}. A∩B?",
+  "question": "Venn: Set A={1,2,3,4}, B={3,4,5,6}. A∩B?",
+  "options": [
+    "{3,4}",
+    "{1,2,5,6}",
+    "{1,2,3,4,5,6}",
+    "{}"
+  ],
+  "optionsMap": {
+    "A": "{3,4}",
+    "B": "{1,2,5,6}",
+    "C": "{1,2,3,4,5,6}",
+    "D": "{}"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "{3,4}",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_230",
+  "slug": "tcs-ver-230",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "What does 'pull someone's leg' mean?",
+  "description": "What does 'pull someone's leg' mean?",
+  "question": "What does 'pull someone's leg' mean?",
+  "options": [
+    "Joke with someone",
+    "Physically pull",
+    "Cause pain",
+    "Test someone's strength"
+  ],
+  "optionsMap": {
+    "A": "Joke with someone",
+    "B": "Physically pull",
+    "C": "Cause pain",
+    "D": "Test someone's strength"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Joke with someone",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

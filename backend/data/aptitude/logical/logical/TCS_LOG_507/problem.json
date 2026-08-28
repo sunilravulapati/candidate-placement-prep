@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_507",
+  "slug": "tcs-log-507",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Seating: P Q R S T in circle (equal spaces). P opposite Q. R is right of Q. S...",
+  "description": "Seating: P Q R S T in circle (equal spaces). P opposite Q. R is right of Q. S is right of P. T is?",
+  "question": "Seating: P Q R S T in circle (equal spaces). P opposite Q. R is right of Q. S is right of P. T is?",
+  "options": [
+    "Between Q and R",
+    "Between S and R",
+    "Between P and S",
+    "Opposite T"
+  ],
+  "optionsMap": {
+    "A": "Between Q and R",
+    "B": "Between S and R",
+    "C": "Between P and S",
+    "D": "Opposite T"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Between Q and R",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

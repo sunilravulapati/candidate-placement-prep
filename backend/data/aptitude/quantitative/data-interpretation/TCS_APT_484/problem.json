@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_484",
+  "slug": "tcs-apt-484",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "data-interpretation",
+  "topicName": "Data Interpretation",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "If total expenses in a pie chart are Rs.12000 and food sector is 30%, food ex...",
+  "description": "If total expenses in a pie chart are Rs.12000 and food sector is 30%, food expense is:",
+  "question": "If total expenses in a pie chart are Rs.12000 and food sector is 30%, food expense is:",
+  "options": [
+    "Rs.3600",
+    "Rs.4000",
+    "Rs.3000",
+    "Rs.2400"
+  ],
+  "optionsMap": {
+    "A": "Rs.3600",
+    "B": "Rs.4000",
+    "C": "Rs.3000",
+    "D": "Rs.2400"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.3600",
+  "tags": [
+    "quantitative",
+    "data-interpretation"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

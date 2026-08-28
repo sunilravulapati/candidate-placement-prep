@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_352",
+  "slug": "tcs-apt-352",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A man walks 3 km east, then 4 km north. Distance from start?",
+  "description": "A man walks 3 km east, then 4 km north. Distance from start?",
+  "question": "A man walks 3 km east, then 4 km north. Distance from start?",
+  "options": [
+    "5 km",
+    "7 km",
+    "6 km",
+    "8 km"
+  ],
+  "optionsMap": {
+    "A": "5 km",
+    "B": "7 km",
+    "C": "6 km",
+    "D": "8 km"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "5 km",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

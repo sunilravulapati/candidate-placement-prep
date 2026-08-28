@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_195",
+  "slug": "tcs-log-195",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "data-sufficiency",
+  "topicName": "Data Sufficiency",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Is n divisible by 6? (I) n is divisible by 2. (II) n is divisible by 3.",
+  "description": "Is n divisible by 6? (I) n is divisible by 2. (II) n is divisible by 3.",
+  "question": "Is n divisible by 6? (I) n is divisible by 2. (II) n is divisible by 3.",
+  "options": [
+    "Both together are sufficient",
+    "Statement I alone",
+    "Statement II alone",
+    "Neither"
+  ],
+  "optionsMap": {
+    "A": "Both together are sufficient",
+    "B": "Statement I alone",
+    "C": "Statement II alone",
+    "D": "Neither"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Both together are sufficient",
+  "tags": [
+    "logical",
+    "data-sufficiency"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

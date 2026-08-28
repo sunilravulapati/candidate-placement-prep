@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_332",
+  "slug": "tcs-log-332",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Logical sequence: Which comes next: 1, 2, 4, 8, 16, __?",
+  "description": "Logical sequence: Which comes next: 1, 2, 4, 8, 16, __?",
+  "question": "Logical sequence: Which comes next: 1, 2, 4, 8, 16, __?",
+  "options": [
+    "32",
+    "24",
+    "28",
+    "30"
+  ],
+  "optionsMap": {
+    "A": "32",
+    "B": "24",
+    "C": "28",
+    "D": "30"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "32",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

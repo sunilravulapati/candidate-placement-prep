@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_217",
+  "slug": "tcs-log-217",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "input-output",
+  "topicName": "Input-Output",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "In a code: A→D, B→E, C→F,... (shift +3). Decode 'GRR':",
+  "description": "In a code: A→D, B→E, C→F,... (shift +3). Decode 'GRR':",
+  "question": "In a code: A→D, B→E, C→F,... (shift +3). Decode 'GRR':",
+  "options": [
+    "DOO",
+    "DOP",
+    "DNA",
+    "EPP"
+  ],
+  "optionsMap": {
+    "A": "DOO",
+    "B": "DOP",
+    "C": "DNA",
+    "D": "EPP"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "DOO",
+  "tags": [
+    "logical",
+    "input-output"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

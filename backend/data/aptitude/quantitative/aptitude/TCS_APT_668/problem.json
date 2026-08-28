@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_668",
+  "slug": "tcs-apt-668",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Ages: A is 39 times B. Sum=104. B's age?",
+  "description": "Ages: A is 39 times B. Sum=104. B's age?",
+  "question": "Ages: A is 39 times B. Sum=104. B's age?",
+  "options": [
+    "3",
+    "10",
+    "8",
+    "12"
+  ],
+  "optionsMap": {
+    "A": "3",
+    "B": "10",
+    "C": "8",
+    "D": "12"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "3",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

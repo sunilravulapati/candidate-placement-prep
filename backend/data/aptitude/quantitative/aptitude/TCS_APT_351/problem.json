@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_351",
+  "slug": "tcs-apt-351",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A 12m ladder leans against wall, foot 5m from wall. How high up wall?",
+  "description": "A 12m ladder leans against wall, foot 5m from wall. How high up wall?",
+  "question": "A 12m ladder leans against wall, foot 5m from wall. How high up wall?",
+  "options": [
+    "about 10.9m",
+    "11m",
+    "10m",
+    "12m"
+  ],
+  "optionsMap": {
+    "A": "about 10.9m",
+    "B": "11m",
+    "C": "10m",
+    "D": "12m"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "about 10.9m",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

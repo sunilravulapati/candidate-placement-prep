@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_664",
+  "slug": "tcs-ver-664",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of AMALGAMATE",
+  "description": "Choose the antonym of AMALGAMATE",
+  "question": "Choose the antonym of AMALGAMATE",
+  "options": [
+    "Separate",
+    "Combine",
+    "Mix",
+    "Merge"
+  ],
+  "optionsMap": {
+    "A": "Separate",
+    "B": "Combine",
+    "C": "Mix",
+    "D": "Merge"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Separate",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

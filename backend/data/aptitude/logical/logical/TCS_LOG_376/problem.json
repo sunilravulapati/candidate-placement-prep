@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_376",
+  "slug": "tcs-log-376",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Matrix reasoning: Row1:2,4,8; Row2:3,9,27; Row3:4,16,__?",
+  "description": "Matrix reasoning: Row1:2,4,8; Row2:3,9,27; Row3:4,16,__?",
+  "question": "Matrix reasoning: Row1:2,4,8; Row2:3,9,27; Row3:4,16,__?",
+  "options": [
+    "64",
+    "32",
+    "48",
+    "128"
+  ],
+  "optionsMap": {
+    "A": "64",
+    "B": "32",
+    "C": "48",
+    "D": "128"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "64",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

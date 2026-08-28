@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_072",
+  "slug": "tcs-apt-072",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "speed-and-distance",
+  "topicName": "Speed and Distance",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A cyclist completes a tour of 600 km in 8 days. If he cycles 10 hours a day, ...",
+  "description": "A cyclist completes a tour of 600 km in 8 days. If he cycles 10 hours a day, what is his average speed?",
+  "question": "A cyclist completes a tour of 600 km in 8 days. If he cycles 10 hours a day, what is his average speed?",
+  "options": [
+    "7.5 km/h",
+    "6 km/h",
+    "8 km/h",
+    "10 km/h"
+  ],
+  "optionsMap": {
+    "A": "7.5 km/h",
+    "B": "6 km/h",
+    "C": "8 km/h",
+    "D": "10 km/h"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "7.5 km/h",
+  "tags": [
+    "quantitative",
+    "speed-and-distance"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

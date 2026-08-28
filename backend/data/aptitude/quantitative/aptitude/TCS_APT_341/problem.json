@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_341",
+  "slug": "tcs-apt-341",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The number 0.0025 in fraction form is?",
+  "description": "The number 0.0025 in fraction form is?",
+  "question": "The number 0.0025 in fraction form is?",
+  "options": [
+    "1/400",
+    "1/40",
+    "1/4000",
+    "1/25"
+  ],
+  "optionsMap": {
+    "A": "1/400",
+    "B": "1/40",
+    "C": "1/4000",
+    "D": "1/25"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1/400",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

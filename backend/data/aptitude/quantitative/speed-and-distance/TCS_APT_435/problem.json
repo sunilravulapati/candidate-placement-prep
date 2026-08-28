@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_435",
+  "slug": "tcs-apt-435",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "speed-and-distance",
+  "topicName": "Speed and Distance",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Two cities A and B are 300 km apart. A train from A travels at 70 km/h and an...",
+  "description": "Two cities A and B are 300 km apart. A train from A travels at 70 km/h and another from B at 80 km/h toward each other. They meet after:",
+  "question": "Two cities A and B are 300 km apart. A train from A travels at 70 km/h and another from B at 80 km/h toward each other. They meet after:",
+  "options": [
+    "2 hrs",
+    "2.5 hrs",
+    "3 hrs",
+    "1.5 hrs"
+  ],
+  "optionsMap": {
+    "A": "2 hrs",
+    "B": "2.5 hrs",
+    "C": "3 hrs",
+    "D": "1.5 hrs"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "2 hrs",
+  "tags": [
+    "quantitative",
+    "speed-and-distance"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

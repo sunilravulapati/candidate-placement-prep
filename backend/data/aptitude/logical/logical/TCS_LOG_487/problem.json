@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_487",
+  "slug": "tcs-log-487",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Age problem: Difference 4 years. In 5 years, older is twice younger. Ages?",
+  "description": "Age problem: Difference 4 years. In 5 years, older is twice younger. Ages?",
+  "question": "Age problem: Difference 4 years. In 5 years, older is twice younger. Ages?",
+  "options": [
+    "3 and 7",
+    "4 and 8",
+    "2 and 6",
+    "5 and 9"
+  ],
+  "optionsMap": {
+    "A": "3 and 7",
+    "B": "4 and 8",
+    "C": "2 and 6",
+    "D": "5 and 9"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "3 and 7",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

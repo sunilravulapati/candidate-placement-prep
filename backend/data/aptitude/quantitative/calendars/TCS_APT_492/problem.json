@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_492",
+  "slug": "tcs-apt-492",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "calendars",
+  "topicName": "Calendars",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Which year between 1990 and 2000 had the same calendar as 1990?",
+  "description": "Which year between 1990 and 2000 had the same calendar as 1990?",
+  "question": "Which year between 1990 and 2000 had the same calendar as 1990?",
+  "options": [
+    "1996",
+    "1995",
+    "1997",
+    "1998"
+  ],
+  "optionsMap": {
+    "A": "1996",
+    "B": "1995",
+    "C": "1997",
+    "D": "1998"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1996",
+  "tags": [
+    "quantitative",
+    "calendars"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

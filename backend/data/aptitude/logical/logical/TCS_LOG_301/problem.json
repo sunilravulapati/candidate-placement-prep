@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_301",
+  "slug": "tcs-log-301",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Venn diagram: 40 engineers, 30 doctors, 10 both. Only engineers?",
+  "description": "Venn diagram: 40 engineers, 30 doctors, 10 both. Only engineers?",
+  "question": "Venn diagram: 40 engineers, 30 doctors, 10 both. Only engineers?",
+  "options": [
+    "30",
+    "40",
+    "20",
+    "10"
+  ],
+  "optionsMap": {
+    "A": "30",
+    "B": "40",
+    "C": "20",
+    "D": "10"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "30",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

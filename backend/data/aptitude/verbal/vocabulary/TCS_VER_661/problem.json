@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_661",
+  "slug": "tcs-ver-661",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of ADULATION",
+  "description": "Choose the antonym of ADULATION",
+  "question": "Choose the antonym of ADULATION",
+  "options": [
+    "Contempt",
+    "Praise",
+    "Flattery",
+    "Admiration"
+  ],
+  "optionsMap": {
+    "A": "Contempt",
+    "B": "Praise",
+    "C": "Flattery",
+    "D": "Admiration"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Contempt",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

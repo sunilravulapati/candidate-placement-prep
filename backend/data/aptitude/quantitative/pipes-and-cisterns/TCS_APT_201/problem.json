@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_201",
+  "slug": "tcs-apt-201",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "pipes-and-cisterns",
+  "topicName": "Pipes and Cisterns",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "3 pipes can fill a tank in 3, 4, and 6 hours. Opened together, tank fills in:",
+  "description": "3 pipes can fill a tank in 3, 4, and 6 hours. Opened together, tank fills in:",
+  "question": "3 pipes can fill a tank in 3, 4, and 6 hours. Opened together, tank fills in:",
+  "options": [
+    "4/3 hours",
+    "2 hours",
+    "1.5 hours",
+    "3 hours"
+  ],
+  "optionsMap": {
+    "A": "4/3 hours",
+    "B": "2 hours",
+    "C": "1.5 hours",
+    "D": "3 hours"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "4/3 hours",
+  "tags": [
+    "quantitative",
+    "pipes-and-cisterns"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

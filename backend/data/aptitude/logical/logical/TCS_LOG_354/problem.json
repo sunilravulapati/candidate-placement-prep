@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_354",
+  "slug": "tcs-log-354",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number series: 2, 6, 18, 54, 162, ?",
+  "description": "Number series: 2, 6, 18, 54, 162, ?",
+  "question": "Number series: 2, 6, 18, 54, 162, ?",
+  "options": [
+    "486",
+    "324",
+    "648",
+    "243"
+  ],
+  "optionsMap": {
+    "A": "486",
+    "B": "324",
+    "C": "648",
+    "D": "243"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "486",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_323",
+  "slug": "tcs-log-323",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number series: 0, 1, 3, 6, 10, 15, ?",
+  "description": "Number series: 0, 1, 3, 6, 10, 15, ?",
+  "question": "Number series: 0, 1, 3, 6, 10, 15, ?",
+  "options": [
+    "21",
+    "20",
+    "22",
+    "18"
+  ],
+  "optionsMap": {
+    "A": "21",
+    "B": "20",
+    "C": "22",
+    "D": "18"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "21",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

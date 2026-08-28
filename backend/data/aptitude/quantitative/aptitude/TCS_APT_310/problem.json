@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_310",
+  "slug": "tcs-apt-310",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Average speed for trip: 120 km at 60 km/h then 120 km at 40 km/h.",
+  "description": "Average speed for trip: 120 km at 60 km/h then 120 km at 40 km/h.",
+  "question": "Average speed for trip: 120 km at 60 km/h then 120 km at 40 km/h.",
+  "options": [
+    "48 km/h",
+    "50 km/h",
+    "45 km/h",
+    "55 km/h"
+  ],
+  "optionsMap": {
+    "A": "48 km/h",
+    "B": "50 km/h",
+    "C": "45 km/h",
+    "D": "55 km/h"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "48 km/h",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

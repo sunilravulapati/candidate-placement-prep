@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_569",
+  "slug": "tcs-apt-569",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Speed upstream 6 km/h, downstream 10 km/h. Still water speed?",
+  "description": "Speed upstream 6 km/h, downstream 10 km/h. Still water speed?",
+  "question": "Speed upstream 6 km/h, downstream 10 km/h. Still water speed?",
+  "options": [
+    "8",
+    "7",
+    "9",
+    "6"
+  ],
+  "optionsMap": {
+    "A": "8",
+    "B": "7",
+    "C": "9",
+    "D": "6"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "8",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

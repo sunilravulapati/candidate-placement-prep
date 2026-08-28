@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_287",
+  "slug": "tcs-apt-287",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A shopkeeper uses a 900g weight for 1kg. His profit%?",
+  "description": "A shopkeeper uses a 900g weight for 1kg. His profit%?",
+  "question": "A shopkeeper uses a 900g weight for 1kg. His profit%?",
+  "options": [
+    "About 11.1%",
+    "10%",
+    "9%",
+    "12.5%"
+  ],
+  "optionsMap": {
+    "A": "About 11.1%",
+    "B": "10%",
+    "C": "9%",
+    "D": "12.5%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "About 11.1%",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

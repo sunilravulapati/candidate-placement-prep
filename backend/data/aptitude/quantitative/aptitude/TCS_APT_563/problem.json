@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_563",
+  "slug": "tcs-apt-563",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Side of square with area 196?",
+  "description": "Side of square with area 196?",
+  "question": "Side of square with area 196?",
+  "options": [
+    "14",
+    "13",
+    "15",
+    "12"
+  ],
+  "optionsMap": {
+    "A": "14",
+    "B": "13",
+    "C": "15",
+    "D": "12"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "14",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

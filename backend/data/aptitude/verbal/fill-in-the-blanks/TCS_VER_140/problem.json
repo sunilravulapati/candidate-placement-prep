@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_140",
+  "slug": "tcs-ver-140",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The economy was in _____ condition after years of poor management.",
+  "description": "The economy was in _____ condition after years of poor management.",
+  "question": "The economy was in _____ condition after years of poor management.",
+  "options": [
+    "dire",
+    "excellent",
+    "good",
+    "fine"
+  ],
+  "optionsMap": {
+    "A": "dire",
+    "B": "excellent",
+    "C": "good",
+    "D": "fine"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "dire",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

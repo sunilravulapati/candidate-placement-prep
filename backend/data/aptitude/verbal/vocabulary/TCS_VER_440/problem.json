@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_440",
+  "slug": "tcs-ver-440",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "One word substitution: A person who designs buildings",
+  "description": "One word substitution: A person who designs buildings",
+  "question": "One word substitution: A person who designs buildings",
+  "options": [
+    "Architect",
+    "Engineer",
+    "Surveyor",
+    "Planner"
+  ],
+  "optionsMap": {
+    "A": "Architect",
+    "B": "Engineer",
+    "C": "Surveyor",
+    "D": "Planner"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Architect",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

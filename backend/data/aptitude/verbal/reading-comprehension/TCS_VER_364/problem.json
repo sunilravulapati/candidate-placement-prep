@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_364",
+  "slug": "tcs-ver-364",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, enc...",
+  "description": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: Which of the following is NOT mentioned as a human activity threatening biodiversity?",
+  "question": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: Which of the following is NOT mentioned as a human activity threatening biodiversity?",
+  "options": [
+    "Agriculture",
+    "Deforestation",
+    "Pollution",
+    "Overexploitation"
+  ],
+  "optionsMap": {
+    "A": "Agriculture",
+    "B": "Deforestation",
+    "C": "Pollution",
+    "D": "Overexploitation"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Agriculture",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

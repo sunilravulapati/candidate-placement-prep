@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_266",
+  "slug": "tcs-log-266",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Coding: In code APPLE=BQQMF. How is MANGO coded?",
+  "description": "Coding: In code APPLE=BQQMF. How is MANGO coded?",
+  "question": "Coding: In code APPLE=BQQMF. How is MANGO coded?",
+  "options": [
+    "NBOHO",
+    "MANGO",
+    "NAMGO",
+    "NANGO"
+  ],
+  "optionsMap": {
+    "A": "NBOHO",
+    "B": "MANGO",
+    "C": "NAMGO",
+    "D": "NANGO"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "NBOHO",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

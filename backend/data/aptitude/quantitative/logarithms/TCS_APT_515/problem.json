@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_515",
+  "slug": "tcs-apt-515",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "logarithms",
+  "topicName": "Logarithms",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "If log(2) = 0.301 and log(3) = 0.477, find log(12).",
+  "description": "If log(2) = 0.301 and log(3) = 0.477, find log(12).",
+  "question": "If log(2) = 0.301 and log(3) = 0.477, find log(12).",
+  "options": [
+    "1.079",
+    "1.1",
+    "1.05",
+    "1.2"
+  ],
+  "optionsMap": {
+    "A": "1.079",
+    "B": "1.1",
+    "C": "1.05",
+    "D": "1.2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1.079",
+  "tags": [
+    "quantitative",
+    "logarithms"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

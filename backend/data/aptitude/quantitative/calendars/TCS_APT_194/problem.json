@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_194",
+  "slug": "tcs-apt-194",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "calendars",
+  "topicName": "Calendars",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "How many odd days are there in 100 years?",
+  "description": "How many odd days are there in 100 years?",
+  "question": "How many odd days are there in 100 years?",
+  "options": [
+    "5",
+    "1",
+    "3",
+    "7"
+  ],
+  "optionsMap": {
+    "A": "5",
+    "B": "1",
+    "C": "3",
+    "D": "7"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "5",
+  "tags": [
+    "quantitative",
+    "calendars"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

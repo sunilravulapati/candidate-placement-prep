@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_120",
+  "slug": "tcs-log-120",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "analogies",
+  "topicName": "Analogies",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Telescope : Distant :: Microscope : ?",
+  "description": "Telescope : Distant :: Microscope : ?",
+  "question": "Telescope : Distant :: Microscope : ?",
+  "options": [
+    "Tiny",
+    "Huge",
+    "Bright",
+    "Moving"
+  ],
+  "optionsMap": {
+    "A": "Tiny",
+    "B": "Huge",
+    "C": "Bright",
+    "D": "Moving"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Tiny",
+  "tags": [
+    "logical",
+    "analogies"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

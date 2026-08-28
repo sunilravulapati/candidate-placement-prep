@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_065",
+  "slug": "tcs-apt-065",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "speed-and-distance",
+  "topicName": "Speed and Distance",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A man covers 4/5 of his journey at 40 km/h and the rest at 60 km/h. What is h...",
+  "description": "A man covers 4/5 of his journey at 40 km/h and the rest at 60 km/h. What is his average speed?",
+  "question": "A man covers 4/5 of his journey at 40 km/h and the rest at 60 km/h. What is his average speed?",
+  "options": [
+    "43.6 km/h",
+    "45 km/h",
+    "42 km/h",
+    "50 km/h"
+  ],
+  "optionsMap": {
+    "A": "43.6 km/h",
+    "B": "45 km/h",
+    "C": "42 km/h",
+    "D": "50 km/h"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "43.6 km/h",
+  "tags": [
+    "quantitative",
+    "speed-and-distance"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

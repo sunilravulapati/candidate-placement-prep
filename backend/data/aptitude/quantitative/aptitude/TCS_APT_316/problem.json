@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_316",
+  "slug": "tcs-apt-316",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Sum of squares of first 10 natural numbers.",
+  "description": "Sum of squares of first 10 natural numbers.",
+  "question": "Sum of squares of first 10 natural numbers.",
+  "options": [
+    "385",
+    "380",
+    "390",
+    "400"
+  ],
+  "optionsMap": {
+    "A": "385",
+    "B": "380",
+    "C": "390",
+    "D": "400"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "385",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

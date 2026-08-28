@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_418",
+  "slug": "tcs-ver-418",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Choose the synonym of: OBSEQUIOUS",
+  "description": "Choose the synonym of: OBSEQUIOUS",
+  "question": "Choose the synonym of: OBSEQUIOUS",
+  "options": [
+    "Overly submissive",
+    "Rebellious",
+    "Confident",
+    "Independent"
+  ],
+  "optionsMap": {
+    "A": "Overly submissive",
+    "B": "Rebellious",
+    "C": "Confident",
+    "D": "Independent"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Overly submissive",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

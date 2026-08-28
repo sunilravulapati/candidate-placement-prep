@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_507",
+  "slug": "tcs-ver-507",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What is the antonym of 'jovial'?",
+  "description": "What is the antonym of 'jovial'?",
+  "question": "What is the antonym of 'jovial'?",
+  "options": [
+    "Melancholy",
+    "Happy",
+    "Cheerful",
+    "Playful"
+  ],
+  "optionsMap": {
+    "A": "Melancholy",
+    "B": "Happy",
+    "C": "Cheerful",
+    "D": "Playful"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Melancholy",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

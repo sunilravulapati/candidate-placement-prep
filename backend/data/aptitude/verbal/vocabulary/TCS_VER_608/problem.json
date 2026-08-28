@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_608",
+  "slug": "tcs-ver-608",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: UNGRATEFUL",
+  "description": "Choose the word most similar in meaning to: UNGRATEFUL",
+  "question": "Choose the word most similar in meaning to: UNGRATEFUL",
+  "options": [
+    "Thankless",
+    "Appreciative",
+    "Grateful",
+    "Thankful"
+  ],
+  "optionsMap": {
+    "A": "Thankless",
+    "B": "Appreciative",
+    "C": "Grateful",
+    "D": "Thankful"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Thankless",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

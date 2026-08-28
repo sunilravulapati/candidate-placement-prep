@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_395",
+  "slug": "tcs-log-395",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Logical: All roses are flowers. Some flowers fade quickly. Therefore?",
+  "description": "Logical: All roses are flowers. Some flowers fade quickly. Therefore?",
+  "question": "Logical: All roses are flowers. Some flowers fade quickly. Therefore?",
+  "options": [
+    "Some roses may fade quickly",
+    "All roses fade",
+    "No rose fades",
+    "Cannot say"
+  ],
+  "optionsMap": {
+    "A": "Some roses may fade quickly",
+    "B": "All roses fade",
+    "C": "No rose fades",
+    "D": "Cannot say"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Some roses may fade quickly",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

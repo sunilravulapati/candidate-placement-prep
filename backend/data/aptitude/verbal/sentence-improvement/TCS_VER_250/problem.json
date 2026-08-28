@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_250",
+  "slug": "tcs-ver-250",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "sentence-improvement",
+  "topicName": "Sentence Improvement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Improve the underlined part of the sentence: 'He is too tired to not walk ano...",
+  "description": "Improve the underlined part of the sentence: 'He is too tired to not walk another mile.'",
+  "question": "Improve the underlined part of the sentence: 'He is too tired to not walk another mile.'",
+  "options": [
+    "too tired to walk",
+    "very tired to not walk",
+    "too tired for walking",
+    "No improvement"
+  ],
+  "optionsMap": {
+    "A": "too tired to walk",
+    "B": "very tired to not walk",
+    "C": "too tired for walking",
+    "D": "No improvement"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "too tired to walk",
+  "tags": [
+    "verbal",
+    "sentence-improvement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

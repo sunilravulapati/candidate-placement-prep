@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_502",
+  "slug": "tcs-apt-502",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "probability",
+  "topicName": "Probability",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A bag has 5 red and 3 green balls. 2 drawn without replacement. P(one each)?",
+  "description": "A bag has 5 red and 3 green balls. 2 drawn without replacement. P(one each)?",
+  "question": "A bag has 5 red and 3 green balls. 2 drawn without replacement. P(one each)?",
+  "options": [
+    "15/28",
+    "15/32",
+    "6/28",
+    "12/28"
+  ],
+  "optionsMap": {
+    "A": "15/28",
+    "B": "15/32",
+    "C": "6/28",
+    "D": "12/28"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "15/28",
+  "tags": [
+    "quantitative",
+    "probability"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

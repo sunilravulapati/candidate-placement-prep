@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_487",
+  "slug": "tcs-apt-487",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "data-interpretation",
+  "topicName": "Data Interpretation",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "From a table: Company A revenue grew from 200 to 350 Cr. Growth rate?",
+  "description": "From a table: Company A revenue grew from 200 to 350 Cr. Growth rate?",
+  "question": "From a table: Company A revenue grew from 200 to 350 Cr. Growth rate?",
+  "options": [
+    "75%",
+    "70%",
+    "65%",
+    "80%"
+  ],
+  "optionsMap": {
+    "A": "75%",
+    "B": "70%",
+    "C": "65%",
+    "D": "80%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "75%",
+  "tags": [
+    "quantitative",
+    "data-interpretation"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

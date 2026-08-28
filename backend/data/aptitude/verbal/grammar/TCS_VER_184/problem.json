@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_184",
+  "slug": "tcs-ver-184",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Which sentence contains a dangling modifier?",
+  "description": "Which sentence contains a dangling modifier?",
+  "question": "Which sentence contains a dangling modifier?",
+  "options": [
+    "Walking to school, the rain started.",
+    "While walking to school, I got wet in the rain.",
+    "Walking to school, she got wet in the rain.",
+    "She was walking to school when it rained."
+  ],
+  "optionsMap": {
+    "A": "Walking to school, the rain started.",
+    "B": "While walking to school, I got wet in the rain.",
+    "C": "Walking to school, she got wet in the rain.",
+    "D": "She was walking to school when it rained."
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Walking to school, the rain started.",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_022",
+  "slug": "tcs-apt-022",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "profit-and-loss",
+  "topicName": "Profit and Loss",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "A shopkeeper sells an article for Rs.720 at a loss of 10%. What is the cost p...",
+  "description": "A shopkeeper sells an article for Rs.720 at a loss of 10%. What is the cost price?",
+  "question": "A shopkeeper sells an article for Rs.720 at a loss of 10%. What is the cost price?",
+  "options": [
+    "Rs.800",
+    "Rs.900",
+    "Rs.700",
+    "Rs.750"
+  ],
+  "optionsMap": {
+    "A": "Rs.800",
+    "B": "Rs.900",
+    "C": "Rs.700",
+    "D": "Rs.750"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.800",
+  "tags": [
+    "quantitative",
+    "profit-and-loss"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

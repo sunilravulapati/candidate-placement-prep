@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_134",
+  "slug": "tcs-log-134",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "classification",
+  "topicName": "Classification",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Find the odd one: BFKO, CGJN, DHLO, EIMQ",
+  "description": "Find the odd one: BFKO, CGJN, DHLO, EIMQ",
+  "question": "Find the odd one: BFKO, CGJN, DHLO, EIMQ",
+  "options": [
+    "DHLO",
+    "BFKO",
+    "CGJN",
+    "EIMQ"
+  ],
+  "optionsMap": {
+    "A": "DHLO",
+    "B": "BFKO",
+    "C": "CGJN",
+    "D": "EIMQ"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "DHLO",
+  "tags": [
+    "logical",
+    "classification"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

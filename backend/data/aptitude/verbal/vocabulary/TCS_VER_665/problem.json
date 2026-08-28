@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_665",
+  "slug": "tcs-ver-665",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of AMBIGUOUS",
+  "description": "Choose the antonym of AMBIGUOUS",
+  "question": "Choose the antonym of AMBIGUOUS",
+  "options": [
+    "Clear",
+    "Vague",
+    "Unclear",
+    "Doubtful"
+  ],
+  "optionsMap": {
+    "A": "Clear",
+    "B": "Vague",
+    "C": "Unclear",
+    "D": "Doubtful"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Clear",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

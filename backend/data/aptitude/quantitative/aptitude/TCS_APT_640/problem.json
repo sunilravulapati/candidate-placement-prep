@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_640",
+  "slug": "tcs-apt-640",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "1000 increased by 14%. New value?",
+  "description": "1000 increased by 14%. New value?",
+  "question": "1000 increased by 14%. New value?",
+  "options": [
+    "1140",
+    "1050",
+    "150",
+    "200"
+  ],
+  "optionsMap": {
+    "A": "1140",
+    "B": "1050",
+    "C": "150",
+    "D": "200"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1140",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

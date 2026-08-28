@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_633",
+  "slug": "tcs-ver-633",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of ZEALOUS",
+  "description": "Choose the antonym of ZEALOUS",
+  "question": "Choose the antonym of ZEALOUS",
+  "options": [
+    "Indifferent",
+    "Enthusiastic",
+    "Passionate",
+    "Eager"
+  ],
+  "optionsMap": {
+    "A": "Indifferent",
+    "B": "Enthusiastic",
+    "C": "Passionate",
+    "D": "Eager"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Indifferent",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

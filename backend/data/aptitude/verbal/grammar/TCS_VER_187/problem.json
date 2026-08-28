@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_187",
+  "slug": "tcs-ver-187",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Identify the sentence with correct parallel structure:",
+  "description": "Identify the sentence with correct parallel structure:",
+  "question": "Identify the sentence with correct parallel structure:",
+  "options": [
+    "She likes reading, to swim, and jogging.",
+    "She likes reading, swimming, and jogging.",
+    "She likes to read, swim, and jogging.",
+    "She likes to read, swimming, and to jog."
+  ],
+  "optionsMap": {
+    "A": "She likes reading, to swim, and jogging.",
+    "B": "She likes reading, swimming, and jogging.",
+    "C": "She likes to read, swim, and jogging.",
+    "D": "She likes to read, swimming, and to jog."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "She likes reading, swimming, and jogging.",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

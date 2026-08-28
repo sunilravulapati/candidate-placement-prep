@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_411",
+  "slug": "tcs-log-411",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Statement conclusion: Some A are B. All B are C. Some C are D. Therefore: Som...",
+  "description": "Statement conclusion: Some A are B. All B are C. Some C are D. Therefore: Some A are C - True?",
+  "question": "Statement conclusion: Some A are B. All B are C. Some C are D. Therefore: Some A are C - True?",
+  "options": [
+    "True",
+    "False",
+    "Cannot say",
+    "Partially true"
+  ],
+  "optionsMap": {
+    "A": "True",
+    "B": "False",
+    "C": "Cannot say",
+    "D": "Partially true"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "True",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_081",
+  "slug": "tcs-ver-081",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most OPPOSITE in meaning to: EXUBERANT",
+  "description": "Choose the word most OPPOSITE in meaning to: EXUBERANT",
+  "question": "Choose the word most OPPOSITE in meaning to: EXUBERANT",
+  "options": [
+    "Subdued",
+    "Lively",
+    "Vibrant",
+    "Joyful"
+  ],
+  "optionsMap": {
+    "A": "Subdued",
+    "B": "Lively",
+    "C": "Vibrant",
+    "D": "Joyful"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Subdued",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

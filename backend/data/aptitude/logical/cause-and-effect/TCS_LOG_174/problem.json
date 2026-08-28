@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_174",
+  "slug": "tcs-log-174",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "cause-and-effect",
+  "topicName": "Cause and Effect",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Statement I: Rampant plastic use is polluting oceans. Statement II: Marine wi...",
+  "description": "Statement I: Rampant plastic use is polluting oceans. Statement II: Marine wildlife populations are declining globally. Relation:",
+  "question": "Statement I: Rampant plastic use is polluting oceans. Statement II: Marine wildlife populations are declining globally. Relation:",
+  "options": [
+    "I is cause, II is effect",
+    "II is cause, I is effect",
+    "Both are independent events",
+    "Both are effects of a third factor"
+  ],
+  "optionsMap": {
+    "A": "I is cause, II is effect",
+    "B": "II is cause, I is effect",
+    "C": "Both are independent events",
+    "D": "Both are effects of a third factor"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "I is cause, II is effect",
+  "tags": [
+    "logical",
+    "cause-and-effect"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

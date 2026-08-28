@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_397",
+  "slug": "tcs-log-397",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Pattern: 1, 2, 4, 7, 11, 16, ?",
+  "description": "Pattern: 1, 2, 4, 7, 11, 16, ?",
+  "question": "Pattern: 1, 2, 4, 7, 11, 16, ?",
+  "options": [
+    "22",
+    "20",
+    "24",
+    "18"
+  ],
+  "optionsMap": {
+    "A": "22",
+    "B": "20",
+    "C": "24",
+    "D": "18"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "22",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_117",
+  "slug": "tcs-ver-117",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The thunderstorm was so _____ that it caused widespread flooding.",
+  "description": "The thunderstorm was so _____ that it caused widespread flooding.",
+  "question": "The thunderstorm was so _____ that it caused widespread flooding.",
+  "options": [
+    "severe",
+    "mild",
+    "light",
+    "gentle"
+  ],
+  "optionsMap": {
+    "A": "severe",
+    "B": "mild",
+    "C": "light",
+    "D": "gentle"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "severe",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_106",
+  "slug": "tcs-apt-106",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "averages",
+  "topicName": "Averages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A batsman's average after 30 innings is 25. After the 31st innings, average b...",
+  "description": "A batsman's average after 30 innings is 25. After the 31st innings, average becomes 26. The 31st innings score is:",
+  "question": "A batsman's average after 30 innings is 25. After the 31st innings, average becomes 26. The 31st innings score is:",
+  "options": [
+    "56",
+    "55",
+    "60",
+    "50"
+  ],
+  "optionsMap": {
+    "A": "56",
+    "B": "55",
+    "C": "60",
+    "D": "50"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "56",
+  "tags": [
+    "quantitative",
+    "averages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_085",
+  "slug": "tcs-apt-085",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "time-and-work",
+  "topicName": "Time and Work",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A and B together can do a piece of work in 12 days. B alone takes 20 days. Ho...",
+  "description": "A and B together can do a piece of work in 12 days. B alone takes 20 days. How many days does A alone take?",
+  "question": "A and B together can do a piece of work in 12 days. B alone takes 20 days. How many days does A alone take?",
+  "options": [
+    "30 days",
+    "24 days",
+    "25 days",
+    "28 days"
+  ],
+  "optionsMap": {
+    "A": "30 days",
+    "B": "24 days",
+    "C": "25 days",
+    "D": "28 days"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "30 days",
+  "tags": [
+    "quantitative",
+    "time-and-work"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

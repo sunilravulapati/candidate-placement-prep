@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_249",
+  "slug": "tcs-apt-249",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "What is the square root of 1764?",
+  "description": "What is the square root of 1764?",
+  "question": "What is the square root of 1764?",
+  "options": [
+    "42",
+    "41",
+    "43",
+    "44"
+  ],
+  "optionsMap": {
+    "A": "42",
+    "B": "41",
+    "C": "43",
+    "D": "44"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "42",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

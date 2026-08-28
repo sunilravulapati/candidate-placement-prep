@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_198",
+  "slug": "tcs-log-198",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "data-sufficiency",
+  "topicName": "Data Sufficiency",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Is x an odd number? (I) x is divisible by 3. (II) x is not divisible by 2.",
+  "description": "Is x an odd number? (I) x is divisible by 3. (II) x is not divisible by 2.",
+  "question": "Is x an odd number? (I) x is divisible by 3. (II) x is not divisible by 2.",
+  "options": [
+    "Statement II alone is sufficient",
+    "Statement I alone is sufficient",
+    "Both are needed",
+    "Neither is sufficient"
+  ],
+  "optionsMap": {
+    "A": "Statement II alone is sufficient",
+    "B": "Statement I alone is sufficient",
+    "C": "Both are needed",
+    "D": "Neither is sufficient"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Statement II alone is sufficient",
+  "tags": [
+    "logical",
+    "data-sufficiency"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

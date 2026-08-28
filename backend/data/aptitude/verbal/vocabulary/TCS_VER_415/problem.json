@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_415",
+  "slug": "tcs-ver-415",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Choose the synonym of: PERSPICACIOUS",
+  "description": "Choose the synonym of: PERSPICACIOUS",
+  "question": "Choose the synonym of: PERSPICACIOUS",
+  "options": [
+    "Having a ready insight",
+    "Dull-witted",
+    "Confused",
+    "Indifferent"
+  ],
+  "optionsMap": {
+    "A": "Having a ready insight",
+    "B": "Dull-witted",
+    "C": "Confused",
+    "D": "Indifferent"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Having a ready insight",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

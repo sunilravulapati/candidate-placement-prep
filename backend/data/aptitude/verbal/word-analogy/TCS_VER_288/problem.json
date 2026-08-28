@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_288",
+  "slug": "tcs-ver-288",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "word-analogy",
+  "topicName": "Word Analogy",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Complete the analogy: Autobiography : Self :: Biography : ?",
+  "description": "Complete the analogy: Autobiography : Self :: Biography : ?",
+  "question": "Complete the analogy: Autobiography : Self :: Biography : ?",
+  "options": [
+    "Others",
+    "Future",
+    "Fiction",
+    "History"
+  ],
+  "optionsMap": {
+    "A": "Others",
+    "B": "Future",
+    "C": "Fiction",
+    "D": "History"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Others",
+  "tags": [
+    "verbal",
+    "word-analogy"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

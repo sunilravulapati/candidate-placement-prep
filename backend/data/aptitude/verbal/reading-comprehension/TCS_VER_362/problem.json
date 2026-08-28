@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_362",
+  "slug": "tcs-ver-362",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, enc...",
+  "description": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: What percentage of Earth's surface do tropical rainforests cover?",
+  "question": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: What percentage of Earth's surface do tropical rainforests cover?",
+  "options": [
+    "50%",
+    "6%",
+    "25%",
+    "12%"
+  ],
+  "optionsMap": {
+    "A": "50%",
+    "B": "6%",
+    "C": "25%",
+    "D": "12%"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "6%",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

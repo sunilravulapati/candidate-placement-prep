@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_465",
+  "slug": "tcs-log-465",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Analogy: Diamond:Carbon :: Rust:?",
+  "description": "Analogy: Diamond:Carbon :: Rust:?",
+  "question": "Analogy: Diamond:Carbon :: Rust:?",
+  "options": [
+    "Iron Oxide",
+    "Iron",
+    "Oxygen",
+    "Moisture"
+  ],
+  "optionsMap": {
+    "A": "Iron Oxide",
+    "B": "Iron",
+    "C": "Oxygen",
+    "D": "Moisture"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Iron Oxide",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

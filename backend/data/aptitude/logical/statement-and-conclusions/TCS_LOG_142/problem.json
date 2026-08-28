@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_142",
+  "slug": "tcs-log-142",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "statement-and-conclusions",
+  "topicName": "Statement and Conclusions",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Statement: The government has implemented a new tax to fund education. Conclu...",
+  "description": "Statement: The government has implemented a new tax to fund education. Conclusion: Education quality will improve immediately.",
+  "question": "Statement: The government has implemented a new tax to fund education. Conclusion: Education quality will improve immediately.",
+  "options": [
+    "The conclusion does not necessarily follow",
+    "The conclusion follows",
+    "More information needed",
+    "Statement is incorrect"
+  ],
+  "optionsMap": {
+    "A": "The conclusion does not necessarily follow",
+    "B": "The conclusion follows",
+    "C": "More information needed",
+    "D": "Statement is incorrect"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "The conclusion does not necessarily follow",
+  "tags": [
+    "logical",
+    "statement-and-conclusions"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_326",
+  "slug": "tcs-log-326",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Odd one out: Addition, Subtraction, Division, Mathematics",
+  "description": "Odd one out: Addition, Subtraction, Division, Mathematics",
+  "question": "Odd one out: Addition, Subtraction, Division, Mathematics",
+  "options": [
+    "Mathematics",
+    "Addition",
+    "Division",
+    "Subtraction"
+  ],
+  "optionsMap": {
+    "A": "Mathematics",
+    "B": "Addition",
+    "C": "Division",
+    "D": "Subtraction"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Mathematics",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

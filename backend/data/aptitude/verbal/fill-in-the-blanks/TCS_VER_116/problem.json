@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_116",
+  "slug": "tcs-ver-116",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Despite his young age, he showed remarkable _____ in handling the crisis.",
+  "description": "Despite his young age, he showed remarkable _____ in handling the crisis.",
+  "question": "Despite his young age, he showed remarkable _____ in handling the crisis.",
+  "options": [
+    "maturity",
+    "immaturity",
+    "inexperience",
+    "naivety"
+  ],
+  "optionsMap": {
+    "A": "maturity",
+    "B": "immaturity",
+    "C": "inexperience",
+    "D": "naivety"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "maturity",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

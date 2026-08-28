@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_364",
+  "slug": "tcs-log-364",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Input-Output: Step1: INPUT > APPLES. Step2: Reverse each word. APPLES>?",
+  "description": "Input-Output: Step1: INPUT > APPLES. Step2: Reverse each word. APPLES>?",
+  "question": "Input-Output: Step1: INPUT > APPLES. Step2: Reverse each word. APPLES>?",
+  "options": [
+    "SELPPA",
+    "APPLE",
+    "SAPPLE",
+    "AELSPP"
+  ],
+  "optionsMap": {
+    "A": "SELPPA",
+    "B": "APPLE",
+    "C": "SAPPLE",
+    "D": "AELSPP"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "SELPPA",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_442",
+  "slug": "tcs-apt-442",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "time-and-work",
+  "topicName": "Time and Work",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A woman can do work in 16 days. A man does twice as fast. Together in a team ...",
+  "description": "A woman can do work in 16 days. A man does twice as fast. Together in a team of 1 man 1 woman, days needed:",
+  "question": "A woman can do work in 16 days. A man does twice as fast. Together in a team of 1 man 1 woman, days needed:",
+  "options": [
+    "16/3 days",
+    "6 days",
+    "4 days",
+    "8 days"
+  ],
+  "optionsMap": {
+    "A": "16/3 days",
+    "B": "6 days",
+    "C": "4 days",
+    "D": "8 days"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "16/3 days",
+  "tags": [
+    "quantitative",
+    "time-and-work"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

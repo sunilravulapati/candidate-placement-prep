@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_516",
+  "slug": "tcs-apt-516",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "logarithms",
+  "topicName": "Logarithms",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "The value of log2(8) × log3(9)?",
+  "description": "The value of log2(8) × log3(9)?",
+  "question": "The value of log2(8) × log3(9)?",
+  "options": [
+    "6",
+    "4",
+    "8",
+    "9"
+  ],
+  "optionsMap": {
+    "A": "6",
+    "B": "4",
+    "C": "8",
+    "D": "9"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "6",
+  "tags": [
+    "quantitative",
+    "logarithms"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

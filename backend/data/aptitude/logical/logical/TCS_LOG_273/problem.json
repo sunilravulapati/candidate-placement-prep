@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_273",
+  "slug": "tcs-log-273",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Blood relation: P is Q's father. Q is R's sister. S is Q's mother. How is P r...",
+  "description": "Blood relation: P is Q's father. Q is R's sister. S is Q's mother. How is P related to S?",
+  "question": "Blood relation: P is Q's father. Q is R's sister. S is Q's mother. How is P related to S?",
+  "options": [
+    "Husband",
+    "Brother",
+    "Father",
+    "Son"
+  ],
+  "optionsMap": {
+    "A": "Husband",
+    "B": "Brother",
+    "C": "Father",
+    "D": "Son"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Husband",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

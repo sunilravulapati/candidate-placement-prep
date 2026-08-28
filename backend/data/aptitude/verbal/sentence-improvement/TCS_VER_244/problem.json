@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_244",
+  "slug": "tcs-ver-244",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "sentence-improvement",
+  "topicName": "Sentence Improvement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Improve the underlined part of the sentence: 'The news are very disturbing.'",
+  "description": "Improve the underlined part of the sentence: 'The news are very disturbing.'",
+  "question": "Improve the underlined part of the sentence: 'The news are very disturbing.'",
+  "options": [
+    "The news is",
+    "The news were",
+    "A news is",
+    "No improvement"
+  ],
+  "optionsMap": {
+    "A": "The news is",
+    "B": "The news were",
+    "C": "A news is",
+    "D": "No improvement"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "The news is",
+  "tags": [
+    "verbal",
+    "sentence-improvement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

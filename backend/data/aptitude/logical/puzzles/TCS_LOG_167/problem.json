@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_167",
+  "slug": "tcs-log-167",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "puzzles",
+  "topicName": "Puzzles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A palindrome number is a 3-digit number that reads same backwards. How many e...",
+  "description": "A palindrome number is a 3-digit number that reads same backwards. How many exist?",
+  "question": "A palindrome number is a 3-digit number that reads same backwards. How many exist?",
+  "options": [
+    "90",
+    "81",
+    "100",
+    "99"
+  ],
+  "optionsMap": {
+    "A": "90",
+    "B": "81",
+    "C": "100",
+    "D": "99"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "90",
+  "tags": [
+    "logical",
+    "puzzles"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

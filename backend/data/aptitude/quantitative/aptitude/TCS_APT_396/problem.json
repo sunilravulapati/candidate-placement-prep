@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_396",
+  "slug": "tcs-apt-396",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Cost of 12 apples = Rs 48. Cost of 7 oranges = Rs 35. Total cost of 4 apples ...",
+  "description": "Cost of 12 apples = Rs 48. Cost of 7 oranges = Rs 35. Total cost of 4 apples and 3 oranges?",
+  "question": "Cost of 12 apples = Rs 48. Cost of 7 oranges = Rs 35. Total cost of 4 apples and 3 oranges?",
+  "options": [
+    "31",
+    "28",
+    "35",
+    "40"
+  ],
+  "optionsMap": {
+    "A": "31",
+    "B": "28",
+    "C": "35",
+    "D": "40"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "31",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "TCS_LOG_226",
+    "title": "In a Venn diagram with two circles A and B overlapping: region (A only) = 15,...",
+    "description": "In a Venn diagram with two circles A and B overlapping: region (A only) = 15, (B only) = 20, (both) = 10. Total elements = ?",
+    "question": "In a Venn diagram with two circles A and B overlapping: region (A only) = 15, (B only) = 20, (both) = 10. Total elements = ?",
+    "options": [
+      "45",
+      "35",
+      "30",
+      "50"
+    ],
+    "answer": "45",
+    "answerKey": "A",
+    "correctAnswer": "45",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 45.",
+    "topic": "venn-diagrams",
+    "topicName": "Venn Diagrams",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_229",
+    "title": "Set A = {1,2,3,4,5}, Set B = {3,4,5,6,7}. What is A∩B?",
+    "description": "Set A = {1,2,3,4,5}, Set B = {3,4,5,6,7}. What is A∩B?",
+    "question": "Set A = {1,2,3,4,5}, Set B = {3,4,5,6,7}. What is A∩B?",
+    "options": [
+      "{ 3,4,5}",
+      "{1,2,6,7}",
+      "{1,2,3,4,5,6,7}",
+      "{3,5}"
+    ],
+    "answer": "{ 3,4,5}",
+    "answerKey": "A",
+    "correctAnswer": "{ 3,4,5}",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: { 3,4,5}.",
+    "topic": "venn-diagrams",
+    "topicName": "Venn Diagrams",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_230",
+    "title": "Set A = {a,b,c,d}, Set B = {c,d,e,f}. What is A∪B?",
+    "description": "Set A = {a,b,c,d}, Set B = {c,d,e,f}. What is A∪B?",
+    "question": "Set A = {a,b,c,d}, Set B = {c,d,e,f}. What is A∪B?",
+    "options": [
+      "{a,b,c,d,e,f}",
+      "{c,d}",
+      "{a,b}",
+      "{e,f}"
+    ],
+    "answer": "{a,b,c,d,e,f}",
+    "answerKey": "A",
+    "correctAnswer": "{a,b,c,d,e,f}",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: {a,b,c,d,e,f}.",
+    "topic": "venn-diagrams",
+    "topicName": "Venn Diagrams",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_225",
+    "title": "In a group of 200 students: 100 study Physics, 120 study Chemistry, 50 study ...",
+    "description": "In a group of 200 students: 100 study Physics, 120 study Chemistry, 50 study both. How many study neither?",
+    "question": "In a group of 200 students: 100 study Physics, 120 study Chemistry, 50 study both. How many study neither?",
+    "options": [
+      "30",
+      "50",
+      "20",
+      "40"
+    ],
+    "answer": "30",
+    "answerKey": "A",
+    "correctAnswer": "30",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: 30.",
+    "topic": "venn-diagrams",
+    "topicName": "Venn Diagrams",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_221",
+    "title": "In a class of 50: 30 like Cricket, 20 like Football, 10 like both. How many l...",
+    "description": "In a class of 50: 30 like Cricket, 20 like Football, 10 like both. How many like neither?",
+    "question": "In a class of 50: 30 like Cricket, 20 like Football, 10 like both. How many like neither?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "5"
+    ],
+    "answer": "10",
+    "answerKey": "A",
+    "correctAnswer": "10",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10.",
+    "topic": "venn-diagrams",
+    "topicName": "Venn Diagrams",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_222",
+    "title": "In a group: 60% like A, 50% like B, 20% like both. What % like neither?",
+    "description": "In a group: 60% like A, 50% like B, 20% like both. What % like neither?",
+    "question": "In a group: 60% like A, 50% like B, 20% like both. What % like neither?",
+    "options": [
+      "10%",
+      "15%",
+      "20%",
+      "5%"
+    ],
+    "answer": "10%",
+    "answerKey": "A",
+    "correctAnswer": "10%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10%.",
+    "topic": "venn-diagrams",
+    "topicName": "Venn Diagrams",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_223",
+    "title": "Out of 100 people: 70 read newspaper A, 60 read newspaper B, 40 read both. Ho...",
+    "description": "Out of 100 people: 70 read newspaper A, 60 read newspaper B, 40 read both. How many read neither?",
+    "question": "Out of 100 people: 70 read newspaper A, 60 read newspaper B, 40 read both. How many read neither?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "5"
+    ],
+    "answer": "10",
+    "answerKey": "A",
+    "correctAnswer": "10",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10.",
+    "topic": "venn-diagrams",
+    "topicName": "Venn Diagrams",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_224",
+    "title": "A survey found 80 people: 50 have cars, 30 have bikes, 10 have both. How many...",
+    "description": "A survey found 80 people: 50 have cars, 30 have bikes, 10 have both. How many have neither?",
+    "question": "A survey found 80 people: 50 have cars, 30 have bikes, 10 have both. How many have neither?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "5"
+    ],
+    "answer": "10",
+    "answerKey": "A",
+    "correctAnswer": "10",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10.",
+    "topic": "venn-diagrams",
+    "topicName": "Venn Diagrams",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_227",
+    "title": "Sets: |A| = 40, |B| = 30, |A∪B| = 60. Find |A∩B|.",
+    "description": "Sets: |A| = 40, |B| = 30, |A∪B| = 60. Find |A∩B|.",
+    "question": "Sets: |A| = 40, |B| = 30, |A∪B| = 60. Find |A∩B|.",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "answer": "10",
+    "answerKey": "A",
+    "correctAnswer": "10",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10.",
+    "topic": "venn-diagrams",
+    "topicName": "Venn Diagrams",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_228",
+    "title": "In a survey, 100 people: 70% like tea, 60% like coffee, 40% like both. What %...",
+    "description": "In a survey, 100 people: 70% like tea, 60% like coffee, 40% like both. What % like only tea?",
+    "question": "In a survey, 100 people: 70% like tea, 60% like coffee, 40% like both. What % like only tea?",
+    "options": [
+      "30%",
+      "20%",
+      "25%",
+      "40%"
+    ],
+    "answer": "30%",
+    "answerKey": "A",
+    "correctAnswer": "30%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 30%.",
+    "topic": "venn-diagrams",
+    "topicName": "Venn Diagrams",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_243",
+  "slug": "tcs-log-243",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number series: 1, 1, 2, 3, 5, 8, ?",
+  "description": "Number series: 1, 1, 2, 3, 5, 8, ?",
+  "question": "Number series: 1, 1, 2, 3, 5, 8, ?",
+  "options": [
+    "13",
+    "11",
+    "15",
+    "10"
+  ],
+  "optionsMap": {
+    "A": "13",
+    "B": "11",
+    "C": "15",
+    "D": "10"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "13",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

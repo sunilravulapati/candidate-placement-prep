@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_484",
+  "slug": "tcs-log-484",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Odd one out: Square, Rectangle, Rhombus, Cone",
+  "description": "Odd one out: Square, Rectangle, Rhombus, Cone",
+  "question": "Odd one out: Square, Rectangle, Rhombus, Cone",
+  "options": [
+    "Cone",
+    "Square",
+    "Rectangle",
+    "Rhombus"
+  ],
+  "optionsMap": {
+    "A": "Cone",
+    "B": "Square",
+    "C": "Rectangle",
+    "D": "Rhombus"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Cone",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

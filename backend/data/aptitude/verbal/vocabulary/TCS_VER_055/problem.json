@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_055",
+  "slug": "tcs-ver-055",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most OPPOSITE in meaning to: EMBOLDEN",
+  "description": "Choose the word most OPPOSITE in meaning to: EMBOLDEN",
+  "question": "Choose the word most OPPOSITE in meaning to: EMBOLDEN",
+  "options": [
+    "Discourage",
+    "Inspire",
+    "Strengthen",
+    "Boost"
+  ],
+  "optionsMap": {
+    "A": "Discourage",
+    "B": "Inspire",
+    "C": "Strengthen",
+    "D": "Boost"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Discourage",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

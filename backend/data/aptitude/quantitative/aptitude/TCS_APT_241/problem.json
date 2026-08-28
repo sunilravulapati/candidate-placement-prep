@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_241",
+  "slug": "tcs-apt-241",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "By selling an article for Rs 560, a man gains 12%. Find cost price.",
+  "description": "By selling an article for Rs 560, a man gains 12%. Find cost price.",
+  "question": "By selling an article for Rs 560, a man gains 12%. Find cost price.",
+  "options": [
+    "500",
+    "480",
+    "520",
+    "460"
+  ],
+  "optionsMap": {
+    "A": "500",
+    "B": "480",
+    "C": "520",
+    "D": "460"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "500",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

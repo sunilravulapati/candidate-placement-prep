@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_095",
+  "slug": "tcs-log-095",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "direction-sense",
+  "topicName": "Direction Sense",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "In a city, roads run North-South and East-West. If you face North and turn le...",
+  "description": "In a city, roads run North-South and East-West. If you face North and turn left, you face:",
+  "question": "In a city, roads run North-South and East-West. If you face North and turn left, you face:",
+  "options": [
+    "West",
+    "East",
+    "South",
+    "North"
+  ],
+  "optionsMap": {
+    "A": "West",
+    "B": "East",
+    "C": "South",
+    "D": "North"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "West",
+  "tags": [
+    "logical",
+    "direction-sense"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

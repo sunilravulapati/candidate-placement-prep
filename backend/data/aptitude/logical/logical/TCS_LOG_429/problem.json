@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_429",
+  "slug": "tcs-log-429",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Letter: CBA, FED, IHG, __?",
+  "description": "Letter: CBA, FED, IHG, __?",
+  "question": "Letter: CBA, FED, IHG, __?",
+  "options": [
+    "LKJ",
+    "KJI",
+    "JKL",
+    "KLM"
+  ],
+  "optionsMap": {
+    "A": "LKJ",
+    "B": "KJI",
+    "C": "JKL",
+    "D": "KLM"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "LKJ",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

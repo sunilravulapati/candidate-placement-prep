@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_275",
+  "slug": "tcs-log-275",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Blood relation: A is B's son. C is A's sister. D is C's mother. How is B rela...",
+  "description": "Blood relation: A is B's son. C is A's sister. D is C's mother. How is B related to D?",
+  "question": "Blood relation: A is B's son. C is A's sister. D is C's mother. How is B related to D?",
+  "options": [
+    "Husband",
+    "Brother",
+    "Father",
+    "Son"
+  ],
+  "optionsMap": {
+    "A": "Husband",
+    "B": "Brother",
+    "C": "Father",
+    "D": "Son"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Husband",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

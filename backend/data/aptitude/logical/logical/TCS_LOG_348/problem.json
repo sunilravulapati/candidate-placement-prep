@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_348",
+  "slug": "tcs-log-348",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Blood relation: If A+B means A is mother of B, A-B means A is brother of B, A...",
+  "description": "Blood relation: If A+B means A is mother of B, A-B means A is brother of B, A*B means A is sister of B, then P+Q-R*S means P is __ of S?",
+  "question": "Blood relation: If A+B means A is mother of B, A-B means A is brother of B, A*B means A is sister of B, then P+Q-R*S means P is __ of S?",
+  "options": [
+    "Maternal aunt",
+    "Mother",
+    "Uncle",
+    "Niece"
+  ],
+  "optionsMap": {
+    "A": "Maternal aunt",
+    "B": "Mother",
+    "C": "Uncle",
+    "D": "Niece"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Maternal aunt",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

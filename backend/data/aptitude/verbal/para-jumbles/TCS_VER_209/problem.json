@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_209",
+  "slug": "tcs-ver-209",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "para-jumbles",
+  "topicName": "Para Jumbles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "P: Reading regularly enhances vocabulary and critical thinking. Q: It also re...",
+  "description": "P: Reading regularly enhances vocabulary and critical thinking. Q: It also reduces stress by providing an escape from daily pressures. R: Children who read from a young age develop stronger academic skills. S: Encouraging a reading habit is one of the greatest gifts parents can give. Arrange in logical order:",
+  "question": "P: Reading regularly enhances vocabulary and critical thinking. Q: It also reduces stress by providing an escape from daily pressures. R: Children who read from a young age develop stronger academic skills. S: Encouraging a reading habit is one of the greatest gifts parents can give. Arrange in logical order:",
+  "options": [
+    "R-P-Q-S",
+    "P-Q-R-S",
+    "S-P-Q-R",
+    "Q-R-P-S"
+  ],
+  "optionsMap": {
+    "A": "R-P-Q-S",
+    "B": "P-Q-R-S",
+    "C": "S-P-Q-R",
+    "D": "Q-R-P-S"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "P-Q-R-S",
+  "tags": [
+    "verbal",
+    "para-jumbles"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

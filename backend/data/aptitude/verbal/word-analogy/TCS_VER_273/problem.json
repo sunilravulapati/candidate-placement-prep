@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_273",
+  "slug": "tcs-ver-273",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "word-analogy",
+  "topicName": "Word Analogy",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Complete the analogy: Fish : Water :: Bird : ?",
+  "description": "Complete the analogy: Fish : Water :: Bird : ?",
+  "question": "Complete the analogy: Fish : Water :: Bird : ?",
+  "options": [
+    "Sky",
+    "Tree",
+    "Nest",
+    "Cage"
+  ],
+  "optionsMap": {
+    "A": "Sky",
+    "B": "Tree",
+    "C": "Nest",
+    "D": "Cage"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Sky",
+  "tags": [
+    "verbal",
+    "word-analogy"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

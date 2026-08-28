@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_466",
+  "slug": "tcs-ver-466",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the correctly formed question tag: 'He hasn't called, ___?'",
+  "description": "Choose the correctly formed question tag: 'He hasn't called, ___?'",
+  "question": "Choose the correctly formed question tag: 'He hasn't called, ___?'",
+  "options": [
+    "has he",
+    "hasn't he",
+    "had he",
+    "does he"
+  ],
+  "optionsMap": {
+    "A": "has he",
+    "B": "hasn't he",
+    "C": "had he",
+    "D": "does he"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "has he",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

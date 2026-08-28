@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_035",
+  "slug": "tcs-log-035",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "coding-decoding",
+  "topicName": "Coding-Decoding",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If P = 16, R = 18, then PRINT = ?",
+  "description": "If P = 16, R = 18, then PRINT = ?",
+  "question": "If P = 16, R = 18, then PRINT = ?",
+  "options": [
+    "75",
+    "73",
+    "71",
+    "77"
+  ],
+  "optionsMap": {
+    "A": "75",
+    "B": "73",
+    "C": "71",
+    "D": "77"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "73",
+  "tags": [
+    "logical",
+    "coding-decoding"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

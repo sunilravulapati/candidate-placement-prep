@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_253",
+  "slug": "tcs-log-253",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find the odd one out: Wheat, Rice, Mango, Barley",
+  "description": "Find the odd one out: Wheat, Rice, Mango, Barley",
+  "question": "Find the odd one out: Wheat, Rice, Mango, Barley",
+  "options": [
+    "Mango",
+    "Wheat",
+    "Rice",
+    "Barley"
+  ],
+  "optionsMap": {
+    "A": "Mango",
+    "B": "Wheat",
+    "C": "Rice",
+    "D": "Barley"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Mango",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_288",
+  "slug": "tcs-apt-288",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find compound amount: P=1000, r=10%, t=3 years.",
+  "description": "Find compound amount: P=1000, r=10%, t=3 years.",
+  "question": "Find compound amount: P=1000, r=10%, t=3 years.",
+  "options": [
+    "1331",
+    "1200",
+    "1300",
+    "1100"
+  ],
+  "optionsMap": {
+    "A": "1331",
+    "B": "1200",
+    "C": "1300",
+    "D": "1100"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1331",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_199",
+  "slug": "tcs-apt-199",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "pipes-and-cisterns",
+  "topicName": "Pipes and Cisterns",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Pipe A fills a tank in 15 min and Pipe B in 20 min. Both open together fill t...",
+  "description": "Pipe A fills a tank in 15 min and Pipe B in 20 min. Both open together fill tank in:",
+  "question": "Pipe A fills a tank in 15 min and Pipe B in 20 min. Both open together fill tank in:",
+  "options": [
+    "60/7 min",
+    "8 min",
+    "10 min",
+    "12 min"
+  ],
+  "optionsMap": {
+    "A": "60/7 min",
+    "B": "8 min",
+    "C": "10 min",
+    "D": "12 min"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "60/7 min",
+  "tags": [
+    "quantitative",
+    "pipes-and-cisterns"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

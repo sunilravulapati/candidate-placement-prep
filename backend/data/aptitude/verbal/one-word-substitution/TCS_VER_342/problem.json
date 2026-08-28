@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_342",
+  "slug": "tcs-ver-342",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "one-word-substitution",
+  "topicName": "One Word Substitution",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Find the one word substitution for: Study of ancient writing",
+  "description": "Find the one word substitution for: Study of ancient writing",
+  "question": "Find the one word substitution for: Study of ancient writing",
+  "options": [
+    "Palaeography",
+    "Archaeology",
+    "Anthropology",
+    "Ethnography"
+  ],
+  "optionsMap": {
+    "A": "Palaeography",
+    "B": "Archaeology",
+    "C": "Anthropology",
+    "D": "Ethnography"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Palaeography",
+  "tags": [
+    "verbal",
+    "one-word-substitution"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

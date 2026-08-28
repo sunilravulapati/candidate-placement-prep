@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_159",
+  "slug": "tcs-apt-159",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "permutation-and-combination",
+  "topicName": "Permutation and Combination",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "How many ways can 10 players be divided into 2 teams of 5 each?",
+  "description": "How many ways can 10 players be divided into 2 teams of 5 each?",
+  "question": "How many ways can 10 players be divided into 2 teams of 5 each?",
+  "options": [
+    "126",
+    "252",
+    "63",
+    "504"
+  ],
+  "optionsMap": {
+    "A": "126",
+    "B": "252",
+    "C": "63",
+    "D": "504"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "126",
+  "tags": [
+    "quantitative",
+    "permutation-and-combination"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

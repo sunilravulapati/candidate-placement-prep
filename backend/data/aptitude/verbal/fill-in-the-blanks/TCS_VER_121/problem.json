@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_121",
+  "slug": "tcs-ver-121",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The peace talks were _____ after both parties failed to agree.",
+  "description": "The peace talks were _____ after both parties failed to agree.",
+  "question": "The peace talks were _____ after both parties failed to agree.",
+  "options": [
+    "abandoned",
+    "concluded",
+    "finalized",
+    "successful"
+  ],
+  "optionsMap": {
+    "A": "abandoned",
+    "B": "concluded",
+    "C": "finalized",
+    "D": "successful"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "abandoned",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

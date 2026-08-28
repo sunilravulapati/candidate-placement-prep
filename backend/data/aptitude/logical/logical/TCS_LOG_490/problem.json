@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_490",
+  "slug": "tcs-log-490",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number: 2,3,4,6,6,9,8,12,10,__?",
+  "description": "Number: 2,3,4,6,6,9,8,12,10,__?",
+  "question": "Number: 2,3,4,6,6,9,8,12,10,__?",
+  "options": [
+    "15",
+    "14",
+    "16",
+    "13"
+  ],
+  "optionsMap": {
+    "A": "15",
+    "B": "14",
+    "C": "16",
+    "D": "13"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "15",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

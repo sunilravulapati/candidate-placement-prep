@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_468",
+  "slug": "tcs-log-468",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Odd one out: January, March, May, July, September",
+  "description": "Odd one out: January, March, May, July, September",
+  "question": "Odd one out: January, March, May, July, September",
+  "options": [
+    "September",
+    "January",
+    "March",
+    "May"
+  ],
+  "optionsMap": {
+    "A": "September",
+    "B": "January",
+    "C": "March",
+    "D": "May"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "September",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

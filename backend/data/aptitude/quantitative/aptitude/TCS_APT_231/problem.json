@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_231",
+  "slug": "tcs-apt-231",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A and B together finish in 8 days, B and C in 12 days, A and C in 16 days. Al...",
+  "description": "A and B together finish in 8 days, B and C in 12 days, A and C in 16 days. All three together?",
+  "question": "A and B together finish in 8 days, B and C in 12 days, A and C in 16 days. All three together?",
+  "options": [
+    "About 7.38 days",
+    "6 days",
+    "8 days",
+    "9 days"
+  ],
+  "optionsMap": {
+    "A": "About 7.38 days",
+    "B": "6 days",
+    "C": "8 days",
+    "D": "9 days"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "About 7.38 days",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

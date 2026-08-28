@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_206",
+  "slug": "tcs-ver-206",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "para-jumbles",
+  "topicName": "Para Jumbles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "P: Meditation has been practiced for thousands of years. Q: Modern science no...",
+  "description": "P: Meditation has been practiced for thousands of years. Q: Modern science now confirms its benefits for mental health. R: It reduces stress, improves focus, and promotes emotional well-being. S: Even a few minutes of daily meditation can make a noticeable difference. Arrange in logical order:",
+  "question": "P: Meditation has been practiced for thousands of years. Q: Modern science now confirms its benefits for mental health. R: It reduces stress, improves focus, and promotes emotional well-being. S: Even a few minutes of daily meditation can make a noticeable difference. Arrange in logical order:",
+  "options": [
+    "P-Q-R-S",
+    "Q-P-R-S",
+    "R-P-Q-S",
+    "S-Q-P-R"
+  ],
+  "optionsMap": {
+    "A": "P-Q-R-S",
+    "B": "Q-P-R-S",
+    "C": "R-P-Q-S",
+    "D": "S-Q-P-R"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "P-Q-R-S",
+  "tags": [
+    "verbal",
+    "para-jumbles"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

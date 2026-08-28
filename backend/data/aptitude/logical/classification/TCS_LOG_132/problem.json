@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_132",
+  "slug": "tcs-log-132",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "classification",
+  "topicName": "Classification",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Find the odd one: Mango, Banana, Orange, Pomegranate, Guava",
+  "description": "Find the odd one: Mango, Banana, Orange, Pomegranate, Guava",
+  "question": "Find the odd one: Mango, Banana, Orange, Pomegranate, Guava",
+  "options": [
+    "Pomegranate",
+    "Mango",
+    "Banana",
+    "Orange"
+  ],
+  "optionsMap": {
+    "A": "Pomegranate",
+    "B": "Mango",
+    "C": "Banana",
+    "D": "Orange"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Pomegranate",
+  "tags": [
+    "logical",
+    "classification"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

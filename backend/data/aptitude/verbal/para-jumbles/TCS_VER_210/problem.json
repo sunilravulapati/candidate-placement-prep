@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_210",
+  "slug": "tcs-ver-210",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "para-jumbles",
+  "topicName": "Para Jumbles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "P: Plastic pollution is a growing environmental crisis. Q: Millions of tons o...",
+  "description": "P: Plastic pollution is a growing environmental crisis. Q: Millions of tons of plastic waste end up in oceans each year. R: Marine animals mistake plastic debris for food, often fatally. S: Reducing single-use plastic is an urgent global necessity. Arrange in logical order:",
+  "question": "P: Plastic pollution is a growing environmental crisis. Q: Millions of tons of plastic waste end up in oceans each year. R: Marine animals mistake plastic debris for food, often fatally. S: Reducing single-use plastic is an urgent global necessity. Arrange in logical order:",
+  "options": [
+    "P-Q-R-S",
+    "Q-P-R-S",
+    "R-P-Q-S",
+    "P-R-Q-S"
+  ],
+  "optionsMap": {
+    "A": "P-Q-R-S",
+    "B": "Q-P-R-S",
+    "C": "R-P-Q-S",
+    "D": "P-R-Q-S"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "P-Q-R-S",
+  "tags": [
+    "verbal",
+    "para-jumbles"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

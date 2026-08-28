@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_620",
+  "slug": "tcs-apt-620",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Express 1/3 kg + 200g in grams?",
+  "description": "Express 1/3 kg + 200g in grams?",
+  "question": "Express 1/3 kg + 200g in grams?",
+  "options": [
+    "533.3g",
+    "1533g",
+    "500g",
+    "600g"
+  ],
+  "optionsMap": {
+    "A": "533.3g",
+    "B": "1533g",
+    "C": "500g",
+    "D": "600g"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "533.3g",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

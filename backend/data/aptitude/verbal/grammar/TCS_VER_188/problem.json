@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_188",
+  "slug": "tcs-ver-188",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Choose the correct sentence:",
+  "description": "Choose the correct sentence:",
+  "question": "Choose the correct sentence:",
+  "options": [
+    "The data is being analyzed by the scientist.",
+    "The data are being analyzed by the scientists.",
+    "The scientist is analyzing the datas.",
+    "The scientist analyze the data."
+  ],
+  "optionsMap": {
+    "A": "The data is being analyzed by the scientist.",
+    "B": "The data are being analyzed by the scientists.",
+    "C": "The scientist is analyzing the datas.",
+    "D": "The scientist analyze the data."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "The data are being analyzed by the scientists.",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

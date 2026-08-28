@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_693",
+  "slug": "tcs-ver-693",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Fill blank: He spoke with such __ that everyone was moved.",
+  "description": "Fill blank: He spoke with such __ that everyone was moved.",
+  "question": "Fill blank: He spoke with such __ that everyone was moved.",
+  "options": [
+    "eloquence",
+    "loudness",
+    "rudeness",
+    "speed"
+  ],
+  "optionsMap": {
+    "A": "eloquence",
+    "B": "loudness",
+    "C": "rudeness",
+    "D": "speed"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "eloquence",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_452",
+  "slug": "tcs-ver-452",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the correct preposition: I am looking forward _____ meeting you.",
+  "description": "Choose the correct preposition: I am looking forward _____ meeting you.",
+  "question": "Choose the correct preposition: I am looking forward _____ meeting you.",
+  "options": [
+    "for",
+    "at",
+    "to",
+    "about"
+  ],
+  "optionsMap": {
+    "A": "for",
+    "B": "at",
+    "C": "to",
+    "D": "about"
+  },
+  "answer": "C",
+  "answerKey": "C",
+  "correctAnswer": "to",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

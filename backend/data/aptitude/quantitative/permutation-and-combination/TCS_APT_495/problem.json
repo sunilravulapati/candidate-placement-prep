@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_495",
+  "slug": "tcs-apt-495",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "permutation-and-combination",
+  "topicName": "Permutation and Combination",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "How many 4-digit even numbers can be formed using 1,2,3,4,5 (no repetition)?",
+  "description": "How many 4-digit even numbers can be formed using 1,2,3,4,5 (no repetition)?",
+  "question": "How many 4-digit even numbers can be formed using 1,2,3,4,5 (no repetition)?",
+  "options": [
+    "48",
+    "60",
+    "36",
+    "72"
+  ],
+  "optionsMap": {
+    "A": "48",
+    "B": "60",
+    "C": "36",
+    "D": "72"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "48",
+  "tags": [
+    "quantitative",
+    "permutation-and-combination"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

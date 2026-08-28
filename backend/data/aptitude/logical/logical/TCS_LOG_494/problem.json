@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_494",
+  "slug": "tcs-log-494",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Statement: Cats are mammals. Tiger is a cat. Conclusion?",
+  "description": "Statement: Cats are mammals. Tiger is a cat. Conclusion?",
+  "question": "Statement: Cats are mammals. Tiger is a cat. Conclusion?",
+  "options": [
+    "Tiger is mammal",
+    "Mammals are tigers",
+    "Some tigers aren't cats",
+    "Cannot say"
+  ],
+  "optionsMap": {
+    "A": "Tiger is mammal",
+    "B": "Mammals are tigers",
+    "C": "Some tigers aren't cats",
+    "D": "Cannot say"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Tiger is mammal",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

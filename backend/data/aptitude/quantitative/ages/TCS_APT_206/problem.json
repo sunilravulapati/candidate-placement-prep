@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_206",
+  "slug": "tcs-apt-206",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "ages",
+  "topicName": "Ages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Ratio of A's to B's age is 4:5. In 5 years, ratio becomes 5:6. Find A's curre...",
+  "description": "Ratio of A's to B's age is 4:5. In 5 years, ratio becomes 5:6. Find A's current age.",
+  "question": "Ratio of A's to B's age is 4:5. In 5 years, ratio becomes 5:6. Find A's current age.",
+  "options": [
+    "20",
+    "25",
+    "15",
+    "30"
+  ],
+  "optionsMap": {
+    "A": "20",
+    "B": "25",
+    "C": "15",
+    "D": "30"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "20",
+  "tags": [
+    "quantitative",
+    "ages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

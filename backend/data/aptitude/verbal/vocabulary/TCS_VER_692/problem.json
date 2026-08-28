@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_692",
+  "slug": "tcs-ver-692",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Fill blank: The new policy __ several old regulations.",
+  "description": "Fill blank: The new policy __ several old regulations.",
+  "question": "Fill blank: The new policy __ several old regulations.",
+  "options": [
+    "superseded",
+    "created",
+    "maintained",
+    "supported"
+  ],
+  "optionsMap": {
+    "A": "superseded",
+    "B": "created",
+    "C": "maintained",
+    "D": "supported"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "superseded",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

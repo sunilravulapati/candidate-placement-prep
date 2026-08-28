@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_619",
+  "slug": "tcs-log-619",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Riya is Meena's sister. Meena is Sita's daughter. Riya is Sita's?",
+  "description": "Riya is Meena's sister. Meena is Sita's daughter. Riya is Sita's?",
+  "question": "Riya is Meena's sister. Meena is Sita's daughter. Riya is Sita's?",
+  "options": [
+    "Daughter",
+    "Niece",
+    "Sister",
+    "Cousin"
+  ],
+  "optionsMap": {
+    "A": "Daughter",
+    "B": "Niece",
+    "C": "Sister",
+    "D": "Cousin"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Daughter",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

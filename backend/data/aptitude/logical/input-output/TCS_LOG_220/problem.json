@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_220",
+  "slug": "tcs-log-220",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "input-output",
+  "topicName": "Input-Output",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Input: RED GREEN BLUE. If all letters are reversed and only first 3 letters o...",
+  "description": "Input: RED GREEN BLUE. If all letters are reversed and only first 3 letters of each word taken. Output:",
+  "question": "Input: RED GREEN BLUE. If all letters are reversed and only first 3 letters of each word taken. Output:",
+  "options": [
+    "DER NER EUL",
+    "RED GRE BLU",
+    "DER EER ULB",
+    "EDR NEE EUL"
+  ],
+  "optionsMap": {
+    "A": "DER NER EUL",
+    "B": "RED GRE BLU",
+    "C": "DER EER ULB",
+    "D": "EDR NEE EUL"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "DER NER EUL",
+  "tags": [
+    "logical",
+    "input-output"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

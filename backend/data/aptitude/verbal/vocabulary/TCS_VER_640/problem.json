@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_640",
+  "slug": "tcs-ver-640",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of SARDONIC",
+  "description": "Choose the antonym of SARDONIC",
+  "question": "Choose the antonym of SARDONIC",
+  "options": [
+    "Kind",
+    "Mocking",
+    "Cynical",
+    "Bitter"
+  ],
+  "optionsMap": {
+    "A": "Kind",
+    "B": "Mocking",
+    "C": "Cynical",
+    "D": "Bitter"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Kind",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

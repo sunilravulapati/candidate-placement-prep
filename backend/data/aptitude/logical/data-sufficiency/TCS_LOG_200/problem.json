@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_200",
+  "slug": "tcs-log-200",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "data-sufficiency",
+  "topicName": "Data Sufficiency",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "How old is Priya? (I) Priya is 5 years older than Riya. (II) Riya is 20 years...",
+  "description": "How old is Priya? (I) Priya is 5 years older than Riya. (II) Riya is 20 years old.",
+  "question": "How old is Priya? (I) Priya is 5 years older than Riya. (II) Riya is 20 years old.",
+  "options": [
+    "Both together are sufficient",
+    "Only I",
+    "Only II",
+    "Neither"
+  ],
+  "optionsMap": {
+    "A": "Both together are sufficient",
+    "B": "Only I",
+    "C": "Only II",
+    "D": "Neither"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Both together are sufficient",
+  "tags": [
+    "logical",
+    "data-sufficiency"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

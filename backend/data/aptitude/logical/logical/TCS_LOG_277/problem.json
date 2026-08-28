@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_277",
+  "slug": "tcs-log-277",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Direction: Starting facing East, a person turns left, then left again, then r...",
+  "description": "Direction: Starting facing East, a person turns left, then left again, then right. Now facing?",
+  "question": "Direction: Starting facing East, a person turns left, then left again, then right. Now facing?",
+  "options": [
+    "North",
+    "South",
+    "East",
+    "West"
+  ],
+  "optionsMap": {
+    "A": "North",
+    "B": "South",
+    "C": "East",
+    "D": "West"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "North",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

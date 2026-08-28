@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_425",
+  "slug": "tcs-ver-425",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Identify the correct sentence: The jury ___ still deliberating.",
+  "description": "Identify the correct sentence: The jury ___ still deliberating.",
+  "question": "Identify the correct sentence: The jury ___ still deliberating.",
+  "options": [
+    "is",
+    "are",
+    "were",
+    "have been"
+  ],
+  "optionsMap": {
+    "A": "is",
+    "B": "are",
+    "C": "were",
+    "D": "have been"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "is",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

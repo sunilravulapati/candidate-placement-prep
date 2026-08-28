@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_170",
+  "slug": "tcs-apt-170",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "probability",
+  "topicName": "Probability",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Two coins are tossed. Probability of at least one head?",
+  "description": "Two coins are tossed. Probability of at least one head?",
+  "question": "Two coins are tossed. Probability of at least one head?",
+  "options": [
+    "3/4",
+    "1/2",
+    "1/4",
+    "2/3"
+  ],
+  "optionsMap": {
+    "A": "3/4",
+    "B": "1/2",
+    "C": "1/4",
+    "D": "2/3"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "3/4",
+  "tags": [
+    "quantitative",
+    "probability"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

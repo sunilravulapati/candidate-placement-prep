@@ -1,0 +1,872 @@
+[
+  {
+    "id": "TCS_VER_320",
+    "title": "Spot the error: (A)She is (B)more smarter (C)than her (D)elder sister.",
+    "description": "Spot the error: (A)She is (B)more smarter (C)than her (D)elder sister.",
+    "question": "Spot the error: (A)She is (B)more smarter (C)than her (D)elder sister.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "B",
+    "answerKey": "B",
+    "correctAnswer": "B",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (B) is the correct answer: B.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_325",
+    "title": "Spot the error: (A)She (B)has wrote (C)three novels (D)so far.",
+    "description": "Spot the error: (A)She (B)has wrote (C)three novels (D)so far.",
+    "question": "Spot the error: (A)She (B)has wrote (C)three novels (D)so far.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "B",
+    "answerKey": "B",
+    "correctAnswer": "B",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (B) is the correct answer: B.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_302",
+    "title": "Spot the error: (A)He works (B)hard to (C)support his (D)family's needs since...",
+    "description": "Spot the error: (A)He works (B)hard to (C)support his (D)family's needs since years.",
+    "question": "Spot the error: (A)He works (B)hard to (C)support his (D)family's needs since years.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "D",
+    "answerKey": "D",
+    "correctAnswer": "D",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (D) is the correct answer: D.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_303",
+    "title": "Spot the error: (A)The committee (B)have decided (C)to postpone (D)the meeting.",
+    "description": "Spot the error: (A)The committee (B)have decided (C)to postpone (D)the meeting.",
+    "question": "Spot the error: (A)The committee (B)have decided (C)to postpone (D)the meeting.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "B",
+    "answerKey": "B",
+    "correctAnswer": "B",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: B.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_304",
+    "title": "Spot the error: (A)Neither John (B)nor his friends (C)was present (D)at the e...",
+    "description": "Spot the error: (A)Neither John (B)nor his friends (C)was present (D)at the event.",
+    "question": "Spot the error: (A)Neither John (B)nor his friends (C)was present (D)at the event.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "answerKey": "C",
+    "correctAnswer": "C",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (C) is the correct answer: C.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_305",
+    "title": "Spot the error: (A)One of the (B)students who (C)was late (D)were punished.",
+    "description": "Spot the error: (A)One of the (B)students who (C)was late (D)were punished.",
+    "question": "Spot the error: (A)One of the (B)students who (C)was late (D)were punished.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "D",
+    "answerKey": "D",
+    "correctAnswer": "D",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (D) is the correct answer: D.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_309",
+    "title": "Spot the error: (A)He told me (B)that he is (C)going to Delhi (D)the next day.",
+    "description": "Spot the error: (A)He told me (B)that he is (C)going to Delhi (D)the next day.",
+    "question": "Spot the error: (A)He told me (B)that he is (C)going to Delhi (D)the next day.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "B",
+    "answerKey": "B",
+    "correctAnswer": "B",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: B.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_310",
+    "title": "Spot the error: (A)She could (B)not help (C)but to cry (D)at the news.",
+    "description": "Spot the error: (A)She could (B)not help (C)but to cry (D)at the news.",
+    "question": "Spot the error: (A)She could (B)not help (C)but to cry (D)at the news.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "answerKey": "C",
+    "correctAnswer": "C",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (C) is the correct answer: C.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_311",
+    "title": "Spot the error: (A)He is (B)too weak (C)that he cannot (D)carry this box.",
+    "description": "Spot the error: (A)He is (B)too weak (C)that he cannot (D)carry this box.",
+    "question": "Spot the error: (A)He is (B)too weak (C)that he cannot (D)carry this box.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "answerKey": "C",
+    "correctAnswer": "C",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (C) is the correct answer: C.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_313",
+    "title": "Spot the error: (A)He is (B)the most (C)unique artist (D)in the country.",
+    "description": "Spot the error: (A)He is (B)the most (C)unique artist (D)in the country.",
+    "question": "Spot the error: (A)He is (B)the most (C)unique artist (D)in the country.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "B",
+    "answerKey": "B",
+    "correctAnswer": "B",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: B.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_314",
+    "title": "Spot the error: (A)No sooner (B)did he arrive (C)when the (D)meeting started.",
+    "description": "Spot the error: (A)No sooner (B)did he arrive (C)when the (D)meeting started.",
+    "question": "Spot the error: (A)No sooner (B)did he arrive (C)when the (D)meeting started.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "answerKey": "C",
+    "correctAnswer": "C",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (C) is the correct answer: C.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_317",
+    "title": "Spot the error: (A)Between the (B)two candidates, (C)she is (D)the most quali...",
+    "description": "Spot the error: (A)Between the (B)two candidates, (C)she is (D)the most qualified.",
+    "question": "Spot the error: (A)Between the (B)two candidates, (C)she is (D)the most qualified.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "D",
+    "answerKey": "D",
+    "correctAnswer": "D",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (D) is the correct answer: D.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_318",
+    "title": "Spot the error: (A)He congratulated (B)me for (C)winning the (D)gold medal.",
+    "description": "Spot the error: (A)He congratulated (B)me for (C)winning the (D)gold medal.",
+    "question": "Spot the error: (A)He congratulated (B)me for (C)winning the (D)gold medal.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "B",
+    "answerKey": "B",
+    "correctAnswer": "B",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: B.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_321",
+    "title": "Spot the error: (A)He denied (B)to have (C)taken the (D)money.",
+    "description": "Spot the error: (A)He denied (B)to have (C)taken the (D)money.",
+    "question": "Spot the error: (A)He denied (B)to have (C)taken the (D)money.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "B",
+    "answerKey": "B",
+    "correctAnswer": "B",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: B.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_323",
+    "title": "Spot the error: (A)She is (B)looking forward (C)to meet (D)her old friends.",
+    "description": "Spot the error: (A)She is (B)looking forward (C)to meet (D)her old friends.",
+    "question": "Spot the error: (A)She is (B)looking forward (C)to meet (D)her old friends.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "answerKey": "C",
+    "correctAnswer": "C",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (C) is the correct answer: C.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_326",
+    "title": "Spot the error: (A)He made (B)me to (C)complete the (D)assignment.",
+    "description": "Spot the error: (A)He made (B)me to (C)complete the (D)assignment.",
+    "question": "Spot the error: (A)He made (B)me to (C)complete the (D)assignment.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "B",
+    "answerKey": "B",
+    "correctAnswer": "B",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: B.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_327",
+    "title": "Spot the error: (A)She is (B)my oldest (C)sister of (D)the two.",
+    "description": "Spot the error: (A)She is (B)my oldest (C)sister of (D)the two.",
+    "question": "Spot the error: (A)She is (B)my oldest (C)sister of (D)the two.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "B",
+    "answerKey": "B",
+    "correctAnswer": "B",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (B) is the correct answer: B.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_328",
+    "title": "Spot the error: (A)He as well as (B)his friends (C)are responsible (D)for thi...",
+    "description": "Spot the error: (A)He as well as (B)his friends (C)are responsible (D)for this mistake.",
+    "question": "Spot the error: (A)He as well as (B)his friends (C)are responsible (D)for this mistake.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "answerKey": "C",
+    "correctAnswer": "C",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (C) is the correct answer: C.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_330",
+    "title": "Spot the error: (A)She was (B)too tired (C)that she could (D)not walk further.",
+    "description": "Spot the error: (A)She was (B)too tired (C)that she could (D)not walk further.",
+    "question": "Spot the error: (A)She was (B)too tired (C)that she could (D)not walk further.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "answerKey": "C",
+    "correctAnswer": "C",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (C) is the correct answer: C.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_301",
+    "title": "Spot the error: (A)She goes (B)to the market (C)every Sundays (D)with her mot...",
+    "description": "Spot the error: (A)She goes (B)to the market (C)every Sundays (D)with her mother.",
+    "question": "Spot the error: (A)She goes (B)to the market (C)every Sundays (D)with her mother.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "answerKey": "C",
+    "correctAnswer": "C",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (C) is the correct answer: C.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_306",
+    "title": "Spot the error: (A)He is (B)one of the (C)best student (D)in the class.",
+    "description": "Spot the error: (A)He is (B)one of the (C)best student (D)in the class.",
+    "question": "Spot the error: (A)He is (B)one of the (C)best student (D)in the class.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "answerKey": "C",
+    "correctAnswer": "C",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (C) is the correct answer: C.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_307",
+    "title": "Spot the error: (A)She bought (B)a very expensive (C)furnitures (D)for her home.",
+    "description": "Spot the error: (A)She bought (B)a very expensive (C)furnitures (D)for her home.",
+    "question": "Spot the error: (A)She bought (B)a very expensive (C)furnitures (D)for her home.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "answerKey": "C",
+    "correctAnswer": "C",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (C) is the correct answer: C.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_308",
+    "title": "Spot the error: (A)He has been (B)working here (C)since (D)three years.",
+    "description": "Spot the error: (A)He has been (B)working here (C)since (D)three years.",
+    "question": "Spot the error: (A)He has been (B)working here (C)since (D)three years.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "answerKey": "C",
+    "correctAnswer": "C",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (C) is the correct answer: C.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_312",
+    "title": "Spot the error: (A)She has (B)lived in this (C)city since (D)ten years.",
+    "description": "Spot the error: (A)She has (B)lived in this (C)city since (D)ten years.",
+    "question": "Spot the error: (A)She has (B)lived in this (C)city since (D)ten years.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "answerKey": "C",
+    "correctAnswer": "C",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (C) is the correct answer: C.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_315",
+    "title": "Spot the error: (A)The news (B)about the accident (C)were (D)shocking.",
+    "description": "Spot the error: (A)The news (B)about the accident (C)were (D)shocking.",
+    "question": "Spot the error: (A)The news (B)about the accident (C)were (D)shocking.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "answerKey": "C",
+    "correctAnswer": "C",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (C) is the correct answer: C.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_316",
+    "title": "Spot the error: (A)I am (B)used to (C)sleep (D)late at night.",
+    "description": "Spot the error: (A)I am (B)used to (C)sleep (D)late at night.",
+    "question": "Spot the error: (A)I am (B)used to (C)sleep (D)late at night.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "answerKey": "C",
+    "correctAnswer": "C",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (C) is the correct answer: C.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_319",
+    "title": "Spot the error: (A)Despite of (B)his efforts, (C)he could not (D)pass the exam.",
+    "description": "Spot the error: (A)Despite of (B)his efforts, (C)he could not (D)pass the exam.",
+    "question": "Spot the error: (A)Despite of (B)his efforts, (C)he could not (D)pass the exam.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "A",
+    "answerKey": "A",
+    "correctAnswer": "A",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: A.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_322",
+    "title": "Spot the error: (A)They discussed (B)about the (C)plan for (D)the new project.",
+    "description": "Spot the error: (A)They discussed (B)about the (C)plan for (D)the new project.",
+    "question": "Spot the error: (A)They discussed (B)about the (C)plan for (D)the new project.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "B",
+    "answerKey": "B",
+    "correctAnswer": "B",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: B.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_324",
+    "title": "Spot the error: (A)He is (B)good in (C)both science (D)and mathematics.",
+    "description": "Spot the error: (A)He is (B)good in (C)both science (D)and mathematics.",
+    "question": "Spot the error: (A)He is (B)good in (C)both science (D)and mathematics.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "B",
+    "answerKey": "B",
+    "correctAnswer": "B",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: B.",
+    "topic": "error-spotting",
+    "topicName": "Error Spotting",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

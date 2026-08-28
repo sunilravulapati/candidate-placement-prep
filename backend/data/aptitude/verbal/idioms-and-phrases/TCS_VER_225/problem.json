@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_225",
+  "slug": "tcs-ver-225",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "What does 'it takes two to tango' mean?",
+  "description": "What does 'it takes two to tango' mean?",
+  "question": "What does 'it takes two to tango' mean?",
+  "options": [
+    "Both parties are responsible for a conflict",
+    "Dance alone",
+    "Need music",
+    "One person is wrong"
+  ],
+  "optionsMap": {
+    "A": "Both parties are responsible for a conflict",
+    "B": "Dance alone",
+    "C": "Need music",
+    "D": "One person is wrong"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Both parties are responsible for a conflict",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

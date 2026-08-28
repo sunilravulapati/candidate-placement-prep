@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_280",
+  "slug": "tcs-log-280",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Direction: Going South 2km, turn left 3km, turn left 2km. Direction now?",
+  "description": "Direction: Going South 2km, turn left 3km, turn left 2km. Direction now?",
+  "question": "Direction: Going South 2km, turn left 3km, turn left 2km. Direction now?",
+  "options": [
+    "North",
+    "East",
+    "South",
+    "West"
+  ],
+  "optionsMap": {
+    "A": "North",
+    "B": "East",
+    "C": "South",
+    "D": "West"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "North",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

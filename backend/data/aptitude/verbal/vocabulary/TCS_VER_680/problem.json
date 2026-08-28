@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_680",
+  "slug": "tcs-ver-680",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Idiom: 'A blessing in disguise' means?",
+  "description": "Idiom: 'A blessing in disguise' means?",
+  "question": "Idiom: 'A blessing in disguise' means?",
+  "options": [
+    "Something seemingly bad that turns out good",
+    "A hidden curse",
+    "A double blessing",
+    "A religious event"
+  ],
+  "optionsMap": {
+    "A": "Something seemingly bad that turns out good",
+    "B": "A hidden curse",
+    "C": "A double blessing",
+    "D": "A religious event"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Something seemingly bad that turns out good",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

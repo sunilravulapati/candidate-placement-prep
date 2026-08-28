@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_388",
+  "slug": "tcs-apt-388",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Age of A is 3/5 of B. After 5 years, sum of ages = 50. Find A's age now.",
+  "description": "Age of A is 3/5 of B. After 5 years, sum of ages = 50. Find A's age now.",
+  "question": "Age of A is 3/5 of B. After 5 years, sum of ages = 50. Find A's age now.",
+  "options": [
+    "15",
+    "12",
+    "18",
+    "20"
+  ],
+  "optionsMap": {
+    "A": "15",
+    "B": "12",
+    "C": "18",
+    "D": "20"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "15",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

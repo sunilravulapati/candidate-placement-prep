@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_585",
+  "slug": "tcs-apt-585",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Angles of parallelogram: one angle is 70°. Adjacent angle?",
+  "description": "Angles of parallelogram: one angle is 70°. Adjacent angle?",
+  "question": "Angles of parallelogram: one angle is 70°. Adjacent angle?",
+  "options": [
+    "110°",
+    "70°",
+    "120°",
+    "90°"
+  ],
+  "optionsMap": {
+    "A": "110°",
+    "B": "70°",
+    "C": "120°",
+    "D": "90°"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "110°",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

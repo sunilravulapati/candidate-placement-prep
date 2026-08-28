@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_271",
+  "slug": "tcs-log-271",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Blood relation: A's father is B's son. How is A related to B?",
+  "description": "Blood relation: A's father is B's son. How is A related to B?",
+  "question": "Blood relation: A's father is B's son. How is A related to B?",
+  "options": [
+    "Grandson",
+    "Son",
+    "Nephew",
+    "Brother"
+  ],
+  "optionsMap": {
+    "A": "Grandson",
+    "B": "Son",
+    "C": "Nephew",
+    "D": "Brother"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Grandson",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

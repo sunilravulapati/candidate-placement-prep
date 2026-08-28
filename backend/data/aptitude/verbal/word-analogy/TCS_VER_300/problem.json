@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_300",
+  "slug": "tcs-ver-300",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "word-analogy",
+  "topicName": "Word Analogy",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Complete the analogy: Cartographer : Maps :: Choreographer : ?",
+  "description": "Complete the analogy: Cartographer : Maps :: Choreographer : ?",
+  "question": "Complete the analogy: Cartographer : Maps :: Choreographer : ?",
+  "options": [
+    "Dances",
+    "Songs",
+    "Films",
+    "Books"
+  ],
+  "optionsMap": {
+    "A": "Dances",
+    "B": "Songs",
+    "C": "Films",
+    "D": "Books"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Dances",
+  "tags": [
+    "verbal",
+    "word-analogy"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_245",
+  "slug": "tcs-log-245",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number series: 7, 14, 28, 56, ?",
+  "description": "Number series: 7, 14, 28, 56, ?",
+  "question": "Number series: 7, 14, 28, 56, ?",
+  "options": [
+    "112",
+    "84",
+    "98",
+    "100"
+  ],
+  "optionsMap": {
+    "A": "112",
+    "B": "84",
+    "C": "98",
+    "D": "100"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "112",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_224",
+  "slug": "tcs-apt-224",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A train travels 360 km in 4 hours. What is its speed in km/h?",
+  "description": "A train travels 360 km in 4 hours. What is its speed in km/h?",
+  "question": "A train travels 360 km in 4 hours. What is its speed in km/h?",
+  "options": [
+    "90",
+    "80",
+    "100",
+    "70"
+  ],
+  "optionsMap": {
+    "A": "90",
+    "B": "80",
+    "C": "100",
+    "D": "70"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "90",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

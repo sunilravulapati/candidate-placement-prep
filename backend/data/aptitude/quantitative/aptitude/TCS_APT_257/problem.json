@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_257",
+  "slug": "tcs-apt-257",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Average of 5 numbers is 27. If one number is 32, find avg of remaining 4.",
+  "description": "Average of 5 numbers is 27. If one number is 32, find avg of remaining 4.",
+  "question": "Average of 5 numbers is 27. If one number is 32, find avg of remaining 4.",
+  "options": [
+    "25.75",
+    "26",
+    "24.5",
+    "27"
+  ],
+  "optionsMap": {
+    "A": "25.75",
+    "B": "26",
+    "C": "24.5",
+    "D": "27"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "25.75",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

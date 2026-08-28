@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_168",
+  "slug": "tcs-ver-168",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "PASSAGE: The human brain is arguably the most complex structure in the known ...",
+  "description": "PASSAGE: The human brain is arguably the most complex structure in the known universe. Comprising approximately 86 billion neuron... Q: Which technology is mentioned in relation to modern neuroscience?",
+  "question": "PASSAGE: The human brain is arguably the most complex structure in the known universe. Comprising approximately 86 billion neuron... Q: Which technology is mentioned in relation to modern neuroscience?",
+  "options": [
+    "fMRI",
+    "X-ray",
+    "CT scan alone",
+    "Blood tests"
+  ],
+  "optionsMap": {
+    "A": "fMRI",
+    "B": "X-ray",
+    "C": "CT scan alone",
+    "D": "Blood tests"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "fMRI",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

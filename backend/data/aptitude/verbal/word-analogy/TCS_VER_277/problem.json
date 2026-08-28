@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_277",
+  "slug": "tcs-ver-277",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "word-analogy",
+  "topicName": "Word Analogy",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Complete the analogy: Telescope : Stars :: Microscope : ?",
+  "description": "Complete the analogy: Telescope : Stars :: Microscope : ?",
+  "question": "Complete the analogy: Telescope : Stars :: Microscope : ?",
+  "options": [
+    "Germs",
+    "Planets",
+    "Oceans",
+    "Mountains"
+  ],
+  "optionsMap": {
+    "A": "Germs",
+    "B": "Planets",
+    "C": "Oceans",
+    "D": "Mountains"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Germs",
+  "tags": [
+    "verbal",
+    "word-analogy"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

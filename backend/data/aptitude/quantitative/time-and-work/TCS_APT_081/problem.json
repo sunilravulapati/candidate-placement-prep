@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_081",
+  "slug": "tcs-apt-081",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "time-and-work",
+  "topicName": "Time and Work",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Pipe A fills a tank in 40 minutes and Pipe B empties it in 50 minutes. If bot...",
+  "description": "Pipe A fills a tank in 40 minutes and Pipe B empties it in 50 minutes. If both are open simultaneously, when will the tank be full?",
+  "question": "Pipe A fills a tank in 40 minutes and Pipe B empties it in 50 minutes. If both are open simultaneously, when will the tank be full?",
+  "options": [
+    "200 minutes",
+    "180 minutes",
+    "160 minutes",
+    "240 minutes"
+  ],
+  "optionsMap": {
+    "A": "200 minutes",
+    "B": "180 minutes",
+    "C": "160 minutes",
+    "D": "240 minutes"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "200 minutes",
+  "tags": [
+    "quantitative",
+    "time-and-work"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

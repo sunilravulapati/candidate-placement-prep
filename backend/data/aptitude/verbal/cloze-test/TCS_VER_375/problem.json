@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_375",
+  "slug": "tcs-ver-375",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "cloze-test",
+  "topicName": "Cloze Test",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Scientists have long _____ (1) the idea that humans are the only species capa...",
+  "description": "Scientists have long _____ (1) the idea that humans are the only species capable of complex problem-solving. Recent studies, however, have _____ (2) that crows, dolphins, and elephants also exhibit remarkable _____ (3). SELECT WORD FOR BLANK (1):",
+  "question": "Scientists have long _____ (1) the idea that humans are the only species capable of complex problem-solving. Recent studies, however, have _____ (2) that crows, dolphins, and elephants also exhibit remarkable _____ (3). SELECT WORD FOR BLANK (1):",
+  "options": [
+    "held",
+    "forgotten",
+    "abandoned",
+    "dismissed"
+  ],
+  "optionsMap": {
+    "A": "held",
+    "B": "forgotten",
+    "C": "abandoned",
+    "D": "dismissed"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "held",
+  "tags": [
+    "verbal",
+    "cloze-test"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

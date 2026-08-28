@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_436",
+  "slug": "tcs-log-436",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Pattern: 2,3,5,8,13,21,__?",
+  "description": "Pattern: 2,3,5,8,13,21,__?",
+  "question": "Pattern: 2,3,5,8,13,21,__?",
+  "options": [
+    "34",
+    "30",
+    "32",
+    "28"
+  ],
+  "optionsMap": {
+    "A": "34",
+    "B": "30",
+    "C": "32",
+    "D": "28"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "34",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

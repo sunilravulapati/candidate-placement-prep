@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_219",
+  "slug": "tcs-ver-219",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "What does 'under the weather' mean?",
+  "description": "What does 'under the weather' mean?",
+  "question": "What does 'under the weather' mean?",
+  "options": [
+    "Feeling ill",
+    "Outdoors",
+    "Happy",
+    "Confused"
+  ],
+  "optionsMap": {
+    "A": "Feeling ill",
+    "B": "Outdoors",
+    "C": "Happy",
+    "D": "Confused"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Feeling ill",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

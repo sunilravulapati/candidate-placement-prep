@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_674",
+  "slug": "tcs-ver-674",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "One word: Science of studying the mind",
+  "description": "One word: Science of studying the mind",
+  "question": "One word: Science of studying the mind",
+  "options": [
+    "Psychology",
+    "Sociology",
+    "Anthropology",
+    "Physiology"
+  ],
+  "optionsMap": {
+    "A": "Psychology",
+    "B": "Sociology",
+    "C": "Anthropology",
+    "D": "Physiology"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Psychology",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

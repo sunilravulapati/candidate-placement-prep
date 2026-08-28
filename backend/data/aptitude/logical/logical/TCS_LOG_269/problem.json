@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_269",
+  "slug": "tcs-log-269",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Coding: If FLOWER = 67, then PLANT = ?",
+  "description": "Coding: If FLOWER = 67, then PLANT = ?",
+  "question": "Coding: If FLOWER = 67, then PLANT = ?",
+  "options": [
+    "63",
+    "65",
+    "61",
+    "67"
+  ],
+  "optionsMap": {
+    "A": "63",
+    "B": "65",
+    "C": "61",
+    "D": "67"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "63",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

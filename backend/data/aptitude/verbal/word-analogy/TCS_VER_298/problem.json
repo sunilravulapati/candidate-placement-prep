@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_298",
+  "slug": "tcs-ver-298",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "word-analogy",
+  "topicName": "Word Analogy",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Complete the analogy: Regicide : King :: Patricide : ?",
+  "description": "Complete the analogy: Regicide : King :: Patricide : ?",
+  "question": "Complete the analogy: Regicide : King :: Patricide : ?",
+  "options": [
+    "Father",
+    "Mother",
+    "Sibling",
+    "Child"
+  ],
+  "optionsMap": {
+    "A": "Father",
+    "B": "Mother",
+    "C": "Sibling",
+    "D": "Child"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Father",
+  "tags": [
+    "verbal",
+    "word-analogy"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

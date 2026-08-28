@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_269",
+  "slug": "tcs-ver-269",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "sentence-improvement",
+  "topicName": "Sentence Improvement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Improve the underlined part of the sentence: 'He was accused for stealing.'",
+  "description": "Improve the underlined part of the sentence: 'He was accused for stealing.'",
+  "question": "Improve the underlined part of the sentence: 'He was accused for stealing.'",
+  "options": [
+    "accused of",
+    "accused with",
+    "accused at",
+    "No improvement"
+  ],
+  "optionsMap": {
+    "A": "accused of",
+    "B": "accused with",
+    "C": "accused at",
+    "D": "No improvement"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "accused of",
+  "tags": [
+    "verbal",
+    "sentence-improvement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

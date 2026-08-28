@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_280",
+  "slug": "tcs-ver-280",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "word-analogy",
+  "topicName": "Word Analogy",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Complete the analogy: Marathon : Race :: Sonnet : ?",
+  "description": "Complete the analogy: Marathon : Race :: Sonnet : ?",
+  "question": "Complete the analogy: Marathon : Race :: Sonnet : ?",
+  "options": [
+    "Poem",
+    "Novel",
+    "Essay",
+    "Speech"
+  ],
+  "optionsMap": {
+    "A": "Poem",
+    "B": "Novel",
+    "C": "Essay",
+    "D": "Speech"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Poem",
+  "tags": [
+    "verbal",
+    "word-analogy"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

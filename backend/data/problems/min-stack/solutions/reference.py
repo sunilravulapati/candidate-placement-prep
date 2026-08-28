@@ -1,5 +1,5 @@
 class Solution:
-    def minStackDesign(self, nums: list[int]) -> int:
+    def minStack(self, nums: list[int]) -> int:
         n = len(nums)
         dp = [0] * (n + 1)
         for i in range(1, n + 1):

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_052",
+  "slug": "tcs-log-052",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "blood-relations",
+  "topicName": "Blood Relations",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "If P is Q's father, Q is R's mother, R is S's sibling, then P is S's?",
+  "description": "If P is Q's father, Q is R's mother, R is S's sibling, then P is S's?",
+  "question": "If P is Q's father, Q is R's mother, R is S's sibling, then P is S's?",
+  "options": [
+    "Grandfather",
+    "Father",
+    "Uncle",
+    "Grandmother"
+  ],
+  "optionsMap": {
+    "A": "Grandfather",
+    "B": "Father",
+    "C": "Uncle",
+    "D": "Grandmother"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Grandfather",
+  "tags": [
+    "logical",
+    "blood-relations"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_109",
+  "slug": "tcs-ver-109",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The _____ negotiations finally led to a peace agreement after years of war.",
+  "description": "The _____ negotiations finally led to a peace agreement after years of war.",
+  "question": "The _____ negotiations finally led to a peace agreement after years of war.",
+  "options": [
+    "protracted",
+    "brief",
+    "quick",
+    "instant"
+  ],
+  "optionsMap": {
+    "A": "protracted",
+    "B": "brief",
+    "C": "quick",
+    "D": "instant"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "protracted",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

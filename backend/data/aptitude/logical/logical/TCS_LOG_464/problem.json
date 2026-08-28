@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_464",
+  "slug": "tcs-log-464",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Age: A is 10yr older than B. Sum of ages = 50. A's age?",
+  "description": "Age: A is 10yr older than B. Sum of ages = 50. A's age?",
+  "question": "Age: A is 10yr older than B. Sum of ages = 50. A's age?",
+  "options": [
+    "30",
+    "25",
+    "35",
+    "20"
+  ],
+  "optionsMap": {
+    "A": "30",
+    "B": "25",
+    "C": "35",
+    "D": "20"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "30",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

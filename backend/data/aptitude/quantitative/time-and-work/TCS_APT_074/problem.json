@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_074",
+  "slug": "tcs-apt-074",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "time-and-work",
+  "topicName": "Time and Work",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "A can do a piece of work in 10 days and B in 15 days. How long will they take...",
+  "description": "A can do a piece of work in 10 days and B in 15 days. How long will they take working together?",
+  "question": "A can do a piece of work in 10 days and B in 15 days. How long will they take working together?",
+  "options": [
+    "6 days",
+    "5 days",
+    "7 days",
+    "8 days"
+  ],
+  "optionsMap": {
+    "A": "6 days",
+    "B": "5 days",
+    "C": "7 days",
+    "D": "8 days"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "6 days",
+  "tags": [
+    "quantitative",
+    "time-and-work"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

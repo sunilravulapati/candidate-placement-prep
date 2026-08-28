@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_463",
+  "slug": "tcs-log-463",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Coding: Each letter replaced by next. BAD = ?",
+  "description": "Coding: Each letter replaced by next. BAD = ?",
+  "question": "Coding: Each letter replaced by next. BAD = ?",
+  "options": [
+    "CBE",
+    "BCE",
+    "ACE",
+    "CAE"
+  ],
+  "optionsMap": {
+    "A": "CBE",
+    "B": "BCE",
+    "C": "ACE",
+    "D": "CAE"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "CBE",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

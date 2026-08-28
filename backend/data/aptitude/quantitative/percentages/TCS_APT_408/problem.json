@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_408",
+  "slug": "tcs-apt-408",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "percentages",
+  "topicName": "Percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Price of sugar rises by 25%. By how much % must consumption fall to keep expe...",
+  "description": "Price of sugar rises by 25%. By how much % must consumption fall to keep expenditure unchanged?",
+  "question": "Price of sugar rises by 25%. By how much % must consumption fall to keep expenditure unchanged?",
+  "options": [
+    "20%",
+    "25%",
+    "16.67%",
+    "30%"
+  ],
+  "optionsMap": {
+    "A": "20%",
+    "B": "25%",
+    "C": "16.67%",
+    "D": "30%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "20%",
+  "tags": [
+    "quantitative",
+    "percentages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

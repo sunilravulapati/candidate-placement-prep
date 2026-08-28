@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_124",
+  "slug": "tcs-log-124",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "classification",
+  "topicName": "Classification",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find the odd one: Python, Java, HTML, C++, JavaScript",
+  "description": "Find the odd one: Python, Java, HTML, C++, JavaScript",
+  "question": "Find the odd one: Python, Java, HTML, C++, JavaScript",
+  "options": [
+    "HTML",
+    "Java",
+    "Python",
+    "C++"
+  ],
+  "optionsMap": {
+    "A": "HTML",
+    "B": "Java",
+    "C": "Python",
+    "D": "C++"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "HTML",
+  "tags": [
+    "logical",
+    "classification"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

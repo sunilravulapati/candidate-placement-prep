@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_067",
+  "slug": "tcs-apt-067",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "speed-and-distance",
+  "topicName": "Speed and Distance",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Sound travels at 332 m/s. If lightning is seen 3 seconds before thunder, how ...",
+  "description": "Sound travels at 332 m/s. If lightning is seen 3 seconds before thunder, how far away is the lightning?",
+  "question": "Sound travels at 332 m/s. If lightning is seen 3 seconds before thunder, how far away is the lightning?",
+  "options": [
+    "0.996 km",
+    "1 km",
+    "1.5 km",
+    "0.5 km"
+  ],
+  "optionsMap": {
+    "A": "0.996 km",
+    "B": "1 km",
+    "C": "1.5 km",
+    "D": "0.5 km"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "0.996 km",
+  "tags": [
+    "quantitative",
+    "speed-and-distance"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

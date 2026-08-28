@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_054",
+  "slug": "tcs-apt-054",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "compound-interest",
+  "topicName": "Compound Interest",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "The difference between CI and SI on Rs.5000 for 2 years at 4% is:",
+  "description": "The difference between CI and SI on Rs.5000 for 2 years at 4% is:",
+  "question": "The difference between CI and SI on Rs.5000 for 2 years at 4% is:",
+  "options": [
+    "Rs.8",
+    "Rs.10",
+    "Rs.12",
+    "Rs.6"
+  ],
+  "optionsMap": {
+    "A": "Rs.8",
+    "B": "Rs.10",
+    "C": "Rs.12",
+    "D": "Rs.6"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.8",
+  "tags": [
+    "quantitative",
+    "compound-interest"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

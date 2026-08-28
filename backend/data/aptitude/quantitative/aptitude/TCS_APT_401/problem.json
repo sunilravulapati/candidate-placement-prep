@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_401",
+  "slug": "tcs-apt-401",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Water in cylinder of radius 3m and height 10m. Volume?",
+  "description": "Water in cylinder of radius 3m and height 10m. Volume?",
+  "question": "Water in cylinder of radius 3m and height 10m. Volume?",
+  "options": [
+    "90π m3",
+    "30π m3",
+    "270π m3",
+    "9π m3"
+  ],
+  "optionsMap": {
+    "A": "90π m3",
+    "B": "30π m3",
+    "C": "270π m3",
+    "D": "9π m3"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "90π m3",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

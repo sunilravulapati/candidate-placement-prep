@@ -1,0 +1,422 @@
+[
+  {
+    "id": "TCS_LOG_121",
+    "title": "Find the odd one: Rose, Lily, Jasmine, Lotus, Petal",
+    "description": "Find the odd one: Rose, Lily, Jasmine, Lotus, Petal",
+    "question": "Find the odd one: Rose, Lily, Jasmine, Lotus, Petal",
+    "options": [
+      "Petal",
+      "Rose",
+      "Lily",
+      "Jasmine"
+    ],
+    "answer": "Petal",
+    "answerKey": "A",
+    "correctAnswer": "Petal",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Petal.",
+    "topic": "classification",
+    "topicName": "Classification",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_122",
+    "title": "Find the odd one: Dog, Cat, Horse, Snake, Elephant",
+    "description": "Find the odd one: Dog, Cat, Horse, Snake, Elephant",
+    "question": "Find the odd one: Dog, Cat, Horse, Snake, Elephant",
+    "options": [
+      "Snake",
+      "Dog",
+      "Cat",
+      "Horse"
+    ],
+    "answer": "Snake",
+    "answerKey": "A",
+    "correctAnswer": "Snake",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Snake.",
+    "topic": "classification",
+    "topicName": "Classification",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_123",
+    "title": "Find the odd one: Violin, Guitar, Flute, Sitar, Veena",
+    "description": "Find the odd one: Violin, Guitar, Flute, Sitar, Veena",
+    "question": "Find the odd one: Violin, Guitar, Flute, Sitar, Veena",
+    "options": [
+      "Flute",
+      "Violin",
+      "Guitar",
+      "Sitar"
+    ],
+    "answer": "Flute",
+    "answerKey": "A",
+    "correctAnswer": "Flute",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Flute.",
+    "topic": "classification",
+    "topicName": "Classification",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_125",
+    "title": "Find the odd one: Mercury, Venus, Moon, Mars, Saturn",
+    "description": "Find the odd one: Mercury, Venus, Moon, Mars, Saturn",
+    "question": "Find the odd one: Mercury, Venus, Moon, Mars, Saturn",
+    "options": [
+      "Moon",
+      "Mercury",
+      "Venus",
+      "Mars"
+    ],
+    "answer": "Moon",
+    "answerKey": "A",
+    "correctAnswer": "Moon",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Moon.",
+    "topic": "classification",
+    "topicName": "Classification",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_129",
+    "title": "Find the odd one: Triangle, Circle, Square, Cube, Rectangle",
+    "description": "Find the odd one: Triangle, Circle, Square, Cube, Rectangle",
+    "question": "Find the odd one: Triangle, Circle, Square, Cube, Rectangle",
+    "options": [
+      "Cube",
+      "Triangle",
+      "Circle",
+      "Square"
+    ],
+    "answer": "Cube",
+    "answerKey": "A",
+    "correctAnswer": "Cube",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Cube.",
+    "topic": "classification",
+    "topicName": "Classification",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_130",
+    "title": "Find the odd one: Nitrogen, Oxygen, Hydrogen, Carbon dioxide, Argon",
+    "description": "Find the odd one: Nitrogen, Oxygen, Hydrogen, Carbon dioxide, Argon",
+    "question": "Find the odd one: Nitrogen, Oxygen, Hydrogen, Carbon dioxide, Argon",
+    "options": [
+      "Carbon dioxide",
+      "Nitrogen",
+      "Oxygen",
+      "Hydrogen"
+    ],
+    "answer": "Carbon dioxide",
+    "answerKey": "A",
+    "correctAnswer": "Carbon dioxide",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Carbon dioxide.",
+    "topic": "classification",
+    "topicName": "Classification",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_131",
+    "title": "Find the odd one: 2, 3, 5, 7, 9, 11",
+    "description": "Find the odd one: 2, 3, 5, 7, 9, 11",
+    "question": "Find the odd one: 2, 3, 5, 7, 9, 11",
+    "options": [
+      "9",
+      "2",
+      "3",
+      "5"
+    ],
+    "answer": "9",
+    "answerKey": "A",
+    "correctAnswer": "9",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 9.",
+    "topic": "classification",
+    "topicName": "Classification",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_135",
+    "title": "Find the odd one: Hammer, Screwdriver, Chisel, Wrench, Thermometer",
+    "description": "Find the odd one: Hammer, Screwdriver, Chisel, Wrench, Thermometer",
+    "question": "Find the odd one: Hammer, Screwdriver, Chisel, Wrench, Thermometer",
+    "options": [
+      "Thermometer",
+      "Hammer",
+      "Screwdriver",
+      "Chisel"
+    ],
+    "answer": "Thermometer",
+    "answerKey": "A",
+    "correctAnswer": "Thermometer",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Thermometer.",
+    "topic": "classification",
+    "topicName": "Classification",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_132",
+    "title": "Find the odd one: Mango, Banana, Orange, Pomegranate, Guava",
+    "description": "Find the odd one: Mango, Banana, Orange, Pomegranate, Guava",
+    "question": "Find the odd one: Mango, Banana, Orange, Pomegranate, Guava",
+    "options": [
+      "Pomegranate",
+      "Mango",
+      "Banana",
+      "Orange"
+    ],
+    "answer": "Pomegranate",
+    "answerKey": "A",
+    "correctAnswer": "Pomegranate",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Pomegranate.",
+    "topic": "classification",
+    "topicName": "Classification",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_133",
+    "title": "Find the odd one: Keyboard, Mouse, Monitor, CPU, Printer, Scanner",
+    "description": "Find the odd one: Keyboard, Mouse, Monitor, CPU, Printer, Scanner",
+    "question": "Find the odd one: Keyboard, Mouse, Monitor, CPU, Printer, Scanner",
+    "options": [
+      "Printer or Scanner",
+      "Keyboard",
+      "Mouse",
+      "Monitor"
+    ],
+    "answer": "Printer or Scanner",
+    "answerKey": "A",
+    "correctAnswer": "Printer or Scanner",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Printer or Scanner.",
+    "topic": "classification",
+    "topicName": "Classification",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_134",
+    "title": "Find the odd one: BFKO, CGJN, DHLO, EIMQ",
+    "description": "Find the odd one: BFKO, CGJN, DHLO, EIMQ",
+    "question": "Find the odd one: BFKO, CGJN, DHLO, EIMQ",
+    "options": [
+      "DHLO",
+      "BFKO",
+      "CGJN",
+      "EIMQ"
+    ],
+    "answer": "DHLO",
+    "answerKey": "A",
+    "correctAnswer": "DHLO",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: DHLO.",
+    "topic": "classification",
+    "topicName": "Classification",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_124",
+    "title": "Find the odd one: Python, Java, HTML, C++, JavaScript",
+    "description": "Find the odd one: Python, Java, HTML, C++, JavaScript",
+    "question": "Find the odd one: Python, Java, HTML, C++, JavaScript",
+    "options": [
+      "HTML",
+      "Java",
+      "Python",
+      "C++"
+    ],
+    "answer": "HTML",
+    "answerKey": "A",
+    "correctAnswer": "HTML",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: HTML.",
+    "topic": "classification",
+    "topicName": "Classification",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_127",
+    "title": "Find the odd one: Nephew, Brother, Son, Cousin, Aunt",
+    "description": "Find the odd one: Nephew, Brother, Son, Cousin, Aunt",
+    "question": "Find the odd one: Nephew, Brother, Son, Cousin, Aunt",
+    "options": [
+      "Aunt",
+      "Nephew",
+      "Brother",
+      "Son"
+    ],
+    "answer": "Aunt",
+    "answerKey": "A",
+    "correctAnswer": "Aunt",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Aunt.",
+    "topic": "classification",
+    "topicName": "Classification",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_128",
+    "title": "Find the odd one: Carrot, Potato, Brinjal, Turnip, Radish",
+    "description": "Find the odd one: Carrot, Potato, Brinjal, Turnip, Radish",
+    "question": "Find the odd one: Carrot, Potato, Brinjal, Turnip, Radish",
+    "options": [
+      "Brinjal",
+      "Carrot",
+      "Potato",
+      "Turnip"
+    ],
+    "answer": "Brinjal",
+    "answerKey": "A",
+    "correctAnswer": "Brinjal",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Brinjal.",
+    "topic": "classification",
+    "topicName": "Classification",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

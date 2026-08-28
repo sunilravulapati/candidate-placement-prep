@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_241",
+  "slug": "tcs-log-241",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Number series: 2, 5, 10, 17, 26, ?",
+  "description": "Number series: 2, 5, 10, 17, 26, ?",
+  "question": "Number series: 2, 5, 10, 17, 26, ?",
+  "options": [
+    "37",
+    "35",
+    "38",
+    "36"
+  ],
+  "optionsMap": {
+    "A": "37",
+    "B": "35",
+    "C": "38",
+    "D": "36"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "37",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

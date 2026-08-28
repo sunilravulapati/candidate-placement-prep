@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_528",
+  "slug": "tcs-apt-528",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A car is sold for Rs 36000 at 20% profit. Cost price?",
+  "description": "A car is sold for Rs 36000 at 20% profit. Cost price?",
+  "question": "A car is sold for Rs 36000 at 20% profit. Cost price?",
+  "options": [
+    "30000",
+    "32000",
+    "28000",
+    "25000"
+  ],
+  "optionsMap": {
+    "A": "30000",
+    "B": "32000",
+    "C": "28000",
+    "D": "25000"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "30000",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

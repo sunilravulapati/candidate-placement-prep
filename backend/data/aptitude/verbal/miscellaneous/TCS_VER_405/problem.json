@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_405",
+  "slug": "tcs-ver-405",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "miscellaneous",
+  "topicName": "Miscellaneous",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which sentence uses 'principal' correctly?",
+  "description": "Which sentence uses 'principal' correctly?",
+  "question": "Which sentence uses 'principal' correctly?",
+  "options": [
+    "She was the principle reason for success.",
+    "The principal of the school arrived.",
+    "We must follow the principals.",
+    "He abided by a principle reason."
+  ],
+  "optionsMap": {
+    "A": "She was the principle reason for success.",
+    "B": "The principal of the school arrived.",
+    "C": "We must follow the principals.",
+    "D": "He abided by a principle reason."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "The principal of the school arrived.",
+  "tags": [
+    "verbal",
+    "miscellaneous"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

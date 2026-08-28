@@ -95,7 +95,7 @@ export default function DSAStudioDashboard() {
             }
             actions={
               <Link
-                href="/dsa/library"
+                href="/dsa"
                 className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-semibold flex items-center gap-2 transition-colors text-sm"
               >
                 <BookOpen className="w-4 h-4" /> Problem Library
@@ -153,7 +153,7 @@ export default function DSAStudioDashboard() {
                     <>
                       <h3 className="text-xl font-bold text-white mb-2">All caught up!</h3>
                       <p className="text-slate-400 text-sm mb-5 flex-grow">You&apos;ve solved all available problems. More coming soon.</p>
-                      <Link href="/dsa/library" className="w-full py-2.5 rounded-xl bg-emerald-600/20 text-emerald-400 font-semibold flex items-center justify-center gap-2 hover:bg-emerald-600/30 border border-emerald-500/30 transition-all text-sm">
+                      <Link href="/dsa" className="w-full py-2.5 rounded-xl bg-emerald-600/20 text-emerald-400 font-semibold flex items-center justify-center gap-2 hover:bg-emerald-600/30 border border-emerald-500/30 transition-all text-sm">
                         Browse Library <BookOpen className="w-4 h-4" />
                       </Link>
                     </>
@@ -190,7 +190,7 @@ export default function DSAStudioDashboard() {
                     <>
                       <h3 className="text-xl font-bold text-white mb-2">Start a Session</h3>
                       <p className="text-slate-400 text-sm mb-5 flex-grow">Pick any problem and start solving to track your progress here.</p>
-                      <Link href="/dsa/library" className="w-full py-2.5 rounded-xl bg-white text-black font-semibold flex items-center justify-center gap-2 hover:bg-slate-200 transition-colors text-sm">
+                      <Link href="/dsa" className="w-full py-2.5 rounded-xl bg-white text-black font-semibold flex items-center justify-center gap-2 hover:bg-slate-200 transition-colors text-sm">
                         Browse Problems <ChevronRight className="w-4 h-4" />
                       </Link>
                     </>

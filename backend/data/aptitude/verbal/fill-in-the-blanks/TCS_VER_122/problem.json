@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_122",
+  "slug": "tcs-ver-122",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The documentary provided _____ insight into the lives of deep-sea creatures.",
+  "description": "The documentary provided _____ insight into the lives of deep-sea creatures.",
+  "question": "The documentary provided _____ insight into the lives of deep-sea creatures.",
+  "options": [
+    "fascinating",
+    "boring",
+    "dull",
+    "tedious"
+  ],
+  "optionsMap": {
+    "A": "fascinating",
+    "B": "boring",
+    "C": "dull",
+    "D": "tedious"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "fascinating",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

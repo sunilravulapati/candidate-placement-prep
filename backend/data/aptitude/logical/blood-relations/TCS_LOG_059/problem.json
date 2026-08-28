@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_059",
+  "slug": "tcs-log-059",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "blood-relations",
+  "topicName": "Blood Relations",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "P is Q's father. Q is R's sister. S is R's mother. T is S's father. P is T's ___",
+  "description": "P is Q's father. Q is R's sister. S is R's mother. T is S's father. P is T's ___",
+  "question": "P is Q's father. Q is R's sister. S is R's mother. T is S's father. P is T's ___",
+  "options": [
+    "Son-in-law",
+    "Nephew",
+    "Son",
+    "Cousin"
+  ],
+  "optionsMap": {
+    "A": "Son-in-law",
+    "B": "Nephew",
+    "C": "Son",
+    "D": "Cousin"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Son-in-law",
+  "tags": [
+    "logical",
+    "blood-relations"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

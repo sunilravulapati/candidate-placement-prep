@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_123",
+  "slug": "tcs-ver-123",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The company was _____ by its competitors when it refused to innovate.",
+  "description": "The company was _____ by its competitors when it refused to innovate.",
+  "question": "The company was _____ by its competitors when it refused to innovate.",
+  "options": [
+    "overtaken",
+    "supported",
+    "helped",
+    "aided"
+  ],
+  "optionsMap": {
+    "A": "overtaken",
+    "B": "supported",
+    "C": "helped",
+    "D": "aided"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "overtaken",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

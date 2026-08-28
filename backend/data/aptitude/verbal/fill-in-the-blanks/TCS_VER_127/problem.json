@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_127",
+  "slug": "tcs-ver-127",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The manager's _____ attitude made it difficult to work under her.",
+  "description": "The manager's _____ attitude made it difficult to work under her.",
+  "question": "The manager's _____ attitude made it difficult to work under her.",
+  "options": [
+    "authoritarian",
+    "democratic",
+    "lenient",
+    "flexible"
+  ],
+  "optionsMap": {
+    "A": "authoritarian",
+    "B": "democratic",
+    "C": "lenient",
+    "D": "flexible"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "authoritarian",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_632",
+  "slug": "tcs-apt-632",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Train 151m passes platform 201m at 72 km/h. Time?",
+  "description": "Train 151m passes platform 201m at 72 km/h. Time?",
+  "question": "Train 151m passes platform 201m at 72 km/h. Time?",
+  "options": [
+    "17.6s",
+    "14.1s",
+    "20s",
+    "25s"
+  ],
+  "optionsMap": {
+    "A": "17.6s",
+    "B": "14.1s",
+    "C": "20s",
+    "D": "25s"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "17.6s",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

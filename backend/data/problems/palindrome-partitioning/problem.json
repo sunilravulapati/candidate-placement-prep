@@ -2,11 +2,15 @@
   "id": "palindrome-partitioning",
   "schemaVersion": "2.0",
   "contentVersion": "1.1",
-  "importVersion": "64-column-sheet",
-  "lastReviewed": "2026-07-26",
-  "lastModified": "2026-07-26",
+  "importVersion": "stdin-converted-master-v1",
+  "lastReviewed": "2026-08-28",
+  "lastModified": "2026-08-28",
   "author": "PrepGenie Content Team",
   "reviewStatus": "published",
+  "stdinStatus": "OK",
+  "executionStatus": "V1_READY",
+  "isV2Pending": false,
+  "stdinFormatNotes": "Visible Stdin Input 1: s: raw line (no quotes)\nVisible Stdin Input 2: s: raw line (no quotes)\nVisible Stdin Input 3: s: raw line (no quotes)\nHidden Stdin Input 1: s: raw line (no quotes)\nHidden Stdin Input 2: s: raw line (no quotes)\nHidden Stdin Input 3: s: raw line (no quotes)\nHidden Stdin Input 4: s: raw line (no quotes)\nHidden Stdin Input 5: s: raw line (no quotes)",
   "questionNo": 80,
   "slug": "palindrome-partitioning",
   "title": "Palindrome Partitioning",
@@ -38,6 +42,8 @@
     "Core DSA Track -> Backtracking Module"
   ],
   "description": "Partition a string such that every substring is a palindrome.",
+  "inputFormat": "Single line containing the string input",
+  "outputFormat": "Standard output stream containing the computed result.",
   "whyLearnThis": "High frequency medium-level interview question for testing algorithm design and backtracking proficiency.",
   "recognitionClues": "Look for array/string traversal where backtracking properties or sliding boundaries reduce time complexity.",
   "prerequisites": "Backtracking fundamentals, recursion, or hashing",
@@ -65,24 +71,25 @@
     "Goldman Sachs"
   ],
   "constraints": [
-    "1 <= input.length <= 10^5",
-    "-10^9 <= input[i] <= 10^9"
+    "1 <= input length <= 10^5",
+    "Standard execution time limit: 2.0s",
+    "Standard memory limit: 256MB"
   ],
   "examples": [
     {
-      "input": "\"babad\"",
-      "output": "\"bab\"",
-      "explanation": "Sample test 1 for Palindrome Partitioning"
+      "input": "s = \"aab\"",
+      "output": "[[\"a\",\"a\",\"b\"],[\"aa\",\"b\"]]",
+      "explanation": "two palindrome partitions. Expected output: [[\"a\",\"a\",\"b\"],[\"aa\",\"b\"]]"
     },
     {
-      "input": "\"cbbd\"",
-      "output": "\"bb\"",
-      "explanation": "Sample test 2 for Palindrome Partitioning"
+      "input": "s = \"a\"",
+      "output": "[[\"a\"]]",
+      "explanation": "single character. Expected output: [[\"a\"]]"
     },
     {
-      "input": "\"a\"",
-      "output": "\"a\"",
-      "explanation": "Sample test 3 for Palindrome Partitioning"
+      "input": "s = \"efe\"",
+      "output": "[[\"e\",\"f\",\"e\"],[\"efe\"]]",
+      "explanation": "whole palindrome and singles. Expected output: [[\"e\",\"f\",\"e\"],[\"efe\"]]"
     }
   ],
   "hints": [
@@ -112,22 +119,17 @@
       "url": "https://leetcode.com/problems/palindrome-partitioning/"
     }
   ],
-  "inputTemplates": {
-    "python": "# --- 80. Palindrome Partitioning (backtracking) ---\ndef solution(inputs):\n    # Function implementation\n    pass\n\nif __name__ == \"__main__\":\n    import sys\n    # Sample Input: adjust according to problem requirements\n    raw_input = sys.stdin.read().splitlines() if not sys.stdin.isatty() else [\"sample_input_1\", \"sample_input_2\"]\n    print(f\"Input: {raw_input}\")\n    # result = solution(raw_input)\n    # print(f\"Output: {result}\")\n",
-    "cpp": "// --- 80. Palindrome Partitioning (backtracking) ---\n#include <iostream>\n#include <vector>\n#include <string>\n#include <sstream>\nusing namespace std;\n\nclass Solution {\npublic:\n    void solve() {\n        // Implement driver and input logic\n    }\n};\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    Solution sol;\n    sol.solve();\n    return 0;\n}\n",
-    "java": "// --- 80. Palindrome Partitioning (backtracking) ---\nimport java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        // Parse input here\n        System.out.println(\"Ready for input: \" + \"Palindrome Partitioning\");\n    }\n}\n",
-    "javascript": "// --- 80. Palindrome Partitioning (backtracking) ---\nconst fs = require('fs');\n\nfunction solve(input) {\n  // Implement standard logic\n  return input;\n}\n\nconst input = fs.readFileSync('/dev/stdin', 'utf-8').trim().split('\\n');\nconsole.log(solve(input));\n",
-    "typescript": "// --- 80. Palindrome Partitioning (backtracking) ---\nimport * as fs from 'fs';\n\nfunction solveTS(inputData: string[]): any {\n  // Implement TypeScript logic\n  return inputData;\n}\n\nconst rawData: string[] = fs.readFileSync(0, 'utf-8').trim().split('\\n');\nconsole.log(solveTS(rawData));\n"
-  },
   "inputHelper": {
-    "inputFormat": "Input Format for Palindrome Partitioning:\nStandard competitive programming stdin input stream.",
-    "sampleInput": "\"babad\"",
-    "codeTemplates": {
-      "python": "# --- 80. Palindrome Partitioning (backtracking) ---\ndef solution(inputs):\n    # Function implementation\n    pass\n\nif __name__ == \"__main__\":\n    import sys\n    # Sample Input: adjust according to problem requirements\n    raw_input = sys.stdin.read().splitlines() if not sys.stdin.isatty() else [\"sample_input_1\", \"sample_input_2\"]\n    print(f\"Input: {raw_input}\")\n    # result = solution(raw_input)\n    # print(f\"Output: {result}\")\n",
-      "cpp": "// --- 80. Palindrome Partitioning (backtracking) ---\n#include <iostream>\n#include <vector>\n#include <string>\n#include <sstream>\nusing namespace std;\n\nclass Solution {\npublic:\n    void solve() {\n        // Implement driver and input logic\n    }\n};\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    Solution sol;\n    sol.solve();\n    return 0;\n}\n",
-      "java": "// --- 80. Palindrome Partitioning (backtracking) ---\nimport java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        // Parse input here\n        System.out.println(\"Ready for input: \" + \"Palindrome Partitioning\");\n    }\n}\n",
-      "javascript": "// --- 80. Palindrome Partitioning (backtracking) ---\nconst fs = require('fs');\n\nfunction solve(input) {\n  // Implement standard logic\n  return input;\n}\n\nconst input = fs.readFileSync('/dev/stdin', 'utf-8').trim().split('\\n');\nconsole.log(solve(input));\n",
-      "typescript": "// --- 80. Palindrome Partitioning (backtracking) ---\nimport * as fs from 'fs';\n\nfunction solveTS(inputData: string[]): any {\n  // Implement TypeScript logic\n  return inputData;\n}\n\nconst rawData: string[] = fs.readFileSync(0, 'utf-8').trim().split('\\n');\nconsole.log(solveTS(rawData));\n"
+    "mode": "auto",
+    "inputFormat": "Single line containing the string input",
+    "sampleInput": "aab",
+    "instructions": "Read input from standard input (stdin) and print output to standard output (stdout).",
+    "snippets": {
+      "cpp": "// Read string input\nstring s;\nif (cin >> s) {\n    // Solve problem with s\n}",
+      "python": "# Read string input\nimport sys\n\ns = sys.stdin.read().strip()\nif s:\n    # Solve problem with s\n    pass",
+      "java": "import java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        if (sc.hasNext()) {\n            String s = sc.next();\n            // Solve problem with s\n        }\n    }\n}",
+      "javascript": "const fs = require('fs');\n\nconst s = fs.readFileSync(0, 'utf8').trim();\nif (s) {\n    // Solve problem with s\n}",
+      "typescript": "import * as fs from 'fs';\n\nconst s: string = fs.readFileSync(0, 'utf8').trim();\nif (s) {\n    // Solve problem with s\n}"
     }
   },
   "referenceSolutions": {
@@ -138,44 +140,11 @@
     "typescript": "function palindromePartitioning(nums: number[]): number {\n    const n = nums.length;\n    const dp: number[] = new Array(n + 1).fill(0);\n    for (let i = 1; i <= n; i++) {\n        dp[i] = dp[i - 1] + nums[i - 1];\n    }\n    return dp[n];\n};"
   },
   "starterCode": {
-    "cpp": "class Solution {\npublic:\n    int palindromePartitioning(vector<int>& nums) {\n        \n    }\n};",
-    "python": "class Solution:\n    def palindromePartitioning(self, nums: list[int]) -> int:\n        pass",
-    "java": "class Solution {\n    public int palindromePartitioning(int[] nums) {\n        \n    }\n}",
-    "javascript": "var palindromePartitioning = function(nums) {\n    \n};",
-    "typescript": "function palindromePartitioning(nums: number[]): number {\n    \n};"
-  },
-  "starterMetadata": {
-    "functionName": "palindromePartitioning",
-    "className": "Solution",
-    "returnType": "int",
-    "parameters": [
-      {
-        "name": "nums",
-        "type": "array<int>"
-      }
-    ],
-    "problemType": "FUNCTION"
-  },
-  "executionMetadata": {
-    "problemType": "FUNCTION",
-    "inputType": [
-      "array<int>"
-    ],
-    "outputType": "int",
-    "comparator": "EXACT",
-    "timeLimit": 2,
-    "memoryLimit": 256,
-    "expectedComplexity": {
-      "time": "O(N) or O(N log N)",
-      "space": "O(N) or O(1)"
-    }
-  },
-  "driverMetadata": {
-    "driver": "DEFAULT",
-    "inputSerializers": [
-      "ARRAY_INT"
-    ],
-    "outputSerializer": "INT"
+    "cpp": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    // Read input according to the Input Format\n    // Write solution here\n    return 0;\n}",
+    "python": "def main():\n    # Read input according to the Input Format\n    # Write solution here\n    pass\n\nif __name__ == \"__main__\":\n    main()",
+    "java": "import java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        // Read input according to the Input Format\n        // Write solution here\n    }\n}",
+    "javascript": "const fs = require(\"fs\");\n\nfunction main() {\n    const input = fs.readFileSync(0, \"utf-8\").trim();\n    if (!input) return;\n    // Read input according to the Input Format\n    // Write solution here\n}\n\nmain();",
+    "typescript": "import * as fs from \"fs\";\n\nfunction main() {\n    const input = fs.readFileSync(0, \"utf-8\").trim();\n    if (!input) return;\n    // Read input according to the Input Format\n    // Write solution here\n}\n\nmain();"
   },
   "relationships": {
     "prerequisites": [],
@@ -193,60 +162,84 @@
     {
       "id": "sample-1",
       "classification": "sample",
-      "input": "\"babad\"",
-      "expectedOutput": "\"bab\"",
-      "explanation": "Sample test 1 for Palindrome Partitioning"
+      "displayInput": "s = \"aab\"",
+      "input": "aab",
+      "stdin": "aab",
+      "expectedOutput": "[[\"a\",\"a\",\"b\"],[\"aa\",\"b\"]]",
+      "explanation": "two palindrome partitions. Expected output: [[\"a\",\"a\",\"b\"],[\"aa\",\"b\"]]",
+      "serializationStatus": "compatible"
     },
     {
       "id": "sample-2",
       "classification": "sample",
-      "input": "\"cbbd\"",
-      "expectedOutput": "\"bb\"",
-      "explanation": "Sample test 2 for Palindrome Partitioning"
+      "displayInput": "s = \"a\"",
+      "input": "a",
+      "stdin": "a",
+      "expectedOutput": "[[\"a\"]]",
+      "explanation": "single character. Expected output: [[\"a\"]]",
+      "serializationStatus": "compatible"
     },
     {
       "id": "sample-3",
       "classification": "sample",
-      "input": "\"a\"",
-      "expectedOutput": "\"a\"",
-      "explanation": "Sample test 3 for Palindrome Partitioning"
+      "displayInput": "s = \"efe\"",
+      "input": "efe",
+      "stdin": "efe",
+      "expectedOutput": "[[\"e\",\"f\",\"e\"],[\"efe\"]]",
+      "explanation": "whole palindrome and singles. Expected output: [[\"e\",\"f\",\"e\"],[\"efe\"]]",
+      "serializationStatus": "compatible"
     }
   ],
   "hiddenTests": [
     {
-      "id": "edge-1",
-      "classification": "edge",
-      "input": "\"\"",
-      "expectedOutput": "\"\"",
-      "explanation": "Empty string boundary"
+      "id": "hidden-1",
+      "classification": "hidden",
+      "displayInput": "s = \"aaa\"",
+      "input": "aaa",
+      "stdin": "aaa",
+      "expectedOutput": "[[\"a\",\"a\",\"a\"],[\"a\",\"aa\"],[\"aa\",\"a\"],[\"aaa\"]]",
+      "explanation": "all palindrome partitions",
+      "serializationStatus": "compatible"
     },
     {
-      "id": "corner-2",
-      "classification": "corner",
-      "input": "\"aaaaa\"",
-      "expectedOutput": "\"aaaaa\"",
-      "explanation": "All identical characters"
+      "id": "hidden-2",
+      "classification": "hidden",
+      "displayInput": "s = \"abc\"",
+      "input": "abc",
+      "stdin": "abc",
+      "expectedOutput": "[[\"a\",\"b\",\"c\"]]",
+      "explanation": "no multi-character palindrome",
+      "serializationStatus": "compatible"
     },
     {
-      "id": "stress-3",
-      "classification": "stress",
-      "input": "\"abcdefghijklmnopqrstuvwxyz\"",
-      "expectedOutput": "1",
-      "explanation": "All distinct characters"
+      "id": "hidden-3",
+      "classification": "hidden",
+      "displayInput": "s = \"abba\"",
+      "input": "abba",
+      "stdin": "abba",
+      "expectedOutput": "[[\"a\",\"b\",\"b\",\"a\"],[\"a\",\"bb\",\"a\"],[\"abba\"]]",
+      "explanation": "even palindrome",
+      "serializationStatus": "compatible"
     },
     {
-      "id": "duplicates-4",
-      "classification": "duplicates",
-      "input": "\"abacaba\"",
-      "expectedOutput": "\"abacaba\"",
-      "explanation": "Symmetric palindrome string"
+      "id": "hidden-4",
+      "classification": "hidden",
+      "displayInput": "s = \"racecar\"",
+      "input": "racecar",
+      "stdin": "racecar",
+      "expectedOutput": "[[\"r\",\"a\",\"c\",\"e\",\"c\",\"a\",\"r\"],[\"r\",\"a\",\"c\",\"e\",\"cac\",\"a\",\"r\"],[\"r\",\"a\",\"cec\",\"a\",\"r\"],[\"r\",\"a\",\"cec\",\"ar\"],[\"r\",\"aceca\",\"r\"],[\"racecar\"]]",
+      "explanation": "multiple palindromic cuts",
+      "serializationStatus": "compatible"
     },
     {
-      "id": "performance-5",
-      "classification": "performance",
-      "input": "\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"",
-      "expectedOutput": "...",
-      "explanation": "Performance test"
+      "id": "hidden-5",
+      "classification": "hidden",
+      "displayInput": "s = \"\"",
+      "input": "\\n",
+      "stdin": "\\n",
+      "expectedOutput": "[[]]",
+      "explanation": "empty string",
+      "serializationStatus": "compatible"
     }
   ]
 }

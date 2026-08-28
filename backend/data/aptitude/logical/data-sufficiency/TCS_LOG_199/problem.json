@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_199",
+  "slug": "tcs-log-199",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "data-sufficiency",
+  "topicName": "Data Sufficiency",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "What is the distance from A to C? (I) Distance from A to B is 5 km. (II) Dist...",
+  "description": "What is the distance from A to C? (I) Distance from A to B is 5 km. (II) Distance from B to C is 7 km.",
+  "question": "What is the distance from A to C? (I) Distance from A to B is 5 km. (II) Distance from B to C is 7 km.",
+  "options": [
+    "Both statements together might not be sufficient without knowing if A, B, C are collinear",
+    "Both alone",
+    "Only II",
+    "Only I"
+  ],
+  "optionsMap": {
+    "A": "Both statements together might not be sufficient without knowing if A, B, C are collinear",
+    "B": "Both alone",
+    "C": "Only II",
+    "D": "Only I"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Both statements together might not be sufficient without knowing if A, B, C are collinear",
+  "tags": [
+    "logical",
+    "data-sufficiency"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

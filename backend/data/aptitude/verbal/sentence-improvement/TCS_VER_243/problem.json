@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_243",
+  "slug": "tcs-ver-243",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "sentence-improvement",
+  "topicName": "Sentence Improvement",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Improve the underlined part of the sentence: 'He said that he will come tomor...",
+  "description": "Improve the underlined part of the sentence: 'He said that he will come tomorrow.'",
+  "question": "Improve the underlined part of the sentence: 'He said that he will come tomorrow.'",
+  "options": [
+    "will come",
+    "would come",
+    "shall come",
+    "No improvement"
+  ],
+  "optionsMap": {
+    "A": "will come",
+    "B": "would come",
+    "C": "shall come",
+    "D": "No improvement"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "would come",
+  "tags": [
+    "verbal",
+    "sentence-improvement"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "TCS_LOG_154",
+    "title": "Statement: 'Walk-in interviews tomorrow from 10AM to 5PM.' Assumption I: Some...",
+    "description": "Statement: 'Walk-in interviews tomorrow from 10AM to 5PM.' Assumption I: Some candidates will walk in. Assumption II: No appointment is needed.",
+    "question": "Statement: 'Walk-in interviews tomorrow from 10AM to 5PM.' Assumption I: Some candidates will walk in. Assumption II: No appointment is needed.",
+    "options": [
+      "Both are implicit",
+      "Only I is implicit",
+      "Only II is implicit",
+      "Neither is implicit"
+    ],
+    "answer": "Both are implicit",
+    "answerKey": "A",
+    "correctAnswer": "Both are implicit",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Both are implicit.",
+    "topic": "statement-and-assumptions",
+    "topicName": "Statement and Assumptions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_148",
+    "title": "Statement: 'Candidates must arrive 30 min before exam.' Assumption I: Some ca...",
+    "description": "Statement: 'Candidates must arrive 30 min before exam.' Assumption I: Some candidates may arrive late. Assumption II: 30 minutes is sufficient time.",
+    "question": "Statement: 'Candidates must arrive 30 min before exam.' Assumption I: Some candidates may arrive late. Assumption II: 30 minutes is sufficient time.",
+    "options": [
+      "Both are implicit",
+      "Only I is implicit",
+      "Only II is implicit",
+      "Neither is implicit"
+    ],
+    "answer": "Both are implicit",
+    "answerKey": "A",
+    "correctAnswer": "Both are implicit",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Both are implicit.",
+    "topic": "statement-and-assumptions",
+    "topicName": "Statement and Assumptions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_151",
+    "title": "Statement: 'The railway station has been closed due to maintenance.' Assumpti...",
+    "description": "Statement: 'The railway station has been closed due to maintenance.' Assumption I: Passengers know of an alternative. Assumption II: Maintenance requires closure.",
+    "question": "Statement: 'The railway station has been closed due to maintenance.' Assumption I: Passengers know of an alternative. Assumption II: Maintenance requires closure.",
+    "options": [
+      "Only II is implicit",
+      "Only I is implicit",
+      "Both are implicit",
+      "Neither is implicit"
+    ],
+    "answer": "Only II is implicit",
+    "answerKey": "A",
+    "correctAnswer": "Only II is implicit",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Only II is implicit.",
+    "topic": "statement-and-assumptions",
+    "topicName": "Statement and Assumptions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_152",
+    "title": "Statement: 'Children should be taught moral values from a young age.' Assumpt...",
+    "description": "Statement: 'Children should be taught moral values from a young age.' Assumption I: Children can learn moral values. Assumption II: Moral values cannot be taught to adults.",
+    "question": "Statement: 'Children should be taught moral values from a young age.' Assumption I: Children can learn moral values. Assumption II: Moral values cannot be taught to adults.",
+    "options": [
+      "Only I is implicit",
+      "Only II is implicit",
+      "Both are implicit",
+      "Neither is implicit"
+    ],
+    "answer": "Only I is implicit",
+    "answerKey": "A",
+    "correctAnswer": "Only I is implicit",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Only I is implicit.",
+    "topic": "statement-and-assumptions",
+    "topicName": "Statement and Assumptions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_155",
+    "title": "Statement: 'Books are better companions than television.' Assumption I: Books...",
+    "description": "Statement: 'Books are better companions than television.' Assumption I: Books are educational. Assumption II: Television is not educational.",
+    "question": "Statement: 'Books are better companions than television.' Assumption I: Books are educational. Assumption II: Television is not educational.",
+    "options": [
+      "Only I is implicit",
+      "Only II is implicit",
+      "Both are implicit",
+      "Neither is implicit"
+    ],
+    "answer": "Only I is implicit",
+    "answerKey": "A",
+    "correctAnswer": "Only I is implicit",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Only I is implicit.",
+    "topic": "statement-and-assumptions",
+    "topicName": "Statement and Assumptions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_146",
+    "title": "Statement: 'Use ABC toothpaste for a brighter smile.' Assumption I: People wa...",
+    "description": "Statement: 'Use ABC toothpaste for a brighter smile.' Assumption I: People want brighter smiles. Assumption II: ABC toothpaste whitens teeth.",
+    "question": "Statement: 'Use ABC toothpaste for a brighter smile.' Assumption I: People want brighter smiles. Assumption II: ABC toothpaste whitens teeth.",
+    "options": [
+      "Both I and II are implicit",
+      "Only I is implicit",
+      "Only II is implicit",
+      "Neither is implicit"
+    ],
+    "answer": "Both I and II are implicit",
+    "answerKey": "A",
+    "correctAnswer": "Both I and II are implicit",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Both I and II are implicit.",
+    "topic": "statement-and-assumptions",
+    "topicName": "Statement and Assumptions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_147",
+    "title": "Statement: 'Please keep off the grass.' Assumption I: People walk on grass. A...",
+    "description": "Statement: 'Please keep off the grass.' Assumption I: People walk on grass. Assumption II: The grass is fragile.",
+    "question": "Statement: 'Please keep off the grass.' Assumption I: People walk on grass. Assumption II: The grass is fragile.",
+    "options": [
+      "Both I and II are implicit",
+      "Only I is implicit",
+      "Only II is implicit",
+      "Neither is implicit"
+    ],
+    "answer": "Both I and II are implicit",
+    "answerKey": "A",
+    "correctAnswer": "Both I and II are implicit",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Both I and II are implicit.",
+    "topic": "statement-and-assumptions",
+    "topicName": "Statement and Assumptions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_149",
+    "title": "Statement: 'Join our weekend workshop on public speaking.' Assumption I: Peop...",
+    "description": "Statement: 'Join our weekend workshop on public speaking.' Assumption I: People want to improve their speaking skills. Assumption II: Public speaking is a valuable skill.",
+    "question": "Statement: 'Join our weekend workshop on public speaking.' Assumption I: People want to improve their speaking skills. Assumption II: Public speaking is a valuable skill.",
+    "options": [
+      "Both are implicit",
+      "Only I is implicit",
+      "Only II is implicit",
+      "Neither is implicit"
+    ],
+    "answer": "Both are implicit",
+    "answerKey": "A",
+    "correctAnswer": "Both are implicit",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Both are implicit.",
+    "topic": "statement-and-assumptions",
+    "topicName": "Statement and Assumptions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_150",
+    "title": "Statement: 'Eat more fruits and vegetables.' Assumption I: Fruits and vegetab...",
+    "description": "Statement: 'Eat more fruits and vegetables.' Assumption I: Fruits and vegetables are healthy. Assumption II: People currently eat less of them.",
+    "question": "Statement: 'Eat more fruits and vegetables.' Assumption I: Fruits and vegetables are healthy. Assumption II: People currently eat less of them.",
+    "options": [
+      "Both are implicit",
+      "Only I is implicit",
+      "Only II is implicit",
+      "Neither is implicit"
+    ],
+    "answer": "Both are implicit",
+    "answerKey": "A",
+    "correctAnswer": "Both are implicit",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Both are implicit.",
+    "topic": "statement-and-assumptions",
+    "topicName": "Statement and Assumptions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_LOG_153",
+    "title": "Statement: 'If you are interested in the post, apply before 30th November.' A...",
+    "description": "Statement: 'If you are interested in the post, apply before 30th November.' Assumption I: Some people are interested in the post. Assumption II: Applications after 30th November will be rejected.",
+    "question": "Statement: 'If you are interested in the post, apply before 30th November.' Assumption I: Some people are interested in the post. Assumption II: Applications after 30th November will be rejected.",
+    "options": [
+      "Both are implicit",
+      "Only I is implicit",
+      "Only II is implicit",
+      "Neither is implicit"
+    ],
+    "answer": "Both are implicit",
+    "answerKey": "A",
+    "correctAnswer": "Both are implicit",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Both are implicit.",
+    "topic": "statement-and-assumptions",
+    "topicName": "Statement and Assumptions",
+    "category": "logical",
+    "section": "Logical Reasoning",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

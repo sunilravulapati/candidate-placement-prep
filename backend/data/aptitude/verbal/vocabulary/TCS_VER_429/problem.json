@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_429",
+  "slug": "tcs-ver-429",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Choose the synonym of: AMELIORATE",
+  "description": "Choose the synonym of: AMELIORATE",
+  "question": "Choose the synonym of: AMELIORATE",
+  "options": [
+    "Improve",
+    "Worsen",
+    "Maintain",
+    "Change"
+  ],
+  "optionsMap": {
+    "A": "Improve",
+    "B": "Worsen",
+    "C": "Maintain",
+    "D": "Change"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Improve",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

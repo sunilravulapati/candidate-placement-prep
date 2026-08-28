@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_068",
+  "slug": "tcs-apt-068",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "speed-and-distance",
+  "topicName": "Speed and Distance",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A thief is 100m ahead of a policeman. Both run, thief at 8 km/h and policeman...",
+  "description": "A thief is 100m ahead of a policeman. Both run, thief at 8 km/h and policeman at 10 km/h. When will the policeman catch the thief?",
+  "question": "A thief is 100m ahead of a policeman. Both run, thief at 8 km/h and policeman at 10 km/h. When will the policeman catch the thief?",
+  "options": [
+    "3 minutes",
+    "2 minutes",
+    "5 minutes",
+    "4 minutes"
+  ],
+  "optionsMap": {
+    "A": "3 minutes",
+    "B": "2 minutes",
+    "C": "5 minutes",
+    "D": "4 minutes"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "3 minutes",
+  "tags": [
+    "quantitative",
+    "speed-and-distance"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

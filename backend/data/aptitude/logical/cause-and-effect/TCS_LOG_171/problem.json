@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_171",
+  "slug": "tcs-log-171",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "cause-and-effect",
+  "topicName": "Cause and Effect",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Statement I: The government announced free vaccinations. Statement II: Hospit...",
+  "description": "Statement I: The government announced free vaccinations. Statement II: Hospital admissions for preventable diseases dropped significantly. Relation:",
+  "question": "Statement I: The government announced free vaccinations. Statement II: Hospital admissions for preventable diseases dropped significantly. Relation:",
+  "options": [
+    "Statement I is the cause, Statement II is the effect",
+    "Statement II is the cause, Statement I is the effect",
+    "Both are effects of a third cause",
+    "Both are independent"
+  ],
+  "optionsMap": {
+    "A": "Statement I is the cause, Statement II is the effect",
+    "B": "Statement II is the cause, Statement I is the effect",
+    "C": "Both are effects of a third cause",
+    "D": "Both are independent"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Statement I is the cause, Statement II is the effect",
+  "tags": [
+    "logical",
+    "cause-and-effect"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

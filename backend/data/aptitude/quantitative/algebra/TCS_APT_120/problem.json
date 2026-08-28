@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_120",
+  "slug": "tcs-apt-120",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "algebra",
+  "topicName": "Algebra",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find the product of roots of 3x2 − 5x + 2 = 0.",
+  "description": "Find the product of roots of 3x2 − 5x + 2 = 0.",
+  "question": "Find the product of roots of 3x2 − 5x + 2 = 0.",
+  "options": [
+    "2/3",
+    "5/3",
+    "3/2",
+    "1/2"
+  ],
+  "optionsMap": {
+    "A": "2/3",
+    "B": "5/3",
+    "C": "3/2",
+    "D": "1/2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "2/3",
+  "tags": [
+    "quantitative",
+    "algebra"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

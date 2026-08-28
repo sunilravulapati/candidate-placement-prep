@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_258",
+  "slug": "tcs-log-258",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Analogy: Fish : Water :: Bird : ?",
+  "description": "Analogy: Fish : Water :: Bird : ?",
+  "question": "Analogy: Fish : Water :: Bird : ?",
+  "options": [
+    "Air",
+    "Sky",
+    "Nest",
+    "Tree"
+  ],
+  "optionsMap": {
+    "A": "Air",
+    "B": "Sky",
+    "C": "Nest",
+    "D": "Tree"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Air",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

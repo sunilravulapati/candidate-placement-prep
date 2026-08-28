@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_486",
+  "slug": "tcs-ver-486",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which sentence uses the correct form of 'less' vs 'fewer'?",
+  "description": "Which sentence uses the correct form of 'less' vs 'fewer'?",
+  "question": "Which sentence uses the correct form of 'less' vs 'fewer'?",
+  "options": [
+    "There are less students today.",
+    "There are fewer students today.",
+    "There are more less students.",
+    "There are fewer amount."
+  ],
+  "optionsMap": {
+    "A": "There are less students today.",
+    "B": "There are fewer students today.",
+    "C": "There are more less students.",
+    "D": "There are fewer amount."
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "There are fewer students today.",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_592",
+  "slug": "tcs-apt-592",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Sum of GP 1,2,4,8... first 8 terms?",
+  "description": "Sum of GP 1,2,4,8... first 8 terms?",
+  "question": "Sum of GP 1,2,4,8... first 8 terms?",
+  "options": [
+    "255",
+    "256",
+    "254",
+    "128"
+  ],
+  "optionsMap": {
+    "A": "255",
+    "B": "256",
+    "C": "254",
+    "D": "128"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "255",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

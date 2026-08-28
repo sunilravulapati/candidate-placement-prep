@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_150",
+  "slug": "tcs-ver-150",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The explorer was known for his _____ spirit and love of adventure.",
+  "description": "The explorer was known for his _____ spirit and love of adventure.",
+  "question": "The explorer was known for his _____ spirit and love of adventure.",
+  "options": [
+    "intrepid",
+    "timid",
+    "cautious",
+    "fearful"
+  ],
+  "optionsMap": {
+    "A": "intrepid",
+    "B": "timid",
+    "C": "cautious",
+    "D": "fearful"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "intrepid",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_286",
+  "slug": "tcs-apt-286",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A 20% increase followed by 25% decrease gives what net change?",
+  "description": "A 20% increase followed by 25% decrease gives what net change?",
+  "question": "A 20% increase followed by 25% decrease gives what net change?",
+  "options": [
+    "-10%",
+    "0%",
+    "-5%",
+    "+5%"
+  ],
+  "optionsMap": {
+    "A": "-10%",
+    "B": "0%",
+    "C": "-5%",
+    "D": "+5%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "-10%",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

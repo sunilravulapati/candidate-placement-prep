@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_342",
+  "slug": "tcs-apt-342",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If 2/3 of a number is 18, what is 3/4 of the same number?",
+  "description": "If 2/3 of a number is 18, what is 3/4 of the same number?",
+  "question": "If 2/3 of a number is 18, what is 3/4 of the same number?",
+  "options": [
+    "20.25",
+    "27",
+    "18",
+    "24"
+  ],
+  "optionsMap": {
+    "A": "20.25",
+    "B": "27",
+    "C": "18",
+    "D": "24"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "20.25",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

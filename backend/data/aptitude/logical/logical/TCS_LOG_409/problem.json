@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_409",
+  "slug": "tcs-log-409",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Missing: 2, 3, 7, 45, ?",
+  "description": "Missing: 2, 3, 7, 45, ?",
+  "question": "Missing: 2, 3, 7, 45, ?",
+  "options": [
+    "2027",
+    "342",
+    "1800",
+    "3430"
+  ],
+  "optionsMap": {
+    "A": "2027",
+    "B": "342",
+    "C": "1800",
+    "D": "3430"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "2027",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

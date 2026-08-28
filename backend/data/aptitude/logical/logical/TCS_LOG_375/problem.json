@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_375",
+  "slug": "tcs-log-375",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Series: 1Z, 2Y, 3X, ?",
+  "description": "Series: 1Z, 2Y, 3X, ?",
+  "question": "Series: 1Z, 2Y, 3X, ?",
+  "options": [
+    "4W",
+    "4V",
+    "5W",
+    "3V"
+  ],
+  "optionsMap": {
+    "A": "4W",
+    "B": "4V",
+    "C": "5W",
+    "D": "3V"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "4W",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

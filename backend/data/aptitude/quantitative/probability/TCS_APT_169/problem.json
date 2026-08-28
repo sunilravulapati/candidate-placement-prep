@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_169",
+  "slug": "tcs-apt-169",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "probability",
+  "topicName": "Probability",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Probability of getting a king or a spade from a standard deck?",
+  "description": "Probability of getting a king or a spade from a standard deck?",
+  "question": "Probability of getting a king or a spade from a standard deck?",
+  "options": [
+    "4/13",
+    "16/52",
+    "17/52",
+    "15/52"
+  ],
+  "optionsMap": {
+    "A": "4/13",
+    "B": "16/52",
+    "C": "17/52",
+    "D": "15/52"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "4/13",
+  "tags": [
+    "quantitative",
+    "probability"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

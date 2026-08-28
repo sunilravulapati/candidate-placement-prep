@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_152",
+  "slug": "tcs-ver-152",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th c...",
+  "description": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: Which of the following was NOT a consequence of the Industrial Revolution?",
+  "question": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: Which of the following was NOT a consequence of the Industrial Revolution?",
+  "options": [
+    "Reduction in urbanization",
+    "Poor working conditions",
+    "Child labor",
+    "Environmental pollution"
+  ],
+  "optionsMap": {
+    "A": "Reduction in urbanization",
+    "B": "Poor working conditions",
+    "C": "Child labor",
+    "D": "Environmental pollution"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Reduction in urbanization",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

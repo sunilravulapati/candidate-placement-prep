@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_424",
+  "slug": "tcs-apt-424",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "simple-interest",
+  "topicName": "Simple Interest",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A sum becomes Rs.3600 in 2 years and Rs.4200 in 4 years at SI. The principal is:",
+  "description": "A sum becomes Rs.3600 in 2 years and Rs.4200 in 4 years at SI. The principal is:",
+  "question": "A sum becomes Rs.3600 in 2 years and Rs.4200 in 4 years at SI. The principal is:",
+  "options": [
+    "Rs.3000",
+    "Rs.2800",
+    "Rs.3200",
+    "Rs.2500"
+  ],
+  "optionsMap": {
+    "A": "Rs.3000",
+    "B": "Rs.2800",
+    "C": "Rs.3200",
+    "D": "Rs.2500"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.3000",
+  "tags": [
+    "quantitative",
+    "simple-interest"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

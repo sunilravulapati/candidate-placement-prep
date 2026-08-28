@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_151",
+  "slug": "tcs-ver-151",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th c...",
+  "description": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: What was the primary energy source of the Industrial Revolution?",
+  "question": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: What was the primary energy source of the Industrial Revolution?",
+  "options": [
+    "Steam and coal",
+    "Wind and water",
+    "Solar energy",
+    "Nuclear power"
+  ],
+  "optionsMap": {
+    "A": "Steam and coal",
+    "B": "Wind and water",
+    "C": "Solar energy",
+    "D": "Nuclear power"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Steam and coal",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

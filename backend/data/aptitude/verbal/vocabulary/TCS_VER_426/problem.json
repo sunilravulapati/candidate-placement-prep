@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_426",
+  "slug": "tcs-ver-426",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Identify the correct sentence: Each of the players ___ given a trophy.",
+  "description": "Identify the correct sentence: Each of the players ___ given a trophy.",
+  "question": "Identify the correct sentence: Each of the players ___ given a trophy.",
+  "options": [
+    "was",
+    "were",
+    "have been",
+    "are"
+  ],
+  "optionsMap": {
+    "A": "was",
+    "B": "were",
+    "C": "have been",
+    "D": "are"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "was",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

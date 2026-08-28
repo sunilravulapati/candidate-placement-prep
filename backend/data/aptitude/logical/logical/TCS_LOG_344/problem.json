@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_344",
+  "slug": "tcs-log-344",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Deduction: All trains are fast. Some trains are red. Are all red trains fast?",
+  "description": "Deduction: All trains are fast. Some trains are red. Are all red trains fast?",
+  "question": "Deduction: All trains are fast. Some trains are red. Are all red trains fast?",
+  "options": [
+    "Cannot be determined",
+    "Yes",
+    "No",
+    "Not stated"
+  ],
+  "optionsMap": {
+    "A": "Cannot be determined",
+    "B": "Yes",
+    "C": "No",
+    "D": "Not stated"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Cannot be determined",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

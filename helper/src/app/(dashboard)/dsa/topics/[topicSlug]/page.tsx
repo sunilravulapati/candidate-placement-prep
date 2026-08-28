@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { DSA_TOPICS_31 } from '@backend/features/dsa/topicTaxonomy';
 import { ProblemLoader } from '@backend/features/dsa/problemLoader';
+import { getSessionUser } from '@backend/auth/session';
+import { getUserProblemStatuses } from '@backend/features/liveCoding/repository';
 import {
   ArrowLeft,
   CheckCircle2,
@@ -32,6 +34,16 @@ export default async function DSATopicDetailPage({ params }: TopicPageProps) {
   const { topicSlug } = await params;
   const slugLower = topicSlug.toLowerCase();
   
+  const user = await getSessionUser();
+  const effectiveUserId = user?.id || 'user_demo';
+  let solvedSet = new Set<string>();
+  try {
+    const { solved } = await getUserProblemStatuses(effectiveUserId);
+    solvedSet = solved;
+  } catch {
+    // non-blocking
+  }
+
   // Load all directory problems
   const allProblems = ProblemLoader.loadAllDirectoryProblems();
 
@@ -235,6 +247,7 @@ export default async function DSATopicDetailPage({ params }: TopicPageProps) {
                 </tr>
               ) : (
                 primaryProblems.map((prob, idx) => {
+                  const isSolved = solvedSet.has(prob.slug) || (prob.id && solvedSet.has(prob.id));
                   const diffColor =
                     prob.difficulty === 'EASY'
                       ? 'text-emerald-400 bg-emerald-500/10 border-emerald-500/20'
@@ -246,9 +259,12 @@ export default async function DSATopicDetailPage({ params }: TopicPageProps) {
                     <tr key={prob.slug} className="hover:bg-slate-800/50 transition-colors">
                       <td className="px-6 py-4 font-mono text-slate-500">{prob.questionNo || idx + 1}</td>
                       <td className="px-6 py-4 font-bold text-white">
-                        <Link href={`/dsa/workspace/${prob.slug}`} className="hover:text-violet-300 transition-colors">
-                          {prob.title}
-                        </Link>
+                        <div className="flex items-center gap-2">
+                          {isSolved && <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />}
+                          <Link href={`/dsa/workspace/${prob.slug}`} className="hover:text-violet-300 transition-colors">
+                            {prob.title}
+                          </Link>
+                        </div>
                       </td>
                       <td className="px-6 py-4">
                         <span className={`px-2 py-0.5 rounded border text-[10px] font-bold ${diffColor}`}>
@@ -267,9 +283,9 @@ export default async function DSATopicDetailPage({ params }: TopicPageProps) {
                       <td className="px-6 py-4 text-right">
                         <Link
                           href={`/dsa/workspace/${prob.slug}`}
-                          className="text-violet-400 hover:text-violet-300 font-bold inline-flex items-center space-x-1"
+                          className={isSolved ? "text-emerald-400 hover:text-emerald-300 font-bold inline-flex items-center space-x-1" : "text-violet-400 hover:text-violet-300 font-bold inline-flex items-center space-x-1"}
                         >
-                          <span>Solve</span>
+                          <span>{isSolved ? 'Review' : 'Solve'}</span>
                           <ChevronRight className="w-3.5 h-3.5" />
                         </Link>
                       </td>
@@ -306,6 +322,7 @@ export default async function DSATopicDetailPage({ params }: TopicPageProps) {
               </thead>
               <tbody className="divide-y divide-slate-800/80">
                 {secondaryProblems.map((prob) => {
+                  const isSecSolved = solvedSet.has(prob.slug) || (prob.id && solvedSet.has(prob.id));
                   const diffColor =
                     prob.difficulty === 'EASY'
                       ? 'text-emerald-400 bg-emerald-500/10 border-emerald-500/20'
@@ -316,9 +333,12 @@ export default async function DSATopicDetailPage({ params }: TopicPageProps) {
                   return (
                     <tr key={prob.slug} className="hover:bg-slate-800/50 transition-colors">
                       <td className="px-6 py-4 font-bold text-white">
-                        <Link href={`/dsa/workspace/${prob.slug}`} className="hover:text-violet-300 transition-colors">
-                          {prob.title}
-                        </Link>
+                        <div className="flex items-center gap-2">
+                          {isSecSolved && <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />}
+                          <Link href={`/dsa/workspace/${prob.slug}`} className="hover:text-violet-300 transition-colors">
+                            {prob.title}
+                          </Link>
+                        </div>
                       </td>
                       <td className="px-6 py-4 font-mono text-indigo-300 uppercase text-[11px]">
                         {prob.primaryTopic || prob.topic}
@@ -332,9 +352,9 @@ export default async function DSATopicDetailPage({ params }: TopicPageProps) {
                       <td className="px-6 py-4 text-right">
                         <Link
                           href={`/dsa/workspace/${prob.slug}`}
-                          className="text-indigo-400 hover:text-indigo-300 font-bold inline-flex items-center space-x-1"
+                          className={isSecSolved ? "text-emerald-400 hover:text-emerald-300 font-bold inline-flex items-center space-x-1" : "text-violet-400 hover:text-violet-300 font-bold inline-flex items-center space-x-1"}
                         >
-                          <span>View Problem</span>
+                          <span>{isSecSolved ? 'Review' : 'Solve'}</span>
                           <ChevronRight className="w-3.5 h-3.5" />
                         </Link>
                       </td>

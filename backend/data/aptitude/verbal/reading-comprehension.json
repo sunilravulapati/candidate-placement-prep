@@ -1,87 +1,812 @@
 [
   {
-    "id": "verbal_rc_1",
-    "title": "Main Idea",
-    "description": "Passage:\n\n'The economic theories of John Maynard Keynes, developed during the Great Depression, argued that active government intervention in the marketplace was necessary to stabilize the economy. Keynes suggested that during recessions, aggregate demand drops, leading to high unemployment. To counteract this, governments should increase public spending and lower taxes to stimulate demand and pull the economy out of stagnation.'\n\nAccording to the passage, what was the primary purpose of Keynes's theories?",
+    "id": "TCS_VER_155",
+    "title": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th c...",
+    "description": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: Where did the Industrial Revolution begin?",
+    "question": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: Where did the Industrial Revolution begin?",
     "options": [
-      "To discourage government involvement in business",
-      "To explain how to stabilize the economy through government intervention",
-      "To argue for higher taxes during periods of inflation",
-      "To promote a purely free-market capitalist system"
+      "Britain",
+      "France",
+      "Germany",
+      "United States"
     ],
-    "correctAnswer": "To explain how to stabilize the economy through government intervention",
+    "answer": "Britain",
+    "answerKey": "A",
+    "correctAnswer": "Britain",
     "difficulty": "EASY",
     "difficultyLabel": "Easy",
-    "explanation": "The text states that Keynes 'argued that active government intervention in the marketplace was necessary to stabilize the economy.' This matches the option.",
+    "explanation": "Option (A) is the correct answer: Britain.",
     "topic": "reading-comprehension",
-    "category": "verbal"
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
   },
   {
-    "id": "verbal_rc_2",
-    "title": "Detail Recall",
-    "description": "Passage:\n\n'The economic theories of John Maynard Keynes, developed during the Great Depression, argued that active government intervention in the marketplace was necessary to stabilize the economy. Keynes suggested that during recessions, aggregate demand drops, leading to high unemployment. To counteract this, governments should increase public spending and lower taxes to stimulate demand and pull the economy out of stagnation.'\n\nAccording to Keynes, what is the direct consequence of a drop in aggregate demand during a recession?",
+    "id": "TCS_VER_158",
+    "title": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwi...",
+    "description": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwide. Unlike traditional software that follows fixed i... Q: What is deep learning primarily based on?",
+    "question": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwide. Unlike traditional software that follows fixed i... Q: What is deep learning primarily based on?",
     "options": [
-      "Lower public spending",
-      "Higher taxes",
-      "High unemployment",
-      "Increased market stabilization"
+      "Neural networks",
+      "Simple algorithms",
+      "Fixed rules",
+      "Manual coding"
     ],
-    "correctAnswer": "High unemployment",
-    "difficulty": "MEDIUM",
-    "difficultyLabel": "Easy-Medium",
-    "explanation": "The passage explicitly says: 'during recessions, aggregate demand drops, leading to high unemployment.'",
+    "answer": "Neural networks",
+    "answerKey": "A",
+    "correctAnswer": "Neural networks",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Neural networks.",
     "topic": "reading-comprehension",
-    "category": "verbal"
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
   },
   {
-    "id": "verbal_rc_3",
-    "title": "Inference Question",
-    "description": "Passage:\n\n'The economic theories of John Maynard Keynes, developed during the Great Depression, argued that active government intervention in the marketplace was necessary to stabilize the economy. Keynes suggested that during recessions, aggregate demand drops, leading to high unemployment. To counteract this, governments should increase public spending and lower taxes to stimulate demand and pull the economy out of stagnation.'\n\nWhat can be inferred about Keynes's view on government budgets during a recession?",
+    "id": "TCS_VER_161",
+    "title": "PASSAGE: Climate change is one of the most pressing challenges facing humanit...",
+    "description": "PASSAGE: Climate change is one of the most pressing challenges facing humanity. Rising global temperatures, driven primarily by g... Q: What is the primary driver of rising global temperatures?",
+    "question": "PASSAGE: Climate change is one of the most pressing challenges facing humanity. Rising global temperatures, driven primarily by g... Q: What is the primary driver of rising global temperatures?",
     "options": [
-      "Governments should aim to achieve a budget surplus",
-      "Governments must balance their budgets at all costs",
-      "Governments should tolerate deficits to boost the economy",
-      "Governments should stop spending altogether"
+      "Greenhouse gas emissions from burning fossil fuels",
+      "Natural volcanic activity",
+      "Solar flares",
+      "Ocean currents"
     ],
-    "correctAnswer": "Governments should tolerate deficits to boost the economy",
-    "difficulty": "MEDIUM",
-    "difficultyLabel": "Medium",
-    "explanation": "Keynes suggests that governments should 'increase public spending and lower taxes' during a recession. Increasing spending while reducing tax revenue naturally leads to a budget deficit. Therefore, we can infer he believes governments should run deficits during recessions to stimulate the economy.",
+    "answer": "Greenhouse gas emissions from burning fossil fuels",
+    "answerKey": "A",
+    "correctAnswer": "Greenhouse gas emissions from burning fossil fuels",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Greenhouse gas emissions from burning fossil fuels.",
     "topic": "reading-comprehension",
-    "category": "verbal"
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
   },
   {
-    "id": "verbal_rc_4",
-    "title": "Contextual Assumption",
-    "description": "Passage:\n\n'The economic theories of John Maynard Keynes, developed during the Great Depression, argued that active government intervention in the marketplace was necessary to stabilize the economy. Keynes suggested that during recessions, aggregate demand drops, leading to high unemployment. To counteract this, governments should increase public spending and lower taxes to stimulate demand and pull the economy out of stagnation.'\n\nWhat underlying assumption does Keynes make about the relationship between government action and consumer behavior?",
+    "id": "TCS_VER_163",
+    "title": "PASSAGE: Climate change is one of the most pressing challenges facing humanit...",
+    "description": "PASSAGE: Climate change is one of the most pressing challenges facing humanity. Rising global temperatures, driven primarily by g... Q: What is the purpose of the Paris Accord?",
+    "question": "PASSAGE: Climate change is one of the most pressing challenges facing humanity. Rising global temperatures, driven primarily by g... Q: What is the purpose of the Paris Accord?",
     "options": [
-      "Consumers will save all additional money received from tax cuts",
-      "Government spending has no impact on total market demand",
-      "Stimulating demand through government action is effective in altering economic outcomes",
-      "Market forces are self-correcting and do not respond to external stimuli"
+      "To limit global warming",
+      "To increase fossil fuel use",
+      "To promote coal mining",
+      "To reduce renewable energy"
     ],
-    "correctAnswer": "Stimulating demand through government action is effective in altering economic outcomes",
-    "difficulty": "HARD",
-    "difficultyLabel": "Medium-Hard",
-    "explanation": "Keynes assumes that increasing public spending and lowering taxes will successfully 'stimulate demand and pull the economy out of stagnation'. This assumes that government action is capable of changing the trajectory of consumer demand and economic health.",
+    "answer": "To limit global warming",
+    "answerKey": "A",
+    "correctAnswer": "To limit global warming",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: To limit global warming.",
     "topic": "reading-comprehension",
-    "category": "verbal"
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
   },
   {
-    "id": "verbal_rc_5",
-    "title": "Critical Evaluation",
-    "description": "Passage:\n\n'The economic theories of John Maynard Keynes, developed during the Great Depression, argued that active government intervention in the marketplace was necessary to stabilize the economy. Keynes suggested that during recessions, aggregate demand drops, leading to high unemployment. To counteract this, governments should increase public spending and lower taxes to stimulate demand and pull the economy out of stagnation.'\n\nWhich of the following scenarios, if true, would most seriously weaken the effectiveness of the Keynesian approach during a recession?",
+    "id": "TCS_VER_166",
+    "title": "PASSAGE: The human brain is arguably the most complex structure in the known ...",
+    "description": "PASSAGE: The human brain is arguably the most complex structure in the known universe. Comprising approximately 86 billion neuron... Q: Approximately how many neurons does the human brain contain?",
+    "question": "PASSAGE: The human brain is arguably the most complex structure in the known universe. Comprising approximately 86 billion neuron... Q: Approximately how many neurons does the human brain contain?",
     "options": [
-      "Increased government spending leads to immediate private sector hiring",
-      "Lowering taxes causes consumers to hoard cash rather than spend it",
-      "Interest rates remain low as a result of stable government policies",
-      "Public infrastructure projects create long term productive assets for the country"
+      "86 billion",
+      "86 million",
+      "860 billion",
+      "8.6 trillion"
     ],
-    "correctAnswer": "Lowering taxes causes consumers to hoard cash rather than spend it",
+    "answer": "86 billion",
+    "answerKey": "A",
+    "correctAnswer": "86 billion",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 86 billion.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_167",
+    "title": "PASSAGE: The human brain is arguably the most complex structure in the known ...",
+    "description": "PASSAGE: The human brain is arguably the most complex structure in the known universe. Comprising approximately 86 billion neuron... Q: What is neuroplasticity?",
+    "question": "PASSAGE: The human brain is arguably the most complex structure in the known universe. Comprising approximately 86 billion neuron... Q: What is neuroplasticity?",
+    "options": [
+      "The brain's ability to form new neural connections",
+      "The fixed structure of the brain after childhood",
+      "The process of memory loss",
+      "Brain size reduction with age"
+    ],
+    "answer": "The brain's ability to form new neural connections",
+    "answerKey": "A",
+    "correctAnswer": "The brain's ability to form new neural connections",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: The brain's ability to form new neural connections.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_361",
+    "title": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, enc...",
+    "description": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: What does biodiversity encompass?",
+    "question": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: What does biodiversity encompass?",
+    "options": [
+      "Only animal species",
+      "Only plant species",
+      "Variety of all life forms including plants, animals, fungi, and microorganisms",
+      "Only microorganisms"
+    ],
+    "answer": "Variety of all life forms including plants, animals, fungi, and microorganisms",
+    "answerKey": "C",
+    "correctAnswer": "Variety of all life forms including plants, animals, fungi, and microorganisms",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (C) is the correct answer: Variety of all life forms including plants, animals, fungi, and microorganisms.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_151",
+    "title": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th c...",
+    "description": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: What was the primary energy source of the Industrial Revolution?",
+    "question": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: What was the primary energy source of the Industrial Revolution?",
+    "options": [
+      "Steam and coal",
+      "Wind and water",
+      "Solar energy",
+      "Nuclear power"
+    ],
+    "answer": "Steam and coal",
+    "answerKey": "A",
+    "correctAnswer": "Steam and coal",
     "difficulty": "HARD",
     "difficultyLabel": "Hard",
-    "explanation": "The core of the Keynesian argument is that lowering taxes will 'stimulate demand' (i.e. consumers will spend more, buying goods and services). If consumers hoard cash instead of spending it, demand will not increase, and the policy will fail to pull the economy out of stagnation.",
+    "explanation": "Option (A) is the correct answer: Steam and coal.",
     "topic": "reading-comprehension",
-    "category": "verbal"
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_152",
+    "title": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th c...",
+    "description": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: Which of the following was NOT a consequence of the Industrial Revolution?",
+    "question": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: Which of the following was NOT a consequence of the Industrial Revolution?",
+    "options": [
+      "Reduction in urbanization",
+      "Poor working conditions",
+      "Child labor",
+      "Environmental pollution"
+    ],
+    "answer": "Reduction in urbanization",
+    "answerKey": "A",
+    "correctAnswer": "Reduction in urbanization",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Reduction in urbanization.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_154",
+    "title": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th c...",
+    "description": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: What eventually helped improve working conditions?",
+    "question": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: What eventually helped improve working conditions?",
+    "options": [
+      "Reform movements and labor unions",
+      "Industrial revolution itself",
+      "Factory owners' goodwill",
+      "Government bans on industry"
+    ],
+    "answer": "Reform movements and labor unions",
+    "answerKey": "A",
+    "correctAnswer": "Reform movements and labor unions",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Reform movements and labor unions.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_160",
+    "title": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwi...",
+    "description": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwide. Unlike traditional software that follows fixed i... Q: What does responsible AI development require according to experts?",
+    "question": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwide. Unlike traditional software that follows fixed i... Q: What does responsible AI development require according to experts?",
+    "options": [
+      "Transparent algorithms and diverse datasets",
+      "Unlimited computing power",
+      "More data collection",
+      "Less regulation"
+    ],
+    "answer": "Transparent algorithms and diverse datasets",
+    "answerKey": "A",
+    "correctAnswer": "Transparent algorithms and diverse datasets",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Transparent algorithms and diverse datasets.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_165",
+    "title": "PASSAGE: Climate change is one of the most pressing challenges facing humanit...",
+    "description": "PASSAGE: Climate change is one of the most pressing challenges facing humanity. Rising global temperatures, driven primarily by g... Q: What happens if warming exceeds 2°C according to the passage?",
+    "question": "PASSAGE: Climate change is one of the most pressing challenges facing humanity. Rising global temperatures, driven primarily by g... Q: What happens if warming exceeds 2°C according to the passage?",
+    "options": [
+      "Consequences may be irreversible",
+      "Temperature will stabilize",
+      "Ecosystems will recover",
+      "Sea levels will drop"
+    ],
+    "answer": "Consequences may be irreversible",
+    "answerKey": "A",
+    "correctAnswer": "Consequences may be irreversible",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Consequences may be irreversible.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_169",
+    "title": "PASSAGE: The human brain is arguably the most complex structure in the known ...",
+    "description": "PASSAGE: The human brain is arguably the most complex structure in the known universe. Comprising approximately 86 billion neuron... Q: What does the brain do during sleep according to the passage?",
+    "question": "PASSAGE: The human brain is arguably the most complex structure in the known universe. Comprising approximately 86 billion neuron... Q: What does the brain do during sleep according to the passage?",
+    "options": [
+      "Consolidates memories and removes metabolic waste",
+      "Completely shuts down",
+      "Only controls breathing",
+      "Stops all activity"
+    ],
+    "answer": "Consolidates memories and removes metabolic waste",
+    "answerKey": "A",
+    "correctAnswer": "Consolidates memories and removes metabolic waste",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Consolidates memories and removes metabolic waste.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_363",
+    "title": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, enc...",
+    "description": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: How much faster are species disappearing compared to the natural background rate?",
+    "question": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: How much faster are species disappearing compared to the natural background rate?",
+    "options": [
+      "100 times",
+      "500 times",
+      "1,000 times",
+      "10,000 times"
+    ],
+    "answer": "1,000 times",
+    "answerKey": "C",
+    "correctAnswer": "1,000 times",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (C) is the correct answer: 1,000 times.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_364",
+    "title": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, enc...",
+    "description": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: Which of the following is NOT mentioned as a human activity threatening biodiversity?",
+    "question": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: Which of the following is NOT mentioned as a human activity threatening biodiversity?",
+    "options": [
+      "Agriculture",
+      "Deforestation",
+      "Pollution",
+      "Overexploitation"
+    ],
+    "answer": "Agriculture",
+    "answerKey": "A",
+    "correctAnswer": "Agriculture",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Agriculture.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_366",
+    "title": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, enc...",
+    "description": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: What ecosystem service does biodiversity NOT provide according to the passage?",
+    "question": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: What ecosystem service does biodiversity NOT provide according to the passage?",
+    "options": [
+      "Electricity generation",
+      "Air purification",
+      "Climate stabilization",
+      "Pollination"
+    ],
+    "answer": "Electricity generation",
+    "answerKey": "A",
+    "correctAnswer": "Electricity generation",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Electricity generation.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_367",
+    "title": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, enc...",
+    "description": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: What does 'genetic diversity within species' refer to?",
+    "question": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: What does 'genetic diversity within species' refer to?",
+    "options": [
+      "Differences in DNA within the same species",
+      "Different species in one ecosystem",
+      "Variety of ecosystems",
+      "Number of plant species"
+    ],
+    "answer": "Differences in DNA within the same species",
+    "answerKey": "A",
+    "correctAnswer": "Differences in DNA within the same species",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Differences in DNA within the same species.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_153",
+    "title": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th c...",
+    "description": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: What social development emerged as a direct result of the Industrial Revolution?",
+    "question": "PASSAGE: The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed the world. It mark... Q: What social development emerged as a direct result of the Industrial Revolution?",
+    "options": [
+      "A new working class",
+      "Decline of cities",
+      "Return to farming",
+      "Fewer social inequalities"
+    ],
+    "answer": "A new working class",
+    "answerKey": "A",
+    "correctAnswer": "A new working class",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: A new working class.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_156",
+    "title": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwi...",
+    "description": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwide. Unlike traditional software that follows fixed i... Q: How does AI differ from traditional software?",
+    "question": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwide. Unlike traditional software that follows fixed i... Q: How does AI differ from traditional software?",
+    "options": [
+      "AI learns from data and improves over time",
+      "AI follows fixed instructions only",
+      "AI cannot process large datasets",
+      "AI requires no programming"
+    ],
+    "answer": "AI learns from data and improves over time",
+    "answerKey": "A",
+    "correctAnswer": "AI learns from data and improves over time",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: AI learns from data and improves over time.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_159",
+    "title": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwi...",
+    "description": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwide. Unlike traditional software that follows fixed i... Q: Which of the following is listed as an ethical concern related to AI?",
+    "question": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwide. Unlike traditional software that follows fixed i... Q: Which of the following is listed as an ethical concern related to AI?",
+    "options": [
+      "Algorithmic bias",
+      "Faster computers",
+      "Better graphics",
+      "Cheaper hardware"
+    ],
+    "answer": "Algorithmic bias",
+    "answerKey": "A",
+    "correctAnswer": "Algorithmic bias",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Algorithmic bias.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_162",
+    "title": "PASSAGE: Climate change is one of the most pressing challenges facing humanit...",
+    "description": "PASSAGE: Climate change is one of the most pressing challenges facing humanity. Rising global temperatures, driven primarily by g... Q: What is the temperature threshold scientists warn about?",
+    "question": "PASSAGE: Climate change is one of the most pressing challenges facing humanity. Rising global temperatures, driven primarily by g... Q: What is the temperature threshold scientists warn about?",
+    "options": [
+      "2°C above pre-industrial levels",
+      "4°C above current levels",
+      "1°C below average",
+      "5°C above historical average"
+    ],
+    "answer": "2°C above pre-industrial levels",
+    "answerKey": "A",
+    "correctAnswer": "2°C above pre-industrial levels",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 2°C above pre-industrial levels.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_164",
+    "title": "PASSAGE: Climate change is one of the most pressing challenges facing humanit...",
+    "description": "PASSAGE: Climate change is one of the most pressing challenges facing humanity. Rising global temperatures, driven primarily by g... Q: Which of the following is mentioned as a mitigation pathway?",
+    "question": "PASSAGE: Climate change is one of the most pressing challenges facing humanity. Rising global temperatures, driven primarily by g... Q: Which of the following is mentioned as a mitigation pathway?",
+    "options": [
+      "Carbon capture technologies",
+      "Burning more coal",
+      "Increasing deforestation",
+      "Reducing renewable energy"
+    ],
+    "answer": "Carbon capture technologies",
+    "answerKey": "A",
+    "correctAnswer": "Carbon capture technologies",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Carbon capture technologies.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_168",
+    "title": "PASSAGE: The human brain is arguably the most complex structure in the known ...",
+    "description": "PASSAGE: The human brain is arguably the most complex structure in the known universe. Comprising approximately 86 billion neuron... Q: Which technology is mentioned in relation to modern neuroscience?",
+    "question": "PASSAGE: The human brain is arguably the most complex structure in the known universe. Comprising approximately 86 billion neuron... Q: Which technology is mentioned in relation to modern neuroscience?",
+    "options": [
+      "fMRI",
+      "X-ray",
+      "CT scan alone",
+      "Blood tests"
+    ],
+    "answer": "fMRI",
+    "answerKey": "A",
+    "correctAnswer": "fMRI",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: fMRI.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_170",
+    "title": "PASSAGE: The human brain is arguably the most complex structure in the known ...",
+    "description": "PASSAGE: The human brain is arguably the most complex structure in the known universe. Comprising approximately 86 billion neuron... Q: Which old notion does neuroplasticity challenge?",
+    "question": "PASSAGE: The human brain is arguably the most complex structure in the known universe. Comprising approximately 86 billion neuron... Q: Which old notion does neuroplasticity challenge?",
+    "options": [
+      "That the brain is fixed after childhood",
+      "That the brain grows throughout life",
+      "That neurons multiply continuously",
+      "That synapses are temporary"
+    ],
+    "answer": "That the brain is fixed after childhood",
+    "answerKey": "A",
+    "correctAnswer": "That the brain is fixed after childhood",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: That the brain is fixed after childhood.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_362",
+    "title": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, enc...",
+    "description": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: What percentage of Earth's surface do tropical rainforests cover?",
+    "question": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: What percentage of Earth's surface do tropical rainforests cover?",
+    "options": [
+      "50%",
+      "6%",
+      "25%",
+      "12%"
+    ],
+    "answer": "6%",
+    "answerKey": "B",
+    "correctAnswer": "6%",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (B) is the correct answer: 6%.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_365",
+    "title": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, enc...",
+    "description": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: What do scientists warn could happen if species loss continues?",
+    "question": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: What do scientists warn could happen if species loss continues?",
+    "options": [
+      "A sixth mass extinction",
+      "A new ice age",
+      "Rapid species recovery",
+      "Improved ecosystems"
+    ],
+    "answer": "A sixth mass extinction",
+    "answerKey": "A",
+    "correctAnswer": "A sixth mass extinction",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: A sixth mass extinction.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_VER_368",
+    "title": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, enc...",
+    "description": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: Tropical rainforests harbor more than half of world species despite covering:",
+    "question": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: Tropical rainforests harbor more than half of world species despite covering:",
+    "options": [
+      "Only 6% of Earth's surface",
+      "50% of Earth's surface",
+      "All tropical zones",
+      "25% of Earth's land"
+    ],
+    "answer": "Only 6% of Earth's surface",
+    "answerKey": "A",
+    "correctAnswer": "Only 6% of Earth's surface",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Only 6% of Earth's surface.",
+    "topic": "reading-comprehension",
+    "topicName": "Reading Comprehension",
+    "category": "verbal",
+    "section": "Verbal Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
   }
 ]

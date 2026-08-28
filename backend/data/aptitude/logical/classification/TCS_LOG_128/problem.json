@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_128",
+  "slug": "tcs-log-128",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "classification",
+  "topicName": "Classification",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Find the odd one: Carrot, Potato, Brinjal, Turnip, Radish",
+  "description": "Find the odd one: Carrot, Potato, Brinjal, Turnip, Radish",
+  "question": "Find the odd one: Carrot, Potato, Brinjal, Turnip, Radish",
+  "options": [
+    "Brinjal",
+    "Carrot",
+    "Potato",
+    "Turnip"
+  ],
+  "optionsMap": {
+    "A": "Brinjal",
+    "B": "Carrot",
+    "C": "Potato",
+    "D": "Turnip"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Brinjal",
+  "tags": [
+    "logical",
+    "classification"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

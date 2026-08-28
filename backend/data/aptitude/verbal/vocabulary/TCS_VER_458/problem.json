@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_458",
+  "slug": "tcs-ver-458",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "What does the word PRECIPITATE mean?",
+  "description": "What does the word PRECIPITATE mean?",
+  "question": "What does the word PRECIPITATE mean?",
+  "options": [
+    "Cause to happen suddenly",
+    "Move slowly",
+    "Delay",
+    "Prevent"
+  ],
+  "optionsMap": {
+    "A": "Cause to happen suddenly",
+    "B": "Move slowly",
+    "C": "Delay",
+    "D": "Prevent"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Cause to happen suddenly",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

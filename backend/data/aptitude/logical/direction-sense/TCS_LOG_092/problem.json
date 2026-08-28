@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_092",
+  "slug": "tcs-log-092",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "direction-sense",
+  "topicName": "Direction Sense",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "A walks 3km North, 4km East, 3km South, and 4km West. He is now:",
+  "description": "A walks 3km North, 4km East, 3km South, and 4km West. He is now:",
+  "question": "A walks 3km North, 4km East, 3km South, and 4km West. He is now:",
+  "options": [
+    "At starting point",
+    "4km East",
+    "4km West",
+    "3km North"
+  ],
+  "optionsMap": {
+    "A": "At starting point",
+    "B": "4km East",
+    "C": "4km West",
+    "D": "3km North"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "At starting point",
+  "tags": [
+    "logical",
+    "direction-sense"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

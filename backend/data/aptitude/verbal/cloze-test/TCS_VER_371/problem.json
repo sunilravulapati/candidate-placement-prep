@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_371",
+  "slug": "tcs-ver-371",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "cloze-test",
+  "topicName": "Cloze Test",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Education is the most powerful _____ (1) one can use to change the world. It ...",
+  "description": "Education is the most powerful _____ (1) one can use to change the world. It empowers individuals, reduces poverty, and builds a foundation for a _____ (2) society. However, millions of children worldwide still lack _____ (3) to quality education. SELECT WORD FOR BLANK (1):",
+  "question": "Education is the most powerful _____ (1) one can use to change the world. It empowers individuals, reduces poverty, and builds a foundation for a _____ (2) society. However, millions of children worldwide still lack _____ (3) to quality education. SELECT WORD FOR BLANK (1):",
+  "options": [
+    "weapon",
+    "burden",
+    "problem",
+    "obstacle"
+  ],
+  "optionsMap": {
+    "A": "weapon",
+    "B": "burden",
+    "C": "problem",
+    "D": "obstacle"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "weapon",
+  "tags": [
+    "verbal",
+    "cloze-test"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

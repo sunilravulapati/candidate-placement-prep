@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_240",
+  "slug": "tcs-apt-240",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A sold an article for Rs 240 at 20% profit. Find cost price.",
+  "description": "A sold an article for Rs 240 at 20% profit. Find cost price.",
+  "question": "A sold an article for Rs 240 at 20% profit. Find cost price.",
+  "options": [
+    "200",
+    "180",
+    "220",
+    "190"
+  ],
+  "optionsMap": {
+    "A": "200",
+    "B": "180",
+    "C": "220",
+    "D": "190"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "200",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_136",
+  "slug": "tcs-ver-136",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "The _____ of the night sky filled the astronomer with wonder.",
+  "description": "The _____ of the night sky filled the astronomer with wonder.",
+  "question": "The _____ of the night sky filled the astronomer with wonder.",
+  "options": [
+    "vastness",
+    "smallness",
+    "narrowness",
+    "closeness"
+  ],
+  "optionsMap": {
+    "A": "vastness",
+    "B": "smallness",
+    "C": "narrowness",
+    "D": "closeness"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "vastness",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

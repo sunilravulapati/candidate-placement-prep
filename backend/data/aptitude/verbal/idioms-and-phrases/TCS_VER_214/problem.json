@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_214",
+  "slug": "tcs-ver-214",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "What does 'cost an arm and a leg' mean?",
+  "description": "What does 'cost an arm and a leg' mean?",
+  "question": "What does 'cost an arm and a leg' mean?",
+  "options": [
+    "Be very expensive",
+    "Require physical effort",
+    "Cause injury",
+    "Need surgery"
+  ],
+  "optionsMap": {
+    "A": "Be very expensive",
+    "B": "Require physical effort",
+    "C": "Cause injury",
+    "D": "Need surgery"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Be very expensive",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

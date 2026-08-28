@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_143",
+  "slug": "tcs-log-143",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "statement-and-conclusions",
+  "topicName": "Statement and Conclusions",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Statement: Regular exercise reduces stress. Meena exercises daily. Conclusion...",
+  "description": "Statement: Regular exercise reduces stress. Meena exercises daily. Conclusion: Meena has reduced stress.",
+  "question": "Statement: Regular exercise reduces stress. Meena exercises daily. Conclusion: Meena has reduced stress.",
+  "options": [
+    "Conclusion likely follows",
+    "Conclusion definitely follows",
+    "Conclusion does not follow",
+    "Cannot say"
+  ],
+  "optionsMap": {
+    "A": "Conclusion likely follows",
+    "B": "Conclusion definitely follows",
+    "C": "Conclusion does not follow",
+    "D": "Cannot say"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Conclusion likely follows",
+  "tags": [
+    "logical",
+    "statement-and-conclusions"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

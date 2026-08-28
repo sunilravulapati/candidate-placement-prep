@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_158",
+  "slug": "tcs-apt-158",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "permutation-and-combination",
+  "topicName": "Permutation and Combination",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "In how many ways can the letters of MISSISSIPPI be arranged?",
+  "description": "In how many ways can the letters of MISSISSIPPI be arranged?",
+  "question": "In how many ways can the letters of MISSISSIPPI be arranged?",
+  "options": [
+    "34650",
+    "25200",
+    "30030",
+    "40040"
+  ],
+  "optionsMap": {
+    "A": "34650",
+    "B": "25200",
+    "C": "30030",
+    "D": "40040"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "34650",
+  "tags": [
+    "quantitative",
+    "permutation-and-combination"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_537",
+  "slug": "tcs-apt-537",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "CI on 1000 at 10% for 2 years?",
+  "description": "CI on 1000 at 10% for 2 years?",
+  "question": "CI on 1000 at 10% for 2 years?",
+  "options": [
+    "210",
+    "200",
+    "220",
+    "100"
+  ],
+  "optionsMap": {
+    "A": "210",
+    "B": "200",
+    "C": "220",
+    "D": "100"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "210",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

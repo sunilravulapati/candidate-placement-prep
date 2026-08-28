@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_313",
+  "slug": "tcs-log-313",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Coding: If SLOW = 40, FAST = ?",
+  "description": "Coding: If SLOW = 40, FAST = ?",
+  "question": "Coding: If SLOW = 40, FAST = ?",
+  "options": [
+    "34",
+    "36",
+    "32",
+    "38"
+  ],
+  "optionsMap": {
+    "A": "34",
+    "B": "36",
+    "C": "32",
+    "D": "38"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "34",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

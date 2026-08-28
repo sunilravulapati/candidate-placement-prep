@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_240",
+  "slug": "tcs-ver-240",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "What does 'you can't judge a book by its cover' mean?",
+  "description": "What does 'you can't judge a book by its cover' mean?",
+  "question": "What does 'you can't judge a book by its cover' mean?",
+  "options": [
+    "Don't judge by appearances alone",
+    "Never read books",
+    "Avoid assumptions",
+    "Always judge quickly"
+  ],
+  "optionsMap": {
+    "A": "Don't judge by appearances alone",
+    "B": "Never read books",
+    "C": "Avoid assumptions",
+    "D": "Always judge quickly"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Don't judge by appearances alone",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

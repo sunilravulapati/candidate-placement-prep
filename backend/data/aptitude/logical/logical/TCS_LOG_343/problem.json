@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_343",
+  "slug": "tcs-log-343",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Puzzle: 3 boxes. Box A has fruit if Box C has toys. Box C has toys. What does...",
+  "description": "Puzzle: 3 boxes. Box A has fruit if Box C has toys. Box C has toys. What does Box A have?",
+  "question": "Puzzle: 3 boxes. Box A has fruit if Box C has toys. Box C has toys. What does Box A have?",
+  "options": [
+    "Fruit",
+    "Toys",
+    "Books",
+    "Cannot tell"
+  ],
+  "optionsMap": {
+    "A": "Fruit",
+    "B": "Toys",
+    "C": "Books",
+    "D": "Cannot tell"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Fruit",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

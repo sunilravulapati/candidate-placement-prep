@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_387",
+  "slug": "tcs-log-387",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Analogy: Oxygen:Combustion :: Food:?",
+  "description": "Analogy: Oxygen:Combustion :: Food:?",
+  "question": "Analogy: Oxygen:Combustion :: Food:?",
+  "options": [
+    "Life",
+    "Water",
+    "Energy",
+    "Air"
+  ],
+  "optionsMap": {
+    "A": "Life",
+    "B": "Water",
+    "C": "Energy",
+    "D": "Air"
+  },
+  "answer": "C",
+  "answerKey": "C",
+  "correctAnswer": "Energy",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

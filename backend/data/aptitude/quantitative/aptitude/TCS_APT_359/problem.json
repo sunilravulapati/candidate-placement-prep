@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_359",
+  "slug": "tcs-apt-359",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A train of length 180m passes a tree in 9 seconds. Speed of train?",
+  "description": "A train of length 180m passes a tree in 9 seconds. Speed of train?",
+  "question": "A train of length 180m passes a tree in 9 seconds. Speed of train?",
+  "options": [
+    "72 km/h",
+    "20 m/s",
+    "54 km/h",
+    "15 m/s"
+  ],
+  "optionsMap": {
+    "A": "72 km/h",
+    "B": "20 m/s",
+    "C": "54 km/h",
+    "D": "15 m/s"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "72 km/h",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

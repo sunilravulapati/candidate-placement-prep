@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_398",
+  "slug": "tcs-log-398",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Input: Machine does X→Y→Z in 3 steps. Output of ABC in step 2?",
+  "description": "Input: Machine does X→Y→Z in 3 steps. Output of ABC in step 2?",
+  "question": "Input: Machine does X→Y→Z in 3 steps. Output of ABC in step 2?",
+  "options": [
+    "Step-specific",
+    "ABC",
+    "CBA",
+    "BAC"
+  ],
+  "optionsMap": {
+    "A": "Step-specific",
+    "B": "ABC",
+    "C": "CBA",
+    "D": "BAC"
+  },
+  "answer": "C",
+  "answerKey": "C",
+  "correctAnswer": "CBA",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

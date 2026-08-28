@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_499",
+  "slug": "tcs-ver-499",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Which word means 'scholarly'?",
+  "description": "Which word means 'scholarly'?",
+  "question": "Which word means 'scholarly'?",
+  "options": [
+    "Erudite",
+    "Ignorant",
+    "Illiterate",
+    "Common"
+  ],
+  "optionsMap": {
+    "A": "Erudite",
+    "B": "Ignorant",
+    "C": "Illiterate",
+    "D": "Common"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Erudite",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

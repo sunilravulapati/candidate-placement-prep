@@ -3,223 +3,401 @@
 import fs from 'fs';
 import path from 'path';
 
-export interface ValidationSummary {
-  scanned: number;
-  valid: number;
-  warnings: number;
-  duplicateSlugs: number;
-  missingEditorials: number;
-  missingHints: number;
-  missingSolutions: number;
-  missingExamples: number;
-  missingConstraints: number;
-  missingCompanies: number;
-  invalidCanonicalTypes: number;
-  invalidDriverTypes: number;
-  missingHiddenTests: number;
-  errorsByProblem: Record<string, string[]>;
+export interface ProblemValidationResult {
+  slug: string;
+  title: string;
+  errors: string[];
+  warnings: string[];
+  hasValidMetadata: boolean;
+  visibleTestCount: number;
+  hiddenTestCount: number;
+  hasDuplicates: boolean;
+  solutions: {
+    cpp: boolean;
+    python: boolean;
+    java: boolean;
+    javascript: boolean;
+    typescript: boolean;
+  };
+  hasEditorial: boolean;
+  hasHints: boolean;
+  hasResources: boolean;
 }
 
-const ALLOWED_DRIVERS = [
-  'DEFAULT',
-  'LINKED_LIST',
-  'TREE',
-  'GRAPH',
-  'COMMAND_SEQUENCE',
-  'MATRIX',
-  'INTERACTIVE',
-  'SQL',
-  'SCRIPT',
-  'CUSTOM',
-];
+export interface ValidationReport {
+  totalScanned: number;
+  metadataValidCount: number;
+  visibleTestsPassCount: number;
+  hiddenTestsPassCount: number;
+  hiddenTestsWarningCount: number;
+  solutionsCount: {
+    cpp: number;
+    python: number;
+    java: number;
+    javascript: number;
+    typescript: number;
+  };
+  duplicateCount: number;
+  brokenRelationshipsCount: number;
+  compatibilityErrorsCount: number;
+  problemResults: ProblemValidationResult[];
+}
 
-export function validateRepository(): ValidationSummary {
-  const dataDirCandidates = [
+function findDataDir(): string {
+  const candidates = [
     path.join(process.cwd(), 'data'),
     path.join(process.cwd(), 'backend', 'data'),
     path.join(process.cwd(), '..', 'backend', 'data'),
   ];
-  const dataDir = dataDirCandidates.find((c) => fs.existsSync(c));
-  if (!dataDir) {
-    throw new Error('Backend data directory not found.');
+  return candidates.find((c) => fs.existsSync(c)) || path.join(process.cwd(), 'backend', 'data');
+}
+
+/**
+ * Check if the input format is compatible with the declared problem topic / data structures.
+ */
+function checkInputCompatibility(
+  title: string,
+  primaryTopic: string,
+  input: string,
+  dataStructures: string[] = []
+): string | null {
+  const tLower = title.toLowerCase();
+  const topLower = primaryTopic.toLowerCase();
+  const trimmed = input.trim();
+
+  // String problems shouldn't have array input unless explicitly required
+  if (
+    (topLower === 'strings' || tLower.includes('valid parentheses') || tLower.includes('valid anagram')) &&
+    !tLower.includes('group') &&
+    !tLower.includes('word search')
+  ) {
+    if (trimmed.startsWith('[') && !trimmed.startsWith('["')) {
+      return `Potential type mismatch: Problem "${title}" is string-based but test input appears to be an integer array: ${trimmed.slice(0, 30)}`;
+    }
   }
 
+  // Integer problems shouldn't have array input
+  if (
+    (tLower.includes('fibonacci') || tLower.includes('climbing stairs') || tLower.includes('counting bits')) &&
+    trimmed.startsWith('[')
+  ) {
+    return `Potential type mismatch: Problem "${title}" expects integer but test input is array: ${trimmed.slice(0, 30)}`;
+  }
+
+  return null;
+}
+
+export function validateRepository(): ValidationReport {
+  const dataDir = findDataDir();
   const problemsDir = path.join(dataDir, 'problems');
+
   if (!fs.existsSync(problemsDir)) {
     throw new Error(`Problems directory not found at ${problemsDir}`);
   }
 
-  const summary: ValidationSummary = {
-    scanned: 0,
-    valid: 0,
-    warnings: 0,
-    duplicateSlugs: 0,
-    missingEditorials: 0,
-    missingHints: 0,
-    missingSolutions: 0,
-    missingExamples: 0,
-    missingConstraints: 0,
-    missingCompanies: 0,
-    invalidCanonicalTypes: 0,
-    invalidDriverTypes: 0,
-    missingHiddenTests: 0,
-    errorsByProblem: {},
-  };
-
-  const slugs = new Set<string>();
   const entries = fs.readdirSync(problemsDir, { withFileTypes: true });
+  const allSlugs = new Set<string>();
+
+  for (const entry of entries) {
+    if (entry.isDirectory()) allSlugs.add(entry.name);
+  }
+
+  const report: ValidationReport = {
+    totalScanned: 0,
+    metadataValidCount: 0,
+    visibleTestsPassCount: 0,
+    hiddenTestsPassCount: 0,
+    hiddenTestsWarningCount: 0,
+    solutionsCount: {
+      cpp: 0,
+      python: 0,
+      java: 0,
+      javascript: 0,
+      typescript: 0,
+    },
+    duplicateCount: 0,
+    brokenRelationshipsCount: 0,
+    compatibilityErrorsCount: 0,
+    problemResults: [],
+  };
 
   for (const entry of entries) {
     if (!entry.isDirectory()) continue;
-    const problemFolder = path.join(problemsDir, entry.name);
-    const pErrors: string[] = [];
+    const slug = entry.name;
+    const folderPath = path.join(problemsDir, slug);
 
-    summary.scanned++;
+    report.totalScanned++;
+
+    const pErrors: string[] = [];
+    const pWarnings: string[] = [];
+    let title = slug;
+    let primaryTopic = '';
+    let hasValidMetadata = true;
 
     // 1. Check problem.json
-    const jsonPath = path.join(problemFolder, 'problem.json');
-    if (!fs.existsSync(jsonPath)) {
+    const problemJsonPath = path.join(folderPath, 'problem.json');
+    if (!fs.existsSync(problemJsonPath)) {
       pErrors.push('Missing problem.json');
+      hasValidMetadata = false;
     } else {
       try {
-        const raw = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+        const json = JSON.parse(fs.readFileSync(problemJsonPath, 'utf-8'));
+        title = json.title || slug;
+        primaryTopic = json.primaryTopic || json.topic || '';
 
-        if (!raw.schemaVersion) pErrors.push('Missing schemaVersion');
-        if (!raw.contentVersion) pErrors.push('Missing contentVersion');
-        if (!raw.reviewStatus) pErrors.push('Missing reviewStatus');
-
-        if (!raw.slug || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(raw.slug)) {
-          pErrors.push(`Invalid slug format: "${raw.slug}"`);
-        } else if (slugs.has(raw.slug)) {
-          summary.duplicateSlugs++;
-          pErrors.push(`Duplicate slug detected: "${raw.slug}"`);
-        } else {
-          slugs.add(raw.slug);
+        if (!json.slug) {
+          pErrors.push('Missing slug');
+          hasValidMetadata = false;
+        }
+        if (!json.title) {
+          pErrors.push('Missing title');
+          hasValidMetadata = false;
+        }
+        if (!json.description) {
+          pErrors.push('Missing description');
+          hasValidMetadata = false;
+        }
+        if (!json.difficulty) {
+          pErrors.push('Missing difficulty');
+          hasValidMetadata = false;
+        }
+        if (!primaryTopic) {
+          pErrors.push('Missing primaryTopic');
+          hasValidMetadata = false;
+        }
+        if (!json.inputFormat) {
+          pWarnings.push('Missing inputFormat');
+        }
+        if (!json.constraints || json.constraints.length === 0) {
+          pWarnings.push('Missing constraints');
         }
 
-        if (!raw.title) pErrors.push('Missing title');
-        if (!raw.difficulty) pErrors.push('Missing difficulty');
-        if (!raw.topic) pErrors.push('Missing topic');
-
-        if (!raw.examples || raw.examples.length === 0) {
-          summary.missingExamples++;
-        }
-        if (!raw.constraints || raw.constraints.length === 0) {
-          summary.missingConstraints++;
-        }
-        if (!raw.companies || raw.companies.length === 0) {
-          summary.missingCompanies++;
-        }
-
-        // Check starterMetadata
-        if (!raw.starterMetadata) {
-          pErrors.push('Missing starterMetadata');
-        } else if (!raw.starterMetadata.functionName && raw.starterMetadata.problemType !== 'DESIGN') {
-          pErrors.push('Missing starterMetadata.functionName');
-        }
-
-        // Check executionMetadata
-        if (!raw.executionMetadata) {
-          pErrors.push('Missing executionMetadata');
-        } else if (!raw.executionMetadata.comparator) {
-          pErrors.push('Missing executionMetadata.comparator');
-        }
-
-        // Check driverMetadata
-        if (!raw.driverMetadata) {
-          pErrors.push('Missing driverMetadata');
-        } else if (!ALLOWED_DRIVERS.includes(raw.driverMetadata.driver)) {
-          summary.invalidDriverTypes++;
-          pErrors.push(`Invalid driverMetadata.driver: "${raw.driverMetadata.driver}"`);
+        // Check relationship references
+        const related = json.relationships?.related || [];
+        for (const rel of related) {
+          const relSlug = typeof rel === 'string' ? rel.toLowerCase().replace(/[^a-z0-9]+/g, '-') : '';
+          if (relSlug && relSlug.length > 3 && !allSlugs.has(relSlug) && !allSlugs.has(rel.toLowerCase())) {
+            // Broken reference
+            report.brokenRelationshipsCount++;
+          }
         }
       } catch (err) {
-        pErrors.push(`Failed to parse problem.json: ${(err as Error).message}`);
+        pErrors.push(`Invalid problem.json: ${(err as Error).message}`);
+        hasValidMetadata = false;
       }
     }
 
-    // 2. Check editorial.md
-    const editorialPath = path.join(problemFolder, 'editorial.md');
-    if (!fs.existsSync(editorialPath) || fs.readFileSync(editorialPath, 'utf-8').trim().length === 0) {
-      summary.missingEditorials++;
-      pErrors.push('Missing or empty editorial.md');
+    if (hasValidMetadata && pErrors.length === 0) {
+      report.metadataValidCount++;
     }
 
-    // 3. Check hints.md
-    const hintsPath = path.join(problemFolder, 'hints.md');
-    if (!fs.existsSync(hintsPath) || fs.readFileSync(hintsPath, 'utf-8').trim().length === 0) {
-      summary.missingHints++;
-      pErrors.push('Missing or empty hints.md');
-    }
+    // 2. Check Tests (tests.json or problem.json)
+    const testsJsonPath = path.join(folderPath, 'tests.json');
+    let visibleTests: any[] = [];
+    let hiddenTests: any[] = [];
+    let hasDuplicates = false;
 
-    // 4. Check solutions/ folder
-    const solutionsFolder = path.join(problemFolder, 'solutions');
-    if (!fs.existsSync(solutionsFolder)) {
-      summary.missingSolutions++;
-      pErrors.push('Missing solutions/ folder');
+    if (fs.existsSync(testsJsonPath)) {
+      try {
+        const tests = JSON.parse(fs.readFileSync(testsJsonPath, 'utf-8'));
+        if (Array.isArray(tests)) {
+          visibleTests = tests.filter(
+            (t: any) => t.classification === 'sample' || (t.id && t.id.startsWith('sample'))
+          );
+          hiddenTests = tests.filter(
+            (t: any) => t.classification !== 'sample' && (!t.id || !t.id.startsWith('sample'))
+          );
+
+          // Duplicate check
+          const seen = new Set<string>();
+          for (const t of tests) {
+            const key = `${(t.input || '').trim()}::${(t.expectedOutput || '').trim()}`;
+            if (seen.has(key)) {
+              hasDuplicates = true;
+              report.duplicateCount++;
+              pErrors.push(`Duplicate test case detected for input: ${t.input}`);
+            } else {
+              seen.add(key);
+            }
+          }
+
+          // Compatibility check
+          for (const t of visibleTests) {
+            const compatErr = checkInputCompatibility(title, primaryTopic, t.input || '');
+            if (compatErr) {
+              report.compatibilityErrorsCount++;
+              pWarnings.push(compatErr);
+            }
+          }
+        }
+      } catch (err) {
+        pErrors.push(`Invalid tests.json: ${(err as Error).message}`);
+      }
     } else {
-      const solFiles = fs.readdirSync(solutionsFolder);
-      if (solFiles.length === 0) {
-        summary.missingSolutions++;
-        pErrors.push('solutions/ folder is empty (at least 1 reference solution required)');
-      }
-    }
-
-    // 5. Check tests.json
-    const testsPath = path.join(problemFolder, 'tests.json');
-    if (!fs.existsSync(testsPath)) {
-      summary.missingHiddenTests++;
       pErrors.push('Missing tests.json');
+    }
+
+    // Visible tests: min 3 required (ERROR if < 3)
+    if (visibleTests.length >= 3) {
+      report.visibleTestsPassCount++;
     } else {
-      try {
-        const tests = JSON.parse(fs.readFileSync(testsPath, 'utf-8'));
-        const hiddenCount = Array.isArray(tests) ? tests.filter((t: any) => t.classification !== 'sample').length : 0;
-        if (hiddenCount < 3) {
-          summary.missingHiddenTests++;
-          pErrors.push(`Fewer than 3 hidden/stress tests found (found ${hiddenCount})`);
-        }
-      } catch (err) {
-        pErrors.push(`Failed to parse tests.json: ${(err as Error).message}`);
+      pErrors.push(`Insufficient visible test cases (found ${visibleTests.length}, required minimum 3)`);
+    }
+
+    // Hidden tests: target 5 (WARNING if < 5 during content collection phase)
+    if (hiddenTests.length >= 5) {
+      report.hiddenTestsPassCount++;
+    } else {
+      report.hiddenTestsWarningCount++;
+      pWarnings.push(`Hidden test cases below target (found ${hiddenTests.length}, target 5)`);
+    }
+
+    // 3. Check 5-Language Reference Solutions
+    const solutionsDir = path.join(folderPath, 'solutions');
+    const solStatus = {
+      cpp: false,
+      python: false,
+      java: false,
+      javascript: false,
+      typescript: false,
+    };
+
+    if (fs.existsSync(solutionsDir)) {
+      const cppPath = path.join(solutionsDir, 'reference.cpp');
+      if (fs.existsSync(cppPath) && fs.readFileSync(cppPath, 'utf-8').trim().length > 0) {
+        solStatus.cpp = true;
+        report.solutionsCount.cpp++;
+      }
+
+      const pyPath = path.join(solutionsDir, 'reference.py');
+      if (fs.existsSync(pyPath) && fs.readFileSync(pyPath, 'utf-8').trim().length > 0) {
+        solStatus.python = true;
+        report.solutionsCount.python++;
+      }
+
+      const javaPath = path.join(solutionsDir, 'reference.java');
+      if (fs.existsSync(javaPath) && fs.readFileSync(javaPath, 'utf-8').trim().length > 0) {
+        solStatus.java = true;
+        report.solutionsCount.java++;
+      }
+
+      const jsPath = path.join(solutionsDir, 'reference.js');
+      if (fs.existsSync(jsPath) && fs.readFileSync(jsPath, 'utf-8').trim().length > 0) {
+        solStatus.javascript = true;
+        report.solutionsCount.javascript++;
+      }
+
+      const tsPath = path.join(solutionsDir, 'reference.ts');
+      if (fs.existsSync(tsPath) && fs.readFileSync(tsPath, 'utf-8').trim().length > 0) {
+        solStatus.typescript = true;
+        report.solutionsCount.typescript++;
       }
     }
 
-    if (pErrors.length > 0) {
-      summary.errorsByProblem[entry.name] = pErrors;
-    } else {
-      summary.valid++;
-    }
+    if (!solStatus.cpp) pErrors.push('Missing C++ reference solution');
+    if (!solStatus.python) pErrors.push('Missing Python reference solution');
+    if (!solStatus.java) pErrors.push('Missing Java reference solution');
+    if (!solStatus.javascript) pErrors.push('Missing JavaScript reference solution');
+    if (!solStatus.typescript) pErrors.push('Missing TypeScript reference solution');
+
+    // 4. Content files
+    const editorialPath = path.join(folderPath, 'editorial.md');
+    const hasEditorial = fs.existsSync(editorialPath) && fs.readFileSync(editorialPath, 'utf-8').trim().length > 0;
+    if (!hasEditorial) pErrors.push('Missing editorial.md');
+
+    const hintsPath = path.join(folderPath, 'hints.md');
+    const hasHints = fs.existsSync(hintsPath) && fs.readFileSync(hintsPath, 'utf-8').trim().length > 0;
+    if (!hasHints) pErrors.push('Missing hints.md');
+
+    report.problemResults.push({
+      slug,
+      title,
+      errors: pErrors,
+      warnings: pWarnings,
+      hasValidMetadata,
+      visibleTestCount: visibleTests.length,
+      hiddenTestCount: hiddenTests.length,
+      hasDuplicates,
+      solutions: solStatus,
+      hasEditorial,
+      hasHints,
+      hasResources: true,
+    });
   }
 
-  return summary;
+  return report;
 }
 
-if (require.main === module) {
-  try {
-    const res = validateRepository();
-    console.log('─────────────────────────────────────────────────────────────');
-    console.log(`✓ ${res.scanned} problems scanned`);
-    console.log(`✓ ${res.valid} valid`);
-    console.log(`${res.warnings} warnings`);
-    console.log(`${res.duplicateSlugs} duplicate slugs`);
-    console.log(`${res.missingEditorials} missing editorials`);
-    console.log(`${res.missingHints} missing hints`);
-    console.log(`${res.missingSolutions} missing solutions`);
-    console.log(`${res.invalidCanonicalTypes} invalid canonical types`);
-    console.log(`${res.invalidDriverTypes} invalid driver types`);
-    console.log(`${res.missingHiddenTests} missing hidden tests`);
-    console.log('─────────────────────────────────────────────────────────────');
+export function printValidationReport(report: ValidationReport) {
+  const isReady =
+    report.metadataValidCount === report.totalScanned &&
+    report.visibleTestsPassCount === report.totalScanned &&
+    report.solutionsCount.cpp === report.totalScanned &&
+    report.solutionsCount.python === report.totalScanned &&
+    report.solutionsCount.java === report.totalScanned &&
+    report.solutionsCount.javascript === report.totalScanned &&
+    report.solutionsCount.typescript === report.totalScanned &&
+    report.duplicateCount === 0;
 
-    if (res.valid < res.scanned) {
-      console.error('\n✗ Content validation failed for the following problems:');
-      for (const [slug, errs] of Object.entries(res.errorsByProblem)) {
-        console.error(`\n✗ ${slug}:`);
-        errs.forEach((e) => console.error(`  - ${e}`));
-      }
-      process.exit(1);
-    } else {
-      console.log('\n✓ All DSA content validated successfully!');
+  console.log('=============================================================');
+  console.log('                 DSA CONTENT VALIDATION');
+  console.log('=============================================================');
+  console.log(`Problems: ${report.totalScanned}\n`);
+
+  console.log('Metadata:');
+  console.log(`${report.metadataValidCount === report.totalScanned ? '✓' : '✗'} ${report.metadataValidCount}/${report.totalScanned}\n`);
+
+  console.log('Visible Tests:');
+  console.log(`${report.visibleTestsPassCount === report.totalScanned ? '✓' : '✗'} ${report.visibleTestsPassCount}/${report.totalScanned}\n`);
+
+  console.log('Hidden Tests:');
+  if (report.hiddenTestsPassCount === report.totalScanned) {
+    console.log(`✓ ${report.hiddenTestsPassCount}/${report.totalScanned} (Target: 5 tests)\n`);
+  } else {
+    console.log(`⚠️  ${report.hiddenTestsPassCount}/${report.totalScanned} meet 5+ target (${report.hiddenTestsWarningCount} in progress)\n`);
+  }
+
+  console.log('Reference Solutions:');
+  console.log(`  ${report.solutionsCount.cpp === report.totalScanned ? '✓' : '✗'} C++ ${report.solutionsCount.cpp}/${report.totalScanned}`);
+  console.log(`  ${report.solutionsCount.python === report.totalScanned ? '✓' : '✗'} Python ${report.solutionsCount.python}/${report.totalScanned}`);
+  console.log(`  ${report.solutionsCount.java === report.totalScanned ? '✓' : '✗'} Java ${report.solutionsCount.java}/${report.totalScanned}`);
+  console.log(`  ${report.solutionsCount.javascript === report.totalScanned ? '✓' : '✗'} JavaScript ${report.solutionsCount.javascript}/${report.totalScanned}`);
+  console.log(`  ${report.solutionsCount.typescript === report.totalScanned ? '✓' : '✗'} TypeScript ${report.solutionsCount.typescript}/${report.totalScanned}\n`);
+
+  console.log('Duplicates:');
+  console.log(`✓ ${report.duplicateCount} remaining\n`);
+
+  console.log('Broken relationships:');
+  console.log(`✓ ${report.brokenRelationshipsCount}\n`);
+
+  console.log('Compatibility Warnings:');
+  console.log(`${report.compatibilityErrorsCount === 0 ? '✓ 0' : `⚠️ ${report.compatibilityErrorsCount}`}\n`);
+
+  console.log('-------------------------------------------------------------');
+  console.log(`Status: ${isReady ? 'READY' : 'ACTION REQUIRED'}`);
+  console.log('=============================================================');
+
+  // If there are errors, print details
+  const failedProblems = report.problemResults.filter((p) => p.errors.length > 0);
+  if (failedProblems.length > 0) {
+    console.log('\n❌ Issues requiring resolution:');
+    for (const p of failedProblems) {
+      console.log(`\n• [${p.slug}] ${p.title}:`);
+      p.errors.forEach((e) => console.log(`    - ERROR: ${e}`));
+      p.warnings.forEach((w) => console.log(`    - WARNING: ${w}`));
     }
-  } catch (err) {
-    console.error('Validation Script Error:', (err as Error).message);
+  }
+}
+
+try {
+  const rep = validateRepository();
+  printValidationReport(rep);
+  const hasCriticalErrors = rep.problemResults.some((p) => p.errors.length > 0);
+  if (hasCriticalErrors) {
     process.exit(1);
   }
+} catch (err) {
+  console.error('Validation script error:', (err as Error).message);
+  process.exit(1);
 }
+

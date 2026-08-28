@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_356",
+  "slug": "tcs-apt-356",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If cost of 5 pens and 7 pencils is Rs 87, and 4 pens and 6 pencils is Rs 72, ...",
+  "description": "If cost of 5 pens and 7 pencils is Rs 87, and 4 pens and 6 pencils is Rs 72, find cost of pen.",
+  "question": "If cost of 5 pens and 7 pencils is Rs 87, and 4 pens and 6 pencils is Rs 72, find cost of pen.",
+  "options": [
+    "Rs 9",
+    "Rs 6",
+    "Rs 12",
+    "Rs 8"
+  ],
+  "optionsMap": {
+    "A": "Rs 9",
+    "B": "Rs 6",
+    "C": "Rs 12",
+    "D": "Rs 8"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs 9",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

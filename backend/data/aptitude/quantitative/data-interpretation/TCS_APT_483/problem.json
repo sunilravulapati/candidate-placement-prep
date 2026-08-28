@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_483",
+  "slug": "tcs-apt-483",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "data-interpretation",
+  "topicName": "Data Interpretation",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Line graph: profit was Rs.40L in 2019 and Rs.52L in 2021. What is the % incre...",
+  "description": "Line graph: profit was Rs.40L in 2019 and Rs.52L in 2021. What is the % increase?",
+  "question": "Line graph: profit was Rs.40L in 2019 and Rs.52L in 2021. What is the % increase?",
+  "options": [
+    "30%",
+    "25%",
+    "20%",
+    "35%"
+  ],
+  "optionsMap": {
+    "A": "30%",
+    "B": "25%",
+    "C": "20%",
+    "D": "35%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "30%",
+  "tags": [
+    "quantitative",
+    "data-interpretation"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

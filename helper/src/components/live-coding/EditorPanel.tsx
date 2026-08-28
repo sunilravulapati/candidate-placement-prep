@@ -47,7 +47,10 @@ export default function EditorPanel({
   );
 
   const handleEditorMount = useCallback(
-    (editor: unknown, monaco: { KeyMod: { CtrlCmd: number; Shift: number }; KeyCode: { Enter: number; KeyS: number } }) => {
+    (
+      editor: unknown,
+      monaco: { KeyMod: { CtrlCmd: number; Shift: number }; KeyCode: { Enter: number; KeyS: number } }
+    ) => {
       const ed = editor as { addCommand: (binding: number, handler: () => void) => void };
       // Ctrl+Enter → Run
       ed.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.Enter, () => {
@@ -75,7 +78,9 @@ export default function EditorPanel({
     <div className="flex flex-col h-full w-full relative">
       {/* Toolbar */}
       <div className="h-10 bg-slate-900 border-b border-slate-800 flex items-center justify-between px-4 shrink-0">
-        <span className="text-xs text-slate-500 font-mono">{config?.defaultFileName}</span>
+        <span className="text-xs text-slate-400 font-mono font-semibold">
+          {config?.defaultFileName}
+        </span>
 
         <div className="flex items-center gap-1 relative">
           <button
@@ -168,6 +173,19 @@ export default function EditorPanel({
           >
             <Maximize2 className="w-4 h-4" />
           </button>
+        </div>
+      </div>
+
+      {/* Contextual Next Move Banner */}
+      <div className="h-7 bg-[#070c18] border-b border-violet-500/20 px-4 flex items-center justify-between text-[11px] text-slate-300 shrink-0 font-mono">
+        <div className="flex items-center gap-2 truncate">
+          <span className="w-1.5 h-1.5 rounded-full bg-violet-400 animate-pulse shrink-0" />
+          <span className="text-violet-300 font-bold">Next move:</span>
+          <span className="text-slate-300 truncate">Implement logic & state invariants · Step 3 of 3</span>
+        </div>
+        <div className="hidden sm:flex items-center gap-3 text-[10px] text-slate-500 shrink-0">
+          <span>Ctrl+Enter (Run)</span>
+          <span>Shift+Enter (Submit)</span>
         </div>
       </div>
 

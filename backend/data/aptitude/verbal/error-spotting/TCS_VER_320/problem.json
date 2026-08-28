@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_320",
+  "slug": "tcs-ver-320",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "error-spotting",
+  "topicName": "Error Spotting",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Spot the error: (A)She is (B)more smarter (C)than her (D)elder sister.",
+  "description": "Spot the error: (A)She is (B)more smarter (C)than her (D)elder sister.",
+  "question": "Spot the error: (A)She is (B)more smarter (C)than her (D)elder sister.",
+  "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "optionsMap": {
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "D": "D"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "B",
+  "tags": [
+    "verbal",
+    "error-spotting"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_225",
+  "slug": "tcs-log-225",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "venn-diagrams",
+  "topicName": "Venn Diagrams",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "In a group of 200 students: 100 study Physics, 120 study Chemistry, 50 study ...",
+  "description": "In a group of 200 students: 100 study Physics, 120 study Chemistry, 50 study both. How many study neither?",
+  "question": "In a group of 200 students: 100 study Physics, 120 study Chemistry, 50 study both. How many study neither?",
+  "options": [
+    "30",
+    "50",
+    "20",
+    "40"
+  ],
+  "optionsMap": {
+    "A": "30",
+    "B": "50",
+    "C": "20",
+    "D": "40"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "30",
+  "tags": [
+    "logical",
+    "venn-diagrams"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_271",
+  "slug": "tcs-apt-271",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Volume of a cube of side 5cm.",
+  "description": "Volume of a cube of side 5cm.",
+  "question": "Volume of a cube of side 5cm.",
+  "options": [
+    "125 cm3",
+    "100 cm3",
+    "75 cm3",
+    "150 cm3"
+  ],
+  "optionsMap": {
+    "A": "125 cm3",
+    "B": "100 cm3",
+    "C": "75 cm3",
+    "D": "150 cm3"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "125 cm3",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

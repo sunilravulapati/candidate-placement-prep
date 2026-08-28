@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_582",
+  "slug": "tcs-ver-582",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: STEADFAST",
+  "description": "Choose the word most similar in meaning to: STEADFAST",
+  "question": "Choose the word most similar in meaning to: STEADFAST",
+  "options": [
+    "Resolute",
+    "Wavering",
+    "Uncertain",
+    "Changeable"
+  ],
+  "optionsMap": {
+    "A": "Resolute",
+    "B": "Wavering",
+    "C": "Uncertain",
+    "D": "Changeable"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Resolute",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

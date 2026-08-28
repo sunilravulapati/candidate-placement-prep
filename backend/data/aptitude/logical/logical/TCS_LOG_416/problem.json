@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_416",
+  "slug": "tcs-log-416",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which is different: A, E, I, O, B?",
+  "description": "Which is different: A, E, I, O, B?",
+  "question": "Which is different: A, E, I, O, B?",
+  "options": [
+    "B",
+    "A",
+    "E",
+    "O"
+  ],
+  "optionsMap": {
+    "A": "B",
+    "B": "A",
+    "C": "E",
+    "D": "O"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "B",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

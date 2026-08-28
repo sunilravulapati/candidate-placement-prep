@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_095",
+  "slug": "tcs-apt-095",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "ratio-and-proportion",
+  "topicName": "Ratio and Proportion",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Two numbers are in ratio 3:5. If 4 is added to each, ratio becomes 2:3. Find ...",
+  "description": "Two numbers are in ratio 3:5. If 4 is added to each, ratio becomes 2:3. Find the numbers.",
+  "question": "Two numbers are in ratio 3:5. If 4 is added to each, ratio becomes 2:3. Find the numbers.",
+  "options": [
+    "12 and 20",
+    "15 and 25",
+    "9 and 15",
+    "6 and 10"
+  ],
+  "optionsMap": {
+    "A": "12 and 20",
+    "B": "15 and 25",
+    "C": "9 and 15",
+    "D": "6 and 10"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "12 and 20",
+  "tags": [
+    "quantitative",
+    "ratio-and-proportion"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

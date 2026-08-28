@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_312",
+  "slug": "tcs-apt-312",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A is 25% more than B. B is what % less than A?",
+  "description": "A is 25% more than B. B is what % less than A?",
+  "question": "A is 25% more than B. B is what % less than A?",
+  "options": [
+    "20%",
+    "25%",
+    "15%",
+    "30%"
+  ],
+  "optionsMap": {
+    "A": "20%",
+    "B": "25%",
+    "C": "15%",
+    "D": "30%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "20%",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

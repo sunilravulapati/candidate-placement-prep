@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_317",
+  "slug": "tcs-log-317",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Analogy: BCDE:FGHI :: JKLM:?",
+  "description": "Analogy: BCDE:FGHI :: JKLM:?",
+  "question": "Analogy: BCDE:FGHI :: JKLM:?",
+  "options": [
+    "NOPQ",
+    "OPQR",
+    "MNOP",
+    "LMNO"
+  ],
+  "optionsMap": {
+    "A": "NOPQ",
+    "B": "OPQR",
+    "C": "MNOP",
+    "D": "LMNO"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "NOPQ",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

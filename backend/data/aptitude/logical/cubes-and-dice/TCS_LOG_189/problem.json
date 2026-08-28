@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_189",
+  "slug": "tcs-log-189",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "cubes-and-dice",
+  "topicName": "Cubes and Dice",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Opposite faces of a die: 1-6, 2-5, 3-4. Die placed with 1 on top, 2 facing fr...",
+  "description": "Opposite faces of a die: 1-6, 2-5, 3-4. Die placed with 1 on top, 2 facing front. What is on right?",
+  "question": "Opposite faces of a die: 1-6, 2-5, 3-4. Die placed with 1 on top, 2 facing front. What is on right?",
+  "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "optionsMap": {
+    "A": "3",
+    "B": "4",
+    "C": "5",
+    "D": "6"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "3",
+  "tags": [
+    "logical",
+    "cubes-and-dice"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

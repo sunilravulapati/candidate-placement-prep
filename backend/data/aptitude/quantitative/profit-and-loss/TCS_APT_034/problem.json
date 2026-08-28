@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_034",
+  "slug": "tcs-apt-034",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "profit-and-loss",
+  "topicName": "Profit and Loss",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "A person bought 20 items at Rs.5 each and sold them all at Rs.6 each. What is...",
+  "description": "A person bought 20 items at Rs.5 each and sold them all at Rs.6 each. What is the total profit?",
+  "question": "A person bought 20 items at Rs.5 each and sold them all at Rs.6 each. What is the total profit?",
+  "options": [
+    "Rs.20",
+    "Rs.15",
+    "Rs.25",
+    "Rs.10"
+  ],
+  "optionsMap": {
+    "A": "Rs.20",
+    "B": "Rs.15",
+    "C": "Rs.25",
+    "D": "Rs.10"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.20",
+  "tags": [
+    "quantitative",
+    "profit-and-loss"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

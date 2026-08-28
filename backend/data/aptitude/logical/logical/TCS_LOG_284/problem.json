@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_284",
+  "slug": "tcs-log-284",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Syllogism: All men are mortal. Socrates is a man. Therefore?",
+  "description": "Syllogism: All men are mortal. Socrates is a man. Therefore?",
+  "question": "Syllogism: All men are mortal. Socrates is a man. Therefore?",
+  "options": [
+    "Socrates is mortal",
+    "Socrates is immortal",
+    "All mortals are men",
+    "Socrates is not mortal"
+  ],
+  "optionsMap": {
+    "A": "Socrates is mortal",
+    "B": "Socrates is immortal",
+    "C": "All mortals are men",
+    "D": "Socrates is not mortal"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Socrates is mortal",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

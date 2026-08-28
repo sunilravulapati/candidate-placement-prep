@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_248",
+  "slug": "tcs-apt-248",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "HCF of two numbers is 8 and their LCM is 96. One number is 32. Find the other.",
+  "description": "HCF of two numbers is 8 and their LCM is 96. One number is 32. Find the other.",
+  "question": "HCF of two numbers is 8 and their LCM is 96. One number is 32. Find the other.",
+  "options": [
+    "24",
+    "16",
+    "32",
+    "48"
+  ],
+  "optionsMap": {
+    "A": "24",
+    "B": "16",
+    "C": "32",
+    "D": "48"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "24",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

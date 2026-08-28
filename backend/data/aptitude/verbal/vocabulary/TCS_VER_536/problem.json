@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_536",
+  "slug": "tcs-ver-536",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: PARSIMONY",
+  "description": "Choose the word most similar in meaning to: PARSIMONY",
+  "question": "Choose the word most similar in meaning to: PARSIMONY",
+  "options": [
+    "Extreme thriftiness",
+    "Generosity",
+    "Extravagance",
+    "Lavishness"
+  ],
+  "optionsMap": {
+    "A": "Extreme thriftiness",
+    "B": "Generosity",
+    "C": "Extravagance",
+    "D": "Lavishness"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Extreme thriftiness",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

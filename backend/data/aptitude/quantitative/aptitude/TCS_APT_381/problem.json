@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_381",
+  "slug": "tcs-apt-381",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "How many words can be formed using all letters of PENCIL?",
+  "description": "How many words can be formed using all letters of PENCIL?",
+  "question": "How many words can be formed using all letters of PENCIL?",
+  "options": [
+    "720",
+    "360",
+    "120",
+    "240"
+  ],
+  "optionsMap": {
+    "A": "720",
+    "B": "360",
+    "C": "120",
+    "D": "240"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "720",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

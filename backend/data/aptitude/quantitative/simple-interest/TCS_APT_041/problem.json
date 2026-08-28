@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_041",
+  "slug": "tcs-apt-041",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "simple-interest",
+  "topicName": "Simple Interest",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Simple interest on Rs.2000 at 5% per annum for 3 years is:",
+  "description": "Simple interest on Rs.2000 at 5% per annum for 3 years is:",
+  "question": "Simple interest on Rs.2000 at 5% per annum for 3 years is:",
+  "options": [
+    "Rs.300",
+    "Rs.400",
+    "Rs.200",
+    "Rs.350"
+  ],
+  "optionsMap": {
+    "A": "Rs.300",
+    "B": "Rs.400",
+    "C": "Rs.200",
+    "D": "Rs.350"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.300",
+  "tags": [
+    "quantitative",
+    "simple-interest"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

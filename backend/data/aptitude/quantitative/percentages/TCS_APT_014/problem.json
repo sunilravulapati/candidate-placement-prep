@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_014",
+  "slug": "tcs-apt-014",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "percentages",
+  "topicName": "Percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A product costs Rs.400. Its price is increased by 15% and then decreased by 1...",
+  "description": "A product costs Rs.400. Its price is increased by 15% and then decreased by 15%. What is the final price?",
+  "question": "A product costs Rs.400. Its price is increased by 15% and then decreased by 15%. What is the final price?",
+  "options": [
+    "Rs.391",
+    "Rs.400",
+    "Rs.385",
+    "Rs.395"
+  ],
+  "optionsMap": {
+    "A": "Rs.391",
+    "B": "Rs.400",
+    "C": "Rs.385",
+    "D": "Rs.395"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.391",
+  "tags": [
+    "quantitative",
+    "percentages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

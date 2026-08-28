@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_383",
+  "slug": "tcs-log-383",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Passage reasoning: Only birds can fly. Eagles can fly. Therefore?",
+  "description": "Passage reasoning: Only birds can fly. Eagles can fly. Therefore?",
+  "question": "Passage reasoning: Only birds can fly. Eagles can fly. Therefore?",
+  "options": [
+    "Eagles are birds",
+    "Birds are eagles",
+    "Some birds can't fly",
+    "Eagles can't fly"
+  ],
+  "optionsMap": {
+    "A": "Eagles are birds",
+    "B": "Birds are eagles",
+    "C": "Some birds can't fly",
+    "D": "Eagles can't fly"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Eagles are birds",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

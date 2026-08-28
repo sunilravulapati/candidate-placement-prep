@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_168",
+  "slug": "tcs-apt-168",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "probability",
+  "topicName": "Probability",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A bag has 4 red and 6 blue balls. Probability of drawing 2 red balls?",
+  "description": "A bag has 4 red and 6 blue balls. Probability of drawing 2 red balls?",
+  "question": "A bag has 4 red and 6 blue balls. Probability of drawing 2 red balls?",
+  "options": [
+    "2/15",
+    "4/10",
+    "1/5",
+    "3/15"
+  ],
+  "optionsMap": {
+    "A": "2/15",
+    "B": "4/10",
+    "C": "1/5",
+    "D": "3/15"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "2/15",
+  "tags": [
+    "quantitative",
+    "probability"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

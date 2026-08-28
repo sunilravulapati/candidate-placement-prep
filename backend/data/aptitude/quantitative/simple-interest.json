@@ -1,0 +1,272 @@
+[
+  {
+    "id": "TCS_APT_041",
+    "title": "Simple interest on Rs.2000 at 5% per annum for 3 years is:",
+    "description": "Simple interest on Rs.2000 at 5% per annum for 3 years is:",
+    "question": "Simple interest on Rs.2000 at 5% per annum for 3 years is:",
+    "options": [
+      "Rs.300",
+      "Rs.400",
+      "Rs.200",
+      "Rs.350"
+    ],
+    "answer": "Rs.300",
+    "answerKey": "A",
+    "correctAnswer": "Rs.300",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Rs.300.",
+    "topic": "simple-interest",
+    "topicName": "Simple Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_042",
+    "title": "Find principal if SI = Rs.360, rate = 6% p.a., time = 2 years.",
+    "description": "Find principal if SI = Rs.360, rate = 6% p.a., time = 2 years.",
+    "question": "Find principal if SI = Rs.360, rate = 6% p.a., time = 2 years.",
+    "options": [
+      "Rs.3000",
+      "Rs.2500",
+      "Rs.3500",
+      "Rs.4000"
+    ],
+    "answer": "Rs.3000",
+    "answerKey": "A",
+    "correctAnswer": "Rs.3000",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: Rs.3000.",
+    "topic": "simple-interest",
+    "topicName": "Simple Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_047",
+    "title": "A sum of Rs.800 amounts to Rs.920 in 3 years at simple interest. What is the ...",
+    "description": "A sum of Rs.800 amounts to Rs.920 in 3 years at simple interest. What is the rate?",
+    "question": "A sum of Rs.800 amounts to Rs.920 in 3 years at simple interest. What is the rate?",
+    "options": [
+      "5%",
+      "4%",
+      "6%",
+      "3%"
+    ],
+    "answer": "5%",
+    "answerKey": "A",
+    "correctAnswer": "5%",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 5%.",
+    "topic": "simple-interest",
+    "topicName": "Simple Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_048",
+    "title": "In what time will Rs.3000 yield Rs.900 as interest at 10% per annum?",
+    "description": "In what time will Rs.3000 yield Rs.900 as interest at 10% per annum?",
+    "question": "In what time will Rs.3000 yield Rs.900 as interest at 10% per annum?",
+    "options": [
+      "3 years",
+      "4 years",
+      "2.5 years",
+      "5 years"
+    ],
+    "answer": "3 years",
+    "answerKey": "A",
+    "correctAnswer": "3 years",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 3 years.",
+    "topic": "simple-interest",
+    "topicName": "Simple Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_422",
+    "title": "At what rate will Rs.2000 amount to Rs.2600 in 3 years (SI)?",
+    "description": "At what rate will Rs.2000 amount to Rs.2600 in 3 years (SI)?",
+    "question": "At what rate will Rs.2000 amount to Rs.2600 in 3 years (SI)?",
+    "options": [
+      "10%",
+      "8%",
+      "12%",
+      "15%"
+    ],
+    "answer": "10%",
+    "answerKey": "A",
+    "correctAnswer": "10%",
+    "difficulty": "EASY",
+    "difficultyLabel": "Easy",
+    "explanation": "Option (A) is the correct answer: 10%.",
+    "topic": "simple-interest",
+    "topicName": "Simple Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 1,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_424",
+    "title": "A sum becomes Rs.3600 in 2 years and Rs.4200 in 4 years at SI. The principal is:",
+    "description": "A sum becomes Rs.3600 in 2 years and Rs.4200 in 4 years at SI. The principal is:",
+    "question": "A sum becomes Rs.3600 in 2 years and Rs.4200 in 4 years at SI. The principal is:",
+    "options": [
+      "Rs.3000",
+      "Rs.2800",
+      "Rs.3200",
+      "Rs.2500"
+    ],
+    "answer": "Rs.3000",
+    "answerKey": "A",
+    "correctAnswer": "Rs.3000",
+    "difficulty": "HARD",
+    "difficultyLabel": "Hard",
+    "explanation": "Option (A) is the correct answer: Rs.3000.",
+    "topic": "simple-interest",
+    "topicName": "Simple Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 3,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_044",
+    "title": "In how many years will Rs.5000 double itself at 10% p.a. SI?",
+    "description": "In how many years will Rs.5000 double itself at 10% p.a. SI?",
+    "question": "In how many years will Rs.5000 double itself at 10% p.a. SI?",
+    "options": [
+      "10",
+      "8",
+      "12",
+      "15"
+    ],
+    "answer": "10",
+    "answerKey": "A",
+    "correctAnswer": "10",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: 10.",
+    "topic": "simple-interest",
+    "topicName": "Simple Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_045",
+    "title": "The SI on a certain sum for 2 years at 12% p.a. is Rs.1440. Find the sum.",
+    "description": "The SI on a certain sum for 2 years at 12% p.a. is Rs.1440. Find the sum.",
+    "question": "The SI on a certain sum for 2 years at 12% p.a. is Rs.1440. Find the sum.",
+    "options": [
+      "Rs.6000",
+      "Rs.5000",
+      "Rs.7000",
+      "Rs.4800"
+    ],
+    "answer": "Rs.6000",
+    "answerKey": "A",
+    "correctAnswer": "Rs.6000",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Rs.6000.",
+    "topic": "simple-interest",
+    "topicName": "Simple Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  },
+  {
+    "id": "TCS_APT_423",
+    "title": "Simple interest on a sum for 5 years at 12% p.a. is Rs.1800. The sum is:",
+    "description": "Simple interest on a sum for 5 years at 12% p.a. is Rs.1800. The sum is:",
+    "question": "Simple interest on a sum for 5 years at 12% p.a. is Rs.1800. The sum is:",
+    "options": [
+      "Rs.3000",
+      "Rs.2500",
+      "Rs.4000",
+      "Rs.3500"
+    ],
+    "answer": "Rs.3000",
+    "answerKey": "A",
+    "correctAnswer": "Rs.3000",
+    "difficulty": "MEDIUM",
+    "difficultyLabel": "Medium",
+    "explanation": "Option (A) is the correct answer: Rs.3000.",
+    "topic": "simple-interest",
+    "topicName": "Simple Interest",
+    "category": "quantitative",
+    "section": "Numerical Ability",
+    "estimatedTime": 2,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Accenture",
+      "Cognizant"
+    ]
+  }
+]

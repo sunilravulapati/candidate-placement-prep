@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_337",
+  "slug": "tcs-log-337",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Statement-Conclusion: All vegetables are healthy. Broccoli is a vegetable. Co...",
+  "description": "Statement-Conclusion: All vegetables are healthy. Broccoli is a vegetable. Conclusion?",
+  "question": "Statement-Conclusion: All vegetables are healthy. Broccoli is a vegetable. Conclusion?",
+  "options": [
+    "Broccoli is healthy",
+    "All healthy things are vegetables",
+    "Some vegetables aren't healthy",
+    "Cannot conclude"
+  ],
+  "optionsMap": {
+    "A": "Broccoli is healthy",
+    "B": "All healthy things are vegetables",
+    "C": "Some vegetables aren't healthy",
+    "D": "Cannot conclude"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Broccoli is healthy",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_231",
+  "slug": "tcs-log-231",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "matrix-reasoning",
+  "topicName": "Matrix Reasoning",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Matrix pattern: Row 1: 2, 4, 8. Row 2: 3, 9, 27. Row 3: 4, 16, ?",
+  "description": "Matrix pattern: Row 1: 2, 4, 8. Row 2: 3, 9, 27. Row 3: 4, 16, ?",
+  "question": "Matrix pattern: Row 1: 2, 4, 8. Row 2: 3, 9, 27. Row 3: 4, 16, ?",
+  "options": [
+    "64",
+    "32",
+    "256",
+    "128"
+  ],
+  "optionsMap": {
+    "A": "64",
+    "B": "32",
+    "C": "256",
+    "D": "128"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "64",
+  "tags": [
+    "logical",
+    "matrix-reasoning"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

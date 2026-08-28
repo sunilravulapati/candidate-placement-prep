@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_589",
+  "slug": "tcs-ver-589",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most similar in meaning to: SUCCINCT",
+  "description": "Choose the word most similar in meaning to: SUCCINCT",
+  "question": "Choose the word most similar in meaning to: SUCCINCT",
+  "options": [
+    "Brief and clear",
+    "Long and wordy",
+    "Elaborate",
+    "Detailed"
+  ],
+  "optionsMap": {
+    "A": "Brief and clear",
+    "B": "Long and wordy",
+    "C": "Elaborate",
+    "D": "Detailed"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Brief and clear",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

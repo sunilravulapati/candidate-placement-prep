@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_298",
+  "slug": "tcs-log-298",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Mirror image: If word in mirror is READ, what is original?",
+  "description": "Mirror image: If word in mirror is READ, what is original?",
+  "question": "Mirror image: If word in mirror is READ, what is original?",
+  "options": [
+    "DAER",
+    "READ",
+    "DARE",
+    "DEAR"
+  ],
+  "optionsMap": {
+    "A": "DAER",
+    "B": "READ",
+    "C": "DARE",
+    "D": "DEAR"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "DAER",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

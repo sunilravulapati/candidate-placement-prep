@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_233",
+  "slug": "tcs-log-233",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "matrix-reasoning",
+  "topicName": "Matrix Reasoning",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Each row sums to same value. Row 1: 5, 3, 8. Row 2: 7, 4, 5. Row 3: 6, ?, 5",
+  "description": "Each row sums to same value. Row 1: 5, 3, 8. Row 2: 7, 4, 5. Row 3: 6, ?, 5",
+  "question": "Each row sums to same value. Row 1: 5, 3, 8. Row 2: 7, 4, 5. Row 3: 6, ?, 5",
+  "options": [
+    "5",
+    "4",
+    "7",
+    "6"
+  ],
+  "optionsMap": {
+    "A": "5",
+    "B": "4",
+    "C": "7",
+    "D": "6"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "5",
+  "tags": [
+    "logical",
+    "matrix-reasoning"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -117,6 +117,18 @@ export async function getAptitudeHistoryAction() {
       timeTaken: s.timeTaken,
       completedAt: s.completedAt.toISOString(),
       results: richResults,
+      questions: richResults.map((r) => ({
+        id: r.questionId,
+        title: r.title,
+        description: r.description || r.title,
+        question: r.description || r.title,
+        options: r.options || [],
+        correctAnswer: r.correctAnswer || '',
+        explanation: r.explanation || '',
+        userAnswer: r.submittedAnswer || '',
+        isCorrect: r.isCorrect,
+        timeTaken: r.timeTaken,
+      })),
     };
   });
 }

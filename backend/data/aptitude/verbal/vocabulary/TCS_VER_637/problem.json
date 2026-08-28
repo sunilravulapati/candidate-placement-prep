@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_637",
+  "slug": "tcs-ver-637",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of SPURIOUS",
+  "description": "Choose the antonym of SPURIOUS",
+  "question": "Choose the antonym of SPURIOUS",
+  "options": [
+    "Genuine",
+    "False",
+    "Fake",
+    "Counterfeit"
+  ],
+  "optionsMap": {
+    "A": "Genuine",
+    "B": "False",
+    "C": "Fake",
+    "D": "Counterfeit"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Genuine",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

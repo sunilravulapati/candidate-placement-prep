@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_380",
+  "slug": "tcs-log-380",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "If a=b+c, b=c+d, c=5, d=3. Then a=?",
+  "description": "If a=b+c, b=c+d, c=5, d=3. Then a=?",
+  "question": "If a=b+c, b=c+d, c=5, d=3. Then a=?",
+  "options": [
+    "16",
+    "13",
+    "8",
+    "11"
+  ],
+  "optionsMap": {
+    "A": "16",
+    "B": "13",
+    "C": "8",
+    "D": "11"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "16",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

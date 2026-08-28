@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_485",
+  "slug": "tcs-ver-485",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Which word is a homophone of 'principal'?",
+  "description": "Which word is a homophone of 'principal'?",
+  "question": "Which word is a homophone of 'principal'?",
+  "options": [
+    "Principle",
+    "Principal",
+    "Pinacle",
+    "Prinkle"
+  ],
+  "optionsMap": {
+    "A": "Principle",
+    "B": "Principal",
+    "C": "Pinacle",
+    "D": "Prinkle"
+  },
+  "answer": "B",
+  "answerKey": "B",
+  "correctAnswer": "Principal",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_447",
+  "slug": "tcs-log-447",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Blood rel: If A+B = A is husband of B, A-B = A is father of B. P+Q-R means?",
+  "description": "Blood rel: If A+B = A is husband of B, A-B = A is father of B. P+Q-R means?",
+  "question": "Blood rel: If A+B = A is husband of B, A-B = A is father of B. P+Q-R means?",
+  "options": [
+    "P is grandfather of R",
+    "P is father of R",
+    "Q is grandfather of R",
+    "R is son of P"
+  ],
+  "optionsMap": {
+    "A": "P is grandfather of R",
+    "B": "P is father of R",
+    "C": "Q is grandfather of R",
+    "D": "R is son of P"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "P is grandfather of R",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_110",
+  "slug": "tcs-ver-110",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Her _____ smile made everyone in the room feel welcome.",
+  "description": "Her _____ smile made everyone in the room feel welcome.",
+  "question": "Her _____ smile made everyone in the room feel welcome.",
+  "options": [
+    "radiant",
+    "gloomy",
+    "forced",
+    "artificial"
+  ],
+  "optionsMap": {
+    "A": "radiant",
+    "B": "gloomy",
+    "C": "forced",
+    "D": "artificial"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "radiant",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

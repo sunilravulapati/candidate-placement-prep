@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_297",
+  "slug": "tcs-apt-297",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A certain job is done by 12 men in 20 days. How many men to finish in 15 days?",
+  "description": "A certain job is done by 12 men in 20 days. How many men to finish in 15 days?",
+  "question": "A certain job is done by 12 men in 20 days. How many men to finish in 15 days?",
+  "options": [
+    "16",
+    "20",
+    "18",
+    "24"
+  ],
+  "optionsMap": {
+    "A": "16",
+    "B": "20",
+    "C": "18",
+    "D": "24"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "16",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

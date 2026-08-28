@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_206",
+  "slug": "tcs-log-206",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "critical-reasoning",
+  "topicName": "Critical Reasoning",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "'Either the train is on time, or we will be late. We are not late. Therefore,...",
+  "description": "'Either the train is on time, or we will be late. We are not late. Therefore, the train was on time.' This is an example of:",
+  "question": "'Either the train is on time, or we will be late. We are not late. Therefore, the train was on time.' This is an example of:",
+  "options": [
+    "Valid disjunctive syllogism",
+    "Invalid argument",
+    "Circular reasoning",
+    "Hasty generalization"
+  ],
+  "optionsMap": {
+    "A": "Valid disjunctive syllogism",
+    "B": "Invalid argument",
+    "C": "Circular reasoning",
+    "D": "Hasty generalization"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Valid disjunctive syllogism",
+  "tags": [
+    "logical",
+    "critical-reasoning"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

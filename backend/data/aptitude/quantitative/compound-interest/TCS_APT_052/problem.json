@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_052",
+  "slug": "tcs-apt-052",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "compound-interest",
+  "topicName": "Compound Interest",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A sum becomes Rs.1331 in 3 years at 10% compounded annually. Find the sum.",
+  "description": "A sum becomes Rs.1331 in 3 years at 10% compounded annually. Find the sum.",
+  "question": "A sum becomes Rs.1331 in 3 years at 10% compounded annually. Find the sum.",
+  "options": [
+    "Rs.1000",
+    "Rs.1100",
+    "Rs.1200",
+    "Rs.900"
+  ],
+  "optionsMap": {
+    "A": "Rs.1000",
+    "B": "Rs.1100",
+    "C": "Rs.1200",
+    "D": "Rs.900"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.1000",
+  "tags": [
+    "quantitative",
+    "compound-interest"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

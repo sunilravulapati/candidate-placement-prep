@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_086",
+  "slug": "tcs-ver-086",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most OPPOSITE in meaning to: JUDICIOUS",
+  "description": "Choose the word most OPPOSITE in meaning to: JUDICIOUS",
+  "question": "Choose the word most OPPOSITE in meaning to: JUDICIOUS",
+  "options": [
+    "Reckless",
+    "Wise",
+    "Sensible",
+    "Prudent"
+  ],
+  "optionsMap": {
+    "A": "Reckless",
+    "B": "Wise",
+    "C": "Sensible",
+    "D": "Prudent"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Reckless",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

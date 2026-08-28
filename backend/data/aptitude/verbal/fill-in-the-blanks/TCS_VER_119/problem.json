@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_119",
+  "slug": "tcs-ver-119",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "She had a _____ for solving puzzles and could finish them in minutes.",
+  "description": "She had a _____ for solving puzzles and could finish them in minutes.",
+  "question": "She had a _____ for solving puzzles and could finish them in minutes.",
+  "options": [
+    "knack",
+    "aversion",
+    "dislike",
+    "fear"
+  ],
+  "optionsMap": {
+    "A": "knack",
+    "B": "aversion",
+    "C": "dislike",
+    "D": "fear"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "knack",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_208",
+  "slug": "tcs-log-208",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "critical-reasoning",
+  "topicName": "Critical Reasoning",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "All A are B. Some B are C. Therefore:",
+  "description": "All A are B. Some B are C. Therefore:",
+  "question": "All A are B. Some B are C. Therefore:",
+  "options": [
+    "Some A may or may not be C",
+    "All A are C",
+    "No A are C",
+    "Some A are definitely C"
+  ],
+  "optionsMap": {
+    "A": "Some A may or may not be C",
+    "B": "All A are C",
+    "C": "No A are C",
+    "D": "Some A are definitely C"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Some A may or may not be C",
+  "tags": [
+    "logical",
+    "critical-reasoning"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_008",
+  "slug": "tcs-apt-008",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "percentages",
+  "topicName": "Percentages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "If the population of a town increased from 50000 to 55000, what is the percen...",
+  "description": "If the population of a town increased from 50000 to 55000, what is the percentage increase?",
+  "question": "If the population of a town increased from 50000 to 55000, what is the percentage increase?",
+  "options": [
+    "10%",
+    "5%",
+    "15%",
+    "8%"
+  ],
+  "optionsMap": {
+    "A": "10%",
+    "B": "5%",
+    "C": "15%",
+    "D": "8%"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "10%",
+  "tags": [
+    "quantitative",
+    "percentages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

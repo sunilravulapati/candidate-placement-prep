@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_519",
+  "slug": "tcs-apt-519",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "surds-and-indices",
+  "topicName": "Surds and Indices",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Simplify: (23)2 = ?",
+  "description": "Simplify: (23)2 = ?",
+  "question": "Simplify: (23)2 = ?",
+  "options": [
+    "64",
+    "32",
+    "16",
+    "128"
+  ],
+  "optionsMap": {
+    "A": "64",
+    "B": "32",
+    "C": "16",
+    "D": "128"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "64",
+  "tags": [
+    "quantitative",
+    "surds-and-indices"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

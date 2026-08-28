@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_161",
+  "slug": "tcs-log-161",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "puzzles",
+  "topicName": "Puzzles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A river crossing: farmer, fox, chicken, grain. Fox eats chicken; chicken eats...",
+  "description": "A river crossing: farmer, fox, chicken, grain. Fox eats chicken; chicken eats grain. Farmer can take one at a time. What is the first move?",
+  "question": "A river crossing: farmer, fox, chicken, grain. Fox eats chicken; chicken eats grain. Farmer can take one at a time. What is the first move?",
+  "options": [
+    "Take chicken across first",
+    "Take fox across first",
+    "Take grain across first",
+    "Cannot be solved"
+  ],
+  "optionsMap": {
+    "A": "Take chicken across first",
+    "B": "Take fox across first",
+    "C": "Take grain across first",
+    "D": "Cannot be solved"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Take chicken across first",
+  "tags": [
+    "logical",
+    "puzzles"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

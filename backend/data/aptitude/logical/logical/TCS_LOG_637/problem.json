@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_637",
+  "slug": "tcs-log-637",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Go N 5km, E 3km, S 5km. Where are you?",
+  "description": "Go N 5km, E 3km, S 5km. Where are you?",
+  "question": "Go N 5km, E 3km, S 5km. Where are you?",
+  "options": [
+    "3km East of start",
+    "5km North",
+    "3km West",
+    "At start"
+  ],
+  "optionsMap": {
+    "A": "3km East of start",
+    "B": "5km North",
+    "C": "3km West",
+    "D": "At start"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "3km East of start",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

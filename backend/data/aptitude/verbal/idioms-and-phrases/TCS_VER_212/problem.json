@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_212",
+  "slug": "tcs-ver-212",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "idioms-and-phrases",
+  "topicName": "Idioms and Phrases",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "What does 'break the ice' mean?",
+  "description": "What does 'break the ice' mean?",
+  "question": "What does 'break the ice' mean?",
+  "options": [
+    "Initiate conversation in a social setting",
+    "Destroy frozen water",
+    "Start a fight",
+    "End a relationship"
+  ],
+  "optionsMap": {
+    "A": "Initiate conversation in a social setting",
+    "B": "Destroy frozen water",
+    "C": "Start a fight",
+    "D": "End a relationship"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Initiate conversation in a social setting",
+  "tags": [
+    "verbal",
+    "idioms-and-phrases"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

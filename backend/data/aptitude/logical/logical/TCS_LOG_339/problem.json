@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_339",
+  "slug": "tcs-log-339",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Fact-Inference: 80% of students passed. Inference?",
+  "description": "Fact-Inference: 80% of students passed. Inference?",
+  "question": "Fact-Inference: 80% of students passed. Inference?",
+  "options": [
+    "Most students passed",
+    "All failed",
+    "School is bad",
+    "Teachers helped"
+  ],
+  "optionsMap": {
+    "A": "Most students passed",
+    "B": "All failed",
+    "C": "School is bad",
+    "D": "Teachers helped"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Most students passed",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

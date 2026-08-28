@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_202",
+  "slug": "tcs-ver-202",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "para-jumbles",
+  "topicName": "Para Jumbles",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "P: Exercise is essential for maintaining good health. Q: Even a 30-minute dai...",
+  "description": "P: Exercise is essential for maintaining good health. Q: Even a 30-minute daily walk can significantly reduce the risk of chronic diseases. R: Many people, however, lead sedentary lifestyles due to desk jobs. S: It strengthens the heart, improves mood, and increases longevity. Arrange in logical order:",
+  "question": "P: Exercise is essential for maintaining good health. Q: Even a 30-minute daily walk can significantly reduce the risk of chronic diseases. R: Many people, however, lead sedentary lifestyles due to desk jobs. S: It strengthens the heart, improves mood, and increases longevity. Arrange in logical order:",
+  "options": [
+    "P-S-R-Q",
+    "R-P-S-Q",
+    "P-Q-S-R",
+    "S-R-P-Q"
+  ],
+  "optionsMap": {
+    "A": "P-S-R-Q",
+    "B": "R-P-S-Q",
+    "C": "P-Q-S-R",
+    "D": "S-R-P-Q"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "P-S-R-Q",
+  "tags": [
+    "verbal",
+    "para-jumbles"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

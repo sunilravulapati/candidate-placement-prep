@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_323",
+  "slug": "tcs-apt-323",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Two dice thrown. Probability of sum = 7.",
+  "description": "Two dice thrown. Probability of sum = 7.",
+  "question": "Two dice thrown. Probability of sum = 7.",
+  "options": [
+    "1/6",
+    "1/4",
+    "1/8",
+    "1/3"
+  ],
+  "optionsMap": {
+    "A": "1/6",
+    "B": "1/4",
+    "C": "1/8",
+    "D": "1/3"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "1/6",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

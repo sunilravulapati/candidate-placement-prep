@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_198",
+  "slug": "tcs-apt-198",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "calendars",
+  "topicName": "Calendars",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "A month has exactly 5 Sundays. If the month starts on Sunday, the month has:",
+  "description": "A month has exactly 5 Sundays. If the month starts on Sunday, the month has:",
+  "question": "A month has exactly 5 Sundays. If the month starts on Sunday, the month has:",
+  "options": [
+    "31 days",
+    "28 days",
+    "30 days",
+    "Can be 30 or 31"
+  ],
+  "optionsMap": {
+    "A": "31 days",
+    "B": "28 days",
+    "C": "30 days",
+    "D": "Can be 30 or 31"
+  },
+  "answer": "D",
+  "answerKey": "D",
+  "correctAnswer": "Can be 30 or 31",
+  "tags": [
+    "quantitative",
+    "calendars"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

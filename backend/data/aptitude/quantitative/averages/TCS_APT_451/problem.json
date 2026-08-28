@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_451",
+  "slug": "tcs-apt-451",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "averages",
+  "topicName": "Averages",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Average weight of class increases by 0.2 kg when a student weighing 30 kg joi...",
+  "description": "Average weight of class increases by 0.2 kg when a student weighing 30 kg joins. New class has 21 students. Original average?",
+  "question": "Average weight of class increases by 0.2 kg when a student weighing 30 kg joins. New class has 21 students. Original average?",
+  "options": [
+    "26 kg",
+    "30 kg",
+    "25 kg",
+    "28 kg"
+  ],
+  "optionsMap": {
+    "A": "26 kg",
+    "B": "30 kg",
+    "C": "25 kg",
+    "D": "28 kg"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "26 kg",
+  "tags": [
+    "quantitative",
+    "averages"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_370",
+  "slug": "tcs-ver-370",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "cloze-test",
+  "topicName": "Cloze Test",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "In today's world, technology has become _____ of our lives. From smartphones ...",
+  "description": "In today's world, technology has become _____ of our lives. From smartphones to smart homes, devices are _____ (2) every aspect of human existence. While this brings tremendous convenience, it also raises concerns about privacy and mental health. SELECT WORD FOR BLANK (2):",
+  "question": "In today's world, technology has become _____ of our lives. From smartphones to smart homes, devices are _____ (2) every aspect of human existence. While this brings tremendous convenience, it also raises concerns about privacy and mental health. SELECT WORD FOR BLANK (2):",
+  "options": [
+    "transforming",
+    "destroying",
+    "ignoring",
+    "eliminating"
+  ],
+  "optionsMap": {
+    "A": "transforming",
+    "B": "destroying",
+    "C": "ignoring",
+    "D": "eliminating"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "transforming",
+  "tags": [
+    "verbal",
+    "cloze-test"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

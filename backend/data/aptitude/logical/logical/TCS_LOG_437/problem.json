@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_437",
+  "slug": "tcs-log-437",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "logical",
+  "topicName": "Logical",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Coding: INDIA = 9+14+4+9+1 = ?",
+  "description": "Coding: INDIA = 9+14+4+9+1 = ?",
+  "question": "Coding: INDIA = 9+14+4+9+1 = ?",
+  "options": [
+    "37",
+    "36",
+    "38",
+    "40"
+  ],
+  "optionsMap": {
+    "A": "37",
+    "B": "36",
+    "C": "38",
+    "D": "40"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "37",
+  "tags": [
+    "logical",
+    "logical"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

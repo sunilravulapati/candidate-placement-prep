@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_269",
+  "slug": "tcs-apt-269",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "A circle has radius 7cm. Find area (π = 22/7).",
+  "description": "A circle has radius 7cm. Find area (π = 22/7).",
+  "question": "A circle has radius 7cm. Find area (π = 22/7).",
+  "options": [
+    "154 cm2",
+    "144 cm2",
+    "176 cm2",
+    "132 cm2"
+  ],
+  "optionsMap": {
+    "A": "154 cm2",
+    "B": "144 cm2",
+    "C": "176 cm2",
+    "D": "132 cm2"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "154 cm2",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

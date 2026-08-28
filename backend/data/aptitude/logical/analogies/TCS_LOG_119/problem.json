@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_119",
+  "slug": "tcs-log-119",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "analogies",
+  "topicName": "Analogies",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Neurology : Brain :: Nephrology : ?",
+  "description": "Neurology : Brain :: Nephrology : ?",
+  "question": "Neurology : Brain :: Nephrology : ?",
+  "options": [
+    "Kidneys",
+    "Bones",
+    "Heart",
+    "Lungs"
+  ],
+  "optionsMap": {
+    "A": "Kidneys",
+    "B": "Bones",
+    "C": "Heart",
+    "D": "Lungs"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Kidneys",
+  "tags": [
+    "logical",
+    "analogies"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

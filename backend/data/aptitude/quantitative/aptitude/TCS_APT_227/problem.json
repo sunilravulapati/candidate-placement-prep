@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_227",
+  "slug": "tcs-apt-227",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Walking at 4/5 of usual speed, a man is 15 min late. Find usual time.",
+  "description": "Walking at 4/5 of usual speed, a man is 15 min late. Find usual time.",
+  "question": "Walking at 4/5 of usual speed, a man is 15 min late. Find usual time.",
+  "options": [
+    "60 min",
+    "75 min",
+    "90 min",
+    "45 min"
+  ],
+  "optionsMap": {
+    "A": "60 min",
+    "B": "75 min",
+    "C": "90 min",
+    "D": "45 min"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "60 min",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

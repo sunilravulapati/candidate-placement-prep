@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_089",
+  "slug": "tcs-ver-089",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the word most OPPOSITE in meaning to: MAGNANIMOUS",
+  "description": "Choose the word most OPPOSITE in meaning to: MAGNANIMOUS",
+  "question": "Choose the word most OPPOSITE in meaning to: MAGNANIMOUS",
+  "options": [
+    "Petty",
+    "Generous",
+    "Noble",
+    "Giving"
+  ],
+  "optionsMap": {
+    "A": "Petty",
+    "B": "Generous",
+    "C": "Noble",
+    "D": "Giving"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Petty",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

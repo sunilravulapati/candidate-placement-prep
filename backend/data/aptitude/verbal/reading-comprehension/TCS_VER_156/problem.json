@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_156",
+  "slug": "tcs-ver-156",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwi...",
+  "description": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwide. Unlike traditional software that follows fixed i... Q: How does AI differ from traditional software?",
+  "question": "PASSAGE: Artificial intelligence (AI) is rapidly reshaping industries worldwide. Unlike traditional software that follows fixed i... Q: How does AI differ from traditional software?",
+  "options": [
+    "AI learns from data and improves over time",
+    "AI follows fixed instructions only",
+    "AI cannot process large datasets",
+    "AI requires no programming"
+  ],
+  "optionsMap": {
+    "A": "AI learns from data and improves over time",
+    "B": "AI follows fixed instructions only",
+    "C": "AI cannot process large datasets",
+    "D": "AI requires no programming"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "AI learns from data and improves over time",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

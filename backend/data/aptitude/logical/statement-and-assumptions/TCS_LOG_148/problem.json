@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_148",
+  "slug": "tcs-log-148",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "statement-and-assumptions",
+  "topicName": "Statement and Assumptions",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Statement: 'Candidates must arrive 30 min before exam.' Assumption I: Some ca...",
+  "description": "Statement: 'Candidates must arrive 30 min before exam.' Assumption I: Some candidates may arrive late. Assumption II: 30 minutes is sufficient time.",
+  "question": "Statement: 'Candidates must arrive 30 min before exam.' Assumption I: Some candidates may arrive late. Assumption II: 30 minutes is sufficient time.",
+  "options": [
+    "Both are implicit",
+    "Only I is implicit",
+    "Only II is implicit",
+    "Neither is implicit"
+  ],
+  "optionsMap": {
+    "A": "Both are implicit",
+    "B": "Only I is implicit",
+    "C": "Only II is implicit",
+    "D": "Neither is implicit"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Both are implicit",
+  "tags": [
+    "logical",
+    "statement-and-assumptions"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

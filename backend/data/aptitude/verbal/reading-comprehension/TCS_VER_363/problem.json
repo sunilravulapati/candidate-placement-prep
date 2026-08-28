@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_363",
+  "slug": "tcs-ver-363",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, enc...",
+  "description": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: How much faster are species disappearing compared to the natural background rate?",
+  "question": "PASSAGE: Biodiversity refers to the variety of life forms found on Earth, encompassing millions of species of plants, animals, fu... Q: How much faster are species disappearing compared to the natural background rate?",
+  "options": [
+    "100 times",
+    "500 times",
+    "1,000 times",
+    "10,000 times"
+  ],
+  "optionsMap": {
+    "A": "100 times",
+    "B": "500 times",
+    "C": "1,000 times",
+    "D": "10,000 times"
+  },
+  "answer": "C",
+  "answerKey": "C",
+  "correctAnswer": "1,000 times",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

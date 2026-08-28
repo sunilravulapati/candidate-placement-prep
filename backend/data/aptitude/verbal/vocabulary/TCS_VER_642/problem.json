@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_642",
+  "slug": "tcs-ver-642",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "Choose the antonym of RAPACIOUS",
+  "description": "Choose the antonym of RAPACIOUS",
+  "question": "Choose the antonym of RAPACIOUS",
+  "options": [
+    "Generous",
+    "Greedy",
+    "Selfish",
+    "Avaricious"
+  ],
+  "optionsMap": {
+    "A": "Generous",
+    "B": "Greedy",
+    "C": "Selfish",
+    "D": "Avaricious"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Generous",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_165",
+  "slug": "tcs-ver-165",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "reading-comprehension",
+  "topicName": "Reading Comprehension",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "PASSAGE: Climate change is one of the most pressing challenges facing humanit...",
+  "description": "PASSAGE: Climate change is one of the most pressing challenges facing humanity. Rising global temperatures, driven primarily by g... Q: What happens if warming exceeds 2°C according to the passage?",
+  "question": "PASSAGE: Climate change is one of the most pressing challenges facing humanity. Rising global temperatures, driven primarily by g... Q: What happens if warming exceeds 2°C according to the passage?",
+  "options": [
+    "Consequences may be irreversible",
+    "Temperature will stabilize",
+    "Ecosystems will recover",
+    "Sea levels will drop"
+  ],
+  "optionsMap": {
+    "A": "Consequences may be irreversible",
+    "B": "Temperature will stabilize",
+    "C": "Ecosystems will recover",
+    "D": "Sea levels will drop"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Consequences may be irreversible",
+  "tags": [
+    "verbal",
+    "reading-comprehension"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

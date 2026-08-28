@@ -1,4 +1,4 @@
-Identify the recurring pattern in design / misc structure.
+Identify the recurring pattern in linked list structure.
 ---
 Can a two-pointer, sliding window, or hash map approach optimize the time complexity?
 ---

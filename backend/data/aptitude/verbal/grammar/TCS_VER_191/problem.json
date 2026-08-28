@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_191",
+  "slug": "tcs-ver-191",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "grammar",
+  "topicName": "Grammar",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Choose the correctly written sentence:",
+  "description": "Choose the correctly written sentence:",
+  "question": "Choose the correctly written sentence:",
+  "options": [
+    "The boys' bicycle is red.",
+    "The boys bicycle is red.",
+    "The boy's bicycles is red.",
+    "The boys bicycles is red."
+  ],
+  "optionsMap": {
+    "A": "The boys' bicycle is red.",
+    "B": "The boys bicycle is red.",
+    "C": "The boy's bicycles is red.",
+    "D": "The boys bicycles is red."
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "The boys' bicycle is red.",
+  "tags": [
+    "verbal",
+    "grammar"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_484",
+  "slug": "tcs-ver-484",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Which word is a homophone of 'flower'?",
+  "description": "Which word is a homophone of 'flower'?",
+  "question": "Which word is a homophone of 'flower'?",
+  "options": [
+    "Flour",
+    "Floor",
+    "Flow",
+    "Flutter"
+  ],
+  "optionsMap": {
+    "A": "Flour",
+    "B": "Floor",
+    "C": "Flow",
+    "D": "Flutter"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Flour",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

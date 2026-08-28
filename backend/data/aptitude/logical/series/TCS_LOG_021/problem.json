@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_021",
+  "slug": "tcs-log-021",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "series",
+  "topicName": "Series",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Number series: 12, 35, 81, 173, ___",
+  "description": "Number series: 12, 35, 81, 173, ___",
+  "question": "Number series: 12, 35, 81, 173, ___",
+  "options": [
+    "357",
+    "350",
+    "360",
+    "370"
+  ],
+  "optionsMap": {
+    "A": "357",
+    "B": "350",
+    "C": "360",
+    "D": "370"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "357",
+  "tags": [
+    "logical",
+    "series"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

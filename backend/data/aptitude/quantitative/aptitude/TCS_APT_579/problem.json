@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_579",
+  "slug": "tcs-apt-579",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "aptitude",
+  "topicName": "Aptitude",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "60L mixture 3:2 water to milk. Pure milk added to get 1:1 ratio. Litres added?",
+  "description": "60L mixture 3:2 water to milk. Pure milk added to get 1:1 ratio. Litres added?",
+  "question": "60L mixture 3:2 water to milk. Pure milk added to get 1:1 ratio. Litres added?",
+  "options": [
+    "24",
+    "12",
+    "18",
+    "6"
+  ],
+  "optionsMap": {
+    "A": "24",
+    "B": "12",
+    "C": "18",
+    "D": "6"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "24",
+  "tags": [
+    "quantitative",
+    "aptitude"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

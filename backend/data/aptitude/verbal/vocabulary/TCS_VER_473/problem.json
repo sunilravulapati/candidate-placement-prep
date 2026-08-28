@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_473",
+  "slug": "tcs-ver-473",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "vocabulary",
+  "topicName": "Vocabulary",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Which sentence contains a split infinitive?",
+  "description": "Which sentence contains a split infinitive?",
+  "question": "Which sentence contains a split infinitive?",
+  "options": [
+    "She wants to quickly finish the work.",
+    "She quickly wants to finish the work.",
+    "She wants to finish the work quickly.",
+    "She quickly finishes the work."
+  ],
+  "optionsMap": {
+    "A": "She wants to quickly finish the work.",
+    "B": "She quickly wants to finish the work.",
+    "C": "She wants to finish the work quickly.",
+    "D": "She quickly finishes the work."
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "She wants to quickly finish the work.",
+  "tags": [
+    "verbal",
+    "vocabulary"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

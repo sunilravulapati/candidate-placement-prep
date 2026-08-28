@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_132",
+  "slug": "tcs-ver-132",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "fill-in-the-blanks",
+  "topicName": "Fill in the Blanks",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "MEDIUM",
+  "difficultyLabel": "Medium",
+  "estimatedTime": 2,
+  "estimatedTimeSec": 120,
+  "title": "His _____ remarks showed that he had given much thought to the problem.",
+  "description": "His _____ remarks showed that he had given much thought to the problem.",
+  "question": "His _____ remarks showed that he had given much thought to the problem.",
+  "options": [
+    "incisive",
+    "vague",
+    "unclear",
+    "shallow"
+  ],
+  "optionsMap": {
+    "A": "incisive",
+    "B": "vague",
+    "C": "unclear",
+    "D": "shallow"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "incisive",
+  "tags": [
+    "verbal",
+    "fill-in-the-blanks"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

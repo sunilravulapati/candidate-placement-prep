@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_LOG_154",
+  "slug": "tcs-log-154",
+  "category": "logical",
+  "section": "Logical Reasoning",
+  "topic": "statement-and-assumptions",
+  "topicName": "Statement and Assumptions",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "EASY",
+  "difficultyLabel": "Easy",
+  "estimatedTime": 1,
+  "estimatedTimeSec": 60,
+  "title": "Statement: 'Walk-in interviews tomorrow from 10AM to 5PM.' Assumption I: Some...",
+  "description": "Statement: 'Walk-in interviews tomorrow from 10AM to 5PM.' Assumption I: Some candidates will walk in. Assumption II: No appointment is needed.",
+  "question": "Statement: 'Walk-in interviews tomorrow from 10AM to 5PM.' Assumption I: Some candidates will walk in. Assumption II: No appointment is needed.",
+  "options": [
+    "Both are implicit",
+    "Only I is implicit",
+    "Only II is implicit",
+    "Neither is implicit"
+  ],
+  "optionsMap": {
+    "A": "Both are implicit",
+    "B": "Only I is implicit",
+    "C": "Only II is implicit",
+    "D": "Neither is implicit"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Both are implicit",
+  "tags": [
+    "logical",
+    "statement-and-assumptions"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

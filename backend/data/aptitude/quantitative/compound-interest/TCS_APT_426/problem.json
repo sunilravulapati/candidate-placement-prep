@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_APT_426",
+  "slug": "tcs-apt-426",
+  "category": "quantitative",
+  "section": "Numerical Ability",
+  "topic": "compound-interest",
+  "topicName": "Compound Interest",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "CI on Rs.8000 at 15% for 2 years 4 months (compounded annually) is:",
+  "description": "CI on Rs.8000 at 15% for 2 years 4 months (compounded annually) is:",
+  "question": "CI on Rs.8000 at 15% for 2 years 4 months (compounded annually) is:",
+  "options": [
+    "Rs.3109",
+    "Rs.3000",
+    "Rs.2800",
+    "Rs.3200"
+  ],
+  "optionsMap": {
+    "A": "Rs.3109",
+    "B": "Rs.3000",
+    "C": "Rs.2800",
+    "D": "Rs.3200"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Rs.3109",
+  "tags": [
+    "quantitative",
+    "compound-interest"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}

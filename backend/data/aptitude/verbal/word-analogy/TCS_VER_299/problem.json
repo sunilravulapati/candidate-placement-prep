@@ -1,0 +1,47 @@
+{
+  "metadataVersion": 1,
+  "id": "TCS_VER_299",
+  "slug": "tcs-ver-299",
+  "category": "verbal",
+  "section": "Verbal Ability",
+  "topic": "word-analogy",
+  "topicName": "Word Analogy",
+  "subtopic": "",
+  "companies": [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Accenture",
+    "Cognizant"
+  ],
+  "difficulty": "HARD",
+  "difficultyLabel": "Hard",
+  "estimatedTime": 3,
+  "estimatedTimeSec": 180,
+  "title": "Complete the analogy: Ephemeral : Lasting :: Diurnal : ?",
+  "description": "Complete the analogy: Ephemeral : Lasting :: Diurnal : ?",
+  "question": "Complete the analogy: Ephemeral : Lasting :: Diurnal : ?",
+  "options": [
+    "Nocturnal",
+    "Daily",
+    "Annual",
+    "Seasonal"
+  ],
+  "optionsMap": {
+    "A": "Nocturnal",
+    "B": "Daily",
+    "C": "Annual",
+    "D": "Seasonal"
+  },
+  "answer": "A",
+  "answerKey": "A",
+  "correctAnswer": "Nocturnal",
+  "tags": [
+    "verbal",
+    "word-analogy"
+  ],
+  "learningPaths": [
+    "Placement Essentials",
+    "Aptitude Mastery"
+  ]
+}
