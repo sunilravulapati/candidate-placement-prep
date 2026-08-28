@@ -63,17 +63,18 @@ export default function Navbar() {
               appearance={{
                 elements: {
                   userButtonAvatarBox:
-                    'h-8 w-8 rounded-xl border border-violet-400/30',
+                    'h-8 w-8 rounded-xl border border-violet-500/30 shadow-md shadow-violet-950/20 transition-all hover:border-violet-400/60',
                   userButtonPopoverCard:
-                    '!bg-slate-950 !border !border-slate-800 !text-slate-100 !shadow-2xl',
-                  userPreviewMainIdentifier: '!text-slate-100 !font-bold',
-                  userPreviewSecondaryIdentifier: '!text-slate-400',
+                    '!bg-slate-950/95 !backdrop-blur-xl !border !border-slate-800/80 !text-slate-100 !shadow-2xl !rounded-2xl p-1',
+                  userPreview: '!border-b !border-slate-800/60 !py-3 !px-3.5',
+                  userPreviewMainIdentifier: '!text-slate-100 !font-bold !text-sm',
+                  userPreviewSecondaryIdentifier: '!text-slate-400 !text-xs !font-medium',
                   userButtonPopoverActionButton:
-                    '!text-slate-200 hover:!bg-slate-900',
-                  userButtonPopoverActionButtonText: '!text-slate-200 !font-semibold',
+                    '!text-slate-200 hover:!bg-slate-900/90 hover:!text-white !rounded-xl !py-2.5 !px-3 transition-colors',
+                  userButtonPopoverActionButtonText: '!text-slate-200 !font-semibold !text-xs',
                   userButtonPopoverActionButtonIcon: '!text-violet-400',
-                  userButtonPopoverCustomMenuItem: '!text-slate-200 hover:!bg-slate-900',
-                  userButtonPopoverFooter: 'hidden',
+                  userButtonPopoverCustomMenuItem: '!text-slate-200 hover:!bg-slate-900/90 hover:!text-white !rounded-xl !py-2.5 !px-3 transition-colors',
+                  userButtonPopoverFooter: '!hidden',
                 },
               }}
             >

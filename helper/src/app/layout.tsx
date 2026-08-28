@@ -1,6 +1,7 @@
 // src/app/layout.tsx
 import '../styles/globals.css';
 import { ClerkProvider } from '@clerk/nextjs';
+import { dark } from '@clerk/themes';
 import { Toaster } from 'react-hot-toast';
 
 export const metadata = {
@@ -14,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ClerkProvider>
+    <ClerkProvider appearance={dark as any}>
       <html lang="en" className="dark">
         <head>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />

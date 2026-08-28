@@ -162,3 +162,205 @@ textarea {
     transform: none;
   }
 }
+
+/* ==========================================
+   Clerk Dark Theme Overrides & Enhancements
+   ========================================== */
+
+/* UserButton Popover Card & Container */
+.cl-userButtonPopoverCard,
+.cl-card,
+.cl-popoverBox {
+  background: #090d16 !important;
+  background-color: #090d16 !important;
+  backdrop-filter: blur(24px) !important;
+  -webkit-backdrop-filter: blur(24px) !important;
+  border: 1px solid rgba(148, 163, 184, 0.16) !important;
+  border-radius: 1.25rem !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.9), 0 0 30px -5px rgba(124, 58, 237, 0.15) !important;
+  color: #f8fafc !important;
+}
+
+/* Header User Preview Section */
+.cl-userPreview {
+  border-bottom: 1px solid rgba(148, 163, 184, 0.12) !important;
+  padding: 1rem 1.25rem !important;
+  background: transparent !important;
+}
+
+.cl-userPreviewMainIdentifier {
+  color: #f8fafc !important;
+  font-weight: 700 !important;
+  font-size: 0.9375rem !important;
+  letter-spacing: -0.01em !important;
+}
+
+.cl-userPreviewSecondaryIdentifier {
+  color: #94a3b8 !important;
+  font-size: 0.8125rem !important;
+  font-weight: 500 !important;
+}
+
+.cl-userPreviewAvatarContainer {
+  border-radius: 0.875rem !important;
+  overflow: hidden !important;
+}
+
+.cl-avatarBox {
+  border-radius: 0.875rem !important;
+}
+
+/* Popover Action Buttons & Custom Links */
+.cl-userButtonPopoverActionButton,
+.cl-userButtonPopoverCustomMenuItem {
+  color: #cbd5e1 !important;
+  font-weight: 600 !important;
+  font-size: 0.875rem !important;
+  border-radius: 0.875rem !important;
+  padding: 0.7rem 0.9rem !important;
+  margin: 0.25rem 0.5rem !important;
+  transition: all 180ms cubic-bezier(0.4, 0, 0.2, 1) !important;
+  background: transparent !important;
+  border: 1px solid transparent !important;
+}
+
+.cl-userButtonPopoverActionButton:hover,
+.cl-userButtonPopoverCustomMenuItem:hover,
+.cl-userButtonPopoverActionButton[data-highlighted='true'],
+.cl-userButtonPopoverCustomMenuItem[data-highlighted='true'] {
+  background: rgba(139, 92, 246, 0.12) !important;
+  border-color: rgba(139, 92, 246, 0.25) !important;
+  color: #ffffff !important;
+}
+
+.cl-userButtonPopoverActionButtonText,
+.cl-userButtonPopoverCustomMenuItemText {
+  color: #e2e8f0 !important;
+  font-weight: 600 !important;
+}
+
+.cl-userButtonPopoverActionButton:hover .cl-userButtonPopoverActionButtonText,
+.cl-userButtonPopoverCustomMenuItem:hover .cl-userButtonPopoverCustomMenuItemText {
+  color: #ffffff !important;
+}
+
+.cl-userButtonPopoverActionButtonIcon,
+.cl-userButtonPopoverCustomMenuItemIcon {
+  color: #a78bfa !important;
+  width: 1.125rem !important;
+  height: 1.125rem !important;
+}
+
+/* Sign Out button specific styling */
+.cl-userButtonPopoverActionButton__signOut {
+  margin-top: 0.35rem !important;
+}
+
+.cl-userButtonPopoverActionButton__signOut:hover {
+  background: rgba(244, 63, 94, 0.12) !important;
+  border-color: rgba(244, 63, 94, 0.25) !important;
+  color: #fb7185 !important;
+}
+
+.cl-userButtonPopoverActionButton__signOut:hover .cl-userButtonPopoverActionButtonText {
+  color: #fb7185 !important;
+}
+
+.cl-userButtonPopoverActionButton__signOut:hover .cl-userButtonPopoverActionButtonIcon {
+  color: #f43f5e !important;
+}
+
+.cl-userButtonPopoverFooter {
+  display: none !important;
+}
+
+/* Clerk User Profile Modal ("Manage account") Overrides */
+.cl-modalBackdrop {
+  background: rgba(3, 7, 18, 0.8) !important;
+  backdrop-filter: blur(12px) !important;
+}
+
+.cl-modalContent {
+  background: #090d16 !important;
+  border: 1px solid rgba(148, 163, 184, 0.16) !important;
+  border-radius: 1.5rem !important;
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.95) !important;
+  overflow: hidden !important;
+}
+
+.cl-navbar {
+  background: rgba(15, 23, 42, 0.6) !important;
+  border-right: 1px solid rgba(148, 163, 184, 0.1) !important;
+  padding: 1.25rem 0.75rem !important;
+}
+
+.cl-navbarButton {
+  color: #94a3b8 !important;
+  border-radius: 0.75rem !important;
+  font-weight: 600 !important;
+  transition: all 180ms ease !important;
+  padding: 0.625rem 0.875rem !important;
+}
+
+.cl-navbarButton:hover {
+  background: rgba(255, 255, 255, 0.06) !important;
+  color: #f8fafc !important;
+}
+
+.cl-navbarButton[data-active='true'] {
+  background: rgba(139, 92, 246, 0.16) !important;
+  color: #c084fc !important;
+  border: 1px solid rgba(139, 92, 246, 0.25) !important;
+}
+
+.cl-headerTitle {
+  color: #f8fafc !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.02em !important;
+}
+
+.cl-headerSubtitle {
+  color: #94a3b8 !important;
+}
+
+.cl-profilePage {
+  color: #f8fafc !important;
+  background: transparent !important;
+}
+
+.cl-formFieldLabel {
+  color: #cbd5e1 !important;
+  font-weight: 600 !important;
+}
+
+.cl-formFieldInput {
+  background: rgba(15, 23, 42, 0.8) !important;
+  border: 1px solid rgba(148, 163, 184, 0.2) !important;
+  color: #f8fafc !important;
+  border-radius: 0.75rem !important;
+  padding: 0.625rem 0.875rem !important;
+}
+
+.cl-formFieldInput:focus {
+  border-color: #8b5cf6 !important;
+  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.2) !important;
+}
+
+.cl-formButtonPrimary {
+  background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%) !important;
+  border-radius: 0.75rem !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.3) !important;
+}
+
+.cl-formButtonPrimary:hover {
+  background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 100%) !important;
+}
+
+.cl-badge {
+  background: rgba(139, 92, 246, 0.15) !important;
+  color: #c084fc !important;
+  border: 1px solid rgba(139, 92, 246, 0.3) !important;
+  border-radius: 9999px !important;
+}
