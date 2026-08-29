@@ -326,7 +326,7 @@ export async function createTailoringSessionAction(
 
   if (!forceRecreate) {
     const existing = await TailoringRepository.findByResumeAndJd(resumeId, jdId);
-    if (existing) {
+    if (existing && existing.matchScore > 0 && Array.isArray(existing.recommendations) && existing.recommendations.length > 0) {
       logger.info(`Reusing cached tailoring session: ${existing.id}`, {
         category: 'database',
         resumeId,
@@ -375,6 +375,16 @@ export async function createTailoringSessionAction(
   }
 
   if (!resumeText || !jdText) throw new Error('Missing text content for comparison');
+
+  // Ensure JD has structured analysis for role and company extraction
+  if (!jd.analysis) {
+    try {
+      const { analyzeJobDescriptionAction } = await import('../jobDescription/actions');
+      await analyzeJobDescriptionAction(jdId);
+    } catch (e) {
+      logger.warn('Could not extract JD metadata', { category: 'ai', error: String(e) });
+    }
+  }
 
   const matchResult = await runAIMatchEngine(resumeText, jdText);
   const matchData = matchResult.analysis;

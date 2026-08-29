@@ -1,7 +1,7 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { Layers, FileCheck2, Cpu, Edit3, Trash2 } from 'lucide-react';
+import { useState, useEffect, useCallback } from 'react';
+import { Layers, FileCheck2, Edit3, Trash2 } from 'lucide-react';
 import { listResumesAction, deleteResumeAction } from '@backend/features/resume/actions';
 import Link from 'next/link';
 
@@ -58,7 +58,7 @@ export default function VersionsTab({ resume }: VersionsTabProps) {
         {groupResumes.map((ver, idx) => {
           const isLatest = idx === 0;
           return (
-            <div key={ver.id} className={`bg-slate-900/50 border ${isLatest ? 'border-violet-500/50' : 'border-slate-800'} p-5 rounded-2xl flex flex-col md:flex-row justify-between md:items-center gap-4 transition-colors relative overflow-hidden`}>
+            <div key={ver.id} className={`bg-slate-900/50 border ${isLatest ? 'border-violet-500/50' : 'border-slate-800'} p-5 rounded-2xl flex flex-col md:flex-row justify-between md:items-center gap-4 transition-colors relative overflow-hidden backdrop-blur-md`}>
               {isLatest && <div className="absolute top-0 left-0 w-1 h-full bg-violet-500"></div>}
               
               <div className="flex items-start gap-4">
@@ -84,17 +84,17 @@ export default function VersionsTab({ resume }: VersionsTabProps) {
                 </div>
               </div>
               
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-2.5">
                 <Link 
                   href={`/resume-editor/${ver.id}`}
-                  className="bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold px-4 py-2 rounded-xl flex items-center gap-2 shadow-sm transition-all text-sm"
+                  className="bg-violet-600 hover:bg-violet-500 text-white font-bold px-4 py-2 rounded-xl flex items-center gap-2 shadow-lg shadow-violet-950/30 transition-all text-xs"
                 >
-                  <Edit3 className="w-4 h-4" /> Open Editor
+                  <Edit3 className="w-3.5 h-3.5" /> Open Editor
                 </Link>
                 <button 
                   onClick={(e) => handleDelete(e, ver.id)}
-                  disabled={groupResumes.length === 1} // Prevent deleting the last version here
-                  className="p-2.5 text-slate-500 hover:text-red-400 hover:bg-slate-800 rounded-xl transition-colors disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-slate-500"
+                  disabled={groupResumes.length === 1}
+                  className="p-2 text-slate-500 hover:text-red-400 hover:bg-slate-800 rounded-xl transition-colors disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-slate-500"
                   title="Delete Version"
                 >
                   <Trash2 className="w-4 h-4" />

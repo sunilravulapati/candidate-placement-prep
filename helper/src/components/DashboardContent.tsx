@@ -9,7 +9,8 @@ export default function DashboardContent({
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
-  const isWorkspace = pathname.startsWith('/dsa/workspace');
+  const isWorkspace =
+    pathname.startsWith('/dsa/workspace') || pathname.startsWith('/resume-editor');
 
   if (isWorkspace) {
     return (

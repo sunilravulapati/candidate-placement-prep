@@ -127,20 +127,15 @@ export default async function DSAStudioTopicPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#070b14] text-slate-100 p-6 md:p-10 space-y-8 font-sans">
+    <div className="space-y-8 animate-fade-in text-slate-100 font-sans">
       {/* Hero Section */}
-      <section className="relative pt-4 pb-8 border-b border-slate-800/80 space-y-6">
-        <div className="flex items-center gap-2 font-mono text-xs text-amber-400">
-          <span className="text-slate-600">#</span>
-          <span>placement_os · dsa_studio · {allProblems.length}_total_problems</span>
-        </div>
-
+      <section className="relative pt-2 pb-8 border-b border-slate-800/80 space-y-6">
         <div className="space-y-3">
           <h1 className="text-3xl md:text-5xl font-mono font-bold tracking-tight text-white">
             Master Data Structures &amp; Algorithms
           </h1>
           <p className="text-slate-400 max-w-2xl text-sm md:text-base leading-relaxed">
-            32 structured categories, multi-attribute search, pattern recognition, topic roadmaps, and detailed metadata — one place to actually get through it.
+            Structured categories, multi-attribute search, pattern recognition, topic roadmaps, and detailed metadata — one place to practice and master coding interviews.
           </p>
         </div>
 
@@ -149,10 +144,6 @@ export default async function DSAStudioTopicPage() {
           <div className="space-y-0.5">
             <div className="font-mono text-2xl font-bold text-slate-100">{DSA_TOPICS_31.length}</div>
             <div className="font-mono text-xs text-slate-500">TOPICS</div>
-          </div>
-          <div className="space-y-0.5">
-            <div className="font-mono text-2xl font-bold text-slate-100">{allProblems.length}</div>
-            <div className="font-mono text-xs text-slate-500">PROBLEMS</div>
           </div>
           <div className="space-y-0.5">
             <div className="font-mono text-2xl font-bold text-slate-100">{LEARNING_PATHS.length}</div>
@@ -223,41 +214,23 @@ export default async function DSAStudioTopicPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {DSA_TOPICS_31.map((topic) => {
-            const stats = topicStatsMap[topic.slug] || {
-              total: 0,
-              easy: 0,
-              medium: 0,
-              hard: 0,
-            };
             const complexity = TOPIC_COMPLEXITY_MAP[topic.slug] || 'O(n)';
-
-            // Determine dominant difficulty for visual tick indicator
-            const dominantDiff =
-              stats.hard >= stats.medium && stats.hard > 0
-                ? 'hard'
-                : stats.medium >= stats.easy && stats.medium > 0
-                ? 'medium'
-                : 'easy';
 
             return (
               <Link
                 key={topic.slug}
                 href={`/dsa/topics/${topic.slug}`}
-                className="group bg-slate-900/70 hover:bg-slate-900 border border-slate-800/90 hover:border-slate-700 rounded-xl p-5 transition-all duration-200 flex flex-col justify-between space-y-4 shadow-sm"
+                className="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800/80 hover:border-slate-700 rounded-2xl p-5 transition-all duration-200 flex flex-col justify-between space-y-4 shadow-sm backdrop-blur-md"
               >
                 <div className="space-y-2.5">
                   <div className="flex items-start justify-between gap-2">
                     <h3 className="font-mono font-bold text-base text-white group-hover:text-amber-300 transition-colors">
                       {topic.name}
                     </h3>
-                    <span className="font-mono text-[11px] text-slate-500 whitespace-nowrap pt-0.5">
-                      {stats.total} problems
-                    </span>
-                  </div>
-
-                  {/* Complexity Badge */}
-                  <div className="inline-block font-mono text-[11px] text-teal-300 bg-teal-500/10 border border-teal-500/20 px-2 py-0.5 rounded">
-                    {complexity}
+                    {/* Complexity Badge */}
+                    <div className="inline-block font-mono text-[11px] text-teal-300 bg-teal-500/10 border border-teal-500/20 px-2 py-0.5 rounded shrink-0">
+                      {complexity}
+                    </div>
                   </div>
 
                   <p className="text-xs text-slate-400 line-clamp-2 leading-relaxed">
@@ -265,48 +238,11 @@ export default async function DSAStudioTopicPage() {
                   </p>
                 </div>
 
-                {/* Footer with Difficulty Ticks */}
+                {/* Footer */}
                 <div className="pt-3 border-t border-slate-800/80 flex items-center justify-between">
-                  <div className="flex items-center gap-2 font-mono text-xs">
-                    <div className="flex gap-0.5">
-                      <div
-                        className={`w-1.5 h-3 rounded-xs ${
-                          dominantDiff === 'easy' || dominantDiff === 'medium' || dominantDiff === 'hard'
-                            ? stats.hard > 0
-                              ? 'bg-rose-400'
-                              : stats.medium > 0
-                              ? 'bg-amber-400'
-                              : 'bg-emerald-400'
-                            : 'bg-slate-800'
-                        }`}
-                      />
-                      <div
-                        className={`w-1.5 h-3 rounded-xs ${
-                          dominantDiff === 'medium' || dominantDiff === 'hard'
-                            ? stats.hard > 0
-                              ? 'bg-rose-400'
-                              : 'bg-amber-400'
-                            : 'bg-slate-800'
-                        }`}
-                      />
-                      <div
-                        className={`w-1.5 h-3 rounded-xs ${
-                          dominantDiff === 'hard' ? 'bg-rose-400' : 'bg-slate-800'
-                        }`}
-                      />
-                    </div>
-                    <span
-                      className={`text-[11px] font-bold ${
-                        dominantDiff === 'easy'
-                          ? 'text-emerald-400'
-                          : dominantDiff === 'medium'
-                          ? 'text-amber-400'
-                          : 'text-rose-400'
-                      }`}
-                    >
-                      {dominantDiff === 'easy' ? 'Easy' : dominantDiff === 'medium' ? 'Med' : 'Hard'}
-                    </span>
-                  </div>
+                  <span className="font-mono text-[11px] text-slate-500">
+                    Explore topic problems
+                  </span>
 
                   <div className="font-mono text-xs text-slate-400 group-hover:text-amber-400 transition-colors flex items-center gap-1">
                     <span>Explore</span>

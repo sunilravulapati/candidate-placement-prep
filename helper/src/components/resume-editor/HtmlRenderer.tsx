@@ -1,93 +1,111 @@
-import React from 'react';
+'use client';
 
-export function HtmlRenderer({ resumeJson }: { resumeJson: any }) {
-  if (!resumeJson) return null;
+import React, { forwardRef } from 'react';
+import { TemplateId, Density, PaperSize } from './templates/types';
+import { ModernTechTemplate } from './templates/ModernTechTemplate';
+import { ClassicTemplate } from './templates/ClassicTemplate';
+import { MinimalAtsTemplate } from './templates/MinimalAtsTemplate';
 
-  return (
-    <div className="p-8 max-w-[21cm] mx-auto bg-white min-h-[29.7cm] shadow-sm">
-      <div className="text-center mb-6 border-b-2 border-gray-900 pb-4">
-        <h1 className="text-4xl font-serif text-gray-900 mb-2">{resumeJson.personalInfo?.fullName}</h1>
-        <div className="flex flex-wrap justify-center gap-3 text-sm text-gray-600">
-          {resumeJson.personalInfo?.email && <span>{resumeJson.personalInfo.email}</span>}
-          {resumeJson.personalInfo?.phone && <span>• {resumeJson.personalInfo.phone}</span>}
-          {resumeJson.personalInfo?.location && <span>• {resumeJson.personalInfo.location}</span>}
-          {resumeJson.personalInfo?.linkedin && <span>• {resumeJson.personalInfo.linkedin}</span>}
-        </div>
-      </div>
-
-      {resumeJson.summary && (
-        <div className="mb-6">
-          <h2 className="text-lg font-bold text-gray-900 border-b border-gray-300 mb-2 uppercase tracking-wide">Professional Summary</h2>
-          <p className="text-gray-800 text-sm leading-relaxed">{resumeJson.summary}</p>
-        </div>
-      )}
-
-      {resumeJson.experience && resumeJson.experience.length > 0 && (
-        <div className="mb-6">
-          <h2 className="text-lg font-bold text-gray-900 border-b border-gray-300 mb-3 uppercase tracking-wide">Experience</h2>
-          <div className="space-y-4">
-            {resumeJson.experience.map((exp: any, i: number) => (
-              <div key={i}>
-                <div className="flex justify-between items-baseline mb-1">
-                  <h3 className="font-semibold text-gray-900">{exp.title}</h3>
-                  <span className="text-sm text-gray-600 font-medium">{exp.startDate} - {exp.current ? 'Present' : exp.endDate}</span>
-                </div>
-                <div className="flex justify-between items-baseline mb-2">
-                  <span className="text-gray-800 italic text-sm">{exp.company}</span>
-                  <span className="text-gray-500 text-sm">{exp.location}</span>
-                </div>
-                <ul className="list-disc list-outside ml-4 space-y-1">
-                  {exp.bullets?.map((bullet: string, j: number) => (
-                    <li key={j} className="text-sm text-gray-700 leading-relaxed">{bullet}</li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {resumeJson.projects && resumeJson.projects.length > 0 && (
-        <div className="mb-6">
-          <h2 className="text-lg font-bold text-gray-900 border-b border-gray-300 mb-3 uppercase tracking-wide">Projects</h2>
-          <div className="space-y-4">
-            {resumeJson.projects.map((proj: any, i: number) => (
-              <div key={i}>
-                <div className="flex justify-between items-baseline mb-1">
-                  <h3 className="font-semibold text-gray-900">{proj.name}</h3>
-                  {proj.technologies && (
-                    <span className="text-xs text-gray-600 font-mono bg-gray-100 px-2 py-0.5 rounded">
-                      {proj.technologies.join(', ')}
-                    </span>
-                  )}
-                </div>
-                <ul className="list-disc list-outside ml-4 space-y-1">
-                  {proj.bullets?.map((bullet: string, j: number) => (
-                    <li key={j} className="text-sm text-gray-700 leading-relaxed">{bullet}</li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {resumeJson.skills && (
-        <div className="mb-6">
-          <h2 className="text-lg font-bold text-gray-900 border-b border-gray-300 mb-3 uppercase tracking-wide">Skills</h2>
-          <div className="grid grid-cols-1 gap-2 text-sm">
-            {resumeJson.skills.languages && resumeJson.skills.languages.length > 0 && (
-              <div><span className="font-semibold text-gray-900">Languages:</span> <span className="text-gray-700">{resumeJson.skills.languages.join(', ')}</span></div>
-            )}
-            {resumeJson.skills.frameworks && resumeJson.skills.frameworks.length > 0 && (
-              <div><span className="font-semibold text-gray-900">Frameworks:</span> <span className="text-gray-700">{resumeJson.skills.frameworks.join(', ')}</span></div>
-            )}
-            {resumeJson.skills.tools && resumeJson.skills.tools.length > 0 && (
-              <div><span className="font-semibold text-gray-900">Tools:</span> <span className="text-gray-700">{resumeJson.skills.tools.join(', ')}</span></div>
-            )}
-          </div>
-        </div>
-      )}
-    </div>
-  );
+interface HtmlRendererProps {
+  resumeJson: any;
+  templateId?: TemplateId;
+  density?: Density;
+  paperSize?: PaperSize;
+  className?: string;
 }
+
+export const HtmlRenderer = forwardRef<HTMLDivElement, HtmlRendererProps>(
+  function HtmlRenderer(
+    {
+      resumeJson,
+      templateId = 'modern',
+      density = 'standard',
+      paperSize = 'a4',
+      className = '',
+    },
+    ref
+  ) {
+    if (!resumeJson) {
+      return (
+        <div className="flex h-96 items-center justify-center p-8 text-center text-slate-500">
+          No resume data available to preview.
+        </div>
+      );
+    }
+
+    const renderTemplate = () => {
+      switch (templateId) {
+        case 'classic':
+          return <ClassicTemplate resumeJson={resumeJson} density={density} />;
+        case 'minimal':
+          return <MinimalAtsTemplate resumeJson={resumeJson} density={density} />;
+        case 'modern':
+        default:
+          return <ModernTechTemplate resumeJson={resumeJson} density={density} />;
+      }
+    };
+
+    // Standard paper dimensions
+    // A4: 210mm x 297mm (~794px x 1123px at 96 DPI)
+    // US Letter: 8.5in x 11in (216mm x 279mm, ~816px x 1056px at 96 DPI)
+    const paperWidthStyle =
+      paperSize === 'letter' ? 'w-full max-w-[216mm]' : 'w-full max-w-[210mm]';
+    const paperMinHeightStyle =
+      paperSize === 'letter' ? 'min-h-[279mm]' : 'min-h-[297mm]';
+
+    return (
+      <div className={`resume-print-wrapper ${className}`}>
+        {/* Printable Paper Container */}
+        <div
+          ref={ref}
+          id="resume-document-to-print"
+          className={`resume-paper-container mx-auto ${paperWidthStyle} ${paperMinHeightStyle} bg-white text-slate-950 shadow-2xl rounded-sm print:rounded-none print:shadow-none print:m-0 print:w-full print:max-w-none print:p-0 transition-all`}
+        >
+          {renderTemplate()}
+        </div>
+
+        {/* Embedded Print CSS for accurate vector PDF printing */}
+        <style jsx global>{`
+          @media print {
+            body {
+              background: white !important;
+              color: black !important;
+            }
+            /* Hide all UI elements except the printable resume container */
+            nav,
+            header,
+            aside,
+            footer,
+            button,
+            .no-print,
+            .editor-left-pane,
+            .resume-toolbar {
+              display: none !important;
+            }
+            .resume-print-wrapper {
+              margin: 0 !important;
+              padding: 0 !important;
+              background: white !important;
+            }
+            .resume-paper-container {
+              box-shadow: none !important;
+              border: none !important;
+              margin: 0 !important;
+              width: 100% !important;
+              max-width: 100% !important;
+              min-height: auto !important;
+            }
+            .page-break-inside-avoid {
+              break-inside: avoid !important;
+              page-break-inside: avoid !important;
+            }
+            @page {
+              size: ${paperSize === 'letter' ? 'letter' : 'A4'} portrait;
+              margin: 12mm 10mm 12mm 10mm;
+            }
+          }
+        `}</style>
+      </div>
+    );
+  }
+);

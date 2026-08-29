@@ -37,16 +37,12 @@ body {
   color: hsl(var(--foreground));
   background-color: #070b14;
   background-image:
-    radial-gradient(
-      circle at 12% -5%,
+    radial-gradient(circle at 12% -5%,
       rgba(124, 58, 237, 0.15),
-      transparent 28rem
-    ),
-    radial-gradient(
-      circle at 88% 0%,
+      transparent 28rem),
+    radial-gradient(circle at 88% 0%,
       rgba(14, 165, 233, 0.1),
-      transparent 24rem
-    ),
+      transparent 24rem),
     linear-gradient(180deg, #070b14 0%, #0a1020 52%, #070b14 100%);
   background-attachment: fixed;
   font-family: "Outfit", "Inter", sans-serif;
@@ -70,11 +66,9 @@ body {
   .glass-card {
     position: relative;
     isolation: isolate;
-    background: linear-gradient(
-      145deg,
-      rgba(20, 28, 46, 0.82),
-      rgba(11, 17, 31, 0.72)
-    );
+    background: linear-gradient(145deg,
+        rgba(20, 28, 46, 0.82),
+        rgba(11, 17, 31, 0.72));
     backdrop-filter: blur(18px);
     -webkit-backdrop-filter: blur(18px);
     border: 1px solid rgba(148, 163, 184, 0.13);
@@ -87,11 +81,9 @@ body {
   }
 
   .glass-card:hover {
-    background: linear-gradient(
-      145deg,
-      rgba(27, 37, 60, 0.9),
-      rgba(13, 20, 36, 0.82)
-    );
+    background: linear-gradient(145deg,
+        rgba(27, 37, 60, 0.9),
+        rgba(13, 20, 36, 0.82));
     border-color: rgba(167, 139, 250, 0.28);
     box-shadow: 0 22px 58px -34px rgba(124, 58, 237, 0.45);
     transform: translateY(-3px);

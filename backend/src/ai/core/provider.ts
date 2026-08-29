@@ -179,7 +179,7 @@ export async function callGroqRaw(
         );
       }
 
-      // Check for Model Not Found (404) -> Fallback to groq/compound-mini
+      // Check for Model Not Found (404) -> Fallback to verified active models
       const errStr = String(err);
       const isModelNotFound =
         (err as any)?.status === 404 ||
@@ -187,22 +187,55 @@ export async function callGroqRaw(
         errStr.includes('model_not_found') ||
         errStr.includes('does not exist');
 
-      if (isModelNotFound && requestBody.model !== 'groq/compound-mini') {
+      if (isModelNotFound && requestBody.model !== 'openai/gpt-oss-20b') {
         console.warn(
-          `[provider] Requested model "${requestBody.model}" not accessible. Falling back to "groq/compound-mini"…`
+          `[provider] Requested model "${requestBody.model}" not accessible. Falling back to "openai/gpt-oss-20b"…`
         );
-        requestBody.model = 'groq/compound-mini';
+        requestBody.model = 'openai/gpt-oss-20b';
         continue;
       }
 
-      // Check for rate limit (retryable)
-      if (isRetryableError(err) && attempt < maxRetries) {
-        const delayMs = 1500 * Math.pow(2, attempt); // 1.5s, 3s, 6s …
+      // Check for rate limit (retryable or switch model to openai/gpt-oss-20b / qwen/qwen3.8-27b)
+      if (isRetryableError(err)) {
+        if (requestBody.model !== 'openai/gpt-oss-20b') {
+          console.warn(
+            `[provider] Rate limit hit on model "${requestBody.model}". Switching to "openai/gpt-oss-20b" immediately…`
+          );
+          requestBody.model = 'openai/gpt-oss-20b';
+          continue;
+        } else if (requestBody.model === 'openai/gpt-oss-20b' && attempt === 0) {
+          console.warn(
+            `[provider] Rate limit hit on "openai/gpt-oss-20b". Switching to "qwen/qwen3.8-27b"…`
+          );
+          requestBody.model = 'qwen/qwen3.8-27b';
+          continue;
+        }
+
+        if (attempt < maxRetries) {
+          const delayMs = 1500 * Math.pow(2, attempt);
+          console.warn(
+            `[provider] Groq rate limit hit. Waiting ${delayMs}ms before retry ${attempt + 1}/${maxRetries}…`
+          );
+          await sleep(delayMs);
+          continue;
+        }
+      }
+
+      // Check for json_validate_failed (400) -> Switch to qwen/qwen3.8-27b or disable strict API grammar
+      const isJsonValidateFailed =
+        (err as any)?.status === 400 ||
+        (err as any)?.code === 'json_validate_failed' ||
+        errStr.includes('json_validate_failed');
+
+      if (isJsonValidateFailed && attempt < maxRetries) {
         console.warn(
-          `[provider] Groq rate limit hit. ` +
-          `Waiting ${delayMs}ms before retry ${attempt + 1}/${maxRetries}…`
+          `[provider] Groq JSON validator failed on model "${requestBody.model}". Retrying with model "qwen/qwen3.8-27b"…`
         );
-        await sleep(delayMs);
+        if (requestBody.model !== 'qwen/qwen3.8-27b') {
+          requestBody.model = 'qwen/qwen3.8-27b';
+        } else {
+          delete (requestBody as any).response_format;
+        }
         continue;
       }
 

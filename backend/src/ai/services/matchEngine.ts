@@ -49,7 +49,7 @@ export async function runAIMatchEngine(
 
   const messages = [
     { role: 'system' as const, content: systemPrompt },
-    { role: 'user' as const, content: 'Compare the resume and job description.' },
+    { role: 'user' as const, content: 'Compare the resume and job description. Output ONLY a valid JSON object matching the schema.' },
   ];
 
   const result = await callStructuredAI(

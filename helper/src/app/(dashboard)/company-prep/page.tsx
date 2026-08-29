@@ -15,7 +15,9 @@ import {
   Sparkles,
   Zap,
   BookOpen,
+  Layers,
 } from 'lucide-react';
+import { PageHeader } from '@/components/ui/PageHeader';
 
 export default function CompanyPrepHubPage() {
   // Simulated user performance state across core domains
@@ -33,29 +35,32 @@ export default function CompanyPrepHubPage() {
   );
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 p-6 md:p-10 space-y-8">
+    <div className="space-y-8 animate-fade-in text-slate-100">
       {/* Header Banner */}
-      <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-violet-900/40 via-indigo-900/30 to-slate-900 p-8 border border-violet-500/20 shadow-2xl">
-        <div className="absolute -right-10 -bottom-10 w-72 h-72 bg-violet-600/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="relative z-10 space-y-3 max-w-3xl">
-          <div className="inline-flex items-center space-x-2 bg-violet-500/10 border border-violet-500/30 px-3 py-1 rounded-full text-xs font-semibold text-violet-300">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>Placement Operating System • Company Preparation</span>
+      <PageHeader
+        title="Company Preparation Hub"
+        description="Target company-specific OA patterns, hiring rounds, high-frequency DSA problems, Aptitude sets, SQL benchmarks, and real-time Company Readiness Scores."
+        icon={Building2}
+        iconClassName="text-violet-400"
+        gradientFrom="from-violet-950/70"
+        gradientVia="via-indigo-950/45"
+        gradientTo="to-slate-900/45"
+        borderColor="border-indigo-400/20"
+        glowColor="bg-violet-500/15"
+        secondaryGlowColor="bg-indigo-500/10"
+        actions={
+          <div className="flex items-center gap-2 bg-violet-600/10 border border-violet-500/20 text-violet-300 font-semibold text-xs px-4 py-2.5 rounded-xl backdrop-blur-md">
+            <Sparkles className="w-4 h-4 text-violet-400" />
+            <span>Targeted Roadmaps</span>
           </div>
-          <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-white">
-            Company Preparation Hub
-          </h1>
-          <p className="text-slate-300 text-sm md:text-base leading-relaxed">
-            Target company-specific OA patterns, hiring rounds, high-frequency DSA problems, Aptitude sets, SQL benchmarks, and real-time Company Readiness Scores. Zero duplicated questions.
-          </p>
-        </div>
-      </div>
+        }
+      />
 
       {/* Target Companies Grid */}
-      <div className="space-y-4">
+      <div className="space-y-5">
         <div className="flex items-center justify-between">
-          <h2 className="text-xl font-bold text-slate-100 flex items-center space-x-2">
-            <Building2 className="w-5 h-5 text-indigo-400" />
+          <h2 className="text-lg font-bold text-slate-100 flex items-center space-x-2.5">
+            <Layers className="w-5 h-5 text-indigo-400" />
             <span>Top Recruitment Targets ({COMPANY_PROFILES.length})</span>
           </h2>
         </div>
@@ -69,35 +74,35 @@ export default function CompanyPrepHubPage() {
 
             const scoreColor =
               score >= 70
-                ? 'text-emerald-400 border-emerald-500/30 bg-emerald-500/10'
+                ? 'text-emerald-400 border-emerald-500/30 bg-emerald-500/10 shadow-emerald-950/20'
                 : score >= 50
-                ? 'text-amber-400 border-amber-500/30 bg-amber-500/10'
-                : 'text-indigo-400 border-indigo-500/30 bg-indigo-500/10';
+                ? 'text-amber-400 border-amber-500/30 bg-amber-500/10 shadow-amber-950/20'
+                : 'text-indigo-400 border-indigo-500/30 bg-indigo-500/10 shadow-indigo-950/20';
 
             return (
               <Link
                 key={company.slug}
                 href={`/company-prep/${company.slug}`}
-                className="group relative bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-violet-500/40 rounded-xl p-6 transition-all duration-300 shadow-lg flex flex-col justify-between"
+                className="group relative bg-slate-900/60 hover:bg-slate-900/90 border border-slate-800/80 hover:border-violet-500/40 rounded-2xl p-6 transition-all duration-300 shadow-xl hover:shadow-violet-950/20 backdrop-blur-md flex flex-col justify-between"
               >
                 <div className="space-y-4">
                   {/* Top Bar */}
-                  <div className="flex items-start justify-between">
+                  <div className="flex items-start justify-between gap-3">
                     <div>
                       <h3 className="text-lg font-bold text-white group-hover:text-violet-300 transition-colors">
                         {company.name}
                       </h3>
-                      <span className="text-xs text-slate-400 uppercase tracking-wider font-semibold">
+                      <span className="text-[11px] text-slate-400 uppercase tracking-wider font-semibold">
                         {company.tier.replace(/_/g, ' ')}
                       </span>
                     </div>
 
-                    <div className={`px-3 py-1 rounded-full border text-xs font-bold ${scoreColor}`}>
+                    <div className={`px-3 py-1 rounded-full border text-xs font-bold shrink-0 ${scoreColor}`}>
                       {score}% Readiness
                     </div>
                   </div>
 
-                  <p className="text-xs text-slate-300 line-clamp-2 leading-relaxed">
+                  <p className="text-xs text-slate-300/85 line-clamp-2 leading-relaxed">
                     {company.tagline}
                   </p>
 
@@ -106,7 +111,7 @@ export default function CompanyPrepHubPage() {
                     {company.topTopics.dsa.slice(0, 3).map((topic) => (
                       <span
                         key={topic}
-                        className="text-[10px] bg-slate-800 text-slate-300 px-2 py-0.5 rounded-md font-mono"
+                        className="text-[10px] bg-slate-800/80 border border-slate-700/50 text-slate-300 px-2 py-0.5 rounded-md font-mono"
                       >
                         {topic}
                       </span>

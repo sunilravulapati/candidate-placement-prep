@@ -54,7 +54,7 @@ export async function runAITailoringRecommendation(
 
   const messages = [
     { role: 'system' as const, content: systemPrompt },
-    { role: 'user' as const, content: 'Generate tailored recommendations based on the gaps.' },
+    { role: 'user' as const, content: 'Generate tailored recommendations based on the gaps. Output ONLY a valid JSON object matching the schema.' },
   ];
 
   const result = await callStructuredAI(

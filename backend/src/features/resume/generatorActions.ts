@@ -152,15 +152,28 @@ export async function updateResumeJsonAction(resumeId: string, newJson: any) {
   return { success: true };
 }
 
-/** Returns the canonicalJson for a resume. */
+/** Returns the canonicalJson for a resume. Automatically parses PDF to JSON if missing. */
 export async function getResumeJsonAction(resumeId: string) {
   const user = await getSessionUser();
   if (!user) throw new Error('Unauthorized');
 
   const resume = await prisma.resume.findUnique({
-    where: { id: resumeId, userId: user.id }
+    where: { id: resumeId, userId: user.id },
+    include: { document: true }
   });
   if (!resume) throw new Error('Resume not found');
+
+  if (!resume.canonicalJson) {
+    // Automatically parse PDF to JSON if not parsed yet
+    const parseRes = await parseResumeAction(resumeId);
+    return {
+      success: true,
+      json: parseRes.json,
+      version: resume.version,
+      metadata: resume.generationMetadata,
+      isGenerated: false,
+    };
+  }
 
   return {
     success: true,
@@ -170,3 +183,4 @@ export async function getResumeJsonAction(resumeId: string) {
     isGenerated: !resume.documentId && !!resume.canonicalJson,
   };
 }
+

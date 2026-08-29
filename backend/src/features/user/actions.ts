@@ -53,6 +53,14 @@ export async function getProfileAction() {
 }
 
 /**
+ * Get the current user's full onboarding details, status, and edit window remaining time.
+ */
+export async function getOnboardingDetailsAction() {
+  const user = await requireSessionUser();
+  return UserService.getOnboardingDetails(user.id);
+}
+
+/**
  * Get the current user's full profile with dashboard statistics.
  */
 export async function getUserProfileAction() {

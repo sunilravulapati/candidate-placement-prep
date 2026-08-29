@@ -1,3 +1,4 @@
+// helper/src/app/(dashboard)/resume-studio/page.tsx
 'use client';
 
 import { useState } from 'react';
@@ -30,16 +31,21 @@ export default function ResumeStudioPage() {
   };
 
   return (
-    <>
-      
+    <div className="space-y-6 animate-fade-in text-slate-100">
       {/* Header Banner */}
       <PageHeader
         title="Resume Studio"
-        description="Upload, analyze, and tailor your resumes to beat the ATS."
+        description="Upload, analyze, and tailor your resumes to beat Applicant Tracking Systems (ATS) and impress recruiters."
         icon={Sparkles}
         iconClassName="text-violet-400 animate-pulse"
+        gradientFrom="from-violet-950/70"
+        gradientVia="via-indigo-950/45"
+        gradientTo="to-slate-900/45"
+        borderColor="border-violet-500/20"
+        glowColor="bg-violet-500/15"
+        secondaryGlowColor="bg-indigo-500/10"
         actions={
-          <div className="bg-indigo-600/10 border border-indigo-500/20 text-indigo-300 font-semibold text-xs px-4 py-2.5 rounded-xl flex items-center gap-2">
+          <div className="bg-indigo-600/10 border border-indigo-500/20 text-indigo-300 font-semibold text-xs px-4 py-2.5 rounded-xl flex items-center gap-2 backdrop-blur-md">
             <Cpu className="w-4 h-4 text-violet-400" />
             <span>AI Orchestrated Pipeline</span>
           </div>
@@ -47,8 +53,8 @@ export default function ResumeStudioPage() {
       />
 
       {/* Workspace Tabs */}
-      <div className="flex overflow-x-auto bg-slate-900/50 p-1.5 rounded-2xl border border-slate-800 w-full backdrop-blur-md no-scrollbar">
-        {TABS.map(tab => {
+      <div className="flex overflow-x-auto bg-slate-900/60 p-1.5 rounded-2xl border border-slate-800/80 w-full backdrop-blur-md no-scrollbar gap-1">
+        {TABS.map((tab) => {
           const Icon = tab.icon;
           const isDisabled = tab.requiresResume && !activeResume;
           const isActive = activeTab === tab.id;
@@ -58,10 +64,10 @@ export default function ResumeStudioPage() {
               key={tab.id}
               onClick={() => setActiveTab(tab.id as ResumeStudioTab)}
               disabled={isDisabled}
-              className={`flex-none px-6 py-2.5 rounded-xl font-medium text-sm transition-all duration-300 ${
+              className={`flex-none px-6 py-2.5 rounded-xl font-bold text-xs transition-all duration-200 ${
                 isActive 
-                  ? 'bg-violet-600 text-white shadow-lg' 
-                  : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+                  ? 'bg-violet-600 text-white shadow-lg shadow-violet-900/30 border border-violet-500/30' 
+                  : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50 border border-transparent'
               } ${isDisabled ? 'opacity-30 cursor-not-allowed hover:bg-transparent hover:text-slate-400' : ''}`}
             >
               <div className="flex items-center justify-center gap-2">
@@ -74,7 +80,7 @@ export default function ResumeStudioPage() {
       </div>
 
       {/* Tab Content */}
-      <div className="min-h-[500px]">
+      <div className="min-h-[500px] pt-1">
         {activeTab === 'library' && (
           <LibraryTab onSelectResume={handleSelectResume} activeResumeId={activeResume?.id} />
         )}
@@ -91,7 +97,6 @@ export default function ResumeStudioPage() {
           <HistoryTab resume={activeResume} />
         )}
       </div>
-
-    </>
+    </div>
   );
 }

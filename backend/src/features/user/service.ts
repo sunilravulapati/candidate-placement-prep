@@ -45,6 +45,13 @@ export class UserService {
   }
 
   /**
+   * Get user onboarding status, saved profile details, and edit window status.
+   */
+  static async getOnboardingDetails(userId: string) {
+    return UserRepository.getOnboardingDetails(userId);
+  }
+
+  /**
    * Get user with dashboard statistics.
    */
   static async getUserProfile(userId: string) {
