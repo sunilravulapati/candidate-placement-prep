@@ -128,8 +128,26 @@ export default async function DSAStudioTopicPage() {
 
   return (
     <div className="space-y-8 animate-fade-in text-slate-100 font-sans">
+      {/* DSA Subnavigation */}
+      <div className="flex items-center gap-2 border-b border-slate-800/80 pb-3 text-xs font-mono overflow-x-auto scrollbar-none">
+        <Link href="/dsa" className="px-3 py-1.5 rounded-lg bg-slate-800 text-white font-bold border border-slate-700">
+          Overview
+        </Link>
+        <Link href="/dsa/learning-paths" className="px-3 py-1.5 rounded-lg text-slate-400 hover:text-slate-200 hover:bg-slate-800/60 transition-colors">
+          Learning Paths
+        </Link>
+        <Link href="/dsa#topics" className="px-3 py-1.5 rounded-lg text-slate-400 hover:text-slate-200 hover:bg-slate-800/60 transition-colors">
+          Topics
+        </Link>
+        <Link href="/dsa/oa-essentials" className="px-3 py-1.5 rounded-lg bg-amber-500/10 text-amber-300 hover:bg-amber-500/20 border border-amber-500/30 transition-colors flex items-center gap-1.5 font-bold shadow-sm shadow-amber-950/20">
+          <Flame className="w-3.5 h-3.5 text-amber-400" />
+          <span>OA Essentials</span>
+          <span className="text-[10px] px-1.5 py-0.2 rounded bg-amber-400 text-slate-950 font-black">70</span>
+        </Link>
+      </div>
+
       {/* Hero Section */}
-      <section className="relative pt-2 pb-8 border-b border-slate-800/80 space-y-6">
+      <section className="relative pt-2 pb-6 border-b border-slate-800/80 space-y-6">
         <div className="space-y-3">
           <h1 className="text-3xl md:text-5xl font-mono font-bold tracking-tight text-white">
             Master Data Structures &amp; Algorithms
@@ -149,16 +167,31 @@ export default async function DSAStudioTopicPage() {
             <div className="font-mono text-2xl font-bold text-slate-100">{LEARNING_PATHS.length}</div>
             <div className="font-mono text-xs text-slate-500">LEARNING PATHS</div>
           </div>
+          <div className="space-y-0.5">
+            <div className="font-mono text-2xl font-bold text-amber-300">70</div>
+            <div className="font-mono text-xs text-amber-400">OA ESSENTIALS</div>
+          </div>
         </div>
 
-        {/* Action Button: Resume Recommended Problem */}
-        <div>
+        {/* Spotlight Banner: OA Essentials */}
+        <div className="rounded-2xl border border-amber-500/30 bg-gradient-to-r from-amber-500/10 via-slate-900/80 to-slate-900/80 p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 backdrop-blur-md shadow-lg shadow-amber-950/20">
+          <div className="space-y-1.5">
+            <div className="flex items-center gap-2">
+              <span className="px-2 py-0.5 rounded bg-amber-400 text-slate-950 font-mono font-bold text-[10px] uppercase">
+                Featured Section
+              </span>
+              <span className="font-mono text-xs text-amber-300 font-bold">OA Essentials (Ranked Pattern Bank)</span>
+            </div>
+            <p className="text-xs md:text-sm text-slate-300 max-w-2xl">
+              Curated pattern bank for Amazon, Uber, Goldman Sachs &amp; Google Online Assessments. Features 15-second diagnostic triggers, mental traps, and signature templates.
+            </p>
+          </div>
           <Link
-            href="/dsa/workspace/largest-rectangle-in-histogram"
-            className="inline-flex items-center gap-2.5 bg-amber-400 hover:bg-amber-300 text-slate-950 font-mono font-bold text-xs px-5 py-3 rounded-lg transition-colors shadow-lg shadow-amber-950/30"
+            href="/dsa/oa-essentials"
+            className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-mono font-bold text-xs transition-colors shrink-0 shadow-lg shadow-amber-950/30"
           >
             <Flame className="w-4 h-4 text-slate-950" />
-            <span>Resume: Largest Rectangle in Histogram</span>
+            <span>Launch OA Essentials</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
@@ -180,7 +213,7 @@ export default async function DSAStudioTopicPage() {
           {LEARNING_PATHS.map((path, idx) => (
             <Link
               key={path.slug}
-              href="/dsa/learning-paths"
+              href={path.slug === 'oa-essentials' ? '/dsa/oa-essentials' : '/dsa/learning-paths'}
               className="group flex flex-col md:flex-row md:items-center gap-3 md:gap-6 p-4 hover:bg-slate-800/60 transition-colors"
             >
               <div className="font-mono text-xs text-slate-500 w-6 shrink-0">

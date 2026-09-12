@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { Search, ChevronRight } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 
 interface SearchItem {
   slug: string;

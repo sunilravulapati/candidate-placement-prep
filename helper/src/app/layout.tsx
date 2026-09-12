@@ -23,7 +23,7 @@ export default function RootLayout({
         </head>
         <body className="antialiased min-h-screen text-slate-100 bg-[#030712]" suppressHydrationWarning>
           <Toaster
-            position="top-right"
+            position="top-center"
             toastOptions={{
               duration: 3500,
               style: {

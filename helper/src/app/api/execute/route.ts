@@ -42,9 +42,19 @@ export async function POST(req: Request) {
     }
 
     // In V1 standard execution model, user writes complete program with main().
-    // V2 wrapper generation is isolated and only executed when executionType !== 'STANDARD_V1'.
+    // If code does NOT contain a main() entrypoint (e.g. LeetCode class/function solution),
+    // automatically generate the execution wrapper harness.
+    const codeClean = code
+      .replace(/\/\*[\s\S]*?\*\//g, '')
+      .replace(/\/\/.*/g, '');
+    const hasUserMain =
+      /\bpublic\s+static\s+void\s+main\s*\(/.test(codeClean) ||
+      /\bint\s+main\s*\(/.test(codeClean) ||
+      /\bdef\s+main\s*\(/.test(codeClean) ||
+      /\bfunction\s+main\s*\(/.test(codeClean);
+
     let executableCode = code;
-    if (executionType !== 'STANDARD_V1' && metaToUse && execMetaToUse) {
+    if (!hasUserMain || executionType !== 'STANDARD_V1') {
       try {
         executableCode = WrapperGenerator.generateWrapper(
           metaToUse,
@@ -54,7 +64,7 @@ export async function POST(req: Request) {
           driverMetaToUse
         );
       } catch (err) {
-        console.warn('V2 wrapper generation warning:', (err as Error).message);
+        console.warn('Execution wrapper generation warning:', (err as Error).message);
       }
     }
 

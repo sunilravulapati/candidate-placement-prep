@@ -1,11 +1,26 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import { UserButton, SignInButton, Show } from '@clerk/nextjs';
 import { Bell, Search, User, Command } from 'lucide-react';
+import GlobalSearchDialog from './GlobalSearchDialog';
 
 export default function Navbar() {
   const pathname = usePathname();
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+
+  // Global keyboard shortcut listener (Cmd+K / Ctrl+K)
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        setIsSearchOpen((prev) => !prev);
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
 
   const getPageTitle = () => {
     if (pathname === '/dashboard' || pathname === '/') return 'Dashboard';
@@ -36,18 +51,32 @@ export default function Navbar() {
       </div>
 
       <div className="flex items-center gap-2 sm:gap-3">
-        <div className="hidden h-10 w-64 items-center gap-2 rounded-xl border border-slate-800/80 bg-slate-900/55 px-3 text-slate-500 transition focus-within:border-violet-400/40 focus-within:ring-2 focus-within:ring-violet-400/10 sm:flex">
-          <Search className="h-4 w-4 shrink-0" />
-          <input
-            type="text"
-            placeholder="Search anything..."
-            className="w-full bg-transparent text-xs text-slate-200 outline-none placeholder:text-slate-600"
-            disabled
-          />
-          <span className="hidden items-center gap-1 rounded-md border border-slate-700/80 bg-slate-800/70 px-1.5 py-1 text-[9px] font-bold text-slate-500 lg:flex">
+        {/* Global Search Trigger Bar */}
+        <button
+          type="button"
+          onClick={() => setIsSearchOpen(true)}
+          className="group hidden h-10 w-64 items-center justify-between rounded-xl border border-slate-800/80 bg-slate-900/55 px-3 text-slate-500 transition hover:border-violet-500/40 hover:bg-slate-900/80 hover:text-slate-300 focus:border-violet-400/40 focus:outline-none focus:ring-2 focus:ring-violet-400/10 sm:flex"
+        >
+          <div className="flex items-center gap-2">
+            <Search className="h-4 w-4 shrink-0 transition-colors group-hover:text-violet-400" />
+            <span className="text-xs text-slate-500 transition-colors group-hover:text-slate-300">
+              Search anything...
+            </span>
+          </div>
+          <span className="flex items-center gap-1 rounded-md border border-slate-700/80 bg-slate-800/70 px-1.5 py-1 text-[9px] font-bold text-slate-400 shadow-sm transition-colors group-hover:border-violet-500/30 group-hover:text-violet-300">
             <Command className="h-2.5 w-2.5" />K
           </span>
-        </div>
+        </button>
+
+        {/* Mobile Search Button */}
+        <button
+          type="button"
+          onClick={() => setIsSearchOpen(true)}
+          className="flex sm:hidden rounded-xl border border-slate-800/80 bg-slate-900/55 p-2.5 text-slate-400 transition hover:border-violet-500/40 hover:bg-slate-800 hover:text-violet-300"
+          aria-label="Search"
+        >
+          <Search className="h-4 w-4" />
+        </button>
 
         <button
           className="relative rounded-xl border border-slate-800/80 bg-slate-900/55 p-2.5 text-slate-500 transition hover:border-slate-700 hover:bg-slate-800 hover:text-slate-200"
@@ -96,6 +125,12 @@ export default function Navbar() {
           </Show>
         </div>
       </div>
+
+      {/* Global Search Command Palette Modal */}
+      <GlobalSearchDialog
+        isOpen={isSearchOpen}
+        onClose={() => setIsSearchOpen(false)}
+      />
     </header>
   );
 }

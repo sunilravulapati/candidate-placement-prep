@@ -11,6 +11,7 @@ loadEnv({ path: path.resolve(__dirname, '../backend/.env'), override: false, qui
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  distDir: process.env.NEXT_DIST_DIR || '.next',
   transpilePackages: ["backend", "react-resizable-panels"],
   serverExternalPackages: ["unpdf"],
   webpack: (config, { dev }) => {
@@ -37,6 +38,11 @@ const nextConfig = {
       {
         source: '/resume-tailoring',
         destination: '/resume-studio',
+        permanent: true,
+      },
+      {
+        source: '/knowledge',
+        destination: '/knowledge-hub',
         permanent: true,
       },
       {

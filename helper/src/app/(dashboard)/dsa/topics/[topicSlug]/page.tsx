@@ -30,6 +30,8 @@ interface TopicPageProps {
   params: Promise<{ topicSlug: string }>;
 }
 
+export const dynamic = 'force-dynamic';
+
 export default async function DSATopicDetailPage({ params }: TopicPageProps) {
   const { topicSlug } = await params;
   const slugLower = topicSlug.toLowerCase();

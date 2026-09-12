@@ -105,8 +105,9 @@ export default async function LandingPage() {
                   <ChevronRight className="w-4 h-4" />
                 </Link>
                 <Link
-                  href="https://github.com"
+                  href="https://github.com/sunilravulapati/candidate-placement-prep"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="w-full sm:w-auto inline-flex justify-center items-center space-x-2 bg-white/5 hover:bg-white/10 border border-white/10 text-white font-semibold text-sm px-8 py-4 rounded-full transition-colors"
                 >
                   <span>View GitHub</span>
