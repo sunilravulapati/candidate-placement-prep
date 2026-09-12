@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Sorting Module",
   "learningPaths": [
-    "Core DSA Track -> Sorting Module"
+    "Core DSA Track -> Sorting Module",
+    "OA Essentials"
   ],
   "description": "Sort an array containing 0s, 1s, and 2s in-place (Dutch National Flag).",
   "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers",

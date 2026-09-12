@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> DP Module",
   "learningPaths": [
-    "Core DSA Track -> DP Module"
+    "Core DSA Track -> DP Module",
+    "OA Essentials"
   ],
   "description": "Find the fewest coins needed to make up a specific amount.",
   "inputFormat": "Standard competitive programming input stream for Coin Change I.",

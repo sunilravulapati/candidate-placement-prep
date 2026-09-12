@@ -30,6 +30,16 @@
     "serializationStatus": "compatible"
   },
   {
+    "id": "hidden-1",
+    "classification": "hidden",
+    "displayInput": "word1 = \"sunday\", word2 = \"saturday\"",
+    "input": "sunday\nsaturday",
+    "stdin": "sunday\nsaturday",
+    "expectedOutput": "3",
+    "explanation": "insertions and substitutions",
+    "serializationStatus": "compatible"
+  },
+  {
     "id": "hidden-2",
     "classification": "hidden",
     "displayInput": "word1 = \"a\", word2 = \"a\"",

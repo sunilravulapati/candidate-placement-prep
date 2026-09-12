@@ -38,7 +38,8 @@
   ],
   "learningPath": "Core DSA Track -> DP Module",
   "learningPaths": [
-    "Core DSA Track -> DP Module"
+    "Core DSA Track -> DP Module",
+    "OA Essentials"
   ],
   "description": "Find the total distinct ways to reach the top taking 1 or 2 steps.",
   "inputFormat": "Single integer input value",

@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Linked List Module",
   "learningPaths": [
-    "Core DSA Track -> Linked List Module"
+    "Core DSA Track -> Linked List Module",
+    "OA Essentials"
   ],
   "description": "Find the middle node of a linked list (two-pointer strategy).",
   "inputFormat": "Standard competitive programming input stream for Middle of the Linked List.",

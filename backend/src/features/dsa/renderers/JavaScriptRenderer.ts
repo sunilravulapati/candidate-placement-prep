@@ -81,9 +81,48 @@ function treeNodeToArray(root) {
   return res;
 }
 
-function expandRanges(token: string): string {
-  return token.replace(/\[([\s\S]*?)\]/g, (_match: string, inner: string) => {
-    return '[' + inner.replace(/\b(\d+)\s*\.\.\s*(\d+)\b/g, (_all: string, start: string, end: string) => {
+function buildTree(rawStr) {
+  if (!rawStr) return null;
+  let s = rawStr.trim();
+  if (s.startsWith('[') && s.endsWith(']')) {
+    s = s.substring(1, s.length - 1).trim();
+  }
+  if (!s || s === '0') return null;
+  let tokens = s.split(/[,\\s]+/).filter(Boolean);
+  if (!tokens.length) return null;
+  let startIdx = 0;
+  let possibleCount = parseInt(tokens[0]);
+  if (!isNaN(possibleCount) && possibleCount === tokens.length - 1) {
+    startIdx = 1;
+  }
+  if (startIdx >= tokens.length) return null;
+  if (tokens[startIdx] === 'null' || tokens[startIdx] === 'None') return null;
+  let root = new TreeNode(parseInt(tokens[startIdx]));
+  let queue = [root];
+  let i = startIdx + 1;
+  while (queue.length > 0 && i < tokens.length) {
+    let curr = queue.shift();
+    if (i < tokens.length) {
+      let val = tokens[i++];
+      if (val !== 'null' && val !== 'None') {
+        curr.left = new TreeNode(parseInt(val));
+        queue.push(curr.left);
+      }
+    }
+    if (i < tokens.length) {
+      let val = tokens[i++];
+      if (val !== 'null' && val !== 'None') {
+        curr.right = new TreeNode(parseInt(val));
+        queue.push(curr.right);
+      }
+    }
+  }
+  return root;
+}
+
+function expandRanges(token) {
+  return token.replace(/\\[([\\s\\S]*?)\\]/g, (_match, inner) => {
+    return '[' + inner.replace(/\\b(\\d+)\\s*\\.\\.\\s*(\\d+)\\b/g, (_all, start, end) => {
       const s = parseInt(start, 10);
       const e = parseInt(end, 10);
       const length = e - s + 1;
@@ -95,7 +134,7 @@ function expandRanges(token: string): string {
   });
 }
 
-function parseValue(token: string): any {
+function parseValue(token) {
   const trimmed = token.trim();
   try {
     return JSON.parse(trimmed);
@@ -103,7 +142,7 @@ function parseValue(token: string): any {
     // ignore
   }
 
-  const assignmentMatch = trimmed.match(/^[A-Za-z_][A-Za-z0-9_]*\s*=\s*(.*)$/);
+  const assignmentMatch = trimmed.match(/^[A-Za-z_][A-Za-z0-9_]*\\s*=\\s*(.*)$/);
   const candidate = assignmentMatch ? assignmentMatch[1].trim() : trimmed;
   const expanded = expandRanges(candidate);
   try {
@@ -127,22 +166,48 @@ ${this.userCode}
   const lines = inputData.split('\\n').filter(l => l.length > 0);
   
   try {
-    const commands = JSON.parse(lines[0]);
-    const args = JSON.parse(lines[1]);
     let obj = null;
     let results = [];
-    
-    for (let i = 0; i < commands.length; i++) {
-      const cmd = commands[i];
-      const arg = args[i] || [];
-      if (cmd === "${className}") {
-        obj = new ${className}(...arg);
-        results.push(null);
-      } else if (obj && typeof obj[cmd] === 'function') {
-        const ret = obj[cmd](...arg);
-        results.push(ret === undefined ? null : ret);
+
+    if (lines[0].trim().startsWith('[')) {
+      const commands = JSON.parse(lines[0]);
+      const args = JSON.parse(lines[1] || '[]');
+      for (let i = 0; i < commands.length; i++) {
+        const cmd = commands[i];
+        const arg = args[i] || [];
+        if (cmd === "${className}") {
+          obj = new ${className}(...arg);
+          results.push(null);
+        } else if (obj && typeof obj[cmd] === 'function') {
+          const ret = obj[cmd](...arg);
+          results.push(ret === undefined ? null : ret);
+        } else {
+          results.push(null);
+        }
+      }
+    } else {
+      let lineIdx = 0;
+      if (${className}.length === 1) {
+        obj = new ${className}(parseInt(lines[0].trim()));
+        lineIdx = 1;
       } else {
-        results.push(null);
+        obj = new ${className}();
+        lineIdx = 0;
+      }
+      const opCount = lineIdx < lines.length ? parseInt(lines[lineIdx].trim()) : 0;
+      lineIdx++;
+
+      for (let i = lineIdx; i < lines.length && i < lineIdx + opCount; i++) {
+        const parts = lines[i].trim().split(/\\s+/);
+        if (!parts.length || !parts[0]) continue;
+        const cmd = parts[0];
+        const args = parts.slice(2).map(p => isNaN(p) ? p : Number(p));
+        if (obj && typeof obj[cmd] === 'function') {
+          const ret = obj[cmd](...args);
+          results.push(ret === undefined ? null : ret);
+        } else {
+          results.push(null);
+        }
       }
     }
     console.log(JSON.stringify(results));
@@ -204,16 +269,15 @@ ${this.userCode}
   const lines = inputData.split('\\n').filter(l => l.length > 0);
   
   try {
-    const rawArgs = lines.map(parseValue);
-    const args = rawArgs.map(arg => Array.isArray(arg) ? arrayToTreeNode(arg) : arg);
     const isClassMethod = ${this.userCode.includes(`class ${className}`)};
-    let result;
-    if (isClassMethod) {
-      const solver = new ${className}();
-      result = solver.${functionName}(...args);
-    } else {
-      result = ${functionName}(...args);
+    let solver = isClassMethod ? new ${className}() : null;
+    let targetFn = solver ? solver['${functionName}'] : (typeof ${functionName} === 'function' ? ${functionName} : null);
+    if (solver && !targetFn) {
+      const props = Object.getOwnPropertyNames(Object.getPrototypeOf(solver)).filter(p => p !== 'constructor' && typeof solver[p] === 'function');
+      if (props.length) targetFn = solver[props[0]].bind(solver);
     }
+    const root = buildTree(inputData);
+    let result = targetFn ? (solver ? targetFn.call(solver, root) : targetFn(root)) : null;
     if (result && typeof result === 'object' && 'val' in result) {
       console.log(JSON.stringify(treeNodeToArray(result)));
     } else {
@@ -242,13 +306,13 @@ ${this.userCode}
   try {
     const args = lines.map(parseValue);
     const isClassMethod = ${this.userCode.includes(`class ${className}`)};
-    let result;
-    if (isClassMethod) {
-      const solver = new ${className}();
-      result = solver.${functionName}(...args);
-    } else {
-      result = ${functionName}(...args);
+    let solver = isClassMethod ? new ${className}() : null;
+    let targetFn = solver ? solver['${functionName}'] : (typeof ${functionName} === 'function' ? ${functionName} : null);
+    if (solver && typeof targetFn !== 'function') {
+      const props = Object.getOwnPropertyNames(Object.getPrototypeOf(solver)).filter(p => p !== 'constructor' && typeof solver[p] === 'function');
+      if (props.length) targetFn = solver[props[0]].bind(solver);
     }
+    let result = targetFn ? (solver ? targetFn.call(solver, ...args) : targetFn(...args)) : null;
     console.log(JSON.stringify(result));
   } catch (err) {
     console.error("Execution Error:", err.message);

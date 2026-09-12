@@ -1,6 +1,9 @@
 node_modules
 .env
-/package-lock.json
-/package.json
 .DS_Store
+.next/
+.next_prod/
+*.tsbuildinfo
+backend/scratch/
+*.log
 resume-ai-backend/

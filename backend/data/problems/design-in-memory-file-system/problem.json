@@ -1,5 +1,5 @@
 {
-  "id": "588",
+  "id": "design-in-memory-file-system",
   "schemaVersion": "2.0",
   "contentVersion": "1.1",
   "importVersion": "stdin-converted-master-v1",
@@ -12,7 +12,7 @@
   "isV2Pending": true,
   "stdinFormatNotes": "Visible Stdin Input 1: Operation stream: first line is operation count; each following line is `<operation> <argument-count> <arguments...>`; scalar configuration values precede the operation count.\nVisible Stdin Input 2: Operation stream: first line is operation count; each following line is `<operation> <argument-count> <arguments...>`; scalar configuration values precede the operation count.\nVisible Stdin Input 3: Operation stream: first line is operation count; each following line is `<operation> <argument-count> <arguments...>`; scalar configuration values precede the operation count.\nHidden Stdin Input 1: Operation stream: first line is operation count; each following line is `<operation> <argument-count> <arguments...>`; scalar configuration values precede the operation count.\nHidden Stdin Input 2: Operation stream: first line is operation count; each following line is `<operation> <argument-count> <arguments...>`; scalar configuration values precede the operation count.\nHidden Stdin Input 3: Operation stream: first line is operation count; each following line is `<operation> <argument-count> <arguments...>`; scalar configuration values precede the operation count.\nHidden Stdin Input 4: Operation stream: first line is operation count; each following line is `<operation> <argument-count> <arguments...>`; scalar configuration values precede the operation count.\nHidden Stdin Input 5: Operation stream: first line is operation count; each following line is `<operation> <argument-count> <arguments...>`; scalar configuration values precede the operation count.",
   "questionNo": 173,
-  "slug": "588",
+  "slug": "design-in-memory-file-system",
   "title": "Design In-Memory File System",
   "difficulty": "HARD",
   "importance": "5/5",

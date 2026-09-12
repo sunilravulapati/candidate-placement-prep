@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Two Pointers Module",
   "learningPaths": [
-    "Core DSA Track -> Two Pointers Module"
+    "Core DSA Track -> Two Pointers Module",
+    "OA Essentials"
   ],
   "description": "Compute how much water can be trapped after raining over an elevation map.",
   "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers",

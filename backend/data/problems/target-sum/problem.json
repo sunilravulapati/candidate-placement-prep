@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> DP Module",
   "learningPaths": [
-    "Core DSA Track -> DP Module"
+    "Core DSA Track -> DP Module",
+    "OA Essentials"
   ],
   "description": "Assign + or - signs to elements to make the total sum equal to a target.",
   "inputFormat": "Standard competitive programming input stream for Target Sum.",

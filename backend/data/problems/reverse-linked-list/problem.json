@@ -38,7 +38,8 @@
   ],
   "learningPath": "Core DSA Track -> Linked List Module",
   "learningPaths": [
-    "Core DSA Track -> Linked List Module"
+    "Core DSA Track -> Linked List Module",
+    "OA Essentials"
   ],
   "description": "Reverse a singly linked list iteratively or recursively.",
   "inputFormat": "Standard competitive programming input stream for Reverse Linked List I.",

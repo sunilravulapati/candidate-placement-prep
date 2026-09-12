@@ -11,6 +11,14 @@ export interface LearningPathDefinition {
 
 export const LEARNING_PATHS: LearningPathDefinition[] = [
   {
+    slug: 'oa-essentials',
+    title: 'OA Essentials',
+    description: 'The highest-yield pattern-ranked questions for campus & off-campus Online Assessments (Amazon, Google, Uber, Goldman Sachs).',
+    targetAudience: 'Candidates tackling company Online Assessments (OA) & Hackathons',
+    recommendedDays: 14,
+    badgeColor: 'amber',
+  },
+  {
     slug: 'beginner-dsa',
     title: 'Beginner DSA',
     description: 'Master foundational data structures and basic problem-solving techniques from scratch.',

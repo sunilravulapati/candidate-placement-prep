@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Backtracking Module",
   "learningPaths": [
-    "Core DSA Track -> Backtracking Module"
+    "Core DSA Track -> Backtracking Module",
+    "OA Essentials"
   ],
   "description": "Find all unique combinations where numbers sum to a target (reuse allowed).",
   "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers",

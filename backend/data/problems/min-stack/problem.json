@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Stack Module",
   "learningPaths": [
-    "Core DSA Track -> Stack Module"
+    "Core DSA Track -> Stack Module",
+    "OA Essentials"
   ],
   "description": "Design a stack supporting push, pop, top, and retrieving min in O(1).",
   "inputFormat": "Standard competitive programming input stream for Min Stack.",

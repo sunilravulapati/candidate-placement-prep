@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Graphs Module",
   "learningPaths": [
-    "Core DSA Track -> Graphs Module"
+    "Core DSA Track -> Graphs Module",
+    "OA Essentials"
   ],
   "description": "Determine if you can finish all courses given prerequisite dependencies.",
   "inputFormat": "Standard competitive programming input stream for Course Schedule I.",

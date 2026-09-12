@@ -4,7 +4,7 @@ import { BaseRenderer } from './Renderer';
 
 export class CppRenderer extends BaseRenderer {
   render(): string {
-    const { driverType, className, functionName, parameters } = this.ast;
+    const { driverType, className = 'Solution', functionName = 'solve', parameters = [] } = this.ast;
 
     const includes = `
 #include <iostream>
@@ -36,22 +36,73 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-static vector<int> parseVectorInt(const string& s) {
-    vector<int> res;
+static vector<string> splitTokens(const string& s) {
+    vector<string> tokens;
     string cur = "";
-    bool inNum = false;
     for (char c : s) {
-        if (isdigit(c) || c == '-') {
+        if (c == '[' || c == ']' || c == ',' || isspace(c)) {
+            if (!cur.empty()) {
+                tokens.push_back(cur);
+                cur = "";
+            }
+        } else {
             cur += c;
-            inNum = true;
-        } else if (inNum) {
-            res.push_back(stoi(cur));
-            cur = "";
-            inNum = false;
         }
     }
-    if (inNum && !cur.empty()) res.push_back(stoi(cur));
+    if (!cur.empty()) tokens.push_back(cur);
+    return tokens;
+}
+
+static vector<int> parseVectorInt(const string& s) {
+    vector<int> res;
+    for (const string& tok : splitTokens(s)) {
+        try {
+            res.push_back(stoi(tok));
+        } catch (...) {}
+    }
     return res;
+}
+
+static TreeNode* buildTree(const string& s) {
+    vector<string> tokens = splitTokens(s);
+    if (tokens.empty()) return nullptr;
+
+    size_t startIdx = 0;
+    try {
+        int possibleCount = stoi(tokens[0]);
+        if (possibleCount == (int)tokens.size() - 1) {
+            startIdx = 1;
+        }
+    } catch (...) {}
+
+    if (startIdx >= tokens.size()) return nullptr;
+    if (tokens[startIdx] == "null" || tokens[startIdx] == "None") return nullptr;
+
+    TreeNode* root = new TreeNode(stoi(tokens[startIdx]));
+    queue<TreeNode*> q;
+    q.push(root);
+    size_t i = startIdx + 1;
+
+    while (!q.empty() && i < tokens.size()) {
+        TreeNode* curr = q.front();
+        q.pop();
+
+        if (i < tokens.size()) {
+            string leftVal = tokens[i++];
+            if (leftVal != "null" && leftVal != "None") {
+                curr->left = new TreeNode(stoi(leftVal));
+                q.push(curr->left);
+            }
+        }
+        if (i < tokens.size()) {
+            string rightVal = tokens[i++];
+            if (rightVal != "null" && rightVal != "None") {
+                curr->right = new TreeNode(stoi(rightVal));
+                q.push(curr->right);
+            }
+        }
+    }
+    return root;
 }
 
 static ListNode* arrayToListNode(const vector<int>& nums) {
@@ -69,6 +120,44 @@ static void printVectorInt(const vector<int>& v) {
     cout << "[";
     for (size_t i = 0; i < v.size(); i++) {
         cout << v[i] << (i + 1 == v.size() ? "" : ",");
+    }
+    cout << "]";
+}
+
+static void printVectorVectorInt(const vector<vector<int>>& vv) {
+    cout << "[";
+    for (size_t i = 0; i < vv.size(); i++) {
+        printVectorInt(vv[i]);
+        if (i + 1 < vv.size()) cout << ",";
+    }
+    cout << "]";
+}
+
+static void printTree(TreeNode* root) {
+    if (!root) {
+        cout << "[]";
+        return;
+    }
+    vector<string> list;
+    queue<TreeNode*> q;
+    q.push(root);
+    while (!q.empty()) {
+        TreeNode* node = q.front();
+        q.pop();
+        if (node) {
+            list.push_back(to_string(node->val));
+            q.push(node->left);
+            q.push(node->right);
+        } else {
+            list.push_back("null");
+        }
+    }
+    while (!list.empty() && list.back() == "null") {
+        list.pop_back();
+    }
+    cout << "[";
+    for (size_t i = 0; i < list.size(); i++) {
+        cout << list[i] << (i + 1 == list.size() ? "" : ",");
     }
     cout << "]";
 }
@@ -97,6 +186,43 @@ ${this.userCode}
 `;
     }
 
+    if (driverType === 'TREE') {
+      return `
+${includes}
+
+${this.userCode}
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    string fullInput, line;
+    while (getline(cin, line)) {
+        fullInput += line + " ";
+    }
+    
+    TreeNode* root = buildTree(fullInput);
+    ${className} solver;
+    auto res = solver.${functionName}(root);
+    
+    // Auto print based on return type traits
+    struct Printer {
+        static void print(const vector<vector<int>>& v) { printVectorVectorInt(v); }
+        static void print(const vector<int>& v) { printVectorInt(v); }
+        static void print(TreeNode* node) { printTree(node); }
+        static void print(int val) { cout << val; }
+        static void print(long long val) { cout << val; }
+        static void print(bool val) { cout << (val ? "true" : "false"); }
+        static void print(const string& val) { cout << val; }
+    };
+    
+    Printer::print(res);
+    cout << endl;
+    return 0;
+}
+`;
+    }
+
     if (driverType === 'LINKED_LIST') {
       return `
 ${includes}
@@ -104,6 +230,9 @@ ${includes}
 ${this.userCode}
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     string line1;
     if (getline(cin, line1)) {
         vector<int> nums1 = parseVectorInt(line1);
@@ -126,9 +255,56 @@ ${includes}
 ${this.userCode}
 
 int main() {
-    // Design class driver stub for C++ execution
-    ${className}* obj = nullptr;
-    cout << "[null]" << endl;
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    string line;
+    vector<string> lines;
+    while (getline(cin, line)) {
+        if (!line.empty()) lines.push_back(line);
+    }
+
+    if (lines.empty()) {
+        cout << "[]" << endl;
+        return 0;
+    }
+
+    if (lines[0].find("[") != string::npos) {
+        // LeetCode JSON format fallback
+        cout << "[]" << endl;
+        return 0;
+    }
+
+    // Stream format
+    int cap = stoi(lines[0]);
+    ${className}* obj = new ${className}(cap);
+    int opCount = lines.size() > 1 ? stoi(lines[1]) : 0;
+
+    cout << "[";
+    bool first = true;
+    for (size_t i = 2; i < lines.size() && (int)i < 2 + opCount; i++) {
+        stringstream ss(lines[i]);
+        string cmd;
+        int argCount = 0;
+        ss >> cmd >> argCount;
+        if (!first) cout << ",";
+        first = false;
+
+        if (cmd == "put") {
+            int k, v;
+            ss >> k >> v;
+            obj->put(k, v);
+            cout << "null";
+        } else if (cmd == "get") {
+            int k;
+            ss >> k;
+            int val = obj->get(k);
+            cout << val;
+        } else {
+            cout << "null";
+        }
+    }
+    cout << "]" << endl;
     return 0;
 }
 `;
@@ -142,6 +318,9 @@ ${includes}
 ${this.userCode}
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     string line1, line2;
     if (getline(cin, line1)) {
         vector<int> nums = parseVectorInt(line1);
@@ -153,11 +332,15 @@ int main() {
         ${className} solver;
         ${isTwoArgs ? `auto res = solver.${functionName}(nums, target);` : `auto res = solver.${functionName}(nums);`}
         
-        // Output handling
-        #if __cplusplus >= 201103L
-        // Print vector or int
-        #endif
-        printVectorInt(res);
+        struct Printer {
+            static void print(const vector<vector<int>>& v) { printVectorVectorInt(v); }
+            static void print(const vector<int>& v) { printVectorInt(v); }
+            static void print(int val) { cout << val; }
+            static void print(long long val) { cout << val; }
+            static void print(bool val) { cout << (val ? "true" : "false"); }
+            static void print(const string& val) { cout << val; }
+        };
+        Printer::print(res);
         cout << endl;
     }
     return 0;
@@ -165,3 +348,4 @@ int main() {
 `;
   }
 }
+

@@ -1,0 +1,22 @@
+{
+  "name": "int-prep-web-root",
+  "private": true,
+  "workspaces": [
+    "helper",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=helper",
+    "build": "npm run prisma:generate --workspace=backend && npm run build --workspace=helper",
+    "start": "npm run start --workspace=helper",
+    "lint": "npm run lint --workspace=helper",
+    "postinstall": "npm run prisma:generate --workspace=backend",
+    "migrate-content": "npm run migrate-content --workspace=backend",
+    "validate-content": "npm run validate-content --workspace=backend",
+    "validate-dsa-v1": "npm run validate-dsa-v1 --workspace=backend",
+    "validate-aptitude": "npm run validate-aptitude --workspace=backend",
+    "health-report": "npm run health-report --workspace=backend",
+    "create-problem": "npm run create-problem --workspace=backend",
+    "bulk-update": "npm run bulk-update --workspace=backend"
+  }
+}

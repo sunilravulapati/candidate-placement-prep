@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Hashing Module",
   "learningPaths": [
-    "Core DSA Track -> Hashing Module"
+    "Core DSA Track -> Hashing Module",
+    "OA Essentials"
   ],
   "description": "Find two numbers that add up to a specific target.",
   "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers\nLine 3: Target integer",

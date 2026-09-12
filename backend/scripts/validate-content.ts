@@ -172,13 +172,17 @@ export function validateRepository(): ValidationReport {
           pWarnings.push('Missing constraints');
         }
 
-        // Check relationship references
+        // Check relationship references (validate slug tokens, ignore editorial notes)
         const related = json.relationships?.related || [];
         for (const rel of related) {
-          const relSlug = typeof rel === 'string' ? rel.toLowerCase().replace(/[^a-z0-9]+/g, '-') : '';
-          if (relSlug && relSlug.length > 3 && !allSlugs.has(relSlug) && !allSlugs.has(rel.toLowerCase())) {
-            // Broken reference
-            report.brokenRelationshipsCount++;
+          if (typeof rel === 'string') {
+            const trimmed = rel.trim();
+            if (!trimmed.includes(' ') && /^[a-z0-9-]+$/i.test(trimmed)) {
+              const relSlug = trimmed.toLowerCase();
+              if (!allSlugs.has(relSlug)) {
+                report.brokenRelationshipsCount++;
+              }
+            }
           }
         }
       } catch (err) {
@@ -368,7 +372,7 @@ export function printValidationReport(report: ValidationReport) {
   console.log(`✓ ${report.duplicateCount} remaining\n`);
 
   console.log('Broken relationships:');
-  console.log(`✓ ${report.brokenRelationshipsCount}\n`);
+  console.log(`${report.brokenRelationshipsCount === 0 ? '✓ 0' : `⚠️ ${report.brokenRelationshipsCount}`}\n`);
 
   console.log('Compatibility Warnings:');
   console.log(`${report.compatibilityErrorsCount === 0 ? '✓ 0' : `⚠️ ${report.compatibilityErrorsCount}`}\n`);

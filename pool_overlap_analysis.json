@@ -1,0 +1,743 @@
+[
+  {
+    "cat": "Arrays",
+    "title": "2D Array - DS",
+    "slug": "2d-array-ds",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Arrays",
+    "title": "Arrays: Left Rotation",
+    "slug": "arrays-left-rotation",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Arrays",
+    "title": "Subarray Division 1",
+    "slug": "subarray-division-1",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Arrays",
+    "title": "Sparse Arrays",
+    "slug": "sparse-arrays",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Arrays",
+    "title": "Divisible Sum Pairs",
+    "slug": "divisible-sum-pairs",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Arrays",
+    "title": "New Year Chaos",
+    "slug": "new-year-chaos",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Arrays",
+    "title": "Minimum Swaps 2",
+    "slug": "minimum-swaps-2",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Arrays",
+    "title": "Sherlock and Array",
+    "slug": "sherlock-and-array",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Arrays",
+    "title": "Dynamic Array",
+    "slug": "dynamic-array",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Arrays",
+    "title": "Array Manipulation",
+    "slug": "array-manipulation",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Arrays",
+    "title": "Max Min",
+    "slug": "max-min",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Arrays",
+    "title": "The Maximum Subarray",
+    "slug": "the-maximum-subarray",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Strings",
+    "title": "Time Conversion",
+    "slug": "time-conversion",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Strings",
+    "title": "Pangrams",
+    "slug": "pangrams",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Strings",
+    "title": "Caesar Cipher",
+    "slug": "caesar-cipher",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Strings",
+    "title": "Making Anagrams",
+    "slug": "making-anagrams",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Strings",
+    "title": "Alternating Characters",
+    "slug": "alternating-characters",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Strings",
+    "title": "Sherlock and the Valid String",
+    "slug": "sherlock-and-the-valid-string",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Strings",
+    "title": "Special String Again",
+    "slug": "special-string-again",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Strings",
+    "title": "Common Child",
+    "slug": "common-child",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Strings",
+    "title": "Two Characters",
+    "slug": "two-characters",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Strings",
+    "title": "HackerRank in a String!",
+    "slug": "hackerrank-in-a-string",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Strings",
+    "title": "Strong Password",
+    "slug": "strong-password",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Strings",
+    "title": "Separate the Numbers",
+    "slug": "separate-the-numbers",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Math",
+    "title": "Find Digits",
+    "slug": "find-digits",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Math",
+    "title": "Sherlock and Squares",
+    "slug": "sherlock-and-squares",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Math",
+    "title": "Recursive Digit Sum",
+    "slug": "recursive-digit-sum",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Math",
+    "title": "Counter Game",
+    "slug": "counter-game",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Math",
+    "title": "Drawing Book",
+    "slug": "drawing-book",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Math",
+    "title": "Between Two Sets",
+    "slug": "between-two-sets",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Math",
+    "title": "Minimum Height Triangle",
+    "slug": "minimum-height-triangle",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Math",
+    "title": "Handshakes",
+    "slug": "handshakes",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Bit Manipulation",
+    "title": "Lonely Integer",
+    "slug": "lonely-integer",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Bit Manipulation",
+    "title": "Flipping Bits",
+    "slug": "flipping-bits",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Bit Manipulation",
+    "title": "XOR Strings 2",
+    "slug": "xor-strings-2",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Bit Manipulation",
+    "title": "Maximizing XOR",
+    "slug": "maximizing-xor",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Bit Manipulation",
+    "title": "Sum vs XOR",
+    "slug": "sum-vs-xor",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Bit Manipulation",
+    "title": "The Great XOR",
+    "slug": "the-great-xor",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Bit Manipulation",
+    "title": "Sansa and XOR",
+    "slug": "sansa-and-xor",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Bit Manipulation",
+    "title": "AND Product",
+    "slug": "and-product",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Searching",
+    "title": "Ice Cream Parlor",
+    "slug": "ice-cream-parlor",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Searching",
+    "title": "Climbing the Leaderboard",
+    "slug": "climbing-the-leaderboard",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Searching",
+    "title": "Missing Numbers",
+    "slug": "missing-numbers",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Searching",
+    "title": "Pairs",
+    "slug": "pairs",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Searching",
+    "title": "Hackerland Radio Transmitters",
+    "slug": "hackerland-radio-transmitters",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Searching",
+    "title": "Minimum Time Required",
+    "slug": "minimum-time-required",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Searching",
+    "title": "Search in Rotated Sorted Array",
+    "slug": "search-in-rotated-sorted-array",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "search-in-rotated-sorted-array",
+    "existingTitle": "Search in Rotated Sorted Array",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Searching",
+    "title": "Koko Eating Bananas",
+    "slug": "koko-eating-bananas",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "koko-eating-bananas",
+    "existingTitle": "Koko Eating Bananas",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Sorting",
+    "title": "Counting Sort 1",
+    "slug": "counting-sort-1",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Sorting",
+    "title": "Counting Sort 2",
+    "slug": "counting-sort-2",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Sorting",
+    "title": "Permuting Two Arrays",
+    "slug": "permuting-two-arrays",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Sorting",
+    "title": "Grid Challenge",
+    "slug": "grid-challenge",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Sorting",
+    "title": "Lily's Homework",
+    "slug": "lilys-homework",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Sorting",
+    "title": "Mark and Toys",
+    "slug": "mark-and-toys",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Sorting",
+    "title": "Fraudulent Activity Notifications",
+    "slug": "fraudulent-activity-notifications",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Sorting",
+    "title": "Counting Inversions",
+    "slug": "counting-inversions",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Hashing",
+    "title": "Hash Tables: Ransom Note",
+    "slug": "ransom-note",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Hashing",
+    "title": "Two Strings",
+    "slug": "two-strings",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Hashing",
+    "title": "Sherlock and Anagrams",
+    "slug": "sherlock-and-anagrams",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Hashing",
+    "title": "Count Triplets",
+    "slug": "count-triplets",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Hashing",
+    "title": "Frequency Queries",
+    "slug": "frequency-queries",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Hashing",
+    "title": "Two Sum",
+    "slug": "two-sum",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "two-sum",
+    "existingTitle": "Two Sum",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Hashing",
+    "title": "Group Anagrams",
+    "slug": "group-anagrams",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "group-anagrams",
+    "existingTitle": "Group Anagrams",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Two Pointers",
+    "title": "Container With Most Water",
+    "slug": "container-with-most-water",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "container-with-most-water",
+    "existingTitle": "Container With Most Water",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Two Pointers",
+    "title": "3Sum",
+    "slug": "3sum",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "3sum",
+    "existingTitle": "3Sum",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Two Pointers",
+    "title": "Remove Duplicates from Sorted Array",
+    "slug": "remove-duplicates-from-sorted-array",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Two Pointers",
+    "title": "Move Zeroes",
+    "slug": "move-zeroes",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Two Pointers",
+    "title": "Merge Sorted Array",
+    "slug": "merge-sorted-array",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "merge-sorted-array",
+    "existingTitle": "Merge Sorted Array",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Two Pointers",
+    "title": "Valid Palindrome",
+    "slug": "valid-palindrome",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "valid-palindrome",
+    "existingTitle": "Valid Palindrome",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Two Pointers",
+    "title": "Boats to Save People",
+    "slug": "boats-to-save-people",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Two Pointers",
+    "title": "Sort Colors",
+    "slug": "sort-colors",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "sort-colors",
+    "existingTitle": "Sort Colors",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Sliding Window",
+    "title": "Maximum Sum Subarray of Size K",
+    "slug": "maximum-sum-subarray-of-size-k",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Sliding Window",
+    "title": "Longest Substring Without Repeating Characters",
+    "slug": "longest-substring-without-repeating-characters",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "longest-substring-without-repeating-characters",
+    "existingTitle": "Longest Substring Without Repeating Characters",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Sliding Window",
+    "title": "Minimum Size Subarray Sum",
+    "slug": "minimum-size-subarray-sum",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "minimum-size-subarray-sum",
+    "existingTitle": "Minimum Size Subarray Sum",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Sliding Window",
+    "title": "Permutation in String",
+    "slug": "permutation-in-string",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "permutation-in-string",
+    "existingTitle": "Permutation in String",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Sliding Window",
+    "title": "Find All Anagrams in a String",
+    "slug": "find-all-anagrams-in-a-string",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Sliding Window",
+    "title": "Longest Repeating Character Replacement",
+    "slug": "longest-repeating-character-replacement",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "longest-repeating-character-replacement",
+    "existingTitle": "Longest Repeating Character Replacement",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Sliding Window",
+    "title": "Minimum Window Substring",
+    "slug": "minimum-window-substring",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "minimum-window-substring",
+    "existingTitle": "Minimum Window Substring",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Stack / Queue",
+    "title": "Balanced Brackets",
+    "slug": "balanced-brackets",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Stack / Queue",
+    "title": "Queue using Two Stacks",
+    "slug": "queue-using-two-stacks",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Stack / Queue",
+    "title": "Simple Text Editor",
+    "slug": "simple-text-editor",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Stack / Queue",
+    "title": "Waiter",
+    "slug": "waiter",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Stack / Queue",
+    "title": "Equal Stacks",
+    "slug": "equal-stacks",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Stack / Queue",
+    "title": "Largest Rectangle in Histogram",
+    "slug": "largest-rectangle-in-histogram",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "largest-rectangle-in-histogram",
+    "existingTitle": "Largest Rectangle in Histogram",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Stack / Queue",
+    "title": "Min Stack",
+    "slug": "min-stack",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "min-stack",
+    "existingTitle": "Min Stack",
+    "v1": "V2_PENDING"
+  },
+  {
+    "cat": "Stack / Queue",
+    "title": "Next Greater Element I",
+    "slug": "next-greater-element-i",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "next-greater-element-i",
+    "existingTitle": "Next Greater Element I",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Stack / Queue",
+    "title": "Daily Temperatures",
+    "slug": "daily-temperatures",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "daily-temperatures",
+    "existingTitle": "Daily Temperatures",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Stack / Queue",
+    "title": "Sliding Window Maximum",
+    "slug": "sliding-window-maximum",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "sliding-window-maximum",
+    "existingTitle": "Sliding Window Maximum",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Recursion",
+    "title": "Fibonacci Number",
+    "slug": "fibonacci-number",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "fibonacci-number",
+    "existingTitle": "Fibonacci Number",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Recursion",
+    "title": "Generate Parentheses",
+    "slug": "generate-parentheses",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "generate-parentheses",
+    "existingTitle": "Generate Parentheses",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Recursion",
+    "title": "Subsets",
+    "slug": "subsets",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "subsets",
+    "existingTitle": "Subsets",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Recursion",
+    "title": "Permutations",
+    "slug": "permutations",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "permutations",
+    "existingTitle": "Permutations",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Linked List",
+    "title": "Reverse a Linked List",
+    "slug": "reverse-linked-list",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "reverse-linked-list",
+    "existingTitle": "Reverse Linked List I",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Linked List",
+    "title": "Reverse a Doubly Linked List",
+    "slug": "reverse-a-doubly-linked-list",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Linked List",
+    "title": "Merge Two Sorted Lists",
+    "slug": "merge-two-sorted-lists",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "merge-two-sorted-lists",
+    "existingTitle": "Merge Two Sorted Lists",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Linked List",
+    "title": "Detect Cycle",
+    "slug": "linked-list-cycle",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "linked-list-cycle",
+    "existingTitle": "Linked List Cycle I",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Linked List",
+    "title": "Middle of the Linked List",
+    "slug": "middle-of-the-linked-list",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "middle-of-the-linked-list",
+    "existingTitle": "Middle of the Linked List",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Linked List",
+    "title": "Intersection of Two Linked Lists",
+    "slug": "intersection-of-two-linked-lists",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "intersection-of-two-linked-lists",
+    "existingTitle": "Intersection of Two Linked Lists",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Binary Search",
+    "title": "Binary Search",
+    "slug": "binary-search",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "binary-search",
+    "existingTitle": "Binary Search",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Binary Search",
+    "title": "Search Insert Position",
+    "slug": "search-insert-position",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Binary Search",
+    "title": "First and Last Position",
+    "slug": "first-and-last-position",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Binary Search",
+    "title": "Find Peak Element",
+    "slug": "find-peak-element",
+    "status": "NEW_CANDIDATE"
+  },
+  {
+    "cat": "Binary Search",
+    "title": "Capacity to Ship Packages Within D Days",
+    "slug": "capacity-to-ship-packages-within-d-days",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "capacity-to-ship-packages-within-d-days",
+    "existingTitle": "Capacity To Ship Packages Within D Days",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Greedy",
+    "title": "Jump Game",
+    "slug": "jump-game",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "jump-game",
+    "existingTitle": "Jump Game I",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Greedy",
+    "title": "Jump Game II",
+    "slug": "jump-game-ii",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "jump-game-ii",
+    "existingTitle": "Jump Game II",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Greedy",
+    "title": "Gas Station",
+    "slug": "gas-station",
+    "status": "EXISTS_IN_REPO",
+    "existingSlug": "gas-station",
+    "existingTitle": "Gas Station",
+    "v1": "V1_READY"
+  },
+  {
+    "cat": "Greedy",
+    "title": "Partition Labels",
+    "slug": "partition-labels",
+    "status": "NEW_CANDIDATE"
+  }
+]

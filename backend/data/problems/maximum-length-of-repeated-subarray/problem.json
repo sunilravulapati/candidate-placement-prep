@@ -1,5 +1,5 @@
 {
-  "id": "718",
+  "id": "maximum-length-of-repeated-subarray",
   "schemaVersion": "2.0",
   "contentVersion": "1.1",
   "importVersion": "stdin-converted-master-v1",
@@ -12,7 +12,7 @@
   "isV2Pending": false,
   "stdinFormatNotes": "Visible Stdin Input 1: A: length followed by one space-separated value line; B: length followed by one space-separated value line\nVisible Stdin Input 2: A: length followed by one space-separated value line; B: length followed by one space-separated value line\nVisible Stdin Input 3: A: length followed by one space-separated value line; B: length followed by one space-separated value line\nHidden Stdin Input 1: A: length followed by one space-separated value line; B: length followed by one space-separated value line\nHidden Stdin Input 2: A: length followed by one space-separated value line; B: length followed by one space-separated value line\nHidden Stdin Input 3: A: length followed by one space-separated value line; B: length followed by one space-separated value line\nHidden Stdin Input 4: A: length followed by one space-separated value line; B: length followed by one space-separated value line\nHidden Stdin Input 5: A: length followed by one space-separated value line; B: length followed by one space-separated value line",
   "questionNo": 172,
-  "slug": "718",
+  "slug": "maximum-length-of-repeated-subarray",
   "title": "Maximum Length of Repeated Subarray",
   "difficulty": "MEDIUM",
   "importance": "4/5",

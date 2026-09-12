@@ -16,6 +16,7 @@ export class RepositoryIndex {
   private static topicMap: Map<string, DSAProblemMetadata[]> = new Map();
   private static companyMap: Map<string, DSAProblemMetadata[]> = new Map();
   private static learningPathMap: Map<string, DSAProblemMetadata[]> = new Map();
+  private static uniqueLearningPaths: Set<string> = new Set();
   private static difficultyMap: Map<string, DSAProblemMetadata[]> = new Map();
   private static tagMap: Map<string, DSAProblemMetadata[]> = new Map();
 
@@ -28,6 +29,7 @@ export class RepositoryIndex {
     this.topicMap.clear();
     this.companyMap.clear();
     this.learningPathMap.clear();
+    this.uniqueLearningPaths.clear();
     this.difficultyMap.clear();
     this.tagMap.clear();
 
@@ -48,9 +50,16 @@ export class RepositoryIndex {
       // 3. Learning Path Index
       const paths = prob.learningPaths || ['Placement Essentials'];
       for (const pathName of paths) {
+        this.uniqueLearningPaths.add(pathName.trim());
         const pKey = pathName.toLowerCase().trim();
-        if (!this.learningPathMap.has(pKey)) this.learningPathMap.set(pKey, []);
-        this.learningPathMap.get(pKey)!.push(prob);
+        const dashedKey = pKey.replace(/\s+/g, '-');
+        const spacedKey = pKey.replace(/-/g, ' ');
+        for (const k of [pKey, dashedKey, spacedKey]) {
+          if (!this.learningPathMap.has(k)) this.learningPathMap.set(k, []);
+          if (!this.learningPathMap.get(k)!.some((p) => p.slug === prob.slug)) {
+            this.learningPathMap.get(k)!.push(prob);
+          }
+        }
       }
 
       // 4. Difficulty Index
@@ -97,7 +106,12 @@ export class RepositoryIndex {
   public static getProblemsByLearningPath(pathSlug: string): DSAProblemMetadata[] {
     this.initialize();
     const key = pathSlug.toLowerCase().trim();
-    return this.learningPathMap.get(key) || [];
+    return (
+      this.learningPathMap.get(key) ||
+      this.learningPathMap.get(key.replace(/-/g, ' ')) ||
+      this.learningPathMap.get(key.replace(/\s+/g, '-')) ||
+      []
+    );
   }
 
   public static getProblemsByDifficulty(difficulty: string): DSAProblemMetadata[] {
@@ -117,7 +131,7 @@ export class RepositoryIndex {
       totalProblems: (this.cachedProblems || []).length,
       topicsCount: this.topicMap.size,
       companiesCount: this.companyMap.size,
-      learningPathsCount: this.learningPathMap.size,
+      learningPathsCount: this.uniqueLearningPaths.size,
       tagsCount: this.tagMap.size,
     };
   }

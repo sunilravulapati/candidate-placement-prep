@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Stack Module",
   "learningPaths": [
-    "Core DSA Track -> Stack Module"
+    "Core DSA Track -> Stack Module",
+    "OA Essentials"
   ],
   "description": "Find the maximum rectangular area in a histogram using a monotonic stack.",
   "inputFormat": "Standard competitive programming input stream for Largest Rectangle in Histogram.",

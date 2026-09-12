@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Greedy Module",
   "learningPaths": [
-    "Core DSA Track -> Greedy Module"
+    "Core DSA Track -> Greedy Module",
+    "OA Essentials"
   ],
   "description": "Determine the starting gas station index to complete a circular route.",
   "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers",

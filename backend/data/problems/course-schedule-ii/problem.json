@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Graphs Module",
   "learningPaths": [
-    "Core DSA Track -> Graphs Module"
+    "Core DSA Track -> Graphs Module",
+    "OA Essentials"
   ],
   "description": "Return the exact ordering of courses you should take to finish them all.",
   "inputFormat": "Standard competitive programming input stream for Course Schedule II.",

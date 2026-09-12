@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Bit Manipulation Module",
   "learningPaths": [
-    "Core DSA Track -> Bit Manipulation Module"
+    "Core DSA Track -> Bit Manipulation Module",
+    "OA Essentials"
   ],
   "description": "Find the element that appears once while others appear twice.",
   "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers",

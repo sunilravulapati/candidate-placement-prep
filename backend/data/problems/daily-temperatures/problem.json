@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Stack Module",
   "learningPaths": [
-    "Core DSA Track -> Stack Module"
+    "Core DSA Track -> Stack Module",
+    "OA Essentials"
   ],
   "description": "Find how many days you must wait until a warmer temperature occurs.",
   "inputFormat": "Standard competitive programming input stream for Daily Temperatures.",

@@ -1,5 +1,5 @@
 {
-  "id": "16",
+  "id": "3sum-closest",
   "schemaVersion": "2.0",
   "contentVersion": "1.1",
   "importVersion": "stdin-converted-master-v1",
@@ -12,7 +12,7 @@
   "isV2Pending": false,
   "stdinFormatNotes": "Visible Stdin Input 1: nums: length followed by one space-separated value line; target: scalar line\nVisible Stdin Input 2: nums: length followed by one space-separated value line; target: scalar line\nVisible Stdin Input 3: nums: length followed by one space-separated value line; target: scalar line\nHidden Stdin Input 1: nums: length followed by one space-separated value line; target: scalar line\nHidden Stdin Input 2: nums: length followed by one space-separated value line; target: scalar line\nHidden Stdin Input 3: nums: length followed by one space-separated value line; target: scalar line\nHidden Stdin Input 4: nums: length followed by one space-separated value line; target: scalar line\nHidden Stdin Input 5: nums: length followed by one space-separated value line; target: scalar line",
   "questionNo": 165,
-  "slug": "16",
+  "slug": "3sum-closest",
   "title": "3Sum Closest",
   "difficulty": "MEDIUM",
   "importance": "4/5",

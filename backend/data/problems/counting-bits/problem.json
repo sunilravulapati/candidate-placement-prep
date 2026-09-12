@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Bit Manipulation Module",
   "learningPaths": [
-    "Core DSA Track -> Bit Manipulation Module"
+    "Core DSA Track -> Bit Manipulation Module",
+    "OA Essentials"
   ],
   "description": "Return the count of set bits for every number from 0 to n.",
   "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers",

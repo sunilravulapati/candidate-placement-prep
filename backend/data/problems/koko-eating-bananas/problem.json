@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Binary Search Module",
   "learningPaths": [
-    "Core DSA Track -> Binary Search Module"
+    "Core DSA Track -> Binary Search Module",
+    "OA Essentials"
   ],
   "description": "Find the minimum integer speed k to eat all bananas within h hours.",
   "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers",

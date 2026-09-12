@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Binary Search Module",
   "learningPaths": [
-    "Core DSA Track -> Binary Search Module"
+    "Core DSA Track -> Binary Search Module",
+    "OA Essentials"
   ],
   "description": "Find a target element within a rotated sorted array.",
   "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers\nLine 3: Target integer",

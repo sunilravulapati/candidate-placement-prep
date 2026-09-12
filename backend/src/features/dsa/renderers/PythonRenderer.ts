@@ -61,6 +61,48 @@ def arrayToTreeNode(arr):
         i += 1
     return root
 
+def build_tree(raw_str):
+    if not raw_str:
+        return None
+    s = raw_str.strip()
+    if s.startswith('[') and s.endswith(']'):
+        s = s[1:-1].strip()
+    if not s or s == '0':
+        return None
+    tokens = re.split(r'[,\\s]+', s)
+    tokens = [t for t in tokens if t]
+    if not tokens:
+        return None
+    start_idx = 0
+    try:
+        possible_count = int(tokens[0])
+        if possible_count == len(tokens) - 1:
+            start_idx = 1
+    except Exception:
+        pass
+    if start_idx >= len(tokens):
+        return None
+    if tokens[start_idx] in ('null', 'None', ''):
+        return None
+    root = TreeNode(int(tokens[start_idx]))
+    queue = [root]
+    i = start_idx + 1
+    while queue and i < len(tokens):
+        curr = queue.pop(0)
+        if i < len(tokens):
+            val = tokens[i]
+            i += 1
+            if val not in ('null', 'None'):
+                curr.left = TreeNode(int(val))
+                queue.append(curr.left)
+        if i < len(tokens):
+            val = tokens[i]
+            i += 1
+            if val not in ('null', 'None'):
+                curr.right = TreeNode(int(val))
+                queue.append(curr.right)
+    return root
+
 def treeNodeToArray(root):
     if not root:
         return []
@@ -115,25 +157,66 @@ ${this.userCode}
 if __name__ == '__main__':
     raw_input = sys.stdin.read().strip()
     if raw_input:
-        lines = [l for l in raw_input.split('\\n') if l.strip()]
-        if len(lines) >= 2:
-            commands = json.loads(lines[0])
-            args_list = json.loads(lines[1])
-            obj = None
-            results = []
-            for i, cmd in enumerate(commands):
-                args = args_list[i] if i < len(args_list) else []
-                if cmd == "${className}":
-                    cls = globals().get("${className}") or getattr(sys.modules[__name__], "${className}", None)
-                    obj = cls(*args) if cls else None
-                    results.append(None)
-                elif obj and hasattr(obj, cmd):
-                    method = getattr(obj, cmd)
-                    ret = method(*args)
-                    results.append(ret)
-                else:
-                    results.append(None)
-            print(json.dumps(results))
+        lines = [l.strip() for l in raw_input.split('\\n') if l.strip()]
+        if lines:
+            line1 = lines[0]
+            if line1.startswith('['):
+                commands = json.loads(lines[0])
+                args_list = json.loads(lines[1]) if len(lines) > 1 else []
+                obj = None
+                results = []
+                for i, cmd in enumerate(commands):
+                    args = args_list[i] if i < len(args_list) else []
+                    if cmd == "${className}":
+                        cls = globals().get("${className}") or getattr(sys.modules[__name__], "${className}", None)
+                        obj = cls(*args) if cls else None
+                        results.append(None)
+                    elif obj and hasattr(obj, cmd):
+                        method = getattr(obj, cmd)
+                        ret = method(*args)
+                        results.append(ret)
+                    else:
+                        results.append(None)
+                print(json.dumps(results))
+            else:
+                import inspect
+                cls = globals().get("${className}") or getattr(sys.modules[__name__], "${className}", None)
+                obj = None
+                line_idx = 0
+                if cls:
+                    try:
+                        sig = inspect.signature(cls.__init__)
+                        params = [p for p in sig.parameters.values() if p.name != 'self']
+                        if len(params) == 1:
+                            obj = cls(int(lines[0]))
+                            line_idx = 1
+                        else:
+                            obj = cls()
+                            line_idx = 0
+                    except Exception:
+                        obj = cls()
+                
+                op_count = int(lines[line_idx]) if line_idx < len(lines) and lines[line_idx].lstrip('-').isdigit() else 0
+                line_idx += 1
+                results = []
+                for i in range(line_idx, min(len(lines), line_idx + op_count)):
+                    parts = lines[i].split()
+                    if not parts:
+                        continue
+                    cmd = parts[0]
+                    args = []
+                    for token in parts[2:]:
+                        try:
+                            args.append(int(token))
+                        except ValueError:
+                            args.append(token)
+                    if obj and hasattr(obj, cmd):
+                        method = getattr(obj, cmd)
+                        ret = method(*args)
+                        results.append(ret)
+                    else:
+                        results.append(None)
+                print(json.dumps(results))
 `;
     }
 
@@ -169,17 +252,21 @@ ${this.userCode}
 if __name__ == '__main__':
     raw_input = sys.stdin.read().strip()
     if raw_input:
-        lines = [l for l in raw_input.split('\\n') if l.strip()]
-        raw_args = [parse_value(l) for l in lines]
-        args = [arrayToTreeNode(a) if isinstance(a, list) else a for a in raw_args]
+        root = build_tree(raw_input)
         solver = ${className}()
         func = getattr(solver, '${functionName}', None)
+        if not func:
+            methods = [m for m in dir(solver) if not m.startswith('_') and callable(getattr(solver, m))]
+            if methods:
+                func = getattr(solver, methods[0])
         if func:
-            res = func(*args)
+            res = func(root)
             if isinstance(res, TreeNode):
                 print(json.dumps(treeNodeToArray(res)))
             else:
                 print(json.dumps(res))
+    else:
+        print("[]")
 `;
     }
 

@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Stack Module",
   "learningPaths": [
-    "Core DSA Track -> Stack Module"
+    "Core DSA Track -> Stack Module",
+    "OA Essentials"
   ],
   "description": "Evaluate the value of an arithmetic expression in postfix notation.",
   "inputFormat": "Standard competitive programming input stream for Evaluate Reverse Polish Notation.",

@@ -1,5 +1,5 @@
 {
-  "id": "773",
+  "id": "sliding-puzzle",
   "schemaVersion": "2.0",
   "contentVersion": "1.1",
   "importVersion": "stdin-converted-master-v1",
@@ -12,7 +12,7 @@
   "isV2Pending": false,
   "stdinFormatNotes": "Visible Stdin Input 1: board: row-count column-count followed by matrix rows\nVisible Stdin Input 2: board: row-count column-count followed by matrix rows\nVisible Stdin Input 3: board: row-count column-count followed by matrix rows\nHidden Stdin Input 1: board: row-count column-count followed by matrix rows\nHidden Stdin Input 2: board: row-count column-count followed by matrix rows\nHidden Stdin Input 3: board: row-count column-count followed by matrix rows\nHidden Stdin Input 4: board: row-count column-count followed by matrix rows\nHidden Stdin Input 5: board: row-count column-count followed by matrix rows",
   "questionNo": 171,
-  "slug": "773",
+  "slug": "sliding-puzzle",
   "title": "Sliding Puzzle",
   "difficulty": "HARD",
   "importance": "5/5",

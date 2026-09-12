@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Heap Module",
   "learningPaths": [
-    "Core DSA Track -> Heap Module"
+    "Core DSA Track -> Heap Module",
+    "OA Essentials"
   ],
   "description": "Design a structure that supports adding numbers and finding the median.",
   "inputFormat": "Standard competitive programming input stream for Find Median from Data Stream.",

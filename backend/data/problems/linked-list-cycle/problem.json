@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Linked List Module",
   "learningPaths": [
-    "Core DSA Track -> Linked List Module"
+    "Core DSA Track -> Linked List Module",
+    "OA Essentials"
   ],
   "description": "Detect if a linked list contains a loop cycle.",
   "inputFormat": "Standard competitive programming input stream for Linked List Cycle I.",

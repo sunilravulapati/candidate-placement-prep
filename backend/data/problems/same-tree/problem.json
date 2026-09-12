@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Tree Module",
   "learningPaths": [
-    "Core DSA Track -> Tree Module"
+    "Core DSA Track -> Tree Module",
+    "OA Essentials"
   ],
   "description": "Check whether two binary trees are structurally identical.",
   "inputFormat": "Standard competitive programming input stream for Same Tree.",

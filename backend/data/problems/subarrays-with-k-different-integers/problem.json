@@ -1,5 +1,5 @@
 {
-  "id": "992",
+  "id": "subarrays-with-k-different-integers",
   "schemaVersion": "2.0",
   "contentVersion": "1.1",
   "importVersion": "stdin-converted-master-v1",
@@ -12,7 +12,7 @@
   "isV2Pending": false,
   "stdinFormatNotes": "Visible Stdin Input 1: nums: length followed by one space-separated value line; k: scalar line\nVisible Stdin Input 2: nums: length followed by one space-separated value line; k: scalar line\nVisible Stdin Input 3: nums: length followed by one space-separated value line; k: scalar line\nHidden Stdin Input 1: nums: length followed by one space-separated value line; k: scalar line\nHidden Stdin Input 2: nums: length followed by one space-separated value line; k: scalar line\nHidden Stdin Input 3: nums: length followed by one space-separated value line; k: scalar line\nHidden Stdin Input 4: nums: length followed by one space-separated value line; k: scalar line\nHidden Stdin Input 5: nums: length followed by one space-separated value line; k: scalar line",
   "questionNo": 174,
-  "slug": "992",
+  "slug": "subarrays-with-k-different-integers",
   "title": "Subarrays with K Different Integers",
   "difficulty": "HARD",
   "importance": "5/5",

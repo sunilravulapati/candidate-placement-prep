@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> BST Module",
   "learningPaths": [
-    "Core DSA Track -> BST Module"
+    "Core DSA Track -> BST Module",
+    "OA Essentials"
   ],
   "description": "Check whether a binary tree is a structurally valid BST.",
   "inputFormat": "Standard competitive programming input stream for Validate Binary Search Tree.",

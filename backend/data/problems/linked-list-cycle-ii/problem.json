@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Linked List Module",
   "learningPaths": [
-    "Core DSA Track -> Linked List Module"
+    "Core DSA Track -> Linked List Module",
+    "OA Essentials"
   ],
   "description": "Find the exact node where the cycle begins in a linked list.",
   "inputFormat": "Standard competitive programming input stream for Linked List Cycle II.",

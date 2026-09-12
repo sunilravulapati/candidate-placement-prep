@@ -40,7 +40,8 @@
   ],
   "learningPath": "Core DSA Track -> Hashing Module",
   "learningPaths": [
-    "Core DSA Track -> Hashing Module"
+    "Core DSA Track -> Hashing Module",
+    "OA Essentials"
   ],
   "description": "Group strings that are anagrams of each other.",
   "inputFormat": "Two strings provided on separate lines or space-separated",

@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Recursion Module",
   "learningPaths": [
-    "Core DSA Track -> Recursion Module"
+    "Core DSA Track -> Recursion Module",
+    "OA Essentials"
   ],
   "description": "Return all possible permutations of an array of distinct integers.",
   "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers",

@@ -40,7 +40,8 @@
   ],
   "learningPath": "Core DSA Track -> Queue Module",
   "learningPaths": [
-    "Core DSA Track -> Queue Module"
+    "Core DSA Track -> Queue Module",
+    "OA Essentials"
   ],
   "description": "Design a FIFO queue using two LIFO stacks.",
   "inputFormat": "Standard competitive programming input stream for Implement Queue using Two Stacks.",

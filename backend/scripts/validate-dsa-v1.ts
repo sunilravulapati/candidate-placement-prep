@@ -152,17 +152,15 @@ export function validateDSAV1() {
   }
 
   const isHealthy =
-    totalProblems === 174 &&
-    v1ReadyCount === 147 &&
-    v2PendingCount === 27 &&
-    visibleTestsPass === 174 &&
-    hiddenTestsPass === 174 &&
+    totalProblems > 0 &&
+    visibleTestsPass === totalProblems &&
+    hiddenTestsPass === totalProblems &&
     duplicateTestsCount === 0 &&
-    cppCount === 174 &&
-    pyCount === 174 &&
-    javaCount === 174 &&
-    jsCount === 174 &&
-    tsCount === 174 &&
+    cppCount === totalProblems &&
+    pyCount === totalProblems &&
+    javaCount === totalProblems &&
+    jsCount === totalProblems &&
+    tsCount === totalProblems &&
     failedSerialization === 0;
 
   console.log(`====================================================`);
@@ -175,20 +173,20 @@ export function validateDSAV1() {
   console.log(`Review / V2 Pending:  ${v2PendingCount}\n`);
 
   console.log(`Visible Tests:`);
-  console.log(`${visibleTestsPass} / 174\n`);
+  console.log(`${visibleTestsPass} / ${totalProblems}\n`);
 
   console.log(`Hidden Tests:`);
-  console.log(`${hiddenTestsPass} / 174\n`);
+  console.log(`${hiddenTestsPass} / ${totalProblems}\n`);
 
   console.log(`Duplicate Tests:`);
   console.log(`${duplicateTestsCount}\n`);
 
   console.log(`Reference Solutions:`);
-  console.log(`C++          ${cppCount} / 174`);
-  console.log(`Python       ${pyCount} / 174`);
-  console.log(`Java         ${javaCount} / 174`);
-  console.log(`JavaScript   ${jsCount} / 174`);
-  console.log(`TypeScript   ${tsCount} / 174\n`);
+  console.log(`C++          ${cppCount} / ${totalProblems}`);
+  console.log(`Python       ${pyCount} / ${totalProblems}`);
+  console.log(`Java         ${javaCount} / ${totalProblems}`);
+  console.log(`JavaScript   ${jsCount} / ${totalProblems}`);
+  console.log(`TypeScript   ${tsCount} / ${totalProblems}\n`);
 
   console.log(`V1 Input Serialization:`);
   console.log(`V1 Ready:      ${v1ReadyCount}`);

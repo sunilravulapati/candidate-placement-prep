@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Recursion Module",
   "learningPaths": [
-    "Core DSA Track -> Recursion Module"
+    "Core DSA Track -> Recursion Module",
+    "OA Essentials"
   ],
   "description": "Generate all combinations of well-formed parentheses strings.",
   "inputFormat": "Single line containing the string input",

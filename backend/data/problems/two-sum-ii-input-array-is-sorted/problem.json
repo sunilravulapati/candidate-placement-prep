@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Two Pointers Module",
   "learningPaths": [
-    "Core DSA Track -> Two Pointers Module"
+    "Core DSA Track -> Two Pointers Module",
+    "OA Essentials"
   ],
   "description": "Two-pointer variant of Two Sum on a sorted array.",
   "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers\nLine 3: Target integer",

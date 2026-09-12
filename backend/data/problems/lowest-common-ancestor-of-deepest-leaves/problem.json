@@ -1,5 +1,5 @@
 {
-  "id": "1123",
+  "id": "lowest-common-ancestor-of-deepest-leaves",
   "schemaVersion": "2.0",
   "contentVersion": "1.1",
   "importVersion": "stdin-converted-master-v1",
@@ -12,7 +12,7 @@
   "isV2Pending": true,
   "stdinFormatNotes": "Visible Stdin Input 1: root: node-count followed by level-order tokens (null allowed)\nVisible Stdin Input 2: root: node-count followed by level-order tokens (null allowed)\nVisible Stdin Input 3: root: node-count followed by level-order tokens (null allowed)\nHidden Stdin Input 1: root: node-count followed by level-order tokens (null allowed)\nHidden Stdin Input 2: root: node-count followed by level-order tokens (null allowed); p: scalar line; q: scalar line\nHidden Stdin Input 3: root: node-count followed by level-order tokens (null allowed)\nHidden Stdin Input 4: root: node-count followed by level-order tokens (null allowed)\nHidden Stdin Input 5: root: node-count followed by level-order tokens (null allowed)",
   "questionNo": 170,
-  "slug": "1123",
+  "slug": "lowest-common-ancestor-of-deepest-leaves",
   "title": "Lowest Common Ancestor of Deepest Leaves",
   "difficulty": "MEDIUM",
   "importance": "4/5",

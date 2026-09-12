@@ -40,7 +40,8 @@
   ],
   "learningPath": "Core DSA Track -> Queue Module",
   "learningPaths": [
-    "Core DSA Track -> Queue Module"
+    "Core DSA Track -> Queue Module",
+    "OA Essentials"
   ],
   "description": "Compute the minimum time until all fresh oranges rot via BFS.",
   "inputFormat": "Standard competitive programming input stream for Rotten Oranges.",

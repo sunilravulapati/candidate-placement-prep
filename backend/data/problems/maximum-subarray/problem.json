@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Arrays Module",
   "learningPaths": [
-    "Core DSA Track -> Arrays Module"
+    "Core DSA Track -> Arrays Module",
+    "OA Essentials"
   ],
   "description": "Find the contiguous subarray with the largest sum.",
   "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers",

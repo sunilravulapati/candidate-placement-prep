@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> DP Module",
   "learningPaths": [
-    "Core DSA Track -> DP Module"
+    "Core DSA Track -> DP Module",
+    "OA Essentials"
   ],
   "description": "Find the length of the longest strictly increasing subsequence.",
   "inputFormat": "Two strings provided on separate lines or space-separated",

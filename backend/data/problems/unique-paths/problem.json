@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> DP Module",
   "learningPaths": [
-    "Core DSA Track -> DP Module"
+    "Core DSA Track -> DP Module",
+    "OA Essentials"
   ],
   "description": "Count unique paths from top-left to bottom-right of a grid.",
   "inputFormat": "Standard competitive programming input stream for Unique Paths.",

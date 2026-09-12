@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Sliding Window Module",
   "learningPaths": [
-    "Core DSA Track -> Sliding Window Module"
+    "Core DSA Track -> Sliding Window Module",
+    "OA Essentials"
   ],
   "description": "Find the minimal length subarray whose sum >= target.",
   "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers",

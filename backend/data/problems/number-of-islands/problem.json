@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Graphs Module",
   "learningPaths": [
-    "Core DSA Track -> Graphs Module"
+    "Core DSA Track -> Graphs Module",
+    "OA Essentials"
   ],
   "description": "Count distinct groups of connected land pieces in a 2D grid matrix.",
   "inputFormat": "Standard competitive programming input stream for Number of Islands.",

@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Linked List Module",
   "learningPaths": [
-    "Core DSA Track -> Linked List Module"
+    "Core DSA Track -> Linked List Module",
+    "OA Essentials"
   ],
   "description": "Merge two sorted linked lists into one sorted list.",
   "inputFormat": "Standard competitive programming input stream for Merge Two Sorted Lists.",

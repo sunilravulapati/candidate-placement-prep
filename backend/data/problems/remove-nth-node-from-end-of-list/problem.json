@@ -39,7 +39,8 @@
   ],
   "learningPath": "Core DSA Track -> Linked List Module",
   "learningPaths": [
-    "Core DSA Track -> Linked List Module"
+    "Core DSA Track -> Linked List Module",
+    "OA Essentials"
   ],
   "description": "Remove the n-th node from the end of the list in one pass.",
   "inputFormat": "Standard competitive programming input stream for Remove Nth Node From End of List.",

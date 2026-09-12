@@ -38,7 +38,8 @@
   ],
   "learningPath": "Core DSA Track -> Binary Search Module",
   "learningPaths": [
-    "Core DSA Track -> Binary Search Module"
+    "Core DSA Track -> Binary Search Module",
+    "OA Essentials"
   ],
   "description": "Search for a target element in a sorted array in O(log n).",
   "inputFormat": "Line 1: Integer n (number of elements)\nLine 2: n space-separated integers",
